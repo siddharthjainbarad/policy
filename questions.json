@@ -1,0 +1,91 @@
+{
+  "categories": [
+    {
+      "id": "gk_india",
+      "name": "General Knowledge India",
+      "description": "Test your knowledge about India",
+      "icon": "🇮🇳",
+      "color": "#FF9933",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "subcategories": [
+        {
+          "id": "gk_history",
+          "name": "Indian History",
+          "icon": "🏰",
+          "color": "#FFCC00",
+          "questions": [
+            {
+              "id": "gk_hist_001",
+              "question": "Who was the first President of India?",
+              "options": ["Dr. Rajendra Prasad", "Jawaharlal Nehru", "Sarvepalli Radhakrishnan", "Indira Gandhi"],
+              "correct_answer": 0,
+              "explanation": "Dr. Rajendra Prasad was the first President of India.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_basic",
+      "name": "Mathematics",
+      "description": "Arithmetic, Algebra basics",
+      "icon": "➗",
+      "color": "#4CAF50",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "subcategories": [
+        {
+          "id": "math_algebra",
+          "name": "Algebra",
+          "icon": "🧮",
+          "color": "#2196F3",
+          "questions": [
+            {
+              "id": "math_alg_001",
+              "question": "\\text{Solve for x: } 2x + 3 = 7",
+              "options": ["x = 2", "x = 3", "x = 1", "x = 4"],
+              "correct_answer": 0,
+              "explanation": "2x + 3 = 7 → 2x = 4 → x = 2.",
+              "difficulty": "easy",
+              "points": 10,
+              "is_math": true
+            },
+            {
+              "id": "alg001",
+              "question": "\\text{What is the solution to the equation: } x^2 + 2x - 8 = 0?",
+              "options": [
+                "x = 2, x = -4",
+                "x = -2, x = 4",
+                "x = 2, x = 4",
+                "x = -2, x = -4"
+              ],
+              "correct_answer": 0,
+              "explanation": "The equation can be factored as (x+4)(x-2)=0.",
+              "difficulty": "easy",
+              "points": 10,
+              "is_math": true
+            },
+            {
+              "id": "math_alg_002",
+              "question": "\\text{Simplify the expression: } 3(x + 4) - 2(x - 1)",
+              "options": [
+                "x + 14",
+                "x + 7",
+                "x + 1",
+                "x + 4"
+              ],
+              "correct_answer": 0,
+              "explanation": "3(x + 4) - 2(x - 1) = 3x + 12 - 2x + 2 = x + 14.",
+              "difficulty": "medium",
+              "points": 10,
+              "is_math": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
