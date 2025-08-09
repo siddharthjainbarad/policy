@@ -20,7 +20,149 @@
               "question": "Who was the first President of India?",
               "options": ["Dr. Rajendra Prasad", "Jawaharlal Nehru", "Sarvepalli Radhakrishnan", "Indira Gandhi"],
               "correct_answer": 0,
-              "explanation": "Dr. Rajendra Prasad was the first President of India.",
+              "explanation": "Dr. Rajendra Prasad served as the first President of India (1950–1962).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_002",
+              "question": "In which year did India gain independence?",
+              "options": ["1942", "1947", "1950", "1930"],
+              "correct_answer": 1,
+              "explanation": "India became independent on 15 August 1947.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_003",
+              "question": "Who was known as the 'Iron Man of India'?",
+              "options": ["Subhas Chandra Bose", "Sardar Vallabhbhai Patel", "B. R. Ambedkar", "Bhagat Singh"],
+              "correct_answer": 1,
+              "explanation": "Sardar Vallabhbhai Patel is called the 'Iron Man of India' for his role in unifying the princely states.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_004",
+              "question": "Who founded the Maurya Empire?",
+              "options": ["Ashoka", "Bindusara", "Chandragupta Maurya", "Chanakya"],
+              "correct_answer": 2,
+              "explanation": "Chandragupta Maurya established the Maurya Empire with guidance from Chanakya.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_005",
+              "question": "The Dandi March (Salt March) was led by whom?",
+              "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Bal Gangadhar Tilak", "Lala Lajpat Rai"],
+              "correct_answer": 0,
+              "explanation": "Gandhi led the Salt March in 1930 to protest the salt tax.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_geography",
+          "name": "Indian Geography",
+          "icon": "🗺️",
+          "color": "#99CCFF",
+          "questions": [
+            {
+              "id": "gk_geo_001",
+              "question": "What is the southernmost point of India (mainland)?",
+              "options": ["Indira Point", "Kanyakumari", "Rameswaram", "Cape Comorin"],
+              "correct_answer": 1,
+              "explanation": "Kanyakumari is the southernmost point of mainland India; Indira Point is the southernmost point of the Indian territory (Nicobar).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_002",
+              "question": "Which is the largest state in India by area?",
+              "options": ["Maharashtra", "Uttar Pradesh", "Rajasthan", "Madhya Pradesh"],
+              "correct_answer": 2,
+              "explanation": "Rajasthan is the largest state by area.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_003",
+              "question": "Which river is known as the 'Sorrow of Bihar'?",
+              "options": ["Ganga", "Kosi", "Yamuna", "Godavari"],
+              "correct_answer": 1,
+              "explanation": "Kosi River is called the 'Sorrow of Bihar' due to frequent floods.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_004",
+              "question": "Which is the highest mountain peak in India?",
+              "options": ["K2 (Godwin-Austen)", "Kangchenjunga", "Nanda Devi", "Kamet"],
+              "correct_answer": 1,
+              "explanation": "Kangchenjunga is the highest peak located entirely within India; K2 lies in the Karakoram on the India–Pakistan border region under dispute.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_005",
+              "question": "The Thar Desert is primarily located in which state?",
+              "options": ["Gujarat", "Rajasthan", "Haryana", "Punjab"],
+              "correct_answer": 1,
+              "explanation": "Most of the Thar Desert lies in Rajasthan.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_civics",
+          "name": "Indian Polity & Civics",
+          "icon": "⚖️",
+          "color": "#CCE5FF",
+          "questions": [
+            {
+              "id": "gk_civics_001",
+              "question": "Which part of the Indian Constitution deals with Fundamental Rights?",
+              "options": ["Part II", "Part III", "Part IV", "Part IVA"],
+              "correct_answer": 1,
+              "explanation": "Fundamental Rights are enshrined in Part III (Articles 12–35).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_002",
+              "question": "The Directive Principles of State Policy are borrowed from the constitution of which country?",
+              "options": ["USA", "UK", "Ireland", "Canada"],
+              "correct_answer": 2,
+              "explanation": "DPSPs were inspired by the Irish Constitution.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_003",
+              "question": "How many schedules are there currently in the Indian Constitution?",
+              "options": ["8", "10", "12", "14"],
+              "correct_answer": 2,
+              "explanation": "There are 12 schedules after successive amendments.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_004",
+              "question": "Who appoints the Chief Justice of India?",
+              "options": ["President of India", "Prime Minister", "Parliament", "Supreme Court Collegium"],
+              "correct_answer": 0,
+              "explanation": "The President appoints the CJI, typically following the collegium’s recommendation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_005",
+              "question": "What is the minimum age to be a member of the Rajya Sabha?",
+              "options": ["25 years", "30 years", "35 years", "21 years"],
+              "correct_answer": 1,
+              "explanation": "Minimum age is 30 years for Rajya Sabha membership.",
               "difficulty": "easy",
               "points": 10
             }
@@ -38,6 +180,44 @@
       "points_per_question": 10,
       "subcategories": [
         {
+          "id": "math_arithmetic",
+          "name": "Arithmetic",
+          "icon": "🔢",
+          "color": "#81C784",
+          "questions": [
+            {
+              "id": "math_arith_001",
+              "question": "What is 12 × 8?",
+              "options": ["96", "88", "104", "86"],
+              "correct_answer": 0,
+              "explanation": "12 × 8 = 96.",
+              "difficulty": "easy",
+              "points": 10,
+              "is_math": true
+            },
+            {
+              "id": "math_arith_002",
+              "question": "What is 15% of 200?",
+              "options": ["20", "25", "30", "35"],
+              "correct_answer": 2,
+              "explanation": "15% of 200 = 0.15 × 200 = 30.",
+              "difficulty": "easy",
+              "points": 10,
+              "is_math": true
+            },
+            {
+              "id": "math_arith_003",
+              "question": "Simplify: 72 ÷ 9 + 6",
+              "options": ["14", "12", "18", "10"],
+              "correct_answer": 0,
+              "explanation": "72 ÷ 9 = 8; 8 + 6 = 14.",
+              "difficulty": "easy",
+              "points": 10,
+              "is_math": true
+            }
+          ]
+        },
+        {
           "id": "math_algebra",
           "name": "Algebra",
           "icon": "🧮",
@@ -48,7 +228,7 @@
               "question": "\\text{Solve for x: } 2x + 3 = 7",
               "options": ["x = 2", "x = 3", "x = 1", "x = 4"],
               "correct_answer": 0,
-              "explanation": "2x + 3 = 7 → 2x = 4 → x = 2.",
+              "explanation": "2x + 3 = 7 ⇒ 2x = 4 ⇒ x = 2.",
               "difficulty": "easy",
               "points": 10,
               "is_math": true
@@ -56,14 +236,9 @@
             {
               "id": "alg001",
               "question": "\\text{What is the solution to the equation: } x^2 + 2x - 8 = 0?",
-              "options": [
-                "x = 2, x = -4",
-                "x = -2, x = 4",
-                "x = 2, x = 4",
-                "x = -2, x = -4"
-              ],
+              "options": ["x = 2, x = -4", "x = -2, x = 4", "x = 2, x = 4", "x = -2, x = -4"],
               "correct_answer": 0,
-              "explanation": "The equation can be factored as (x+4)(x-2)=0.",
+              "explanation": "Factor: (x + 4)(x - 2) = 0 ⇒ x = -4 or x = 2.",
               "difficulty": "easy",
               "points": 10,
               "is_math": true
@@ -71,17 +246,183 @@
             {
               "id": "math_alg_002",
               "question": "\\text{Simplify the expression: } 3(x + 4) - 2(x - 1)",
-              "options": [
-                "x + 14",
-                "x + 7",
-                "x + 1",
-                "x + 4"
-              ],
+              "options": ["x + 14", "x + 7", "x + 1", "x + 4"],
               "correct_answer": 0,
-              "explanation": "3(x + 4) - 2(x - 1) = 3x + 12 - 2x + 2 = x + 14.",
+              "explanation": "3x + 12 - 2x + 2 = x + 14.",
               "difficulty": "medium",
               "points": 10,
               "is_math": true
+            },
+            {
+              "id": "math_alg_003",
+              "question": "\\text{Solve: } 5x - 15 = 0",
+              "options": ["x = -3", "x = 0", "x = 3", "x = 5"],
+              "correct_answer": 2,
+              "explanation": "5x = 15 ⇒ x = 3.",
+              "difficulty": "easy",
+              "points": 10,
+              "is_math": true
+            },
+            {
+              "id": "math_alg_004",
+              "question": "\\text{If } a + b = 7 \\text{ and } ab = 10, \\text{ find } a^2 + b^2.",
+              "options": ["29", "39", "49", "59"],
+              "correct_answer": 0,
+              "explanation": "a^2 + b^2 = (a + b)^2 - 2ab = 49 - 20 = 29.",
+              "difficulty": "medium",
+              "points": 10,
+              "is_math": true
+            }
+          ]
+        },
+        {
+          "id": "math_geometry",
+          "name": "Geometry",
+          "icon": "📐",
+          "color": "#64B5F6",
+          "questions": [
+            {
+              "id": "math_geo_001",
+              "question": "The sum of interior angles of a triangle is:",
+              "options": ["90°", "180°", "270°", "360°"],
+              "correct_answer": 1,
+              "explanation": "Sum of interior angles in a triangle is 180°.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "math_geo_002",
+              "question": "Circumference of a circle with radius r is:",
+              "options": ["πr^2", "2πr", "πd/2", "r/π"],
+              "correct_answer": 1,
+              "explanation": "Circumference = 2πr.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "math_geo_003",
+              "question": "A right triangle has legs 3 and 4. What is the hypotenuse?",
+              "options": ["5", "6", "7", "4"],
+              "correct_answer": 0,
+              "explanation": "By Pythagoras: √(3^2 + 4^2) = 5.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci_basic",
+      "name": "Science",
+      "description": "Physics, Chemistry, Biology basics",
+      "icon": "🔬",
+      "color": "#9C27B0",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "subcategories": [
+        {
+          "id": "sci_physics",
+          "name": "Physics",
+          "icon": "⚛️",
+          "color": "#BA68C8",
+          "questions": [
+            {
+              "id": "phy_001",
+              "question": "What is the SI unit of force?",
+              "options": ["Joule", "Pascal", "Newton", "Watt"],
+              "correct_answer": 2,
+              "explanation": "Force is measured in Newtons (N).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_002",
+              "question": "Speed of light in vacuum is approximately:",
+              "options": ["3×10^6 m/s", "3×10^8 m/s", "3×10^5 km/s", "3×10^3 km/s"],
+              "correct_answer": 1,
+              "explanation": "c ≈ 3 × 10^8 m/s.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_003",
+              "question": "Which quantity is conserved in elastic collisions?",
+              "options": ["Momentum only", "Kinetic energy only", "Both momentum and kinetic energy", "Neither"],
+              "correct_answer": 2,
+              "explanation": "Elastic collisions conserve both momentum and kinetic energy.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "sci_chem",
+          "name": "Chemistry",
+          "icon": "⚗️",
+          "color": "#AB47BC",
+          "questions": [
+            {
+              "id": "chem_001",
+              "question": "The atomic number of carbon is:",
+              "options": ["5", "6", "7", "8"],
+              "correct_answer": 1,
+              "explanation": "Carbon has atomic number 6.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_002",
+              "question": "pH of a neutral solution at 25°C is:",
+              "options": ["0", "7", "14", "1"],
+              "correct_answer": 1,
+              "explanation": "Neutral pH at 25°C is 7.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_003",
+              "question": "Which bond involves sharing of electron pairs between atoms?",
+              "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+              "correct_answer": 1,
+              "explanation": "Covalent bonds involve sharing of electrons.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "sci_bio",
+          "name": "Biology",
+          "icon": "🧬",
+          "color": "#CE93D8",
+          "questions": [
+            {
+              "id": "bio_001",
+              "question": "The powerhouse of the cell is:",
+              "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+              "correct_answer": 1,
+              "explanation": "Mitochondria generate ATP and are called the powerhouse.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_002",
+              "question": "DNA stands for:",
+              "options": ["Deoxyribo Nucleic Acid", "Deoxyribonucleic Acid", "Dioxyribonucleic Acid", "Deoxyribose Nucleic Acid"],
+              "correct_answer": 1,
+              "explanation": "Correct expansion is Deoxyribonucleic Acid.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_003",
+              "question": "Which vitamin is primarily obtained from sunlight?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+              "correct_answer": 2,
+              "explanation": "Vitamin D is synthesized in the skin upon exposure to sunlight.",
+              "difficulty": "easy",
+              "points": 10
             }
           ]
         }
