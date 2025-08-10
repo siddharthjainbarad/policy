@@ -248,7 +248,7 @@
     },
     {
       "id": "gk_world",
-      "name": "World General Knowledge",
+      "name": "GK World",
       "description": "Test your knowledge about the world",
       "icon": "🌍",
       "color": "#8BC34A",
