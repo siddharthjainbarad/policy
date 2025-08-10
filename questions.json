@@ -8,6 +8,7 @@
       "color": "#FF9933",
       "question_timer_seconds": 10,
       "points_per_question": 10,
+      "requiredBadges": ["Quiz Pro"],
       "subcategories": [
         {
           "id": "gk_history",
