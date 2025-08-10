@@ -254,6 +254,7 @@
       "color": "#8BC34A",
       "question_timer_seconds": 10,
       "points_per_question": 10,
+      "requiredBadges": ["Quiz Novice"],
       "subcategories": [
         {
           "id": "world_history",
