@@ -254,7 +254,7 @@
       "color": "#8BC34A",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredBadges": ["Quiz Novice"],
+      "requiredLevel": 5,
       "subcategories": [
         {
           "id": "world_history",
@@ -646,7 +646,6 @@
       "color": "#FF5722",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 6,
       "subcategories": [
         {
           "id": "flag_asia",
@@ -820,6 +819,230 @@
               "correct_answer": 0,
               "explanation": "Red with large yellow star — Vietnam.",
               "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_013",
+              "question": "🇧🇩",
+              "options": [
+                "Bangladesh",
+                "Japan",
+                "Palau",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green field with a red disc representing the sun rising over Bengal — Bangladesh.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_014",
+              "question": "🇲🇾",
+              "options": [
+                "Malaysia",
+                "USA",
+                "Liberia",
+                "Singapore"
+              ],
+              "correct_answer": 0,
+              "explanation": "Stripes of Glory with a blue canton bearing a crescent and star — Malaysia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_015",
+              "question": "🇸🇬",
+              "options": [
+                "Singapore",
+                "Indonesia",
+                "Poland",
+                "Monaco"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and white with a white crescent moon and five stars — Singapore.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_016",
+              "question": "🇱🇰",
+              "options": [
+                "Sri Lanka",
+                "Bhutan",
+                "Nepal",
+                "India"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow field with a lion holding a sword, and two vertical stripes — Sri Lanka.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_017",
+              "question": "🇳🇵",
+              "options": [
+                "Nepal",
+                "India",
+                "Bhutan",
+                "Switzerland"
+              ],
+              "correct_answer": 0,
+              "explanation": "The world's only non-quadrilateral national flag — Nepal.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_018",
+              "question": "🇲🇲",
+              "options": [
+                "Myanmar",
+                "Lithuania",
+                "Ghana",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow, green, and red horizontal stripes with a large white star — Myanmar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_019",
+              "question": "🇰🇵",
+              "options": [
+                "North Korea",
+                "South Korea",
+                "Costa Rica",
+                "Thailand"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and blue with a red star in a white disc — North Korea.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_020",
+              "question": "🇰🇭",
+              "options": [
+                "Cambodia",
+                "Laos",
+                "Thailand",
+                "Afghanistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and red with a depiction of Angkor Wat in the center — Cambodia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_021",
+              "question": "🇮🇶",
+              "options": [
+                "Iraq",
+                "Syria",
+                "Egypt",
+                "Yemen"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and black stripes with 'Allahu Akbar' in Kufic script — Iraq.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_022",
+              "question": "🇦🇪",
+              "options": [
+                "United Arab Emirates",
+                "Kuwait",
+                "Jordan",
+                "Sudan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pan-Arab colors of red, green, white, and black — United Arab Emirates.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_023",
+              "question": "🇶🇦",
+              "options": [
+                "Qatar",
+                "Bahrain",
+                "Saudi Arabia",
+                "Oman"
+              ],
+              "correct_answer": 0,
+              "explanation": "Maroon with a white serrated band; the world's widest flag — Qatar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_024",
+              "question": "🇮🇱",
+              "options": [
+                "Israel",
+                "Greece",
+                "Argentina",
+                "Somalia"
+              ],
+              "correct_answer": 0,
+              "explanation": "White with two horizontal blue stripes and a Star of David — Israel.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_025",
+              "question": "🇹🇷",
+              "options": [
+                "Turkey",
+                "Tunisia",
+                "Azerbaijan",
+                "Algeria"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red with a white star and crescent — Turkey.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_026",
+              "question": "🇰🇿",
+              "options": [
+                "Kazakhstan",
+                "Mongolia",
+                "Uzbekistan",
+                "Kyrgyzstan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sky blue field with a steppe eagle below a golden sun and a national ornamental pattern — Kazakhstan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_027",
+              "question": "🇺🇿",
+              "options": [
+                "Uzbekistan",
+                "Azerbaijan",
+                "Turkmenistan",
+                "Kazakhstan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, white, and green stripes with a crescent and 12 stars — Uzbekistan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_028",
+              "question": "🇹🇼",
+              "options": [
+                "Taiwan",
+                "China",
+                "Samoa",
+                "Myanmar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a blue canton bearing a white sun — Taiwan.",
+              "difficulty": "medium",
               "points": 10
             }
           ]
