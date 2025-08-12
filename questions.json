@@ -1220,6 +1220,244 @@
               "explanation": "Red with white cross — Switzerland.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "flag_europe_013",
+              "question": "🇸🇪",
+              "options": [
+                "Sweden",
+                "Denmark",
+                "Norway",
+                "Finland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue with a yellow Nordic cross — Sweden.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_014",
+              "question": "🇮🇪",
+              "options": [
+                "Ireland",
+                "Italy",
+                "Ivory Coast",
+                "Mexico"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, white, and orange vertical stripes — Ireland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_015",
+              "question": "🇳🇱",
+              "options": [
+                "Netherlands",
+                "Russia",
+                "France",
+                "Luxembourg"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and blue horizontal stripes — Netherlands.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_016",
+              "question": "🇧🇪",
+              "options": [
+                "Belgium",
+                "Germany",
+                "Austria",
+                "Romania"
+              ],
+              "correct_answer": 0,
+              "explanation": "Black, yellow, and red vertical stripes — Belgium.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_017",
+              "question": "🇦🇹",
+              "options": [
+                "Austria",
+                "Latvia",
+                "Poland",
+                "Peru"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and red horizontal stripes — Austria.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_018",
+              "question": "🇩🇰",
+              "options": [
+                "Denmark",
+                "Switzerland",
+                "Norway",
+                "England"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red with a white Nordic cross — Denmark.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_019",
+              "question": "🇫🇮",
+              "options": [
+                "Finland",
+                "Sweden",
+                "Iceland",
+                "Greece"
+              ],
+              "correct_answer": 0,
+              "explanation": "White with a blue Nordic cross — Finland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_020",
+              "question": "🇭🇺",
+              "options": [
+                "Hungary",
+                "Bulgaria",
+                "Italy",
+                "Tajikistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and green horizontal stripes — Hungary.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_021",
+              "question": "🇷🇴",
+              "options": [
+                "Romania",
+                "Chad",
+                "Andorra",
+                "Belgium"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, yellow, and red vertical stripes — Romania.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_022",
+              "question": "🇨🇿",
+              "options": [
+                "Czech Republic",
+                "Philippines",
+                "Poland",
+                "Slovakia"
+              ],
+              "correct_answer": 0,
+              "explanation": "White over red with a blue triangle at the hoist — Czech Republic.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_023",
+              "question": "🇭🇷",
+              "options": [
+                "Croatia",
+                "Slovakia",
+                "Serbia",
+                "Paraguay"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and blue stripes with the coat of arms — Croatia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_024",
+              "question": "🇧🇬",
+              "options": [
+                "Bulgaria",
+                "Hungary",
+                "Russia",
+                "Lithuania"
+              ],
+              "correct_answer": 0,
+              "explanation": "White, green, and red horizontal stripes — Bulgaria.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_025",
+              "question": "🇱🇹",
+              "options": [
+                "Lithuania",
+                "Bolivia",
+                "Ghana",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow, green, and red horizontal stripes — Lithuania.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_026",
+              "question": "🇸🇮",
+              "options": [
+                "Slovenia",
+                "Slovakia",
+                "Russia",
+                "Serbia"
+              ],
+              "correct_answer": 0,
+              "explanation": "White, blue, and red stripes with the coat of arms — Slovenia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_027",
+              "question": "🇱🇺",
+              "options": [
+                "Luxembourg",
+                "Netherlands",
+                "Paraguay",
+                "France"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and light blue horizontal stripes — Luxembourg.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_028",
+              "question": "🇧🇾",
+              "options": [
+                "Belarus",
+                "Madagascar",
+                "Oman",
+                "Portugal"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and green with a white and red ornament pattern — Belarus.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_029",
+              "question": "🇨🇾",
+              "options": [
+                "Cyprus",
+                "Kosovo",
+                "Malta",
+                "Greece"
+              ],
+              "correct_answer": 0,
+              "explanation": "White with a map of the island and two olive branches — Cyprus.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
