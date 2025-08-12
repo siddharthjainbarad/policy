@@ -1458,6 +1458,216 @@
               "explanation": "White with a map of the island and two olive branches — Cyprus.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "flag_europe_030",
+              "question": "🇦🇩",
+              "options": [
+                "Andorra",
+                "Romania",
+                "Chad",
+                "Moldova"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, yellow, and red vertical stripes with the coat of arms of Andorra — Andorra.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_031",
+              "question": "🇦🇱",
+              "options": [
+                "Albania",
+                "Montenegro",
+                "Serbia",
+                "Switzerland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a black double-headed eagle — Albania.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_032",
+              "question": "🇧🇦",
+              "options": [
+                "Bosnia and Herzegovina",
+                "Kosovo",
+                "Croatia",
+                "European Union"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue field with a yellow triangle and a line of white stars — Bosnia and Herzegovina.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_033",
+              "question": "🇪🇪",
+              "options": [
+                "Estonia",
+                "Botswana",
+                "Finland",
+                "Germany"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, black, and white horizontal stripes — Estonia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_034",
+              "question": "🇮🇸",
+              "options": [
+                "Iceland",
+                "Norway",
+                "Finland",
+                "Faroe Islands"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue with a red Nordic cross outlined in white — Iceland.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_035",
+              "question": "🇱🇻",
+              "options": [
+                "Latvia",
+                "Austria",
+                "Lebanon",
+                "Canada"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red with a white horizontal stripe — Latvia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_036",
+              "question": "🇱🇮",
+              "options": [
+                "Liechtenstein",
+                "Haiti",
+                "San Marino",
+                "Monaco"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and red with a gold crown in the canton — Liechtenstein.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_037",
+              "question": "🇲🇹",
+              "options": [
+                "Malta",
+                "Poland",
+                "United Kingdom",
+                "Vatican City"
+              ],
+              "correct_answer": 0,
+              "explanation": "White and red vertical halves with the George Cross in the canton — Malta.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_038",
+              "question": "🇲🇩",
+              "options": [
+                "Moldova",
+                "Andorra",
+                "Romania",
+                "Paraguay"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, yellow, and red vertical stripes with the coat of arms — Moldova.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_039",
+              "question": "🇲🇨",
+              "options": [
+                "Monaco",
+                "Indonesia",
+                "Poland",
+                "Singapore"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red over white horizontal bands — Monaco.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_040",
+              "question": "🇲🇪",
+              "options": [
+                "Montenegro",
+                "Albania",
+                "Serbia",
+                "Spain"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field bordered by gold with the coat of arms in the center — Montenegro.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_041",
+              "question": "🇲🇰",
+              "options": [
+                "North Macedonia",
+                "Japan",
+                "Arizona",
+                "Kiribati"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a yellow sun emitting eight broadening rays — North Macedonia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_042",
+              "question": "🇸🇲",
+              "options": [
+                "San Marino",
+                "Slovenia",
+                "Serbia",
+                "Paraguay"
+              ],
+              "correct_answer": 0,
+              "explanation": "White over light blue with the national coat of arms — San Marino.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_043",
+              "question": "🇷🇸",
+              "options": [
+                "Serbia",
+                "Russia",
+                "Slovakia",
+                "Croatia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, blue, and white horizontal stripes with the coat of arms — Serbia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_europe_044",
+              "question": "🇻🇦",
+              "options": [
+                "Vatican City",
+                "Switzerland",
+                "San Marino",
+                "Malta"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow and white vertical bands with the coat of arms in the white band — Vatican City.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
