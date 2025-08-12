@@ -1606,6 +1606,356 @@
               "explanation": "Green, yellow, red with star — Senegal.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "flag_africa_011",
+              "question": "🇩🇿",
+              "options": [
+                "Algeria",
+                "Pakistan",
+                "Turkey",
+                "Tunisia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green and white with a red star and crescent — Algeria.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_012",
+              "question": "🇦🇴",
+              "options": [
+                "Angola",
+                "Vietnam",
+                "China",
+                "Mozambique"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and black with a machete, gear, and star — Angola.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_013",
+              "question": "🇧🇼",
+              "options": [
+                "Botswana",
+                "Estonia",
+                "Lesotho",
+                "Argentina"
+              ],
+              "correct_answer": 0,
+              "explanation": "Light blue with a black horizontal stripe trimmed in white — Botswana.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_014",
+              "question": "🇨🇲",
+              "options": [
+                "Cameroon",
+                "Senegal",
+                "Ghana",
+                "Mali"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, red, and yellow vertical stripes with a yellow star — Cameroon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_015",
+              "question": "🇹🇩",
+              "options": [
+                "Chad",
+                "Romania",
+                "Andorra",
+                "France"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, yellow, and red vertical stripes — Chad.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_016",
+              "question": "🇨🇩",
+              "options": [
+                "DR Congo",
+                "Congo",
+                "Angola",
+                "Somalia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sky blue with a red diagonal stripe and a yellow star — Democratic Republic of the Congo.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_017",
+              "question": "🇩🇯",
+              "options": [
+                "Djibouti",
+                "Somalia",
+                "Comoros",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "Light blue and green with a white triangle and a red star — Djibouti.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_018",
+              "question": "🇬🇶",
+              "options": [
+                "Equatorial Guinea",
+                "Gabon",
+                "Rwanda",
+                "Sierra Leone"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, white, and red stripes with a blue triangle and coat of arms — Equatorial Guinea.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_019",
+              "question": "🇸🇿",
+              "options": [
+                "Eswatini",
+                "Kenya",
+                "South Africa",
+                "Lesotho"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, yellow, and red stripes with a large shield — Eswatini (formerly Swaziland).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_020",
+              "question": "🇬🇦",
+              "options": [
+                "Gabon",
+                "Sierra Leone",
+                "Russia",
+                "Armenia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, yellow, and blue horizontal stripes — Gabon.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_021",
+              "question": "🇬🇲",
+              "options": [
+                "Gambia",
+                "Uzbekistan",
+                "Comoros",
+                "Kenya"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, blue, and green stripes separated by white fimbriations — The Gambia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_022",
+              "question": "🇬🇳",
+              "options": [
+                "Guinea",
+                "Mali",
+                "Senegal",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, yellow, and green vertical stripes — Guinea.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_023",
+              "question": "🇱🇸",
+              "options": [
+                "Lesotho",
+                "Botswana",
+                "Sierra Leone",
+                "Argentina"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, white, and green stripes with a black Basotho hat — Lesotho.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_024",
+              "question": "🇱🇷",
+              "options": [
+                "Liberia",
+                "USA",
+                "Malaysia",
+                "Puerto Rico"
+              ],
+              "correct_answer": 0,
+              "explanation": "Stripes with a blue square and a single white star — Liberia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_025",
+              "question": "🇱🇾",
+              "options": [
+                "Libya",
+                "Syria",
+                "Sudan",
+                "Jordan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, black, and green stripes with a white crescent and star — Libya.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_026",
+              "question": "🇲🇬",
+              "options": [
+                "Madagascar",
+                "Belarus",
+                "Poland",
+                "Monaco"
+              ],
+              "correct_answer": 0,
+              "explanation": "White vertical band with red and green horizontal bands — Madagascar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_027",
+              "question": "🇲🇱",
+              "options": [
+                "Mali",
+                "Guinea",
+                "Senegal",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, yellow, and red vertical stripes — Mali.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_028",
+              "question": "🇲🇺",
+              "options": [
+                "Mauritius",
+                "Germany",
+                "Estonia",
+                "Gabon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, blue, yellow, and green horizontal stripes — Mauritius.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_029",
+              "question": "🇲🇿",
+              "options": [
+                "Mozambique",
+                "Zimbabwe",
+                "Angola",
+                "South Sudan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, black, and yellow stripes with a red triangle featuring a star, book, and AK-47 — Mozambique.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_030",
+              "question": "🇳🇦",
+              "options": [
+                "Namibia",
+                "Tanzania",
+                "Trinidad and Tobago",
+                "Saint Kitts and Nevis"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and green triangles separated by a red diagonal stripe with a golden sun — Namibia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_031",
+              "question": "🇷🇼",
+              "options": [
+                "Rwanda",
+                "Gabon",
+                "Colombia",
+                "Ecuador"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, yellow, and green stripes with a yellow sun — Rwanda.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_032",
+              "question": "🇸🇱",
+              "options": [
+                "Sierra Leone",
+                "Gabon",
+                "Hungary",
+                "Bulgaria"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, white, and blue horizontal stripes — Sierra Leone.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_033",
+              "question": "🇸🇸",
+              "options": [
+                "South Sudan",
+                "Sudan",
+                "Kenya",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Black, red, and green stripes with a blue triangle and a yellow star — South Sudan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_034",
+              "question": "🇹🇳",
+              "options": [
+                "Tunisia",
+                "Turkey",
+                "Algeria",
+                "Singapore"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a central white disc containing a red star and crescent — Tunisia.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_035",
+              "question": "🇿🇼",
+              "options": [
+                "Zimbabwe",
+                "Mozambique",
+                "Zambia",
+                "Guyana"
+              ],
+              "correct_answer": 0,
+              "explanation": "Seven horizontal stripes with a white triangle containing a red star and the Zimbabwe Bird — Zimbabwe.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
