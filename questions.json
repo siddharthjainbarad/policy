@@ -1622,6 +1622,104 @@
               "explanation": "Red with bird and waves — Kiribati.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "flag_oceania_008",
+              "question": "🇼🇸",
+              "options": [
+                "Samoa",
+                "Tonga",
+                "Fiji",
+                "Taiwan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a blue canton charged with the Southern Cross constellation — Samoa.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_oceania_009",
+              "question": "🇹🇴",
+              "options": [
+                "Tonga",
+                "Switzerland",
+                "Denmark",
+                "Georgia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a white canton bearing a red couped cross — Tonga.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_oceania_010",
+              "question": "🇹🇻",
+              "options": [
+                "Tuvalu",
+                "Australia",
+                "New Zealand",
+                "Fiji"
+              ],
+              "correct_answer": 0,
+              "explanation": "Light blue field with the Union Jack and nine yellow stars representing the islands — Tuvalu.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_oceania_011",
+              "question": "🇲🇭",
+              "options": [
+                "Marshall Islands",
+                "Micronesia",
+                "Nauru",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue field with two diagonal stripes and a large white star — Marshall Islands.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_oceania_012",
+              "question": "🇫🇲",
+              "options": [
+                "Micronesia",
+                "Somalia",
+                "Vietnam",
+                "Panama"
+              ],
+              "correct_answer": 0,
+              "explanation": "Light blue field with four white stars arranged in a diamond — Federated States of Micronesia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_oceania_013",
+              "question": "🇳🇷",
+              "options": [
+                "Nauru",
+                "Kiribati",
+                "Solomon Islands",
+                "Kazakhstan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue field with a yellow stripe and a white 12-pointed star — Nauru.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_oceania_014",
+              "question": "🇵🇼",
+              "options": [
+                "Palau",
+                "Bangladesh",
+                "Japan",
+                "Laos"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sky blue field with a large yellow disc slightly off-center — Palau.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         }
