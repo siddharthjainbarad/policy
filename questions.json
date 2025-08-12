@@ -646,6 +646,7 @@
       "color": "#FF5722",
       "question_timer_seconds": 10,
       "points_per_question": 10,
+      "requiredLevel": 6,
       "subcategories": [
         {
           "id": "flag_asia",
