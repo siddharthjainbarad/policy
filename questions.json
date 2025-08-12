@@ -1516,6 +1516,356 @@
               "explanation": "Blue and white stripes with red triangle and star — Cuba.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "flag_americas_011",
+              "question": "🇭🇳",
+              "options": [
+                "Honduras",
+                "Guatemala",
+                "El Salvador",
+                "Nicaragua"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and white stripes with five blue stars — Honduras.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_012",
+              "question": "🇬🇹",
+              "options": [
+                "Guatemala",
+                "Honduras",
+                "El Salvador",
+                "Nicaragua"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and white vertical stripes with the national coat of arms — Guatemala.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_013",
+              "question": "🇵🇦",
+              "options": [
+                "Panama",
+                "Costa Rica",
+                "Cuba",
+                "Dominican Republic"
+              ],
+              "correct_answer": 0,
+              "explanation": "Quartered with red and blue rectangles and stars — Panama.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_014",
+              "question": "🇨🇷",
+              "options": [
+                "Costa Rica",
+                "Thailand",
+                "North Korea",
+                "Honduras"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, white, and red horizontal stripes with the coat of arms — Costa Rica.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_015",
+              "question": "🇩🇴",
+              "options": [
+                "Dominican Republic",
+                "Haiti",
+                "Panama",
+                "Greece"
+              ],
+              "correct_answer": 0,
+              "explanation": "Centered white cross that extends to the edges and divides the flag into four rectangles — Dominican Republic.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_016",
+              "question": "🇧🇿",
+              "options": [
+                "Belize",
+                "Guatemala",
+                "Honduras",
+                "Uruguay"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue field with the Coat of Arms of Belize — Belize.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_017",
+              "question": "🇸🇻",
+              "options": [
+                "El Salvador",
+                "Nicaragua",
+                "Argentina",
+                "Honduras"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and white horizontal stripes with the coat of arms — El Salvador.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_018",
+              "question": "🇳🇮",
+              "options": [
+                "Nicaragua",
+                "El Salvador",
+                "Honduras",
+                "Argentina"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and white horizontal stripes with the national coat of arms in the center — Nicaragua.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_019",
+              "question": "🇭🇹",
+              "options": [
+                "Haiti",
+                "Dominican Republic",
+                "Liechtenstein",
+                "Panama"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue and red horizontal bands with the coat of arms on a white panel — Haiti.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_020",
+              "question": "🇧🇸",
+              "options": [
+                "Bahamas",
+                "Barbados",
+                "Jamaica",
+                "Trinidad and Tobago"
+              ],
+              "correct_answer": 0,
+              "explanation": "Aquamarine, gold, and black triangle — The Bahamas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_021",
+              "question": "🇹🇹",
+              "options": [
+                "Trinidad and Tobago",
+                "Papua New Guinea",
+                "Tanzania",
+                "Namibia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red with a black diagonal stripe outlined in white — Trinidad and Tobago.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_022",
+              "question": "🇧🇧",
+              "options": [
+                "Barbados",
+                "Bahamas",
+                "Saint Lucia",
+                "Ukraine"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ultramarine and gold with a black trident head — Barbados.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_023",
+              "question": "🇦🇬",
+              "options": [
+                "Antigua and Barbuda",
+                "Kiribati",
+                "Marshall Islands",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red with an inverted triangle containing a rising sun — Antigua and Barbuda.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_024",
+              "question": "🇩🇲",
+              "options": [
+                "Dominica",
+                "Grenada",
+                "Saint Lucia",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green field with a cross of three bands and a central disc with a Sisserou Parrot — Dominica.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_025",
+              "question": "🇬🇩",
+              "options": [
+                "Grenada",
+                "Guyana",
+                "Suriname",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red border with seven yellow stars and a nutmeg symbol — Grenada.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_026",
+              "question": "🇱🇨",
+              "options": [
+                "Saint Lucia",
+                "Saint Kitts and Nevis",
+                "Bahamas",
+                "Barbados"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cerulean blue field with a central triangle of gold and black — Saint Lucia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_027",
+              "question": "🇰🇳",
+              "options": [
+                "Saint Kitts and Nevis",
+                "Trinidad and Tobago",
+                "Tanzania",
+                "Namibia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green and red with a black diagonal band and two white stars — Saint Kitts and Nevis.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_028",
+              "question": "🇻🇨",
+              "options": [
+                "Saint Vincent and the Grenadines",
+                "Saint Lucia",
+                "Brazil",
+                "Guyana"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, gold, and green vertical bands with three green diamonds — Saint Vincent and the Grenadines.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_029",
+              "question": "🇻🇪",
+              "options": [
+                "Venezuela",
+                "Colombia",
+                "Ecuador",
+                "Armenia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow, blue, and red horizontal stripes with an arc of eight stars — Venezuela.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_030",
+              "question": "🇧🇴",
+              "options": [
+                "Bolivia",
+                "Ethiopia",
+                "Ghana",
+                "Lithuania"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, yellow, and green horizontal stripes with the coat of arms — Bolivia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_031",
+              "question": "🇪🇨",
+              "options": [
+                "Ecuador",
+                "Colombia",
+                "Venezuela",
+                "Romania"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow, blue, and red horizontal stripes with the coat of arms — Ecuador.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_032",
+              "question": "🇵🇾",
+              "options": [
+                "Paraguay",
+                "Netherlands",
+                "France",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and blue horizontal stripes with a different coat of arms on each side — Paraguay.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_033",
+              "question": "🇺🇾",
+              "options": [
+                "Uruguay",
+                "Argentina",
+                "Greece",
+                "Israel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Nine horizontal stripes and the Sun of May in the canton — Uruguay.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_034",
+              "question": "🇬🇾",
+              "options": [
+                "Guyana",
+                "South Africa",
+                "Jamaica",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green field with a red triangle and a golden arrowhead — Guyana.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_americas_035",
+              "question": "🇸🇷",
+              "options": [
+                "Suriname",
+                "Kenya",
+                "Mozambique",
+                "Guyana"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, white, and red horizontal stripes with a large yellow star — Suriname.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
