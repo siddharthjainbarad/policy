@@ -1044,6 +1044,258 @@
               "explanation": "Red field with a blue canton bearing a white sun — Taiwan.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "flag_asia_029",
+              "question": "🇦🇲",
+              "options": [
+                "Armenia",
+                "Colombia",
+                "Venezuela",
+                "Ecuador"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, blue, and orange horizontal stripes — Armenia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_030",
+              "question": "🇦🇿",
+              "options": [
+                "Azerbaijan",
+                "Turkey",
+                "Uzbekistan",
+                "Pakistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, red, and green stripes with a white crescent and an eight-pointed star — Azerbaijan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_031",
+              "question": "🇧🇭",
+              "options": [
+                "Bahrain",
+                "Qatar",
+                "UAE",
+                "Oman"
+              ],
+              "correct_answer": 0,
+              "explanation": "White band separated from a red area by five white triangles — Bahrain.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_032",
+              "question": "🇧🇹",
+              "options": [
+                "Bhutan",
+                "Wales",
+                "Sri Lanka",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow and orange with a white dragon in the center — Bhutan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_033",
+              "question": "🇧🇳",
+              "options": [
+                "Brunei",
+                "Malaysia",
+                "Singapore",
+                "Thailand"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yellow field with black and white diagonal stripes and the coat of arms — Brunei.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_034",
+              "question": "🇯🇴",
+              "options": [
+                "Jordan",
+                "Palestine",
+                "Sudan",
+                "Kuwait"
+              ],
+              "correct_answer": 0,
+              "explanation": "Black, white, and green stripes with a red triangle and a seven-pointed star — Jordan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_035",
+              "question": "🇰🇼",
+              "options": [
+                "Kuwait",
+                "UAE",
+                "Jordan",
+                "Iraq"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green, white, and red horizontal stripes with a black trapezoid — Kuwait.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_036",
+              "question": "🇰🇬",
+              "options": [
+                "Kyrgyzstan",
+                "Kazakhstan",
+                "North Macedonia",
+                "Japan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a yellow sun in the center — Kyrgyzstan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_037",
+              "question": "🇱🇦",
+              "options": [
+                "Laos",
+                "Cambodia",
+                "Thailand",
+                "North Korea"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and blue horizontal stripes with a white disc in the center — Laos.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_038",
+              "question": "🇱🇧",
+              "options": [
+                "Lebanon",
+                "Canada",
+                "Austria",
+                "Peru"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and white horizontal stripes with a green cedar tree — Lebanon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_039",
+              "question": "🇲🇻",
+              "options": [
+                "Maldives",
+                "Bangladesh",
+                "Turkey",
+                "Tunisia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a green rectangle and a white crescent moon — Maldives.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_040",
+              "question": "🇲🇳",
+              "options": [
+                "Mongolia",
+                "China",
+                "Kazakhstan",
+                "Romania"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and blue vertical stripes with the Soyombo symbol — Mongolia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_041",
+              "question": "🇴🇲",
+              "options": [
+                "Oman",
+                "Yemen",
+                "Saudi Arabia",
+                "Egypt"
+              ],
+              "correct_answer": 0,
+              "explanation": "White, red, and green horizontal stripes with a red vertical stripe and the national emblem — Oman.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_042",
+              "question": "🇸🇾",
+              "options": [
+                "Syria",
+                "Iraq",
+                "Yemen",
+                "Egypt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and black stripes with two green stars — Syria.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_043",
+              "question": "🇹🇯",
+              "options": [
+                "Tajikistan",
+                "Iran",
+                "Hungary",
+                "Uzbekistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and green stripes with a crown and seven stars — Tajikistan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_044",
+              "question": "🇹🇱",
+              "options": [
+                "Timor-Leste",
+                "Cuba",
+                "South Africa",
+                "Guyana"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red field with a black triangle over a yellow triangle and a white star — Timor-Leste.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_045",
+              "question": "🇹🇲",
+              "options": [
+                "Turkmenistan",
+                "Kazakhstan",
+                "Belarus",
+                "Iran"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green field with a vertical red stripe containing five carpet guls, and a crescent with five stars — Turkmenistan.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_asia_046",
+              "question": "🇾🇪",
+              "options": [
+                "Yemen",
+                "Egypt",
+                "Syria",
+                "Germany"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and black horizontal stripes — Yemen.",
+              "difficulty": "easy",
+              "points": 10
             }
           ]
         },
@@ -2165,6 +2417,272 @@
               "correct_answer": 0,
               "explanation": "Seven horizontal stripes with a white triangle containing a red star and the Zimbabwe Bird — Zimbabwe.",
               "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_036",
+              "question": "🇧🇯",
+              "options": [
+                "Benin",
+                "Ethiopia",
+                "Cameroon",
+                "Ghana"
+              ],
+              "correct_answer": 0,
+              "explanation": "Two horizontal yellow and red bands and a vertical green band — Benin.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_037",
+              "question": "🇧🇫",
+              "options": [
+                "Burkina Faso",
+                "Vietnam",
+                "Suriname",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red and green horizontal bands with a yellow star — Burkina Faso.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_038",
+              "question": "🇨🇻",
+              "options": [
+                "Cabo Verde",
+                "European Union",
+                "Brazil",
+                "USA"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue field with a red and white stripe and a circle of ten yellow stars — Cabo Verde.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_039",
+              "question": "🇨🇫",
+              "options": [
+                "Central African Republic",
+                "Thailand",
+                "Gambia",
+                "Comoros"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue, white, green, and yellow stripes with a red vertical stripe and a yellow star — Central African Republic.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_040",
+              "question": "🇨🇮",
+              "options": [
+                "Ivory Coast",
+                "Ireland",
+                "Italy",
+                "Niger"
+              ],
+              "correct_answer": 0,
+              "explanation": "Orange, white, and green vertical stripes — Ivory Coast.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_041",
+              "question": "🇲🇼",
+              "options": [
+                "Malawi",
+                "Kenya",
+                "Germany",
+                "Egypt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Black, red, and green stripes with a red rising sun — Malawi.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_042",
+              "question": "🇳🇪",
+              "options": [
+                "Niger",
+                "India",
+                "Ireland",
+                "Ivory Coast"
+              ],
+              "correct_answer": 0,
+              "explanation": "Orange, white, and green stripes with an orange disc in the center — Niger.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_043",
+              "question": "🇸🇴",
+              "options": [
+                "Somalia",
+                "Vietnam",
+                "Micronesia",
+                "Bosnia and Herzegovina"
+              ],
+              "correct_answer": 0,
+              "explanation": "Light blue with a single white star — Somalia.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_044",
+              "question": "🇹🇬",
+              "options": [
+                "Togo",
+                "Liberia",
+                "USA",
+                "Greece"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green and yellow stripes with a red canton and a white star — Togo.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_045",
+              "question": "🇿🇲",
+              "options": [
+                "Zambia",
+                "Zimbabwe",
+                "Kenya",
+                "South Africa"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green field with an orange eagle and a block of red, black, and orange vertical stripes — Zambia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_046",
+              "question": "🇧🇮",
+              "options": [
+                "Burundi",
+                "Rwanda",
+                "Uganda",
+                "Bolivia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A white saltire divides the field, with a central circle of three red stars — Burundi.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_047",
+              "question": "🇰🇲",
+              "options": [
+                "Comoros",
+                "Central African Republic",
+                "Gambia",
+                "Mauritius"
+              ],
+              "correct_answer": 0,
+              "explanation": "Four horizontal stripes with a green triangle, crescent, and four stars — Comoros.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_048",
+              "question": "🇨🇬",
+              "options": [
+                "Republic of the Congo",
+                "DR Congo",
+                "Ghana",
+                "Senegal"
+              ],
+              "correct_answer": 0,
+              "explanation": "A yellow diagonal band divides the flag into a green upper triangle and a red lower triangle — Republic of the Congo.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_049",
+              "question": "🇪🇷",
+              "options": [
+                "Eritrea",
+                "Ethiopia",
+                "Guyana",
+                "Mozambique"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large red triangle with green and blue triangles, and a yellow wreath emblem — Eritrea.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_050",
+              "question": "🇬🇼",
+              "options": [
+                "Guinea-Bissau",
+                "Ghana",
+                "Cameroon",
+                "Togo"
+              ],
+              "correct_answer": 0,
+              "explanation": "A vertical red band with a black star, alongside yellow and green horizontal bands — Guinea-Bissau.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_051",
+              "question": "🇲🇷",
+              "options": [
+                "Mauritania",
+                "Pakistan",
+                "Algeria",
+                "Saudi Arabia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green field with red bands, and a central gold crescent and star — Mauritania.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_052",
+              "question": "🇸🇹",
+              "options": [
+                "Sao Tome and Principe",
+                "Ghana",
+                "Suriname",
+                "Togo"
+              ],
+              "correct_answer": 0,
+              "explanation": "Green and yellow stripes with a red triangle and two black stars — Sao Tome and Principe.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_053",
+              "question": "🇸🇨",
+              "options": [
+                "Seychelles",
+                "Mauritius",
+                "Comoros",
+                "South Africa"
+              ],
+              "correct_answer": 0,
+              "explanation": "Five oblique bands of blue, yellow, red, white, and green — Seychelles.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "flag_africa_054",
+              "question": "🇸🇩",
+              "options": [
+                "Sudan",
+                "South Sudan",
+                "Jordan",
+                "Palestine"
+              ],
+              "correct_answer": 0,
+              "explanation": "Red, white, and black horizontal stripes with a green triangle at the hoist — Sudan.",
+              "difficulty": "medium",
               "points": 10
             }
           ]
