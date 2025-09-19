@@ -3390,6 +3390,1138 @@
           ]
         }
       ]
+    },
+    {
+      "id": "world_maps",
+      "name": "World Maps",
+      "description": "Identify countries by their shape and test your geography knowledge",
+      "icon": "🗺️",
+      "color": "#2E7D32",
+      "question_timer_seconds": 15,
+      "points_per_question": 15,
+      "requiredLevel": 1,
+      "subcategories": [
+        {
+          "id": "maps_asia",
+          "name": "Asia",
+          "icon": "🌏",
+          "color": "#388E3C",
+          "questions": [
+            {
+              "id": "map_asia_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "India",
+                "Pakistan",
+                "Bangladesh",
+                "Sri Lanka"
+              ],
+              "correct_answer": 0,
+              "explanation": "The triangular peninsula extending into the Indian Ocean with a northeast corridor identifies India. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "in"
+            },
+            {
+              "id": "map_asia_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Japan",
+                "Philippines",
+                "Indonesia",
+                "South Korea"
+              ],
+              "correct_answer": 0,
+              "explanation": "An arc-shaped archipelago of four main islands and Hokkaido to the north identifies Japan. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "jp"
+            },
+            {
+              "id": "map_asia_003",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "China",
+                "Mongolia",
+                "Russia",
+                "Kazakhstan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A vast outline with a pronounced northeastern extension toward the Korean Peninsula marks China. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cn"
+            },
+            {
+              "id": "map_asia_004",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Saudi Arabia",
+                "Iran",
+                "Iraq",
+                "Yemen"
+              ],
+              "correct_answer": 0,
+              "explanation": "The large, roughly rectangular landmass occupying most of the Arabian Peninsula is Saudi Arabia. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sa"
+            },
+            {
+              "id": "map_asia_005",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Indonesia",
+                "Philippines",
+                "Malaysia",
+                "Vietnam"
+              ],
+              "correct_answer": 0,
+              "explanation": "A sprawling equatorial archipelago crossing both sides of the equator identifies Indonesia. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "id"
+            },
+            {
+              "id": "map_asia_006",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Pakistan",
+                "Afghanistan",
+                "Iran",
+                "India"
+              ],
+              "correct_answer": 0,
+              "explanation": "A west–east diagonal outline on the subcontinent’s northwest with a narrow coastal south marks Pakistan. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "pk"
+            },
+            {
+              "id": "map_asia_007",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Bangladesh",
+                "Myanmar",
+                "Nepal",
+                "Bhutan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A deltaic outline on the Bay of Bengal east of India indicates Bangladesh. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bd"
+            },
+            {
+              "id": "map_asia_008",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Sri Lanka",
+                "Maldives",
+                "India",
+                "Bangladesh"
+              ],
+              "correct_answer": 0,
+              "explanation": "A teardrop-shaped island off India’s southeast coast is Sri Lanka. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lk"
+            },
+            {
+              "id": "map_asia_009",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Nepal",
+                "Bhutan",
+                "Laos",
+                "Mongolia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A long, narrow east–west stretch nestled along the Himalayas identifies Nepal. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "np"
+            },
+            {
+              "id": "map_asia_010",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Bhutan",
+                "Nepal",
+                "Laos",
+                "Cambodia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, landlocked Himalayan outline east of Nepal marks Bhutan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bt"
+            },
+            {
+              "id": "map_asia_011",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Maldives",
+                "Sri Lanka",
+                "Bahrain",
+                "Qatar"
+              ],
+              "correct_answer": 0,
+              "explanation": "A scattered chain of tiny atolls in the Indian Ocean southwest of India is the Maldives. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mv"
+            },
+            {
+              "id": "map_asia_012",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Afghanistan",
+                "Pakistan",
+                "Iran",
+                "Tajikistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked outline with a narrow Wakhan Corridor pointing east identifies Afghanistan. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "af"
+            },
+            {
+              "id": "map_asia_013",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Iran",
+                "Iraq",
+                "Turkey",
+                "Syria"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, roughly oval country on the Iranian plateau with Persian Gulf and Caspian exposure marks Iran. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ir"
+            },
+            {
+              "id": "map_asia_014",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Iraq",
+                "Syria",
+                "Jordan",
+                "Iran"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Mesopotamian outline between the Tigris and Euphrates with a small Persian Gulf coast indicates Iraq. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "iq"
+            },
+            {
+              "id": "map_asia_015",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Syria",
+                "Lebanon",
+                "Iraq",
+                "Jordan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Levantine outline with Mediterranean frontage north of Lebanon marks Syria. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sy"
+            },
+            {
+              "id": "map_asia_016",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Jordan",
+                "Israel",
+                "Lebanon",
+                "Egypt"
+              ],
+              "correct_answer": 0,
+              "explanation": "An inland Levantine outline bordering the Dead Sea and Red Sea via Aqaba identifies Jordan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "jo"
+            },
+            {
+              "id": "map_asia_017",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Israel",
+                "Jordan",
+                "Lebanon",
+                "Cyprus"
+              ],
+              "correct_answer": 0,
+              "explanation": "A narrow coastal outline along the eastern Mediterranean with a southern Negev wedge marks Israel. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "il"
+            },
+            {
+              "id": "map_asia_018",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Lebanon",
+                "Israel",
+                "Syria",
+                "Cyprus"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, compact Mediterranean coastline north of Israel indicates Lebanon. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lb"
+            },
+            {
+              "id": "map_asia_019",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Turkey",
+                "Georgia",
+                "Azerbaijan",
+                "Armenia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A transcontinental bridge with a broad Anatolian peninsula and a European tip marks Turkey. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tr"
+            },
+            {
+              "id": "map_asia_020",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Cyprus",
+                "Malta",
+                "Lebanon",
+                "Greece"
+              ],
+              "correct_answer": 0,
+              "explanation": "An oval-shaped island in the eastern Mediterranean south of Turkey identifies Cyprus. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cy"
+            },
+            {
+              "id": "map_asia_021",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Georgia",
+                "Armenia",
+                "Azerbaijan",
+                "Turkey"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Caucasus outline along the Black Sea’s eastern coast with a western bulge marks Georgia. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ge"
+            },
+            {
+              "id": "map_asia_022",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Armenia",
+                "Azerbaijan",
+                "Georgia",
+                "Iran"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, landlocked Caucasus outline between Georgia, Azerbaijan, Turkey, and Iran indicates Armenia. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "am"
+            },
+            {
+              "id": "map_asia_023",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Azerbaijan",
+                "Armenia",
+                "Georgia",
+                "Iran"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Caspian-facing outline with a separated Nakhchivan exclave identifies Azerbaijan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "az"
+            },
+            {
+              "id": "map_asia_024",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Kazakhstan",
+                "Uzbekistan",
+                "Russia",
+                "Mongolia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A vast, landlocked steppe outline with a long Caspian coast and a bite-shaped east marks Kazakhstan. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kz"
+            },
+            {
+              "id": "map_asia_025",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Kyrgyzstan",
+                "Tajikistan",
+                "Uzbekistan",
+                "Turkmenistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A mountainous, compact outline with a central lake (Issyk-Kul) region identifies Kyrgyzstan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kg"
+            },
+            {
+              "id": "map_asia_026",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Tajikistan",
+                "Kyrgyzstan",
+                "Uzbekistan",
+                "Afghanistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A jagged, elongated outline with a southeast Pamir ‘hook’ distinguishes Tajikistan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tj"
+            },
+            {
+              "id": "map_asia_027",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Uzbekistan",
+                "Turkmenistan",
+                "Kazakhstan",
+                "Tajikistan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A double-landlocked outline with multiple enclaves/exclaves on its eastern side marks Uzbekistan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "uz"
+            },
+            {
+              "id": "map_asia_028",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Turkmenistan",
+                "Uzbekistan",
+                "Iran",
+                "Kazakhstan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Caspian-facing desert outline with a pronounced southwest projection identifies Turkmenistan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tm"
+            },
+            {
+              "id": "map_asia_029",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Mongolia",
+                "China",
+                "Kazakhstan",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, landlocked steppe outline between Russia and China indicates Mongolia. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mn"
+            },
+            {
+              "id": "map_asia_030",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "North Korea",
+                "South Korea",
+                "Japan",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "The northern half of the Korean Peninsula with a straighter northern border is North Korea. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kp"
+            },
+            {
+              "id": "map_asia_031",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "South Korea",
+                "North Korea",
+                "Japan",
+                "Taiwan"
+              ],
+              "correct_answer": 0,
+              "explanation": "The southern half of the Korean Peninsula with a more indented southern coastline marks South Korea. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kr"
+            },
+            {
+              "id": "map_asia_032",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Philippines",
+                "Indonesia",
+                "Malaysia",
+                "Japan"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago of many mid-sized islands in the western Pacific identifies the Philippines. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ph"
+            },
+            {
+              "id": "map_asia_033",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Malaysia",
+                "Indonesia",
+                "Brunei",
+                "Thailand"
+              ],
+              "correct_answer": 0,
+              "explanation": "A split outline on the Malay Peninsula and northern Borneo identifies Malaysia. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "my"
+            },
+            {
+              "id": "map_asia_034",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Singapore",
+                "Brunei",
+                "Malaysia",
+                "Maldives"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small island-city state at the tip of the Malay Peninsula is Singapore. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sg"
+            },
+            {
+              "id": "map_asia_035",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Brunei",
+                "Malaysia",
+                "Indonesia",
+                "Singapore"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, two-part territory on the north coast of Borneo identifies Brunei. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bn"
+            },
+            {
+              "id": "map_asia_036",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Thailand",
+                "Laos",
+                "Cambodia",
+                "Myanmar"
+              ],
+              "correct_answer": 0,
+              "explanation": "A central Indochina outline with a distinct ‘elephant head’ shape marks Thailand. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "th"
+            },
+            {
+              "id": "map_asia_037",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Vietnam",
+                "Cambodia",
+                "Laos",
+                "Thailand"
+              ],
+              "correct_answer": 0,
+              "explanation": "A long S-shaped coastline along the South China Sea identifies Vietnam. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "vn"
+            },
+            {
+              "id": "map_asia_038",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Cambodia",
+                "Laos",
+                "Vietnam",
+                "Thailand"
+              ],
+              "correct_answer": 0,
+              "explanation": "A compact outline in the lower Mekong Basin with Tonlé Sap marks Cambodia. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kh"
+            },
+            {
+              "id": "map_asia_039",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Laos",
+                "Cambodia",
+                "Thailand",
+                "Vietnam"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked Indochina outline stretched north–south along the Mekong indicates Laos. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "la"
+            },
+            {
+              "id": "map_asia_040",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Myanmar",
+                "Thailand",
+                "Bangladesh",
+                "Laos"
+              ],
+              "correct_answer": 0,
+              "explanation": "A broad Indochina outline with a long arc down the Andaman coast identifies Myanmar. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mm"
+            },
+            {
+              "id": "map_asia_041",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Timor-Leste",
+                "Indonesia",
+                "Papua New Guinea",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "The eastern half of Timor island with a small Oecusse exclave is Timor-Leste. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tl"
+            },
+            {
+              "id": "map_asia_042",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Malaysia",
+                "Qatar",
+                "United Arab Emirates",
+                "Bahrain"
+              ],
+              "correct_answer": 3,
+              "explanation": "A small island nation off Saudi Arabia’s east coast in the Persian Gulf is Bahrain. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bh"
+            },
+            {
+              "id": "map_asia_043",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Qatar",
+                "Bahrain",
+                "Kuwait",
+                "UAE"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small peninsula jutting into the Persian Gulf from Arabia identifies Qatar. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "qa"
+            },
+            {
+              "id": "map_asia_044",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "United Arab Emirates",
+                "Qatar",
+                "Bahrain",
+                "Oman"
+              ],
+              "correct_answer": 0,
+              "explanation": "A federation with an irregular Gulf coastline and an Omani enclave nearby marks the UAE. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ae"
+            },
+            {
+              "id": "map_asia_045",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Kuwait",
+                "Qatar",
+                "Bahrain",
+                "Saudi Arabia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small rectangle at the head of the Persian Gulf between Iraq and Saudi Arabia is Kuwait. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kw"
+            },
+            {
+              "id": "map_asia_046",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Oman",
+                "Yemen",
+                "UAE",
+                "Saudi Arabia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A southeastern Arabian outline with a Musandam exclave on the Strait of Hormuz identifies Oman. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "om"
+            },
+            {
+              "id": "map_asia_047",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Yemen",
+                "Oman",
+                "Saudi Arabia",
+                "Jordan"
+              ],
+              "correct_answer": 0,
+              "explanation": "A southwestern Arabian outline with a long Red Sea and Gulf of Aden coastline marks Yemen. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ye"
+            },
+            {
+              "id": "map_asia_048",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Russia",
+                "Kazakhstan",
+                "Mongolia",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "A transcontinental giant spanning Eastern Europe and Northern Asia is Russia. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ru"
+            },
+            {
+              "id": "map_asia_049",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Taiwan",
+                "Japan",
+                "Philippines",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "An oval-shaped island off China’s southeast coast is Taiwan. [web:1][web:15]",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tw"
+            },
+            {
+              "id": "map_asia_050",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "State of Palestine",
+                "Israel",
+                "Jordan",
+                "Lebanon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small Levantine outline comprising West Bank and Gaza Strip areas identifies the State of Palestine. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ps"
+            },
+            {
+              "id": "map_asia_051",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Malaysia",
+                "Indonesia",
+                "Vietnam",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "The split peninsular-and-Borneo configuration distinguishes Malaysia from neighbors. [web:1][web:15]",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "my"
+            },
+            {
+              "id": "map_asia_052",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Uzbekistan",
+                "Kazakhstan",
+                "Turkmenistan",
+                "Tajikistan"
+              ],
+              "correct_answer": 2,
+              "explanation": "A Caspian-bordering desert state with a southwest projection identifies Turkmenistan. [web:1][web:15]",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tm"
+            }
+          ]
+        },
+        {
+          "id": "maps_europe",
+          "name": "Europe",
+          "icon": "🏰",
+          "color": "#1565C0",
+          "questions": [
+            {
+              "id": "map_europe_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Italy",
+                "Spain",
+                "Greece",
+                "France"
+              ],
+              "correct_answer": 0,
+              "explanation": "The distinctive boot shape with a spur and the island of Sicily nearby identifies Italy.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "it"
+            },
+            {
+              "id": "map_europe_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "France",
+                "Germany",
+                "Poland",
+                "Belgium"
+              ],
+              "correct_answer": 0,
+              "explanation": "The hexagon-like outline is known as the Hexagone, referring to France’s shape.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "fr"
+            },
+            {
+              "id": "map_europe_003",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Norway",
+                "Sweden",
+                "Finland",
+                "Denmark"
+              ],
+              "correct_answer": 0,
+              "explanation": "A long, narrow coastline hugging the North Atlantic fjords indicates Norway.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "no"
+            }
+          ]
+        },
+        {
+          "id": "maps_africa",
+          "name": "Africa",
+          "icon": "🐘",
+          "color": "#2C6E49",
+          "questions": [
+            {
+              "id": "map_africa_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Egypt",
+                "Libya",
+                "Sudan",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Northeast African corner with a triangular Nile Delta and the Sinai Peninsula is Egypt.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "eg"
+            },
+            {
+              "id": "map_africa_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "South Africa",
+                "Namibia",
+                "Botswana",
+                "Zimbabwe"
+              ],
+              "correct_answer": 0,
+              "explanation": "At Africa’s southern tip, surrounding Lesotho completely, is South Africa.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "za"
+            },
+            {
+              "id": "map_africa_003",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Madagascar",
+                "Mauritius",
+                "Seychelles",
+                "Comoros"
+              ],
+              "correct_answer": 0,
+              "explanation": "The large, elongated island off Africa’s southeast coast identifies Madagascar.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mg"
+            }
+          ]
+        },
+        {
+          "id": "maps_north_america",
+          "name": "North America",
+          "icon": "🌎",
+          "color": "#00695C",
+          "questions": [
+            {
+              "id": "map_na_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Mexico",
+                "United States",
+                "Guatemala",
+                "Cuba"
+              ],
+              "correct_answer": 0,
+              "explanation": "A tapering shape with the long Baja California peninsula on the west marks Mexico.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mx"
+            },
+            {
+              "id": "map_na_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Canada",
+                "United States",
+                "Greenland",
+                "Iceland"
+              ],
+              "correct_answer": 0,
+              "explanation": "A vast northern landmass with numerous Arctic islands indicates Canada.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ca"
+            },
+            {
+              "id": "map_na_003",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Cuba",
+                "Jamaica",
+                "Haiti",
+                "Dominican Republic"
+              ],
+              "correct_answer": 0,
+              "explanation": "A long, narrow island resembling a cigar in the Caribbean is Cuba.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cu"
+            }
+          ]
+        },
+        {
+          "id": "maps_south_america",
+          "name": "South America",
+          "icon": "🦜",
+          "color": "#8E24AA",
+          "questions": [
+            {
+              "id": "map_sa_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Brazil",
+                "Argentina",
+                "Peru",
+                "Colombia"
+              ],
+              "correct_answer": 0,
+              "explanation": "The massive eastern bulge along the Atlantic coast identifies Brazil.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "br"
+            },
+            {
+              "id": "map_sa_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Chile",
+                "Uruguay",
+                "Ecuador",
+                "Bolivia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A long, slender strip along the Pacific coastline is Chile.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cl"
+            },
+            {
+              "id": "map_sa_003",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Argentina",
+                "Paraguay",
+                "Bolivia",
+                "Venezuela"
+              ],
+              "correct_answer": 0,
+              "explanation": "A cone-shaped country in the south, stretching from the Pampas to Patagonia, is Argentina.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ar"
+            }
+          ]
+        },
+        {
+          "id": "maps_oceania",
+          "name": "Oceania",
+          "icon": "🐨",
+          "color": "#00796B",
+          "questions": [
+            {
+              "id": "map_oc_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Australia",
+                "New Zealand",
+                "Papua New Guinea",
+                "Fiji"
+              ],
+              "correct_answer": 0,
+              "explanation": "The large island continent with the Gulf of Carpentaria and Cape York Peninsula is Australia.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "au"
+            },
+            {
+              "id": "map_oc_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "New Zealand",
+                "Fiji",
+                "Samoa",
+                "Vanuatu"
+              ],
+              "correct_answer": 0,
+              "explanation": "Two main islands oriented southwest–northeast identify New Zealand.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "nz"
+            },
+            {
+              "id": "map_oc_003",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Papua New Guinea",
+                "Indonesia",
+                "Solomon Islands",
+                "East Timor"
+              ],
+              "correct_answer": 0,
+              "explanation": "The eastern half of the island of New Guinea with a jagged coastline is Papua New Guinea.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "pg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
