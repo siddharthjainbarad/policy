@@ -56,6 +56,902 @@
               "explanation": "Elastic collisions conserve both momentum and kinetic energy.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "phy_004",
+              "question": "What is the value of gravitational acceleration (g) on Earth?",
+              "options": [
+                "9.8 m/s²",
+                "10 km/s²",
+                "6.67×10⁻¹¹ m/s²",
+                "1.6 m/s²"
+              ],
+              "correct_answer": 0,
+              "explanation": "g = 9.8 m/s² near Earth's surface.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_005",
+              "question": "Newton's first law is also called the law of:",
+              "options": [
+                "Inertia",
+                "Acceleration",
+                "Action-Reaction",
+                "Gravitation"
+              ],
+              "correct_answer": 0,
+              "explanation": "Objects resist changes in motion (inertia).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_006",
+              "question": "Which law relates force, mass, and acceleration?",
+              "options": [
+                "Newton's First Law",
+                "Newton's Second Law",
+                "Newton's Third Law",
+                "Kepler's Law"
+              ],
+              "correct_answer": 1,
+              "explanation": "F = ma (Newton's Second Law).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_007",
+              "question": "What is the unit of energy?",
+              "options": [
+                "Watt",
+                "Joule",
+                "Newton",
+                "Pascal"
+              ],
+              "correct_answer": 1,
+              "explanation": "Energy is measured in Joules (J).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_008",
+              "question": "Work done is zero if displacement is:",
+              "options": [
+                "Perpendicular to force",
+                "Parallel to force",
+                "Opposite to force",
+                "In the direction of force"
+              ],
+              "correct_answer": 0,
+              "explanation": "W = F·d·cos(θ); if θ = 90°, W = 0.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_009",
+              "question": "Power is defined as:",
+              "options": [
+                "Force × Time",
+                "Work / Time",
+                "Energy × Distance",
+                "Mass × Acceleration"
+              ],
+              "correct_answer": 1,
+              "explanation": "Power = Work/Time, measured in Watts (W).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_010",
+              "question": "In a series circuit, what remains constant?",
+              "options": [
+                "Voltage",
+                "Current",
+                "Resistance",
+                "Power"
+              ],
+              "correct_answer": 1,
+              "explanation": "Same current flows through all components.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_011",
+              "question": "What is the SI unit of pressure?",
+              "options": [
+                "Pascal",
+                "Newton",
+                "Joule",
+                "Watt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pressure is measured in Pascals (Pa).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_012",
+              "question": "Archimedes' principle explains:",
+              "options": [
+                "Buoyant force",
+                "Gravitational force",
+                "Frictional force",
+                "Tension force"
+              ],
+              "correct_answer": 0,
+              "explanation": "Buoyant force = Weight of displaced fluid.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_013",
+              "question": "Heat transfer through direct contact is called:",
+              "options": [
+                "Conduction",
+                "Convection",
+                "Radiation",
+                "Evaporation"
+              ],
+              "correct_answer": 0,
+              "explanation": "Conduction occurs in solids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_014",
+              "question": "Absolute zero temperature is:",
+              "options": [
+                "0°C",
+                "100°C",
+                "-273.15°C",
+                "273.15°C"
+              ],
+              "correct_answer": 2,
+              "explanation": "0 K = -273.15°C, lowest possible temperature.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_015",
+              "question": "Which wave requires a medium?",
+              "options": [
+                "Light wave",
+                "Sound wave",
+                "Gamma ray",
+                "X-ray"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sound waves are mechanical waves.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_016",
+              "question": "The focal length of a plane mirror is:",
+              "options": [
+                "Zero",
+                "Infinite",
+                "1 meter",
+                "10 cm"
+              ],
+              "correct_answer": 1,
+              "explanation": "Plane mirrors have f = ∞.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_017",
+              "question": "What is the formula for kinetic energy?",
+              "options": [
+                "½mv²",
+                "mgh",
+                "F·d",
+                "½kx²"
+              ],
+              "correct_answer": 0,
+              "explanation": "KE = ½ × mass × velocity².",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_018",
+              "question": "Escape velocity from Earth's surface is approximately:",
+              "options": [
+                "11.2 km/s",
+                "3×10^8 m/s",
+                "9.8 m/s",
+                "1 km/h"
+              ],
+              "correct_answer": 0,
+              "explanation": "vₑ ≈ 11.2 km/s.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_019",
+              "question": "The SI unit of frequency is:",
+              "options": [
+                "Hertz",
+                "Newton",
+                "Watt",
+                "Joule"
+              ],
+              "correct_answer": 0,
+              "explanation": "Frequency is measured in Hertz (Hz).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_020",
+              "question": "Who formulated the laws of planetary motion?",
+              "options": [
+                "Newton",
+                "Einstein",
+                "Kepler",
+                "Galileo"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kepler's three laws describe planetary orbits.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_021",
+              "question": "In a concave mirror, where is the focus located?",
+              "options": [
+                "Behind the mirror",
+                "In front of the mirror",
+                "At the mirror surface",
+                "At infinity"
+              ],
+              "correct_answer": 1,
+              "explanation": "Concave mirrors converge light at a real focus.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_022",
+              "question": "The process of heat transfer in fluids is:",
+              "options": [
+                "Conduction",
+                "Convection",
+                "Radiation",
+                "Advection"
+              ],
+              "correct_answer": 1,
+              "explanation": "Convection involves fluid movement.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_023",
+              "question": "What does Ohm's law state?",
+              "options": [
+                "V = IR",
+                "P = IV",
+                "F = ma",
+                "E = mc²"
+              ],
+              "correct_answer": 0,
+              "explanation": "Voltage = Current × Resistance.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_024",
+              "question": "The angle of incidence equals the angle of:",
+              "options": [
+                "Reflection",
+                "Refraction",
+                "Diffraction",
+                "Interference"
+              ],
+              "correct_answer": 0,
+              "explanation": "Law of reflection: θᵢ = θᵣ.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_025",
+              "question": "Which force opposes motion between surfaces?",
+              "options": [
+                "Tension",
+                "Friction",
+                "Normal force",
+                "Gravitational force"
+              ],
+              "correct_answer": 1,
+              "explanation": "Friction acts opposite to motion.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_026",
+              "question": "What is the critical angle in optics?",
+              "options": [
+                "Angle of incidence for total internal reflection",
+                "Angle of refraction",
+                "Brewster's angle",
+                "Angle of polarization"
+              ],
+              "correct_answer": 0,
+              "explanation": "Beyond this angle, TIR occurs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_027",
+              "question": "The time period of a simple pendulum depends on:",
+              "options": [
+                "Mass",
+                "Length",
+                "Amplitude",
+                "Velocity"
+              ],
+              "correct_answer": 1,
+              "explanation": "T = 2π√(L/g); mass does not affect T.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_028",
+              "question": "The universal gravitational constant (G) is approximately:",
+              "options": [
+                "6.67×10⁻¹¹ N·m²/kg²",
+                "9.8 m/s²",
+                "3×10^8 m/s",
+                "1.6×10⁻¹⁹ C"
+              ],
+              "correct_answer": 0,
+              "explanation": "G ≈ 6.67 × 10⁻¹¹ N·m²/kg².",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_029",
+              "question": "What is the principle behind a hydraulic lift?",
+              "options": [
+                "Pascal's law",
+                "Archimedes' principle",
+                "Bernoulli's principle",
+                "Newton's third law"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pressure applied is transmitted undiminished.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_030",
+              "question": "The momentum of an object is:",
+              "options": [
+                "Mass × Acceleration",
+                "Mass × Velocity",
+                "Force × Time",
+                "Energy / Time"
+              ],
+              "correct_answer": 1,
+              "explanation": "p = mv.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_031",
+              "question": "In projectile motion, horizontal velocity:",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Remains constant",
+                "Becomes zero"
+              ],
+              "correct_answer": 2,
+              "explanation": "No horizontal force (ignoring air resistance).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_032",
+              "question": "What is the energy of a photon proportional to?",
+              "options": [
+                "Frequency",
+                "Wavelength",
+                "Intensity",
+                "Speed"
+              ],
+              "correct_answer": 0,
+              "explanation": "E = hν (Planck's equation).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_033",
+              "question": "The photoelectric effect demonstrates the:",
+              "options": [
+                "Wave nature of light",
+                "Particle nature of light",
+                "Dual nature of light",
+                "None of the above"
+              ],
+              "correct_answer": 1,
+              "explanation": "Light behaves as photons (particles).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_034",
+              "question": "What is the decay process of unstable nuclei called?",
+              "options": [
+                "Fusion",
+                "Fission",
+                "Radioactivity",
+                "Ionization"
+              ],
+              "correct_answer": 2,
+              "explanation": "Radioactive decay emits α, β, γ rays.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_035",
+              "question": "The half-life of a radioactive substance is:",
+              "options": [
+                "Time to fully decay",
+                "Time for half the nuclei to decay",
+                "Double the decay time",
+                "None of the above"
+              ],
+              "correct_answer": 1,
+              "explanation": "T₁/₂ is the time for 50% decay.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_036",
+              "question": "Which device converts mechanical energy to electrical energy?",
+              "options": [
+                "Motor",
+                "Generator",
+                "Transformer",
+                "Inductor"
+              ],
+              "correct_answer": 1,
+              "explanation": "Generators work on electromagnetic induction.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_037",
+              "question": "The core of an electromagnet is made of:",
+              "options": [
+                "Copper",
+                "Iron",
+                "Aluminum",
+                "Silver"
+              ],
+              "correct_answer": 1,
+              "explanation": "Iron enhances magnetic strength.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_038",
+              "question": "What is the resonance condition in an LCR circuit?",
+              "options": [
+                "Xₗ = Xᶜ",
+                "Xₗ > Xᶜ",
+                "Xₗ < Xᶜ",
+                "R = 0"
+              ],
+              "correct_answer": 0,
+              "explanation": "At resonance, inductive reactance = capacitive reactance.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "phy_039",
+              "question": "The SI unit of magnetic field strength is:",
+              "options": [
+                "Tesla",
+                "Gauss",
+                "Weber",
+                "Henry"
+              ],
+              "correct_answer": 0,
+              "explanation": "1 Tesla = 1 N/(A·m).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_040",
+              "question": "Fleming's left-hand rule is used for:",
+              "options": [
+                "Motors",
+                "Generators",
+                "Transformers",
+                "Inductors"
+              ],
+              "correct_answer": 0,
+              "explanation": "Determines direction of force on a current-carrying conductor.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_041",
+              "question": "What is the Doppler effect?",
+              "options": [
+                "Change in frequency due to relative motion",
+                "Change in wavelength due to medium",
+                "Reflection of waves",
+                "Diffraction of waves"
+              ],
+              "correct_answer": 0,
+              "explanation": "Observed frequency changes when source or observer moves.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_042",
+              "question": "The phenomenon of light bending around corners is:",
+              "options": [
+                "Reflection",
+                "Refraction",
+                "Diffraction",
+                "Interference"
+              ],
+              "correct_answer": 2,
+              "explanation": "Diffraction occurs at edges or obstacles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_043",
+              "question": "The lens formula is:",
+              "options": [
+                "1/f = 1/v + 1/u",
+                "1/f = 1/v - 1/u",
+                "f = v × u",
+                "f = v + u"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lens formula: 1/f = 1/v - 1/u.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_044",
+              "question": "In a transformer, which law is used?",
+              "options": [
+                "Faraday's law",
+                "Ohm's law",
+                "Kirchhoff's law",
+                "Ampere's law"
+              ],
+              "correct_answer": 0,
+              "explanation": "Transformers work on mutual induction.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_045",
+              "question": "What is the primary function of a fuse?",
+              "options": [
+                "To increase voltage",
+                "To store charge",
+                "To protect circuits from overcurrent",
+                "To decrease resistance"
+              ],
+              "correct_answer": 2,
+              "explanation": "Fuses break the circuit during excessive current.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_046",
+              "question": "The force between two charges is given by:",
+              "options": [
+                "Coulomb's law",
+                "Gauss's law",
+                "Ohm's law",
+                "Newton's law"
+              ],
+              "correct_answer": 0,
+              "explanation": "F = k(q₁q₂)/r².",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_047",
+              "question": "The speed of sound is maximum in:",
+              "options": [
+                "Air",
+                "Water",
+                "Steel",
+                "Vacuum"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sound travels fastest in solids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_048",
+              "question": "What is the principle of a rocket's propulsion?",
+              "options": [
+                "Newton's first law",
+                "Newton's second law",
+                "Newton's third law",
+                "Law of gravitation"
+              ],
+              "correct_answer": 2,
+              "explanation": "Action-reaction principle: exhaust gases push the rocket forward.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_049",
+              "question": "The coefficient of restitution (e) for a perfectly elastic collision is:",
+              "options": [
+                "0",
+                "1",
+                "0.5",
+                "∞"
+              ],
+              "correct_answer": 1,
+              "explanation": "e = 1 means no energy loss.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_050",
+              "question": "The torque on a rotating body is:",
+              "options": [
+                "Force × Distance",
+                "Force × Perpendicular distance",
+                "Mass × Acceleration",
+                "Work / Time"
+              ],
+              "correct_answer": 1,
+              "explanation": "τ = r × F sin(θ).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_051",
+              "question": "What does the term 'ampere' measure?",
+              "options": [
+                "Voltage",
+                "Current",
+                "Resistance",
+                "Power"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ampere (A) is the unit of electric current.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_052",
+              "question": "The energy stored in a capacitor is:",
+              "options": [
+                "½CV²",
+                "CV²",
+                "QV",
+                "IR"
+              ],
+              "correct_answer": 0,
+              "explanation": "Energy = ½ × Capacitance × Voltage².",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_053",
+              "question": "The magnetic field inside a solenoid is:",
+              "options": [
+                "Uniform",
+                "Non-uniform",
+                "Zero",
+                "Circular"
+              ],
+              "correct_answer": 0,
+              "explanation": "B = μ₀nI (constant inside).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_054",
+              "question": "What is the work done in moving a charge between two points on an equipotential surface?",
+              "options": [
+                "Zero",
+                "Maximum",
+                "Infinite",
+                "Depends on the path"
+              ],
+              "correct_answer": 0,
+              "explanation": "Potential difference is zero.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_055",
+              "question": "The time period of a geostationary satellite is:",
+              "options": [
+                "24 hours",
+                "12 hours",
+                "1 year",
+                "365 days"
+              ],
+              "correct_answer": 0,
+              "explanation": "Matches Earth's rotational period.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_056",
+              "question": "What is the unit of electric flux?",
+              "options": [
+                "Volt-meter",
+                "Newton/Coulomb",
+                "Joule/Coulomb",
+                "Ampere"
+              ],
+              "correct_answer": 0,
+              "explanation": "Φₑ = E·A; unit is V·m or N·m²/C.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_057",
+              "question": "The radius of the nth orbit in the Bohr model is proportional to:",
+              "options": [
+                "n",
+                "n²",
+                "1/n",
+                "1/n²"
+              ],
+              "correct_answer": 1,
+              "explanation": "rₙ ∝ n² (Bohr's atomic model).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_058",
+              "question": "The mass-energy equivalence relation is:",
+              "options": [
+                "E = mc",
+                "E = mc²",
+                "E = ½mv²",
+                "F = ma"
+              ],
+              "correct_answer": 1,
+              "explanation": "Einstein's famous equation: E = mc².",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "phy_059",
+              "question": "The force between two parallel current-carrying conductors is:",
+              "options": [
+                "Attractive",
+                "Repulsive",
+                "Zero",
+                "Infinite"
+              ],
+              "correct_answer": 0,
+              "explanation": "Currents in the same direction attract.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_060",
+              "question": "The refractive index of a medium is:",
+              "options": [
+                "Speed of light in vacuum / Speed of light in medium",
+                "Speed of light in medium / Speed of light in vacuum",
+                "Wavelength in vacuum / Wavelength in medium",
+                "None of the above"
+              ],
+              "correct_answer": 0,
+              "explanation": "n = c/v.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_061",
+              "question": "What is the critical angle for total internal reflection?",
+              "options": [
+                "sin⁻¹(n₂/n₁)",
+                "sin⁻¹(n₁/n₂)",
+                "cos⁻¹(n₂/n₁)",
+                "tan⁻¹(n₂/n₁)"
+              ],
+              "correct_answer": 0,
+              "explanation": "θᶜ = sin⁻¹(n₂/n₁) for n₁ > n₂.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_062",
+              "question": "The SI unit of electric dipole moment is:",
+              "options": [
+                "Coulomb-meter",
+                "Ampere-meter",
+                "Volt/meter",
+                "Newton/Coulomb"
+              ],
+              "correct_answer": 0,
+              "explanation": "p = q × d; unit is C·m.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_063",
+              "question": "The drift velocity of electrons in a conductor is:",
+              "options": [
+                "Very high (~10^8 m/s)",
+                "Moderate (~1 m/s)",
+                "Very low (~10⁻⁴ m/s)",
+                "Zero"
+              ],
+              "correct_answer": 2,
+              "explanation": "Drift velocity is slow due to frequent collisions.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_064",
+              "question": "Kirchhoff's first law (junction rule) is based on:",
+              "options": [
+                "Conservation of charge",
+                "Conservation of energy",
+                "Conservation of momentum",
+                "Ohm's law"
+              ],
+              "correct_answer": 0,
+              "explanation": "ΣIᵢₙ = ΣIₒᵤₜ (charge conservation).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_065",
+              "question": "The magnetic field at the center of a current-carrying loop is:",
+              "options": [
+                "Directly proportional to radius",
+                "Inversely proportional to radius",
+                "Independent of radius",
+                "Zero"
+              ],
+              "correct_answer": 1,
+              "explanation": "B = μ₀I/2R.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_066",
+              "question": "The equation for the de Broglie wavelength is:",
+              "options": [
+                "λ = h/p",
+                "λ = p/h",
+                "λ = mv",
+                "λ = hc/E"
+              ],
+              "correct_answer": 0,
+              "explanation": "λ = h/mv (matter waves).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "phy_067",
+              "question": "The binding energy of a nucleus is:",
+              "options": [
+                "The energy required to break it into nucleons",
+                "The energy released during formation",
+                "Both A and B",
+                "None of the above"
+              ],
+              "correct_answer": 2,
+              "explanation": "Binding energy = Energy needed to disassemble = Energy released during formation.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -106,6 +1002,902 @@
               "explanation": "Covalent bonds involve sharing of electrons.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "chem_004",
+              "question": "The smallest unit of an element is:",
+              "options": [
+                "Molecule",
+                "Atom",
+                "Compound",
+                "Mixture"
+              ],
+              "correct_answer": 1,
+              "explanation": "An atom is the smallest indivisible unit.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_005",
+              "question": "Which gas is responsible for global warming?",
+              "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Helium"
+              ],
+              "correct_answer": 2,
+              "explanation": "CO₂ traps heat in the atmosphere.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_006",
+              "question": "The process of conversion of water into vapor is called:",
+              "options": [
+                "Condensation",
+                "Evaporation",
+                "Sublimation",
+                "Deposition"
+              ],
+              "correct_answer": 1,
+              "explanation": "Evaporation occurs at the surface of liquids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_007",
+              "question": "The chemical formula of water is:",
+              "options": [
+                "H₂O",
+                "H₂O₂",
+                "O₂",
+                "CO₂"
+              ],
+              "correct_answer": 0,
+              "explanation": "Water consists of two hydrogen and one oxygen atom.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_008",
+              "question": "The pH scale ranges from:",
+              "options": [
+                "0 to 7",
+                "0 to 14",
+                "1 to 10",
+                "-1 to 15"
+              ],
+              "correct_answer": 1,
+              "explanation": "pH = 0 (acidic) to 14 (basic).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_009",
+              "question": "Which element has the highest electronegativity?",
+              "options": [
+                "Fluorine",
+                "Oxygen",
+                "Nitrogen",
+                "Chlorine"
+              ],
+              "correct_answer": 0,
+              "explanation": "Fluorine is the most electronegative element.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_010",
+              "question": "The law of conservation of mass states:",
+              "options": [
+                "Mass is created in reactions",
+                "Mass is destroyed in reactions",
+                "Mass remains constant in a closed system",
+                "Mass varies with temperature"
+              ],
+              "correct_answer": 2,
+              "explanation": "Law of conservation of mass (Lavoisier, 1789).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_011",
+              "question": "The process of gaining electrons is called:",
+              "options": [
+                "Oxidation",
+                "Reduction",
+                "Ionization",
+                "Electrolysis"
+              ],
+              "correct_answer": 1,
+              "explanation": "Reduction = Gain of electrons (GER: Gain Electrons Reduce).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_012",
+              "question": "Which of the following is a noble gas?",
+              "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Argon",
+                "Hydrogen"
+              ],
+              "correct_answer": 2,
+              "explanation": "Argon (Ar) is a noble gas (Group 18).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_013",
+              "question": "The chemical formula for ammonia is:",
+              "options": [
+                "NH₄",
+                "NH₃",
+                "N₂H₄",
+                "HNO₃"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ammonia = NH₃ (1 nitrogen, 3 hydrogens).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_014",
+              "question": "The periodic table is arranged by:",
+              "options": [
+                "Atomic mass",
+                "Atomic number",
+                "Density",
+                "Reactivity"
+              ],
+              "correct_answer": 1,
+              "explanation": "Modern periodic table uses atomic number (Z).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_015",
+              "question": "The reaction of an acid with a base produces:",
+              "options": [
+                "Salt and water",
+                "Salt and gas",
+                "Only water",
+                "Only salt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Neutralization reaction: Acid + Base → Salt + H₂O.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_016",
+              "question": "The most abundant gas in Earth's atmosphere is:",
+              "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Argon"
+              ],
+              "correct_answer": 1,
+              "explanation": "N₂ ≈ 78% of air.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_017",
+              "question": "Rusting of iron is an example of:",
+              "options": [
+                "Combustion",
+                "Reduction",
+                "Oxidation",
+                "Sublimation"
+              ],
+              "correct_answer": 2,
+              "explanation": "Rusting = Iron + Oxygen + Water → Iron oxide (oxidation).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_018",
+              "question": "The atomic number is equal to:",
+              "options": [
+                "Number of protons",
+                "Number of neutrons",
+                "Number of electrons",
+                "Sum of protons and neutrons"
+              ],
+              "correct_answer": 0,
+              "explanation": "Z = Number of protons in the nucleus.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_019",
+              "question": "Isotopes have the same:",
+              "options": [
+                "Number of neutrons",
+                "Atomic number",
+                "Mass number",
+                "Chemical properties"
+              ],
+              "correct_answer": 1,
+              "explanation": "Isotopes = Same Z (protons), different N (neutrons).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_020",
+              "question": "The pH of a strong acid is:",
+              "options": [
+                "Close to 0",
+                "Around 7",
+                "Around 14",
+                "Greater than 7"
+              ],
+              "correct_answer": 0,
+              "explanation": "Strong acids fully dissociate (e.g., HCl → H⁺ + Cl⁻).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_021",
+              "question": "Dalton's atomic theory states that:",
+              "options": [
+                "Atoms are divisible",
+                "Atoms of the same element are identical",
+                "Atoms cannot be created or destroyed",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dalton's postulates: indivisible, identical atoms, conservation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_022",
+              "question": "The process of conversion of solid directly into gas is:",
+              "options": [
+                "Melting",
+                "Boiling",
+                "Sublimation",
+                "Deposition"
+              ],
+              "correct_answer": 2,
+              "explanation": "Examples: Iodine, Dry ice (CO₂).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_023",
+              "question": "Mendeleev's periodic table was based on:",
+              "options": [
+                "Atomic number",
+                "Atomic mass",
+                "Electronegativity",
+                "Valence electrons"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mendeleev arranged elements by increasing atomic mass.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_024",
+              "question": "The chemical symbol for gold is:",
+              "options": [
+                "Ag",
+                "Au",
+                "Hg",
+                "Pb"
+              ],
+              "correct_answer": 1,
+              "explanation": "Au from Latin 'Aurum'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_025",
+              "question": "The valency of noble gases is:",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "correct_answer": 0,
+              "explanation": "Noble gases have a full octet (stable).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_026",
+              "question": "In the modern periodic table, elements are arranged in:",
+              "options": [
+                "Increasing atomic mass",
+                "Increasing atomic number",
+                "Decreasing reactivity",
+                "Alphabetical order"
+              ],
+              "correct_answer": 1,
+              "explanation": "Henry Moseley corrected Mendeleev's arrangement.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_027",
+              "question": "The formula for sulfuric acid is:",
+              "options": [
+                "HCl",
+                "H₂SO₄",
+                "HNO₃",
+                "CH₃COOH"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sulfuric acid = H₂SO₄.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_028",
+              "question": "The reaction between sodium and chlorine produces:",
+              "options": [
+                "Sodium chloride",
+                "Sodium oxide",
+                "Chlorine gas",
+                "Hydrogen gas"
+              ],
+              "correct_answer": 0,
+              "explanation": "2Na + Cl₂ → 2NaCl (table salt).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_029",
+              "question": "The cathode in an electrochemical cell is where:",
+              "options": [
+                "Oxidation occurs",
+                "Reduction occurs",
+                "Neutralization occurs",
+                "Ionization occurs"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cathode = Reduction (Cations move toward it).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_030",
+              "question": "The SI unit of amount of substance is:",
+              "options": [
+                "Gram",
+                "Mole",
+                "Liter",
+                "Kilogram"
+              ],
+              "correct_answer": 1,
+              "explanation": "1 mole = 6.022 × 10²³ particles (Avogadro's number).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_031",
+              "question": "Which law relates the volume of a gas to the number of moles?",
+              "options": [
+                "Boyle's law",
+                "Charles's law",
+                "Avogadro's law",
+                "Ideal gas law"
+              ],
+              "correct_answer": 2,
+              "explanation": "V ∝ n (at constant T and P).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_032",
+              "question": "The process of adding hydrogen to a compound is called:",
+              "options": [
+                "Oxidation",
+                "Reduction",
+                "Halogenation",
+                "Polymerization"
+              ],
+              "correct_answer": 1,
+              "explanation": "Reduction = Gain of hydrogen or loss of oxygen.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_033",
+              "question": "The chemical formula of baking soda is:",
+              "options": [
+                "Na₂CO₃",
+                "NaHCO₃",
+                "CaCO₃",
+                "KCl"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sodium bicarbonate = NaHCO₃.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_034",
+              "question": "The hardest naturally occurring substance is:",
+              "options": [
+                "Graphite",
+                "Diamond",
+                "Silica",
+                "Gold"
+              ],
+              "correct_answer": 1,
+              "explanation": "Diamond has a tetrahedral carbon lattice.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_035",
+              "question": "The gas produced during photosynthesis is:",
+              "options": [
+                "Oxygen",
+                "Carbon dioxide",
+                "Nitrogen",
+                "Hydrogen"
+              ],
+              "correct_answer": 0,
+              "explanation": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_036",
+              "question": "The most reactive metal in the periodic table is:",
+              "options": [
+                "Sodium",
+                "Potassium",
+                "Lithium",
+                "Francium"
+              ],
+              "correct_answer": 3,
+              "explanation": "Francium (Fr) is the most reactive (alkali metal).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_037",
+              "question": "The chemical name for vinegar is:",
+              "options": [
+                "Citric acid",
+                "Acetic acid",
+                "Formic acid",
+                "Oxalic acid"
+              ],
+              "correct_answer": 1,
+              "explanation": "Vinegar = CH₃COOH (acetic acid).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_038",
+              "question": "The element with atomic number 1 is:",
+              "options": [
+                "Helium",
+                "Hydrogen",
+                "Lithium",
+                "Oxygen"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hydrogen (H) has Z = 1.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_039",
+              "question": "The molecular formula of glucose is:",
+              "options": [
+                "C₆H₁₂O₆",
+                "C₁₂H₂₂O₁₁",
+                "C₂H₅OH",
+                "CH₄"
+              ],
+              "correct_answer": 0,
+              "explanation": "Glucose is a simple sugar (monosaccharide).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_040",
+              "question": "The process of electrolysis of water produces:",
+              "options": [
+                "Oxygen and hydrogen",
+                "Only oxygen",
+                "Only hydrogen",
+                "Carbon dioxide"
+              ],
+              "correct_answer": 0,
+              "explanation": "2H₂O → 2H₂ + O₂.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_041",
+              "question": "The chemical symbol for silver is:",
+              "options": [
+                "Ag",
+                "Au",
+                "Hg",
+                "Pb"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ag from Latin 'Argentum'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_042",
+              "question": "The valency of oxygen is:",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "correct_answer": 1,
+              "explanation": "Oxygen needs 2 electrons to complete its octet.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_043",
+              "question": "The gas law PV = nRT is called:",
+              "options": [
+                "Ideal gas law",
+                "Boyle's law",
+                "Charles's law",
+                "Avogadro's law"
+              ],
+              "correct_answer": 0,
+              "explanation": "Combines Boyle's, Charles's, and Avogadro's laws.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_044",
+              "question": "The element with the highest melting point is:",
+              "options": [
+                "Tungsten",
+                "Carbon",
+                "Iron",
+                "Copper"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tungsten (W): 3422°C.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_045",
+              "question": "The chemical formula for rust is:",
+              "options": [
+                "FeO",
+                "Fe₂O₃",
+                "Fe₃O₄",
+                "Fe₂O₃·nH₂O"
+              ],
+              "correct_answer": 3,
+              "explanation": "Rust = Hydrated iron(III) oxide.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_046",
+              "question": "The pH of pure water at 25°C is:",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "14"
+              ],
+              "correct_answer": 1,
+              "explanation": "Neutral solution: [H⁺] = [OH⁻] = 10⁻⁷ M.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_047",
+              "question": "The scientist who discovered the nucleus of an atom:",
+              "options": [
+                "Thomson",
+                "Rutherford",
+                "Bohr",
+                "Dalton"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rutherford's gold foil experiment (1911).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_048",
+              "question": "The type of bond in NaCl is:",
+              "options": [
+                "Covalent",
+                "Ionic",
+                "Metallic",
+                "Hydrogen"
+              ],
+              "correct_answer": 1,
+              "explanation": "Electron transfer from Na to Cl.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_049",
+              "question": "The chemical formula of ozone is:",
+              "options": [
+                "O₂",
+                "O₃",
+                "H₂O",
+                "CO₂"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ozone = Triatomic oxygen (O₃).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_050",
+              "question": "The process by which plants make food is:",
+              "options": [
+                "Respiration",
+                "Photosynthesis",
+                "Transpiration",
+                "Fermentation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Plants convert sunlight into glucose.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_051",
+              "question": "The atomic mass unit (amu) is defined as:",
+              "options": [
+                "1/12th mass of C-12",
+                "1/16th mass of O-16",
+                "Mass of a proton",
+                "Mass of an electron"
+              ],
+              "correct_answer": 0,
+              "explanation": "1 amu = 1.66 × 10⁻²⁴ grams.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_052",
+              "question": "The most electronegative element in the periodic table is:",
+              "options": [
+                "Oxygen",
+                "Fluorine",
+                "Chlorine",
+                "Nitrogen"
+              ],
+              "correct_answer": 1,
+              "explanation": "F has the highest tendency to attract electrons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_053",
+              "question": "The chemical formula for limestone is:",
+              "options": [
+                "CaO",
+                "CaCO₃",
+                "Ca(OH)₂",
+                "CaSO₄"
+              ],
+              "correct_answer": 1,
+              "explanation": "Limestone = Calcium carbonate.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_054",
+              "question": "The process of decay of organic matter by microorganisms is:",
+              "options": [
+                "Fermentation",
+                "Respiration",
+                "Decomposition",
+                "Photosynthesis"
+              ],
+              "correct_answer": 2,
+              "explanation": "Decomposition breaks down complex molecules.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_055",
+              "question": "The gas law that relates pressure and volume at constant temperature is:",
+              "options": [
+                "Charles's law",
+                "Boyle's law",
+                "Avogadro's law",
+                "Gay-Lussac's law"
+              ],
+              "correct_answer": 1,
+              "explanation": "P₁V₁ = P₂V₂ (Boyle's law).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_056",
+              "question": "The chemical name for washing soda is:",
+              "options": [
+                "Sodium bicarbonate",
+                "Sodium carbonate",
+                "Calcium carbonate",
+                "Potassium carbonate"
+              ],
+              "correct_answer": 1,
+              "explanation": "Washing soda = Na₂CO₃·10H₂O.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_057",
+              "question": "The element that is a liquid at room temperature is:",
+              "options": [
+                "Mercury",
+                "Bromine",
+                "Both A and B",
+                "None of the above"
+              ],
+              "correct_answer": 2,
+              "explanation": "Hg (metal) and Br₂ (non-metal) are liquids at 25°C.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_058",
+              "question": "The catalyst used in the Haber process is:",
+              "options": [
+                "Iron",
+                "Platinum",
+                "Nickel",
+                "Manganese"
+              ],
+              "correct_answer": 0,
+              "explanation": "N₂ + 3H₂ → 2NH₃ (iron catalyst).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_059",
+              "question": "The chemical formula of methane is:",
+              "options": [
+                "C₂H₆",
+                "CH₄",
+                "C₃H₈",
+                "C₄H₁₀"
+              ],
+              "correct_answer": 1,
+              "explanation": "Methane = Simplest alkane (CH₄).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_060",
+              "question": "The process of heating a substance to convert it into its oxide is:",
+              "options": [
+                "Calcination",
+                "Roasting",
+                "Smelting",
+                "Electrolysis"
+              ],
+              "correct_answer": 0,
+              "explanation": "Calcination: Thermal decomposition (e.g., CaCO₃ → CaO + CO₂).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_061",
+              "question": "The scientist who formulated the periodic law is:",
+              "options": [
+                "Mendeleev",
+                "Newlands",
+                "Moseley",
+                "Dalton"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mendeleev: Properties are periodic functions of atomic mass.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_062",
+              "question": "The type of reaction where heat is absorbed is:",
+              "options": [
+                "Exothermic",
+                "Endothermic",
+                "Neutralization",
+                "Combustion"
+              ],
+              "correct_answer": 1,
+              "explanation": "Endothermic: ΔH is positive (heat absorbed).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_063",
+              "question": "The chemical formula of ethanol is:",
+              "options": [
+                "CH₃OH",
+                "C₂H₅OH",
+                "C₃H₇OH",
+                "C₄H₉OH"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ethanol (alcohol) = C₂H₅OH.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_064",
+              "question": "The gas that turns limewater milky is:",
+              "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Hydrogen"
+              ],
+              "correct_answer": 2,
+              "explanation": "CO₂ + Ca(OH)₂ → CaCO₃ (white ppt.).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_065",
+              "question": "The reaction of acids with metals produces:",
+              "options": [
+                "Salt and water",
+                "Salt and hydrogen gas",
+                "Only salt",
+                "Only gas"
+              ],
+              "correct_answer": 1,
+              "explanation": "Zn + 2HCl → ZnCl₂ + H₂↑.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_066",
+              "question": "The element with the lowest atomic mass is:",
+              "options": [
+                "Hydrogen",
+                "Helium",
+                "Lithium",
+                "Beryllium"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hydrogen (H): Atomic mass ≈ 1 amu.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_067",
+              "question": "The process of coating iron with zinc to prevent rusting is:",
+              "options": [
+                "Galvanization",
+                "Electroplating",
+                "Anodizing",
+                "Tinning"
+              ],
+              "correct_answer": 0,
+              "explanation": "Zinc protects iron by sacrificial oxidation.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -154,6 +1946,902 @@
               ],
               "correct_answer": 2,
               "explanation": "Vitamin D is synthesized in the skin upon exposure to sunlight.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_004",
+              "question": "The process by which plants make their food is:",
+              "options": [
+                "Respiration",
+                "Photosynthesis",
+                "Transpiration",
+                "Fermentation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Plants convert sunlight into glucose during photosynthesis.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_005",
+              "question": "The largest organ of the human body is:",
+              "options": [
+                "Brain",
+                "Liver",
+                "Skin",
+                "Heart"
+              ],
+              "correct_answer": 2,
+              "explanation": "Skin covers the entire body and regulates temperature.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_006",
+              "question": "Which part of the cell contains genetic material?",
+              "options": [
+                "Mitochondria",
+                "Nucleus",
+                "Ribosome",
+                "Endoplasmic reticulum"
+              ],
+              "correct_answer": 1,
+              "explanation": "Nucleus stores DNA in eukaryotic cells.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_007",
+              "question": "The basic unit of life is:",
+              "options": [
+                "Tissue",
+                "Organ",
+                "Cell",
+                "Organism"
+              ],
+              "correct_answer": 2,
+              "explanation": "Cells are the smallest functional units.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_008",
+              "question": "Which blood cells are responsible for carrying oxygen?",
+              "options": [
+                "White blood cells",
+                "Red blood cells",
+                "Platelets",
+                "Plasma"
+              ],
+              "correct_answer": 1,
+              "explanation": "RBCs contain hemoglobin, which binds oxygen.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_009",
+              "question": "The process of breathing in is called:",
+              "options": [
+                "Exhalation",
+                "Inhalation",
+                "Respiration",
+                "Transpiration"
+              ],
+              "correct_answer": 1,
+              "explanation": "Inhalation = Intake of oxygen-rich air.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_010",
+              "question": "The largest bone in the human body is:",
+              "options": [
+                "Femur",
+                "Tibia",
+                "Fibula",
+                "Humerus"
+              ],
+              "correct_answer": 0,
+              "explanation": "Femur (thigh bone) is the longest and strongest bone.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_011",
+              "question": "Which organ filters blood in the human body?",
+              "options": [
+                "Liver",
+                "Kidney",
+                "Heart",
+                "Lungs"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kidneys remove waste and regulate fluid balance.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_012",
+              "question": "The green pigment in plants is:",
+              "options": [
+                "Chlorophyll",
+                "Carotene",
+                "Xanthophyll",
+                "Anthocyanin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Chlorophyll absorbs sunlight for photosynthesis.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_013",
+              "question": "Which system controls involuntary actions?",
+              "options": [
+                "Central nervous system",
+                "Peripheral nervous system",
+                "Autonomic nervous system",
+                "Endocrine system"
+              ],
+              "correct_answer": 2,
+              "explanation": "Autonomic system regulates heart rate, digestion, etc.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_014",
+              "question": "The fluid that surrounds cells is:",
+              "options": [
+                "Blood",
+                "Lymph",
+                "Interstitial fluid",
+                "Cytoplasm"
+              ],
+              "correct_answer": 2,
+              "explanation": "Interstitial fluid bathes cells and exchanges nutrients.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_015",
+              "question": "The study of tissues is called:",
+              "options": [
+                "Histology",
+                "Cytology",
+                "Anatomy",
+                "Physiology"
+              ],
+              "correct_answer": 0,
+              "explanation": "Histology examines microscopic structure of tissues.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_016",
+              "question": "Which hormone regulates blood sugar levels?",
+              "options": [
+                "Insulin",
+                "Adrenaline",
+                "Thyroxine",
+                "Estrogen"
+              ],
+              "correct_answer": 0,
+              "explanation": "Insulin lowers blood glucose by promoting uptake.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_017",
+              "question": "The process of elimination of waste from the body is:",
+              "options": [
+                "Respiration",
+                "Excretion",
+                "Digestion",
+                "Circulation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Excretion removes metabolic waste (e.g., urine, sweat).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_018",
+              "question": "The scientist who proposed the theory of evolution is:",
+              "options": [
+                "Darwin",
+                "Lamarck",
+                "Mendel",
+                "Pasteur"
+              ],
+              "correct_answer": 0,
+              "explanation": "Charles Darwin: Natural selection drives evolution.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_019",
+              "question": "The part of the brain that controls balance is:",
+              "options": [
+                "Cerebrum",
+                "Cerebellum",
+                "Medulla oblongata",
+                "Hypothalamus"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cerebellum coordinates movement and balance.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_020",
+              "question": "The carrier of genetic information is:",
+              "options": [
+                "Protein",
+                "Carbohydrate",
+                "DNA",
+                "Lipid"
+              ],
+              "correct_answer": 2,
+              "explanation": "DNA stores and transmits hereditary information.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_021",
+              "question": "The process by which water moves through a plant is:",
+              "options": [
+                "Photosynthesis",
+                "Respiration",
+                "Transpiration",
+                "Osmosis"
+              ],
+              "correct_answer": 2,
+              "explanation": "Transpiration = Evaporation of water from leaves.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_022",
+              "question": "The largest gland in the human body is:",
+              "options": [
+                "Liver",
+                "Pancreas",
+                "Thyroid",
+                "Pituitary"
+              ],
+              "correct_answer": 0,
+              "explanation": "Liver performs detoxification, metabolism, etc.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_023",
+              "question": "Which cells are responsible for fighting infections?",
+              "options": [
+                "Red blood cells",
+                "White blood cells",
+                "Platelets",
+                "Neurons"
+              ],
+              "correct_answer": 1,
+              "explanation": "WBCs (leukocytes) defend against pathogens.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_024",
+              "question": "The building blocks of proteins are:",
+              "options": [
+                "Nucleotides",
+                "Amino acids",
+                "Fatty acids",
+                "Glucose"
+              ],
+              "correct_answer": 1,
+              "explanation": "Proteins are polymers of amino acids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_025",
+              "question": "The process of cell division is called:",
+              "options": [
+                "Mitosis",
+                "Meiosis",
+                "Photosynthesis",
+                "Respiration"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mitosis produces identical daughter cells.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_026",
+              "question": "The ribosomes are responsible for:",
+              "options": [
+                "Energy production",
+                "Protein synthesis",
+                "Lipid storage",
+                "DNA replication"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ribosomes translate mRNA into proteins.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_027",
+              "question": "The human body temperature is regulated by:",
+              "options": [
+                "Liver",
+                "Kidney",
+                "Hypothalamus",
+                "Pituitary gland"
+              ],
+              "correct_answer": 2,
+              "explanation": "Hypothalamus acts as the body's thermostat.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_028",
+              "question": "The process of engulfing foreign particles by cells is:",
+              "options": [
+                "Phagocytosis",
+                "Pinocytosis",
+                "Exocytosis",
+                "Osmosis"
+              ],
+              "correct_answer": 0,
+              "explanation": "Phagocytosis = Cell eating (e.g., WBCs).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_029",
+              "question": "The male reproductive organ that produces sperm is:",
+              "options": [
+                "Testes",
+                "Prostate gland",
+                "Penis",
+                "Scrotum"
+              ],
+              "correct_answer": 0,
+              "explanation": "Testes produce sperm and testosterone.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_030",
+              "question": "The female reproductive cell is called:",
+              "options": [
+                "Sperm",
+                "Egg",
+                "Zygote",
+                "Embryo"
+              ],
+              "correct_answer": 1,
+              "explanation": "Egg (ovum) is the female gamete.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_031",
+              "question": "The fusion of sperm and egg is called:",
+              "options": [
+                "Fertilization",
+                "Pollination",
+                "Mitosis",
+                "Meiosis"
+              ],
+              "correct_answer": 0,
+              "explanation": "Forms a zygote (2n) during sexual reproduction.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_032",
+              "question": "The study of heredity and genes is:",
+              "options": [
+                "Genetics",
+                "Ecology",
+                "Evolution",
+                "Taxonomy"
+              ],
+              "correct_answer": 0,
+              "explanation": "Genetics explores inheritance patterns.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_033",
+              "question": "The scientist who discovered the laws of inheritance is:",
+              "options": [
+                "Darwin",
+                "Mendel",
+                "Watson",
+                "Crick"
+              ],
+              "correct_answer": 1,
+              "explanation": "Gregor Mendel: Father of Genetics.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_034",
+              "question": "The double helix structure of DNA was discovered by:",
+              "options": [
+                "Watson and Crick",
+                "Mendel",
+                "Darwin",
+                "Pasteur"
+              ],
+              "correct_answer": 0,
+              "explanation": "1953: Watson and Crick's model.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_035",
+              "question": "The organism that can survive in extreme conditions is:",
+              "options": [
+                "Bacteria",
+                "Virus",
+                "Extremophiles",
+                "Fungi"
+              ],
+              "correct_answer": 2,
+              "explanation": "Extremophiles live in hot springs, salty lakes, etc.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_036",
+              "question": "The process of breaking down food into simpler molecules is:",
+              "options": [
+                "Respiration",
+                "Digestion",
+                "Excretion",
+                "Circulation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Digestion occurs in the stomach and intestines.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_037",
+              "question": "The scientific study of plants is called:",
+              "options": [
+                "Botany",
+                "Zoology",
+                "Microbiology",
+                "Ecology"
+              ],
+              "correct_answer": 0,
+              "explanation": "Botany explores plant structure, growth, and classification.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_038",
+              "question": "The waste product excreted by plants is:",
+              "options": [
+                "Oxygen",
+                "Carbon dioxide",
+                "Water",
+                "Glucose"
+              ],
+              "correct_answer": 0,
+              "explanation": "O₂ is released during photosynthesis.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_039",
+              "question": "The movement of molecules from high to low concentration is:",
+              "options": [
+                "Osmosis",
+                "Diffusion",
+                "Active transport",
+                "Endocytosis"
+              ],
+              "correct_answer": 1,
+              "explanation": "Diffusion = Passive movement (e.g., scent spreading).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_040",
+              "question": "The enzyme that helps in digestion of proteins is:",
+              "options": [
+                "Amylase",
+                "Lipase",
+                "Trypsin",
+                "Pepsin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Pepsin breaks down proteins in the stomach.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_041",
+              "question": "The fluid part of blood is:",
+              "options": [
+                "Serum",
+                "Plasma",
+                "Lymph",
+                "Cytosol"
+              ],
+              "correct_answer": 1,
+              "explanation": "Plasma = Liquid component of blood (55%).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_042",
+              "question": "The organelle responsible for photosynthesis is:",
+              "options": [
+                "Mitochondria",
+                "Chloroplast",
+                "Nucleus",
+                "Golgi apparatus"
+              ],
+              "correct_answer": 1,
+              "explanation": "Chloroplasts contain chlorophyll.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_043",
+              "question": "The process by which water enters plant roots is:",
+              "options": [
+                "Transpiration",
+                "Photosynthesis",
+                "Osmosis",
+                "Respiration"
+              ],
+              "correct_answer": 2,
+              "explanation": "Osmosis drives water absorption in roots.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_044",
+              "question": "The largest artery in the human body is:",
+              "options": [
+                "Aorta",
+                "Pulmonary artery",
+                "Carotid artery",
+                "Femoral artery"
+              ],
+              "correct_answer": 0,
+              "explanation": "Aorta carries oxygenated blood from the heart.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_045",
+              "question": "The study of the structure of the body is:",
+              "options": [
+                "Physiology",
+                "Anatomy",
+                "Histology",
+                "Embryology"
+              ],
+              "correct_answer": 1,
+              "explanation": "Anatomy examines organs, bones, and tissues.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_046",
+              "question": "The main function of the respiratory system is:",
+              "options": [
+                "Oxygen intake and CO₂ removal",
+                "Digestion",
+                "Excretion",
+                "Hormone secretion"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lungs facilitate gas exchange.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_047",
+              "question": "The part of the brain that controls vision is:",
+              "options": [
+                "Frontal lobe",
+                "Parietal lobe",
+                "Temporal lobe",
+                "Occipital lobe"
+              ],
+              "correct_answer": 3,
+              "explanation": "Occipital lobe processes visual signals.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_048",
+              "question": "The process of cell death is called:",
+              "options": [
+                "Apoptosis",
+                "Mitosis",
+                "Meiosis",
+                "Osmosis"
+              ],
+              "correct_answer": 0,
+              "explanation": "Apoptosis = Programmed cell death (e.g., tadpole tail).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_049",
+              "question": "The smallest blood vessels are:",
+              "options": [
+                "Arteries",
+                "Veins",
+                "Capillaries",
+                "Aorta"
+              ],
+              "correct_answer": 2,
+              "explanation": "Capillaries allow nutrient exchange with tissues.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_050",
+              "question": "The organ that stores bile is:",
+              "options": [
+                "Liver",
+                "Pancreas",
+                "Gallbladder",
+                "Stomach"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gallbladder releases bile for fat digestion.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_051",
+              "question": "The scientist who developed the germ theory of disease is:",
+              "options": [
+                "Darwin",
+                "Pasteur",
+                "Mendel",
+                "Fleming"
+              ],
+              "correct_answer": 1,
+              "explanation": "Louis Pasteur: Microbes cause infections.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_052",
+              "question": "The process of copying DNA is called:",
+              "options": [
+                "Transcription",
+                "Translation",
+                "Replication",
+                "Mutation"
+              ],
+              "correct_answer": 2,
+              "explanation": "Replication duplicates DNA before cell division.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_053",
+              "question": "The hormone responsible for growth in humans is:",
+              "options": [
+                "Insulin",
+                "Thyroxine",
+                "Growth hormone",
+                "Adrenaline"
+              ],
+              "correct_answer": 2,
+              "explanation": "Growth hormone (GH) stimulates cell division.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_054",
+              "question": "The study of fungi is called:",
+              "options": [
+                "Mycology",
+                "Virology",
+                "Bacteriology",
+                "Phycology"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mycology explores mushrooms, molds, and yeasts.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_055",
+              "question": "The process of converting genetic information into proteins is:",
+              "options": [
+                "Replication",
+                "Transcription",
+                "Translation",
+                "Mutation"
+              ],
+              "correct_answer": 2,
+              "explanation": "Translation = mRNA → Protein (ribosomes).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_056",
+              "question": "The largest phylum in the animal kingdom is:",
+              "options": [
+                "Chordata",
+                "Arthropoda",
+                "Mollusca",
+                "Annelida"
+              ],
+              "correct_answer": 1,
+              "explanation": "Arthropoda includes insects, spiders, crustaceans.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_057",
+              "question": "The organ that detoxifies harmful substances is:",
+              "options": [
+                "Kidney",
+                "Liver",
+                "Heart",
+                "Lungs"
+              ],
+              "correct_answer": 1,
+              "explanation": "Liver metabolizes toxins (e.g., alcohol).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_058",
+              "question": "The process by which plants lose water is:",
+              "options": [
+                "Photosynthesis",
+                "Respiration",
+                "Transpiration",
+                "Osmosis"
+              ],
+              "correct_answer": 2,
+              "explanation": "Transpiration occurs mainly through stomata.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_059",
+              "question": "The scientist who invented the microscope is:",
+              "options": [
+                "Antonie van Leeuwenhoek",
+                "Robert Hooke",
+                "Louis Pasteur",
+                "Gregor Mendel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Leeuwenhoek: First to observe microorganisms.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_060",
+              "question": "The cell membrane is made of:",
+              "options": [
+                "Carbohydrates",
+                "Proteins",
+                "Lipids",
+                "Both B and C"
+              ],
+              "correct_answer": 3,
+              "explanation": "Phospholipid bilayer + Proteins (fluid mosaic model).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_061",
+              "question": "The process of maintaining a stable internal environment is:",
+              "options": [
+                "Homeostasis",
+                "Metabolism",
+                "Reproduction",
+                "Evolution"
+              ],
+              "correct_answer": 0,
+              "explanation": "Homeostasis regulates temperature, pH, etc.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_062",
+              "question": "The largest vein in the human body is:",
+              "options": [
+                "Superior vena cava",
+                "Inferior vena cava",
+                "Pulmonary vein",
+                "Hepatic vein"
+              ],
+              "correct_answer": 1,
+              "explanation": "Inferior vena cava returns deoxygenated blood to the heart.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_063",
+              "question": "The enzyme responsible for breaking down starch is:",
+              "options": [
+                "Amylase",
+                "Lipase",
+                "Trypsin",
+                "Pepsin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Amylase converts starch → sugars (saliva, pancreas).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_064",
+              "question": "The part of the ear responsible for balance is:",
+              "options": [
+                "Cochlea",
+                "Eardrum",
+                "Semicircular canals",
+                "Pinna"
+              ],
+              "correct_answer": 2,
+              "explanation": "Semicircular canals detect rotational movement.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_065",
+              "question": "The process of bone formation is:",
+              "options": [
+                "Ossification",
+                "Resorption",
+                "Calcification",
+                "Mineralization"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ossification = Bone development (osteoblasts).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_066",
+              "question": "The scientist who classified organisms into five kingdoms is:",
+              "options": [
+                "Linnaeus",
+                "Darwin",
+                "Whittaker",
+                "Mendel"
+              ],
+              "correct_answer": 2,
+              "explanation": "R.H. Whittaker: Monera, Protista, Fungi, Plantae, Animalia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_067",
+              "question": "The main function of the large intestine is:",
+              "options": [
+                "Digestion of proteins",
+                "Absorption of water",
+                "Production of bile",
+                "Oxygen exchange"
+              ],
+              "correct_answer": 1,
+              "explanation": "Large intestine reabsorbs water and forms feces.",
               "difficulty": "easy",
               "points": 10
             }
