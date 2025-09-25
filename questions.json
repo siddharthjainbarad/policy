@@ -8,7 +8,7 @@
       "color": "#8BC34A",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 5,
+      "requiredLevel": 20,
       "subcategories": [
         {
           "id": "world_history",
