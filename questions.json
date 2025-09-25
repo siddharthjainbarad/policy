@@ -1539,6 +1539,1590 @@
       ]
     },
     {
+      "id": "gk_inventors",
+      "name": "Indian Inventors & Inventions",
+      "description": "Indian inventors, scientists and their groundbreaking discoveries",
+      "icon": "💡",
+      "color": "#FFA500",
+      "question_timer_seconds": 12,
+      "points_per_question": 10,
+      "requiredLevel": 6,
+      "subcategories": [
+        {
+          "id": "gk_ancient_inventions",
+          "name": "Ancient Indian Discoveries",
+          "icon": "⚗️",
+          "color": "#CD853F",
+          "questions": [
+            {
+              "id": "gk_anc_001",
+              "question": "Who invented the concept of zero?",
+              "options": [
+                "Aryabhata",
+                "Brahmagupta",
+                "Bhaskara",
+                "Varahamihira"
+              ],
+              "correct_answer": 1,
+              "explanation": "Brahmagupta (628 CE) first gave rules for computing with zero and negative numbers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_002",
+              "question": "The decimal system was invented by?",
+              "options": [
+                "Ancient Indians",
+                "Greeks",
+                "Arabs",
+                "Chinese"
+              ],
+              "correct_answer": 0,
+              "explanation": "The decimal system including place value notation was developed in ancient India.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_003",
+              "question": "Who calculated the value of pi (π) accurately?",
+              "options": [
+                "Aryabhata",
+                "Madhava",
+                "Brahmagupta",
+                "Bhaskara II"
+              ],
+              "correct_answer": 1,
+              "explanation": "Madhava of Sangamagrama calculated π to 11 decimal places in the 14th century.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_004",
+              "question": "The game of chess originated in which ancient Indian kingdom?",
+              "options": [
+                "Mauryan Empire",
+                "Gupta Empire",
+                "Chola Empire",
+                "Pallava Empire"
+              ],
+              "correct_answer": 1,
+              "explanation": "Chess (originally Chaturanga) was invented during the Gupta Empire around 6th century CE.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_005",
+              "question": "Who wrote the ancient surgical text 'Sushruta Samhita'?",
+              "options": [
+                "Charaka",
+                "Sushruta",
+                "Patanjali",
+                "Dhanvantari"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sushruta wrote the Sushruta Samhita, describing over 300 surgical procedures.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_006",
+              "question": "The concept of infinity was first discussed by?",
+              "options": [
+                "Aryabhata",
+                "Brahmagupta",
+                "Bhaskara II",
+                "Pingala"
+              ],
+              "correct_answer": 2,
+              "explanation": "Bhaskara II discussed the concept of infinity in his work Lilavati.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_007",
+              "question": "Who invented cataract surgery?",
+              "options": [
+                "Sushruta",
+                "Charaka",
+                "Vagbhata",
+                "Kashyapa"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sushruta performed the first cataract surgery and described the procedure.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_008",
+              "question": "The binary number system was first described by?",
+              "options": [
+                "Pingala",
+                "Aryabhata",
+                "Brahmagupta",
+                "Varahamihira"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pingala described binary numbers in his work on Sanskrit prosody around 200 BCE.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_009",
+              "question": "Who calculated the Earth's circumference accurately?",
+              "options": [
+                "Aryabhata",
+                "Varahamihira",
+                "Brahmagupta",
+                "Al-Biruni"
+              ],
+              "correct_answer": 0,
+              "explanation": "Aryabhata calculated Earth's circumference as 24,835 miles, very close to the actual 24,902 miles.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_010",
+              "question": "The concept of plastic surgery was first described in?",
+              "options": [
+                "Charaka Samhita",
+                "Sushruta Samhita",
+                "Ashtanga Hridaya",
+                "Madhava Nidana"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sushruta Samhita describes plastic surgery techniques including rhinoplasty.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_011",
+              "question": "Who invented the flush toilet system?",
+              "options": [
+                "Harappan Civilization",
+                "Mauryan Empire",
+                "Gupta Empire",
+                "Mughal Empire"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Harappan civilization had sophisticated sewage and water management systems.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_012",
+              "question": "The steel-making process was first developed in?",
+              "options": [
+                "South India",
+                "North India",
+                "East India",
+                "West India"
+              ],
+              "correct_answer": 0,
+              "explanation": "Wootz steel was first produced in South India and was famous worldwide.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_013",
+              "question": "Who wrote the Yoga Sutras?",
+              "options": [
+                "Patanjali",
+                "Sushruta",
+                "Charaka",
+                "Aryabhata"
+              ],
+              "correct_answer": 0,
+              "explanation": "Patanjali compiled the Yoga Sutras, the foundational text of Yoga philosophy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_014",
+              "question": "The concept of negative numbers was introduced by?",
+              "options": [
+                "Aryabhata",
+                "Brahmagupta",
+                "Bhaskara",
+                "Varahamihira"
+              ],
+              "correct_answer": 1,
+              "explanation": "Brahmagupta was the first to give rules for mathematical operations with negative numbers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_015",
+              "question": "Who invented the spinning wheel (charkha)?",
+              "options": [
+                "Ancient Indians",
+                "Chinese",
+                "Egyptians",
+                "Greeks"
+              ],
+              "correct_answer": 0,
+              "explanation": "The spinning wheel was invented in India between 500 and 1000 CE.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_016",
+              "question": "The Pythagoras theorem was known in India as?",
+              "options": [
+                "Baudhayana theorem",
+                "Aryabhata theorem",
+                "Brahmagupta theorem",
+                "Bhaskara theorem"
+              ],
+              "correct_answer": 0,
+              "explanation": "Baudhayana stated the theorem centuries before Pythagoras in his Sulba Sutras.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_017",
+              "question": "Who first calculated the solar year accurately?",
+              "options": [
+                "Aryabhata",
+                "Varahamihira",
+                "Brahmagupta",
+                "Bhaskara"
+              ],
+              "correct_answer": 0,
+              "explanation": "Aryabhata calculated the solar year as 365.2588 days, very close to the modern value.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_018",
+              "question": "The game of Snakes and Ladders originated in ancient India as?",
+              "options": [
+                "Moksha Patam",
+                "Chaturanga",
+                "Pachisi",
+                "Ashta Chamma"
+              ],
+              "correct_answer": 0,
+              "explanation": "Moksha Patam was the original name, representing the journey of life and karma.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_019",
+              "question": "Who developed the concept of atom (Anu)?",
+              "options": [
+                "Kanada",
+                "Kapila",
+                "Gautama",
+                "Jaimini"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sage Kanada proposed the atomic theory in his Vaisheshika Sutra around 600 BCE.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_020",
+              "question": "The earliest known university in the world was?",
+              "options": [
+                "Nalanda",
+                "Takshashila",
+                "Vikramshila",
+                "Vallabhi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Takshashila (Taxila) University existed around 700 BCE, predating Nalanda.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_021",
+              "question": "Who invented the ruler (measuring scale)?",
+              "options": [
+                "Harappan Civilization",
+                "Vedic Indians",
+                "Mauryans",
+                "Guptas"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Harappans used standardized rulers made of ivory around 2500 BCE.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_022",
+              "question": "The concept of square root was first given by?",
+              "options": [
+                "Aryabhata",
+                "Baudhayana",
+                "Brahmagupta",
+                "Bhaskara"
+              ],
+              "correct_answer": 1,
+              "explanation": "Baudhayana gave methods for finding square roots in his Sulba Sutras.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_023",
+              "question": "Who invented the bow-drill for fire making?",
+              "options": [
+                "Harappan Civilization",
+                "Vedic Civilization",
+                "Mauryan Empire",
+                "Stone Age Indians"
+              ],
+              "correct_answer": 3,
+              "explanation": "Archaeological evidence shows bow-drills were used in ancient India for fire-making.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_024",
+              "question": "The diamond mining and polishing was first done in?",
+              "options": [
+                "India",
+                "Africa",
+                "Brazil",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "India was the only source of diamonds until the 18th century.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_anc_025",
+              "question": "Who wrote the first book on algebra?",
+              "options": [
+                "Aryabhata",
+                "Brahmagupta",
+                "Bhaskara II",
+                "Mahavira"
+              ],
+              "correct_answer": 1,
+              "explanation": "Brahmagupta's Brahmasphutasiddhanta contained the first systematic treatment of algebra.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_modern_scientists",
+          "name": "Modern Indian Scientists",
+          "icon": "🔬",
+          "color": "#4169E1",
+          "questions": [
+            {
+              "id": "gk_mod_sci_001",
+              "question": "Who discovered the Raman Effect?",
+              "options": [
+                "C.V. Raman",
+                "Jagadish Chandra Bose",
+                "Meghnad Saha",
+                "Satyendra Nath Bose"
+              ],
+              "correct_answer": 0,
+              "explanation": "C.V. Raman discovered the Raman Effect in 1928 and won the Nobel Prize in Physics.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_002",
+              "question": "The Bose-Einstein statistics was co-developed by?",
+              "options": [
+                "C.V. Raman",
+                "Jagadish Chandra Bose",
+                "Satyendra Nath Bose",
+                "Meghnad Saha"
+              ],
+              "correct_answer": 2,
+              "explanation": "Satyendra Nath Bose collaborated with Einstein to develop Bose-Einstein statistics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_003",
+              "question": "Who is known as the father of Indian nuclear program?",
+              "options": [
+                "Homi Bhabha",
+                "A.P.J. Abdul Kalam",
+                "Vikram Sarabhai",
+                "Raja Ramanna"
+              ],
+              "correct_answer": 0,
+              "explanation": "Homi Jehangir Bhabha is considered the father of India's nuclear program.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_004",
+              "question": "The first radio waves were transmitted by?",
+              "options": [
+                "Jagadish Chandra Bose",
+                "C.V. Raman",
+                "Meghnad Saha",
+                "Prafulla Chandra Ray"
+              ],
+              "correct_answer": 0,
+              "explanation": "J.C. Bose demonstrated radio transmission before Marconi, though he didn't patent it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_005",
+              "question": "Who founded the Indian Statistical Institute?",
+              "options": [
+                "P.C. Mahalanobis",
+                "C.R. Rao",
+                "S.N. Roy",
+                "K.R. Parthasarathy"
+              ],
+              "correct_answer": 0,
+              "explanation": "Prasanta Chandra Mahalanobis founded the Indian Statistical Institute in 1931.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_006",
+              "question": "Who developed the Saha ionization equation?",
+              "options": [
+                "Meghnad Saha",
+                "S.N. Bose",
+                "C.V. Raman",
+                "J.C. Bose"
+              ],
+              "correct_answer": 0,
+              "explanation": "Meghnad Saha developed the Saha ionization equation used in astrophysics.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_007",
+              "question": "Who synthesized the first artificial gene?",
+              "options": [
+                "Har Gobind Khorana",
+                "Venkatraman Ramakrishnan",
+                "Azim Premji",
+                "Raghunath Anant Mashelkar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Har Gobind Khorana synthesized the first artificial gene and won the Nobel Prize.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_008",
+              "question": "The Green Revolution in India was led by?",
+              "options": [
+                "M.S. Swaminathan",
+                "Norman Borlaug",
+                "Verghese Kurien",
+                "APJ Abdul Kalam"
+              ],
+              "correct_answer": 0,
+              "explanation": "M.S. Swaminathan is known as the Father of Green Revolution in India.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_009",
+              "question": "Who developed the White Revolution (Operation Flood)?",
+              "options": [
+                "M.S. Swaminathan",
+                "Verghese Kurien",
+                "C. Subramaniam",
+                "Lal Bahadur Shastri"
+              ],
+              "correct_answer": 1,
+              "explanation": "Verghese Kurien led Operation Flood, making India the world's largest milk producer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_010",
+              "question": "The structure of ribosome was discovered by?",
+              "options": [
+                "Har Gobind Khorana",
+                "Venkatraman Ramakrishnan",
+                "Ada Yonath",
+                "Thomas Steitz"
+              ],
+              "correct_answer": 1,
+              "explanation": "Venkatraman Ramakrishnan shared the 2009 Nobel Prize for ribosome structure studies.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_011",
+              "question": "Who is known as the Missile Man of India?",
+              "options": [
+                "Homi Bhabha",
+                "A.P.J. Abdul Kalam",
+                "Vikram Sarabhai",
+                "Satish Dhawan"
+              ],
+              "correct_answer": 1,
+              "explanation": "A.P.J. Abdul Kalam developed India's ballistic missile program and became President.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_012",
+              "question": "The founder of ISRO was?",
+              "options": [
+                "Vikram Sarabhai",
+                "A.P.J. Abdul Kalam",
+                "Satish Dhawan",
+                "U.R. Rao"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vikram Sarabhai founded ISRO and is called the Father of Indian Space Program.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_013",
+              "question": "Who developed the Pentium chip?",
+              "options": [
+                "Vinod Dham",
+                "Sabeer Bhatia",
+                "Vinod Khosla",
+                "Rajeev Motwani"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vinod Dham led the development of Intel's Pentium processor chip.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_014",
+              "question": "Who discovered the Chandrasekhar limit?",
+              "options": [
+                "Subrahmanyan Chandrasekhar",
+                "C.V. Raman",
+                "Meghnad Saha",
+                "J.C. Bose"
+              ],
+              "correct_answer": 0,
+              "explanation": "S. Chandrasekhar discovered the mass limit for white dwarf stars, winning the Nobel Prize.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_015",
+              "question": "Who invented the crescograph?",
+              "options": [
+                "J.C. Bose",
+                "C.V. Raman",
+                "P.C. Ray",
+                "Meghnad Saha"
+              ],
+              "correct_answer": 0,
+              "explanation": "J.C. Bose invented the crescograph to measure plant growth.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_016",
+              "question": "The theory of black holes was advanced by?",
+              "options": [
+                "S. Chandrasekhar",
+                "Jayant Narlikar",
+                "C.V. Vishveshwara",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "All three scientists made significant contributions to black hole theory.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_017",
+              "question": "Who discovered the triple helical structure of collagen?",
+              "options": [
+                "G.N. Ramachandran",
+                "Har Gobind Khorana",
+                "Venkatraman Ramakrishnan",
+                "C.N.R. Rao"
+              ],
+              "correct_answer": 0,
+              "explanation": "G.N. Ramachandran discovered the triple helical structure of collagen protein.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_018",
+              "question": "Who is known as the father of Indian chemistry?",
+              "options": [
+                "Prafulla Chandra Ray",
+                "C.N.R. Rao",
+                "Shanti Swarup Bhatnagar",
+                "T.R. Seshadri"
+              ],
+              "correct_answer": 0,
+              "explanation": "Prafulla Chandra Ray founded the first Indian research school in chemistry.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_019",
+              "question": "Who developed India's first indigenous supercomputer?",
+              "options": [
+                "Vijay Bhatkar",
+                "N.R. Narayana Murthy",
+                "Azim Premji",
+                "Sam Pitroda"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vijay Bhatkar led the development of PARAM supercomputers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_020",
+              "question": "The Ramachandran plot was developed by?",
+              "options": [
+                "G.N. Ramachandran",
+                "C.V. Raman",
+                "S. Chandrasekhar",
+                "Har Gobind Khorana"
+              ],
+              "correct_answer": 0,
+              "explanation": "G.N. Ramachandran developed the plot used to analyze protein structures.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_021",
+              "question": "Who founded the Tata Institute of Fundamental Research?",
+              "options": [
+                "Homi Bhabha",
+                "J.R.D. Tata",
+                "Dorabji Tata",
+                "Vikram Sarabhai"
+              ],
+              "correct_answer": 0,
+              "explanation": "Homi Bhabha founded TIFR in 1945 with support from the Tata Trust.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_022",
+              "question": "Who developed the theory of cosmic rays?",
+              "options": [
+                "Homi Bhabha",
+                "Vikram Sarabhai",
+                "Both A and B",
+                "C.V. Raman"
+              ],
+              "correct_answer": 2,
+              "explanation": "Both Bhabha and Sarabhai made significant contributions to cosmic ray research.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_023",
+              "question": "Who is known as the 'Birdman of India'?",
+              "options": [
+                "Salim Ali",
+                "J.B.S. Haldane",
+                "M.S. Swaminathan",
+                "R.C. Mehta"
+              ],
+              "correct_answer": 0,
+              "explanation": "Salim Ali was India's pioneering ornithologist and naturalist.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_024",
+              "question": "The C.R. Rao theorem is used in?",
+              "options": [
+                "Statistics",
+                "Physics",
+                "Chemistry",
+                "Biology"
+              ],
+              "correct_answer": 0,
+              "explanation": "C.R. Rao made fundamental contributions to statistical theory and multivariate analysis.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_025",
+              "question": "Who developed the fiber optics technology in India?",
+              "options": [
+                "Narinder Singh Kapany",
+                "C.K. Prahalad",
+                "Raj Reddy",
+                "Arogyaswami Paulraj"
+              ],
+              "correct_answer": 0,
+              "explanation": "Narinder Singh Kapany is considered the father of fiber optics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_026",
+              "question": "Who invented the wireless technology MIMO?",
+              "options": [
+                "Arogyaswami Paulraj",
+                "Raj Reddy",
+                "Vinod Dham",
+                "Ajay Bhatt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Arogyaswami Paulraj invented MIMO wireless technology used in WiFi and 4G.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_027",
+              "question": "Who is the father of Indian Pharmacy education?",
+              "options": [
+                "Prof. M.L. Schroff",
+                "Homi Bhabha",
+                "P.C. Ray",
+                "T.R. Seshadri"
+              ],
+              "correct_answer": 0,
+              "explanation": "Prof. M.L. Schroff established pharmacy education in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_028",
+              "question": "Who discovered the production of methane in paddy fields?",
+              "options": [
+                "K.R. Ramanathan",
+                "M.S. Swaminathan",
+                "C. Subramaniam",
+                "B.P. Pal"
+              ],
+              "correct_answer": 0,
+              "explanation": "K.R. Ramanathan discovered methane emissions from rice paddies.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_029",
+              "question": "Who developed India's first anti-leprosy vaccine?",
+              "options": [
+                "Dr. M.G. Deo",
+                "Dr. G.P. Talwar",
+                "Dr. V. Ramalingaswami",
+                "Dr. P.N. Tandon"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dr. G.P. Talwar developed the world's first anti-leprosy vaccine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_sci_030",
+              "question": "Who established India's first DNA fingerprinting facility?",
+              "options": [
+                "Lalji Singh",
+                "P.M. Bhargava",
+                "G. Padmanabhan",
+                "Obaid Siddiqi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lalji Singh established DNA fingerprinting in India and is called the 'Father of Indian DNA fingerprinting'.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_medical_inventions",
+          "name": "Medical & Health Innovations",
+          "icon": "🏥",
+          "color": "#DC143C",
+          "questions": [
+            {
+              "id": "gk_med_001",
+              "question": "Who performed the first successful kidney transplant in India?",
+              "options": [
+                "Dr. P.K. Sen",
+                "Dr. Devi Shetty",
+                "Dr. Naresh Trehan",
+                "Dr. A.S. Soin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. P.K. Sen performed India's first successful kidney transplant in 1971.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_002",
+              "question": "The oral rehydration therapy (ORS) was developed by?",
+              "options": [
+                "Dr. Dilip Mahalanabis",
+                "Dr. V. Ramalingaswami",
+                "Dr. Vulimiri Ramalingaswami",
+                "Dr. M.S. Valiathan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. Dilip Mahalanabis pioneered oral rehydration therapy, saving millions of lives.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_003",
+              "question": "Who developed the rotavirus vaccine?",
+              "options": [
+                "Dr. M.K. Bhan",
+                "Dr. Gagandeep Kang",
+                "Dr. T. Jacob John",
+                "Dr. N.K. Arora"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dr. Gagandeep Kang developed India's rotavirus vaccine and won international recognition.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_004",
+              "question": "The first heart valve replacement in India was done by?",
+              "options": [
+                "Dr. P. Venugopal",
+                "Dr. Devi Shetty",
+                "Dr. Naresh Trehan",
+                "Dr. K.M. Cherian"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. P. Venugopal performed the first heart valve replacement surgery in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_005",
+              "question": "Who developed the Jaipur foot prosthetic?",
+              "options": [
+                "Dr. P.K. Sethi",
+                "Dr. D.R. Mehta",
+                "Both A and B",
+                "Dr. A.P.J. Abdul Kalam"
+              ],
+              "correct_answer": 2,
+              "explanation": "Dr. P.K. Sethi and Dr. D.R. Mehta developed the affordable Jaipur foot prosthetic.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_006",
+              "question": "The vaccine for Japanese Encephalitis was developed in India by?",
+              "options": [
+                "Bharat Biotech",
+                "Serum Institute",
+                "Indian Immunologicals",
+                "Biological E"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bharat Biotech developed India's first indigenous Japanese Encephalitis vaccine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_007",
+              "question": "Who established the first cancer hospital in India?",
+              "options": [
+                "Tata Memorial Hospital",
+                "AIIMS",
+                "CMC Vellore",
+                "PGIMER"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tata Memorial Hospital, established in 1941, was India's first dedicated cancer hospital.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_008",
+              "question": "The indigenous COVID-19 vaccine Covaxin was developed by?",
+              "options": [
+                "Serum Institute",
+                "Bharat Biotech",
+                "Dr. Reddy's",
+                "Biological E"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bharat Biotech developed Covaxin in collaboration with ICMR and NIV.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_med_009",
+              "question": "Who pioneered microsurgery in India?",
+              "options": [
+                "Dr. Mukund Thatte",
+                "Dr. S.G. Deshmukh",
+                "Dr. Rajalakshmi Parthasarathy",
+                "Dr. V.P. Choudhary"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. Mukund Thatte is considered a pioneer of microsurgery and plastic surgery in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_010",
+              "question": "The world's cheapest hepatitis B vaccine was developed by?",
+              "options": [
+                "Shantha Biotechnics",
+                "Serum Institute",
+                "Bharat Biotech",
+                "Panacea Biotec"
+              ],
+              "correct_answer": 0,
+              "explanation": "Shantha Biotechnics developed the world's most affordable hepatitis B vaccine.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_011",
+              "question": "Who performed India's first liver transplant?",
+              "options": [
+                "Dr. A.S. Soin",
+                "Dr. Mohamed Rela",
+                "Dr. Subhash Gupta",
+                "Dr. P.K. Sen"
+              ],
+              "correct_answer": 2,
+              "explanation": "Dr. Subhash Gupta performed India's first successful liver transplant in 1998.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_012",
+              "question": "The world's first leprosy vaccine was developed by?",
+              "options": [
+                "Dr. G.P. Talwar",
+                "Dr. M.G. Deo",
+                "Dr. V. Ramalingaswami",
+                "Dr. C.K. Job"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. G.P. Talwar developed the world's first anti-leprosy vaccine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_013",
+              "question": "Who developed the birth control vaccine?",
+              "options": [
+                "Dr. G.P. Talwar",
+                "Dr. Indira Hinduja",
+                "Dr. Kamini Rao",
+                "Dr. B.N. Chakravarty"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. G.P. Talwar developed the world's first birth control vaccine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_014",
+              "question": "India's first test-tube baby was delivered by?",
+              "options": [
+                "Dr. Subhash Mukhopadhyay",
+                "Dr. Indira Hinduja",
+                "Dr. T.C. Anand Kumar",
+                "Dr. Kamini Rao"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. Subhash Mukhopadhyay created India's first test-tube baby in 1978.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_015",
+              "question": "Who developed the anti-rabies vaccine in India?",
+              "options": [
+                "Haffkine Institute",
+                "Pasteur Institute",
+                "Serum Institute",
+                "Central Research Institute"
+              ],
+              "correct_answer": 3,
+              "explanation": "Central Research Institute, Kasauli developed India's first anti-rabies vaccine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_016",
+              "question": "The Chitra heart valve was developed by?",
+              "options": [
+                "Sree Chitra Institute",
+                "AIIMS",
+                "CMC Vellore",
+                "Apollo Hospitals"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sree Chitra Institute developed the indigenous Chitra heart valve.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_017",
+              "question": "Who pioneered bone marrow transplantation in India?",
+              "options": [
+                "Dr. Suresh Advani",
+                "Dr. Mammen Chandy",
+                "Dr. Purvish Parikh",
+                "Dr. Tapan Saikia"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dr. Mammen Chandy pioneered bone marrow transplantation in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_018",
+              "question": "The Aravind Eye Care System was founded by?",
+              "options": [
+                "Dr. G. Venkataswamy",
+                "Dr. P. Namperumalsamy",
+                "Dr. S.S. Badrinath",
+                "Dr. Gullapalli N. Rao"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. G. Venkataswamy founded Aravind Eye Care, revolutionizing cataract surgery.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_019",
+              "question": "Who developed the indigenous malaria vaccine?",
+              "options": [
+                "Dr. V.P. Sharma",
+                "Dr. Chetan Chitnis",
+                "Dr. Virander Chauhan",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "All three scientists contributed to malaria vaccine development in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_020",
+              "question": "The Bangalore Blue baby syndrome was first described by?",
+              "options": [
+                "Dr. M.S. Valiathan",
+                "Dr. P. Venugopal",
+                "Dr. K.S. Iyer",
+                "Dr. K.M. Cherian"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dr. M.S. Valiathan described this cardiac condition specific to certain populations.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_021",
+              "question": "Who developed India's first 3D printed liver tissue?",
+              "options": [
+                "Pandorum Technologies",
+                "IIT Madras",
+                "AIIMS",
+                "IISc Bangalore"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pandorum Technologies developed India's first 3D bioprinted liver tissue.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_022",
+              "question": "The Rotavac vaccine was developed by?",
+              "options": [
+                "Bharat Biotech",
+                "Serum Institute",
+                "Shantha Biotechnics",
+                "Biological E"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bharat Biotech developed Rotavac, India's indigenous rotavirus vaccine.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_023",
+              "question": "Who performed India's first robotic surgery?",
+              "options": [
+                "Dr. Suresh Advani",
+                "Dr. Ashok Vaid",
+                "Dr. C.S. Pramesh",
+                "Dr. Mahendra Bhandari"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dr. Mahendra Bhandari performed India's first robotic surgery in 2002.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_024",
+              "question": "The low-cost sanitary pad making machine was invented by?",
+              "options": [
+                "Arunachalam Muruganantham",
+                "Dr. A.P.J. Abdul Kalam",
+                "Sonam Wangchuk",
+                "Mansukhbhai Prajapati"
+              ],
+              "correct_answer": 0,
+              "explanation": "Arunachalam Muruganantham invented the low-cost sanitary pad making machine.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_med_025",
+              "question": "Who developed India's first indigenous stent?",
+              "options": [
+                "Sahajanand Medical Technologies",
+                "Meril Life Sciences",
+                "Translumina",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "Multiple Indian companies have developed indigenous cardiac stents.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_tech_innovations",
+          "name": "Technology & Engineering",
+          "icon": "⚙️",
+          "color": "#32CD32",
+          "questions": [
+            {
+              "id": "gk_tech_001",
+              "question": "Who co-founded Hotmail?",
+              "options": [
+                "Sabeer Bhatia",
+                "Vinod Khosla",
+                "Vinod Dham",
+                "Rajeev Motwani"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sabeer Bhatia co-founded Hotmail, one of the first web-based email services.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_002",
+              "question": "The USB technology was co-invented by?",
+              "options": [
+                "Ajay Bhatt",
+                "Vinod Dham",
+                "Rajeev Motwani",
+                "Pradeep Sindhu"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ajay Bhatt led the team that developed USB technology at Intel.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_003",
+              "question": "Who founded Juniper Networks?",
+              "options": [
+                "Pradeep Sindhu",
+                "Vinod Khosla",
+                "Sabeer Bhatia",
+                "Rajeev Motwani"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pradeep Sindhu founded Juniper Networks, a major networking equipment company.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_004",
+              "question": "The PageRank algorithm was co-developed by?",
+              "options": [
+                "Larry Page",
+                "Rajeev Motwani",
+                "Both A and B",
+                "Sergey Brin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Rajeev Motwani mentored Larry Page and Sergey Brin in developing PageRank for Google.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_005",
+              "question": "Who designed India's fastest supercomputer?",
+              "options": [
+                "Param Padma team",
+                "C-DAC",
+                "IIT Kharagpur",
+                "ISRO"
+              ],
+              "correct_answer": 1,
+              "explanation": "C-DAC (Centre for Development of Advanced Computing) designed India's Param series supercomputers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_006",
+              "question": "The world's cheapest tablet Aakash was developed by?",
+              "options": [
+                "IIT Bombay",
+                "IIT Delhi",
+                "IIT Rajasthan",
+                "DataWind"
+              ],
+              "correct_answer": 3,
+              "explanation": "DataWind developed the Aakash tablet in collaboration with IIT Rajasthan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_007",
+              "question": "Who developed the world's first email system in an Indian language?",
+              "options": [
+                "Rajesh Jain",
+                "Sabeer Bhatia",
+                "Narayana Murthy",
+                "Azim Premji"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rajesh Jain developed email systems supporting Indian languages through his work.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_008",
+              "question": "The optical fiber technology in India was pioneered by?",
+              "options": [
+                "Prof. K. Thyagarajan",
+                "Prof. A.K. Ghatak",
+                "Both A and B",
+                "Prof. Rajesh Kochhar"
+              ],
+              "correct_answer": 2,
+              "explanation": "Prof. K. Thyagarajan and Prof. A.K. Ghatak pioneered optical fiber research in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_009",
+              "question": "Who developed India's indigenous microprocessor Shakti?",
+              "options": [
+                "IIT Madras",
+                "IIT Bombay",
+                "IISc Bangalore",
+                "CDAC"
+              ],
+              "correct_answer": 0,
+              "explanation": "IIT Madras developed the Shakti series of open-source processors.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_010",
+              "question": "The electronic voting machine (EVM) was developed by?",
+              "options": [
+                "ECIL and BEL",
+                "HAL",
+                "ISRO",
+                "DRDO"
+              ],
+              "correct_answer": 0,
+              "explanation": "Electronics Corporation of India and Bharat Electronics developed India's EVMs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_011",
+              "question": "Who invented the Intel 80486 microprocessor?",
+              "options": [
+                "Vinod Dham",
+                "Avtar Saini",
+                "Ajay Bhatt",
+                "Anant Agarwal"
+              ],
+              "correct_answer": 1,
+              "explanation": "Avtar Saini led the team that developed the Intel 80486 processor.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_012",
+              "question": "The indigenously developed Light Combat Aircraft is called?",
+              "options": [
+                "Tejas",
+                "Arjun",
+                "Akash",
+                "Prithvi"
+              ],
+              "correct_answer": 0,
+              "explanation": "HAL Tejas is India's indigenous light combat aircraft developed by ADA and HAL.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_013",
+              "question": "Who developed India's nuclear submarine reactor?",
+              "options": [
+                "BARC",
+                "DRDO",
+                "HAL",
+                "ISRO"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bhabha Atomic Research Centre (BARC) developed the nuclear reactor for INS Arihant.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_014",
+              "question": "Who co-founded Sun Microsystems?",
+              "options": [
+                "Vinod Khosla",
+                "Sabeer Bhatia",
+                "Vinod Dham",
+                "Pradeep Sindhu"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vinod Khosla co-founded Sun Microsystems in 1982.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_015",
+              "question": "The Simputer (Simple Computer) was developed by?",
+              "options": [
+                "IISc Bangalore",
+                "IIT Madras",
+                "IIT Bombay",
+                "C-DAC"
+              ],
+              "correct_answer": 0,
+              "explanation": "Scientists from IISc Bangalore developed the Simputer for rural connectivity.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_016",
+              "question": "Who developed the Intel Xeon processor?",
+              "options": [
+                "Anant Agarwal",
+                "Vinod Dham",
+                "Avtar Saini",
+                "Rajeev Chandrasekhar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Anant Agarwal contributed to the development of Intel Xeon processors.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_017",
+              "question": "India's Mars Orbiter was designed by?",
+              "options": [
+                "ISRO",
+                "DRDO",
+                "HAL",
+                "BARC"
+              ],
+              "correct_answer": 0,
+              "explanation": "ISRO designed and launched Mangalyaan (Mars Orbiter Mission) in 2013.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_018",
+              "question": "Who developed the BrahMos cruise missile?",
+              "options": [
+                "DRDO and NPO",
+                "HAL",
+                "ISRO",
+                "BEL"
+              ],
+              "correct_answer": 0,
+              "explanation": "DRDO and Russia's NPO Mashinostroyeniya jointly developed BrahMos.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_019",
+              "question": "The Indian Regional Navigation Satellite System is called?",
+              "options": [
+                "NAVIC",
+                "GAGAN",
+                "IRNSS",
+                "Both A and C"
+              ],
+              "correct_answer": 3,
+              "explanation": "IRNSS is also known as NAVIC (Navigation with Indian Constellation).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_020",
+              "question": "Who developed India's first 3D printer?",
+              "options": [
+                "Brahma3",
+                "Wipro",
+                "HCL",
+                "TCS"
+              ],
+              "correct_answer": 0,
+              "explanation": "Brahma3 developed one of India's first commercial 3D printers.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_021",
+              "question": "The Mangalyaan mission cost was approximately?",
+              "options": [
+                "$74 million",
+                "$100 million",
+                "$500 million",
+                "$1 billion"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mangalyaan cost only $74 million, making it the cheapest Mars mission.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_022",
+              "question": "Who developed the Prithvi missile?",
+              "options": [
+                "DRDO",
+                "HAL",
+                "BEL",
+                "ISRO"
+              ],
+              "correct_answer": 0,
+              "explanation": "DRDO developed the Prithvi series of tactical surface-to-surface missiles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_023",
+              "question": "The Agni missile series was developed under whose leadership?",
+              "options": [
+                "A.P.J. Abdul Kalam",
+                "V.K. Saraswat",
+                "Avinash Chander",
+                "G. Satheesh Reddy"
+              ],
+              "correct_answer": 0,
+              "explanation": "A.P.J. Abdul Kalam led the development of Agni missile series.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_024",
+              "question": "Who invented the 'Mitticool' clay refrigerator?",
+              "options": [
+                "Mansukhbhai Prajapati",
+                "Arunachalam Muruganantham",
+                "Sonam Wangchuk",
+                "Arvind Gupta"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mansukhbhai Prajapati invented the Mitticool refrigerator that works without electricity.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_025",
+              "question": "The Chandrayaan-1 discovered water on?",
+              "options": [
+                "Moon",
+                "Mars",
+                "Venus",
+                "Asteroid"
+              ],
+              "correct_answer": 0,
+              "explanation": "Chandrayaan-1 confirmed the presence of water molecules on the Moon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_026",
+              "question": "Who developed the Indian Navy's first indigenous aircraft carrier?",
+              "options": [
+                "Cochin Shipyard",
+                "Mazagon Dock",
+                "Garden Reach",
+                "Hindustan Shipyard"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cochin Shipyard built INS Vikrant, India's first indigenous aircraft carrier.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_027",
+              "question": "The K-15 Sagarika missile was developed for?",
+              "options": [
+                "Submarines",
+                "Fighter jets",
+                "Ships",
+                "Land-based launch"
+              ],
+              "correct_answer": 0,
+              "explanation": "K-15 Sagarika is a submarine-launched ballistic missile.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_028",
+              "question": "Who invented the Ice Stupa technique?",
+              "options": [
+                "Sonam Wangchuk",
+                "Chewang Norphel",
+                "Tsewang Rigzin",
+                "Nawang Dorje"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sonam Wangchuk invented Ice Stupas to solve water crisis in Ladakh.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_029",
+              "question": "The Rustom drone was developed by?",
+              "options": [
+                "DRDO",
+                "HAL",
+                "BEL",
+                "NAL"
+              ],
+              "correct_answer": 0,
+              "explanation": "DRDO developed the Rustom series of unmanned aerial vehicles.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_030",
+              "question": "Who developed India's first hydrogen fuel cell bus?",
+              "options": [
+                "Tata Motors",
+                "Ashok Leyland",
+                "Mahindra",
+                "KPIT-Cummins"
+              ],
+              "correct_answer": 3,
+              "explanation": "KPIT-Cummins developed India's first hydrogen fuel cell bus.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "gk_world",
       "name": "GK World",
       "description": "Test your knowledge about the world",
