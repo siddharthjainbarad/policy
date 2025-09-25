@@ -85,6 +85,216 @@
               "explanation": "Gandhi led the Salt March in 1930 to protest the salt tax.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "gk_hist_006",
+              "question": "Who was the founder of the Mughal Empire in India?",
+              "options": [
+                "Akbar",
+                "Babur",
+                "Humayun",
+                "Shah Jahan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Babur founded the Mughal Empire after defeating Ibrahim Lodi in 1526 at Panipat.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_007",
+              "question": "The Battle of Plassey was fought in which year?",
+              "options": [
+                "1757",
+                "1764",
+                "1761",
+                "1750"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Battle of Plassey was fought in 1757 between the British East India Company and Siraj ud-Daulah.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_008",
+              "question": "Who was known as the 'Nightingale of India'?",
+              "options": [
+                "Sarojini Naidu",
+                "Aruna Asaf Ali",
+                "Kasturba Gandhi",
+                "Vijaya Lakshmi Pandit"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sarojini Naidu was called the 'Nightingale of India' for her poetry and oratory skills.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_009",
+              "question": "The Quit India Movement was launched in which year?",
+              "options": [
+                "1940",
+                "1942",
+                "1944",
+                "1946"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Quit India Movement was launched on 8 August 1942.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_010",
+              "question": "Who built the Taj Mahal?",
+              "options": [
+                "Akbar",
+                "Shah Jahan",
+                "Aurangzeb",
+                "Jahangir"
+              ],
+              "correct_answer": 1,
+              "explanation": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_011",
+              "question": "The capital of the Maratha Empire was?",
+              "options": [
+                "Pune",
+                "Mumbai",
+                "Satara",
+                "Raigad"
+              ],
+              "correct_answer": 2,
+              "explanation": "Satara was the capital of the Maratha Empire under Chhatrapati Shahu.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_012",
+              "question": "Who was the last Mughal emperor?",
+              "options": [
+                "Akbar II",
+                "Bahadur Shah Zafar",
+                "Shah Alam II",
+                "Muhammad Shah"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bahadur Shah Zafar was the last Mughal emperor, exiled after 1857 revolt.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_013",
+              "question": "The Sepoy Mutiny began in which year?",
+              "options": [
+                "1856",
+                "1857",
+                "1858",
+                "1859"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Sepoy Mutiny or First War of Independence began in 1857.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_014",
+              "question": "Who founded the Indian National Congress?",
+              "options": [
+                "A.O. Hume",
+                "Dadabhai Naoroji",
+                "Surendranath Banerjee",
+                "W.C. Bonnerjee"
+              ],
+              "correct_answer": 0,
+              "explanation": "A.O. Hume founded the Indian National Congress in 1885.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_015",
+              "question": "The partition of Bengal took place in which year?",
+              "options": [
+                "1903",
+                "1905",
+                "1907",
+                "1911"
+              ],
+              "correct_answer": 1,
+              "explanation": "The partition of Bengal was announced in 1905 by Lord Curzon.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_016",
+              "question": "Who was known as 'Lok Manya'?",
+              "options": [
+                "Bal Gangadhar Tilak",
+                "Lala Lajpat Rai",
+                "Bipin Chandra Pal",
+                "Gopal Krishna Gokhale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bal Gangadhar Tilak was known as 'Lok Manya' meaning 'accepted by the people'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_017",
+              "question": "The Harappan Civilization was discovered in which year?",
+              "options": [
+                "1920",
+                "1921",
+                "1922",
+                "1924"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Harappan Civilization was first discovered in 1921 at Harappa.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_018",
+              "question": "Who was the first Indian Governor-General of India?",
+              "options": [
+                "Lord Mountbatten",
+                "C. Rajagopalachari",
+                "Dr. Rajendra Prasad",
+                "Jawaharlal Nehru"
+              ],
+              "correct_answer": 1,
+              "explanation": "C. Rajagopalachari was the first Indian Governor-General (1948-1950).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_019",
+              "question": "The Jallianwala Bagh massacre occurred in which city?",
+              "options": [
+                "Delhi",
+                "Lahore",
+                "Amritsar",
+                "Chandigarh"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Jallianwala Bagh massacre took place in Amritsar on 13 April 1919.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_020",
+              "question": "Who was the founder of the Gupta Empire?",
+              "options": [
+                "Chandragupta I",
+                "Samudragupta",
+                "Chandragupta II",
+                "Sri Gupta"
+              ],
+              "correct_answer": 3,
+              "explanation": "Sri Gupta is considered the founder of the Gupta Empire around 240-280 CE.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -163,6 +373,216 @@
               "explanation": "Most of the Thar Desert lies in Rajasthan.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "gk_geo_006",
+              "question": "Which is the longest river in India?",
+              "options": [
+                "Yamuna",
+                "Ganga",
+                "Godavari",
+                "Krishna"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Ganga is the longest river in India at 2,525 km.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_007",
+              "question": "The capital of Himachal Pradesh is?",
+              "options": [
+                "Shimla",
+                "Manali",
+                "Dharamshala",
+                "Kullu"
+              ],
+              "correct_answer": 0,
+              "explanation": "Shimla is the capital of Himachal Pradesh.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_008",
+              "question": "Which plateau is called the 'Roof of the World'?",
+              "options": [
+                "Deccan Plateau",
+                "Tibetan Plateau",
+                "Malwa Plateau",
+                "Chota Nagpur Plateau"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Tibetan Plateau is called the 'Roof of the World' due to its high elevation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_009",
+              "question": "The Sundarbans mangrove forest is located in which state?",
+              "options": [
+                "Odisha",
+                "West Bengal",
+                "Assam",
+                "Kerala"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Sundarbans is located in West Bengal and is home to the Royal Bengal Tiger.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_010",
+              "question": "Which is the smallest state in India by area?",
+              "options": [
+                "Sikkim",
+                "Tripura",
+                "Goa",
+                "Manipur"
+              ],
+              "correct_answer": 2,
+              "explanation": "Goa is the smallest state in India by area.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_011",
+              "question": "The Western Ghats run parallel to which coast?",
+              "options": [
+                "Eastern Coast",
+                "Western Coast",
+                "Northern Coast",
+                "Southern Coast"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Western Ghats run parallel to the western coast of India.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_012",
+              "question": "Which Indian city is known as the 'Silicon Valley of India'?",
+              "options": [
+                "Hyderabad",
+                "Pune",
+                "Bangalore",
+                "Chennai"
+              ],
+              "correct_answer": 2,
+              "explanation": "Bangalore is known as the 'Silicon Valley of India' due to its IT industry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_013",
+              "question": "The Tropic of Cancer passes through how many Indian states?",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Tropic of Cancer passes through 8 Indian states.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_014",
+              "question": "Which is the largest freshwater lake in India?",
+              "options": [
+                "Dal Lake",
+                "Wular Lake",
+                "Chilika Lake",
+                "Pulicat Lake"
+              ],
+              "correct_answer": 1,
+              "explanation": "Wular Lake in Kashmir is the largest freshwater lake in India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_015",
+              "question": "The Nilgiri Hills are located in which state?",
+              "options": [
+                "Kerala",
+                "Karnataka",
+                "Tamil Nadu",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Nilgiri Hills span across Tamil Nadu, Kerala, and Karnataka.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_016",
+              "question": "Which Indian state has the longest coastline?",
+              "options": [
+                "Tamil Nadu",
+                "Andhra Pradesh",
+                "Gujarat",
+                "Maharashtra"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gujarat has the longest coastline among Indian states.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_017",
+              "question": "The Deccan Plateau is bounded by which mountain ranges?",
+              "options": [
+                "Western and Eastern Ghats",
+                "Himalayas and Vindhyas",
+                "Aravalli and Satpura",
+                "Nilgiris and Cardamoms"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Deccan Plateau is bounded by the Western and Eastern Ghats.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_018",
+              "question": "Which is the highest waterfall in India?",
+              "options": [
+                "Jog Falls",
+                "Kunchikal Falls",
+                "Nohkalikai Falls",
+                "Dudhsagar Falls"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kunchikal Falls in Karnataka is the highest waterfall in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_019",
+              "question": "The Brahmaputra River is known by which name in Bangladesh?",
+              "options": [
+                "Jamuna",
+                "Padma",
+                "Meghna",
+                "Surma"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Brahmaputra is known as Jamuna in Bangladesh.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_020",
+              "question": "Which pass connects Himachal Pradesh and Ladakh?",
+              "options": [
+                "Rohtang Pass",
+                "Banihal Pass",
+                "Zoji La",
+                "Nathu La"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rohtang Pass connects Himachal Pradesh with Ladakh region.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -224,7 +644,7 @@
                 "Supreme Court Collegium"
               ],
               "correct_answer": 0,
-              "explanation": "The President appoints the CJI, typically following the collegium’s recommendation.",
+              "explanation": "The President appoints the CJI, typically following the collegium's recommendation.",
               "difficulty": "easy",
               "points": 10
             },
@@ -239,6 +659,216 @@
               ],
               "correct_answer": 1,
               "explanation": "Minimum age is 30 years for Rajya Sabha membership.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_006",
+              "question": "The maximum strength of Lok Sabha as per the Constitution is?",
+              "options": [
+                "545",
+                "550",
+                "552",
+                "555"
+              ],
+              "correct_answer": 2,
+              "explanation": "The maximum strength of Lok Sabha is 552 members (530 from states, 20 from UTs, 2 nominated).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_007",
+              "question": "Which article of the Constitution deals with Right to Equality?",
+              "options": [
+                "Article 14",
+                "Article 15",
+                "Article 16",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "Articles 14-18 collectively deal with the Right to Equality.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_008",
+              "question": "The President of India is elected by?",
+              "options": [
+                "Direct election",
+                "Electoral College",
+                "Parliament",
+                "Prime Minister"
+              ],
+              "correct_answer": 1,
+              "explanation": "The President is elected by an Electoral College consisting of MPs and MLAs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_009",
+              "question": "The Constitution of India was adopted on which date?",
+              "options": [
+                "15 August 1947",
+                "26 January 1950",
+                "26 November 1949",
+                "2 October 1950"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Constitution was adopted on 26 November 1949 but came into effect on 26 January 1950.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_010",
+              "question": "Who is known as the 'Father of the Indian Constitution'?",
+              "options": [
+                "Mahatma Gandhi",
+                "Jawaharlal Nehru",
+                "Dr. B.R. Ambedkar",
+                "Sardar Patel"
+              ],
+              "correct_answer": 2,
+              "explanation": "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_011",
+              "question": "The term of office of the President of India is?",
+              "options": [
+                "4 years",
+                "5 years",
+                "6 years",
+                "7 years"
+              ],
+              "correct_answer": 1,
+              "explanation": "The President serves a term of 5 years and can be re-elected.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_012",
+              "question": "Which amendment is known as the 'Mini Constitution'?",
+              "options": [
+                "42nd Amendment",
+                "44th Amendment",
+                "73rd Amendment",
+                "74th Amendment"
+              ],
+              "correct_answer": 0,
+              "explanation": "The 42nd Amendment (1976) is called the 'Mini Constitution' due to extensive changes.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_013",
+              "question": "The Panchayati Raj system was constitutionalized by which amendment?",
+              "options": [
+                "71st Amendment",
+                "72nd Amendment",
+                "73rd Amendment",
+                "74th Amendment"
+              ],
+              "correct_answer": 2,
+              "explanation": "The 73rd Amendment (1992) constitutionalized the Panchayati Raj system.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_014",
+              "question": "Which article deals with the abolition of untouchability?",
+              "options": [
+                "Article 15",
+                "Article 16",
+                "Article 17",
+                "Article 18"
+              ],
+              "correct_answer": 2,
+              "explanation": "Article 17 abolishes untouchability and makes its practice punishable.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_015",
+              "question": "The Rajya Sabha can have a maximum of how many members?",
+              "options": [
+                "238",
+                "245",
+                "250",
+                "255"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Rajya Sabha can have a maximum of 250 members (238 elected, 12 nominated).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_016",
+              "question": "Which commission is responsible for conducting elections in India?",
+              "options": [
+                "Finance Commission",
+                "Election Commission",
+                "Planning Commission",
+                "Law Commission"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Election Commission of India conducts elections to Parliament and state legislatures.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_017",
+              "question": "The concept of 'Rule of Law' is borrowed from which country?",
+              "options": [
+                "USA",
+                "UK",
+                "France",
+                "Germany"
+              ],
+              "correct_answer": 1,
+              "explanation": "The concept of Rule of Law is borrowed from the British system.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_018",
+              "question": "Which article empowers Parliament to amend the Constitution?",
+              "options": [
+                "Article 356",
+                "Article 368",
+                "Article 370",
+                "Article 380"
+              ],
+              "correct_answer": 1,
+              "explanation": "Article 368 gives Parliament the power to amend the Constitution.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_019",
+              "question": "The Fundamental Duties were added by which amendment?",
+              "options": [
+                "40th Amendment",
+                "42nd Amendment",
+                "44th Amendment",
+                "46th Amendment"
+              ],
+              "correct_answer": 1,
+              "explanation": "Fundamental Duties were added by the 42nd Amendment in 1976.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_020",
+              "question": "Who administers the oath of office to the President?",
+              "options": [
+                "Prime Minister",
+                "Speaker of Lok Sabha",
+                "Chief Justice of India",
+                "Vice President"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Chief Justice of India administers the oath of office to the President.",
               "difficulty": "easy",
               "points": 10
             }
@@ -273,203 +903,6 @@
               ],
               "correct_answer": 1,
               "explanation": "George Washington was the first President of the United States (1789–1797).",
-              "difficulty": "easy",
-              "points": 10
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "math_basic",
-      "name": "Maths Basic",
-      "description": "Arithmetic, Algebra basics",
-      "icon": "➗",
-      "color": "#4CAF50",
-      "question_timer_seconds": 10,
-      "points_per_question": 10,
-      "subcategories": [
-        {
-          "id": "math_arithmetic",
-          "name": "Arithmetic",
-          "icon": "🔢",
-          "color": "#81C784",
-          "questions": [
-            {
-              "id": "math_arith_001",
-              "question": "What is 12 × 8?",
-              "options": [
-                "96",
-                "88",
-                "104",
-                "86"
-              ],
-              "correct_answer": 0,
-              "explanation": "12 × 8 = 96.",
-              "difficulty": "easy",
-              "points": 10,
-              "is_math": true
-            },
-            {
-              "id": "math_arith_002",
-              "question": "What is 15% of 200?",
-              "options": [
-                "20",
-                "25",
-                "30",
-                "35"
-              ],
-              "correct_answer": 2,
-              "explanation": "15% of 200 = 0.15 × 200 = 30.",
-              "difficulty": "easy",
-              "points": 10,
-              "is_math": true
-            },
-            {
-              "id": "math_arith_003",
-              "question": "Simplify: 72 ÷ 9 + 6",
-              "options": [
-                "14",
-                "12",
-                "18",
-                "10"
-              ],
-              "correct_answer": 0,
-              "explanation": "72 ÷ 9 = 8; 8 + 6 = 14.",
-              "difficulty": "easy",
-              "points": 10,
-              "is_math": true
-            }
-          ]
-        },
-        {
-          "id": "math_algebra",
-          "name": "Algebra",
-          "icon": "🧮",
-          "color": "#2196F3",
-          "questions": [
-            {
-              "id": "math_alg_001",
-              "question": "\\text{Solve for x: } 2x + 3 = 7",
-              "options": [
-                "x = 2",
-                "x = 3",
-                "x = 1",
-                "x = 4"
-              ],
-              "correct_answer": 0,
-              "explanation": "2x + 3 = 7 ⇒ 2x = 4 ⇒ x = 2.",
-              "difficulty": "easy",
-              "points": 10,
-              "is_math": true
-            },
-            {
-              "id": "alg001",
-              "question": "\\text{What is the solution to the equation: } x^2 + 2x - 8 = 0?",
-              "options": [
-                "x = 2, x = -4",
-                "x = -2, x = 4",
-                "x = 2, x = 4",
-                "x = -2, x = -4"
-              ],
-              "correct_answer": 0,
-              "explanation": "Factor: (x + 4)(x - 2) = 0 ⇒ x = -4 or x = 2.",
-              "difficulty": "easy",
-              "points": 10,
-              "is_math": true
-            },
-            {
-              "id": "math_alg_002",
-              "question": "\\text{Simplify the expression: } 3(x + 4) - 2(x - 1)",
-              "options": [
-                "x + 14",
-                "x + 7",
-                "x + 1",
-                "x + 4"
-              ],
-              "correct_answer": 0,
-              "explanation": "3x + 12 - 2x + 2 = x + 14.",
-              "difficulty": "medium",
-              "points": 10,
-              "is_math": true
-            },
-            {
-              "id": "math_alg_003",
-              "question": "\\text{Solve: } 5x - 15 = 0",
-              "options": [
-                "x = -3",
-                "x = 0",
-                "x = 3",
-                "x = 5"
-              ],
-              "correct_answer": 2,
-              "explanation": "5x = 15 ⇒ x = 3.",
-              "difficulty": "easy",
-              "points": 10,
-              "is_math": true
-            },
-            {
-              "id": "math_alg_004",
-              "question": "\\text{If } a + b = 7 \\text{ and } ab = 10, \\text{ find } a^2 + b^2.",
-              "options": [
-                "29",
-                "39",
-                "49",
-                "59"
-              ],
-              "correct_answer": 0,
-              "explanation": "a^2 + b^2 = (a + b)^2 - 2ab = 49 - 20 = 29.",
-              "difficulty": "medium",
-              "points": 10,
-              "is_math": true
-            }
-          ]
-        },
-        {
-          "id": "math_geometry",
-          "name": "Geometry",
-          "icon": "📐",
-          "color": "#64B5F6",
-          "questions": [
-            {
-              "id": "math_geo_001",
-              "question": "The sum of interior angles of a triangle is:",
-              "options": [
-                "90°",
-                "180°",
-                "270°",
-                "360°"
-              ],
-              "correct_answer": 1,
-              "explanation": "Sum of interior angles in a triangle is 180°.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "math_geo_002",
-              "question": "Circumference of a circle with radius r is:",
-              "options": [
-                "πr^2",
-                "2πr",
-                "πd/2",
-                "r/π"
-              ],
-              "correct_answer": 1,
-              "explanation": "Circumference = 2πr.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "math_geo_003",
-              "question": "A right triangle has legs 3 and 4. What is the hypotenuse?",
-              "options": [
-                "5",
-                "6",
-                "7",
-                "4"
-              ],
-              "correct_answer": 0,
-              "explanation": "By Pythagoras: √(3^2 + 4^2) = 5.",
               "difficulty": "easy",
               "points": 10
             }
