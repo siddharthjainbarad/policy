@@ -1,848 +1,6 @@
 {
   "categories": [
     {
-      "id": "gk_world",
-      "name": "GK World",
-      "description": "Test your knowledge about the world",
-      "icon": "🌍",
-      "color": "#8BC34A",
-      "question_timer_seconds": 10,
-      "points_per_question": 10,
-      "requiredLevel": 20,
-      "subcategories": [
-        {
-          "id": "world_history",
-          "name": "World History",
-          "icon": "🏛️",
-          "color": "#FFD700",
-          "questions": [
-            {
-              "id": "world_hist_001",
-              "question": "Who was the first President of the United States?",
-              "options": [
-                "Abraham Lincoln",
-                "George Washington",
-                "Thomas Jefferson",
-                "John Adams"
-              ],
-              "correct_answer": 1,
-              "explanation": "George Washington was the first President of the United States (1789–1797).",
-              "difficulty": "easy",
-              "points": 10
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gk_world_inventors",
-      "name": "World Inventors & Inventions",
-      "description": "Greatest inventors and groundbreaking inventions that changed the world",
-      "icon": "🌍",
-      "color": "#4B0082",
-      "question_timer_seconds": 12,
-      "points_per_question": 10,
-      "requiredLevel": 15,
-      "subcategories": [
-        {
-          "id": "gk_scientific_discoveries",
-          "name": "Scientific Discoveries & Physics",
-          "icon": "🔬",
-          "color": "#FF6347",
-          "questions": [
-            {
-              "id": "gk_sci_001",
-              "question": "Who invented the telephone?",
-              "options": [
-                "Thomas Edison",
-                "Alexander Graham Bell",
-                "Nikola Tesla",
-                "Guglielmo Marconi"
-              ],
-              "correct_answer": 1,
-              "explanation": "Alexander Graham Bell patented the first practical telephone in 1876.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_002",
-              "question": "Who discovered penicillin?",
-              "options": [
-                "Louis Pasteur",
-                "Alexander Fleming",
-                "Marie Curie",
-                "Jonas Salk"
-              ],
-              "correct_answer": 1,
-              "explanation": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_003",
-              "question": "Who invented the X-ray?",
-              "options": [
-                "Wilhelm Roentgen",
-                "Marie Curie",
-                "Henri Becquerel",
-                "Ernest Rutherford"
-              ],
-              "correct_answer": 0,
-              "explanation": "Wilhelm Roentgen discovered X-rays in 1895 and won the first Nobel Prize in Physics.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_004",
-              "question": "Who developed the theory of relativity?",
-              "options": [
-                "Isaac Newton",
-                "Albert Einstein",
-                "Stephen Hawking",
-                "Niels Bohr"
-              ],
-              "correct_answer": 1,
-              "explanation": "Albert Einstein developed both special and general theories of relativity.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_005",
-              "question": "Who invented the microscope?",
-              "options": [
-                "Antonie van Leeuwenhoek",
-                "Zacharias Janssen",
-                "Robert Hooke",
-                "Galileo Galilei"
-              ],
-              "correct_answer": 1,
-              "explanation": "Zacharias Janssen is credited with inventing the compound microscope around 1590.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_006",
-              "question": "Who discovered radioactivity?",
-              "options": [
-                "Marie Curie",
-                "Henri Becquerel",
-                "Ernest Rutherford",
-                "Wilhelm Roentgen"
-              ],
-              "correct_answer": 1,
-              "explanation": "Henri Becquerel discovered radioactivity in 1896, though Marie Curie named the phenomenon.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_007",
-              "question": "Who invented the telescope?",
-              "options": [
-                "Galileo Galilei",
-                "Hans Lippershey",
-                "Johannes Kepler",
-                "Isaac Newton"
-              ],
-              "correct_answer": 1,
-              "explanation": "Hans Lippershey is credited with inventing the first telescope in 1608.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_008",
-              "question": "Who discovered the electron?",
-              "options": [
-                "J.J. Thomson",
-                "Ernest Rutherford",
-                "Niels Bohr",
-                "Max Planck"
-              ],
-              "correct_answer": 0,
-              "explanation": "J.J. Thomson discovered the electron in 1897 through his cathode ray experiments.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_009",
-              "question": "Who invented the lightning rod?",
-              "options": [
-                "Benjamin Franklin",
-                "Thomas Edison",
-                "Nikola Tesla",
-                "Michael Faraday"
-              ],
-              "correct_answer": 0,
-              "explanation": "Benjamin Franklin invented the lightning rod in 1752 after his famous kite experiment.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_010",
-              "question": "Who developed the periodic table?",
-              "options": [
-                "Antoine Lavoisier",
-                "Dmitri Mendeleev",
-                "John Dalton",
-                "Marie Curie"
-              ],
-              "correct_answer": 1,
-              "explanation": "Dmitri Mendeleev created the first periodic table of elements in 1869.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_011",
-              "question": "Who invented the laser?",
-              "options": [
-                "Theodore Maiman",
-                "Charles Townes",
-                "Arthur Schawlow",
-                "Gordon Gould"
-              ],
-              "correct_answer": 0,
-              "explanation": "Theodore Maiman built the first working laser in 1960, though the concept was developed by others.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_sci_012",
-              "question": "Who discovered DNA structure?",
-              "options": [
-                "James Watson",
-                "Francis Crick",
-                "Rosalind Franklin",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Watson, Crick, and Franklin all contributed to discovering DNA's double helix structure.",
-              "difficulty": "medium",
-              "points": 10
-            }
-          ]
-        },
-        {
-          "id": "gk_technology_communication",
-          "name": "Technology & Communication",
-          "icon": "📻",
-          "color": "#4169E1",
-          "questions": [
-            {
-              "id": "gk_tech_001",
-              "question": "Who invented the radio?",
-              "options": [
-                "Guglielmo Marconi",
-                "Heinrich Hertz",
-                "Nikola Tesla",
-                "Alexander Popov"
-              ],
-              "correct_answer": 0,
-              "explanation": "Guglielmo Marconi is credited with developing the first practical radio communication system.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_002",
-              "question": "Who invented the television?",
-              "options": [
-                "John Logie Baird",
-                "Philo Farnsworth",
-                "Vladimir Zworykin",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Television was developed by multiple inventors, with Baird, Farnsworth, and Zworykin making key contributions.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_003",
-              "question": "Who invented the printing press?",
-              "options": [
-                "Johannes Gutenberg",
-                "William Caxton",
-                "Bi Sheng",
-                "Laurens Coster"
-              ],
-              "correct_answer": 0,
-              "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440 in Europe.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_004",
-              "question": "Who invented the transistor?",
-              "options": [
-                "John Bardeen",
-                "Walter Brattain",
-                "William Shockley",
-                "All three"
-              ],
-              "correct_answer": 3,
-              "explanation": "Bardeen, Brattain, and Shockley jointly invented the transistor at Bell Labs in 1947.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_005",
-              "question": "Who invented the World Wide Web?",
-              "options": [
-                "Tim Berners-Lee",
-                "Vint Cerf",
-                "Robert Kahn",
-                "Marc Andreessen"
-              ],
-              "correct_answer": 0,
-              "explanation": "Tim Berners-Lee invented the World Wide Web while working at CERN in 1989.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_006",
-              "question": "Who co-invented the integrated circuit?",
-              "options": [
-                "Jack Kilby",
-                "Robert Noyce",
-                "Both A and B",
-                "Gordon Moore"
-              ],
-              "correct_answer": 2,
-              "explanation": "Jack Kilby and Robert Noyce independently invented the integrated circuit in 1958-59.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_007",
-              "question": "Who invented the computer mouse?",
-              "options": [
-                "Douglas Engelbart",
-                "Steve Jobs",
-                "Bill Gates",
-                "Alan Kay"
-              ],
-              "correct_answer": 0,
-              "explanation": "Douglas Engelbart invented the computer mouse in 1964 at Stanford Research Institute.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_008",
-              "question": "Who invented the fax machine?",
-              "options": [
-                "Alexander Bain",
-                "Giovanni Caselli",
-                "Arthur Korn",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "The fax machine evolved through contributions from Bain (1843), Caselli, and others.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_009",
-              "question": "Who invented the phonograph?",
-              "options": [
-                "Thomas Edison",
-                "Alexander Graham Bell",
-                "Emile Berliner",
-                "Leon Scott"
-              ],
-              "correct_answer": 0,
-              "explanation": "Thomas Edison invented the phonograph in 1877, the first device to record and reproduce sound.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_010",
-              "question": "Who developed Morse code?",
-              "options": [
-                "Samuel Morse",
-                "Alfred Vail",
-                "Both A and B",
-                "Alexander Graham Bell"
-              ],
-              "correct_answer": 2,
-              "explanation": "Samuel Morse and Alfred Vail developed Morse code for use with the telegraph.",
-              "difficulty": "medium",
-              "points": 10
-            }
-          ]
-        },
-        {
-          "id": "gk_medical_breakthroughs",
-          "name": "Medical & Health Breakthroughs",
-          "icon": "🏥",
-          "color": "#DC143C",
-          "questions": [
-            {
-              "id": "gk_med_001",
-              "question": "Who developed the first successful vaccine?",
-              "options": [
-                "Edward Jenner",
-                "Louis Pasteur",
-                "Jonas Salk",
-                "Alexander Fleming"
-              ],
-              "correct_answer": 0,
-              "explanation": "Edward Jenner developed the first vaccine for smallpox in 1796.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_med_002",
-              "question": "Who invented the stethoscope?",
-              "options": [
-                "René Laennec",
-                "Wilhelm Roentgen",
-                "Louis Pasteur",
-                "Joseph Lister"
-              ],
-              "correct_answer": 0,
-              "explanation": "René Laennec invented the stethoscope in 1816 to listen to heart and lung sounds.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_003",
-              "question": "Who developed the polio vaccine?",
-              "options": [
-                "Jonas Salk",
-                "Albert Sabin",
-                "Both A and B",
-                "Edward Jenner"
-              ],
-              "correct_answer": 2,
-              "explanation": "Jonas Salk developed the injectable polio vaccine (1955) and Albert Sabin the oral vaccine (1961).",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_004",
-              "question": "Who performed the first heart transplant?",
-              "options": [
-                "Christiaan Barnard",
-                "Michael DeBakey",
-                "Norman Shumway",
-                "Richard Lower"
-              ],
-              "correct_answer": 0,
-              "explanation": "Christiaan Barnard performed the first human heart transplant in South Africa in 1967.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_005",
-              "question": "Who discovered insulin?",
-              "options": [
-                "Frederick Banting",
-                "Charles Best",
-                "John Macleod",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Banting, Best, and Macleod discovered insulin at the University of Toronto in 1921-22.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_006",
-              "question": "Who invented anesthesia for surgery?",
-              "options": [
-                "William Morton",
-                "Crawford Long",
-                "Horace Wells",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Multiple doctors contributed to developing surgical anesthesia in the 1840s.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_med_007",
-              "question": "Who discovered the blood circulation system?",
-              "options": [
-                "William Harvey",
-                "Galen",
-                "Andreas Vesalius",
-                "Ibn al-Nafis"
-              ],
-              "correct_answer": 0,
-              "explanation": "William Harvey described blood circulation in 1628, though Ibn al-Nafis described pulmonary circulation earlier.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_008",
-              "question": "Who developed the CT scan?",
-              "options": [
-                "Godfrey Hounsfield",
-                "Allan Cormack",
-                "Both A and B",
-                "Wilhelm Roentgen"
-              ],
-              "correct_answer": 2,
-              "explanation": "Godfrey Hounsfield and Allan Cormack jointly won the Nobel Prize for developing CT scanning.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_med_009",
-              "question": "Who invented the artificial heart?",
-              "options": [
-                "Robert Jarvik",
-                "Willem Kolff",
-                "Michael DeBakey",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Multiple inventors contributed to artificial heart development, with Jarvik-7 being most famous.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_med_010",
-              "question": "Who developed the MRI scanner?",
-              "options": [
-                "Raymond Damadian",
-                "Paul Lauterbur",
-                "Peter Mansfield",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "MRI was developed through contributions from Damadian, Lauterbur, and Mansfield.",
-              "difficulty": "hard",
-              "points": 10
-            }
-          ]
-        },
-        {
-          "id": "gk_transportation_engineering",
-          "name": "Transportation & Engineering",
-          "icon": "🚗",
-          "color": "#32CD32",
-          "questions": [
-            {
-              "id": "gk_trans_001",
-              "question": "Who invented the automobile?",
-              "options": [
-                "Henry Ford",
-                "Karl Benz",
-                "Gottlieb Daimler",
-                "Nicolas-Joseph Cugnot"
-              ],
-              "correct_answer": 1,
-              "explanation": "Karl Benz created the first practical automobile with internal combustion engine in 1885.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_002",
-              "question": "Who invented the airplane?",
-              "options": [
-                "Wright Brothers",
-                "Santos-Dumont",
-                "Gustave Whitehead",
-                "Richard Pearse"
-              ],
-              "correct_answer": 0,
-              "explanation": "Orville and Wilbur Wright achieved the first powered flight at Kitty Hawk in 1903.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_003",
-              "question": "Who invented the steam engine?",
-              "options": [
-                "James Watt",
-                "Thomas Newcomen",
-                "Richard Trevithick",
-                "George Stephenson"
-              ],
-              "correct_answer": 1,
-              "explanation": "Thomas Newcomen invented the first practical steam engine in 1712; Watt improved it significantly.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_004",
-              "question": "Who built the first successful steamboat?",
-              "options": [
-                "Robert Fulton",
-                "John Fitch",
-                "James Rumsey",
-                "William Symington"
-              ],
-              "correct_answer": 0,
-              "explanation": "Robert Fulton built the first commercially successful steamboat, the Clermont, in 1807.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_005",
-              "question": "Who invented the bicycle?",
-              "options": [
-                "Karl Drais",
-                "Kirkpatrick MacMillan",
-                "Pierre Michaux",
-                "John Starley"
-              ],
-              "correct_answer": 0,
-              "explanation": "Karl Drais invented the first bicycle-like vehicle called the 'draisine' in 1817.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_006",
-              "question": "Who invented the locomotive?",
-              "options": [
-                "George Stephenson",
-                "Richard Trevithick",
-                "Matthew Murray",
-                "John Blenkinsop"
-              ],
-              "correct_answer": 1,
-              "explanation": "Richard Trevithick built the first steam locomotive in 1804, though Stephenson made them practical.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_007",
-              "question": "Who invented the helicopter?",
-              "options": [
-                "Igor Sikorsky",
-                "Juan de la Cierva",
-                "Paul Cornu",
-                "Heinrich Focke"
-              ],
-              "correct_answer": 0,
-              "explanation": "Igor Sikorsky built the first practical helicopter, the VS-300, in 1939.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_008",
-              "question": "Who invented the jet engine?",
-              "options": [
-                "Frank Whittle",
-                "Hans von Ohain",
-                "Both A and B",
-                "Henri Coandă"
-              ],
-              "correct_answer": 2,
-              "explanation": "Frank Whittle (Britain) and Hans von Ohain (Germany) independently invented jet engines.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_009",
-              "question": "Who invented the submarine?",
-              "options": [
-                "Cornelis Drebbel",
-                "David Bushnell",
-                "Robert Fulton",
-                "John Holland"
-              ],
-              "correct_answer": 0,
-              "explanation": "Cornelis Drebbel built the first navigable submarine in 1620, though others improved the design.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_trans_010",
-              "question": "Who built the first rocket to reach space?",
-              "options": [
-                "Robert Goddard",
-                "Hermann Oberth",
-                "Konstantin Tsiolkovsky",
-                "Wernher von Braun"
-              ],
-              "correct_answer": 3,
-              "explanation": "Wernher von Braun's V-2 rocket was the first to reach space in 1944, though Goddard pioneered liquid fuel rockets.",
-              "difficulty": "hard",
-              "points": 10
-            }
-          ]
-        },
-        {
-          "id": "gk_computing_digital",
-          "name": "Computing & Digital Age",
-          "icon": "💻",
-          "color": "#9370DB",
-          "questions": [
-            {
-              "id": "gk_comp_001",
-              "question": "Who is considered the father of the computer?",
-              "options": [
-                "Charles Babbage",
-                "Alan Turing",
-                "John von Neumann",
-                "Ada Lovelace"
-              ],
-              "correct_answer": 0,
-              "explanation": "Charles Babbage designed the Analytical Engine, considered the first general-purpose computer design.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_002",
-              "question": "Who wrote the first computer program?",
-              "options": [
-                "Ada Lovelace",
-                "Grace Hopper",
-                "Kathleen Olsen",
-                "Betty Holberton"
-              ],
-              "correct_answer": 0,
-              "explanation": "Ada Lovelace wrote the first computer algorithm for Babbage's Analytical Engine in 1843.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_003",
-              "question": "Who invented the first electronic computer?",
-              "options": [
-                "John Atanasoff",
-                "J. Presper Eckert",
-                "John Mauchly",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Multiple inventors contributed to early electronic computers, including ENIAC and Atanasoff-Berry Computer.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_004",
-              "question": "Who founded Microsoft?",
-              "options": [
-                "Bill Gates",
-                "Paul Allen",
-                "Both A and B",
-                "Steve Ballmer"
-              ],
-              "correct_answer": 2,
-              "explanation": "Bill Gates and Paul Allen co-founded Microsoft in 1975.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_005",
-              "question": "Who founded Apple Computer?",
-              "options": [
-                "Steve Jobs",
-                "Steve Wozniak",
-                "Ronald Wayne",
-                "All three"
-              ],
-              "correct_answer": 3,
-              "explanation": "Steve Jobs, Steve Wozniak, and Ronald Wayne co-founded Apple Computer in 1976.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_006",
-              "question": "Who invented the computer compiler?",
-              "options": [
-                "Grace Hopper",
-                "John Backus",
-                "Alick Glennie",
-                "Kathleen Booth"
-              ],
-              "correct_answer": 0,
-              "explanation": "Grace Hopper created the first compiler, A-0 System, in 1951.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_007",
-              "question": "Who invented the programming language C?",
-              "options": [
-                "Dennis Ritchie",
-                "Ken Thompson",
-                "Brian Kernighan",
-                "Bjarne Stroustrup"
-              ],
-              "correct_answer": 0,
-              "explanation": "Dennis Ritchie developed the C programming language at Bell Labs between 1969-1973.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_008",
-              "question": "Who founded Google?",
-              "options": [
-                "Larry Page",
-                "Sergey Brin",
-                "Both A and B",
-                "Eric Schmidt"
-              ],
-              "correct_answer": 2,
-              "explanation": "Larry Page and Sergey Brin founded Google while PhD students at Stanford in 1998.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_009",
-              "question": "Who founded Facebook?",
-              "options": [
-                "Mark Zuckerberg",
-                "Eduardo Saverin",
-                "Dustin Moskovitz",
-                "All contributed"
-              ],
-              "correct_answer": 3,
-              "explanation": "Facebook was co-founded by Zuckerberg, Saverin, Moskovitz, and Chris Hughes at Harvard.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_010",
-              "question": "Who invented the computer graphics chip (GPU)?",
-              "options": [
-                "Jensen Huang",
-                "Chris Malachowsky",
-                "Curtis Priem",
-                "All three"
-              ],
-              "correct_answer": 3,
-              "explanation": "Huang, Malachowsky, and Priem co-founded NVIDIA and pioneered modern GPU technology.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_011",
-              "question": "Who invented email?",
-              "options": [
-                "Ray Tomlinson",
-                "Shiva Ayyadurai",
-                "Dave Crocker",
-                "Jon Postel"
-              ],
-              "correct_answer": 0,
-              "explanation": "Ray Tomlinson sent the first network email and introduced the @ symbol for addresses in 1971.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_012",
-              "question": "Who created the Linux operating system?",
-              "options": [
-                "Linus Torvalds",
-                "Richard Stallman",
-                "Ken Thompson",
-                "Andrew Tanenbaum"
-              ],
-              "correct_answer": 0,
-              "explanation": "Linus Torvalds created the Linux kernel in 1991 while studying at University of Helsinki.",
-              "difficulty": "easy",
-              "points": 10
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "sci_basic",
       "name": "Science",
       "description": "Physics, Chemistry, Biology basics",
@@ -1011,7 +169,7 @@
       "color": "#FF5722",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 9,
+      "requiredLevel": 5,
       "subcategories": [
         {
           "id": "flag_asia",
@@ -3765,7 +2923,7 @@
       "color": "#2E7D32",
       "question_timer_seconds": 15,
       "points_per_question": 15,
-      "requiredLevel": 13,
+      "requiredLevel": 10,
       "subcategories": [
         {
           "id": "maps_asia",
@@ -4890,6 +4048,848 @@
       ]
     },
     {
+      "id": "gk_world_inventors",
+      "name": "World Inventors & Inventions",
+      "description": "Greatest inventors and groundbreaking inventions that changed the world",
+      "icon": "🌍",
+      "color": "#4B0082",
+      "question_timer_seconds": 12,
+      "points_per_question": 10,
+      "requiredLevel": 15,
+      "subcategories": [
+        {
+          "id": "gk_scientific_discoveries",
+          "name": "Scientific Discoveries & Physics",
+          "icon": "🔬",
+          "color": "#FF6347",
+          "questions": [
+            {
+              "id": "gk_sci_001",
+              "question": "Who invented the telephone?",
+              "options": [
+                "Thomas Edison",
+                "Alexander Graham Bell",
+                "Nikola Tesla",
+                "Guglielmo Marconi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Alexander Graham Bell patented the first practical telephone in 1876.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_002",
+              "question": "Who discovered penicillin?",
+              "options": [
+                "Louis Pasteur",
+                "Alexander Fleming",
+                "Marie Curie",
+                "Jonas Salk"
+              ],
+              "correct_answer": 1,
+              "explanation": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_003",
+              "question": "Who invented the X-ray?",
+              "options": [
+                "Wilhelm Roentgen",
+                "Marie Curie",
+                "Henri Becquerel",
+                "Ernest Rutherford"
+              ],
+              "correct_answer": 0,
+              "explanation": "Wilhelm Roentgen discovered X-rays in 1895 and won the first Nobel Prize in Physics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_004",
+              "question": "Who developed the theory of relativity?",
+              "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Stephen Hawking",
+                "Niels Bohr"
+              ],
+              "correct_answer": 1,
+              "explanation": "Albert Einstein developed both special and general theories of relativity.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_005",
+              "question": "Who invented the microscope?",
+              "options": [
+                "Antonie van Leeuwenhoek",
+                "Zacharias Janssen",
+                "Robert Hooke",
+                "Galileo Galilei"
+              ],
+              "correct_answer": 1,
+              "explanation": "Zacharias Janssen is credited with inventing the compound microscope around 1590.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_006",
+              "question": "Who discovered radioactivity?",
+              "options": [
+                "Marie Curie",
+                "Henri Becquerel",
+                "Ernest Rutherford",
+                "Wilhelm Roentgen"
+              ],
+              "correct_answer": 1,
+              "explanation": "Henri Becquerel discovered radioactivity in 1896, though Marie Curie named the phenomenon.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_007",
+              "question": "Who invented the telescope?",
+              "options": [
+                "Galileo Galilei",
+                "Hans Lippershey",
+                "Johannes Kepler",
+                "Isaac Newton"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hans Lippershey is credited with inventing the first telescope in 1608.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_008",
+              "question": "Who discovered the electron?",
+              "options": [
+                "J.J. Thomson",
+                "Ernest Rutherford",
+                "Niels Bohr",
+                "Max Planck"
+              ],
+              "correct_answer": 0,
+              "explanation": "J.J. Thomson discovered the electron in 1897 through his cathode ray experiments.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_009",
+              "question": "Who invented the lightning rod?",
+              "options": [
+                "Benjamin Franklin",
+                "Thomas Edison",
+                "Nikola Tesla",
+                "Michael Faraday"
+              ],
+              "correct_answer": 0,
+              "explanation": "Benjamin Franklin invented the lightning rod in 1752 after his famous kite experiment.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_010",
+              "question": "Who developed the periodic table?",
+              "options": [
+                "Antoine Lavoisier",
+                "Dmitri Mendeleev",
+                "John Dalton",
+                "Marie Curie"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dmitri Mendeleev created the first periodic table of elements in 1869.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_011",
+              "question": "Who invented the laser?",
+              "options": [
+                "Theodore Maiman",
+                "Charles Townes",
+                "Arthur Schawlow",
+                "Gordon Gould"
+              ],
+              "correct_answer": 0,
+              "explanation": "Theodore Maiman built the first working laser in 1960, though the concept was developed by others.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_012",
+              "question": "Who discovered DNA structure?",
+              "options": [
+                "James Watson",
+                "Francis Crick",
+                "Rosalind Franklin",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Watson, Crick, and Franklin all contributed to discovering DNA's double helix structure.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_technology_communication",
+          "name": "Technology & Communication",
+          "icon": "📻",
+          "color": "#4169E1",
+          "questions": [
+            {
+              "id": "gk_tech_001",
+              "question": "Who invented the radio?",
+              "options": [
+                "Guglielmo Marconi",
+                "Heinrich Hertz",
+                "Nikola Tesla",
+                "Alexander Popov"
+              ],
+              "correct_answer": 0,
+              "explanation": "Guglielmo Marconi is credited with developing the first practical radio communication system.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_002",
+              "question": "Who invented the television?",
+              "options": [
+                "John Logie Baird",
+                "Philo Farnsworth",
+                "Vladimir Zworykin",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Television was developed by multiple inventors, with Baird, Farnsworth, and Zworykin making key contributions.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_003",
+              "question": "Who invented the printing press?",
+              "options": [
+                "Johannes Gutenberg",
+                "William Caxton",
+                "Bi Sheng",
+                "Laurens Coster"
+              ],
+              "correct_answer": 0,
+              "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440 in Europe.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_004",
+              "question": "Who invented the transistor?",
+              "options": [
+                "John Bardeen",
+                "Walter Brattain",
+                "William Shockley",
+                "All three"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bardeen, Brattain, and Shockley jointly invented the transistor at Bell Labs in 1947.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_005",
+              "question": "Who invented the World Wide Web?",
+              "options": [
+                "Tim Berners-Lee",
+                "Vint Cerf",
+                "Robert Kahn",
+                "Marc Andreessen"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tim Berners-Lee invented the World Wide Web while working at CERN in 1989.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_006",
+              "question": "Who co-invented the integrated circuit?",
+              "options": [
+                "Jack Kilby",
+                "Robert Noyce",
+                "Both A and B",
+                "Gordon Moore"
+              ],
+              "correct_answer": 2,
+              "explanation": "Jack Kilby and Robert Noyce independently invented the integrated circuit in 1958-59.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_007",
+              "question": "Who invented the computer mouse?",
+              "options": [
+                "Douglas Engelbart",
+                "Steve Jobs",
+                "Bill Gates",
+                "Alan Kay"
+              ],
+              "correct_answer": 0,
+              "explanation": "Douglas Engelbart invented the computer mouse in 1964 at Stanford Research Institute.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_008",
+              "question": "Who invented the fax machine?",
+              "options": [
+                "Alexander Bain",
+                "Giovanni Caselli",
+                "Arthur Korn",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "The fax machine evolved through contributions from Bain (1843), Caselli, and others.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_009",
+              "question": "Who invented the phonograph?",
+              "options": [
+                "Thomas Edison",
+                "Alexander Graham Bell",
+                "Emile Berliner",
+                "Leon Scott"
+              ],
+              "correct_answer": 0,
+              "explanation": "Thomas Edison invented the phonograph in 1877, the first device to record and reproduce sound.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_010",
+              "question": "Who developed Morse code?",
+              "options": [
+                "Samuel Morse",
+                "Alfred Vail",
+                "Both A and B",
+                "Alexander Graham Bell"
+              ],
+              "correct_answer": 2,
+              "explanation": "Samuel Morse and Alfred Vail developed Morse code for use with the telegraph.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_medical_breakthroughs",
+          "name": "Medical & Health Breakthroughs",
+          "icon": "🏥",
+          "color": "#DC143C",
+          "questions": [
+            {
+              "id": "gk_med_001",
+              "question": "Who developed the first successful vaccine?",
+              "options": [
+                "Edward Jenner",
+                "Louis Pasteur",
+                "Jonas Salk",
+                "Alexander Fleming"
+              ],
+              "correct_answer": 0,
+              "explanation": "Edward Jenner developed the first vaccine for smallpox in 1796.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_med_002",
+              "question": "Who invented the stethoscope?",
+              "options": [
+                "René Laennec",
+                "Wilhelm Roentgen",
+                "Louis Pasteur",
+                "Joseph Lister"
+              ],
+              "correct_answer": 0,
+              "explanation": "René Laennec invented the stethoscope in 1816 to listen to heart and lung sounds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_003",
+              "question": "Who developed the polio vaccine?",
+              "options": [
+                "Jonas Salk",
+                "Albert Sabin",
+                "Both A and B",
+                "Edward Jenner"
+              ],
+              "correct_answer": 2,
+              "explanation": "Jonas Salk developed the injectable polio vaccine (1955) and Albert Sabin the oral vaccine (1961).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_004",
+              "question": "Who performed the first heart transplant?",
+              "options": [
+                "Christiaan Barnard",
+                "Michael DeBakey",
+                "Norman Shumway",
+                "Richard Lower"
+              ],
+              "correct_answer": 0,
+              "explanation": "Christiaan Barnard performed the first human heart transplant in South Africa in 1967.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_005",
+              "question": "Who discovered insulin?",
+              "options": [
+                "Frederick Banting",
+                "Charles Best",
+                "John Macleod",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Banting, Best, and Macleod discovered insulin at the University of Toronto in 1921-22.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_006",
+              "question": "Who invented anesthesia for surgery?",
+              "options": [
+                "William Morton",
+                "Crawford Long",
+                "Horace Wells",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Multiple doctors contributed to developing surgical anesthesia in the 1840s.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_007",
+              "question": "Who discovered the blood circulation system?",
+              "options": [
+                "William Harvey",
+                "Galen",
+                "Andreas Vesalius",
+                "Ibn al-Nafis"
+              ],
+              "correct_answer": 0,
+              "explanation": "William Harvey described blood circulation in 1628, though Ibn al-Nafis described pulmonary circulation earlier.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_med_008",
+              "question": "Who developed the CT scan?",
+              "options": [
+                "Godfrey Hounsfield",
+                "Allan Cormack",
+                "Both A and B",
+                "Wilhelm Roentgen"
+              ],
+              "correct_answer": 2,
+              "explanation": "Godfrey Hounsfield and Allan Cormack jointly won the Nobel Prize for developing CT scanning.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_009",
+              "question": "Who invented the artificial heart?",
+              "options": [
+                "Robert Jarvik",
+                "Willem Kolff",
+                "Michael DeBakey",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Multiple inventors contributed to artificial heart development, with Jarvik-7 being most famous.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_med_010",
+              "question": "Who developed the MRI scanner?",
+              "options": [
+                "Raymond Damadian",
+                "Paul Lauterbur",
+                "Peter Mansfield",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "MRI was developed through contributions from Damadian, Lauterbur, and Mansfield.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_transportation_engineering",
+          "name": "Transportation & Engineering",
+          "icon": "🚗",
+          "color": "#32CD32",
+          "questions": [
+            {
+              "id": "gk_trans_001",
+              "question": "Who invented the automobile?",
+              "options": [
+                "Henry Ford",
+                "Karl Benz",
+                "Gottlieb Daimler",
+                "Nicolas-Joseph Cugnot"
+              ],
+              "correct_answer": 1,
+              "explanation": "Karl Benz created the first practical automobile with internal combustion engine in 1885.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_002",
+              "question": "Who invented the airplane?",
+              "options": [
+                "Wright Brothers",
+                "Santos-Dumont",
+                "Gustave Whitehead",
+                "Richard Pearse"
+              ],
+              "correct_answer": 0,
+              "explanation": "Orville and Wilbur Wright achieved the first powered flight at Kitty Hawk in 1903.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_003",
+              "question": "Who invented the steam engine?",
+              "options": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Richard Trevithick",
+                "George Stephenson"
+              ],
+              "correct_answer": 1,
+              "explanation": "Thomas Newcomen invented the first practical steam engine in 1712; Watt improved it significantly.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_004",
+              "question": "Who built the first successful steamboat?",
+              "options": [
+                "Robert Fulton",
+                "John Fitch",
+                "James Rumsey",
+                "William Symington"
+              ],
+              "correct_answer": 0,
+              "explanation": "Robert Fulton built the first commercially successful steamboat, the Clermont, in 1807.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_005",
+              "question": "Who invented the bicycle?",
+              "options": [
+                "Karl Drais",
+                "Kirkpatrick MacMillan",
+                "Pierre Michaux",
+                "John Starley"
+              ],
+              "correct_answer": 0,
+              "explanation": "Karl Drais invented the first bicycle-like vehicle called the 'draisine' in 1817.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_006",
+              "question": "Who invented the locomotive?",
+              "options": [
+                "George Stephenson",
+                "Richard Trevithick",
+                "Matthew Murray",
+                "John Blenkinsop"
+              ],
+              "correct_answer": 1,
+              "explanation": "Richard Trevithick built the first steam locomotive in 1804, though Stephenson made them practical.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_007",
+              "question": "Who invented the helicopter?",
+              "options": [
+                "Igor Sikorsky",
+                "Juan de la Cierva",
+                "Paul Cornu",
+                "Heinrich Focke"
+              ],
+              "correct_answer": 0,
+              "explanation": "Igor Sikorsky built the first practical helicopter, the VS-300, in 1939.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_008",
+              "question": "Who invented the jet engine?",
+              "options": [
+                "Frank Whittle",
+                "Hans von Ohain",
+                "Both A and B",
+                "Henri Coandă"
+              ],
+              "correct_answer": 2,
+              "explanation": "Frank Whittle (Britain) and Hans von Ohain (Germany) independently invented jet engines.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_009",
+              "question": "Who invented the submarine?",
+              "options": [
+                "Cornelis Drebbel",
+                "David Bushnell",
+                "Robert Fulton",
+                "John Holland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cornelis Drebbel built the first navigable submarine in 1620, though others improved the design.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_trans_010",
+              "question": "Who built the first rocket to reach space?",
+              "options": [
+                "Robert Goddard",
+                "Hermann Oberth",
+                "Konstantin Tsiolkovsky",
+                "Wernher von Braun"
+              ],
+              "correct_answer": 3,
+              "explanation": "Wernher von Braun's V-2 rocket was the first to reach space in 1944, though Goddard pioneered liquid fuel rockets.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_computing_digital",
+          "name": "Computing & Digital Age",
+          "icon": "💻",
+          "color": "#9370DB",
+          "questions": [
+            {
+              "id": "gk_comp_001",
+              "question": "Who is considered the father of the computer?",
+              "options": [
+                "Charles Babbage",
+                "Alan Turing",
+                "John von Neumann",
+                "Ada Lovelace"
+              ],
+              "correct_answer": 0,
+              "explanation": "Charles Babbage designed the Analytical Engine, considered the first general-purpose computer design.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_002",
+              "question": "Who wrote the first computer program?",
+              "options": [
+                "Ada Lovelace",
+                "Grace Hopper",
+                "Kathleen Olsen",
+                "Betty Holberton"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ada Lovelace wrote the first computer algorithm for Babbage's Analytical Engine in 1843.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_003",
+              "question": "Who invented the first electronic computer?",
+              "options": [
+                "John Atanasoff",
+                "J. Presper Eckert",
+                "John Mauchly",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Multiple inventors contributed to early electronic computers, including ENIAC and Atanasoff-Berry Computer.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_004",
+              "question": "Who founded Microsoft?",
+              "options": [
+                "Bill Gates",
+                "Paul Allen",
+                "Both A and B",
+                "Steve Ballmer"
+              ],
+              "correct_answer": 2,
+              "explanation": "Bill Gates and Paul Allen co-founded Microsoft in 1975.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_005",
+              "question": "Who founded Apple Computer?",
+              "options": [
+                "Steve Jobs",
+                "Steve Wozniak",
+                "Ronald Wayne",
+                "All three"
+              ],
+              "correct_answer": 3,
+              "explanation": "Steve Jobs, Steve Wozniak, and Ronald Wayne co-founded Apple Computer in 1976.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_006",
+              "question": "Who invented the computer compiler?",
+              "options": [
+                "Grace Hopper",
+                "John Backus",
+                "Alick Glennie",
+                "Kathleen Booth"
+              ],
+              "correct_answer": 0,
+              "explanation": "Grace Hopper created the first compiler, A-0 System, in 1951.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_007",
+              "question": "Who invented the programming language C?",
+              "options": [
+                "Dennis Ritchie",
+                "Ken Thompson",
+                "Brian Kernighan",
+                "Bjarne Stroustrup"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dennis Ritchie developed the C programming language at Bell Labs between 1969-1973.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_008",
+              "question": "Who founded Google?",
+              "options": [
+                "Larry Page",
+                "Sergey Brin",
+                "Both A and B",
+                "Eric Schmidt"
+              ],
+              "correct_answer": 2,
+              "explanation": "Larry Page and Sergey Brin founded Google while PhD students at Stanford in 1998.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_009",
+              "question": "Who founded Facebook?",
+              "options": [
+                "Mark Zuckerberg",
+                "Eduardo Saverin",
+                "Dustin Moskovitz",
+                "All contributed"
+              ],
+              "correct_answer": 3,
+              "explanation": "Facebook was co-founded by Zuckerberg, Saverin, Moskovitz, and Chris Hughes at Harvard.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_010",
+              "question": "Who invented the computer graphics chip (GPU)?",
+              "options": [
+                "Jensen Huang",
+                "Chris Malachowsky",
+                "Curtis Priem",
+                "All three"
+              ],
+              "correct_answer": 3,
+              "explanation": "Huang, Malachowsky, and Priem co-founded NVIDIA and pioneered modern GPU technology.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_011",
+              "question": "Who invented email?",
+              "options": [
+                "Ray Tomlinson",
+                "Shiva Ayyadurai",
+                "Dave Crocker",
+                "Jon Postel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ray Tomlinson sent the first network email and introduced the @ symbol for addresses in 1971.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_comp_012",
+              "question": "Who created the Linux operating system?",
+              "options": [
+                "Linus Torvalds",
+                "Richard Stallman",
+                "Ken Thompson",
+                "Andrew Tanenbaum"
+              ],
+              "correct_answer": 0,
+              "explanation": "Linus Torvalds created the Linux kernel in 1991 while studying at University of Helsinki.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk_world",
+      "name": "GK World",
+      "description": "Test your knowledge about the world",
+      "icon": "🌍",
+      "color": "#8BC34A",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 16,
+      "subcategories": [
+        {
+          "id": "world_history",
+          "name": "World History",
+          "icon": "🏛️",
+          "color": "#FFD700",
+          "questions": [
+            {
+              "id": "world_hist_001",
+              "question": "Who was the first President of the United States?",
+              "options": [
+                "Abraham Lincoln",
+                "George Washington",
+                "Thomas Jefferson",
+                "John Adams"
+              ],
+              "correct_answer": 1,
+              "explanation": "George Washington was the first President of the United States (1789–1797).",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "gk_india",
       "name": "GK India",
       "description": "Test your knowledge about India",
@@ -4897,7 +4897,7 @@
       "color": "#FF9933",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 14,
+      "requiredLevel": 17,
       "subcategories": [
         {
           "id": "gk_history",
@@ -6435,7 +6435,7 @@
       "color": "#FFA500",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 16,
+      "requiredLevel": 18,
       "subcategories": [
         {
           "id": "gk_ancient_inventions",
@@ -8019,7 +8019,7 @@
       "color": "#8B4513",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 17,
+      "requiredLevel": 19,
       "subcategories": [
         {
           "id": "gk_classical_literature",
