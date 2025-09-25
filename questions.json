@@ -4955,6 +4955,372 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gk_literature_arts",
+      "name": "Literature & Arts",
+      "description": "Indian authors, novels, poetry, and literary achievements",
+      "icon": "📚",
+      "color": "#8B4513",
+      "question_timer_seconds": 12,
+      "points_per_question": 10,
+      "requiredLevel": 4,
+      "subcategories": [
+        {
+          "id": "gk_classical_literature",
+          "name": "Classical Literature",
+          "icon": "📜",
+          "color": "#DAA520",
+          "questions": [
+            {
+              "id": "gk_lit_001",
+              "question": "Who wrote the epic 'Ramayana'?",
+              "options": [
+                "Vyasa",
+                "Valmiki",
+                "Kalidasa",
+                "Tulsidas"
+              ],
+              "correct_answer": 1,
+              "explanation": "Maharishi Valmiki is credited with writing the original Sanskrit epic Ramayana.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_lit_002",
+              "question": "The 'Mahabharata' was written by?",
+              "options": [
+                "Valmiki",
+                "Ved Vyasa",
+                "Kalidasa",
+                "Bharata"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ved Vyasa is traditionally credited as the author of the Mahabharata.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_lit_003",
+              "question": "Who wrote 'Abhijnana Shakuntalam'?",
+              "options": [
+                "Kalidasa",
+                "Bhartrhari",
+                "Magha",
+                "Dandin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Kalidasa wrote 'Abhijnana Shakuntalam', considered one of the greatest Sanskrit dramas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_lit_004",
+              "question": "The 'Arthashastra' was written by?",
+              "options": [
+                "Chandragupta",
+                "Kautilya",
+                "Ashoka",
+                "Bindusara"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kautilya (also known as Chanakya) wrote the Arthashastra, an ancient treatise on economics and politics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_lit_005",
+              "question": "Who wrote 'Ramcharitmanas'?",
+              "options": [
+                "Kabir",
+                "Tulsidas",
+                "Surdas",
+                "Rahim"
+              ],
+              "correct_answer": 1,
+              "explanation": "Tulsidas wrote Ramcharitmanas, an Awadhi version of the Ramayana.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_modern_authors",
+          "name": "Modern Indian Authors",
+          "icon": "✍️",
+          "color": "#4682B4",
+          "questions": [
+            {
+              "id": "gk_mod_001",
+              "question": "Who wrote 'Gitanjali'?",
+              "options": [
+                "Rabindranath Tagore",
+                "Bankim Chandra Chatterjee",
+                "Sarojini Naidu",
+                "Michael Madhusudan Dutt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rabindranath Tagore wrote 'Gitanjali', for which he won the Nobel Prize in Literature in 1913.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_002",
+              "question": "The novel 'Anandmath' was written by?",
+              "options": [
+                "Rabindranath Tagore",
+                "Bankim Chandra Chatterjee",
+                "Sarat Chandra Chattopadhyay",
+                "Ishwar Chandra Vidyasagar"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bankim Chandra Chatterjee wrote 'Anandmath', which contains the song 'Vande Mataram'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_003",
+              "question": "Who wrote 'Godan'?",
+              "options": [
+                "Premchand",
+                "Harivansh Rai Bachchan",
+                "Maithili Sharan Gupt",
+                "Sumitranandan Pant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Munshi Premchand wrote 'Godan', considered one of the greatest Hindi novels.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_004",
+              "question": "The God of Small Things was written by?",
+              "options": [
+                "Arundhati Roy",
+                "Kiran Desai",
+                "Anita Desai",
+                "Jhumpa Lahiri"
+              ],
+              "correct_answer": 0,
+              "explanation": "Arundhati Roy wrote 'The God of Small Things', which won the Booker Prize in 1997.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_005",
+              "question": "Who wrote 'Midnight's Children'?",
+              "options": [
+                "V.S. Naipaul",
+                "Salman Rushdie",
+                "R.K. Narayan",
+                "Vikram Seth"
+              ],
+              "correct_answer": 1,
+              "explanation": "Salman Rushdie wrote 'Midnight's Children', which won the Booker Prize in 1981.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_006",
+              "question": "The novel 'Train to Pakistan' was written by?",
+              "options": [
+                "Mulk Raj Anand",
+                "Khushwant Singh",
+                "Raja Rao",
+                "Bhabani Bhattacharya"
+              ],
+              "correct_answer": 1,
+              "explanation": "Khushwant Singh wrote 'Train to Pakistan', a novel about the partition of India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_007",
+              "question": "Who wrote 'Kamayani'?",
+              "options": [
+                "Maithili Sharan Gupt",
+                "Jaishankar Prasad",
+                "Sumitranandan Pant",
+                "Surya Kant Tripathi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Jaishankar Prasad wrote 'Kamayani', considered the greatest epic in modern Hindi literature.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_mod_008",
+              "question": "The novel 'Coolie' was written by?",
+              "options": [
+                "Mulk Raj Anand",
+                "R.K. Narayan",
+                "Raja Rao",
+                "Khushwant Singh"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mulk Raj Anand wrote 'Coolie', a novel about the exploitation of the working class.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_regional_literature",
+          "name": "Regional Literature",
+          "icon": "🗣️",
+          "color": "#FF8C00",
+          "questions": [
+            {
+              "id": "gk_reg_001",
+              "question": "Who wrote 'Chemmeen' in Malayalam?",
+              "options": [
+                "M.T. Vasudevan Nair",
+                "Thakazhi Sivasankara Pillai",
+                "Vaikom Muhammad Basheer",
+                "O.V. Vijayan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Thakazhi Sivasankara Pillai wrote 'Chemmeen', which won the Sahitya Akademi Award.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_reg_002",
+              "question": "The Tamil epic 'Silappadikaram' was written by?",
+              "options": [
+                "Ilango Adigal",
+                "Kamban",
+                "Bharathiyar",
+                "Avvaiyar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Prince Ilango Adigal wrote 'Silappadikaram', one of the five great epics of Tamil literature.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_reg_003",
+              "question": "Who wrote 'Parva' in Kannada?",
+              "options": [
+                "U.R. Ananthamurthy",
+                "S.L. Bhyrappa",
+                "Girish Karnad",
+                "K. Shivaram Karanth"
+              ],
+              "correct_answer": 1,
+              "explanation": "S.L. Bhyrappa wrote 'Parva', a modern retelling of the Mahabharata in Kannada.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_reg_004",
+              "question": "The Marathi novel 'Shyamchi Aai' was written by?",
+              "options": [
+                "V.P. Kale",
+                "Sane Guruji",
+                "P.L. Deshpande",
+                "Vishnu Sakharam Khandekar"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sane Guruji wrote 'Shyamchi Aai', a beloved Marathi novel about a mother's love.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_reg_005",
+              "question": "Who wrote 'Aag Ka Darya' in Urdu?",
+              "options": [
+                "Qurratulain Hyder",
+                "Saadat Hasan Manto",
+                "Ismat Chughtai",
+                "Josh Malihabadi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Qurratulain Hyder wrote 'Aag Ka Darya', considered a masterpiece of Urdu literature.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_poets_poetry",
+          "name": "Poets & Poetry",
+          "icon": "🎭",
+          "color": "#9370DB",
+          "questions": [
+            {
+              "id": "gk_poet_001",
+              "question": "Who is known as the 'Nightingale of India' for poetry?",
+              "options": [
+                "Sarojini Naidu",
+                "Mahadevi Verma",
+                "Subhadra Kumari Chauhan",
+                "Amrita Pritam"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sarojini Naidu was called the 'Nightingale of India' for her beautiful poetry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poet_002",
+              "question": "The poem 'Madhushala' was written by?",
+              "options": [
+                "Harivansh Rai Bachchan",
+                "Ramdhari Singh Dinkar",
+                "Maithili Sharan Gupt",
+                "Sumitranandan Pant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Harivansh Rai Bachchan wrote the famous poem 'Madhushala'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poet_003",
+              "question": "Who wrote the poem 'Rashmirathi'?",
+              "options": [
+                "Ramdhari Singh Dinkar",
+                "Maithili Sharan Gupt",
+                "Harivansh Rai Bachchan",
+                "Sumitranandan Pant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ramdhari Singh Dinkar wrote 'Rashmirathi', an epic poem about Karna from Mahabharata.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poet_004",
+              "question": "The national song 'Vande Mataram' appears in which novel?",
+              "options": [
+                "Durgeshnandini",
+                "Anandmath",
+                "Devi Chaudhurani",
+                "Rajsingha"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Vande Mataram' first appeared in Bankim Chandra Chatterjee's novel 'Anandmath'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poet_005",
+              "question": "Who wrote 'Jhoola Jhool Rahe Hain'?",
+              "options": [
+                "Subhadra Kumari Chauhan",
+                "Mahadevi Verma",
+                "Sumitranandan Pant",
+                "Nirala"
+              ],
+              "correct_answer": 0,
+              "explanation": "Subhadra Kumari Chauhan wrote this famous patriotic poem.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        }
+      ]
     }
   ]
 }
