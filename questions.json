@@ -88,212 +88,212 @@
             },
             {
               "id": "gk_hist_006",
-              "question": "Who was the founder of the Mughal Empire in India?",
-              "options": [
-                "Akbar",
-                "Babur",
-                "Humayun",
-                "Shah Jahan"
-              ],
-              "correct_answer": 1,
-              "explanation": "Babur founded the Mughal Empire after defeating Ibrahim Lodi in 1526 at Panipat.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_hist_007",
               "question": "The Battle of Plassey was fought in which year?",
               "options": [
                 "1757",
                 "1764",
-                "1761",
-                "1750"
+                "1857",
+                "1761"
               ],
               "correct_answer": 0,
-              "explanation": "The Battle of Plassey was fought in 1757 between the British East India Company and Siraj ud-Daulah.",
+              "explanation": "The Battle of Plassey was fought in 1757 between the British East India Company and Siraj-ud-Daulah.",
               "difficulty": "medium",
               "points": 10
             },
             {
-              "id": "gk_hist_008",
-              "question": "Who was known as the 'Nightingale of India'?",
+              "id": "gk_hist_007",
+              "question": "Who was the founder of the Mughal Empire in India?",
               "options": [
-                "Sarojini Naidu",
-                "Aruna Asaf Ali",
-                "Kasturba Gandhi",
-                "Vijaya Lakshmi Pandit"
+                "Akbar",
+                "Humayun",
+                "Babur",
+                "Aurangzeb"
               ],
-              "correct_answer": 0,
-              "explanation": "Sarojini Naidu was called the 'Nightingale of India' for her poetry and oratory skills.",
+              "correct_answer": 2,
+              "explanation": "Babur founded the Mughal Empire in 1526 after the First Battle of Panipat.",
               "difficulty": "easy",
               "points": 10
             },
             {
-              "id": "gk_hist_009",
+              "id": "gk_hist_008",
               "question": "The Quit India Movement was launched in which year?",
               "options": [
                 "1940",
                 "1942",
-                "1944",
-                "1946"
+                "1945",
+                "1939"
               ],
               "correct_answer": 1,
-              "explanation": "The Quit India Movement was launched on 8 August 1942.",
+              "explanation": "The Quit India Movement was launched by Gandhi on August 8, 1942.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_hist_009",
+              "question": "Who was the last Viceroy of India?",
+              "options": [
+                "Lord Wavell",
+                "Lord Mountbatten",
+                "Lord Curzon",
+                "Lord Irwin"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lord Mountbatten was the last Viceroy of India (1947) and the first Governor-General of independent India.",
               "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_hist_010",
-              "question": "Who built the Taj Mahal?",
+              "question": "The Indus Valley Civilization was discovered in which year?",
               "options": [
-                "Akbar",
-                "Shah Jahan",
-                "Aurangzeb",
-                "Jahangir"
+                "1921",
+                "1922",
+                "1920",
+                "1925"
               ],
-              "correct_answer": 1,
-              "explanation": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal.",
-              "difficulty": "easy",
+              "correct_answer": 0,
+              "explanation": "Harappa, the first site of Indus Valley Civilization, was discovered in 1921 by Dayaram Sahni.",
+              "difficulty": "hard",
               "points": 10
             },
             {
               "id": "gk_hist_011",
-              "question": "The capital of the Maratha Empire was?",
+              "question": "Who established the Chola Empire?",
               "options": [
-                "Pune",
-                "Mumbai",
-                "Satara",
-                "Raigad"
+                "Rajaraja Chola I",
+                "Vijayalaya Chola",
+                "Rajendra Chola I",
+                "Kulottunga Chola I"
               ],
-              "correct_answer": 2,
-              "explanation": "Satara was the capital of the Maratha Empire under Chhatrapati Shahu.",
-              "difficulty": "medium",
+              "correct_answer": 1,
+              "explanation": "Vijayalaya Chola founded the medieval Chola Empire in 848 CE.",
+              "difficulty": "hard",
               "points": 10
             },
             {
               "id": "gk_hist_012",
-              "question": "Who was the last Mughal emperor?",
+              "question": "The Jallianwala Bagh massacre took place in which year?",
               "options": [
-                "Akbar II",
-                "Bahadur Shah Zafar",
-                "Shah Alam II",
-                "Muhammad Shah"
+                "1917",
+                "1919",
+                "1921",
+                "1923"
               ],
               "correct_answer": 1,
-              "explanation": "Bahadur Shah Zafar was the last Mughal emperor, exiled after 1857 revolt.",
-              "difficulty": "medium",
+              "explanation": "The Jallianwala Bagh massacre occurred on April 13, 1919, in Amritsar.",
+              "difficulty": "easy",
               "points": 10
             },
             {
               "id": "gk_hist_013",
-              "question": "The Sepoy Mutiny began in which year?",
+              "question": "Who was known as 'Netaji'?",
               "options": [
-                "1856",
-                "1857",
-                "1858",
-                "1859"
+                "Bhagat Singh",
+                "Subhas Chandra Bose",
+                "Lala Lajpat Rai",
+                "Chandra Shekhar Azad"
               ],
               "correct_answer": 1,
-              "explanation": "The Sepoy Mutiny or First War of Independence began in 1857.",
+              "explanation": "Subhas Chandra Bose was popularly known as 'Netaji' and founded the Indian National Army.",
               "difficulty": "easy",
               "points": 10
             },
             {
               "id": "gk_hist_014",
-              "question": "Who founded the Indian National Congress?",
+              "question": "The Simon Commission arrived in India in which year?",
               "options": [
-                "A.O. Hume",
-                "Dadabhai Naoroji",
-                "Surendranath Banerjee",
-                "W.C. Bonnerjee"
+                "1926",
+                "1928",
+                "1930",
+                "1932"
               ],
-              "correct_answer": 0,
-              "explanation": "A.O. Hume founded the Indian National Congress in 1885.",
+              "correct_answer": 1,
+              "explanation": "The Simon Commission arrived in India in 1928 and was boycotted as it had no Indian members.",
               "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_hist_015",
-              "question": "The partition of Bengal took place in which year?",
+              "question": "Who wrote 'Discovery of India'?",
               "options": [
-                "1903",
-                "1905",
-                "1907",
-                "1911"
+                "Mahatma Gandhi",
+                "Jawaharlal Nehru",
+                "Rabindranath Tagore",
+                "S. Radhakrishnan"
               ],
               "correct_answer": 1,
-              "explanation": "The partition of Bengal was announced in 1905 by Lord Curzon.",
-              "difficulty": "medium",
+              "explanation": "Jawaharlal Nehru wrote 'Discovery of India' while imprisoned in Ahmednagar Fort (1942-1946).",
+              "difficulty": "easy",
               "points": 10
             },
             {
               "id": "gk_hist_016",
-              "question": "Who was known as 'Lok Manya'?",
+              "question": "The Revolt of 1857 started from which place?",
               "options": [
-                "Bal Gangadhar Tilak",
-                "Lala Lajpat Rai",
-                "Bipin Chandra Pal",
-                "Gopal Krishna Gokhale"
+                "Delhi",
+                "Meerut",
+                "Kanpur",
+                "Lucknow"
               ],
-              "correct_answer": 0,
-              "explanation": "Bal Gangadhar Tilak was known as 'Lok Manya' meaning 'accepted by the people'.",
+              "correct_answer": 1,
+              "explanation": "The Revolt of 1857 began in Meerut on May 10, 1857.",
               "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_hist_017",
-              "question": "The Harappan Civilization was discovered in which year?",
+              "question": "Who was the first Indian woman to become President of Indian National Congress?",
               "options": [
-                "1920",
-                "1921",
-                "1922",
-                "1924"
+                "Sarojini Naidu",
+                "Annie Besant",
+                "Indira Gandhi",
+                "Vijaya Lakshmi Pandit"
               ],
               "correct_answer": 1,
-              "explanation": "The Harappan Civilization was first discovered in 1921 at Harappa.",
+              "explanation": "Annie Besant was the first woman president of INC in 1917.",
               "difficulty": "hard",
               "points": 10
             },
             {
               "id": "gk_hist_018",
-              "question": "Who was the first Indian Governor-General of India?",
+              "question": "The Battle of Haldighati was fought between?",
               "options": [
-                "Lord Mountbatten",
-                "C. Rajagopalachari",
-                "Dr. Rajendra Prasad",
-                "Jawaharlal Nehru"
+                "Akbar and Rana Pratap",
+                "Babur and Ibrahim Lodi",
+                "Aurangzeb and Shivaji",
+                "Muhammad Ghori and Prithviraj"
               ],
-              "correct_answer": 1,
-              "explanation": "C. Rajagopalachari was the first Indian Governor-General (1948-1950).",
+              "correct_answer": 0,
+              "explanation": "The Battle of Haldighati (1576) was fought between Akbar's forces and Maharana Pratap.",
               "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_hist_019",
-              "question": "The Jallianwala Bagh massacre occurred in which city?",
+              "question": "Who gave the slogan 'Jai Hind'?",
               "options": [
-                "Delhi",
-                "Lahore",
-                "Amritsar",
-                "Chandigarh"
+                "Mahatma Gandhi",
+                "Subhas Chandra Bose",
+                "Bhagat Singh",
+                "Lal Bahadur Shastri"
               ],
-              "correct_answer": 2,
-              "explanation": "The Jallianwala Bagh massacre took place in Amritsar on 13 April 1919.",
+              "correct_answer": 1,
+              "explanation": "Subhas Chandra Bose popularized the slogan 'Jai Hind' as a greeting for the Indian National Army.",
               "difficulty": "easy",
               "points": 10
             },
             {
               "id": "gk_hist_020",
-              "question": "Who was the founder of the Gupta Empire?",
+              "question": "The Khilafat Movement was led by?",
               "options": [
-                "Chandragupta I",
-                "Samudragupta",
-                "Chandragupta II",
-                "Sri Gupta"
+                "Ali Brothers",
+                "Khan Abdul Ghaffar Khan",
+                "Maulana Azad",
+                "Sir Syed Ahmed Khan"
               ],
-              "correct_answer": 3,
-              "explanation": "Sri Gupta is considered the founder of the Gupta Empire around 240-280 CE.",
-              "difficulty": "hard",
+              "correct_answer": 0,
+              "explanation": "The Ali Brothers (Mohammad Ali and Shaukat Ali) led the Khilafat Movement (1919-1924).",
+              "difficulty": "medium",
               "points": 10
             }
           ]
@@ -328,7 +328,7 @@
                 "Madhya Pradesh"
               ],
               "correct_answer": 2,
-              "explanation": "Rajasthan is the largest state by area.",
+              "explanation": "Rajasthan is the largest state by area (342,239 sq km).",
               "difficulty": "easy",
               "points": 10
             },
@@ -356,7 +356,7 @@
                 "Kamet"
               ],
               "correct_answer": 1,
-              "explanation": "Kangchenjunga is the highest peak located entirely within India; K2 lies in the Karakoram on the India–Pakistan border region under dispute.",
+              "explanation": "Kangchenjunga (8,586 m) is the highest peak located entirely within India.",
               "difficulty": "hard",
               "points": 10
             },
@@ -378,144 +378,32 @@
               "id": "gk_geo_006",
               "question": "Which is the longest river in India?",
               "options": [
-                "Yamuna",
                 "Ganga",
                 "Godavari",
-                "Krishna"
+                "Brahmaputra",
+                "Narmada"
               ],
-              "correct_answer": 1,
-              "explanation": "The Ganga is the longest river in India at 2,525 km.",
+              "correct_answer": 0,
+              "explanation": "Ganga is the longest river in India with a length of 2,525 km.",
               "difficulty": "easy",
               "points": 10
             },
             {
               "id": "gk_geo_007",
-              "question": "The capital of Himachal Pradesh is?",
+              "question": "How many states share border with Bangladesh?",
               "options": [
-                "Shimla",
-                "Manali",
-                "Dharamshala",
-                "Kullu"
+                "3",
+                "4",
+                "5",
+                "6"
               ],
-              "correct_answer": 0,
-              "explanation": "Shimla is the capital of Himachal Pradesh.",
-              "difficulty": "easy",
+              "correct_answer": 2,
+              "explanation": "Five states share border with Bangladesh: West Bengal, Tripura, Meghalaya, Mizoram, and Assam.",
+              "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_geo_008",
-              "question": "Which plateau is called the 'Roof of the World'?",
-              "options": [
-                "Deccan Plateau",
-                "Tibetan Plateau",
-                "Malwa Plateau",
-                "Chota Nagpur Plateau"
-              ],
-              "correct_answer": 1,
-              "explanation": "The Tibetan Plateau is called the 'Roof of the World' due to its high elevation.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_009",
-              "question": "The Sundarbans mangrove forest is located in which state?",
-              "options": [
-                "Odisha",
-                "West Bengal",
-                "Assam",
-                "Kerala"
-              ],
-              "correct_answer": 1,
-              "explanation": "The Sundarbans is located in West Bengal and is home to the Royal Bengal Tiger.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_010",
-              "question": "Which is the smallest state in India by area?",
-              "options": [
-                "Sikkim",
-                "Tripura",
-                "Goa",
-                "Manipur"
-              ],
-              "correct_answer": 2,
-              "explanation": "Goa is the smallest state in India by area.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_011",
-              "question": "The Western Ghats run parallel to which coast?",
-              "options": [
-                "Eastern Coast",
-                "Western Coast",
-                "Northern Coast",
-                "Southern Coast"
-              ],
-              "correct_answer": 1,
-              "explanation": "The Western Ghats run parallel to the western coast of India.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_012",
-              "question": "Which Indian city is known as the 'Silicon Valley of India'?",
-              "options": [
-                "Hyderabad",
-                "Pune",
-                "Bangalore",
-                "Chennai"
-              ],
-              "correct_answer": 2,
-              "explanation": "Bangalore is known as the 'Silicon Valley of India' due to its IT industry.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_013",
-              "question": "The Tropic of Cancer passes through how many Indian states?",
-              "options": [
-                "6",
-                "7",
-                "8",
-                "9"
-              ],
-              "correct_answer": 2,
-              "explanation": "The Tropic of Cancer passes through 8 Indian states.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_014",
-              "question": "Which is the largest freshwater lake in India?",
-              "options": [
-                "Dal Lake",
-                "Wular Lake",
-                "Chilika Lake",
-                "Pulicat Lake"
-              ],
-              "correct_answer": 1,
-              "explanation": "Wular Lake in Kashmir is the largest freshwater lake in India.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_015",
-              "question": "The Nilgiri Hills are located in which state?",
-              "options": [
-                "Kerala",
-                "Karnataka",
-                "Tamil Nadu",
-                "All of the above"
-              ],
-              "correct_answer": 3,
-              "explanation": "The Nilgiri Hills span across Tamil Nadu, Kerala, and Karnataka.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_016",
               "question": "Which Indian state has the longest coastline?",
               "options": [
                 "Tamil Nadu",
@@ -524,64 +412,176 @@
                 "Maharashtra"
               ],
               "correct_answer": 2,
-              "explanation": "Gujarat has the longest coastline among Indian states.",
+              "explanation": "Gujarat has the longest coastline of about 1,600 km.",
               "difficulty": "medium",
               "points": 10
             },
             {
-              "id": "gk_geo_017",
-              "question": "The Deccan Plateau is bounded by which mountain ranges?",
+              "id": "gk_geo_009",
+              "question": "The Tropic of Cancer passes through how many Indian states?",
               "options": [
-                "Western and Eastern Ghats",
-                "Himalayas and Vindhyas",
-                "Aravalli and Satpura",
-                "Nilgiris and Cardamoms"
+                "6",
+                "7",
+                "8",
+                "9"
               ],
-              "correct_answer": 0,
-              "explanation": "The Deccan Plateau is bounded by the Western and Eastern Ghats.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_geo_018",
-              "question": "Which is the highest waterfall in India?",
-              "options": [
-                "Jog Falls",
-                "Kunchikal Falls",
-                "Nohkalikai Falls",
-                "Dudhsagar Falls"
-              ],
-              "correct_answer": 1,
-              "explanation": "Kunchikal Falls in Karnataka is the highest waterfall in India.",
+              "correct_answer": 2,
+              "explanation": "Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, and Mizoram.",
               "difficulty": "hard",
               "points": 10
             },
             {
-              "id": "gk_geo_019",
-              "question": "The Brahmaputra River is known by which name in Bangladesh?",
+              "id": "gk_geo_010",
+              "question": "Which is the smallest state in India by area?",
               "options": [
-                "Jamuna",
-                "Padma",
-                "Meghna",
-                "Surma"
+                "Goa",
+                "Sikkim",
+                "Tripura",
+                "Nagaland"
               ],
               "correct_answer": 0,
-              "explanation": "The Brahmaputra is known as Jamuna in Bangladesh.",
+              "explanation": "Goa is the smallest state with an area of 3,702 sq km.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_011",
+              "question": "Chilika Lake is located in which state?",
+              "options": [
+                "Andhra Pradesh",
+                "Odisha",
+                "West Bengal",
+                "Tamil Nadu"
+              ],
+              "correct_answer": 1,
+              "explanation": "Chilika Lake, Asia's largest brackish water lagoon, is in Odisha.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_012",
+              "question": "Which Indian state is known as 'Land of Five Rivers'?",
+              "options": [
+                "Haryana",
+                "Punjab",
+                "Himachal Pradesh",
+                "Uttarakhand"
+              ],
+              "correct_answer": 1,
+              "explanation": "Punjab means 'Land of Five Rivers' - Sutlej, Beas, Ravi, Chenab, and Jhelum.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_013",
+              "question": "The Western Ghats are also known as?",
+              "options": [
+                "Sahyadri",
+                "Himadri",
+                "Siwalik",
+                "Vindhya"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Western Ghats are also known as Sahyadri Mountains.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_014",
+              "question": "Which is the largest coffee producing state in India?",
+              "options": [
+                "Kerala",
+                "Tamil Nadu",
+                "Karnataka",
+                "Andhra Pradesh"
+              ],
+              "correct_answer": 2,
+              "explanation": "Karnataka produces about 70% of India's coffee.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_015",
+              "question": "The Sundarbans Delta is formed by which rivers?",
+              "options": [
+                "Ganga and Brahmaputra",
+                "Ganga and Yamuna",
+                "Brahmaputra and Barak",
+                "Godavari and Krishna"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Sundarbans is formed by the Ganga-Brahmaputra delta system.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_016",
+              "question": "Which Indian state is the largest producer of tea?",
+              "options": [
+                "West Bengal",
+                "Assam",
+                "Tamil Nadu",
+                "Kerala"
+              ],
+              "correct_answer": 1,
+              "explanation": "Assam produces more than 50% of India's tea.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_017",
+              "question": "The Palk Strait separates India from which country?",
+              "options": [
+                "Myanmar",
+                "Sri Lanka",
+                "Maldives",
+                "Indonesia"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Palk Strait separates Tamil Nadu (India) from Sri Lanka.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_018",
+              "question": "Which is the wettest place in India?",
+              "options": [
+                "Cherrapunji",
+                "Mawsynram",
+                "Agumbe",
+                "Mahabaleshwar"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mawsynram in Meghalaya receives the highest rainfall in India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geo_019",
+              "question": "The Narmada river flows into which body of water?",
+              "options": [
+                "Bay of Bengal",
+                "Arabian Sea",
+                "Indian Ocean",
+                "Gulf of Khambhat"
+              ],
+              "correct_answer": 1,
+              "explanation": "Narmada flows westward and drains into the Arabian Sea.",
               "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_geo_020",
-              "question": "Which pass connects Himachal Pradesh and Ladakh?",
+              "question": "Which Indian city is known as the 'Silicon Valley of India'?",
               "options": [
-                "Rohtang Pass",
-                "Banihal Pass",
-                "Zoji La",
-                "Nathu La"
+                "Hyderabad",
+                "Pune",
+                "Bengaluru",
+                "Chennai"
               ],
-              "correct_answer": 0,
-              "explanation": "Rohtang Pass connects Himachal Pradesh with Ladakh region.",
-              "difficulty": "medium",
+              "correct_answer": 2,
+              "explanation": "Bengaluru is known as the Silicon Valley of India due to its IT industry.",
+              "difficulty": "easy",
               "points": 10
             }
           ]
@@ -664,63 +664,21 @@
             },
             {
               "id": "gk_civics_006",
-              "question": "The maximum strength of Lok Sabha as per the Constitution is?",
+              "question": "The Constitution of India was adopted on?",
               "options": [
-                "545",
-                "550",
-                "552",
-                "555"
+                "26 January 1950",
+                "26 November 1949",
+                "15 August 1947",
+                "26 January 1949"
               ],
-              "correct_answer": 2,
-              "explanation": "The maximum strength of Lok Sabha is 552 members (530 from states, 20 from UTs, 2 nominated).",
-              "difficulty": "medium",
+              "correct_answer": 1,
+              "explanation": "The Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950.",
+              "difficulty": "easy",
               "points": 10
             },
             {
               "id": "gk_civics_007",
-              "question": "Which article of the Constitution deals with Right to Equality?",
-              "options": [
-                "Article 14",
-                "Article 15",
-                "Article 16",
-                "All of the above"
-              ],
-              "correct_answer": 3,
-              "explanation": "Articles 14-18 collectively deal with the Right to Equality.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_008",
-              "question": "The President of India is elected by?",
-              "options": [
-                "Direct election",
-                "Electoral College",
-                "Parliament",
-                "Prime Minister"
-              ],
-              "correct_answer": 1,
-              "explanation": "The President is elected by an Electoral College consisting of MPs and MLAs.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_009",
-              "question": "The Constitution of India was adopted on which date?",
-              "options": [
-                "15 August 1947",
-                "26 January 1950",
-                "26 November 1949",
-                "2 October 1950"
-              ],
-              "correct_answer": 2,
-              "explanation": "The Constitution was adopted on 26 November 1949 but came into effect on 26 January 1950.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_010",
-              "question": "Who is known as the 'Father of the Indian Constitution'?",
+              "question": "Who is known as the 'Father of Indian Constitution'?",
               "options": [
                 "Mahatma Gandhi",
                 "Jawaharlal Nehru",
@@ -728,55 +686,41 @@
                 "Sardar Patel"
               ],
               "correct_answer": 2,
-              "explanation": "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution.",
+              "explanation": "Dr. B.R. Ambedkar is known as the Father of Indian Constitution.",
               "difficulty": "easy",
               "points": 10
             },
             {
-              "id": "gk_civics_011",
-              "question": "The term of office of the President of India is?",
+              "id": "gk_civics_008",
+              "question": "The maximum strength of Lok Sabha is?",
               "options": [
-                "4 years",
-                "5 years",
-                "6 years",
-                "7 years"
-              ],
-              "correct_answer": 1,
-              "explanation": "The President serves a term of 5 years and can be re-elected.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_012",
-              "question": "Which amendment is known as the 'Mini Constitution'?",
-              "options": [
-                "42nd Amendment",
-                "44th Amendment",
-                "73rd Amendment",
-                "74th Amendment"
-              ],
-              "correct_answer": 0,
-              "explanation": "The 42nd Amendment (1976) is called the 'Mini Constitution' due to extensive changes.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_013",
-              "question": "The Panchayati Raj system was constitutionalized by which amendment?",
-              "options": [
-                "71st Amendment",
-                "72nd Amendment",
-                "73rd Amendment",
-                "74th Amendment"
+                "545",
+                "550",
+                "552",
+                "543"
               ],
               "correct_answer": 2,
-              "explanation": "The 73rd Amendment (1992) constitutionalized the Panchayati Raj system.",
+              "explanation": "Maximum strength of Lok Sabha is 552 (530 states + 20 UTs + 2 Anglo-Indian).",
               "difficulty": "medium",
               "points": 10
             },
             {
-              "id": "gk_civics_014",
-              "question": "Which article deals with the abolition of untouchability?",
+              "id": "gk_civics_009",
+              "question": "The President of India can be impeached on grounds of?",
+              "options": [
+                "Violation of Constitution",
+                "Corruption",
+                "Inefficiency",
+                "All of the above"
+              ],
+              "correct_answer": 0,
+              "explanation": "The President can be impeached only for 'violation of the Constitution'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_010",
+              "question": "Which Article deals with the abolition of Untouchability?",
               "options": [
                 "Article 15",
                 "Article 16",
@@ -784,91 +728,809 @@
                 "Article 18"
               ],
               "correct_answer": 2,
-              "explanation": "Article 17 abolishes untouchability and makes its practice punishable.",
+              "explanation": "Article 17 abolishes untouchability and its practice in any form.",
               "difficulty": "medium",
               "points": 10
             },
             {
-              "id": "gk_civics_015",
-              "question": "The Rajya Sabha can have a maximum of how many members?",
+              "id": "gk_civics_011",
+              "question": "The Preamble declares India to be?",
               "options": [
-                "238",
-                "245",
-                "250",
-                "255"
+                "Sovereign, Socialist, Secular, Democratic, Republic",
+                "Sovereign, Democratic, Republic",
+                "Sovereign, Socialist, Democratic, Republic",
+                "Sovereign, Secular, Democratic, Republic"
               ],
-              "correct_answer": 2,
-              "explanation": "The Rajya Sabha can have a maximum of 250 members (238 elected, 12 nominated).",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_016",
-              "question": "Which commission is responsible for conducting elections in India?",
-              "options": [
-                "Finance Commission",
-                "Election Commission",
-                "Planning Commission",
-                "Law Commission"
-              ],
-              "correct_answer": 1,
-              "explanation": "The Election Commission of India conducts elections to Parliament and state legislatures.",
+              "correct_answer": 0,
+              "explanation": "The Preamble declares India as a Sovereign, Socialist, Secular, Democratic, Republic.",
               "difficulty": "easy",
               "points": 10
             },
             {
-              "id": "gk_civics_017",
-              "question": "The concept of 'Rule of Law' is borrowed from which country?",
+              "id": "gk_civics_012",
+              "question": "Who has the power to declare a National Emergency?",
               "options": [
-                "USA",
-                "UK",
-                "France",
-                "Germany"
+                "Prime Minister",
+                "President",
+                "Parliament",
+                "Supreme Court"
               ],
               "correct_answer": 1,
-              "explanation": "The concept of Rule of Law is borrowed from the British system.",
+              "explanation": "The President can declare National Emergency under Article 352.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_013",
+              "question": "The Right to Information Act was passed in which year?",
+              "options": [
+                "2000",
+                "2003",
+                "2005",
+                "2007"
+              ],
+              "correct_answer": 2,
+              "explanation": "The RTI Act was passed in 2005 to promote transparency in governance.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_014",
+              "question": "The minimum age for becoming the Prime Minister of India is?",
+              "options": [
+                "25 years",
+                "30 years",
+                "35 years",
+                "No minimum age"
+              ],
+              "correct_answer": 0,
+              "explanation": "PM must be a member of Lok Sabha (min age 25) or Rajya Sabha (min age 30).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_015",
+              "question": "How many Fundamental Rights are there in the Indian Constitution?",
+              "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "correct_answer": 1,
+              "explanation": "There are 6 Fundamental Rights after the 44th Amendment removed Right to Property.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_016",
+              "question": "The concept of 'Basic Structure' of the Constitution was given in which case?",
+              "options": [
+                "Golaknath Case",
+                "Kesavananda Bharati Case",
+                "Minerva Mills Case",
+                "Maneka Gandhi Case"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Kesavananda Bharati Case (1973) established the Basic Structure doctrine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_017",
+              "question": "The 73rd Amendment Act deals with?",
+              "options": [
+                "Municipalities",
+                "Panchayati Raj",
+                "Right to Education",
+                "GST"
+              ],
+              "correct_answer": 1,
+              "explanation": "The 73rd Amendment (1992) provides constitutional status to Panchayati Raj institutions.",
               "difficulty": "medium",
               "points": 10
             },
             {
               "id": "gk_civics_018",
-              "question": "Which article empowers Parliament to amend the Constitution?",
+              "question": "Who can remove the Vice President of India?",
               "options": [
-                "Article 356",
-                "Article 368",
-                "Article 370",
-                "Article 380"
+                "President",
+                "Lok Sabha",
+                "Rajya Sabha",
+                "Both Houses of Parliament"
               ],
-              "correct_answer": 1,
-              "explanation": "Article 368 gives Parliament the power to amend the Constitution.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_019",
-              "question": "The Fundamental Duties were added by which amendment?",
-              "options": [
-                "40th Amendment",
-                "42nd Amendment",
-                "44th Amendment",
-                "46th Amendment"
-              ],
-              "correct_answer": 1,
-              "explanation": "Fundamental Duties were added by the 42nd Amendment in 1976.",
+              "correct_answer": 3,
+              "explanation": "Vice President can be removed by a resolution passed by Rajya Sabha and agreed by Lok Sabha.",
               "difficulty": "medium",
               "points": 10
             },
             {
-              "id": "gk_civics_020",
-              "question": "Who administers the oath of office to the President?",
+              "id": "gk_civics_019",
+              "question": "The Union List contains how many subjects?",
               "options": [
-                "Prime Minister",
-                "Speaker of Lok Sabha",
-                "Chief Justice of India",
-                "Vice President"
+                "97",
+                "98",
+                "99",
+                "100"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Union List currently contains 98 subjects (originally 97).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_020",
+              "question": "Which Article provides for freedom of speech and expression?",
+              "options": [
+                "Article 19",
+                "Article 20",
+                "Article 21",
+                "Article 22"
+              ],
+              "correct_answer": 0,
+              "explanation": "Article 19(1)(a) provides for freedom of speech and expression.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_culture",
+          "name": "Indian Culture & Heritage",
+          "icon": "🎭",
+          "color": "#FF6B6B",
+          "questions": [
+            {
+              "id": "gk_cult_001",
+              "question": "Which classical dance form originated in Kerala?",
+              "options": [
+                "Bharatanatyam",
+                "Kathakali",
+                "Kuchipudi",
+                "Odissi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kathakali is a classical dance-drama from Kerala known for elaborate costumes and makeup.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_002",
+              "question": "The Ajanta Caves are located in which state?",
+              "options": [
+                "Madhya Pradesh",
+                "Maharashtra",
+                "Karnataka",
+                "Rajasthan"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Ajanta Caves are Buddhist cave monuments in Maharashtra dating from 2nd century BCE.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_003",
+              "question": "Who wrote the national anthem 'Jana Gana Mana'?",
+              "options": [
+                "Bankim Chandra Chatterjee",
+                "Rabindranath Tagore",
+                "Sarojini Naidu",
+                "Subramania Bharati"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rabindranath Tagore composed Jana Gana Mana, adopted as national anthem in 1950.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_004",
+              "question": "The Konark Sun Temple is located in?",
+              "options": [
+                "Tamil Nadu",
+                "Odisha",
+                "Gujarat",
+                "Rajasthan"
+              ],
+              "correct_answer": 1,
+              "explanation": "The 13th-century Konark Sun Temple in Odisha is a UNESCO World Heritage Site.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_005",
+              "question": "Which is the oldest Veda?",
+              "options": [
+                "Sama Veda",
+                "Yajur Veda",
+                "Rig Veda",
+                "Atharva Veda"
               ],
               "correct_answer": 2,
-              "explanation": "The Chief Justice of India administers the oath of office to the President.",
+              "explanation": "Rig Veda is the oldest of the four Vedas, composed around 1500 BCE.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_006",
+              "question": "The famous 'Hornbill Festival' is celebrated in which state?",
+              "options": [
+                "Arunachal Pradesh",
+                "Nagaland",
+                "Manipur",
+                "Mizoram"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Hornbill Festival is celebrated in Nagaland every December.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_007",
+              "question": "Who is known as the 'Nightingale of India'?",
+              "options": [
+                "Lata Mangeshkar",
+                "M.S. Subbulakshmi",
+                "Sarojini Naidu",
+                "Asha Bhosle"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sarojini Naidu was called the 'Nightingale of India' for her poetry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_008",
+              "question": "The Khajuraho temples were built by which dynasty?",
+              "options": [
+                "Chola",
+                "Chandela",
+                "Pallava",
+                "Rashtrakuta"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Chandela dynasty built the Khajuraho temples between 950-1050 CE.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_009",
+              "question": "Bihu is the folk dance of which state?",
+              "options": [
+                "West Bengal",
+                "Assam",
+                "Bihar",
+                "Odisha"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bihu is the folk dance of Assam performed during the Bihu festival.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_010",
+              "question": "The Taj Mahal was built by which Mughal Emperor?",
+              "options": [
+                "Akbar",
+                "Jahangir",
+                "Shah Jahan",
+                "Aurangzeb"
+              ],
+              "correct_answer": 2,
+              "explanation": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_011",
+              "question": "Which musical instrument did Pandit Ravi Shankar play?",
+              "options": [
+                "Tabla",
+                "Sitar",
+                "Sarod",
+                "Veena"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pandit Ravi Shankar was a world-renowned sitar maestro.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_012",
+              "question": "The Ellora Caves represent which religions?",
+              "options": [
+                "Only Buddhism",
+                "Buddhism and Hinduism",
+                "Buddhism, Hinduism and Jainism",
+                "Only Hinduism"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ellora Caves have Buddhist, Hindu, and Jain monuments built between 600-1000 CE.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_013",
+              "question": "Pongal is the harvest festival of which state?",
+              "options": [
+                "Kerala",
+                "Tamil Nadu",
+                "Karnataka",
+                "Andhra Pradesh"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pongal is the harvest festival celebrated in Tamil Nadu in January.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_014",
+              "question": "The famous Meenakshi Temple is located in?",
+              "options": [
+                "Chennai",
+                "Madurai",
+                "Thanjavur",
+                "Kanchipuram"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Meenakshi Amman Temple is a historic Hindu temple in Madurai, Tamil Nadu.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_cult_015",
+              "question": "Which is the national flower of India?",
+              "options": [
+                "Rose",
+                "Lotus",
+                "Jasmine",
+                "Marigold"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lotus (Nelumbo nucifera) is the national flower of India.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_economy",
+          "name": "Indian Economy",
+          "icon": "💰",
+          "color": "#4ECDC4",
+          "questions": [
+            {
+              "id": "gk_eco_001",
+              "question": "The Reserve Bank of India was established in which year?",
+              "options": [
+                "1935",
+                "1947",
+                "1950",
+                "1969"
+              ],
+              "correct_answer": 0,
+              "explanation": "RBI was established on April 1, 1935, based on the recommendations of the Hilton Young Commission.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_002",
+              "question": "What does GST stand for?",
+              "options": [
+                "General Sales Tax",
+                "Goods and Services Tax",
+                "Government Sales Tax",
+                "Gross State Tax"
+              ],
+              "correct_answer": 1,
+              "explanation": "GST (Goods and Services Tax) was implemented in India on July 1, 2017.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_003",
+              "question": "Which Five Year Plan is known as 'Gadgil Yojana'?",
+              "options": [
+                "Third",
+                "Fourth",
+                "Fifth",
+                "Sixth"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Fourth Five Year Plan (1969-74) is known as Gadgil Yojana after D.R. Gadgil.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_004",
+              "question": "NITI Aayog replaced which organization?",
+              "options": [
+                "Finance Commission",
+                "Planning Commission",
+                "Economic Advisory Council",
+                "National Development Council"
+              ],
+              "correct_answer": 1,
+              "explanation": "NITI Aayog replaced the Planning Commission on January 1, 2015.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_005",
+              "question": "The Green Revolution in India was led by?",
+              "options": [
+                "C. Subramaniam",
+                "M.S. Swaminathan",
+                "Norman Borlaug",
+                "Verghese Kurien"
+              ],
+              "correct_answer": 1,
+              "explanation": "M.S. Swaminathan is known as the Father of Green Revolution in India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_006",
+              "question": "Which sector contributes the most to India's GDP?",
+              "options": [
+                "Agriculture",
+                "Industry",
+                "Services",
+                "Manufacturing"
+              ],
+              "correct_answer": 2,
+              "explanation": "The services sector contributes around 55-60% to India's GDP.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_007",
+              "question": "The Pradhan Mantri Jan Dhan Yojana was launched in?",
+              "options": [
+                "2013",
+                "2014",
+                "2015",
+                "2016"
+              ],
+              "correct_answer": 1,
+              "explanation": "PM Jan Dhan Yojana was launched on August 28, 2014, for financial inclusion.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_008",
+              "question": "India's first stock exchange was established in?",
+              "options": [
+                "Delhi",
+                "Mumbai",
+                "Kolkata",
+                "Chennai"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bombay Stock Exchange (BSE) was established in 1875.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_009",
+              "question": "Who is known as the 'Father of White Revolution' in India?",
+              "options": [
+                "M.S. Swaminathan",
+                "Verghese Kurien",
+                "C. Subramaniam",
+                "Sam Pitroda"
+              ],
+              "correct_answer": 1,
+              "explanation": "Verghese Kurien led Operation Flood, making India the largest milk producer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_eco_010",
+              "question": "The Indian rupee symbol (₹) was adopted in which year?",
+              "options": [
+                "2009",
+                "2010",
+                "2011",
+                "2012"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Indian rupee symbol was adopted on July 15, 2010.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_sports",
+          "name": "Indian Sports",
+          "icon": "🏏",
+          "color": "#95E1D3",
+          "questions": [
+            {
+              "id": "gk_sports_001",
+              "question": "India won its first Cricket World Cup in which year?",
+              "options": [
+                "1979",
+                "1983",
+                "1987",
+                "2011"
+              ],
+              "correct_answer": 1,
+              "explanation": "India won its first Cricket World Cup in 1983 under Kapil Dev's captaincy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_002",
+              "question": "Who is known as the 'Flying Sikh' of India?",
+              "options": [
+                "P.T. Usha",
+                "Milkha Singh",
+                "Dhyan Chand",
+                "Kapil Dev"
+              ],
+              "correct_answer": 1,
+              "explanation": "Milkha Singh was nicknamed the 'Flying Sikh' for his achievements in athletics.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_003",
+              "question": "Which Indian badminton player won the Olympic silver medal in 2016?",
+              "options": [
+                "Saina Nehwal",
+                "P.V. Sindhu",
+                "Jwala Gutta",
+                "Ashwini Ponnappa"
+              ],
+              "correct_answer": 1,
+              "explanation": "P.V. Sindhu won silver at the 2016 Rio Olympics in women's singles badminton.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_004",
+              "question": "The national game of India is?",
+              "options": [
+                "Cricket",
+                "Hockey",
+                "Kabaddi",
+                "No official national game"
+              ],
+              "correct_answer": 3,
+              "explanation": "India has no officially declared national game, though hockey is often considered as one.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_005",
+              "question": "Who was the first Indian to win an individual Olympic gold medal?",
+              "options": [
+                "Leander Paes",
+                "Abhinav Bindra",
+                "Rajyavardhan Singh Rathore",
+                "Neeraj Chopra"
+              ],
+              "correct_answer": 1,
+              "explanation": "Abhinav Bindra won India's first individual Olympic gold in 2008 Beijing (10m Air Rifle).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_006",
+              "question": "Which Indian cricketer is known as 'The Wall'?",
+              "options": [
+                "Sachin Tendulkar",
+                "Rahul Dravid",
+                "VVS Laxman",
+                "Sourav Ganguly"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rahul Dravid is nicknamed 'The Wall' for his solid defensive batting technique.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_007",
+              "question": "India hosted the Commonwealth Games in which year?",
+              "options": [
+                "1982",
+                "1998",
+                "2010",
+                "2014"
+              ],
+              "correct_answer": 2,
+              "explanation": "India hosted the Commonwealth Games in 2010 in New Delhi.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_008",
+              "question": "Who is the first Indian woman to win an Olympic medal?",
+              "options": [
+                "P.T. Usha",
+                "Karnam Malleswari",
+                "Mary Kom",
+                "Saina Nehwal"
+              ],
+              "correct_answer": 1,
+              "explanation": "Karnam Malleswari won bronze in weightlifting at the 2000 Sydney Olympics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_009",
+              "question": "Sachin Tendulkar scored his 100th international century against which team?",
+              "options": [
+                "Australia",
+                "Bangladesh",
+                "Pakistan",
+                "Sri Lanka"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sachin scored his 100th international century against Bangladesh in 2012.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_010",
+              "question": "Which Indian athlete won gold in javelin at the 2021 Tokyo Olympics?",
+              "options": [
+                "Bajrang Punia",
+                "Neeraj Chopra",
+                "Ravi Kumar Dahiya",
+                "Mirabai Chanu"
+              ],
+              "correct_answer": 1,
+              "explanation": "Neeraj Chopra won India's first Olympic gold in athletics at Tokyo 2020.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "gk_science",
+          "name": "Indian Science & Technology",
+          "icon": "🚀",
+          "color": "#F38181",
+          "questions": [
+            {
+              "id": "gk_sci_001",
+              "question": "ISRO was founded in which year?",
+              "options": [
+                "1962",
+                "1969",
+                "1972",
+                "1975"
+              ],
+              "correct_answer": 1,
+              "explanation": "Indian Space Research Organisation (ISRO) was founded on August 15, 1969.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_002",
+              "question": "India's first satellite was named?",
+              "options": [
+                "Bhaskara",
+                "Rohini",
+                "Aryabhata",
+                "INSAT"
+              ],
+              "correct_answer": 2,
+              "explanation": "Aryabhata was India's first satellite, launched on April 19, 1975.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_003",
+              "question": "Who is known as the 'Missile Man of India'?",
+              "options": [
+                "Homi Bhabha",
+                "Vikram Sarabhai",
+                "A.P.J. Abdul Kalam",
+                "C.V. Raman"
+              ],
+              "correct_answer": 2,
+              "explanation": "Dr. A.P.J. Abdul Kalam is known as the Missile Man for his work on ballistic missiles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_004",
+              "question": "India's Mars Orbiter Mission is also known as?",
+              "options": [
+                "Chandrayaan",
+                "Mangalyaan",
+                "Gaganyaan",
+                "Aditya"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mangalyaan (Mars Orbiter Mission) was launched in 2013 and reached Mars in 2014.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_005",
+              "question": "Who was the first Indian to win a Nobel Prize in Science?",
+              "options": [
+                "C.V. Raman",
+                "Homi Bhabha",
+                "Jagadish Chandra Bose",
+                "Srinivasa Ramanujan"
+              ],
+              "correct_answer": 0,
+              "explanation": "C.V. Raman won the Nobel Prize in Physics in 1930 for the Raman Effect.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_006",
+              "question": "India conducted its first nuclear test in which year?",
+              "options": [
+                "1972",
+                "1974",
+                "1998",
+                "1964"
+              ],
+              "correct_answer": 1,
+              "explanation": "India's first nuclear test (Smiling Buddha) was conducted on May 18, 1974.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_007",
+              "question": "The father of Indian Space Program is?",
+              "options": [
+                "A.P.J. Abdul Kalam",
+                "Vikram Sarabhai",
+                "Homi Bhabha",
+                "Satish Dhawan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Vikram Sarabhai is considered the father of the Indian space program.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_008",
+              "question": "Which IIT was established first?",
+              "options": [
+                "IIT Delhi",
+                "IIT Bombay",
+                "IIT Kharagpur",
+                "IIT Madras"
+              ],
+              "correct_answer": 2,
+              "explanation": "IIT Kharagpur was the first IIT, established in 1951.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_009",
+              "question": "India's first indigenous aircraft carrier is named?",
+              "options": [
+                "INS Vikrant",
+                "INS Viraat",
+                "INS Vikramaditya",
+                "INS Arihant"
+              ],
+              "correct_answer": 0,
+              "explanation": "INS Vikrant is India's first indigenous aircraft carrier, commissioned in 2022.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sci_010",
+              "question": "The BrahMos missile is jointly developed by India and which country?",
+              "options": [
+                "USA",
+                "Russia",
+                "France",
+                "Israel"
+              ],
+              "correct_answer": 1,
+              "explanation": "BrahMos is a joint venture between India's DRDO and Russia's NPO Mashinostroyeniya.",
               "difficulty": "easy",
               "points": 10
             }
