@@ -42,7 +42,7 @@
       "color": "#4B0082",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 5,
+      "requiredLevel": 15,
       "subcategories": [
         {
           "id": "gk_scientific_discoveries",
@@ -1011,6 +1011,7 @@
       "color": "#FF5722",
       "question_timer_seconds": 10,
       "points_per_question": 10,
+      "requiredLevel": 9,
       "subcategories": [
         {
           "id": "flag_asia",
@@ -3764,7 +3765,7 @@
       "color": "#2E7D32",
       "question_timer_seconds": 15,
       "points_per_question": 15,
-      "requiredLevel": 1,
+      "requiredLevel": 13,
       "subcategories": [
         {
           "id": "maps_asia",
@@ -4896,7 +4897,7 @@
       "color": "#FF9933",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 5,
+      "requiredLevel": 14,
       "subcategories": [
         {
           "id": "gk_history",
@@ -6434,7 +6435,7 @@
       "color": "#FFA500",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 6,
+      "requiredLevel": 16,
       "subcategories": [
         {
           "id": "gk_ancient_inventions",
@@ -8018,7 +8019,7 @@
       "color": "#8B4513",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 4,
+      "requiredLevel": 17,
       "subcategories": [
         {
           "id": "gk_classical_literature",
