@@ -3194,6 +3194,272 @@
               "explanation": "Large intestine reabsorbs water and forms feces.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "bio_068",
+              "question": "What is the basic unit of heredity?",
+              "options": [
+                "Chromosome",
+                "Gene",
+                "DNA",
+                "Protein"
+              ],
+              "correct_answer": 1,
+              "explanation": "A gene is the basic unit of heredity. Genes are segments of DNA that contain instructions for making proteins, which determine specific traits passed from parents to offspring.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_069",
+              "question": "Which organ in the human body filters blood and produces urine?",
+              "options": [
+                "Liver",
+                "Kidney",
+                "Spleen",
+                "Pancreas"
+              ],
+              "correct_answer": 1,
+              "explanation": "The kidneys filter blood to remove waste products and excess water, which are then excreted as urine. Each kidney contains about one million filtering units called nephrons.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_070",
+              "question": "What is the process by which plants make their own food using sunlight?",
+              "options": [
+                "Respiration",
+                "Photosynthesis",
+                "Fermentation",
+                "Transpiration"
+              ],
+              "correct_answer": 1,
+              "explanation": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose (food) and oxygen. This process occurs primarily in the chloroplasts of plant cells.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_071",
+              "question": "What type of blood cells are responsible for fighting infections?",
+              "options": [
+                "Red blood cells",
+                "White blood cells",
+                "Platelets",
+                "Plasma cells"
+              ],
+              "correct_answer": 1,
+              "explanation": "White blood cells, also called leukocytes, are part of the immune system and help defend the body against infections and foreign invaders. They identify and destroy pathogens like bacteria and viruses.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_072",
+              "question": "What is the largest organ in the human body?",
+              "options": [
+                "Liver",
+                "Brain",
+                "Skin",
+                "Heart"
+              ],
+              "correct_answer": 2,
+              "explanation": "The skin is the largest organ in the human body, covering approximately 20 square feet in adults. It serves as a protective barrier against pathogens, regulates body temperature, and enables the sense of touch.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_073",
+              "question": "Which vitamin is primarily obtained from sunlight exposure?",
+              "options": [
+                "Vitamin A",
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin K"
+              ],
+              "correct_answer": 2,
+              "explanation": "Vitamin D is synthesized in the skin when exposed to sunlight, specifically UVB radiation. It is essential for calcium absorption, bone health, and immune function.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_074",
+              "question": "What is the normal human body temperature in degrees Celsius?",
+              "options": [
+                "35°C",
+                "37°C",
+                "39°C",
+                "40°C"
+              ],
+              "correct_answer": 1,
+              "explanation": "The normal human body temperature is approximately 37°C (98.6°F). This temperature is maintained through thermoregulation, a process controlled by the hypothalamus in the brain.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "bio_075",
+              "question": "What is the function of hemoglobin in red blood cells?",
+              "options": [
+                "Fight infections",
+                "Clot blood",
+                "Transport oxygen",
+                "Digest food"
+              ],
+              "correct_answer": 2,
+              "explanation": "Hemoglobin is a protein in red blood cells that binds to oxygen in the lungs and transports it to tissues throughout the body. It also helps transport carbon dioxide back to the lungs for exhalation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_076",
+              "question": "Which process involves the division of a single cell into two identical daughter cells?",
+              "options": [
+                "Meiosis",
+                "Mitosis",
+                "Binary fission",
+                "Budding"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mitosis is the process of cell division that produces two genetically identical daughter cells from a single parent cell. It is essential for growth, tissue repair, and asexual reproduction in organisms.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_077",
+              "question": "What is the name of the pigment that gives plants their green color?",
+              "options": [
+                "Carotene",
+                "Chlorophyll",
+                "Xanthophyll",
+                "Anthocyanin"
+              ],
+              "correct_answer": 1,
+              "explanation": "Chlorophyll is the green pigment found in chloroplasts that absorbs light energy for photosynthesis. It primarily absorbs blue and red light while reflecting green light, giving plants their characteristic color.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_078",
+              "question": "What type of organism can produce its own food from inorganic substances?",
+              "options": [
+                "Heterotroph",
+                "Autotroph",
+                "Saprophyte",
+                "Parasite"
+              ],
+              "correct_answer": 1,
+              "explanation": "Autotrophs are organisms that can produce their own food from inorganic substances using light or chemical energy. Plants, algae, and some bacteria are autotrophs that form the base of most food chains.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_079",
+              "question": "Which chamber of the human heart receives oxygenated blood from the lungs?",
+              "options": [
+                "Right atrium",
+                "Left atrium",
+                "Right ventricle",
+                "Left ventricle"
+              ],
+              "correct_answer": 1,
+              "explanation": "The left atrium receives oxygenated blood from the lungs through the pulmonary veins. This blood then flows to the left ventricle, which pumps it to the rest of the body through the aorta.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_080",
+              "question": "What is the term for organisms that live in or on another organism and derive nutrients at the host's expense?",
+              "options": [
+                "Commensals",
+                "Mutualists",
+                "Parasites",
+                "Saprophytes"
+              ],
+              "correct_answer": 2,
+              "explanation": "Parasites are organisms that live in or on a host organism and obtain nutrients at the host's expense, often causing harm. Examples include tapeworms, ticks, and malaria-causing Plasmodium.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_081",
+              "question": "Which enzyme in saliva begins the digestion of carbohydrates?",
+              "options": [
+                "Pepsin",
+                "Lipase",
+                "Amylase",
+                "Trypsin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Salivary amylase, also called ptyalin, is an enzyme in saliva that begins breaking down starch into simpler sugars in the mouth. This is the first step of carbohydrate digestion.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_082",
+              "question": "What is the diploid chromosome number in humans?",
+              "options": [
+                "23",
+                "46",
+                "92",
+                "69"
+              ],
+              "correct_answer": 1,
+              "explanation": "Humans have 46 chromosomes in their somatic (non-sex) cells, which is the diploid number (2n). These chromosomes consist of 22 pairs of autosomes and one pair of sex chromosomes (XX or XY).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "bio_083",
+              "question": "Which of these is NOT a function of the liver?",
+              "options": [
+                "Detoxification of blood",
+                "Production of bile",
+                "Production of insulin",
+                "Metabolism of fats and proteins"
+              ],
+              "correct_answer": 2,
+              "explanation": "Insulin is produced by the beta cells of the pancreas, not the liver. The liver's many functions include producing bile, detoxifying blood, metabolizing nutrients, and synthesizing proteins like albumin.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_084",
+              "question": "In protein synthesis, what is the role of transfer RNA (tRNA)?",
+              "options": [
+                "Carries the genetic code from DNA to the ribosome",
+                "Brings amino acids to the ribosome",
+                "Catalyzes the formation of peptide bonds",
+                "Unwinds the DNA double helix"
+              ],
+              "correct_answer": 1,
+              "explanation": "Transfer RNA (tRNA) molecules act as adaptors in protein synthesis. Each tRNA molecule carries a specific amino acid and has an anticodon that matches a corresponding codon on the messenger RNA (mRNA) at the ribosome.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_085",
+              "question": "A person with type AB blood can safely receive a transfusion of which blood type(s)?",
+              "options": [
+                "Type A only",
+                "Type B and Type O only",
+                "Type AB only",
+                "Types A, B, AB, and O"
+              ],
+              "correct_answer": 3,
+              "explanation": "Individuals with type AB blood are considered 'universal recipients' because their red blood cells have both A and B antigens and their plasma does not contain anti-A or anti-B antibodies. They can receive blood from any ABO type.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_086",
+              "question": "What is the main function of the Calvin cycle?",
+              "options": [
+                "Produce ATP and NADPH",
+                "Capture light energy",
+                "Fix carbon dioxide into organic molecules",
+                "Split water to release oxygen"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Calvin cycle, also known as the light-independent reactions of photosynthesis, uses the ATP and NADPH produced during the light-dependent reactions to fix atmospheric carbon dioxide into glucose and other organic molecules.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         }
@@ -7823,6 +8089,286 @@
               "correct_answer": 1,
               "explanation": "George Washington was the first President of the United States (1789–1797).",
               "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_002",
+              "question": "In which ancient civilization did the first form of writing, cuneiform, develop?",
+              "options": [
+                "Ancient Egypt",
+                "Indus Valley",
+                "Ancient China",
+                "Mesopotamia"
+              ],
+              "correct_answer": 3,
+              "explanation": "Cuneiform, one of the earliest systems of writing, was developed by the ancient Sumerians in Mesopotamia around 3500-3000 BCE. It used wedge-shaped marks on clay tablets.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_003",
+              "question": "Who was the first emperor of Rome?",
+              "options": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Constantine"
+              ],
+              "correct_answer": 1,
+              "explanation": "Augustus, originally named Octavian, became the first Roman emperor in 27 BCE after the fall of the Roman Republic. Julius Caesar was a dictator but never held the title of emperor.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_004",
+              "question": "The construction of the Great Wall of China began under which dynasty?",
+              "options": [
+                "Han Dynasty",
+                "Tang Dynasty",
+                "Qin Dynasty",
+                "Ming Dynasty"
+              ],
+              "correct_answer": 2,
+              "explanation": "The first major construction of the Great Wall of China was initiated under the order of Qin Shi Huang, the first emperor of the Qin Dynasty, to protect against invasions from northern nomadic groups.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_005",
+              "question": "The Hundred Years' War was fought between which two countries?",
+              "options": [
+                "France and Spain",
+                "England and France",
+                "Germany and Russia",
+                "Rome and Carthage"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Hundred Years' War (1337-1453) was a series of conflicts fought between the Kingdom of England and the Kingdom of France over claims to the French throne.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_006",
+              "question": "What event is considered the start of World War I?",
+              "options": [
+                "The sinking of the Lusitania",
+                "The invasion of Poland",
+                "The assassination of Archduke Franz Ferdinand",
+                "The Battle of the Somme"
+              ],
+              "correct_answer": 2,
+              "explanation": "The assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo on June 28, 1914, is widely regarded as the trigger that set off the chain of events leading to World War I.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_007",
+              "question": "Which civilization built the Machu Picchu complex in the Andes Mountains?",
+              "options": [
+                "Aztec",
+                "Maya",
+                "Inca",
+                "Olmec"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Inca Empire built Machu Picchu in the 15th century. This iconic citadel, located in present-day Peru, is renowned for its sophisticated dry-stone walls and astronomical alignments.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_008",
+              "question": "The Renaissance, a period of great cultural change and artistic development, began in which country?",
+              "options": [
+                "France",
+                "Spain",
+                "England",
+                "Italy"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Renaissance began in Florence, Italy, during the 14th century. It was a fervent period of European cultural, artistic, political, and economic 'rebirth' following the Middle Ages.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_009",
+              "question": "Who led the Russian Revolution in 1917?",
+              "options": [
+                "Joseph Stalin",
+                "Leon Trotsky",
+                "Vladimir Lenin",
+                "Mikhail Gorbachev"
+              ],
+              "correct_answer": 2,
+              "explanation": "Vladimir Lenin, leader of the Bolshevik Party, led the October Revolution in 1917, which overthrew the provisional government and established the world's first socialist state.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "history_010",
+              "question": "The fall of which city in 1453 is often cited as the end of the Middle Ages?",
+              "options": [
+                "Rome",
+                "Athens",
+                "Constantinople",
+                "Jerusalem"
+              ],
+              "correct_answer": 2,
+              "explanation": "The fall of Constantinople to the Ottoman Empire in 1453 marked the end of the Byzantine Empire (the Eastern Roman Empire) and is a traditional endpoint for the Middle Ages.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_011",
+              "question": "What was the primary goal of the Crusades?",
+              "options": [
+                "To establish new trade routes to Asia",
+                "To conquer the Byzantine Empire",
+                "To reclaim the Holy Land from Muslim rule",
+                "To spread Christianity to the Americas"
+              ],
+              "correct_answer": 2,
+              "explanation": "The primary objective of the Crusades, a series of religious wars initiated by the Latin Church in the medieval period, was to recover the Holy Land (particularly Jerusalem) from Islamic control.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_012",
+              "question": "The 'Scramble for Africa' refers to what period in the late 19th century?",
+              "options": [
+                "The exploration of the African interior",
+                "The rapid colonization of Africa by European powers",
+                "The fight for independence by African nations",
+                "The discovery of gold and diamonds in South Africa"
+              ],
+              "correct_answer": 1,
+              "explanation": "The 'Scramble for Africa' (1881-1914) was a period of rapid invasion, occupation, division, and colonization of most of Africa by seven Western European powers during the era of New Imperialism.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_013",
+              "question": "Who was the Mongol leader who founded the largest contiguous land empire in history?",
+              "options": [
+                "Kublai Khan",
+                "Attila the Hun",
+                "Genghis Khan",
+                "Tamerlane"
+              ],
+              "correct_answer": 2,
+              "explanation": "Genghis Khan, born Temüjin, united many of the nomadic tribes of Northeast Asia and founded the Mongol Empire, which became the largest contiguous empire in history after his death.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_014",
+              "question": "The Treaty of Versailles, signed in 1919, officially ended which conflict?",
+              "options": [
+                "The Napoleonic Wars",
+                "The Franco-Prussian War",
+                "World War I",
+                "The Russian Civil War"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Treaty of Versailles was the most important of the peace treaties that brought World War I to an end. It was signed in the Palace of Versailles, France, on June 28, 1919.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_015",
+              "question": "The Protestant Reformation was initiated by which figure in 1517?",
+              "options": [
+                "John Calvin",
+                "Martin Luther",
+                "Henry VIII",
+                "John Wycliffe"
+              ],
+              "correct_answer": 1,
+              "explanation": "Martin Luther, a German professor of theology, is credited with initiating the Protestant Reformation by posting his 'Ninety-five Theses' on the door of All Saints' Church in Wittenberg in 1517.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_016",
+              "question": "Which ancient legal code is famous for the principle 'an eye for an eye'?",
+              "options": [
+                "The Law of the Twelve Tables",
+                "Justinian's Code",
+                "The Code of Hammurabi",
+                "Draconian Constitution"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Code of Hammurabi, a Babylonian legal text composed c. 1755–1750 BC, is one of the oldest deciphered writings of significant length. It is well known for the principle of lex talionis, or 'an eye for an eye'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_017",
+              "question": "The 'Silk Road' was a network of trade routes connecting which two regions?",
+              "options": [
+                "Europe and Africa",
+                "China and the Mediterranean",
+                "India and Southeast Asia",
+                "The Americas and Europe"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Silk Road was an ancient network of trade routes that connected the East and West. It was central to cultural interaction between China and the Mediterranean world for centuries.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "history_018",
+              "question": "What was the 'Reign of Terror' during the French Revolution?",
+              "options": [
+                "A period of foreign invasion",
+                "The rule of Napoleon Bonaparte",
+                "A period of mass executions and political purges",
+                "The storming of the Bastille"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Reign of Terror (1793-1794) was a period of extreme violence during the French Revolution, led by the Committee of Public Safety. It was characterized by mass executions of 'enemies of the revolution'.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "history_019",
+              "question": "The Meiji Restoration in Japan (1868) led to what major change?",
+              "options": [
+                "The closure of Japan to foreign influence",
+                "The restoration of the samurai class to power",
+                "The rapid modernization and industrialization of Japan",
+                "The establishment of a communist government"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Meiji Restoration was a political revolution that ended the Tokugawa shogunate and returned control of the country to direct imperial rule under Emperor Meiji. It initiated a period of rapid modernization and westernization.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "history_020",
+              "question": "The Thirty Years' War (1618-1648) was primarily fought in which region?",
+              "options": [
+                "The Italian Peninsula",
+                "The British Isles",
+                "Central Europe (Holy Roman Empire)",
+                "The Iberian Peninsula"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Thirty Years' War was one of the longest and most destructive conflicts in European history, fought primarily in what is now Germany. It began as a religious war between Protestants and Catholics within the Holy Roman Empire.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "history_021",
+              "question": "The Opium Wars were fought between Britain and which country in the mid-19th century?",
+              "options": [
+                "India",
+                "Japan",
+                "Russia",
+                "China"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Opium Wars were two conflicts fought in China between the Qing dynasty and Western powers. The first war (1839-1842) was triggered by the Qing government's campaign against the British opium trade.",
+              "difficulty": "hard",
               "points": 10
             }
           ]

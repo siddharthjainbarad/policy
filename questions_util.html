@@ -74,11 +74,13 @@
         .btn-info:hover { background: #138496; }
 
         /* Question List */
+        .questions-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .sort-controls { display: flex; gap: 10px; align-items: center; font-size: 13px; color: #6c757d; }
+        .sort-controls select { padding: 5px 10px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 13px; }
         .questions-grid { display: grid; gap: 12px; }
         .question-card { background: #fff; padding: 20px; border-radius: 8px; border-left: 4px solid #e0e0e0; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.2s; position: relative; }
         .question-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); }
         .question-card.new { border-left-color: #28a745; }
-        .question-card.duplicate { border-left-color: #ffc107; background: #fffbf0; }
         .question-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px; }
         .question-title { font-weight: 600; font-size: 15px; flex: 1; }
         .question-actions { display: flex; gap: 6px; }
@@ -86,13 +88,15 @@
         .question-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
         .option { padding: 8px 12px; background: #f5f7fa; border-radius: 4px; font-size: 13px; }
         .option.correct { background: #d4edda; color: #155724; font-weight: 600; border: 2px solid #28a745; }
-        .question-meta { display: flex; gap: 12px; margin-top: 12px; font-size: 12px; color: #6c757d; }
+        .question-meta { display: flex; gap: 12px; margin-top: 12px; font-size: 12px; color: #6c757d; flex-wrap: wrap; }
+        .question-id { display: flex; align-items: center; gap: 5px; }
+        .copy-id-btn { padding: 2px 6px; font-size: 11px; background: #e0e0e0; color: #333; border: none; border-radius: 3px; cursor: pointer; }
+        .copy-id-btn:hover { background: #d0d0d0; }
         .badge { padding: 3px 8px; border-radius: 12px; font-weight: 600; color: #fff; font-size: 11px; }
         .badge-easy { background: #28a745; }
         .badge-medium { background: #ffc107; color: #333; }
         .badge-hard { background: #dc3545; }
         .badge-new { background: #17a2b8; }
-        .badge-duplicate { background: #ffc107; color: #333; }
 
         /* Modal */
         .modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center; }
@@ -104,10 +108,16 @@
         .close:hover { color: #333; }
         .form-group { margin-bottom: 15px; }
         .form-group label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 13px; color: #495057; }
+        .form-group label .required { color: #dc3545; }
         .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; }
         .form-group textarea { min-height: 150px; font-family: 'Courier New', monospace; resize: vertical; }
         .form-group input[type="color"] { height: 40px; }
+        .form-group input[type="number"] { width: auto; min-width: 100px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
         .form-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; }
+        .form-hint { font-size: 12px; color: #6c757d; margin-top: 5px; }
+        .id-suggestion { background: #e7f3ff; border: 1px solid #667eea; padding: 8px; border-radius: 4px; font-size: 12px; margin-top: 5px; }
+        .id-suggestion strong { color: #667eea; }
 
         /* Duplicate Preview */
         .duplicate-preview { background: #fff3cd; border: 2px solid #ffc107; padding: 15px; border-radius: 6px; margin: 15px 0; }
@@ -118,6 +128,10 @@
         /* Changes Preview */
         .changes-preview { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
         .changes-preview h4 { color: #667eea; margin-bottom: 15px; }
+        .import-details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
+        .import-detail { background: #fff; padding: 10px; border-radius: 4px; text-align: center; border: 1px solid #e0e0e0; }
+        .import-detail-value { font-size: 20px; font-weight: bold; color: #667eea; }
+        .import-detail-label { font-size: 11px; color: #6c757d; margin-top: 5px; }
 
         /* Status Messages */
         .status { position: fixed; top: 80px; right: 20px; padding: 15px 20px; border-radius: 6px; font-weight: 600; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 999; animation: slideIn 0.3s; }
@@ -137,12 +151,6 @@
         .empty-icon { font-size: 60px; margin-bottom: 15px; opacity: 0.5; }
 
         .filename-display { font-size: 12px; color: #6c757d; margin-top: 10px; word-break: break-all; }
-
-        /* Tabs */
-        .form-tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 2px solid #e0e0e0; }
-        .form-tab { padding: 10px 20px; background: transparent; border: none; cursor: pointer; font-weight: 600; color: #6c757d; border-bottom: 3px solid transparent; transition: all 0.2s; }
-        .form-tab.active { color: #667eea; border-bottom-color: #667eea; }
-        .form-tab:hover { color: #667eea; }
     </style>
 </head>
 <body>
@@ -218,9 +226,8 @@
                     </div>
                 </div>
                 <div class="quick-actions">
-                    <button id="exportSubButton" class="btn-info btn-sm">📤 Export Subcategory</button>
-                    <button id="deleteAllButton" class="btn-danger btn-sm">🗑️ Delete All Questions</button>
-                    <button id="editSubButton" class="btn-secondary btn-sm">✏️ Edit Subcategory</button>
+                    <button id="exportSubButton" class="btn-info btn-sm">📤 Export</button>
+                    <button id="editSubButton" class="btn-secondary btn-sm">✏️ Edit</button>
                 </div>
             </div>
 
@@ -241,6 +248,20 @@
                 <button id="aiPromptButton" class="btn-primary">🤖 AI Prompt</button>
             </div>
 
+            <!-- Questions Header with Sort -->
+            <div class="questions-header">
+                <div><strong id="questionCount">0 questions</strong></div>
+                <div class="sort-controls">
+                    <span>Sort by:</span>
+                    <select id="sortBy">
+                        <option value="default">Default Order</option>
+                        <option value="id">ID (A-Z)</option>
+                        <option value="difficulty">Difficulty</option>
+                        <option value="newest">Newest First</option>
+                    </select>
+                </div>
+            </div>
+
             <!-- Questions Grid -->
             <div id="questionsList" class="questions-grid"></div>
         </div>
@@ -258,6 +279,7 @@
         <div class="form-group">
             <label>Paste JSON Array:</label>
             <textarea id="importTextarea" placeholder='[{"id":"q_001","question":"...","options":[...],"correct_answer":0,"explanation":"...","difficulty":"easy","points":10}]'></textarea>
+            <div class="form-hint">Paste the JSON array from your AI assistant (ChatGPT, Claude, etc.)</div>
         </div>
 
         <div class="form-group">
@@ -290,7 +312,7 @@
 
         <div class="form-group">
             <label>Copy this prompt for ChatGPT/Claude:</label>
-            <textarea id="aiPromptText" readonly style="font-size: 13px;"></textarea>
+            <textarea id="aiPromptText" readonly style="font-size: 13px; min-height: 300px;"></textarea>
         </div>
 
         <div class="form-actions">
@@ -304,57 +326,75 @@
 <div id="categoryModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
-            <h2 id="categoryModalTitle">➕ Add New</h2>
+            <h2 id="categoryModalTitle">➕ Add New Category</h2>
             <span class="close" onclick="closeCategoryModal()">&times;</span>
         </div>
 
-        <div class="form-tabs">
-            <button class="form-tab active" onclick="switchTab('category')">Category</button>
-            <button class="form-tab" onclick="switchTab('subcategory')">Subcategory</button>
-        </div>
-
-        <div id="categoryFormTab">
+        <div id="categoryForm">
             <div class="form-group">
-                <label>Category ID *</label>
+                <label>Category ID <span class="required">*</span></label>
                 <input type="text" id="catId" placeholder="e.g., math_advanced" required>
+                <div class="form-hint">Use lowercase with underscores (no spaces)</div>
             </div>
             <div class="form-group">
-                <label>Category Name *</label>
+                <label>Category Name <span class="required">*</span></label>
                 <input type="text" id="catName" placeholder="e.g., Advanced Mathematics" required>
             </div>
             <div class="form-group">
-                <label>Description</label>
-                <input type="text" id="catDesc" placeholder="Short description">
+                <label>Description <span class="required">*</span></label>
+                <input type="text" id="catDesc" placeholder="Short description" required>
             </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+            <div class="form-row">
                 <div class="form-group">
                     <label>Icon</label>
-                    <input type="text" id="catIcon" placeholder="e.g., 🔢" maxlength="2">
+                    <input type="text" id="catIcon" placeholder="e.g., 🔢" maxlength="2" value="📚">
                 </div>
                 <div class="form-group">
                     <label>Color</label>
                     <input type="color" id="catColor" value="#667eea">
                 </div>
             </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Timer (seconds) <span class="required">*</span></label>
+                    <input type="number" id="catTimer" value="10" min="5" max="60" required>
+                </div>
+                <div class="form-group">
+                    <label>Points per Question <span class="required">*</span></label>
+                    <input type="number" id="catPoints" value="10" min="1" max="100" required>
+                </div>
+            </div>
         </div>
 
-        <div id="subcategoryFormTab" style="display: none;">
+        <div class="form-actions">
+            <button onclick="closeCategoryModal()" class="btn-secondary">Cancel</button>
+            <button id="saveCategoryButton" class="btn-success">✅ Save Category</button>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Subcategory Modal -->
+<div id="subcategoryModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="subcategoryModalTitle">✏️ Edit Subcategory</h2>
+            <span class="close" onclick="closeSubcategoryModal()">&times;</span>
+        </div>
+
+        <div id="subcategoryForm">
             <div class="form-group">
-                <label>Parent Category *</label>
-                <select id="parentCat"></select>
-            </div>
-            <div class="form-group">
-                <label>Subcategory ID *</label>
+                <label>Subcategory ID <span class="required">*</span></label>
                 <input type="text" id="subId" placeholder="e.g., calculus_basics" required>
+                <div class="form-hint">Use lowercase with underscores (no spaces)</div>
             </div>
             <div class="form-group">
-                <label>Subcategory Name *</label>
+                <label>Subcategory Name <span class="required">*</span></label>
                 <input type="text" id="subName" placeholder="e.g., Calculus Basics" required>
             </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+            <div class="form-row">
                 <div class="form-group">
                     <label>Icon</label>
-                    <input type="text" id="subIcon" placeholder="e.g., 📐" maxlength="2">
+                    <input type="text" id="subIcon" placeholder="e.g., 📐" maxlength="2" value="📝">
                 </div>
                 <div class="form-group">
                     <label>Color</label>
@@ -364,8 +404,8 @@
         </div>
 
         <div class="form-actions">
-            <button onclick="closeCategoryModal()" class="btn-secondary">Cancel</button>
-            <button id="saveCategoryButton" class="btn-success">✅ Save</button>
+            <button onclick="closeSubcategoryModal()" class="btn-secondary">Cancel</button>
+            <button id="saveSubcategoryButton" class="btn-success">✅ Save Changes</button>
         </div>
     </div>
 </div>
@@ -377,7 +417,6 @@
     let selectedSubcategory = null;
     let newQuestions = new Set();
     let hasChanges = false;
-    let currentTab = 'category';
     let editingCategoryId = null;
     let editingSubcategoryId = null;
 
@@ -499,7 +538,9 @@
         const searchTerm = document.getElementById('searchInput').value.toLowerCase();
         const diffFilter = document.getElementById('filterDifficulty').value;
         const newFilter = document.getElementById('filterNew').value;
+        const sortBy = document.getElementById('sortBy').value;
 
+        // Apply filters
         if (searchTerm) {
             questions = questions.filter(q =>
                 q.question.toLowerCase().includes(searchTerm) || q.id.toLowerCase().includes(searchTerm)
@@ -513,6 +554,20 @@
         if (newFilter === 'new') {
             questions = questions.filter(q => newQuestions.has(q.id));
         }
+
+        // Apply sorting
+        if (sortBy === 'id') {
+            questions.sort((a, b) => a.id.localeCompare(b.id));
+        } else if (sortBy === 'difficulty') {
+            const diffOrder = { easy: 1, medium: 2, hard: 3 };
+            questions.sort((a, b) => diffOrder[a.difficulty] - diffOrder[b.difficulty]);
+        } else if (sortBy === 'newest') {
+            questions = questions.filter(q => newQuestions.has(q.id)).concat(
+                questions.filter(q => !newQuestions.has(q.id))
+            );
+        }
+
+        document.getElementById('questionCount').textContent = `${questions.length} question${questions.length !== 1 ? 's' : ''}`;
 
         if (questions.length === 0) {
             list.innerHTML = '<div class="empty-state"><div class="empty-icon">📭</div><p>No questions found. Click "Import JSON" to add.</p></div>';
@@ -539,12 +594,22 @@
                     <strong>Explanation:</strong> ${escapeHtml(q.explanation)}
                 </div>
                 <div class="question-meta">
-                    <span><strong>ID:</strong> ${q.id}</span>
+                    <span class="question-id">
+                        <strong>ID:</strong> ${q.id}
+                        <button class="copy-id-btn" onclick="copyToClipboard('${q.id}', event)">📋</button>
+                    </span>
                     <span class="badge badge-${q.difficulty}">${q.difficulty.toUpperCase()}</span>
                     <span><strong>Points:</strong> ${q.points}</span>
                 </div>
             </div>
         `).join('');
+    }
+
+    window.copyToClipboard = function(text, event) {
+        event.stopPropagation();
+        navigator.clipboard.writeText(text).then(() => {
+            showStatus(`✅ Copied: ${text}`, 'success');
+        });
     }
 
     window.deleteQuestion = function(id) {
@@ -581,11 +646,7 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
 
-        hasChanges = false;
-        newQuestions.clear();
-        document.getElementById('unsavedBadge').style.display = 'none';
-        renderQuestions();
-        showStatus('✅ File downloaded! Replace your old file with this.', 'success');
+        showStatus('✅ File downloaded! Replace your old file.', 'success');
     });
 
     // Export subcategory
@@ -601,22 +662,6 @@
         a.click();
         URL.revokeObjectURL(url);
         showStatus('✅ Subcategory exported!', 'success');
-    });
-
-    // Delete all questions
-    document.getElementById('deleteAllButton').addEventListener('click', () => {
-        const category = mainData.categories.find(c => c.id === selectedCategory);
-        const subcategory = category.subcategories.find(s => s.id === selectedSubcategory);
-
-        if (!confirm(`Delete all ${subcategory.questions.length} questions from this subcategory?`)) return;
-
-        subcategory.questions = [];
-        markAsChanged();
-        renderQuestions();
-        updateSubcategoryStats();
-        populateCategories();
-        updateGlobalStats();
-        showStatus('✅ All questions deleted', 'success');
     });
 
     // Import Modal
@@ -644,15 +689,20 @@
             if (questions.length === 0) throw new Error('Array is empty');
 
             // Validate each question
+            const errors = [];
             questions.forEach((q, idx) => {
-                if (!q.id) throw new Error(`Question ${idx + 1}: Missing ID`);
-                if (!q.question) throw new Error(`Question ${idx + 1}: Missing question text`);
-                if (!Array.isArray(q.options) || q.options.length < 2) throw new Error(`Question ${idx + 1}: Need at least 2 options`);
-                if (typeof q.correct_answer !== 'number') throw new Error(`Question ${idx + 1}: Invalid correct_answer`);
-                if (!q.explanation) throw new Error(`Question ${idx + 1}: Missing explanation`);
-                if (!['easy', 'medium', 'hard'].includes(q.difficulty)) throw new Error(`Question ${idx + 1}: Invalid difficulty`);
-                if (typeof q.points !== 'number') throw new Error(`Question ${idx + 1}: Invalid points`);
+                if (!q.id) errors.push(`Q${idx + 1}: Missing ID`);
+                if (!q.question) errors.push(`Q${idx + 1}: Missing question`);
+                if (!Array.isArray(q.options) || q.options.length < 2) errors.push(`Q${idx + 1}: Need 2+ options`);
+                if (typeof q.correct_answer !== 'number' || q.correct_answer < 0 || q.correct_answer >= q.options?.length) errors.push(`Q${idx + 1}: Invalid correct_answer`);
+                if (!q.explanation) errors.push(`Q${idx + 1}: Missing explanation`);
+                if (!['easy', 'medium', 'hard'].includes(q.difficulty)) errors.push(`Q${idx + 1}: Invalid difficulty (must be easy/medium/hard)`);
+                if (typeof q.points !== 'number' || q.points <= 0) errors.push(`Q${idx + 1}: Invalid points`);
             });
+
+            if (errors.length > 0) {
+                throw new Error(errors.join('; '));
+            }
 
             const category = mainData.categories.find(c => c.id === selectedCategory);
             const subcategory = category.subcategories.find(s => s.id === selectedSubcategory);
@@ -689,11 +739,11 @@
                         <h4>⚠️ ${duplicates.length} Duplicate ID(s) Found</h4>
                         <div class="duplicate-list">
                             ${duplicates.map(d => `<div class="duplicate-item">
-                                <strong>${d.id}</strong>: ${escapeHtml(d.question.substring(0, 60))}...
+                                <strong>${d.id}</strong>: ${escapeHtml(d.question.substring(0, 80))}...
                             </div>`).join('')}
                         </div>
                         <p style="margin-top: 10px; font-size: 13px;">
-                            <strong>Action:</strong> ${mode === 'skip' ? 'These will be skipped' : mode === 'replace' ? 'These will replace existing' : 'These will be renamed with _v2, _v3, etc.'}
+                            <strong>Action:</strong> ${mode === 'skip' ? 'These will be SKIPPED' : mode === 'replace' ? 'These will REPLACE existing' : 'These will be RENAMED (_v2, _v3, etc.)'}
                         </p>
                     </div>
                 `;
@@ -702,15 +752,30 @@
                 document.getElementById('duplicatePreview').style.display = 'none';
             }
 
+            const easyCount = validQuestions.filter(q => q.difficulty === 'easy').length;
+            const mediumCount = validQuestions.filter(q => q.difficulty === 'medium').length;
+            const hardCount = validQuestions.filter(q => q.difficulty === 'hard').length;
+
             document.getElementById('importPreview').innerHTML = `
                 <div class="changes-preview">
                     <h4>✅ Validation Successful</h4>
-                    <p style="font-size: 14px;">
-                        <strong>${validQuestions.length} questions</strong> will be imported<br>
-                        Easy: ${validQuestions.filter(q => q.difficulty === 'easy').length} |
-                        Medium: ${validQuestions.filter(q => q.difficulty === 'medium').length} |
-                        Hard: ${validQuestions.filter(q => q.difficulty === 'hard').length}
+                    <p style="font-size: 14px; margin-bottom: 10px;">
+                        <strong>${validQuestions.length} questions</strong> will be imported
                     </p>
+                    <div class="import-details">
+                        <div class="import-detail">
+                            <div class="import-detail-value">${easyCount}</div>
+                            <div class="import-detail-label">Easy</div>
+                        </div>
+                        <div class="import-detail">
+                            <div class="import-detail-value">${mediumCount}</div>
+                            <div class="import-detail-label">Medium</div>
+                        </div>
+                        <div class="import-detail">
+                            <div class="import-detail-value">${hardCount}</div>
+                            <div class="import-detail-label">Hard</div>
+                        </div>
+                    </div>
                 </div>
             `;
             document.getElementById('importPreview').style.display = 'block';
@@ -720,6 +785,9 @@
 
         } catch (err) {
             showStatus('❌ ' + err.message, 'error');
+            document.getElementById('importPreview').style.display = 'none';
+            document.getElementById('duplicatePreview').style.display = 'none';
+            document.getElementById('confirmImportButton').style.display = 'none';
         }
     });
 
@@ -745,44 +813,49 @@
         showStatus(`✅ Imported ${questions.length} questions!`, 'success');
     });
 
-    // AI Prompt
-    document.getElementById('aiPromptButton').addEventListener('click', () => {
-        if (!selectedCategory || !selectedSubcategory) {
-            showStatus('❌ Select a subcategory first', 'error');
-            return;
-        }
+    // AI Prompt - UPDATED TO 20 QUESTIONS
+// AI Prompt - FIXED VERSION
+document.getElementById('aiPromptButton').addEventListener('click', () => {
+    if (!selectedCategory || !selectedSubcategory) {
+        showStatus('❌ Select a subcategory first', 'error');
+        return;
+    }
 
-        const category = mainData.categories.find(c => c.id === selectedCategory);
-        const subcategory = category.subcategories.find(s => s.id === selectedSubcategory);
-        const nextNum = (subcategory.questions?.length || 0) + 1;
-        const prefix = selectedSubcategory.split('_').pop();
+    const category = mainData.categories.find(c => c.id === selectedCategory);
+    const subcategory = category.subcategories.find(s => s.id === selectedSubcategory);
+    const nextNum = (subcategory.questions?.length || 0) + 1;
+    const prefix = selectedSubcategory.split('_').pop();
 
-        const prompt = `Generate 10 quiz questions for "${category.name} › ${subcategory.name}".
+    const prompt = `Generate 20 high-quality quiz questions for "${category.name} > ${subcategory.name}".
 
-Return ONLY valid JSON array (no markdown, no explanations):
+CRITICAL: Return ONLY a valid JSON array. No markdown code blocks, no explanations, no extra text.
 
 [
-{
-"id": "${prefix}_${String(nextNum).padStart(3,'0')}",
-"question": "Your question here?",
-"options": ["Option A", "Option B", "Option C", "Option D"],
-"correct_answer": 0,
-"explanation": "Why this answer is correct.",
-"difficulty": "easy",
-"points": 10
-}
+  {
+    "id": "${prefix}_${String(nextNum).padStart(3,'0')}",
+    "question": "Your well-crafted question here?",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct_answer": 0,
+    "explanation": "Clear, educational explanation of why this answer is correct.",
+    "difficulty": "easy",
+    "points": 10
+  }
 ]
 
 Requirements:
-- Mix difficulties: 4 easy, 4 medium, 2 hard
+- Exactly 20 questions
+- Difficulty mix: 8 easy, 8 medium, 4 hard
+- All questions worth 10 points
 - correct_answer is index (0-3)
-- All questions 10 points
-- Educational explanations
-- NO extra text, ONLY the JSON array`;
+- All 4 options should be plausible
+- Explanations should be educational and clear
+- Increment IDs: ${prefix}_${String(nextNum).padStart(3,'0')}, ${prefix}_${String(nextNum+1).padStart(3,'0')}, etc.
 
-        document.getElementById('aiPromptText').value = prompt;
-        document.getElementById('aiPromptModal').classList.add('active');
-    });
+IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or after.`;
+
+    document.getElementById('aiPromptText').value = prompt;
+    document.getElementById('aiPromptModal').classList.add('active');
+});
 
     function closeAiPromptModal() {
         document.getElementById('aiPromptModal').classList.remove('active');
@@ -791,17 +864,15 @@ Requirements:
     document.getElementById('copyPromptButton').addEventListener('click', () => {
         const text = document.getElementById('aiPromptText').value;
         navigator.clipboard.writeText(text).then(() => {
-            showStatus('✅ Copied! Paste into ChatGPT/Claude', 'success');
+            showStatus('✅ Prompt copied! Paste into ChatGPT/Claude', 'success');
         });
     });
 
-    // Category/Subcategory Management
+    // Category Management
     function openAddCategoryModal() {
         document.getElementById('categoryModal').classList.add('active');
-        document.getElementById('categoryModalTitle').textContent = '➕ Add New';
-        currentTab = 'category';
+        document.getElementById('categoryModalTitle').textContent = '➕ Add New Category';
         editingCategoryId = null;
-        editingSubcategoryId = null;
 
         // Clear form
         document.getElementById('catId').value = '';
@@ -809,96 +880,52 @@ Requirements:
         document.getElementById('catDesc').value = '';
         document.getElementById('catIcon').value = '📚';
         document.getElementById('catColor').value = '#667eea';
-        document.getElementById('subId').value = '';
-        document.getElementById('subName').value = '';
-        document.getElementById('subIcon').value = '📝';
-        document.getElementById('subColor').value = '#667eea';
-
-        // Populate parent categories
-        const select = document.getElementById('parentCat');
-        select.innerHTML = mainData.categories.map(c => `<option value="${c.id}">${c.name}</option>`).join('');
-
-        switchTab('category');
+        document.getElementById('catTimer').value = '10';
+        document.getElementById('catPoints').value = '10';
     }
 
     function closeCategoryModal() {
         document.getElementById('categoryModal').classList.remove('active');
     }
 
-    function switchTab(tab) {
-        currentTab = tab;
-        document.querySelectorAll('.form-tab').forEach(t => t.classList.remove('active'));
-        document.querySelector(`.form-tab:nth-child(${tab === 'category' ? 1 : 2})`).classList.add('active');
-        document.getElementById('categoryFormTab').style.display = tab === 'category' ? 'block' : 'none';
-        document.getElementById('subcategoryFormTab').style.display = tab === 'subcategory' ? 'block' : 'none';
-    }
-
     document.getElementById('saveCategoryButton').addEventListener('click', () => {
-        if (currentTab === 'category') {
-            const id = document.getElementById('catId').value.trim();
-            const name = document.getElementById('catName').value.trim();
+        const id = document.getElementById('catId').value.trim();
+        const name = document.getElementById('catName').value.trim();
+        const desc = document.getElementById('catDesc').value.trim();
+        const timer = parseInt(document.getElementById('catTimer').value);
+        const points = parseInt(document.getElementById('catPoints').value);
 
-            if (!id || !name) {
-                showStatus('❌ ID and Name are required', 'error');
-                return;
-            }
+        if (!id || !name || !desc) {
+            showStatus('❌ ID, Name, and Description are required', 'error');
+            return;
+        }
 
-            if (!editingCategoryId && mainData.categories.some(c => c.id === id)) {
-                showStatus('❌ Category ID already exists', 'error');
-                return;
-            }
+        if (!editingCategoryId && mainData.categories.some(c => c.id === id)) {
+            showStatus('❌ Category ID already exists', 'error');
+            return;
+        }
 
-            if (editingCategoryId) {
-                const cat = mainData.categories.find(c => c.id === editingCategoryId);
-                cat.name = name;
-                cat.description = document.getElementById('catDesc').value;
-                cat.icon = document.getElementById('catIcon').value;
-                cat.color = document.getElementById('catColor').value;
-                showStatus('✅ Category updated!', 'success');
-            } else {
-                mainData.categories.push({
-                    id,
-                    name,
-                    description: document.getElementById('catDesc').value,
-                    icon: document.getElementById('catIcon').value,
-                    color: document.getElementById('catColor').value,
-                    subcategories: []
-                });
-                showStatus('✅ Category created!', 'success');
-            }
+        if (editingCategoryId) {
+            const cat = mainData.categories.find(c => c.id === editingCategoryId);
+            cat.name = name;
+            cat.description = desc;
+            cat.icon = document.getElementById('catIcon').value;
+            cat.color = document.getElementById('catColor').value;
+            cat.question_timer_seconds = timer;
+            cat.points_per_question = points;
+            showStatus('✅ Category updated!', 'success');
         } else {
-            const parentId = document.getElementById('parentCat').value;
-            const id = document.getElementById('subId').value.trim();
-            const name = document.getElementById('subName').value.trim();
-
-            if (!id || !name) {
-                showStatus('❌ ID and Name are required', 'error');
-                return;
-            }
-
-            const parent = mainData.categories.find(c => c.id === parentId);
-
-            if (!editingSubcategoryId && parent.subcategories.some(s => s.id === id)) {
-                showStatus('❌ Subcategory ID already exists', 'error');
-                return;
-            }
-
-            if (editingSubcategoryId) {
-                const sub = parent.subcategories.find(s => s.id === editingSubcategoryId);
-                sub.name = name;
-                sub.icon = document.getElementById('subIcon').value;
-                sub.color = document.getElementById('subColor').value;
-                showStatus('✅ Subcategory updated!', 'success');
-            } else {
-                parent.subcategories.push({
-                    id,
-                    name,
-                    icon: document.getElementById('subIcon').value,
-                    color: document.getElementById('subColor').value,
-                    questions: []
-                });
-                showStatus('✅ Subcategory created!', 'success');
-            }
+            mainData.categories.push({
+                id,
+                name,
+                description: desc,
+                icon: document.getElementById('catIcon').value,
+                color: document.getElementById('catColor').value,
+                question_timer_seconds: timer,
+                points_per_question: points,
+                subcategories: []
+            });
+            showStatus('✅ Category created!', 'success');
         }
 
         markAsChanged();
@@ -907,6 +934,11 @@ Requirements:
         closeCategoryModal();
     });
 
+    // Subcategory Management
+    function closeSubcategoryModal() {
+        document.getElementById('subcategoryModal').classList.remove('active');
+    }
+
     window.editSubcategory = function(catId, subId) {
         const category = mainData.categories.find(c => c.id === catId);
         const subcategory = category.subcategories.find(s => s.id === subId);
@@ -914,13 +946,8 @@ Requirements:
         editingCategoryId = catId;
         editingSubcategoryId = subId;
 
-        document.getElementById('categoryModal').classList.add('active');
-        document.getElementById('categoryModalTitle').textContent = '✏️ Edit Subcategory';
-
-        switchTab('subcategory');
-
-        const select = document.getElementById('parentCat');
-        select.innerHTML = mainData.categories.map(c => `<option value="${c.id}" ${c.id === catId ? 'selected' : ''}>${c.name}</option>`).join('');
+        document.getElementById('subcategoryModal').classList.add('active');
+        document.getElementById('subcategoryModalTitle').textContent = '✏️ Edit Subcategory';
 
         document.getElementById('subId').value = subcategory.id;
         document.getElementById('subName').value = subcategory.name;
@@ -928,11 +955,39 @@ Requirements:
         document.getElementById('subColor').value = subcategory.color || '#667eea';
     }
 
+    document.getElementById('saveSubcategoryButton').addEventListener('click', () => {
+        const id = document.getElementById('subId').value.trim();
+        const name = document.getElementById('subName').value.trim();
+
+        if (!id || !name) {
+            showStatus('❌ ID and Name are required', 'error');
+            return;
+        }
+
+        const category = mainData.categories.find(c => c.id === editingCategoryId);
+        const subcategory = category.subcategories.find(s => s.id === editingSubcategoryId);
+
+        subcategory.id = id;
+        subcategory.name = name;
+        subcategory.icon = document.getElementById('subIcon').value;
+        subcategory.color = document.getElementById('subColor').value;
+
+        if (selectedSubcategory === editingSubcategoryId) {
+            selectedSubcategory = id;
+            document.getElementById('subcategoryTitle').textContent = `${category.name} › ${name}`;
+        }
+
+        markAsChanged();
+        populateCategories();
+        closeSubcategoryModal();
+        showStatus('✅ Subcategory updated!', 'success');
+    });
+
     window.deleteSubcategory = function(catId, subId) {
         const category = mainData.categories.find(c => c.id === catId);
         const subcategory = category.subcategories.find(s => s.id === subId);
 
-        if (!confirm(`Delete subcategory "${subcategory.name}" with ${subcategory.questions?.length || 0} questions?`)) return;
+        if (!confirm(`Delete "${subcategory.name}" with ${subcategory.questions?.length || 0} questions?`)) return;
 
         category.subcategories = category.subcategories.filter(s => s.id !== subId);
 
@@ -969,10 +1024,11 @@ Requirements:
         setTimeout(() => status.remove(), 4000);
     }
 
-    // Search and filter
+    // Search, filter, and sort
     document.getElementById('searchInput').addEventListener('input', renderQuestions);
     document.getElementById('filterDifficulty').addEventListener('change', renderQuestions);
     document.getElementById('filterNew').addEventListener('change', renderQuestions);
+    document.getElementById('sortBy').addEventListener('change', renderQuestions);
 </script>
 </body>
 </html>
