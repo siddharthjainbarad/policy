@@ -44,20 +44,6 @@
               "points": 10
             },
             {
-              "id": "phy_003",
-              "question": "Which quantity is conserved in elastic collisions?",
-              "options": [
-                "Momentum only",
-                "Kinetic energy only",
-                "Both momentum and kinetic energy",
-                "Neither"
-              ],
-              "correct_answer": 2,
-              "explanation": "Elastic collisions conserve both momentum and kinetic energy.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
               "id": "phy_004",
               "question": "What is the value of gravitational acceleration (g) on Earth?",
               "options": [
@@ -938,20 +924,6 @@
               "explanation": "λ = h/mv (matter waves).",
               "difficulty": "medium",
               "points": 10
-            },
-            {
-              "id": "phy_067",
-              "question": "The binding energy of a nucleus is:",
-              "options": [
-                "The energy required to break it into nucleons",
-                "The energy released during formation",
-                "Both A and B",
-                "None of the above"
-              ],
-              "correct_answer": 2,
-              "explanation": "Binding energy = Energy needed to disassemble = Energy released during formation.",
-              "difficulty": "hard",
-              "points": 10
             }
           ]
         },
@@ -1742,20 +1714,6 @@
               ],
               "correct_answer": 1,
               "explanation": "Washing soda = Na₂CO₃·10H₂O.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "chem_057",
-              "question": "The element that is a liquid at room temperature is:",
-              "options": [
-                "Mercury",
-                "Bromine",
-                "Both A and B",
-                "None of the above"
-              ],
-              "correct_answer": 2,
-              "explanation": "Hg (metal) and Br₂ (non-metal) are liquids at 25°C.",
               "difficulty": "easy",
               "points": 10
             },
@@ -2730,20 +2688,6 @@
               ],
               "correct_answer": 0,
               "explanation": "Leeuwenhoek: First to observe microorganisms.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "bio_060",
-              "question": "The cell membrane is made of:",
-              "options": [
-                "Carbohydrates",
-                "Proteins",
-                "Lipids",
-                "Both B and C"
-              ],
-              "correct_answer": 3,
-              "explanation": "Phospholipid bilayer + Proteins (fluid mosaic model).",
               "difficulty": "medium",
               "points": 10
             },
@@ -6998,20 +6942,6 @@
               "points": 10
             },
             {
-              "id": "gk_tech_006",
-              "question": "Who co-invented the integrated circuit?",
-              "options": [
-                "Jack Kilby",
-                "Robert Noyce",
-                "Both A and B",
-                "Gordon Moore"
-              ],
-              "correct_answer": 2,
-              "explanation": "Jack Kilby and Robert Noyce independently invented the integrated circuit in 1958-59.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
               "id": "gk_tech_007",
               "question": "Who invented the computer mouse?",
               "options": [
@@ -7052,20 +6982,6 @@
               "explanation": "Thomas Edison invented the phonograph in 1877, the first device to record and reproduce sound.",
               "difficulty": "easy",
               "points": 10
-            },
-            {
-              "id": "gk_tech_010",
-              "question": "Who developed Morse code?",
-              "options": [
-                "Samuel Morse",
-                "Alfred Vail",
-                "Both A and B",
-                "Alexander Graham Bell"
-              ],
-              "correct_answer": 2,
-              "explanation": "Samuel Morse and Alfred Vail developed Morse code for use with the telegraph.",
-              "difficulty": "medium",
-              "points": 10
             }
           ]
         },
@@ -7100,20 +7016,6 @@
               ],
               "correct_answer": 0,
               "explanation": "René Laennec invented the stethoscope in 1816 to listen to heart and lung sounds.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_003",
-              "question": "Who developed the polio vaccine?",
-              "options": [
-                "Jonas Salk",
-                "Albert Sabin",
-                "Both A and B",
-                "Edward Jenner"
-              ],
-              "correct_answer": 2,
-              "explanation": "Jonas Salk developed the injectable polio vaccine (1955) and Albert Sabin the oral vaccine (1961).",
               "difficulty": "medium",
               "points": 10
             },
@@ -7171,20 +7073,6 @@
               "correct_answer": 0,
               "explanation": "William Harvey described blood circulation in 1628, though Ibn al-Nafis described pulmonary circulation earlier.",
               "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_med_008",
-              "question": "Who developed the CT scan?",
-              "options": [
-                "Godfrey Hounsfield",
-                "Allan Cormack",
-                "Both A and B",
-                "Wilhelm Roentgen"
-              ],
-              "correct_answer": 2,
-              "explanation": "Godfrey Hounsfield and Allan Cormack jointly won the Nobel Prize for developing CT scanning.",
-              "difficulty": "hard",
               "points": 10
             },
             {
@@ -7322,20 +7210,6 @@
               "points": 10
             },
             {
-              "id": "gk_trans_008",
-              "question": "Who invented the jet engine?",
-              "options": [
-                "Frank Whittle",
-                "Hans von Ohain",
-                "Both A and B",
-                "Henri Coandă"
-              ],
-              "correct_answer": 2,
-              "explanation": "Frank Whittle (Britain) and Hans von Ohain (Germany) independently invented jet engines.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
               "id": "gk_trans_009",
               "question": "Who invented the submarine?",
               "options": [
@@ -7414,20 +7288,6 @@
               "points": 10
             },
             {
-              "id": "gk_comp_004",
-              "question": "Who founded Microsoft?",
-              "options": [
-                "Bill Gates",
-                "Paul Allen",
-                "Both A and B",
-                "Steve Ballmer"
-              ],
-              "correct_answer": 2,
-              "explanation": "Bill Gates and Paul Allen co-founded Microsoft in 1975.",
-              "difficulty": "easy",
-              "points": 10
-            },
-            {
               "id": "gk_comp_005",
               "question": "Who founded Apple Computer?",
               "options": [
@@ -7467,20 +7327,6 @@
               "correct_answer": 0,
               "explanation": "Dennis Ritchie developed the C programming language at Bell Labs between 1969-1973.",
               "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_comp_008",
-              "question": "Who founded Google?",
-              "options": [
-                "Larry Page",
-                "Sergey Brin",
-                "Both A and B",
-                "Eric Schmidt"
-              ],
-              "correct_answer": 2,
-              "explanation": "Larry Page and Sergey Brin founded Google while PhD students at Stanford in 1998.",
-              "difficulty": "easy",
               "points": 10
             },
             {
@@ -8404,20 +8250,6 @@
               ],
               "correct_answer": 1,
               "explanation": "The 73rd Amendment (1992) provides constitutional status to Panchayati Raj institutions.",
-              "difficulty": "medium",
-              "points": 10
-            },
-            {
-              "id": "gk_civics_018",
-              "question": "Who can remove the Vice President of India?",
-              "options": [
-                "President",
-                "Lok Sabha",
-                "Rajya Sabha",
-                "Both Houses of Parliament"
-              ],
-              "correct_answer": 3,
-              "explanation": "Vice President can be removed by a resolution passed by Rajya Sabha and agreed by Lok Sabha.",
               "difficulty": "medium",
               "points": 10
             },
@@ -9784,20 +9616,6 @@
               "points": 10
             },
             {
-              "id": "gk_mod_sci_022",
-              "question": "Who developed the theory of cosmic rays?",
-              "options": [
-                "Homi Bhabha",
-                "Vikram Sarabhai",
-                "Both A and B",
-                "C.V. Raman"
-              ],
-              "correct_answer": 2,
-              "explanation": "Both Bhabha and Sarabhai made significant contributions to cosmic ray research.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
               "id": "gk_mod_sci_023",
               "question": "Who is known as the 'Birdman of India'?",
               "options": [
@@ -9971,20 +9789,6 @@
               "correct_answer": 0,
               "explanation": "Dr. P. Venugopal performed the first heart valve replacement surgery in India.",
               "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_med_005",
-              "question": "Who developed the Jaipur foot prosthetic?",
-              "options": [
-                "Dr. P.K. Sethi",
-                "Dr. D.R. Mehta",
-                "Both A and B",
-                "Dr. A.P.J. Abdul Kalam"
-              ],
-              "correct_answer": 2,
-              "explanation": "Dr. P.K. Sethi and Dr. D.R. Mehta developed the affordable Jaipur foot prosthetic.",
-              "difficulty": "medium",
               "points": 10
             },
             {
@@ -10318,20 +10122,6 @@
               "points": 10
             },
             {
-              "id": "gk_tech_004",
-              "question": "The PageRank algorithm was co-developed by?",
-              "options": [
-                "Larry Page",
-                "Rajeev Motwani",
-                "Both A and B",
-                "Sergey Brin"
-              ],
-              "correct_answer": 2,
-              "explanation": "Rajeev Motwani mentored Larry Page and Sergey Brin in developing PageRank for Google.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
               "id": "gk_tech_005",
               "question": "Who designed India's fastest supercomputer?",
               "options": [
@@ -10370,20 +10160,6 @@
               ],
               "correct_answer": 0,
               "explanation": "Rajesh Jain developed email systems supporting Indian languages through his work.",
-              "difficulty": "hard",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_008",
-              "question": "The optical fiber technology in India was pioneered by?",
-              "options": [
-                "Prof. K. Thyagarajan",
-                "Prof. A.K. Ghatak",
-                "Both A and B",
-                "Prof. Rajesh Kochhar"
-              ],
-              "correct_answer": 2,
-              "explanation": "Prof. K. Thyagarajan and Prof. A.K. Ghatak pioneered optical fiber research in India.",
               "difficulty": "hard",
               "points": 10
             },
@@ -10525,20 +10301,6 @@
               "correct_answer": 0,
               "explanation": "DRDO and Russia's NPO Mashinostroyeniya jointly developed BrahMos.",
               "difficulty": "easy",
-              "points": 10
-            },
-            {
-              "id": "gk_tech_019",
-              "question": "The Indian Regional Navigation Satellite System is called?",
-              "options": [
-                "NAVIC",
-                "GAGAN",
-                "IRNSS",
-                "Both A and C"
-              ],
-              "correct_answer": 3,
-              "explanation": "IRNSS is also known as NAVIC (Navigation with Indian Constellation).",
-              "difficulty": "medium",
               "points": 10
             },
             {
