@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "icon": { "type": "string" },
+          "color": { "type": "string" },
+          "question_timer_seconds": { "type": "integer" },
+          "points_per_question": { "type": "integer" },
+          "subcategories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "icon": { "type": "string" },
+                "color": { "type": "string" },
+                "questions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string" },
+                      "question": { "type": "string" },
+                      "options": { "type": "array", "minItems": 2 },
+                      "correct_answer": { "type": "integer" },
+                      "explanation": { "type": "string" },
+                      "difficulty": { "enum": ["easy", "medium", "hard"] },
+                      "points": { "type": "integer" }
+                    },
+                    "required": ["id", "question", "options", "correct_answer", "explanation", "difficulty", "points"]
+                  }
+                }
+              },
+              "required": ["id", "name", "questions"]
+            }
+          }
+        },
+        "required": ["id", "name", "description", "subcategories"]
+      }
+    }
+  },
+  "required": ["categories"]
+}

@@ -924,6 +924,146 @@
               "explanation": "λ = h/mv (matter waves).",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "physics_067",
+              "question": "What is the SI unit of force?",
+              "options": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Pascal"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Newton (N) is the SI unit of force, named after Sir Isaac Newton. One Newton is the force required to accelerate a mass of one kilogram at a rate of one meter per second squared.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "physics_068",
+              "question": "Light travels fastest through which medium?",
+              "options": [
+                "Water",
+                "Glass",
+                "Vacuum",
+                "Diamond"
+              ],
+              "correct_answer": 2,
+              "explanation": "Light travels fastest through a vacuum at approximately 299,792,458 meters per second. In any other medium, light slows down due to interactions with particles in the material.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "physics_069",
+              "question": "What type of energy is stored in a stretched rubber band?",
+              "options": [
+                "Kinetic energy",
+                "Thermal energy",
+                "Elastic potential energy",
+                "Chemical energy"
+              ],
+              "correct_answer": 2,
+              "explanation": "Elastic potential energy is stored in objects that can be stretched or compressed, like rubber bands and springs. When released, this stored energy converts to kinetic energy as the object returns to its original shape.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "physics_070",
+              "question": "What happens to the resistance of a conductor when its temperature increases?",
+              "options": [
+                "It decreases",
+                "It remains constant",
+                "It increases",
+                "It becomes zero"
+              ],
+              "correct_answer": 2,
+              "explanation": "For most conductors, resistance increases with temperature because atoms vibrate more vigorously at higher temperatures, creating more collisions with moving electrons and impeding current flow.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "physics_071",
+              "question": "A ball is thrown upward. At the highest point of its trajectory, what is its acceleration?",
+              "options": [
+                "Zero",
+                "9.8 m/s² downward",
+                "9.8 m/s² upward",
+                "Constantly changing"
+              ],
+              "correct_answer": 1,
+              "explanation": "Even at the highest point where velocity is zero, the acceleration due to gravity remains constant at 9.8 m/s² downward. Gravity acts on the ball throughout its entire flight path.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "physics_072",
+              "question": "What is the wavelength range of visible light?",
+              "options": [
+                "100-200 nm",
+                "200-400 nm",
+                "400-700 nm",
+                "700-1000 nm"
+              ],
+              "correct_answer": 2,
+              "explanation": "Visible light has wavelengths between approximately 400 nanometers (violet) and 700 nanometers (red). Wavelengths shorter than 400 nm are ultraviolet, while those longer than 700 nm are infrared.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "physics_073",
+              "question": "What phenomenon explains why a straw appears bent when placed in a glass of water?",
+              "options": [
+                "Reflection",
+                "Diffraction",
+                "Refraction",
+                "Dispersion"
+              ],
+              "correct_answer": 2,
+              "explanation": "Refraction occurs when light changes speed as it passes from one medium to another, causing it to bend. The light from the submerged part of the straw bends as it exits the water, making the straw appear bent.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "physics_074",
+              "question": "In a parallel circuit with two resistors, what happens to the total resistance compared to the individual resistances?",
+              "options": [
+                "It equals the sum of both resistances",
+                "It is greater than either resistance",
+                "It is less than the smallest resistance",
+                "It equals the average of both resistances"
+              ],
+              "correct_answer": 2,
+              "explanation": "In a parallel circuit, the total resistance is always less than the smallest individual resistance. This occurs because parallel paths provide additional routes for current flow, reducing overall resistance.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "physics_075",
+              "question": "A 2 kg object moving at 5 m/s collides with a stationary 3 kg object in a perfectly inelastic collision. What is the final velocity of the combined mass?",
+              "options": [
+                "1 m/s",
+                "2 m/s",
+                "2.5 m/s",
+                "3.33 m/s"
+              ],
+              "correct_answer": 1,
+              "explanation": "Using conservation of momentum: (2 kg × 5 m/s) + (3 kg × 0 m/s) = (2 kg + 3 kg) × v. Solving: 10 kg·m/s = 5 kg × v, therefore v = 2 m/s. In perfectly inelastic collisions, objects stick together after impact.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_076",
+              "question": "What is the de Broglie wavelength of an electron with momentum of 2.0 × 10⁻²⁴ kg·m/s? (h = 6.63 × 10⁻³⁴ J·s)",
+              "options": [
+                "3.32 × 10⁻¹⁰ m",
+                "1.33 × 10⁻⁹ m",
+                "4.42 × 10⁻¹¹ m",
+                "6.63 × 10⁻¹⁰ m"
+              ],
+              "correct_answer": 0,
+              "explanation": "The de Broglie wavelength is calculated using λ = h/p, where h is Planck's constant and p is momentum. Substituting: λ = (6.63 × 10⁻³⁴ J·s) / (2.0 × 10⁻²⁴ kg·m/s) = 3.32 × 10⁻¹⁰ m. This wave-particle duality principle applies to all matter.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -1855,6 +1995,272 @@
               "correct_answer": 0,
               "explanation": "Zinc protects iron by sacrificial oxidation.",
               "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_068",
+              "question": "What is the pH of a neutral solution at 25°C?",
+              "options": [
+                "0",
+                "7",
+                "14",
+                "1"
+              ],
+              "correct_answer": 1,
+              "explanation": "A neutral solution has a pH of 7 at 25°C. Solutions with pH less than 7 are acidic, while those greater than 7 are basic. Pure water at standard temperature is neutral with equal concentrations of H⁺ and OH⁻ ions.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_069",
+              "question": "Which state of matter has a definite volume but no definite shape?",
+              "options": [
+                "Solid",
+                "Liquid",
+                "Gas",
+                "Plasma"
+              ],
+              "correct_answer": 1,
+              "explanation": "Liquids have a definite volume but take the shape of their container. The particles in liquids are close together but can move past one another, allowing them to flow while maintaining a constant volume.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_070",
+              "question": "What is the most abundant element in Earth's atmosphere?",
+              "options": [
+                "Oxygen",
+                "Carbon dioxide",
+                "Nitrogen",
+                "Hydrogen"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nitrogen makes up approximately 78% of Earth's atmosphere by volume. Oxygen is the second most abundant at about 21%, with other gases making up the remaining 1%.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_071",
+              "question": "What type of bond involves the sharing of electron pairs between atoms?",
+              "options": [
+                "Ionic bond",
+                "Covalent bond",
+                "Metallic bond",
+                "Hydrogen bond"
+              ],
+              "correct_answer": 1,
+              "explanation": "Covalent bonds form when atoms share one or more pairs of electrons. This type of bonding typically occurs between nonmetal atoms with similar electronegativities, allowing them to achieve stable electron configurations.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_072",
+              "question": "What is the chemical formula for table salt?",
+              "options": [
+                "NaCl",
+                "KCl",
+                "CaCl₂",
+                "MgCl₂"
+              ],
+              "correct_answer": 0,
+              "explanation": "Table salt is sodium chloride with the chemical formula NaCl. It consists of sodium cations (Na⁺) and chloride anions (Cl⁻) held together by ionic bonds in a crystalline structure.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_073",
+              "question": "Which process converts a solid directly into a gas without passing through the liquid state?",
+              "options": [
+                "Evaporation",
+                "Condensation",
+                "Sublimation",
+                "Deposition"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sublimation is the phase transition where a solid changes directly to a gas without becoming a liquid. Dry ice (solid CO₂) and iodine are common examples of substances that undergo sublimation at normal atmospheric pressure.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_074",
+              "question": "What is the atomic number of carbon?",
+              "options": [
+                "4",
+                "6",
+                "8",
+                "12"
+              ],
+              "correct_answer": 1,
+              "explanation": "Carbon has an atomic number of 6, meaning it has 6 protons in its nucleus and 6 electrons in a neutral atom. The atomic number defines the element's identity and its position in the periodic table.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "chem_075",
+              "question": "What is the molar mass of water (H₂O) in g/mol?",
+              "options": [
+                "16 g/mol",
+                "18 g/mol",
+                "20 g/mol",
+                "22 g/mol"
+              ],
+              "correct_answer": 1,
+              "explanation": "Water has a molar mass of 18 g/mol, calculated by adding the masses of 2 hydrogen atoms (2 × 1 g/mol) and 1 oxygen atom (16 g/mol). This value is essential for stoichiometric calculations.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_076",
+              "question": "Which type of reaction is represented by: A + BC → AC + B?",
+              "options": [
+                "Synthesis",
+                "Decomposition",
+                "Single displacement",
+                "Double displacement"
+              ],
+              "correct_answer": 2,
+              "explanation": "This is a single displacement (or single replacement) reaction where element A replaces element B in compound BC. These reactions occur when a more reactive element displaces a less reactive one from a compound.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_077",
+              "question": "What is the electron configuration of a neutral sodium atom (atomic number 11)?",
+              "options": [
+                "1s² 2s² 2p⁶ 3s¹",
+                "1s² 2s² 2p⁶ 3s²",
+                "1s² 2s² 2p⁶",
+                "1s² 2s² 2p⁵ 3s²"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sodium's electron configuration is 1s² 2s² 2p⁶ 3s¹. With 11 electrons, sodium fills the first two shells completely and has one valence electron in the 3s orbital, making it highly reactive and part of the alkali metal group.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_078",
+              "question": "What is the shape of a molecule with sp³ hybridization and no lone pairs?",
+              "options": [
+                "Linear",
+                "Trigonal planar",
+                "Tetrahedral",
+                "Bent"
+              ],
+              "correct_answer": 2,
+              "explanation": "A molecule with sp³ hybridization and no lone pairs has a tetrahedral geometry with bond angles of approximately 109.5°. Methane (CH₄) is a classic example of this molecular shape.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_079",
+              "question": "Which gas law states that pressure and volume are inversely proportional at constant temperature?",
+              "options": [
+                "Charles's Law",
+                "Boyle's Law",
+                "Avogadro's Law",
+                "Gay-Lussac's Law"
+              ],
+              "correct_answer": 1,
+              "explanation": "Boyle's Law states that P₁V₁ = P₂V₂ at constant temperature. As volume decreases, pressure increases proportionally, and vice versa. This relationship is fundamental to understanding gas behavior.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_080",
+              "question": "What is the oxidation state of sulfur in H₂SO₄?",
+              "options": [
+                "+4",
+                "+6",
+                "+2",
+                "-2"
+              ],
+              "correct_answer": 1,
+              "explanation": "In sulfuric acid (H₂SO₄), sulfur has an oxidation state of +6. Calculated as: 2(+1) + x + 4(-2) = 0, where x represents sulfur's oxidation state. This is sulfur's highest common oxidation state.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_081",
+              "question": "Which functional group characterizes alcohols?",
+              "options": [
+                "Carbonyl (C=O)",
+                "Hydroxyl (OH)",
+                "Amino (NH₂)",
+                "Carboxyl (COOH)"
+              ],
+              "correct_answer": 1,
+              "explanation": "Alcohols contain the hydroxyl functional group (OH) bonded to a carbon atom. Examples include methanol (CH₃OH) and ethanol (C₂H₅OH). The hydroxyl group gives alcohols their characteristic properties.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_082",
+              "question": "What is the empirical formula of glucose (C₆H₁₂O₆)?",
+              "options": [
+                "C₆H₁₂O₆",
+                "CH₂O",
+                "C₃H₆O₃",
+                "C₂H₄O₂"
+              ],
+              "correct_answer": 1,
+              "explanation": "The empirical formula represents the simplest whole-number ratio of atoms. For glucose, dividing all subscripts by 6 gives CH₂O, which shows the simplest ratio of carbon, hydrogen, and oxygen atoms.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_083",
+              "question": "Which element has the highest electronegativity?",
+              "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Fluorine",
+                "Chlorine"
+              ],
+              "correct_answer": 2,
+              "explanation": "Fluorine has the highest electronegativity (3.98 on the Pauling scale) of all elements. Its small atomic radius and high nuclear charge make it extremely effective at attracting electrons in chemical bonds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "chem_084",
+              "question": "Calculate the number of moles in 88 grams of CO₂ (molar mass = 44 g/mol).",
+              "options": [
+                "1 mole",
+                "2 moles",
+                "3 moles",
+                "4 moles"
+              ],
+              "correct_answer": 1,
+              "explanation": "Using the formula: moles = mass/molar mass = 88 g / 44 g/mol = 2 moles. This calculation is fundamental in stoichiometry for converting between mass and number of moles.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_085",
+              "question": "For the reaction 2NO(g) + O₂(g) → 2NO₂(g), if the rate of formation of NO₂ is 4.0 × 10⁻³ M/s, what is the rate of consumption of O₂?",
+              "options": [
+                "2.0 × 10⁻³ M/s",
+                "4.0 × 10⁻³ M/s",
+                "8.0 × 10⁻³ M/s",
+                "1.0 × 10⁻³ M/s"
+              ],
+              "correct_answer": 0,
+              "explanation": "The stoichiometric ratio shows 1 mole of O₂ produces 2 moles of NO₂. Therefore, the rate of O₂ consumption = (1/2) × rate of NO₂ formation = (1/2) × 4.0 × 10⁻³ = 2.0 × 10⁻³ M/s.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_086",
+              "question": "What is the wavelength of light (in nm) emitted when an electron transitions from n=3 to n=2 in hydrogen? (Rydberg constant = 1.097 × 10⁷ m⁻¹)",
+              "options": [
+                "486 nm",
+                "656 nm",
+                "434 nm",
+                "410 nm"
+              ],
+              "correct_answer": 1,
+              "explanation": "Using the Rydberg formula: 1/λ = R(1/n₁² - 1/n₂²) = 1.097 × 10⁷(1/4 - 1/9) = 1.52 × 10⁶ m⁻¹. Therefore λ = 656 nm. This transition produces the red H-alpha line in hydrogen's Balmer series.",
+              "difficulty": "hard",
               "points": 10
             }
           ]
