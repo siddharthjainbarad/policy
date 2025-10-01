@@ -7122,6 +7122,662 @@
               "points": 15,
               "question_type": "map_identification",
               "map_code": "no"
+            },
+            {
+              "id": "map_europe_004",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Spain",
+                "Portugal",
+                "Morocco",
+                "Andorra"
+              ],
+              "correct_answer": 0,
+              "explanation": "This map shows the majority of the Iberian Peninsula with its characteristic squarish shape.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "es"
+            },
+            {
+              "id": "map_europe_005",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "United Kingdom",
+                "Ireland",
+                "Iceland",
+                "France"
+              ],
+              "correct_answer": 0,
+              "explanation": "This map shows the island of Great Britain and Northern Ireland, which make up the United Kingdom.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gb"
+            },
+            {
+              "id": "map_europe_006",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Germany",
+                "Poland",
+                "Austria",
+                "Netherlands"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large central European country with a northern coastline on the North and Baltic Seas.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "de"
+            },
+            {
+              "id": "map_europe_007",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Greece",
+                "Turkey",
+                "Albania",
+                "Italy"
+              ],
+              "correct_answer": 0,
+              "explanation": "The mainland peninsula and thousands of islands in the Aegean and Ionian seas are iconic of Greece.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gr"
+            },
+            {
+              "id": "map_europe_008",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Sweden",
+                "Finland",
+                "Norway",
+                "Estonia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A long Scandinavian country east of Norway, with a large southern population center.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "se"
+            },
+            {
+              "id": "map_europe_009",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Poland",
+                "Ukraine",
+                "Belarus",
+                "Germany"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, roughly circular country in Central Europe with a northern coastline on the Baltic Sea.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "pl"
+            },
+            {
+              "id": "map_europe_010",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Portugal",
+                "Spain",
+                "Morocco",
+                "Ireland"
+              ],
+              "correct_answer": 0,
+              "explanation": "A rectangular country on the western coast of the Iberian Peninsula, bordering Spain.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "pt"
+            },
+            {
+              "id": "map_europe_011",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Ireland",
+                "United Kingdom",
+                "Iceland",
+                "Denmark"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island to the west of Great Britain, often called the 'Emerald Isle'.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ie"
+            },
+            {
+              "id": "map_europe_012",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Finland",
+                "Sweden",
+                "Estonia",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Nordic country bordered by Sweden and Russia, known as the 'land of a thousand lakes'.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "fi"
+            },
+            {
+              "id": "map_europe_013",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Switzerland",
+                "Austria",
+                "Czech Republic",
+                "Slovenia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, mountainous, landlocked country in Central Europe with a somewhat square shape.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ch"
+            },
+            {
+              "id": "map_europe_014",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Denmark",
+                "Netherlands",
+                "Germany",
+                "Sweden"
+              ],
+              "correct_answer": 0,
+              "explanation": "A peninsula (Jutland) and numerous islands separating the North and Baltic Seas.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "dk"
+            },
+            {
+              "id": "map_europe_015",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Netherlands",
+                "Belgium",
+                "Luxembourg",
+                "Denmark"
+              ],
+              "correct_answer": 0,
+              "explanation": "A low-lying country in Western Europe with a distinctive coastline on the North Sea.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "nl"
+            },
+            {
+              "id": "map_europe_016",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Austria",
+                "Hungary",
+                "Switzerland",
+                "Slovakia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Central Europe, east of Switzerland, with a shape resembling a schnitzel.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "at"
+            },
+            {
+              "id": "map_europe_017",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Ukraine",
+                "Poland",
+                "Belarus",
+                "Romania"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large country in Eastern Europe, bordering the Black Sea, with a shape resembling a rough triangle.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ua"
+            },
+            {
+              "id": "map_europe_018",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Romania",
+                "Bulgaria",
+                "Hungary",
+                "Ukraine"
+              ],
+              "correct_answer": 0,
+              "explanation": "This country on the Black Sea has a shape often compared to a fish.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ro"
+            },
+            {
+              "id": "map_europe_019",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Croatia",
+                "Bosnia and Herzegovina",
+                "Slovenia",
+                "Hungary"
+              ],
+              "correct_answer": 0,
+              "explanation": "Known for its distinctive crescent or boomerang shape along the Adriatic coast.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "hr"
+            },
+            {
+              "id": "map_europe_020",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Iceland",
+                "Ireland",
+                "Greenland",
+                "Faroe Islands"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island nation in the North Atlantic Ocean known for its volcanoes, geysers, and glaciers.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "is"
+            },
+            {
+              "id": "map_europe_021",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Czech Republic",
+                "Slovakia",
+                "Austria",
+                "Hungary"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Central Europe, with a shape that's somewhat elongated from west to east.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cz"
+            },
+            {
+              "id": "map_europe_022",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Turkey",
+                "Greece",
+                "Syria",
+                "Iran"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, rectangular peninsula that connects Europe and Asia, often called Anatolia.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tr"
+            },
+            {
+              "id": "map_europe_023",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Belarus",
+                "Ukraine",
+                "Lithuania",
+                "Poland"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Eastern Europe with a relatively uniform, rounded shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "by"
+            },
+            {
+              "id": "map_europe_024",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Hungary",
+                "Romania",
+                "Slovakia",
+                "Serbia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in the Carpathian Basin of Central Europe with a bowl-like shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "hu"
+            },
+            {
+              "id": "map_europe_025",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Bulgaria",
+                "Romania",
+                "North Macedonia",
+                "Serbia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Balkan nation on the Black Sea, south of Romania, with a roughly rectangular shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bg"
+            },
+            {
+              "id": "map_europe_026",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Lithuania",
+                "Latvia",
+                "Estonia",
+                "Belarus"
+              ],
+              "correct_answer": 0,
+              "explanation": "The southernmost of the three Baltic states, with a compact, rounded shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lt"
+            },
+            {
+              "id": "map_europe_027",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Latvia",
+                "Lithuania",
+                "Estonia",
+                "Finland"
+              ],
+              "correct_answer": 0,
+              "explanation": "The central Baltic state, situated on the Gulf of Riga, with an indented coastline.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lv"
+            },
+            {
+              "id": "map_europe_028",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Estonia",
+                "Latvia",
+                "Finland",
+                "Lithuania"
+              ],
+              "correct_answer": 0,
+              "explanation": "The northernmost Baltic state, with over 1,500 islands in the Baltic Sea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ee"
+            },
+            {
+              "id": "map_europe_029",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Belgium",
+                "Netherlands",
+                "Luxembourg",
+                "Switzerland"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small country in Western Europe, located between France and Germany.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "be"
+            },
+            {
+              "id": "map_europe_030",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Cyprus",
+                "Crete",
+                "Malta",
+                "Rhodes"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island country in the eastern Mediterranean Sea, south of Turkey.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cy"
+            },
+            {
+              "id": "map_europe_031",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Luxembourg",
+                "Liechtenstein",
+                "Andorra",
+                "Malta"
+              ],
+              "correct_answer": 0,
+              "explanation": "This is a tiny, landlocked country bordered by Belgium, France, and Germany.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lu"
+            },
+            {
+              "id": "map_europe_032",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Slovenia",
+                "Slovakia",
+                "Croatia",
+                "Austria"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, mountainous country at the crossroads of Central and Southeast Europe, with a small coastline on the Adriatic Sea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "si"
+            },
+            {
+              "id": "map_europe_033",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Slovakia",
+                "Czech Republic",
+                "Hungary",
+                "Austria"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Central Europe, known for its elongated shape from west to east.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sk"
+            },
+            {
+              "id": "map_europe_034",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Serbia",
+                "Bosnia and Herzegovina",
+                "Hungary",
+                "Bulgaria"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in the heart of the Balkans, located at the crossroads of Central and Southeast Europe.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "rs"
+            },
+            {
+              "id": "map_europe_035",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Montenegro",
+                "Albania",
+                "Croatia",
+                "North Macedonia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, mountainous Balkan country with a rugged coastline on the Adriatic Sea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "me"
+            },
+            {
+              "id": "map_europe_036",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Bosnia and Herzegovina",
+                "Croatia",
+                "Serbia",
+                "Montenegro"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Balkan country with a triangular or heart-like shape and a very small coastline on the Adriatic Sea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ba"
+            },
+            {
+              "id": "map_europe_037",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Albania",
+                "Greece",
+                "North Macedonia",
+                "Montenegro"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small Balkan country with a coast on the Adriatic and Ionian Seas, located north of Greece.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "al"
+            },
+            {
+              "id": "map_europe_038",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "North Macedonia",
+                "Albania",
+                "Bulgaria",
+                "Serbia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked Balkan nation known for its mountains and lakes, with a somewhat circular shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mk"
+            },
+            {
+              "id": "map_europe_039",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Moldova",
+                "Romania",
+                "Ukraine",
+                "Hungary"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Eastern Europe located between Romania and Ukraine.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "md"
+            },
+            {
+              "id": "map_europe_040",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Malta",
+                "Cyprus",
+                "Crete",
+                "Rhodes"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago in the central Mediterranean between Sicily and the North African coast.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mt"
+            },
+            {
+              "id": "map_europe_041",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Andorra",
+                "San Marino",
+                "Monaco",
+                "Liechtenstein"
+              ],
+              "correct_answer": 0,
+              "explanation": "A tiny, independent principality situated between France and Spain in the Pyrenees mountains.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ad"
+            },
+            {
+              "id": "map_europe_042",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Liechtenstein",
+                "Luxembourg",
+                "Andorra",
+                "Monaco"
+              ],
+              "correct_answer": 0,
+              "explanation": "A German-speaking microstate situated in the Alps between Austria and Switzerland.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "li"
+            },
+            {
+              "id": "map_europe_043",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "San Marino",
+                "Vatican City",
+                "Monaco",
+                "Andorra"
+              ],
+              "correct_answer": 0,
+              "explanation": "A mountainous microstate surrounded by north-central Italy.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sm"
+            },
+            {
+              "id": "map_europe_044",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Monaco",
+                "Vatican City",
+                "San Marino",
+                "Malta"
+              ],
+              "correct_answer": 0,
+              "explanation": "A tiny, independent city-state on France’s Mediterranean coastline known for its casinos and Grand Prix.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mc"
             }
           ]
         },
@@ -7135,49 +7791,961 @@
               "id": "map_africa_001",
               "question": "Which country is shown in this map?",
               "options": [
-                "Egypt",
-                "Libya",
-                "Sudan",
-                "Ethiopia"
-              ],
-              "correct_answer": 0,
-              "explanation": "Northeast African corner with a triangular Nile Delta and the Sinai Peninsula is Egypt.",
-              "difficulty": "easy",
-              "points": 15,
-              "question_type": "map_identification",
-              "map_code": "eg"
-            },
-            {
-              "id": "map_africa_002",
-              "question": "Which country is shown in this map?",
-              "options": [
                 "South Africa",
                 "Namibia",
                 "Botswana",
-                "Zimbabwe"
+                "Lesotho"
               ],
               "correct_answer": 0,
-              "explanation": "At Africa’s southern tip, surrounding Lesotho completely, is South Africa.",
+              "explanation": "This map shows the southernmost country on the African continent, which also completely surrounds the nation of Lesotho.",
               "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "za"
             },
             {
+              "id": "map_africa_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Egypt",
+                "Libya",
+                "Sudan",
+                "Algeria"
+              ],
+              "correct_answer": 0,
+              "explanation": "Located in the northeast corner of Africa, this country's map is defined by the Nile River and the distinctive Sinai Peninsula.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "eg"
+            },
+            {
               "id": "map_africa_003",
               "question": "Which country is shown in this map?",
               "options": [
                 "Madagascar",
-                "Mauritius",
-                "Seychelles",
+                "Mozambique",
+                "Tanzania",
                 "Comoros"
               ],
               "correct_answer": 0,
-              "explanation": "The large, elongated island off Africa’s southeast coast identifies Madagascar.",
-              "difficulty": "medium",
+              "explanation": "This is the world's fourth-largest island, located off the southeastern coast of mainland Africa, known for its unique biodiversity.",
+              "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "mg"
+            },
+            {
+              "id": "map_africa_004",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Nigeria",
+                "Ghana",
+                "Cameroon",
+                "Niger"
+              ],
+              "correct_answer": 0,
+              "explanation": "As Africa's most populous nation, this West African country has a significant coastline on the Gulf of Guinea and a squarish shape.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ng"
+            },
+            {
+              "id": "map_africa_005",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Somalia",
+                "Ethiopia",
+                "Kenya",
+                "Djibouti"
+              ],
+              "correct_answer": 0,
+              "explanation": "This country forms the 'Horn of Africa,' with a very distinct shape resembling a rhino's horn or the number 7.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "so"
+            },
+            {
+              "id": "map_africa_006",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Democratic Republic of the Congo",
+                "Republic of the Congo",
+                "Angola",
+                "Zambia"
+              ],
+              "correct_answer": 0,
+              "explanation": "This massive central African country has a very small outlet to the Atlantic Ocean and is the second-largest country by area on the continent.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cd"
+            },
+            {
+              "id": "map_africa_007",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Ethiopia",
+                "Sudan",
+                "Kenya",
+                "Eritrea"
+              ],
+              "correct_answer": 0,
+              "explanation": "This populous, landlocked nation in the Horn of Africa has a rugged, mountainous terrain and a shape sometimes compared to a rhino's head.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "et"
+            },
+            {
+              "id": "map_africa_008",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Kenya",
+                "Tanzania",
+                "Uganda",
+                "Somalia"
+              ],
+              "correct_answer": 0,
+              "explanation": "This East African country on the Indian Ocean has a shape resembling a kite or a diamond.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ke"
+            },
+            {
+              "id": "map_africa_009",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Algeria",
+                "Libya",
+                "Mali",
+                "Niger"
+              ],
+              "correct_answer": 0,
+              "explanation": "As the largest country in Africa by area, it has a vast rectangular shape in the Sahara region of North Africa.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "dz"
+            },
+            {
+              "id": "map_africa_010",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Morocco",
+                "Tunisia",
+                "Algeria",
+                "Western Sahara"
+              ],
+              "correct_answer": 0,
+              "explanation": "Located in the northwestern corner of Africa, this country has coastlines on both the Atlantic Ocean and the Mediterranean Sea.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ma"
+            },
+            {
+              "id": "map_africa_011",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Tanzania",
+                "Kenya",
+                "Mozambique",
+                "Zambia"
+              ],
+              "correct_answer": 0,
+              "explanation": "This large East African nation is home to Mount Kilimanjaro and a significant portion of Lake Victoria.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tz"
+            },
+            {
+              "id": "map_africa_012",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Ghana",
+                "Ivory Coast",
+                "Togo",
+                "Burkina Faso"
+              ],
+              "correct_answer": 0,
+              "explanation": "A rectangular-shaped country in West Africa on the Gulf of Guinea, historically known as the Gold Coast.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gh"
+            },
+            {
+              "id": "map_africa_013",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Mali",
+                "Niger",
+                "Chad",
+                "Algeria"
+              ],
+              "correct_answer": 0,
+              "explanation": "This very large, landlocked West African country has a distinctive shape often compared to a butterfly or a figure-eight.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ml"
+            },
+            {
+              "id": "map_africa_014",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Angola",
+                "Namibia",
+                "Zambia",
+                "DRC"
+              ],
+              "correct_answer": 0,
+              "explanation": "Located on the southwestern coast, this country has a roughly square shape with a separate small exclave (Cabinda) to its north.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ao"
+            },
+            {
+              "id": "map_africa_015",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Namibia",
+                "Botswana",
+                "South Africa",
+                "Angola"
+              ],
+              "correct_answer": 0,
+              "explanation": "This arid southwestern country is known for its tall sand dunes and a unique, long, thin panhandle known as the Caprivi Strip.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "na"
+            },
+            {
+              "id": "map_africa_016",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Libya",
+                "Egypt",
+                "Chad",
+                "Tunisia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, mostly desert nation in North Africa with a significant coastline on the Mediterranean Sea, located west of Egypt.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ly"
+            },
+            {
+              "id": "map_africa_017",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Mozambique",
+                "Madagascar",
+                "Tanzania",
+                "South Africa"
+              ],
+              "correct_answer": 0,
+              "explanation": "This nation in southeastern Africa is defined by its very long coastline along the Indian Ocean.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mz"
+            },
+            {
+              "id": "map_africa_018",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Cameroon",
+                "Nigeria",
+                "Gabon",
+                "Chad"
+              ],
+              "correct_answer": 0,
+              "explanation": "Often called 'Africa in miniature' due to its diverse geography, this country is shaped like an elongated triangle linking West and Central Africa.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cm"
+            },
+            {
+              "id": "map_africa_019",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Botswana",
+                "Zimbabwe",
+                "Zambia",
+                "Namibia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked and arid country in Southern Africa, known for its roughly circular shape and the Okavango Delta.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bw"
+            },
+            {
+              "id": "map_africa_020",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Senegal",
+                "Gambia",
+                "Guinea-Bissau",
+                "Mali"
+              ],
+              "correct_answer": 0,
+              "explanation": "This country is the westernmost point of mainland Africa and is notable for almost completely surrounding the nation of The Gambia.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sn"
+            },
+            {
+              "id": "map_africa_021",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Sudan",
+                "South Sudan",
+                "Chad",
+                "Egypt"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large nation in Northeast Africa, south of Egypt, that was formerly the largest country on the continent before the secession of its southern region.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sd"
+            },
+            {
+              "id": "map_africa_022",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Ivory Coast",
+                "Liberia",
+                "Ghana",
+                "Sierra Leone"
+              ],
+              "correct_answer": 0,
+              "explanation": "This West African country, also known as Côte d'Ivoire, has a shape resembling a rough square with a coastline on the Gulf of Guinea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ci"
+            },
+            {
+              "id": "map_africa_023",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Uganda",
+                "Kenya",
+                "Rwanda",
+                "South Sudan"
+              ],
+              "correct_answer": 0,
+              "explanation": "This landlocked East African country includes a substantial portion of Lake Victoria and is known as the 'Pearl of Africa'.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ug"
+            },
+            {
+              "id": "map_africa_024",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Zambia",
+                "Zimbabwe",
+                "Angola",
+                "Botswana"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Southern Africa, east of Angola, with a shape often likened to a butterfly or a figure-eight.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "zm"
+            },
+            {
+              "id": "map_africa_025",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Zimbabwe",
+                "Zambia",
+                "Botswana",
+                "South Africa"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Southern Africa known for the Victoria Falls, with a shape resembling a teapot.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "zw"
+            },
+            {
+              "id": "map_africa_026",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Chad",
+                "Niger",
+                "Sudan",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, landlocked country in Central Africa, south of Libya, named after Lake Chad.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "td"
+            },
+            {
+              "id": "map_africa_027",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Niger",
+                "Mali",
+                "Chad",
+                "Nigeria"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large landlocked nation in West Africa named after the Niger River, with a shape sometimes compared to a frying pan.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ne"
+            },
+            {
+              "id": "map_africa_028",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Burkina Faso",
+                "Mali",
+                "Ghana",
+                "Niger"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in West Africa, located north of Ghana, with a relatively compact shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bf"
+            },
+            {
+              "id": "map_africa_029",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Guinea",
+                "Sierra Leone",
+                "Liberia",
+                "Senegal"
+              ],
+              "correct_answer": 0,
+              "explanation": "A West African country with a crescent-shaped outline, curving from the Atlantic coast around its northern neighbors.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gn"
+            },
+            {
+              "id": "map_africa_030",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Tunisia",
+                "Algeria",
+                "Libya",
+                "Morocco"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small North African country with a significant coastline on the Mediterranean, known for its dagger-like shape pointing north.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tn"
+            },
+            {
+              "id": "map_africa_031",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "South Sudan",
+                "Sudan",
+                "Central African Republic",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in East-Central Africa that gained independence from Sudan in 2011, with a roughly circular shape.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ss"
+            },
+            {
+              "id": "map_africa_032",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Eritrea",
+                "Djibouti",
+                "Ethiopia",
+                "Somalia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country in the Horn of Africa with an extensive coastline on the Red Sea, shaped like a long, thin strip.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "er"
+            },
+            {
+              "id": "map_africa_033",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Liberia",
+                "Sierra Leone",
+                "Guinea",
+                "Ivory Coast"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country on the coast of West Africa, founded by freed American slaves, with a diagonal coastline.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lr"
+            },
+            {
+              "id": "map_africa_034",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Sierra Leone",
+                "Liberia",
+                "Guinea",
+                "Guinea-Bissau"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small country in West Africa with a roughly circular shape and a coastline known for its diamond trade.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sl"
+            },
+            {
+              "id": "map_africa_035",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Republic of the Congo",
+                "Democratic Republic of the Congo",
+                "Gabon",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country in Central Africa with a narrow shape that extends inland from the Atlantic coast, located west of its much larger neighbor of a similar name.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cg"
+            },
+            {
+              "id": "map_africa_036",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Central African Republic",
+                "Chad",
+                "South Sudan",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country located in the very heart of the African continent.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cf"
+            },
+            {
+              "id": "map_africa_037",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Mauritania",
+                "Mali",
+                "Algeria",
+                "Western Sahara"
+              ],
+              "correct_answer": 0,
+              "explanation": "A large, arid country in Northwest Africa with a long Atlantic coastline, located south of Western Sahara.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mr"
+            },
+            {
+              "id": "map_africa_038",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Gabon",
+                "Republic of the Congo",
+                "Equatorial Guinea",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country on the equator in Central Africa with a significant coastline and rich in oil and mineral reserves.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ga"
+            },
+            {
+              "id": "map_africa_039",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Benin",
+                "Togo",
+                "Nigeria",
+                "Ghana"
+              ],
+              "correct_answer": 0,
+              "explanation": "A narrow, French-speaking country in West Africa, located between Togo and Nigeria.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bj"
+            },
+            {
+              "id": "map_africa_040",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Togo",
+                "Benin",
+                "Ghana",
+                "Burkina Faso"
+              ],
+              "correct_answer": 0,
+              "explanation": "A very narrow country in West Africa, squeezed between Ghana and Benin.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tg"
+            },
+            {
+              "id": "map_africa_041",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Malawi",
+                "Zambia",
+                "Mozambique",
+                "Tanzania"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in Southeastern Africa, defined by its long, narrow shape dominated by Lake Malawi.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mw"
+            },
+            {
+              "id": "map_africa_042",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Rwanda",
+                "Burundi",
+                "Uganda",
+                "Tanzania"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, landlocked country in the Great Rift Valley of Central Africa, known for its mountainous terrain and often called the 'Land of a Thousand Hills'.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "rw"
+            },
+            {
+              "id": "map_africa_043",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Burundi",
+                "Rwanda",
+                "Tanzania",
+                "DRC"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, landlocked nation in the Great Rift Valley at the junction of the African Great Lakes region and East Africa, located south of Rwanda.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bi"
+            },
+            {
+              "id": "map_africa_044",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Lesotho",
+                "Eswatini (Swaziland)",
+                "South Africa",
+                "Botswana"
+              ],
+              "correct_answer": 0,
+              "explanation": "An enclaved, mountainous country completely surrounded by the territory of South Africa.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ls"
+            },
+            {
+              "id": "map_africa_045",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Eswatini (Swaziland)",
+                "Lesotho",
+                "South Africa",
+                "Mozambique"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, landlocked monarchy in Southern Africa, bordered by Mozambique to its northeast and South Africa to its north, west, and south.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sz"
+            },
+            {
+              "id": "map_africa_046",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Djibouti",
+                "Eritrea",
+                "Somalia",
+                "Ethiopia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small country in the Horn of Africa, located at the strategic entrance to the Red Sea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "dj"
+            },
+            {
+              "id": "map_africa_047",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Guinea-Bissau",
+                "Senegal",
+                "Guinea",
+                "The Gambia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small tropical country on the Atlantic coast of West Africa, located between Senegal and Guinea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gw"
+            },
+            {
+              "id": "map_africa_048",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Equatorial Guinea",
+                "Gabon",
+                "Cameroon",
+                "Sao Tome and Principe"
+              ],
+              "correct_answer": 0,
+              "explanation": "A unique Central African country composed of a mainland portion (Río Muni) and several islands, including Bioko.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gq"
+            },
+            {
+              "id": "map_africa_049",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "The Gambia",
+                "Senegal",
+                "Guinea-Bissau",
+                "Mali"
+              ],
+              "correct_answer": 0,
+              "explanation": "A very small and narrow country whose borders mirror the path of the Gambia River, almost entirely surrounded by Senegal.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gm"
+            },
+            {
+              "id": "map_africa_050",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Benin",
+                "Togo",
+                "Nigeria",
+                "Ghana"
+              ],
+              "correct_answer": 0,
+              "explanation": "A West African country with a long, narrow shape, located to the west of Nigeria.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bj"
+            },
+            {
+              "id": "map_africa_051",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Burkina Faso",
+                "Mali",
+                "Niger",
+                "Ghana"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked West African country located south of Mali and north of Ghana.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bf"
+            },
+            {
+              "id": "map_africa_052",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Burundi",
+                "Rwanda",
+                "Tanzania",
+                "DRC"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small, landlocked African country in the Great Rift Valley on the shores of Lake Tanganyika.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bi"
+            },
+            {
+              "id": "map_africa_053",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Cabo Verde",
+                "Comoros",
+                "Sao Tome and Principe",
+                "Mauritius"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago nation of 10 volcanic islands in the central Atlantic Ocean, off the coast of West Africa.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cv"
+            },
+            {
+              "id": "map_africa_054",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Central African Republic",
+                "Chad",
+                "South Sudan",
+                "Cameroon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country located precisely in the heart of the African continent.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cf"
+            },
+            {
+              "id": "map_africa_055",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Comoros",
+                "Seychelles",
+                "Mauritius",
+                "Madagascar"
+              ],
+              "correct_answer": 0,
+              "explanation": "A volcanic archipelago island nation in the Indian Ocean, located at the northern end of the Mozambique Channel.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "km"
+            },
+            {
+              "id": "map_africa_056",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Eritrea",
+                "Djibouti",
+                "Ethiopia",
+                "Sudan"
+              ],
+              "correct_answer": 0,
+              "explanation": "An East African country with a long, narrow coastline along the Red Sea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "er"
+            },
+            {
+              "id": "map_africa_057",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Liberia",
+                "Sierra Leone",
+                "Guinea",
+                "Ivory Coast"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country on the West African coast founded by freed American slaves, with a diagonal stretch of coastline.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lr"
+            },
+            {
+              "id": "map_africa_058",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Mauritius",
+                "Seychelles",
+                "Comoros",
+                "Reunion"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island nation in the Indian Ocean, east of Madagascar, known for its beaches, lagoons, and reefs.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mu"
+            },
+            {
+              "id": "map_africa_059",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Sao Tome and Principe",
+                "Equatorial Guinea",
+                "Cabo Verde",
+                "Comoros"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island nation consisting of two main islands near the equator in the Gulf of Guinea.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "st"
+            },
+            {
+              "id": "map_africa_060",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Seychelles",
+                "Mauritius",
+                "Maldives",
+                "Comoros"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago nation of 115 islands in the Indian Ocean, northeast of Madagascar.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sc"
             }
           ]
         },
@@ -7188,52 +8756,372 @@
           "color": "#00695C",
           "questions": [
             {
-              "id": "map_na_001",
+              "id": "map_namerica_001",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "United States",
+                "Canada",
+                "Mexico",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "The third-largest country by land area with 50 states spanning from the Atlantic to Pacific Ocean.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "us"
+            },
+            {
+              "id": "map_namerica_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Canada",
+                "United States",
+                "Russia",
+                "Greenland"
+              ],
+              "correct_answer": 0,
+              "explanation": "The second-largest country in the world by total area, known for its vast wilderness and Arctic territories.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ca"
+            },
+            {
+              "id": "map_namerica_003",
               "question": "Which country is shown in this map?",
               "options": [
                 "Mexico",
-                "United States",
                 "Guatemala",
-                "Cuba"
+                "United States",
+                "Colombia"
               ],
               "correct_answer": 0,
-              "explanation": "A tapering shape with the long Baja California peninsula on the west marks Mexico.",
+              "explanation": "A country connecting North and Central America, with distinctive peninsulas including Baja California and Yucatan.",
               "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "mx"
             },
             {
-              "id": "map_na_002",
+              "id": "map_namerica_004",
               "question": "Which country is shown in this map?",
               "options": [
-                "Canada",
-                "United States",
-                "Greenland",
-                "Iceland"
+                "Guatemala",
+                "Honduras",
+                "El Salvador",
+                "Mexico"
               ],
               "correct_answer": 0,
-              "explanation": "A vast northern landmass with numerous Arctic islands indicates Canada.",
+              "explanation": "A Central American country south of Mexico, known for Mayan ruins and volcanic mountains.",
               "difficulty": "medium",
               "points": 15,
               "question_type": "map_identification",
-              "map_code": "ca"
+              "map_code": "gt"
             },
             {
-              "id": "map_na_003",
+              "id": "map_namerica_005",
               "question": "Which country is shown in this map?",
               "options": [
                 "Cuba",
                 "Jamaica",
                 "Haiti",
-                "Dominican Republic"
+                "Puerto Rico"
               ],
               "correct_answer": 0,
-              "explanation": "A long, narrow island resembling a cigar in the Caribbean is Cuba.",
-              "difficulty": "medium",
+              "explanation": "The largest island in the Caribbean, with a distinctive elongated crocodile-like shape.",
+              "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "cu"
+            },
+            {
+              "id": "map_namerica_006",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Honduras",
+                "Nicaragua",
+                "Guatemala",
+                "El Salvador"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Central American country with Caribbean and Pacific coastlines and a distinctive triangular shape.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "hn"
+            },
+            {
+              "id": "map_namerica_007",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Nicaragua",
+                "Honduras",
+                "Costa Rica",
+                "Panama"
+              ],
+              "correct_answer": 0,
+              "explanation": "The largest Central American country by area, with two large lakes and both Pacific and Caribbean coasts.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ni"
+            },
+            {
+              "id": "map_namerica_008",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Costa Rica",
+                "Panama",
+                "Nicaragua",
+                "Colombia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small Central American nation between Nicaragua and Panama, known for its S-shaped coastline.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "cr"
+            },
+            {
+              "id": "map_namerica_009",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Panama",
+                "Costa Rica",
+                "Colombia",
+                "Nicaragua"
+              ],
+              "correct_answer": 0,
+              "explanation": "A narrow S-shaped country connecting Central and South America, famous for its canal.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "pa"
+            },
+            {
+              "id": "map_namerica_010",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Belize",
+                "Guatemala",
+                "Honduras",
+                "Mexico"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small country on the Caribbean coast of Central America, east of Guatemala.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bz"
+            },
+            {
+              "id": "map_namerica_011",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "El Salvador",
+                "Honduras",
+                "Guatemala",
+                "Nicaragua"
+              ],
+              "correct_answer": 0,
+              "explanation": "The smallest and most densely populated country in Central America, on the Pacific coast.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sv"
+            },
+            {
+              "id": "map_namerica_012",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Jamaica",
+                "Cuba",
+                "Haiti",
+                "Dominican Republic"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island nation south of Cuba with a distinctive elongated oval shape.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "jm"
+            },
+            {
+              "id": "map_namerica_013",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Haiti",
+                "Dominican Republic",
+                "Jamaica",
+                "Cuba"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country occupying the western third of the island of Hispaniola.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ht"
+            },
+            {
+              "id": "map_namerica_014",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Dominican Republic",
+                "Haiti",
+                "Cuba",
+                "Puerto Rico"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country occupying the eastern two-thirds of the island of Hispaniola.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "do"
+            },
+            {
+              "id": "map_namerica_015",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Bahamas",
+                "Cuba",
+                "Jamaica",
+                "Turks and Caicos"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago nation consisting of over 700 islands and cays in the Atlantic Ocean.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bs"
+            },
+            {
+              "id": "map_namerica_016",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Trinidad and Tobago",
+                "Barbados",
+                "Grenada",
+                "Saint Lucia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A two-island Caribbean nation located just off the coast of Venezuela.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tt"
+            },
+            {
+              "id": "map_namerica_017",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Barbados",
+                "Saint Lucia",
+                "Grenada",
+                "Trinidad"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small eastern Caribbean island nation shaped like a teardrop or pear.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bb"
+            },
+            {
+              "id": "map_namerica_018",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Grenada",
+                "Saint Vincent and the Grenadines",
+                "Trinidad",
+                "Barbados"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small Caribbean island nation at the southern end of the Grenadines.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gd"
+            },
+            {
+              "id": "map_namerica_019",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Saint Lucia",
+                "Barbados",
+                "Martinique",
+                "Dominica"
+              ],
+              "correct_answer": 0,
+              "explanation": "A small Caribbean island known for its distinctive volcanic Pitons.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "lc"
+            },
+            {
+              "id": "map_namerica_020",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Dominica",
+                "Saint Lucia",
+                "Martinique",
+                "Guadeloupe"
+              ],
+              "correct_answer": 0,
+              "explanation": "A mountainous Caribbean island nation between the French islands of Guadeloupe and Martinique.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "dm"
+            },
+            {
+              "id": "map_namerica_021",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Saint Vincent and the Grenadines",
+                "Grenada",
+                "Saint Lucia",
+                "Barbados"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Caribbean nation consisting of the main island of Saint Vincent and a chain of smaller islands.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "vc"
+            },
+            {
+              "id": "map_namerica_022",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Antigua and Barbuda",
+                "Saint Kitts and Nevis",
+                "Barbados",
+                "Dominica"
+              ],
+              "correct_answer": 0,
+              "explanation": "A two-island Caribbean nation consisting of the islands of Antigua and Barbuda.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ag"
+            },
+            {
+              "id": "map_namerica_023",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Saint Kitts and Nevis",
+                "Antigua and Barbuda",
+                "Montserrat",
+                "Dominica"
+              ],
+              "correct_answer": 0,
+              "explanation": "A two-island nation in the Caribbean, the smallest sovereign state in the Western Hemisphere.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "kn"
             }
           ]
         },
@@ -7244,52 +9132,196 @@
           "color": "#8E24AA",
           "questions": [
             {
-              "id": "map_sa_001",
+              "id": "map_samerica_001",
               "question": "Which country is shown in this map?",
               "options": [
                 "Brazil",
                 "Argentina",
-                "Peru",
-                "Colombia"
+                "Colombia",
+                "Peru"
               ],
               "correct_answer": 0,
-              "explanation": "The massive eastern bulge along the Atlantic coast identifies Brazil.",
+              "explanation": "The largest country in South America, covering nearly half the continent's landmass and home to the Amazon rainforest.",
               "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "br"
             },
             {
-              "id": "map_sa_002",
+              "id": "map_samerica_002",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Argentina",
+                "Chile",
+                "Uruguay",
+                "Paraguay"
+              ],
+              "correct_answer": 0,
+              "explanation": "The second-largest country in South America, extending from the Andes to the Atlantic with a distinctive triangular southern region.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ar"
+            },
+            {
+              "id": "map_samerica_003",
               "question": "Which country is shown in this map?",
               "options": [
                 "Chile",
-                "Uruguay",
-                "Ecuador",
+                "Argentina",
+                "Peru",
                 "Bolivia"
               ],
               "correct_answer": 0,
-              "explanation": "A long, slender strip along the Pacific coastline is Chile.",
+              "explanation": "An extremely long and narrow country stretching along South America's western coast for over 4,300 km.",
               "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "cl"
             },
             {
-              "id": "map_sa_003",
+              "id": "map_samerica_004",
               "question": "Which country is shown in this map?",
               "options": [
-                "Argentina",
-                "Paraguay",
-                "Bolivia",
-                "Venezuela"
+                "Colombia",
+                "Venezuela",
+                "Ecuador",
+                "Peru"
               ],
               "correct_answer": 0,
-              "explanation": "A cone-shaped country in the south, stretching from the Pampas to Patagonia, is Argentina.",
+              "explanation": "The only South American country with coastlines on both the Pacific Ocean and Caribbean Sea.",
+              "difficulty": "easy",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "co"
+            },
+            {
+              "id": "map_samerica_005",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Peru",
+                "Ecuador",
+                "Chile",
+                "Bolivia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country on the western coast of South America, home to the ancient Inca civilization and Machu Picchu.",
               "difficulty": "medium",
               "points": 15,
               "question_type": "map_identification",
-              "map_code": "ar"
+              "map_code": "pe"
+            },
+            {
+              "id": "map_samerica_006",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Venezuela",
+                "Colombia",
+                "Guyana",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country on the northern coast of South America with extensive Caribbean coastline and the Orinoco River.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ve"
+            },
+            {
+              "id": "map_samerica_007",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Ecuador",
+                "Colombia",
+                "Peru",
+                "Bolivia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A country named after the equator that runs through it, located on the northwestern coast of South America.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ec"
+            },
+            {
+              "id": "map_samerica_008",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Bolivia",
+                "Peru",
+                "Paraguay",
+                "Chile"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in central South America with two capitals, known for its high-altitude terrain.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "bo"
+            },
+            {
+              "id": "map_samerica_009",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Paraguay",
+                "Bolivia",
+                "Argentina",
+                "Uruguay"
+              ],
+              "correct_answer": 0,
+              "explanation": "A landlocked country in the heart of South America, bordered by Argentina, Brazil, and Bolivia.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "py"
+            },
+            {
+              "id": "map_samerica_010",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Uruguay",
+                "Paraguay",
+                "Argentina",
+                "Chile"
+              ],
+              "correct_answer": 0,
+              "explanation": "The second-smallest country in South America, located on the southeastern coast between Argentina and Brazil.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "uy"
+            },
+            {
+              "id": "map_samerica_011",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Guyana",
+                "Suriname",
+                "Venezuela",
+                "French Guiana"
+              ],
+              "correct_answer": 0,
+              "explanation": "An English-speaking country on the northern coast of South America, known for its dense rainforests.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "gy"
+            },
+            {
+              "id": "map_samerica_012",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Suriname",
+                "Guyana",
+                "French Guiana",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Dutch-speaking country on the northeastern Atlantic coast of South America.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sr"
             }
           ]
         },
@@ -7300,52 +9332,228 @@
           "color": "#00796B",
           "questions": [
             {
-              "id": "map_oc_001",
+              "id": "map_oceania_001",
               "question": "Which country is shown in this map?",
               "options": [
                 "Australia",
                 "New Zealand",
                 "Papua New Guinea",
-                "Fiji"
+                "Indonesia"
               ],
               "correct_answer": 0,
-              "explanation": "The large island continent with the Gulf of Carpentaria and Cape York Peninsula is Australia.",
+              "explanation": "The world's sixth-largest country and smallest continent, with a distinctive shape including the island of Tasmania to the south.",
               "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "au"
             },
             {
-              "id": "map_oc_002",
+              "id": "map_oceania_002",
               "question": "Which country is shown in this map?",
               "options": [
                 "New Zealand",
-                "Fiji",
-                "Samoa",
-                "Vanuatu"
+                "Australia",
+                "Papua New Guinea",
+                "Fiji"
               ],
               "correct_answer": 0,
-              "explanation": "Two main islands oriented southwest–northeast identify New Zealand.",
+              "explanation": "An island nation consisting of two main landmasses - the North Island and South Island - plus over 700 smaller islands.",
               "difficulty": "easy",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "nz"
             },
             {
-              "id": "map_oc_003",
+              "id": "map_oceania_003",
               "question": "Which country is shown in this map?",
               "options": [
                 "Papua New Guinea",
                 "Indonesia",
-                "Solomon Islands",
-                "East Timor"
+                "Australia",
+                "Solomon Islands"
               ],
               "correct_answer": 0,
-              "explanation": "The eastern half of the island of New Guinea with a jagged coastline is Papua New Guinea.",
+              "explanation": "A country occupying the eastern half of New Guinea island, known for its incredible cultural and biological diversity with over 850 languages.",
               "difficulty": "medium",
               "points": 15,
               "question_type": "map_identification",
               "map_code": "pg"
+            },
+            {
+              "id": "map_oceania_004",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Fiji",
+                "Vanuatu",
+                "Samoa",
+                "Tonga"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago of more than 300 islands in the South Pacific, famous for its palm-lined beaches and coral reefs.",
+              "difficulty": "medium",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "fj"
+            },
+            {
+              "id": "map_oceania_005",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Solomon Islands",
+                "Vanuatu",
+                "Papua New Guinea",
+                "Fiji"
+              ],
+              "correct_answer": 0,
+              "explanation": "A nation of hundreds of islands in the South Pacific, known for its World War II history and diverse marine life.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "sb"
+            },
+            {
+              "id": "map_oceania_006",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Vanuatu",
+                "Fiji",
+                "Solomon Islands",
+                "New Caledonia"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Y-shaped chain of about 80 islands in the South Pacific, known for active volcanoes and underwater caves.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "vu"
+            },
+            {
+              "id": "map_oceania_007",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Samoa",
+                "Tonga",
+                "Fiji",
+                "American Samoa"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Polynesian island nation consisting of two main islands and several smaller ones, known for its beaches and rainforests.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ws"
+            },
+            {
+              "id": "map_oceania_008",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Kiribati",
+                "Marshall Islands",
+                "Tuvalu",
+                "Micronesia"
+              ],
+              "correct_answer": 0,
+              "explanation": "An island republic in the central Pacific consisting of 33 coral atolls and reef islands straddling the equator.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "ki"
+            },
+            {
+              "id": "map_oceania_009",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Micronesia",
+                "Marshall Islands",
+                "Palau",
+                "Kiribati"
+              ],
+              "correct_answer": 0,
+              "explanation": "Officially the Federated States of Micronesia, composed of 607 islands spread across the western Pacific Ocean.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "fm"
+            },
+            {
+              "id": "map_oceania_010",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Tonga",
+                "Samoa",
+                "Fiji",
+                "Vanuatu"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Polynesian kingdom of over 170 islands in the South Pacific, the only monarchy in Oceania and never colonized.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "to"
+            },
+            {
+              "id": "map_oceania_011",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Marshall Islands",
+                "Kiribati",
+                "Micronesia",
+                "Palau"
+              ],
+              "correct_answer": 0,
+              "explanation": "A sprawling chain of volcanic islands and coral atolls between Hawaii and the Philippines, including the famous Bikini Atoll.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "mh"
+            },
+            {
+              "id": "map_oceania_012",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Palau",
+                "Micronesia",
+                "Marshall Islands",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "An archipelago of over 500 islands in the western Pacific Ocean, part of Micronesia, known for its spectacular diving sites.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "pw"
+            },
+            {
+              "id": "map_oceania_013",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Nauru",
+                "Tuvalu",
+                "Kiribati",
+                "Palau"
+              ],
+              "correct_answer": 0,
+              "explanation": "The world's smallest island nation and third-smallest country, a single oval-shaped coral island in the Pacific.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "nr"
+            },
+            {
+              "id": "map_oceania_014",
+              "question": "Which country is shown in this map?",
+              "options": [
+                "Tuvalu",
+                "Kiribati",
+                "Nauru",
+                "Marshall Islands"
+              ],
+              "correct_answer": 0,
+              "explanation": "The fourth-smallest country in the world, consisting of nine tiny coral islands in the west-central Pacific Ocean.",
+              "difficulty": "hard",
+              "points": 15,
+              "question_type": "map_identification",
+              "map_code": "tv"
             }
           ]
         }
