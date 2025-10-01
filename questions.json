@@ -3473,7 +3473,7 @@
       "color": "#FF5722",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 5,
+      "requiredLevel": 1,
       "subcategories": [
         {
           "id": "flag_asia",
