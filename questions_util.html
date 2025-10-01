@@ -868,7 +868,7 @@
         document.getElementById('questionCount').textContent = `${questions.length} question${questions.length !== 1 ? 's' : ''}`;
 
         if (questions.length === 0) {
-            list.innerHTML = '<div class="empty-state"><div class="empty-icon">📭</div><p>No questions found. Click "Import JSON" to add.</p></div>';
+            list.innerHTML = '<div class="empty-state" style="text-align: center; padding: 60px 20px; color: #6c757d;"><div class="empty-icon" style="font-size: 60px; margin-bottom: 15px; opacity: 0.5;">📭</div><p>No questions found. Click "Import JSON" to add.</p></div>';
             return;
         }
 
@@ -945,6 +945,8 @@
         URL.revokeObjectURL(url);
 
         showStatus('💾 File downloaded! Replace your old file.', 'success');
+        hasChanges = false;
+        document.getElementById('unsavedBadge').style.display = 'none';
     });
 
     // Export subcategory
@@ -975,7 +977,7 @@
         document.getElementById('confirmImportButton').style.display = 'none';
     });
 
-    function closeImportModal() {
+    window.closeImportModal = function() {
         document.getElementById('importModal').classList.remove('active');
     }
 
@@ -1033,10 +1035,10 @@
             // Show duplicate details
             if (duplicates.length > 0) {
                 document.getElementById('duplicatePreview').innerHTML = `
-                    <div class="duplicate-preview">
-                        <h4>⚠️ ${duplicates.length} Duplicate ID(s) Found</h4>
-                        <div class="duplicate-list">
-                            ${duplicates.map(d => `<div class="duplicate-item">
+                    <div class="duplicate-preview" style="background: #fff3cd; border: 2px solid #ffc107; padding: 15px; border-radius: 6px;">
+                        <h4 style="color: #856404; margin-bottom: 10px;">⚠️ ${duplicates.length} Duplicate ID(s) Found</h4>
+                        <div class="duplicate-list" style="max-height: 200px; overflow-y: auto;">
+                            ${duplicates.map(d => `<div class="duplicate-item" style="padding: 8px; background: #fff; margin: 5px 0; border-left: 3px solid #ffc107; border-radius: 3px; font-size: 13px;">
                                 <strong>${d.id}</strong>: ${escapeHtml(d.question.substring(0, 80))}...
                             </div>`).join('')}
                         </div>
@@ -1055,23 +1057,23 @@
             const hardCount = validQuestions.filter(q => q.difficulty === 'hard').length;
 
             document.getElementById('importPreview').innerHTML = `
-                <div class="changes-preview">
-                    <h4>✅ Validation Successful</h4>
+                <div class="changes-preview" style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">✅ Validation Successful</h4>
                     <p style="font-size: 14px; margin-bottom: 10px;">
                         <strong>${validQuestions.length} questions</strong> will be imported
                     </p>
-                    <div class="import-details">
-                        <div class="import-detail">
-                            <div class="import-detail-value">${easyCount}</div>
-                            <div class="import-detail-label">Easy</div>
+                    <div class="import-details" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px;">
+                        <div class="import-detail" style="background: #fff; padding: 10px; border-radius: 4px; text-align: center; border: 1px solid #e0e0e0;">
+                            <div class="import-detail-value" style="font-size: 20px; font-weight: bold; color: #667eea;">${easyCount}</div>
+                            <div class="import-detail-label" style="font-size: 11px; color: #6c757d; margin-top: 5px;">Easy</div>
                         </div>
-                        <div class="import-detail">
-                            <div class="import-detail-value">${mediumCount}</div>
-                            <div class="import-detail-label">Medium</div>
+                        <div class="import-detail" style="background: #fff; padding: 10px; border-radius: 4px; text-align: center; border: 1px solid #e0e0e0;">
+                            <div class="import-detail-value" style="font-size: 20px; font-weight: bold; color: #667eea;">${mediumCount}</div>
+                            <div class="import-detail-label" style="font-size: 11px; color: #6c757d; margin-top: 5px;">Medium</div>
                         </div>
-                        <div class="import-detail">
-                            <div class="import-detail-value">${hardCount}</div>
-                            <div class="import-detail-label">Hard</div>
+                        <div class="import-detail" style="background: #fff; padding: 10px; border-radius: 4px; text-align: center; border: 1px solid #e0e0e0;">
+                            <div class="import-detail-value" style="font-size: 20px; font-weight: bold; color: #667eea;">${hardCount}</div>
+                            <div class="import-detail-label" style="font-size: 11px; color: #6c757d; margin-top: 5px;">Hard</div>
                         </div>
                     </div>
                 </div>
@@ -1154,7 +1156,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         document.getElementById('aiPromptModal').classList.add('active');
     });
 
-    function closeAiPromptModal() {
+    window.closeAiPromptModal = function() {
         document.getElementById('aiPromptModal').classList.remove('active');
     }
 
@@ -1166,7 +1168,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
     });
 
     // Category Management
-    function openAddCategoryModal() {
+    window.openAddCategoryModal = function() {
         document.getElementById('categoryModal').classList.add('active');
         document.getElementById('categoryModalTitle').textContent = '➕ Add New Category';
         editingCategoryId = null;
@@ -1179,10 +1181,10 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         document.getElementById('catColor').value = '#667eea';
         document.getElementById('catTimer').value = '10';
         document.getElementById('catPoints').value = '10';
-        document.getElementById('requiredLevel').value = '1';
+        document.getElementById('catRequiredLevel').value = '1';
     }
 
-    function closeCategoryModal() {
+    window.closeCategoryModal = function() {
         document.getElementById('categoryModal').classList.remove('active');
     }
 
@@ -1192,7 +1194,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         const desc = document.getElementById('catDesc').value.trim();
         const timer = parseInt(document.getElementById('catTimer').value);
         const points = parseInt(document.getElementById('catPoints').value);
-        const requiredLevel = parseInt(document.getElementById('requiredLevel').value);
+        const requiredLevel = parseInt(document.getElementById('catRequiredLevel').value);
 
         if (!id || !name || !desc) {
             showStatus('❌ ID, Name, and Description are required', 'error');
@@ -1206,26 +1208,26 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
 
         if (editingCategoryId) {
             const cat = mainData.categories.find(c => c.id === editingCategoryId);
-            cat.id = id;  // Allow ID change when editing
+            // Update category properties
+            cat.id = id;
             cat.name = name;
             cat.description = desc;
             cat.icon = document.getElementById('catIcon').value;
             cat.color = document.getElementById('catColor').value;
             cat.question_timer_seconds = timer;
             cat.points_per_question = points;
-            cat.requiredLevel = requiredLevel;
+            cat.required_level = requiredLevel; // Fixed: use underscore
             showStatus('✅ Category updated!', 'success');
         } else {
             mainData.categories.push({
                 id,
-                name,
-                name,
+                name, // Fixed: removed duplicate
                 description: desc,
                 icon: document.getElementById('catIcon').value,
                 color: document.getElementById('catColor').value,
                 question_timer_seconds: timer,
                 points_per_question: points,
-                requiredLevel: requiredLevel,
+                required_level: requiredLevel, // Fixed: use underscore
                 subcategories: []
             });
             showStatus('✅ Category created!', 'success');
@@ -1238,7 +1240,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
     });
 
     // Subcategory Management
-    function closeSubcategoryModal() {
+    window.closeSubcategoryModal = function() {
         document.getElementById('subcategoryModal').classList.remove('active');
     }
 
@@ -1309,6 +1311,10 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
 
     // Edit subcategory button
     document.getElementById('editSubButton').addEventListener('click', () => {
+        if (!selectedCategory || !selectedSubcategory) {
+            showStatus('❌ No subcategory selected', 'error');
+            return;
+        }
         editSubcategory(selectedCategory, selectedSubcategory);
     });
 
@@ -1320,6 +1326,11 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
     }
 
     function showStatus(message, type) {
+        const existingStatus = document.querySelector('.status');
+        if (existingStatus) {
+            existingStatus.remove();
+        }
+
         const status = document.createElement('div');
         status.className = `status ${type}`;
         status.textContent = message;
@@ -1333,6 +1344,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
             z-index: 10000;
             opacity: 0;
             transition: opacity 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         `;
 
         if (type === 'success') {
@@ -1378,7 +1390,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         populateReorganizeCategories();
     });
 
-    // Close modals on outside click
+    // Close modals on outside click or ESC key
     window.addEventListener('click', (event) => {
         const modals = ['importModal', 'aiPromptModal', 'categoryModal', 'addSubcategoryModal', 'reorganizeModal', 'subcategoryModal'];
         modals.forEach(id => {
@@ -1389,7 +1401,19 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         });
     });
 
-    function closeReorganizeModal() {
+    window.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            const modals = ['importModal', 'aiPromptModal', 'categoryModal', 'addSubcategoryModal', 'reorganizeModal', 'subcategoryModal'];
+            modals.forEach(id => {
+                const modal = document.getElementById(id);
+                if (modal && modal.classList.contains('active')) {
+                    modal.classList.remove('active');
+                }
+            });
+        }
+    });
+
+    window.closeReorganizeModal = function() {
         document.getElementById('reorganizeModal').classList.remove('active');
     }
 
@@ -1420,7 +1444,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
                     <div class="category-name-wrapper">
                         <span class="category-main-name">${cat.name}</span>
                         <div class="category-badges">
-                            <span class="level-badge">Lvl ${cat.requiredLevel || 1}</span>
+                            <span class="level-badge">Lvl ${cat.required_level || 1}</span>
                             <span class="category-stats-badge">${cat.subcategories?.length || 0} subcategories</span>
                         </div>
                     </div>
@@ -1654,6 +1678,122 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
             showStatus('✅ Subcategory moved down!', 'success');
         }
     }
+
+    window.openEditCategoryModal = function(catId) {
+        const category = mainData.categories.find(c => c.id === catId);
+
+        document.getElementById('catId').value = category.id;
+        document.getElementById('catName').value = category.name;
+        document.getElementById('catDesc').value = category.description;
+        document.getElementById('catIcon').value = category.icon || '📚';
+        document.getElementById('catColor').value = category.color || '#667eea';
+        document.getElementById('catTimer').value = category.question_timer_seconds || 10;
+        document.getElementById('catPoints').value = category.points_per_question || 10;
+        document.getElementById('catRequiredLevel').value = category.required_level || 1; // Fixed: correct field ID
+
+        document.getElementById('categoryModalTitle').textContent = '✏️ Edit Category';
+        editingCategoryId = catId;
+
+        document.getElementById('reorganizeModal').classList.remove('active');
+        document.getElementById('categoryModal').classList.add('active');
+    }
+
+    window.deleteCategory = function(catId) {
+        const category = mainData.categories.find(c => c.id === catId);
+        const totalQuestions = category.subcategories?.reduce((sum, sub) => sum + (sub.questions?.length || 0), 0) || 0;
+
+        if (!confirm(`Delete category "${category.name}" with ${category.subcategories?.length || 0} subcategories and ${totalQuestions} total questions?`)) return;
+
+        mainData.categories = mainData.categories.filter(c => c.id !== catId);
+
+        if (selectedCategory === catId) {
+            selectedCategory = null;
+            selectedSubcategory = null;
+            document.getElementById('subcategoryHeader').style.display = 'none';
+            document.getElementById('questionsList').innerHTML = '';
+        }
+
+        markAsChanged();
+        populateCategories();
+        updateGlobalStats();
+        populateReorganizeCategories();
+        showStatus('✅ Category deleted!', 'success');
+    }
+
+    window.closeAddSubcategoryModal = function() {
+        document.getElementById('addSubcategoryModal').classList.remove('active');
+    }
+
+    document.getElementById('saveNewSubcategoryButton').addEventListener('click', () => {
+        const parentId = document.getElementById('parentCategorySelect').value;
+        const id = document.getElementById('newSubId').value.trim();
+        const name = document.getElementById('newSubName').value.trim();
+
+        if (!parentId) {
+            showStatus('❌ Select a parent category', 'error');
+            return;
+        }
+
+        if (!id || !name) {
+            showStatus('❌ ID and Name are required', 'error');
+            return;
+        }
+
+        const category = mainData.categories.find(c => c.id === parentId);
+
+        if (!category.subcategories) {
+            category.subcategories = [];
+        }
+
+        if (category.subcategories.some(s => s.id === id)) {
+            showStatus('❌ Subcategory ID already exists in this category', 'error');
+            return;
+        }
+
+        const newSubcategory = {
+            id,
+            name,
+            icon: document.getElementById('newSubIcon').value || '📝',
+            color: document.getElementById('newSubColor').value || '#667eea',
+            questions: []
+        };
+
+        category.subcategories.push(newSubcategory);
+
+        markAsChanged();
+        populateCategories();
+        updateGlobalStats();
+        closeAddSubcategoryModal();
+
+        // Clear the form
+        document.getElementById('newSubId').value = '';
+        document.getElementById('newSubName').value = '';
+        document.getElementById('newSubIcon').value = '📝';
+        document.getElementById('newSubColor').value = '#667eea';
+
+        showStatus('✅ Subcategory added!', 'success');
+    });
+
+    // Add keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+        // Ctrl+S to save
+        if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+            e.preventDefault();
+            if (hasChanges) {
+                document.getElementById('downloadButton').click();
+            }
+        }
+
+        // Ctrl+F to focus search
+        if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+            e.preventDefault();
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput && !document.querySelector('.modal.active')) {
+                searchInput.focus();
+                searchInput.select();
+            }
+        }
+    });
 </script>
 </body>
 </html>
