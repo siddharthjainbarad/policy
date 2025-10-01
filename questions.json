@@ -4200,6 +4200,1206 @@
               "explanation": "Sea turtles can detect magnetic fields with extreme precision, using Earth's magnetic field to navigate thousands of miles back to their birth beaches.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "off_061",
+              "question": "Which animal has more bones?",
+              "options": [
+                "Python",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Large pythons can have over 600 vertebrae and associated ribs, totaling more than 1,000 bones, while humans have only 206 bones.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_062",
+              "question": "Which bird can fly backwards?",
+              "options": [
+                "Hummingbird",
+                "Eagle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hummingbirds are the only birds that can fly backwards, thanks to their unique wing structure and rapid wingbeat that allows them to hover and move in any direction.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_063",
+              "question": "Which animal has the longest tongue relative to body size?",
+              "options": [
+                "Chameleon",
+                "Anteater"
+              ],
+              "correct_answer": 0,
+              "explanation": "A chameleon's tongue can be up to twice the length of its body, while an anteater's tongue is about 2 feet long but shorter relative to its body size.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_064",
+              "question": "Which animal can survive in space?",
+              "options": [
+                "Tardigrade",
+                "Cockroach"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tardigrades, also called water bears, can survive the vacuum of space, extreme radiation, and temperatures near absolute zero. Cockroaches, while resilient, cannot survive space conditions.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_065",
+              "question": "Which animal has blue blood?",
+              "options": [
+                "Octopus",
+                "Shark"
+              ],
+              "correct_answer": 0,
+              "explanation": "Octopuses have blue blood because they use copper-based hemocyanin to transport oxygen, rather than iron-based hemoglobin like most animals.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_066",
+              "question": "Which animal is more venomous?",
+              "options": [
+                "Inland taipan",
+                "King cobra"
+              ],
+              "correct_answer": 0,
+              "explanation": "The inland taipan has the most toxic venom of any land snake, with one bite containing enough venom to kill 100 adult humans. The king cobra's venom is less potent but delivered in larger quantities.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_067",
+              "question": "Which animal sleeps standing up?",
+              "options": [
+                "Horse",
+                "Cow"
+              ],
+              "correct_answer": 0,
+              "explanation": "Horses can sleep standing up using a stay apparatus in their legs that locks their joints. While cows can rest standing, they need to lie down for deep REM sleep.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_068",
+              "question": "Which animal has the strongest punch?",
+              "options": [
+                "Mantis shrimp",
+                "Boxing crab"
+              ],
+              "correct_answer": 0,
+              "explanation": "The mantis shrimp can strike with the force of a bullet, accelerating at 10,000 times the force of gravity. Its punch creates cavitation bubbles that produce light and heat.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_069",
+              "question": "Which animal can regrow its brain?",
+              "options": [
+                "Planarian flatworm",
+                "Starfish"
+              ],
+              "correct_answer": 0,
+              "explanation": "Planarian flatworms can regrow their entire body, including their brain, from just a small fragment. Starfish can regenerate limbs but not their brain.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_070",
+              "question": "Which animal has the most legs?",
+              "options": [
+                "Millipede",
+                "Centipede"
+              ],
+              "correct_answer": 0,
+              "explanation": "Despite their names, millipedes have more legs than centipedes. The record holder is a millipede species with 1,306 legs. Centipedes typically have 15-177 pairs of legs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_071",
+              "question": "Which animal can see the most colors?",
+              "options": [
+                "Mantis shrimp",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mantis shrimp have 16 color receptors compared to humans' 3, allowing them to see a vastly broader spectrum of colors including ultraviolet and polarized light.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_072",
+              "question": "Which animal has the thickest fur?",
+              "options": [
+                "Sea otter",
+                "Polar bear"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sea otters have the densest fur of any animal with up to 1 million hairs per square inch. Polar bears have thick fur but much lower density.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_073",
+              "question": "Which animal can go longer without sleep?",
+              "options": [
+                "Bullfrog",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bullfrogs can go months without sleep, entering a state of rest without true sleep. Humans cannot survive more than a few days without sleep.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_074",
+              "question": "Which animal has the largest wingspan?",
+              "options": [
+                "Wandering albatross",
+                "Condor"
+              ],
+              "correct_answer": 0,
+              "explanation": "The wandering albatross has the largest wingspan of any living bird at up to 3.7 meters (12 feet). The Andean condor's wingspan reaches about 3.2 meters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_075",
+              "question": "Which animal is more intelligent?",
+              "options": [
+                "Crow",
+                "Parrot"
+              ],
+              "correct_answer": 0,
+              "explanation": "Crows demonstrate problem-solving abilities that rival great apes, including using tools, planning for the future, and understanding cause and effect. While parrots are intelligent, crows generally show more complex reasoning.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_076",
+              "question": "Which animal can lift more relative to its body weight?",
+              "options": [
+                "Dung beetle",
+                "Ant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dung beetles can pull 1,141 times their own body weight, making them the strongest animal relative to size. Ants can lift 10-50 times their weight.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_077",
+              "question": "Which animal has the longest lifespan?",
+              "options": [
+                "Greenland shark",
+                "Bowhead whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Greenland sharks can live over 400 years, making them the longest-lived vertebrates. Bowhead whales can live over 200 years.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_078",
+              "question": "Which animal has more neurons in its brain?",
+              "options": [
+                "Human",
+                "Elephant"
+              ],
+              "correct_answer": 1,
+              "explanation": "Elephants have about 257 billion neurons compared to humans' 86 billion. However, most of the elephant's neurons are in the cerebellum for motor control.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_079",
+              "question": "Which animal produces the loudest sound?",
+              "options": [
+                "Blue whale",
+                "Howler monkey"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue whales produce sounds up to 188 decibels, the loudest of any animal. Their calls can travel thousands of miles underwater. Howler monkeys reach about 140 decibels.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_080",
+              "question": "Which animal has better memory?",
+              "options": [
+                "Elephant",
+                "Dolphin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Elephants have exceptional long-term memory, remembering individuals and locations for decades. While dolphins have excellent memory, elephant memory is legendary and more extensively documented.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_081",
+              "question": "Which animal can run faster on land?",
+              "options": [
+                "Cheetah",
+                "Pronghorn antelope"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cheetahs can reach 70 mph in short bursts, the fastest land speed. Pronghorn antelopes are the second-fastest at 55 mph but can maintain high speeds longer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_082",
+              "question": "Which animal can smell better?",
+              "options": [
+                "Bear",
+                "Bloodhound"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bears have the best sense of smell of any land animal, with olfactory bulbs 5 times larger than humans. They can detect scents from 20 miles away. Bloodhounds are second-best.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_083",
+              "question": "Which animal lays more eggs at once?",
+              "options": [
+                "Ocean sunfish",
+                "Sea turtle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ocean sunfish can produce up to 300 million eggs at once, the most of any vertebrate. Sea turtles lay about 100-200 eggs per clutch.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_084",
+              "question": "Which animal has better night vision?",
+              "options": [
+                "Cat",
+                "Dog"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cats need only one-sixth the amount of light that humans need to see, thanks to a reflective layer behind their retinas. Dogs have good night vision but not as acute as cats.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_085",
+              "question": "Which animal is bigger?",
+              "options": [
+                "Polar bear",
+                "Grizzly bear"
+              ],
+              "correct_answer": 0,
+              "explanation": "Polar bears are the largest land carnivores, weighing up to 800 kg (1,760 lbs). Grizzly bears typically weigh 180-360 kg (400-790 lbs).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_086",
+              "question": "Which animal has a longer tail relative to body length?",
+              "options": [
+                "Snow leopard",
+                "Tiger"
+              ],
+              "correct_answer": 0,
+              "explanation": "Snow leopards have tails almost as long as their bodies (80-105 cm), used for balance and warmth. Tigers have proportionally shorter tails.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_087",
+              "question": "Which animal can hold its breath underwater longer?",
+              "options": [
+                "Sperm whale",
+                "Elephant seal"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sperm whales can hold their breath for up to 90 minutes during deep dives. Elephant seals can hold their breath for about 2 hours, actually making them the winner.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_088",
+              "question": "Which animal has more teeth?",
+              "options": [
+                "Snail",
+                "Shark"
+              ],
+              "correct_answer": 0,
+              "explanation": "Some snail species have over 20,000 teeth on their radula (tongue-like organ). Most sharks have 20-30 teeth in each jaw, with multiple rows.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_089",
+              "question": "Which animal is more poisonous to eat?",
+              "options": [
+                "Pufferfish",
+                "Lionfish"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pufferfish contain tetrodotoxin, one of the most deadly poisons, with enough toxin in one fish to kill 30 adult humans. Lionfish are venomous but less toxic when eaten properly prepared.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_090",
+              "question": "Which animal can survive the coldest temperatures?",
+              "options": [
+                "Emperor penguin",
+                "Arctic fox"
+              ],
+              "correct_answer": 0,
+              "explanation": "Emperor penguins can survive temperatures below -40°C (-40°F) in Antarctica without shelter. Arctic foxes are cold-adapted but seek shelter in extreme cold.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_091",
+              "question": "Which animal has the most complex social structure?",
+              "options": [
+                "Elephant",
+                "Wolf"
+              ],
+              "correct_answer": 0,
+              "explanation": "Elephants have multi-tiered matriarchal societies with complex family bonds, mourning rituals, and cooperation spanning decades. Wolf packs, while sophisticated, have simpler hierarchies.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_092",
+              "question": "Which animal jumps the highest relative to body size?",
+              "options": [
+                "Flea",
+                "Grasshopper"
+              ],
+              "correct_answer": 0,
+              "explanation": "Fleas can jump 150 times their own height, equivalent to a human jumping over a 60-story building. Grasshoppers jump about 20 times their body length.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_093",
+              "question": "Which animal has the fastest heart rate?",
+              "options": [
+                "Shrew",
+                "Hummingbird"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hummingbird hearts can beat up to 1,260 times per minute during flight. Shrews have very fast hearts at 800-1,000 beats per minute but slower than hummingbirds.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_094",
+              "question": "Which animal can detect earthquakes earlier?",
+              "options": [
+                "Dog",
+                "Elephant"
+              ],
+              "correct_answer": 1,
+              "explanation": "Elephants can detect seismic waves through their feet and trunks from much greater distances than dogs, allowing them to sense earthquakes hours before they occur.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_095",
+              "question": "Which animal has more stomach chambers?",
+              "options": [
+                "Cow",
+                "Sheep"
+              ],
+              "correct_answer": 0,
+              "explanation": "Both cows and sheep have four stomach chambers (rumen, reticulum, omasum, and abomasum) as they are both ruminants.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_096",
+              "question": "Which animal produces the most milk per day?",
+              "options": [
+                "Cow",
+                "Goat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dairy cows can produce 6-7 gallons (23-27 liters) of milk per day, while goats typically produce 1-2 gallons (4-8 liters) daily.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_097",
+              "question": "Which animal has the strongest grip?",
+              "options": [
+                "Gorilla",
+                "Orangutan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Gorillas have a grip strength of about 1,300 PSI, roughly 6 times stronger than humans. Orangutans have powerful grips but not as strong as gorillas.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_098",
+              "question": "Which animal can see ultraviolet light?",
+              "options": [
+                "Bee",
+                "Butterfly"
+              ],
+              "correct_answer": 0,
+              "explanation": "Both bees and butterflies can see ultraviolet light, which helps them find nectar-rich flowers. Many insects have this ability.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_099",
+              "question": "Which animal has the longest migration?",
+              "options": [
+                "Arctic tern",
+                "Gray whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Arctic terns migrate about 44,000 miles annually from Arctic to Antarctic and back, the longest migration of any animal. Gray whales migrate about 12,000 miles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_100",
+              "question": "Which animal can regenerate its spinal cord?",
+              "options": [
+                "Axolotl",
+                "Lizard"
+              ],
+              "correct_answer": 0,
+              "explanation": "Axolotls can regenerate their spinal cord, brain, and limbs. Lizards can regenerate tails but not their spinal cords.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_101",
+              "question": "Which animal has more complex vocalizations?",
+              "options": [
+                "Humpback whale",
+                "Elephant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Humpback whales compose elaborate songs with hierarchical structure, themes, and cultural transmission across populations. Elephant communication is sophisticated but less musically complex.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_102",
+              "question": "Which animal has the strongest silk?",
+              "options": [
+                "Spider",
+                "Silkworm"
+              ],
+              "correct_answer": 0,
+              "explanation": "Spider silk is five times stronger than steel of the same weight and more elastic than nylon. Silkworm silk is strong but not as remarkable as spider silk.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_103",
+              "question": "Which animal can survive the most radiation?",
+              "options": [
+                "Tardigrade",
+                "Cockroach"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tardigrades can survive 1,000 times more radiation than humans, thanks to special DNA-protecting proteins. Cockroaches are resistant but nowhere near tardigrade levels.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_104",
+              "question": "Which animal has the most complex eyes?",
+              "options": [
+                "Mantis shrimp",
+                "Dragonfly"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mantis shrimp have the most complex eyes in the animal kingdom with 16 color receptors, trinocular vision in each eye, and ability to see polarized and UV light.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_105",
+              "question": "Which animal can produce more electricity?",
+              "options": [
+                "Electric eel",
+                "Electric ray"
+              ],
+              "correct_answer": 0,
+              "explanation": "Electric eels can generate up to 860 volts, enough to stun a horse. Electric rays produce up to 220 volts, powerful but less than eels.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_106",
+              "question": "Which animal has better memory for faces?",
+              "options": [
+                "Sheep",
+                "Cow"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sheep can remember 50 different faces for over 2 years and show emotional responses to familiar faces. Cows recognize familiar individuals but their facial recognition isn't as well documented.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_107",
+              "question": "Which animal can detect magnetic fields better?",
+              "options": [
+                "Sea turtle",
+                "Salmon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sea turtles have extremely precise magnetoreception, using Earth's magnetic field to navigate thousands of miles back to their birth beaches. Salmon also use magnetoreception but less precisely.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_108",
+              "question": "Which animal has the most complex brain-to-body ratio?",
+              "options": [
+                "Dolphin",
+                "Elephant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dolphins have the second-highest brain-to-body ratio after humans, with highly folded cortexes indicating complex cognitive abilities. Elephants have larger brains but lower ratios.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_109",
+              "question": "Which animal can withstand the most pressure?",
+              "options": [
+                "Mariana snailfish",
+                "Sperm whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mariana snailfish live at depths up to 8,000 meters where pressure is 800 times atmospheric pressure. Sperm whales dive to about 2,000 meters.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_110",
+              "question": "Which animal has the fastest reflexes?",
+              "options": [
+                "Cat",
+                "Housefly"
+              ],
+              "correct_answer": 1,
+              "explanation": "Houseflies have visual processing speeds 10 times faster than humans, allowing them to react in milliseconds. Cats have quick reflexes for mammals but can't match insect speeds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_111",
+              "question": "Which animal can go longest without food?",
+              "options": [
+                "Camel",
+                "Python"
+              ],
+              "correct_answer": 1,
+              "explanation": "Large pythons can survive over a year without food after a large meal due to their extremely slow metabolism. Camels can go 2 weeks without food.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_112",
+              "question": "Which animal has the most sophisticated sonar?",
+              "options": [
+                "Dolphin",
+                "Bat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dolphins have more sophisticated echolocation than bats, capable of detecting objects the size of a golf ball from 200 feet away and even seeing inside objects.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_113",
+              "question": "Which animal has more brain cells devoted to smell?",
+              "options": [
+                "Dog",
+                "Bear"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bears dedicate 5 times more brain cells to olfaction than dogs, giving them the best sense of smell among land animals.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_114",
+              "question": "Which animal can survive being frozen solid?",
+              "options": [
+                "Wood frog",
+                "Arctic ground squirrel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Wood frogs can survive with up to 70% of their body frozen, producing glucose as natural antifreeze. Arctic ground squirrels supercool but don't freeze solid.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_115",
+              "question": "Which animal has the most taste buds?",
+              "options": [
+                "Catfish",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Catfish have over 100,000 taste buds distributed all over their body, compared to humans' 10,000 taste buds on the tongue.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_116",
+              "question": "Which animal can change its DNA?",
+              "options": [
+                "Cuttlefish",
+                "Chameleon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cuttlefish can edit their RNA (genetic instructions) in response to temperature changes, effectively rewriting their genetic code. Chameleons change color but not DNA.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_117",
+              "question": "Which animal has the most neurons per brain volume?",
+              "options": [
+                "Octopus",
+                "Dog"
+              ],
+              "correct_answer": 0,
+              "explanation": "Octopuses have extremely dense neural networks with 500 million neurons packed into a small brain, with two-thirds distributed in their arms.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_118",
+              "question": "Which animal can see the fastest movement?",
+              "options": [
+                "Dragonfly",
+                "Peregrine falcon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dragonflies have a critical flicker fusion frequency of 300 Hz, allowing them to process visual information 5 times faster than humans and see the world in slow motion.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_119",
+              "question": "Which animal has the longest pregnancy?",
+              "options": [
+                "Elephant",
+                "Rhinoceros"
+              ],
+              "correct_answer": 0,
+              "explanation": "Elephants have the longest gestation period of any mammal at 22 months. Rhinoceros pregnancies last 15-16 months.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_120",
+              "question": "Which animal can produce the hottest body temperature?",
+              "options": [
+                "Hummingbird",
+                "Shrew"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hummingbirds maintain body temperatures around 40-41°C (104-106°F) during activity, with heart rates up to 1,260 beats per minute generating significant heat.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_121",
+              "question": "Which animal has more complex tool use?",
+              "options": [
+                "New Caledonian crow",
+                "Chimpanzee"
+              ],
+              "correct_answer": 0,
+              "explanation": "New Caledonian crows craft complex hooked tools, solve multi-step problems, and can even make tools to make tools, showing sophistication that rivals great apes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_122",
+              "question": "Which animal can survive complete dehydration longer?",
+              "options": [
+                "Tardigrade",
+                "Desert tortoise"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tardigrades can survive complete dehydration for decades in cryptobiosis. Desert tortoises are drought-resistant but need water eventually.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_123",
+              "question": "Which animal has the fastest wing beat?",
+              "options": [
+                "Hummingbird",
+                "Bee"
+              ],
+              "correct_answer": 1,
+              "explanation": "Some bee species can beat their wings at 230 beats per second during flight. The fastest hummingbird beats at about 200 beats per second.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_124",
+              "question": "Which animal can detect infrared radiation?",
+              "options": [
+                "Pit viper",
+                "Python"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pit vipers have specialized pit organs that detect infrared radiation, allowing them to 'see' heat signatures of prey in complete darkness. Some pythons also have this ability.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_125",
+              "question": "Which animal has the most complex immune system?",
+              "options": [
+                "Jawless fish",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Jawless fish like lampreys have a unique adaptive immune system with variable lymphocyte receptors that's different from but as complex as the antibody-based system in other vertebrates.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_126",
+              "question": "Which animal can withstand the highest g-forces?",
+              "options": [
+                "Mantis shrimp",
+                "Woodpecker"
+              ],
+              "correct_answer": 1,
+              "explanation": "Woodpeckers can withstand 1,200 g-forces when pecking, thanks to special shock-absorbing skull structures. Mantis shrimp strikes generate high forces but the animal doesn't absorb as much.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_127",
+              "question": "Which animal has the longest tongue relative to body?",
+              "options": [
+                "Tube-lipped nectar bat",
+                "Anteater"
+              ],
+              "correct_answer": 0,
+              "explanation": "The tube-lipped nectar bat has a tongue 1.5 times its body length, the longest relative to body size. Anteaters have long tongues but shorter proportionally.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_128",
+              "question": "Which animal can produce antifreeze proteins?",
+              "options": [
+                "Antarctic fish",
+                "Arctic fox"
+              ],
+              "correct_answer": 0,
+              "explanation": "Antarctic fish produce antifreeze glycoproteins that prevent ice crystals from forming in their blood, allowing them to survive in water below freezing point.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_129",
+              "question": "Which animal has the most efficient oxygen extraction?",
+              "options": [
+                "Bird",
+                "Mammal"
+              ],
+              "correct_answer": 0,
+              "explanation": "Birds have a more efficient respiratory system with one-way airflow through their lungs, allowing them to extract more oxygen than mammals with their two-way breathing.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_130",
+              "question": "Which animal can regenerate its heart?",
+              "options": [
+                "Zebrafish",
+                "Salamander"
+              ],
+              "correct_answer": 0,
+              "explanation": "Zebrafish can regenerate up to 20% of their heart tissue after damage, while salamanders can regenerate limbs but not heart tissue to the same extent.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_131",
+              "question": "Which animal has the most acute hearing at high frequencies?",
+              "options": [
+                "Dolphin",
+                "Bat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dolphins can hear frequencies up to 150 kHz, while bats typically hear up to 120 kHz, making dolphins better at detecting high-frequency sounds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_132",
+              "question": "Which animal can produce bioluminescence?",
+              "options": [
+                "Firefly",
+                "Glowworm"
+              ],
+              "correct_answer": 0,
+              "explanation": "Both fireflies and glowworms produce bioluminescence through luciferin-luciferase reactions, making this a tie.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_133",
+              "question": "Which animal has the most powerful immune response to cancer?",
+              "options": [
+                "Naked mole rat",
+                "Mouse"
+              ],
+              "correct_answer": 0,
+              "explanation": "Naked mole rats are virtually immune to cancer due to a unique mechanism involving high-molecular-mass hyaluronan that prevents cell proliferation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_134",
+              "question": "Which animal can detect the Earth's magnetic field most precisely?",
+              "options": [
+                "Pigeon",
+                "Sea turtle"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sea turtles have extraordinarily precise magnetoreception, able to detect variations in magnetic fields that allow them to return to specific beaches after thousands of miles of ocean travel.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_135",
+              "question": "Which animal has the most complex stomach?",
+              "options": [
+                "Cow",
+                "Kangaroo"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cows have a four-chambered stomach (rumen, reticulum, omasum, abomasum) for breaking down plant cellulose. Kangaroos have a complex foregut but fewer distinct chambers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_136",
+              "question": "Which animal can survive the longest without oxygen?",
+              "options": [
+                "Crucian carp",
+                "Turtle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Crucian carp can survive months without oxygen by converting lactic acid to ethanol, which diffuses through their gills. Turtles can survive weeks but not months.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_137",
+              "question": "Which animal has the most complex dance communication?",
+              "options": [
+                "Honeybee",
+                "Bowerbird"
+              ],
+              "correct_answer": 0,
+              "explanation": "Honeybees perform waggle dances that communicate precise distance, direction, and quality of food sources using symbolic representation, one of the most complex animal communications.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_138",
+              "question": "Which animal can survive the highest altitude?",
+              "options": [
+                "Bar-headed goose",
+                "Rüppell's vulture"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rüppell's vulture was recorded at 37,000 feet (11,300 meters) after colliding with a plane. Bar-headed geese fly over the Himalayas at 29,000 feet.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_139",
+              "question": "Which animal has the most efficient kidneys?",
+              "options": [
+                "Desert rat",
+                "Camel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Desert rats (kangaroo rats) have the most efficient kidneys, producing urine 5 times more concentrated than their blood, allowing them to never drink water.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_140",
+              "question": "Which animal can produce the most powerful neurotoxin?",
+              "options": [
+                "Blue-ringed octopus",
+                "Cone snail"
+              ],
+              "correct_answer": 0,
+              "explanation": "The blue-ringed octopus produces tetrodotoxin, one of the most powerful neurotoxins, with enough venom to kill 26 adult humans. Cone snail venom is also deadly but less potent.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_141",
+              "question": "Which animal has the most complex gut microbiome?",
+              "options": [
+                "Termite",
+                "Cow"
+              ],
+              "correct_answer": 0,
+              "explanation": "Termites have incredibly diverse gut microbiomes with hundreds of species including unique protists and bacteria that allow them to digest wood cellulose.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_142",
+              "question": "Which animal can survive the longest in suspended animation?",
+              "options": [
+                "Tardigrade",
+                "Nematode"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tardigrades have been revived after 30+ years in cryptobiosis. Some have reportedly survived thousands of years, though this is debated.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_143",
+              "question": "Which animal has the most sophisticated camouflage ability?",
+              "options": [
+                "Cuttlefish",
+                "Chameleon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cuttlefish can change color, pattern, and texture in milliseconds, matching complex backgrounds with remarkable precision using chromatophores, iridophores, and papillae.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_144",
+              "question": "Which animal has the most complex venom?",
+              "options": [
+                "Platypus",
+                "Box jellyfish"
+              ],
+              "correct_answer": 1,
+              "explanation": "Box jellyfish venom contains multiple toxins affecting the heart, nervous system, and skin simultaneously, with over 100 different proteins. Platypus venom is simpler.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_145",
+              "question": "Which animal can regenerate the most complex body parts?",
+              "options": [
+                "Axolotl",
+                "Starfish"
+              ],
+              "correct_answer": 0,
+              "explanation": "Axolotls can regenerate complex organs including heart, spinal cord, brain tissue, and retina with perfect functionality. Starfish regenerate limbs but not organs.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_146",
+              "question": "Which animal has the most efficient photosynthetic symbionts?",
+              "options": [
+                "Sea slug",
+                "Coral"
+              ],
+              "correct_answer": 1,
+              "explanation": "Corals have highly efficient zooxanthellae that can convert up to 95% of photosynthetic products to the coral. Sea slugs incorporate chloroplasts but less efficiently.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_147",
+              "question": "Which animal can withstand the most extreme pH levels?",
+              "options": [
+                "Pompeii worm",
+                "Tardigrade"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pompeii worms live in hydrothermal vents with pH as low as 2.8 and temperatures up to 80°C, more extreme than tardigrades' pH tolerance.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_148",
+              "question": "Which animal has the most complex biological clock?",
+              "options": [
+                "Monarch butterfly",
+                "Arctic tern"
+              ],
+              "correct_answer": 0,
+              "explanation": "Monarch butterflies have a time-compensated sun compass that integrates circadian rhythms with environmental cues for their multi-generational migration.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_149",
+              "question": "Which animal produces the most powerful acid?",
+              "options": [
+                "Bombardier beetle",
+                "Ant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bombardier beetles spray a boiling, caustic chemical mixture at 100°C from their abdomen. While some ants produce formic acid, it's less powerful.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_150",
+              "question": "Which animal has the most efficient thermoregulation?",
+              "options": [
+                "Camel",
+                "Kangaroo rat"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kangaroo rats maintain body temperature through behavioral and physiological adaptations without ever drinking water, making their thermoregulation more efficient than camels.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_151",
+              "question": "Which animal can produce the strongest adhesive?",
+              "options": [
+                "Barnacle",
+                "Mussel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Barnacle cement is one of the strongest natural adhesives, capable of withstanding extreme forces underwater for decades. Mussel adhesive is strong but less durable.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_152",
+              "question": "Which animal has the most complex metamorphosis?",
+              "options": [
+                "Butterfly",
+                "Sea urchin"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sea urchin larvae undergo radical metamorphosis where their left side becomes the adult and the right side is reabsorbed, more complex than butterfly transformation.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_153",
+              "question": "Which animal can detect the smallest vibrations?",
+              "options": [
+                "Spider",
+                "Snake"
+              ],
+              "correct_answer": 0,
+              "explanation": "Spiders can detect vibrations as small as 0.001 micrometers through specialized organs on their legs, more sensitive than snake vibration detection.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_154",
+              "question": "Which animal has the most sophisticated color-changing mechanism?",
+              "options": [
+                "Cuttlefish",
+                "Octopus"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cuttlefish have more types of chromatophores and can create more complex patterns faster than octopuses, with additional iridophores and leucophores.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_155",
+              "question": "Which animal can survive the most extreme salinity changes?",
+              "options": [
+                "Brine shrimp",
+                "Salmon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Brine shrimp can survive in water from 0% to 50% salinity (10 times seawater), more extreme than salmon's adaptation between fresh and saltwater.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_156",
+              "question": "Which animal has the most complex sound production mechanism?",
+              "options": [
+                "Songbird",
+                "Dolphin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Songbirds have a syrinx that can produce two independent sounds simultaneously, allowing complex harmonics that even dolphins with their sophisticated melon system cannot match.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_157",
+              "question": "Which animal can withstand the most extreme osmotic pressure?",
+              "options": [
+                "Brine shrimp",
+                "Tardigrade"
+              ],
+              "correct_answer": 1,
+              "explanation": "Tardigrades can survive in pure water to supersaturated salt solutions, withstanding greater osmotic extremes than brine shrimp through cryptobiosis.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_158",
+              "question": "Which animal has the most efficient energy storage?",
+              "options": [
+                "Hummingbird",
+                "Arctic tern"
+              ],
+              "correct_answer": 1,
+              "explanation": "Arctic terns store energy so efficiently they can migrate 44,000 miles annually with minimal fat reserves, more efficient than hummingbirds' constant high-energy needs.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_159",
+              "question": "Which animal can produce the most complex pheromone signals?",
+              "options": [
+                "Ant",
+                "Moth"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ants use over 20 different pheromones to communicate complex information about food, danger, and colony needs. Moths use fewer, simpler pheromones mainly for mating.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_160",
+              "question": "Which animal has the most sophisticated biological compass?",
+              "options": [
+                "Monarch butterfly",
+                "Sea turtle"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sea turtles use magnetic inclination and intensity to create a 'magnetic map' with pinpoint accuracy to specific beaches after decades at sea, more sophisticated than monarch navigation.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
