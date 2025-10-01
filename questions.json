@@ -4202,6 +4202,734 @@
               "points": 10
             }
           ]
+        },
+        {
+          "id": "tech_showdown",
+          "name": "Tech Showdown",
+          "icon": "📱",
+          "color": "#2196f3",
+          "questions": [
+            {
+              "id": "showdown_001",
+              "question": "Which operating system was released first?",
+              "options": [
+                "Windows",
+                "macOS"
+              ],
+              "correct_answer": 1,
+              "explanation": "macOS (originally Mac OS) was released in 1984, while Microsoft Windows was released in 1985.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_002",
+              "question": "Which company has a higher market capitalization?",
+              "options": [
+                "Apple",
+                "Microsoft"
+              ],
+              "correct_answer": 0,
+              "explanation": "As of 2025, Apple typically maintains the highest market capitalization of any company, often exceeding $3 trillion, though Microsoft is a close competitor.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_003",
+              "question": "Which social media platform has more monthly active users?",
+              "options": [
+                "Facebook",
+                "Twitter/X"
+              ],
+              "correct_answer": 0,
+              "explanation": "Facebook has over 3 billion monthly active users, while Twitter/X has approximately 500 million, making Facebook significantly larger.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_004",
+              "question": "Which smartphone operating system has a larger global market share?",
+              "options": [
+                "Android",
+                "iOS"
+              ],
+              "correct_answer": 0,
+              "explanation": "Android dominates with approximately 70% of the global smartphone market share, while iOS holds around 27%.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_005",
+              "question": "Which programming language is older?",
+              "options": [
+                "Python",
+                "JavaScript"
+              ],
+              "correct_answer": 0,
+              "explanation": "Python was created in 1991 by Guido van Rossum, while JavaScript was created in 1995 by Brendan Eich at Netscape.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_006",
+              "question": "Which search engine processes more searches per day?",
+              "options": [
+                "Google",
+                "Bing"
+              ],
+              "correct_answer": 0,
+              "explanation": "Google processes over 8.5 billion searches per day, commanding over 90% of the global search market, while Bing processes approximately 900 million searches daily.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_007",
+              "question": "Which gaming console was released first?",
+              "options": [
+                "PlayStation 5",
+                "Xbox Series X"
+              ],
+              "correct_answer": 1,
+              "explanation": "Both were released in November 2020, but Xbox Series X launched on November 10, two days before PlayStation 5 on November 12.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_008",
+              "question": "Which streaming service has more subscribers globally?",
+              "options": [
+                "Netflix",
+                "Disney+"
+              ],
+              "correct_answer": 0,
+              "explanation": "Netflix has over 250 million subscribers worldwide, while Disney+ has approximately 150 million subscribers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_009",
+              "question": "Which e-commerce platform has higher annual revenue?",
+              "options": [
+                "Amazon",
+                "eBay"
+              ],
+              "correct_answer": 0,
+              "explanation": "Amazon generates over $500 billion in annual revenue, dwarfing eBay's approximately $10 billion in annual revenue.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_010",
+              "question": "Which browser has a larger market share?",
+              "options": [
+                "Chrome",
+                "Safari"
+              ],
+              "correct_answer": 0,
+              "explanation": "Google Chrome commands approximately 65% of the global browser market share, while Safari holds around 20%.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_011",
+              "question": "Which cloud storage service offers more free storage?",
+              "options": [
+                "Google Drive",
+                "Dropbox"
+              ],
+              "correct_answer": 0,
+              "explanation": "Google Drive offers 15GB of free storage, while Dropbox provides only 2GB in its free tier.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_012",
+              "question": "Which video conferencing platform gained more users during the COVID-19 pandemic?",
+              "options": [
+                "Zoom",
+                "Skype"
+              ],
+              "correct_answer": 0,
+              "explanation": "Zoom's daily meeting participants skyrocketed from 10 million in December 2019 to over 300 million in April 2020, far exceeding Skype's growth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_013",
+              "question": "Which payment platform processes more transactions?",
+              "options": [
+                "PayPal",
+                "Venmo"
+              ],
+              "correct_answer": 0,
+              "explanation": "PayPal processes billions of transactions annually across 200+ countries, while Venmo (owned by PayPal) is primarily US-focused with smaller transaction volume.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_014",
+              "question": "Which company founded its electric vehicle division first?",
+              "options": [
+                "Tesla",
+                "Rivian"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tesla was founded in 2003, while Rivian was founded in 2009, making Tesla the earlier electric vehicle company.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_015",
+              "question": "Which messaging app is owned by Meta/Facebook?",
+              "options": [
+                "WhatsApp",
+                "Telegram"
+              ],
+              "correct_answer": 0,
+              "explanation": "Meta (formerly Facebook) acquired WhatsApp in 2014 for $19 billion. Telegram is independently owned by Pavel Durov.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_016",
+              "question": "Which laptop brand is owned by Dell?",
+              "options": [
+                "Alienware",
+                "ROG"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dell acquired Alienware in 2006 for its gaming PC division. ROG (Republic of Gamers) is owned by ASUS.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_017",
+              "question": "Which photo-sharing platform was acquired by Facebook first?",
+              "options": [
+                "Instagram",
+                "Snapchat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Facebook acquired Instagram in 2012 for $1 billion. Snapchat has remained independent and rejected Facebook's acquisition attempts.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_018",
+              "question": "Which graphics card manufacturer has a larger market share?",
+              "options": [
+                "NVIDIA",
+                "AMD"
+              ],
+              "correct_answer": 0,
+              "explanation": "NVIDIA holds approximately 80% of the discrete GPU market share, while AMD holds around 20%.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_019",
+              "question": "Which programming language is more commonly used for web development?",
+              "options": [
+                "JavaScript",
+                "Assembly"
+              ],
+              "correct_answer": 0,
+              "explanation": "JavaScript is the dominant language for web development, used by over 98% of websites. Assembly is a low-level language rarely used for web development.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_020",
+              "question": "Which smartwatch brand has higher sales?",
+              "options": [
+                "Apple Watch",
+                "Samsung Galaxy Watch"
+              ],
+              "correct_answer": 0,
+              "explanation": "Apple Watch dominates the smartwatch market with approximately 30% market share and leads in total sales units.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_021",
+              "question": "Which music streaming service has more subscribers?",
+              "options": [
+                "Spotify",
+                "Apple Music"
+              ],
+              "correct_answer": 0,
+              "explanation": "Spotify has over 500 million users with 200+ million premium subscribers, while Apple Music has approximately 100 million subscribers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_022",
+              "question": "Which processor architecture is used in Apple's M-series chips?",
+              "options": [
+                "ARM",
+                "x86"
+              ],
+              "correct_answer": 0,
+              "explanation": "Apple's M-series chips are based on ARM architecture, while x86 is used by Intel and AMD processors.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_023",
+              "question": "Which wireless technology has a longer range?",
+              "options": [
+                "Bluetooth",
+                "Wi-Fi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Wi-Fi typically has a range of 150-300 feet indoors, while Bluetooth ranges from 30-300 feet depending on the class, with standard Bluetooth being shorter range.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_024",
+              "question": "Which video platform has more hours of content uploaded per minute?",
+              "options": [
+                "YouTube",
+                "Vimeo"
+              ],
+              "correct_answer": 0,
+              "explanation": "Over 500 hours of video are uploaded to YouTube every minute, far exceeding Vimeo's upload rate.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "showdown_025",
+              "question": "Which storage technology is faster?",
+              "options": [
+                "SSD",
+                "HDD"
+              ],
+              "correct_answer": 0,
+              "explanation": "SSDs (Solid State Drives) are significantly faster than HDDs (Hard Disk Drives), with read/write speeds that can be 10-100 times faster.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_026",
+              "question": "Which database type is better suited for handling unstructured data?",
+              "options": [
+                "NoSQL",
+                "SQL"
+              ],
+              "correct_answer": 0,
+              "explanation": "NoSQL databases are designed to handle unstructured and semi-structured data with flexible schemas, while SQL databases require structured data with defined schemas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_027",
+              "question": "Which smartphone brand offers more software updates?",
+              "options": [
+                "Google Pixel",
+                "Samsung Galaxy"
+              ],
+              "correct_answer": 0,
+              "explanation": "Google Pixel phones typically receive longer software update support (7 years for newer models) compared to Samsung's 4-5 years of updates.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_028",
+              "question": "Which encryption standard is more secure?",
+              "options": [
+                "AES-256",
+                "DES"
+              ],
+              "correct_answer": 0,
+              "explanation": "AES-256 uses 256-bit encryption keys and is considered virtually unbreakable with current technology. DES uses only 56-bit keys and is considered obsolete and insecure.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_029",
+              "question": "Which programming paradigm does Python primarily support?",
+              "options": [
+                "Multi-paradigm",
+                "Object-oriented only"
+              ],
+              "correct_answer": 0,
+              "explanation": "Python is a multi-paradigm language supporting object-oriented, procedural, and functional programming styles, while not being limited to just object-oriented.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_030",
+              "question": "Which cellular network technology offers faster speeds?",
+              "options": [
+                "5G",
+                "4G LTE"
+              ],
+              "correct_answer": 0,
+              "explanation": "5G networks can theoretically achieve speeds up to 10 Gbps, while 4G LTE typically maxes out around 100 Mbps, making 5G significantly faster.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_031",
+              "question": "Which chip manufacturer uses smaller transistor nodes in 2025?",
+              "options": [
+                "TSMC",
+                "Intel"
+              ],
+              "correct_answer": 0,
+              "explanation": "TSMC has been leading in process technology with 3nm and smaller nodes in production, while Intel has faced delays in advancing to comparable sizes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_032",
+              "question": "Which protocol is more secure for websites?",
+              "options": [
+                "HTTPS",
+                "HTTP"
+              ],
+              "correct_answer": 0,
+              "explanation": "HTTPS encrypts data transmission using SSL/TLS protocols, while HTTP sends data in plain text, making HTTPS significantly more secure.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_033",
+              "question": "Which authentication method is more secure?",
+              "options": [
+                "Two-factor authentication",
+                "Password only"
+              ],
+              "correct_answer": 0,
+              "explanation": "Two-factor authentication adds an additional layer of security beyond passwords, making accounts much harder to compromise even if passwords are stolen.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_034",
+              "question": "Which display technology offers better contrast ratios?",
+              "options": [
+                "OLED",
+                "LCD"
+              ],
+              "correct_answer": 0,
+              "explanation": "OLED displays can achieve infinite contrast ratios by turning off individual pixels completely, while LCD displays always have some backlight bleed.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_035",
+              "question": "Which version control system is distributed?",
+              "options": [
+                "Git",
+                "SVN"
+              ],
+              "correct_answer": 0,
+              "explanation": "Git is a distributed version control system where every user has a complete repository copy. SVN (Subversion) is centralized with a single repository.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_036",
+              "question": "Which AI model has more parameters?",
+              "options": [
+                "GPT-4",
+                "GPT-3"
+              ],
+              "correct_answer": 0,
+              "explanation": "GPT-4 has significantly more parameters than GPT-3 (which had 175 billion), though exact GPT-4 parameter counts are not publicly disclosed.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_037",
+              "question": "Which video codec provides better compression efficiency?",
+              "options": [
+                "H.265 (HEVC)",
+                "H.264 (AVC)"
+              ],
+              "correct_answer": 0,
+              "explanation": "H.265 provides approximately 50% better compression than H.264 at the same quality level, making it more efficient for 4K and higher resolution video.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_038",
+              "question": "Which RAM type is faster?",
+              "options": [
+                "DDR5",
+                "DDR4"
+              ],
+              "correct_answer": 0,
+              "explanation": "DDR5 offers speeds starting at 4800 MT/s compared to DDR4's maximum of around 3200 MT/s, along with improved power efficiency.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_039",
+              "question": "Which company pioneered the graphical user interface?",
+              "options": [
+                "Xerox PARC",
+                "Microsoft"
+              ],
+              "correct_answer": 0,
+              "explanation": "Xerox PARC developed the first commercial GUI with the Xerox Alto in 1973, which influenced both Apple and Microsoft's later GUI implementations.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_040",
+              "question": "Which wireless charging standard is more widely adopted?",
+              "options": [
+                "Qi",
+                "PMA"
+              ],
+              "correct_answer": 0,
+              "explanation": "Qi (pronounced 'chee') is the dominant wireless charging standard, adopted by Apple, Samsung, and most major manufacturers. PMA has minimal market presence.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_041",
+              "question": "Which container orchestration platform is more popular?",
+              "options": [
+                "Kubernetes",
+                "Docker Swarm"
+              ],
+              "correct_answer": 0,
+              "explanation": "Kubernetes has become the industry standard for container orchestration, with much wider adoption and community support than Docker Swarm.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_042",
+              "question": "Which JavaScript framework was released first?",
+              "options": [
+                "React",
+                "Vue.js"
+              ],
+              "correct_answer": 0,
+              "explanation": "React was released by Facebook in 2013, while Vue.js was released by Evan You in 2014.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_043",
+              "question": "Which image format supports transparency?",
+              "options": [
+                "PNG",
+                "JPEG"
+              ],
+              "correct_answer": 0,
+              "explanation": "PNG supports alpha channel transparency, allowing for transparent backgrounds. JPEG does not support transparency and always has a solid background.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_044",
+              "question": "Which quantum computing company has more qubits in their latest processor?",
+              "options": [
+                "IBM",
+                "D-Wave"
+              ],
+              "correct_answer": 1,
+              "explanation": "D-Wave's quantum annealers have over 5,000 qubits, while IBM's gate-based quantum computers have hundreds of qubits, though they use different quantum computing approaches.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_045",
+              "question": "Which satellite navigation system has more satellites?",
+              "options": [
+                "GPS",
+                "GLONASS"
+              ],
+              "correct_answer": 0,
+              "explanation": "GPS operates with 31 satellites, while GLONASS typically operates with 24 satellites, giving GPS broader coverage and redundancy.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_046",
+              "question": "Which USB standard offers faster data transfer?",
+              "options": [
+                "USB 4.0",
+                "USB 3.0"
+              ],
+              "correct_answer": 0,
+              "explanation": "USB 4.0 offers speeds up to 40 Gbps, while USB 3.0 is limited to 5 Gbps, making USB 4.0 eight times faster.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_047",
+              "question": "Which blockchain consensus mechanism uses less energy?",
+              "options": [
+                "Proof of Stake",
+                "Proof of Work"
+              ],
+              "correct_answer": 0,
+              "explanation": "Proof of Stake uses approximately 99% less energy than Proof of Work, as it doesn't require massive computational power for mining.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_048",
+              "question": "Which screen refresh rate provides smoother motion?",
+              "options": [
+                "144Hz",
+                "60Hz"
+              ],
+              "correct_answer": 0,
+              "explanation": "144Hz displays refresh the image 144 times per second compared to 60Hz's 60 times, resulting in significantly smoother motion and reduced blur.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "showdown_049",
+              "question": "Which network topology provides the most redundancy?",
+              "options": [
+                "Mesh",
+                "Star"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mesh topology connects each node to multiple other nodes, providing maximum redundancy and fault tolerance. Star topology has a single point of failure at the hub.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_050",
+              "question": "Which sorting algorithm has better average time complexity?",
+              "options": [
+                "Quicksort",
+                "Bubble sort"
+              ],
+              "correct_answer": 0,
+              "explanation": "Quicksort has an average time complexity of O(n log n), while Bubble sort is O(n²), making Quicksort significantly more efficient for large datasets.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_051",
+              "question": "Which RAID level provides both performance and redundancy?",
+              "options": [
+                "RAID 10",
+                "RAID 0"
+              ],
+              "correct_answer": 0,
+              "explanation": "RAID 10 combines striping and mirroring for both performance and redundancy. RAID 0 offers only performance with no redundancy, risking complete data loss.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_052",
+              "question": "Which neural network architecture is better for sequential data?",
+              "options": [
+                "LSTM",
+                "CNN"
+              ],
+              "correct_answer": 0,
+              "explanation": "LSTM (Long Short-Term Memory) networks are specifically designed for sequential data and time series. CNNs excel at spatial data like images.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_053",
+              "question": "Which memory allocation method has lower overhead?",
+              "options": [
+                "Stack allocation",
+                "Heap allocation"
+              ],
+              "correct_answer": 0,
+              "explanation": "Stack allocation has minimal overhead with automatic deallocation, while heap allocation requires manual management and has higher overhead from dynamic memory management.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_054",
+              "question": "Which cryptographic hash function is considered more secure?",
+              "options": [
+                "SHA-256",
+                "MD5"
+              ],
+              "correct_answer": 0,
+              "explanation": "SHA-256 is cryptographically secure with no known practical attacks. MD5 has been broken and is considered insecure for cryptographic purposes.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_055",
+              "question": "Which packet switching method has lower latency?",
+              "options": [
+                "Circuit switching",
+                "Packet switching"
+              ],
+              "correct_answer": 0,
+              "explanation": "Circuit switching establishes a dedicated path with consistent latency, while packet switching can have variable latency due to routing and queuing delays.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_056",
+              "question": "Which memory technology has faster access times?",
+              "options": [
+                "SRAM",
+                "DRAM"
+              ],
+              "correct_answer": 0,
+              "explanation": "SRAM (Static RAM) has access times around 1-10 nanoseconds and doesn't need refreshing. DRAM requires periodic refreshing and is slower, typically 50-70 nanoseconds.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_057",
+              "question": "Which virtualization type has better performance?",
+              "options": [
+                "Type 1 (Bare-metal)",
+                "Type 2 (Hosted)"
+              ],
+              "correct_answer": 0,
+              "explanation": "Type 1 hypervisors run directly on hardware without a host OS, providing better performance and lower overhead than Type 2 hypervisors running on top of an OS.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_058",
+              "question": "Which encoding scheme provides better error detection?",
+              "options": [
+                "Hamming code",
+                "Parity bit"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hamming codes can detect and correct single-bit errors and detect two-bit errors. Parity bits can only detect single-bit errors without correction capability.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_059",
+              "question": "Which cache replacement policy typically performs better?",
+              "options": [
+                "LRU",
+                "FIFO"
+              ],
+              "correct_answer": 0,
+              "explanation": "LRU (Least Recently Used) generally performs better than FIFO by keeping frequently accessed data, while FIFO simply removes the oldest entries regardless of usage.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "showdown_060",
+              "question": "Which instruction set architecture allows for more compact code?",
+              "options": [
+                "ARM",
+                "x86"
+              ],
+              "correct_answer": 0,
+              "explanation": "ARM uses a RISC architecture with fixed-length instructions and typically produces more compact code with better power efficiency compared to x86's CISC architecture.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
         }
       ]
     },
