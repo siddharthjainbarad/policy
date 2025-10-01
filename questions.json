@@ -3466,6 +3466,746 @@
       ]
     },
     {
+      "id": "this_or_that",
+      "name": "This or That",
+      "description": "Choose between two options! Test your knowledge with quick comparison questions about animals, tech, geography, and more.",
+      "icon": "↔️",
+      "color": "#ff6b9d",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 3,
+      "subcategories": [
+        {
+          "id": "animals_face_off",
+          "name": "Animals Face-Off",
+          "icon": "🐕",
+          "color": "#4caf50",
+          "questions": [
+            {
+              "id": "off_001",
+              "question": "Which animal is faster on land?",
+              "options": [
+                "Cheetah",
+                "Lion"
+              ],
+              "correct_answer": 0,
+              "explanation": "The cheetah is the fastest land animal, capable of reaching speeds up to 70 mph (112 km/h), while lions can run at about 50 mph (80 km/h) in short bursts.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_002",
+              "question": "Which animal is larger?",
+              "options": [
+                "Blue whale",
+                "Elephant"
+              ],
+              "correct_answer": 0,
+              "explanation": "The blue whale is the largest animal that has ever lived, weighing up to 190 tonnes and measuring up to 33.6 meters long. The African elephant is the largest land animal but weighs only up to 12.25 tonnes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_003",
+              "question": "Which animal has a longer lifespan?",
+              "options": [
+                "Elephant",
+                "Dog"
+              ],
+              "correct_answer": 0,
+              "explanation": "Elephants can live 60-70 years in the wild, while most dogs live 10-13 years depending on breed.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_004",
+              "question": "Which animal is a better swimmer?",
+              "options": [
+                "Penguin",
+                "Chicken"
+              ],
+              "correct_answer": 0,
+              "explanation": "Penguins are excellent swimmers, reaching speeds up to 22 mph underwater. Chickens are not natural swimmers and avoid water.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_005",
+              "question": "Which animal has more teeth?",
+              "options": [
+                "Shark",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Most shark species have multiple rows of teeth and can have 300 or more teeth at once, while humans have only 32 permanent teeth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_006",
+              "question": "Which animal can live longer without water?",
+              "options": [
+                "Camel",
+                "Horse"
+              ],
+              "correct_answer": 0,
+              "explanation": "Camels can survive up to 15 days without water in hot desert conditions by storing fat in their humps and minimizing water loss. Horses need water daily.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_007",
+              "question": "Which animal has better night vision?",
+              "options": [
+                "Owl",
+                "Eagle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Owls have exceptional night vision with eyes adapted for low-light hunting. Eagles have excellent daytime vision but lack the night-vision adaptations of owls.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_008",
+              "question": "Which animal is more venomous?",
+              "options": [
+                "Box jellyfish",
+                "Bee"
+              ],
+              "correct_answer": 0,
+              "explanation": "The box jellyfish is one of the most venomous creatures on Earth, with venom that can be fatal to humans within minutes. Bee stings are painful but rarely life-threatening.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_009",
+              "question": "Which animal has a longer neck?",
+              "options": [
+                "Giraffe",
+                "Horse"
+              ],
+              "correct_answer": 0,
+              "explanation": "Giraffes have the longest neck of any land animal, measuring up to 6 feet long, allowing them to reach leaves high in trees.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_010",
+              "question": "Which animal can jump higher relative to its body size?",
+              "options": [
+                "Flea",
+                "Grasshopper"
+              ],
+              "correct_answer": 0,
+              "explanation": "Fleas can jump up to 150 times their own body length, making them one of the best jumpers in the animal kingdom relative to size.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_011",
+              "question": "Which animal has a stronger bite force?",
+              "options": [
+                "Crocodile",
+                "Lion"
+              ],
+              "correct_answer": 0,
+              "explanation": "Saltwater crocodiles have the strongest bite force of any animal, at around 3,700 PSI, compared to a lion's bite force of about 650 PSI.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_012",
+              "question": "Which animal is more intelligent?",
+              "options": [
+                "Dolphin",
+                "Goldfish"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dolphins are highly intelligent marine mammals with complex communication, problem-solving abilities, and even use names for each other. Goldfish have much simpler cognitive abilities.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_013",
+              "question": "Which animal sleeps more per day?",
+              "options": [
+                "Koala",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Koalas sleep 18-22 hours per day due to their low-energy eucalyptus diet, while humans typically need 7-9 hours.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_014",
+              "question": "Which animal has more legs?",
+              "options": [
+                "Spider",
+                "Insect"
+              ],
+              "correct_answer": 0,
+              "explanation": "Spiders (arachnids) have 8 legs, while insects have 6 legs by definition.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_015",
+              "question": "Which animal can hold its breath longer underwater?",
+              "options": [
+                "Sperm whale",
+                "Sea turtle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sperm whales can hold their breath for up to 90 minutes during deep dives, while sea turtles typically stay submerged for 4-7 hours when resting.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_016",
+              "question": "Which animal has the largest brain?",
+              "options": [
+                "Sperm whale",
+                "Elephant"
+              ],
+              "correct_answer": 0,
+              "explanation": "The sperm whale has the largest brain of any animal, weighing about 17 pounds (7.8 kg), which is more than five times heavier than a human brain.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_017",
+              "question": "Which animal can change color?",
+              "options": [
+                "Chameleon",
+                "Alligator"
+              ],
+              "correct_answer": 0,
+              "explanation": "Chameleons can change their skin color for communication, temperature regulation, and camouflage using special cells called chromatophores.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_018",
+              "question": "Which animal produces milk?",
+              "options": [
+                "Platypus",
+                "Penguin"
+              ],
+              "correct_answer": 0,
+              "explanation": "The platypus is a mammal and produces milk to feed its young, despite laying eggs. Penguins are birds and do not produce milk.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_019",
+              "question": "Which animal has a stronger sense of smell?",
+              "options": [
+                "Dog",
+                "Cat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dogs have approximately 300 million olfactory receptors compared to a cat's 200 million, making dogs' sense of smell significantly more acute.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_020",
+              "question": "Which animal can fly?",
+              "options": [
+                "Bat",
+                "Flying squirrel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bats are the only mammals capable of true sustained flight. Flying squirrels can only glide from tree to tree but cannot achieve powered flight.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_021",
+              "question": "Which animal has more hearts?",
+              "options": [
+                "Octopus",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Octopuses have three hearts: two pump blood to the gills, while one pumps blood to the rest of the body. Humans have only one heart.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_022",
+              "question": "Which animal is heavier?",
+              "options": [
+                "Hippopotamus",
+                "Rhinoceros"
+              ],
+              "correct_answer": 1,
+              "explanation": "White rhinoceros can weigh up to 2,300 kg (5,070 lbs), making them heavier than hippos, which typically weigh 1,500-1,800 kg (3,300-4,000 lbs).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_023",
+              "question": "Which animal can regenerate lost body parts?",
+              "options": [
+                "Starfish",
+                "Crab"
+              ],
+              "correct_answer": 0,
+              "explanation": "Starfish can regenerate entire arms and even grow a new body from a severed arm. Crabs can regenerate limbs but not to the same extent.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_024",
+              "question": "Which animal is more social?",
+              "options": [
+                "Elephant",
+                "Tiger"
+              ],
+              "correct_answer": 0,
+              "explanation": "Elephants live in complex matriarchal herds with strong family bonds, while tigers are solitary animals that only come together to mate.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "off_025",
+              "question": "Which animal has larger eyes relative to body size?",
+              "options": [
+                "Tarsier",
+                "Owl"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tarsiers have the largest eyes relative to body size of any mammal. Each eye is approximately the same size as their brain.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_026",
+              "question": "Which animal can survive in extreme cold better?",
+              "options": [
+                "Emperor penguin",
+                "Polar bear"
+              ],
+              "correct_answer": 0,
+              "explanation": "Emperor penguins can survive Antarctic winters at temperatures below -40°C (-40°F) without shelter, while polar bears, though cold-adapted, seek dens in extreme cold.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_027",
+              "question": "Which animal has more chromosomes?",
+              "options": [
+                "Hermit crab",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hermit crabs have 254 chromosomes, significantly more than humans who have 46. Chromosome number doesn't correlate with organism complexity.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_028",
+              "question": "Which animal produces louder sounds?",
+              "options": [
+                "Blue whale",
+                "Howler monkey"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue whales produce sounds up to 188 decibels, the loudest of any animal. Howler monkeys are loud at 140 decibels but don't match whale vocalizations.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_029",
+              "question": "Which animal has a higher body temperature?",
+              "options": [
+                "Bird",
+                "Mammal"
+              ],
+              "correct_answer": 0,
+              "explanation": "Birds typically have body temperatures between 40-42°C (104-108°F), while mammals average 37-39°C (98-102°F).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_030",
+              "question": "Which animal can survive longer without food?",
+              "options": [
+                "Python",
+                "Wolf"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pythons can survive up to a year without food after a large meal due to their slow metabolism, while wolves need to eat every few days.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_031",
+              "question": "Which animal has better color vision?",
+              "options": [
+                "Mantis shrimp",
+                "Eagle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mantis shrimp have 16 color receptors compared to humans' 3 and eagles' 4-5, allowing them to see colors we can't even imagine.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_032",
+              "question": "Which animal has more taste buds?",
+              "options": [
+                "Catfish",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Catfish have over 100,000 taste buds distributed all over their body, while humans have only about 10,000 on their tongue.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_033",
+              "question": "Which animal can run on water?",
+              "options": [
+                "Basilisk lizard",
+                "Water strider"
+              ],
+              "correct_answer": 0,
+              "explanation": "The basilisk lizard can run on water using rapid leg movements and special feet, covering about 15 feet. Water striders use surface tension but don't 'run'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_034",
+              "question": "Which animal has a more complex language system?",
+              "options": [
+                "Whale",
+                "Parrot"
+              ],
+              "correct_answer": 0,
+              "explanation": "Whales have regional dialects and complex songs that can travel thousands of miles. While parrots can mimic speech, whales have more sophisticated natural communication.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_035",
+              "question": "Which animal has stronger muscles pound for pound?",
+              "options": [
+                "Ant",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ants can lift 10-50 times their body weight due to their small size and muscle structure, far exceeding human strength relative to body weight.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_036",
+              "question": "Which animal has the longest migration?",
+              "options": [
+                "Arctic tern",
+                "Monarch butterfly"
+              ],
+              "correct_answer": 0,
+              "explanation": "Arctic terns migrate about 44,000 miles annually from Arctic to Antarctic and back, the longest migration of any animal.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_037",
+              "question": "Which animal has more bones?",
+              "options": [
+                "Python",
+                "Human"
+              ],
+              "correct_answer": 0,
+              "explanation": "Large pythons can have over 600 vertebrae and associated ribs, totaling more than 1,000 bones, while humans have only 206 bones.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_038",
+              "question": "Which animal can detect electrical fields?",
+              "options": [
+                "Shark",
+                "Dolphin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sharks have special organs called ampullae of Lorenzini that detect electrical fields from prey. Dolphins use echolocation but not electrical detection.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_039",
+              "question": "Which animal has the fastest metabolism?",
+              "options": [
+                "Hummingbird",
+                "Mouse"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hummingbirds have the fastest metabolism of any vertebrate, with heart rates up to 1,200 beats per minute and must eat constantly to survive.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_040",
+              "question": "Which animal can change its sex?",
+              "options": [
+                "Clownfish",
+                "Salmon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Clownfish are sequential hermaphrodites and can change from male to female when needed for reproduction. Salmon do not change sex.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_041",
+              "question": "Which animal has the highest blood pressure?",
+              "options": [
+                "Giraffe",
+                "Elephant"
+              ],
+              "correct_answer": 0,
+              "explanation": "Giraffes have blood pressure around 280/180 mmHg, twice that of humans, needed to pump blood up their long necks to the brain.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_042",
+              "question": "Which animal can survive in both saltwater and freshwater?",
+              "options": [
+                "Bull shark",
+                "Great white shark"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bull sharks have specialized kidneys that allow them to regulate salt levels and swim in both saltwater and freshwater. Great whites stay in saltwater.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_043",
+              "question": "Which animal has the longest pregnancy?",
+              "options": [
+                "Elephant",
+                "Whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Elephants have the longest gestation period of any mammal at 22 months, compared to most whale species at 10-17 months.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_044",
+              "question": "Which animal produces more offspring at once?",
+              "options": [
+                "Ocean sunfish",
+                "Rabbit"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ocean sunfish can produce up to 300 million eggs at once, the most of any vertebrate. Rabbits typically have 4-12 babies per litter.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_045",
+              "question": "Which animal has the strongest venom relative to size?",
+              "options": [
+                "Inland taipan snake",
+                "Black widow spider"
+              ],
+              "correct_answer": 0,
+              "explanation": "The inland taipan has the most toxic venom of any land snake, with one bite containing enough venom to kill 100 adult humans.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_046",
+              "question": "Which animal can survive complete dehydration?",
+              "options": [
+                "Tardigrade",
+                "Cockroach"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tardigrades can survive complete dehydration for decades, entering a state called cryptobiosis. Cockroaches are resilient but cannot survive complete dehydration.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_047",
+              "question": "Which animal has the largest eye in the animal kingdom?",
+              "options": [
+                "Giant squid",
+                "Blue whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Giant squid have the largest eyes of any animal, measuring up to 30 cm (12 inches) in diameter, larger than a dinner plate.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_048",
+              "question": "Which animal can see ultraviolet light?",
+              "options": [
+                "Reindeer",
+                "Wolf"
+              ],
+              "correct_answer": 0,
+              "explanation": "Reindeer can see ultraviolet light, which helps them spot predators and find food in Arctic snow. Wolves cannot see UV light.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "off_049",
+              "question": "Which animal has the most efficient oxygen extraction from water?",
+              "options": [
+                "Fish",
+                "Dolphin"
+              ],
+              "correct_answer": 0,
+              "explanation": "Fish can extract up to 85% of oxygen from water through their gills, while dolphins must surface to breathe air.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_050",
+              "question": "Which animal has the most complex brain structure relative to body size?",
+              "options": [
+                "Octopus",
+                "Crow"
+              ],
+              "correct_answer": 0,
+              "explanation": "Octopuses have the most complex brain of any invertebrate with 500 million neurons, 2/3 of which are in their arms, allowing distributed intelligence.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_051",
+              "question": "Which animal can survive the highest levels of radiation?",
+              "options": [
+                "Tardigrade",
+                "Cockroach"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tardigrades can survive radiation levels 1,000 times higher than lethal doses for humans, thanks to special DNA-protecting proteins.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_052",
+              "question": "Which animal has the most acute sense of echolocation?",
+              "options": [
+                "Dolphin",
+                "Bat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dolphins have more sophisticated echolocation, capable of detecting objects the size of a golf ball from 200 feet away and even seeing inside objects.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_053",
+              "question": "Which animal has the highest recorded critical flicker fusion frequency?",
+              "options": [
+                "Dragonfly",
+                "Eagle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dragonflies have a CFF of 300 Hz, allowing them to process visual information 5 times faster than humans and see the world in slow motion.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_054",
+              "question": "Which animal can withstand the deepest ocean pressures?",
+              "options": [
+                "Snailfish",
+                "Sperm whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mariana snailfish live at depths up to 8,000 meters where pressure is 800 times atmospheric pressure. Sperm whales dive to only about 2,000 meters.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_055",
+              "question": "Which animal has the most sophisticated tool use?",
+              "options": [
+                "New Caledonian crow",
+                "Chimpanzee"
+              ],
+              "correct_answer": 0,
+              "explanation": "New Caledonian crows can craft complex hooked tools and solve multi-step problems, showing tool-making abilities that rival great apes.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_056",
+              "question": "Which animal has the longest recorded lifespan?",
+              "options": [
+                "Ocean quahog clam",
+                "Greenland shark"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ocean quahog clams can live over 500 years, with the oldest recorded at 507 years. Greenland sharks live about 400 years.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_057",
+              "question": "Which animal has the most complex vocal repertoire?",
+              "options": [
+                "Humpback whale",
+                "Lyrebird"
+              ],
+              "correct_answer": 0,
+              "explanation": "Humpback whales compose elaborate songs with themes, phrases, and rhymes that can last 20 minutes and evolve over time across populations.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_058",
+              "question": "Which animal can freeze solid and survive?",
+              "options": [
+                "Wood frog",
+                "Alligator"
+              ],
+              "correct_answer": 0,
+              "explanation": "Wood frogs produce glucose as natural antifreeze, allowing up to 70% of their body to freeze solid. They thaw in spring and resume normal activity.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_059",
+              "question": "Which animal has the highest altitude flight recorded?",
+              "options": [
+                "Rüppell's vulture",
+                "Bar-headed goose"
+              ],
+              "correct_answer": 0,
+              "explanation": "A Rüppell's vulture was recorded at 37,000 feet (11,300 meters) after colliding with a plane. Bar-headed geese fly over the Himalayas at 29,000 feet.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "off_060",
+              "question": "Which animal has the most sophisticated magnetoreception?",
+              "options": [
+                "Sea turtle",
+                "Pigeon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sea turtles can detect magnetic fields with extreme precision, using Earth's magnetic field to navigate thousands of miles back to their birth beaches.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "guess_flag",
       "name": "Guess the Flag",
       "description": "Identify the country from its flag",

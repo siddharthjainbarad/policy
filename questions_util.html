@@ -595,7 +595,7 @@
             </div>
             <div class="form-group">
                 <label>Required Level</label>
-                <input type="number" id="requiredLevel" value="1" min="1" max="100">
+                <input type="number" id="catRequiredLevel" value="1" min="1" max="100">
                 <div class="form-hint">Minimum player level required to access this category</div>
             </div>
         </div>
@@ -1216,7 +1216,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
             cat.color = document.getElementById('catColor').value;
             cat.question_timer_seconds = timer;
             cat.points_per_question = points;
-            cat.required_level = requiredLevel; // Fixed: use underscore
+            cat.requiredLevel = requiredLevel; // Fixed: use underscore
             showStatus('✅ Category updated!', 'success');
         } else {
             mainData.categories.push({
@@ -1227,7 +1227,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
                 color: document.getElementById('catColor').value,
                 question_timer_seconds: timer,
                 points_per_question: points,
-                required_level: requiredLevel, // Fixed: use underscore
+                requiredLevel: requiredLevel, // Fixed: use underscore
                 subcategories: []
             });
             showStatus('✅ Category created!', 'success');
@@ -1444,7 +1444,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
                     <div class="category-name-wrapper">
                         <span class="category-main-name">${cat.name}</span>
                         <div class="category-badges">
-                            <span class="level-badge">Lvl ${cat.required_level || 1}</span>
+                            <span class="level-badge">Lvl ${cat.requiredLevel || 1}</span>
                             <span class="category-stats-badge">${cat.subcategories?.length || 0} subcategories</span>
                         </div>
                     </div>
@@ -1689,7 +1689,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         document.getElementById('catColor').value = category.color || '#667eea';
         document.getElementById('catTimer').value = category.question_timer_seconds || 10;
         document.getElementById('catPoints').value = category.points_per_question || 10;
-        document.getElementById('catRequiredLevel').value = category.required_level || 1; // Fixed: correct field ID
+        document.getElementById('catRequiredLevel').value = category.requiredLevel || 1; // Fixed: correct field ID
 
         document.getElementById('categoryModalTitle').textContent = '✏️ Edit Category';
         editingCategoryId = catId;
