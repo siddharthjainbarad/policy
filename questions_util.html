@@ -4,7 +4,381 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Manager Pro</title>
-    <link rel="stylesheet" href="questions_util.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f7fa; color: #333; }
+        .filename-display { font-size: 12px; color: #6c757d; margin-top: 10px; word-break: break-all; }
+
+        /* Header */
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header h1 { font-size: 24px; }
+        .header-actions { display: flex; gap: 10px; align-items: center; }
+        .unsaved-badge { background: #ffc107; color: #333; padding: 5px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+        .stats-pill { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; font-size: 13px; }
+
+        /* Layout */
+        .container { display: grid; grid-template-columns: 280px 1fr; height: calc(100vh - 60px); }
+
+        /* Sidebar */
+        .sidebar { background: #fff; border-right: 1px solid #e0e0e0; overflow-y: auto; }
+        .sidebar-section { padding: 20px; border-bottom: 1px solid #e0e0e0; }
+        .sidebar-section h3 { font-size: 14px; color: #667eea; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .file-input-wrapper { position: relative; width: 100%; }
+        .btn-load { width: 100%; padding: 12px; background: #667eea; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 14px; }
+        .btn-load:hover { background: #5568d3; }
+        input[type="file"] { display: none; }
+        .category-tree { list-style: none; }
+        .category-item { padding: 8px 12px; margin: 4px 0; border-radius: 4px; cursor: pointer; font-size: 13px; display: flex; justify-content: space-between; align-items: center; position: relative; }
+        .category-item:hover { background: #f5f7fa; }
+        .category-item:hover .category-actions { display: flex; }
+        .category-item.active { background: #667eea; color: #fff; font-weight: 600; }
+        .category-count { background: rgba(0,0,0,0.1); padding: 2px 8px; border-radius: 10px; font-size: 11px; }
+        .category-actions { display: none; gap: 4px; position: absolute; right: 50px; }
+        .category-actions button { padding: 2px 6px; font-size: 11px; background: #667eea; color: #fff; border: none; border-radius: 3px; cursor: pointer; }
+        .category-actions button:hover { background: #5568d3; }
+        .btn-add { width: 100%; padding: 8px; background: transparent; border: 2px dashed #667eea; color: #667eea; border-radius: 4px; cursor: pointer; font-weight: 600; font-size: 13px; margin-top: 10px; }
+        .btn-add:hover { background: #f5f7fa; }
+        .stats-summary { background: #f8f9fa; padding: 15px; border-radius: 6px; font-size: 12px; }
+        .stats-summary div { display: flex; justify-content: space-between; margin: 5px 0; }
+        .stats-summary strong { color: #667eea; }
+
+        /* Main Content */
+        .main { padding: 30px; overflow-y: auto; }
+        .welcome { text-align: center; padding: 100px 20px; color: #6c757d; }
+        .welcome-icon { font-size: 80px; margin-bottom: 20px; }
+
+        /* Action Bar */
+        .action-bar { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; gap: 15px; flex-wrap: wrap; align-items: center; }
+        .action-bar input { flex: 1; min-width: 200px; padding: 10px; border: 1px solid #e0e0e0; border-radius: 4px; }
+        .subcategory-header { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .subcategory-header h2 { color: #667eea; font-size: 20px; margin-bottom: 10px; }
+        .subcategory-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 15px; }
+        .stat-card { background: #f8f9fa; padding: 15px; border-radius: 6px; text-align: center; }
+        .stat-card-value { font-size: 24px; font-weight: bold; color: #667eea; }
+        .stat-card-label { font-size: 12px; color: #6c757d; margin-top: 5px; }
+        .quick-actions { display: flex; gap: 10px; margin-top: 15px; }
+
+        /* Buttons */
+        button { padding: 10px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.2s; }
+        .btn-primary { background: #667eea; color: #fff; }
+        .btn-primary:hover { background: #5568d3; transform: translateY(-1px); }
+        .btn-success { background: #28a745; color: #fff; }
+        .btn-success:hover { background: #218838; }
+        .btn-danger { background: #dc3545; color: #fff; }
+        .btn-danger:hover { background: #c82333; }
+        .btn-warning { background: #ffc107; color: #333; }
+        .btn-warning:hover { background: #e0a800; }
+        .btn-secondary { background: #6c757d; color: #fff; }
+        .btn-secondary:hover { background: #545b62; }
+        .btn-info { background: #17a2b8; color: #fff; }
+        .btn-info:hover { background: #138496; }
+
+        /* Question List */
+        .questions-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .sort-controls { display: flex; gap: 10px; align-items: center; font-size: 13px; color: #6c757d; }
+        .sort-controls select { padding: 5px 10px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 13px; }
+        .questions-grid { display: grid; gap: 12px; }
+        .question-card { background: #fff; padding: 20px; border-radius: 8px; border-left: 4px solid #e0e0e0; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.2s; position: relative; }
+        .question-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); }
+        .question-card.new { border-left-color: #28a745; }
+        .question-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px; }
+        .question-title { font-weight: 600; font-size: 15px; flex: 1; }
+        .question-actions { display: flex; gap: 6px; }
+        .btn-sm { padding: 4px 10px; font-size: 12px; }
+        .question-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
+        .option { padding: 8px 12px; background: #f5f7fa; border-radius: 4px; font-size: 13px; }
+        .option.correct { background: #d4edda; color: #155724; font-weight: 600; border: 2px solid #28a745; }
+        .question-meta { display: flex; gap: 12px; margin-top: 12px; font-size: 12px; color: #6c757d; flex-wrap: wrap; }
+        .question-id { display: flex; align-items: center; gap: 5px; }
+        .copy-id-btn { padding: 2px 6px; font-size: 11px; background: #e0e0e0; color: #333; border: none; border-radius: 3px; cursor: pointer; }
+        .copy-id-btn:hover { background: #d0d0d0; }
+        .badge { padding: 3px 8px; border-radius: 12px; font-weight: 600; color: #fff; font-size: 11px; }
+        .badge-easy { background: #28a745; }
+        .badge-medium { background: #ffc107; color: #333; }
+        .badge-hard { background: #dc3545; }
+        .badge-new { background: #17a2b8; }
+
+        /* Modal */
+        .modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center; }
+        .modal.active { display: flex; }
+        .modal-content { background: #fff; border-radius: 8px; padding: 30px; width: 90%; max-width: 800px; max-height: 85vh; overflow-y: auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #667eea; }
+        .modal-header h2 { color: #667eea; font-size: 20px; }
+        .close { font-size: 28px; cursor: pointer; color: #aaa; line-height: 1; }
+        .close:hover { color: #333; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 13px; color: #495057; }
+        .form-group label .required { color: #dc3545; }
+        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; }
+        .form-group textarea { min-height: 150px; font-family: 'Courier New', monospace; resize: vertical; }
+        .form-group input[type="color"] { height: 40px; }
+        .form-group input[type="number"] { width: auto; min-width: 100px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .form-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; }
+        .form-hint { font-size: 12px; color: #6c757d; margin-top: 5px; }
+
+        /* Enhanced Reorganize Styles */
+        .reorganize-category-item {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: move;
+        }
+        .reorganize-category-item:hover {
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+            border-color: #667eea;
+        }
+        .reorganize-category-item.dragging {
+            opacity: 0.5;
+            transform: rotate(2deg);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        .reorganize-category-item.drag-over {
+            border-color: #22c55e;
+            border-width: 2px;
+            transform: scale(1.02);
+        }
+        .reorganize-category-header {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #f8f9fa, #fff);
+            cursor: move;
+            transition: background 0.2s;
+        }
+        .reorganize-category-header:hover {
+            background: linear-gradient(to right, #e7f3ff, #f8f9fa);
+        }
+        .reorganize-category-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex: 1;
+        }
+        .category-drag-handle {
+            font-size: 18px;
+            color: #9ca3af;
+            cursor: grab;
+            margin-right: 8px;
+            user-select: none;
+        }
+        .category-drag-handle:hover {
+            color: #667eea;
+        }
+        .category-drag-handle:active {
+            cursor: grabbing;
+        }
+        .category-icon {
+            font-size: 24px;
+            min-width: 30px;
+            text-align: center;
+        }
+        .category-name-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .category-main-name {
+            font-weight: 600;
+            font-size: 16px;
+            color: #333;
+        }
+        .category-badges {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+        .level-badge {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .level-badge::before {
+            content: "🔒";
+            font-size: 10px;
+        }
+        .category-stats-badge {
+            background: #e5e7eb;
+            color: #6b7280;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .expand-arrow {
+            font-size: 12px;
+            color: #6b7280;
+            transition: transform 0.3s;
+            margin-right: 10px;
+        }
+        .expand-arrow.expanded {
+            transform: rotate(90deg);
+        }
+        .reorganize-category-actions {
+            display: flex;
+            gap: 8px;
+        }
+        .reorganize-category-actions button {
+            padding: 6px 12px;
+            font-size: 12px;
+            border-radius: 4px;
+            border: 1px solid #d1d5db;
+            background: white;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .reorganize-category-actions button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .reorganize-category-actions .btn-edit {
+            border-color: #667eea;
+            color: #667eea;
+        }
+        .reorganize-category-actions .btn-edit:hover {
+            background: #667eea;
+            color: white;
+        }
+        .reorganize-category-actions .btn-delete {
+            border-color: #ef4444;
+            color: #ef4444;
+        }
+        .reorganize-category-actions .btn-delete:hover {
+            background: #ef4444;
+            color: white;
+        }
+        .reorganize-category-actions .btn-up, .reorganize-category-actions .btn-down {
+            border-color: #10b981;
+            color: #10b981;
+        }
+        .reorganize-category-actions .btn-up:hover, .reorganize-category-actions .btn-down:hover {
+            background: #10b981;
+            color: white;
+        }
+        .reorganize-subcategories {
+            padding: 0 15px 15px 15px;
+            display: none;
+            animation: slideDown 0.3s ease;
+        }
+        .reorganize-subcategories.expanded {
+            display: block;
+        }
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .reorganize-subcategory-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            margin: 5px 0;
+            background: #f8f9fa;
+            border-left: 3px solid #667eea;
+            border-radius: 4px;
+            transition: all 0.2s;
+            cursor: move;
+        }
+        .reorganize-subcategory-item:hover {
+            background: #e7f3ff;
+            transform: translateX(5px);
+        }
+        .reorganize-subcategory-item.dragging {
+            opacity: 0.5;
+            transform: translateX(10px) rotate(1deg);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .reorganize-subcategory-item.drag-over {
+            border-left-color: #22c55e;
+            border-left-width: 5px;
+            transform: scale(1.02);
+        }
+        .reorganize-subcategory-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .subcategory-drag-handle {
+            font-size: 14px;
+            color: #9ca3af;
+            cursor: grab;
+            margin-right: 5px;
+            user-select: none;
+        }
+        .subcategory-drag-handle:hover {
+            color: #667eea;
+        }
+        .subcategory-drag-handle:active {
+            cursor: grabbing;
+        }
+        .subcategory-icon {
+            font-size: 16px;
+        }
+        .subcategory-name {
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .subcategory-count {
+            background: #667eea;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .subcategory-actions {
+            display: flex;
+            gap: 4px;
+        }
+        .subcategory-actions button {
+            padding: 2px 6px;
+            font-size: 10px;
+            border-radius: 3px;
+            border: 1px solid #d1d5db;
+            background: white;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .subcategory-actions .btn-up, .subcategory-actions .btn-down {
+            border-color: #10b981;
+            color: #10b981;
+        }
+        .subcategory-actions .btn-up:hover, .subcategory-actions .btn-down:hover {
+            background: #10b981;
+            color: white;
+        }
+        .drop-zone {
+            min-height: 4px;
+            background: transparent;
+            border-radius: 2px;
+            transition: all 0.2s;
+            margin: 2px 0;
+        }
+        .drop-zone.active {
+            background: #22c55e;
+            min-height: 8px;
+            box-shadow: 0 0 10px rgba(34, 197, 94, 0.5);
+        }
+    </style>
 </head>
 <body>
 <div class="header">
@@ -142,7 +516,7 @@
             <div class="duplicate-mode">
                 <label><input type="radio" name="dupMode" value="skip" checked> 🚫 Skip</label>
                 <label><input type="radio" name="dupMode" value="replace"> 🔄 Replace</label>
-                <label><input type="radio" name="dupMode" value="rename"> ��️ Rename</label>
+                <label><input type="radio" name="dupMode" value="rename"> ✏️ Rename</label>
             </div>
         </div>
 
@@ -221,7 +595,7 @@
             </div>
             <div class="form-group">
                 <label>Required Level</label>
-                <input type="number" id="catRequiredLevel" value="1" min="1" max="100">
+                <input type="number" id="requiredLevel" value="1" min="1" max="100">
                 <div class="form-hint">Minimum player level required to access this category</div>
             </div>
         </div>
@@ -237,7 +611,7 @@
 <div id="addSubcategoryModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
-            <h2>�� Add Subcategory</h2>
+            <h2>📁 Add Subcategory</h2>
             <span class="close" onclick="closeAddSubcategoryModal()">&times;</span>
         </div>
 
@@ -276,19 +650,17 @@
     </div>
 </div>
 
-<!-- Reorganize Modal -->
+<!-- Enhanced Reorganize Modal -->
 <div id="reorganizeModal" class="modal">
-    <div class="modal-content" style="max-width: 800px;">
+    <div class="modal-content" style="max-width: 900px;">
         <div class="modal-header">
             <h2>🔄 Reorganize Categories</h2>
             <span class="close" onclick="closeReorganizeModal()">&times;</span>
         </div>
 
         <div class="reorganize-section">
-            <h3>Category Management</h3>
-            <div class="category-management">
-                <div id="categoryList" class="category-list"></div>
-            </div>
+            <h3 style="margin-bottom: 20px; color: #667eea;">📚 Category Management</h3>
+            <div id="categoryList" class="category-list"></div>
         </div>
 
         <div class="form-actions">
@@ -572,7 +944,7 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
 
-        showStatus('�� File downloaded! Replace your old file.', 'success');
+        showStatus('💾 File downloaded! Replace your old file.', 'success');
     });
 
     // Export subcategory
@@ -739,20 +1111,19 @@
         showStatus(`✅ Imported ${questions.length} questions!`, 'success');
     });
 
-    // AI Prompt - UPDATED TO 20 QUESTIONS
-// AI Prompt - FIXED VERSION
-document.getElementById('aiPromptButton').addEventListener('click', () => {
-    if (!selectedCategory || !selectedSubcategory) {
-        showStatus('❌ Select a subcategory first', 'error');
-        return;
-    }
+    // AI Prompt - 20 questions
+    document.getElementById('aiPromptButton').addEventListener('click', () => {
+        if (!selectedCategory || !selectedSubcategory) {
+            showStatus('❌ Select a subcategory first', 'error');
+            return;
+        }
 
-    const category = mainData.categories.find(c => c.id === selectedCategory);
-    const subcategory = category.subcategories.find(s => s.id === selectedSubcategory);
-    const nextNum = (subcategory.questions?.length || 0) + 1;
-    const prefix = selectedSubcategory.split('_').pop();
+        const category = mainData.categories.find(c => c.id === selectedCategory);
+        const subcategory = category.subcategories.find(s => s.id === selectedSubcategory);
+        const nextNum = (subcategory.questions?.length || 0) + 1;
+        const prefix = selectedSubcategory.split('_').pop();
 
-    const prompt = `Generate 20 high-quality quiz questions for "${category.name} > ${subcategory.name}".
+        const prompt = `Generate 20 high-quality quiz questions for "${category.name} > ${subcategory.name}".
 
 CRITICAL: Return ONLY a valid JSON array. No markdown code blocks, no explanations, no extra text.
 
@@ -779,9 +1150,9 @@ Requirements:
 
 IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or after.`;
 
-    document.getElementById('aiPromptText').value = prompt;
-    document.getElementById('aiPromptModal').classList.add('active');
-});
+        document.getElementById('aiPromptText').value = prompt;
+        document.getElementById('aiPromptModal').classList.add('active');
+    });
 
     function closeAiPromptModal() {
         document.getElementById('aiPromptModal').classList.remove('active');
@@ -808,7 +1179,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         document.getElementById('catColor').value = '#667eea';
         document.getElementById('catTimer').value = '10';
         document.getElementById('catPoints').value = '10';
-        document.getElementById('catRequiredLevel').value = '1';
+        document.getElementById('requiredLevel').value = '1';
     }
 
     function closeCategoryModal() {
@@ -821,7 +1192,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         const desc = document.getElementById('catDesc').value.trim();
         const timer = parseInt(document.getElementById('catTimer').value);
         const points = parseInt(document.getElementById('catPoints').value);
-        const requiredLevel = parseInt(document.getElementById('catRequiredLevel').value);
+        const requiredLevel = parseInt(document.getElementById('requiredLevel').value);
 
         if (!id || !name || !desc) {
             showStatus('❌ ID, Name, and Description are required', 'error');
@@ -835,24 +1206,26 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
 
         if (editingCategoryId) {
             const cat = mainData.categories.find(c => c.id === editingCategoryId);
+            cat.id = id;  // Allow ID change when editing
             cat.name = name;
             cat.description = desc;
             cat.icon = document.getElementById('catIcon').value;
             cat.color = document.getElementById('catColor').value;
             cat.question_timer_seconds = timer;
             cat.points_per_question = points;
-            cat.required_level = requiredLevel;
+            cat.requiredLevel = requiredLevel;
             showStatus('✅ Category updated!', 'success');
         } else {
             mainData.categories.push({
                 id,
+                name,
                 name,
                 description: desc,
                 icon: document.getElementById('catIcon').value,
                 color: document.getElementById('catColor').value,
                 question_timer_seconds: timer,
                 points_per_question: points,
-                required_level: requiredLevel,
+                requiredLevel: requiredLevel,
                 subcategories: []
             });
             showStatus('✅ Category created!', 'success');
@@ -939,7 +1312,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         editSubcategory(selectedCategory, selectedSubcategory);
     });
 
-    // Utility functions - FIXED: Added missing functions
+    // Utility functions
     function escapeHtml(text) {
         const div = document.createElement('div');
         div.textContent = text;
@@ -987,7 +1360,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
     document.getElementById('filterNew').addEventListener('change', renderQuestions);
     document.getElementById('sortBy').addEventListener('change', renderQuestions);
 
-    // Add event listeners for the buttons that weren't working
+    // Add event listeners for buttons
     document.getElementById('addCategoryButton').addEventListener('click', openAddCategoryModal);
 
     document.getElementById('addSubcategoryButton').addEventListener('click', () => {
@@ -1020,133 +1393,268 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         document.getElementById('reorganizeModal').classList.remove('active');
     }
 
+    // Enhanced Reorganize Categories with Drag & Drop
     function populateReorganizeCategories() {
         const list = document.getElementById('categoryList');
         list.innerHTML = '';
 
         if (!mainData || !mainData.categories) {
-            list.innerHTML = '<p>No categories available</p>';
+            list.innerHTML = '<p style="text-align: center; color: #6b7280;">No categories available</p>';
             return;
         }
 
-        mainData.categories.forEach(cat => {
-            const item = document.createElement('div');
-            item.className = 'category-item';
-            item.style.cssText = `
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 15px;
-                border: 1px solid #e5e7eb;
-                border-radius: 8px;
-                margin-bottom: 10px;
-                background: white;
-            `;
-            item.innerHTML = `
-                <div class="category-info">
-                    <span class="category-name" style="font-weight: 600; font-size: 16px;">${cat.name}</span>
-                    <span class="category-count" style="color: #6b7280; margin-left: 10px;">${cat.subcategories?.length || 0} subcategories</span>
+        mainData.categories.forEach((cat, catIndex) => {
+            const categoryDiv = document.createElement('div');
+            categoryDiv.className = 'reorganize-category-item';
+            categoryDiv.draggable = true;
+            categoryDiv.dataset.categoryId = cat.id;
+            categoryDiv.dataset.categoryIndex = catIndex;
+
+            const categoryHeader = document.createElement('div');
+            categoryHeader.className = 'reorganize-category-header';
+            categoryHeader.innerHTML = `
+                <div class="reorganize-category-info">
+                    <span class="category-drag-handle">⋮⋮</span>
+                    <span class="expand-arrow">▶</span>
+                    <span class="category-icon">${cat.icon || '📚'}</span>
+                    <div class="category-name-wrapper">
+                        <span class="category-main-name">${cat.name}</span>
+                        <div class="category-badges">
+                            <span class="level-badge">Lvl ${cat.requiredLevel || 1}</span>
+                            <span class="category-stats-badge">${cat.subcategories?.length || 0} subcategories</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="category-actions">
-                    <button class="btn-secondary" onclick="openEditCategoryModal('${cat.id}')" style="margin-right: 8px; padding: 6px 12px; border: 1px solid #d1d5db; border-radius: 4px; background: white;">✏️ Edit</button>
-                    <button class="btn-danger" onclick="deleteCategory('${cat.id}')" style="padding: 6px 12px; border: none; border-radius: 4px; background: #ef4444; color: white;">🗑️ Delete</button>
+                <div class="reorganize-category-actions">
+                    <button class="btn-up" onclick="moveCategoryUp(${catIndex})" ${catIndex === 0 ? 'disabled' : ''}>↑</button>
+                    <button class="btn-down" onclick="moveCategoryDown(${catIndex})" ${catIndex === mainData.categories.length - 1 ? 'disabled' : ''}>↓</button>
+                    <button class="btn-edit" onclick="openEditCategoryModal('${cat.id}')">✏️ Edit</button>
+                    <button class="btn-delete" onclick="deleteCategory('${cat.id}')">🗑️ Delete</button>
                 </div>
             `;
-            list.appendChild(item);
+
+            const subcategoriesDiv = document.createElement('div');
+            subcategoriesDiv.className = 'reorganize-subcategories';
+
+            if (cat.subcategories && cat.subcategories.length > 0) {
+                cat.subcategories.forEach((sub, subIndex) => {
+                    const subDiv = document.createElement('div');
+                    subDiv.className = 'reorganize-subcategory-item';
+                    subDiv.draggable = true;
+                    subDiv.dataset.categoryId = cat.id;
+                    subDiv.dataset.subcategoryId = sub.id;
+                    subDiv.dataset.subcategoryIndex = subIndex;
+                    subDiv.innerHTML = `
+                        <div class="reorganize-subcategory-info">
+                            <span class="subcategory-drag-handle">⋮⋮</span>
+                            <span class="subcategory-icon">${sub.icon || '📝'}</span>
+                            <span class="subcategory-name">${sub.name}</span>
+                            <span class="subcategory-count">${sub.questions?.length || 0}</span>
+                        </div>
+                        <div class="subcategory-actions">
+                            <button class="btn-up" onclick="moveSubcategoryUp('${cat.id}', ${subIndex})" ${subIndex === 0 ? 'disabled' : ''}>↑</button>
+                            <button class="btn-down" onclick="moveSubcategoryDown('${cat.id}', ${subIndex})" ${subIndex === cat.subcategories.length - 1 ? 'disabled' : ''}>↓</button>
+                        </div>
+                    `;
+
+                    // Add subcategory drag event listeners
+                    subDiv.addEventListener('dragstart', handleSubcategoryDragStart);
+                    subDiv.addEventListener('dragover', handleSubcategoryDragOver);
+                    subDiv.addEventListener('drop', handleSubcategoryDrop);
+                    subDiv.addEventListener('dragend', handleSubcategoryDragEnd);
+
+                    subcategoriesDiv.appendChild(subDiv);
+                });
+            } else {
+                subcategoriesDiv.innerHTML = '<p style="padding: 10px; color: #9ca3af; font-size: 13px;">No subcategories</p>';
+            }
+
+            categoryHeader.onclick = (e) => {
+                if (!e.target.closest('.reorganize-category-actions') && !e.target.closest('.category-drag-handle')) {
+                    const arrow = categoryHeader.querySelector('.expand-arrow');
+                    arrow.classList.toggle('expanded');
+                    subcategoriesDiv.classList.toggle('expanded');
+                }
+            };
+
+            // Add category drag event listeners
+            categoryDiv.addEventListener('dragstart', handleCategoryDragStart);
+            categoryDiv.addEventListener('dragover', handleCategoryDragOver);
+            categoryDiv.addEventListener('drop', handleCategoryDrop);
+            categoryDiv.addEventListener('dragend', handleCategoryDragEnd);
+
+            categoryDiv.appendChild(categoryHeader);
+            categoryDiv.appendChild(subcategoriesDiv);
+            list.appendChild(categoryDiv);
         });
     }
 
-    window.openEditCategoryModal = function(catId) {
-        const category = mainData.categories.find(c => c.id === catId);
+    // Category drag and drop handlers
+    let draggedCategory = null;
+    let draggedSubcategory = null;
 
-        document.getElementById('catId').value = category.id;
-        document.getElementById('catName').value = category.name;
-        document.getElementById('catDesc').value = category.description;
-        document.getElementById('catIcon').value = category.icon || '📚';
-        document.getElementById('catColor').value = category.color || '#667eea';
-        document.getElementById('catTimer').value = category.question_timer_seconds || 10;
-        document.getElementById('catPoints').value = category.points_per_question || 10;
-        document.getElementById('catRequiredLevel').value = category.required_level || 1;
-
-        document.getElementById('categoryModalTitle').textContent = '✏️ Edit Category';
-        editingCategoryId = catId;
-
-        document.getElementById('reorganizeModal').classList.remove('active');
-        document.getElementById('categoryModal').classList.add('active');
-    }
-
-    window.deleteCategory = function(catId) {
-        if (!confirm('Delete this category and all its subcategories?')) return;
-
-        mainData.categories = mainData.categories.filter(c => c.id !== catId);
-
-        if (selectedCategory === catId) {
-            selectedCategory = null;
-            selectedSubcategory = null;
-            document.getElementById('subcategoryHeader').style.display = 'none';
-            document.getElementById('questionsList').innerHTML = '';
-        }
-
-        markAsChanged();
-        populateCategories();
-        updateGlobalStats();
-        populateReorganizeCategories();
-        showStatus('✅ Category deleted!', 'success');
-    }
-
-    function closeAddSubcategoryModal() {
-        document.getElementById('addSubcategoryModal').classList.remove('active');
-    }
-
-    document.getElementById('saveNewSubcategoryButton').addEventListener('click', () => {
-        const parentId = document.getElementById('parentCategorySelect').value;
-        const id = document.getElementById('newSubId').value.trim();
-        const name = document.getElementById('newSubName').value.trim();
-
-        if (!parentId) {
-            showStatus('❌ Select a parent category', 'error');
-            return;
-        }
-
-        if (!id || !name) {
-            showStatus('❌ ID and Name are required', 'error');
-            return;
-        }
-
-        const category = mainData.categories.find(c => c.id === parentId);
-
-        if (!category.subcategories) {
-            category.subcategories = [];
-        }
-
-        if (category.subcategories.some(s => s.id === id)) {
-            showStatus('❌ Subcategory ID already exists in this category', 'error');
-            return;
-        }
-
-        const newSubcategory = {
-            id,
-            name,
-            icon: document.getElementById('newSubIcon').value || '📝',
-            color: document.getElementById('newSubColor').value || '#667eea',
-            questions: []
+    function handleCategoryDragStart(e) {
+        draggedCategory = {
+            element: this,
+            categoryId: this.dataset.categoryId,
+            categoryIndex: parseInt(this.dataset.categoryIndex)
         };
+        this.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+    }
 
-        category.subcategories.push(newSubcategory);
+    function handleCategoryDragOver(e) {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
 
-        markAsChanged();
-        populateCategories();
-        updateGlobalStats();
-        closeAddSubcategoryModal();
+        if (draggedCategory && this !== draggedCategory.element && this.classList.contains('reorganize-category-item')) {
+            this.classList.add('drag-over');
+        }
+    }
 
-        // Clear the form
-        document.getElementById('newSubId').value = '';
-        document.getElementById('newSubName').value = '';
-        document.getElementById('newSubIcon').value = '📝';
-        document.getElementById('newSubColor').value = '#667eea';
+    function handleCategoryDrop(e) {
+        e.preventDefault();
 
-        showStatus('✅ Subcategory added!', 'success');
-    });
+        if (draggedCategory && this !== draggedCategory.element && this.classList.contains('reorganize-category-item')) {
+            const targetIndex = parseInt(this.dataset.categoryIndex);
+            const sourceIndex = draggedCategory.categoryIndex;
+
+            // Move category in the data
+            const [movedCategory] = mainData.categories.splice(sourceIndex, 1);
+            mainData.categories.splice(targetIndex, 0, movedCategory);
+
+            markAsChanged();
+            populateReorganizeCategories();
+            populateCategories();
+            showStatus('✅ Category order updated!', 'success');
+        }
+
+        this.classList.remove('drag-over');
+    }
+
+    function handleCategoryDragEnd(e) {
+        this.classList.remove('dragging');
+        document.querySelectorAll('.reorganize-category-item').forEach(el => {
+            el.classList.remove('drag-over');
+        });
+        draggedCategory = null;
+    }
+
+    // Subcategory drag and drop handlers
+    function handleSubcategoryDragStart(e) {
+        e.stopPropagation();
+        draggedSubcategory = {
+            element: this,
+            categoryId: this.dataset.categoryId,
+            subcategoryId: this.dataset.subcategoryId,
+            subcategoryIndex: parseInt(this.dataset.subcategoryIndex)
+        };
+        this.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+    }
+
+    function handleSubcategoryDragOver(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.dataTransfer.dropEffect = 'move';
+
+        if (draggedSubcategory && this !== draggedSubcategory.element &&
+            this.classList.contains('reorganize-subcategory-item') &&
+            this.dataset.categoryId === draggedSubcategory.categoryId) {
+            this.classList.add('drag-over');
+        }
+    }
+
+    function handleSubcategoryDrop(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (draggedSubcategory && this !== draggedSubcategory.element &&
+            this.classList.contains('reorganize-subcategory-item') &&
+            this.dataset.categoryId === draggedSubcategory.categoryId) {
+
+            const targetIndex = parseInt(this.dataset.subcategoryIndex);
+            const sourceIndex = draggedSubcategory.subcategoryIndex;
+            const categoryId = draggedSubcategory.categoryId;
+
+            // Move subcategory in the data
+            const category = mainData.categories.find(c => c.id === categoryId);
+            const [movedSubcategory] = category.subcategories.splice(sourceIndex, 1);
+            category.subcategories.splice(targetIndex, 0, movedSubcategory);
+
+            markAsChanged();
+            populateReorganizeCategories();
+            populateCategories();
+            showStatus('✅ Subcategory order updated!', 'success');
+        }
+
+        this.classList.remove('drag-over');
+    }
+
+    function handleSubcategoryDragEnd(e) {
+        this.classList.remove('dragging');
+        document.querySelectorAll('.reorganize-subcategory-item').forEach(el => {
+            el.classList.remove('drag-over');
+        });
+        draggedSubcategory = null;
+    }
+
+    // Up/Down button functions for categories
+    window.moveCategoryUp = function(categoryIndex) {
+        if (categoryIndex > 0) {
+            const temp = mainData.categories[categoryIndex];
+            mainData.categories[categoryIndex] = mainData.categories[categoryIndex - 1];
+            mainData.categories[categoryIndex - 1] = temp;
+
+            markAsChanged();
+            populateReorganizeCategories();
+            populateCategories();
+            showStatus('✅ Category moved up!', 'success');
+        }
+    }
+
+    window.moveCategoryDown = function(categoryIndex) {
+        if (categoryIndex < mainData.categories.length - 1) {
+            const temp = mainData.categories[categoryIndex];
+            mainData.categories[categoryIndex] = mainData.categories[categoryIndex + 1];
+            mainData.categories[categoryIndex + 1] = temp;
+
+            markAsChanged();
+            populateReorganizeCategories();
+            populateCategories();
+            showStatus('✅ Category moved down!', 'success');
+        }
+    }
+
+    // Up/Down button functions for subcategories
+    window.moveSubcategoryUp = function(categoryId, subcategoryIndex) {
+        const category = mainData.categories.find(c => c.id === categoryId);
+        if (subcategoryIndex > 0) {
+            const temp = category.subcategories[subcategoryIndex];
+            category.subcategories[subcategoryIndex] = category.subcategories[subcategoryIndex - 1];
+            category.subcategories[subcategoryIndex - 1] = temp;
+
+            markAsChanged();
+            populateReorganizeCategories();
+            populateCategories();
+            showStatus('✅ Subcategory moved up!', 'success');
+        }
+    }
+
+    window.moveSubcategoryDown = function(categoryId, subcategoryIndex) {
+        const category = mainData.categories.find(c => c.id === categoryId);
+        if (subcategoryIndex < category.subcategories.length - 1) {
+            const temp = category.subcategories[subcategoryIndex];
+            category.subcategories[subcategoryIndex] = category.subcategories[subcategoryIndex + 1];
+            category.subcategories[subcategoryIndex + 1] = temp;
+
+            markAsChanged();
+            populateReorganizeCategories();
+            populateCategories();
+            showStatus('✅ Subcategory moved down!', 'success');
+        }
+    }
 </script>
 </body>
 </html>
+
