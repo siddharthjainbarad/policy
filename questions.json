@@ -7654,6 +7654,286 @@
               "explanation": "Thomas Edison invented the phonograph in 1877, the first device to record and reproduce sound.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "communication_009",
+              "question": "Who is credited with inventing the first practical telephone?",
+              "options": [
+                "Thomas Edison",
+                "Nikola Tesla",
+                "Alexander Graham Bell",
+                "Guglielmo Marconi"
+              ],
+              "correct_answer": 2,
+              "explanation": "Alexander Graham Bell is widely credited with patenting the first practical telephone in 1876. He made the first successful phone call on March 10, 1876, to his assistant, Thomas Watson.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_010",
+              "question": "What invention by Johannes Gutenberg in the 15th century revolutionized the spread of information?",
+              "options": [
+                "The telegraph",
+                "The printing press",
+                "The papyrus scroll",
+                "The typewriter"
+              ],
+              "correct_answer": 1,
+              "explanation": "Johannes Gutenberg's invention of the printing press with movable type around 1440 dramatically increased the speed at which books could be produced, making knowledge more accessible and fueling the Renaissance.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_011",
+              "question": "Guglielmo Marconi is a pioneer known for his work in which field?",
+              "options": [
+                "Television",
+                "Computers",
+                "Radio",
+                "Photography"
+              ],
+              "correct_answer": 2,
+              "explanation": "Guglielmo Marconi was an Italian inventor and electrical engineer known for his pioneering work on long-distance radio transmission. He is often credited as the inventor of radio.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_012",
+              "question": "What was the first message sent over the telegraph by Samuel Morse?",
+              "options": [
+                "'Hello, world'",
+                "'Mr. Watson, come here'",
+                "'What hath God wrought'",
+                "'One small step for man'"
+              ],
+              "correct_answer": 2,
+              "explanation": "On May 24, 1844, Samuel Morse sent the first public telegraph message from Washington, D.C., to Baltimore, Maryland. The message was 'What hath God wrought'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_013",
+              "question": "The World Wide Web was invented by which computer scientist at CERN?",
+              "options": [
+                "Bill Gates",
+                "Steve Jobs",
+                "Tim Berners-Lee",
+                "Vint Cerf"
+              ],
+              "correct_answer": 2,
+              "explanation": "Tim Berners-Lee, a British computer scientist, invented the World Wide Web in 1989 while working at CERN. He developed the first web browser, web server, and HTML.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_014",
+              "question": "What was ARPANET?",
+              "options": [
+                "The first commercial internet service provider",
+                "An early packet-switching network and predecessor to the Internet",
+                "A type of analog computer",
+                "The first satellite communication system"
+              ],
+              "correct_answer": 1,
+              "explanation": "ARPANET (Advanced Research Projects Agency Network) was an early packet-switching network funded by the U.S. Department of Defense and the first to implement the TCP/IP protocol suite, forming the foundation of the modern Internet.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_015",
+              "question": "The first SMS (text message) was sent in which year?",
+              "options": [
+                "1985",
+                "1992",
+                "1998",
+                "2001"
+              ],
+              "correct_answer": 1,
+              "explanation": "The first SMS text message, 'Merry Christmas', was sent by engineer Neil Papworth from a computer to a mobile phone on the Vodafone network in the UK on December 3, 1992.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_016",
+              "question": "Which company released the first commercially successful portable cell phone, the DynaTAC 8000X?",
+              "options": [
+                "Nokia",
+                "Motorola",
+                "Apple",
+                "Samsung"
+              ],
+              "correct_answer": 1,
+              "explanation": "Motorola launched the DynaTAC 8000X in 1983. Nicknamed 'the brick,' it was the first handheld cellular phone to be commercially available to the public.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "communication_017",
+              "question": "What is ENIAC, developed in 1946, considered to be?",
+              "options": [
+                "The first personal computer",
+                "The first laptop",
+                "The first general-purpose electronic digital computer",
+                "The first search engine"
+              ],
+              "correct_answer": 2,
+              "explanation": "ENIAC (Electronic Numerical Integrator and Computer) was the first programmable, electronic, general-purpose digital computer, completed in 1945 at the University of Pennsylvania.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_018",
+              "question": "The invention of the transistor at Bell Labs in 1947 was significant because it replaced what bulky and inefficient technology?",
+              "options": [
+                "Electromechanical relays",
+                "Vacuum tubes",
+                "Slide rules",
+                "Punch cards"
+              ],
+              "correct_answer": 1,
+              "explanation": "The transistor, invented by John Bardeen, Walter Brattain, and William Shockley, replaced large, power-hungry, and unreliable vacuum tubes, enabling the development of smaller, cheaper, and more reliable electronics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_019",
+              "question": "Who is considered the 'father of information theory' for his 1948 paper 'A Mathematical Theory of Communication'?",
+              "options": [
+                "Alan Turing",
+                "John von Neumann",
+                "Claude Shannon",
+                "Norbert Wiener"
+              ],
+              "correct_answer": 2,
+              "explanation": "Claude Shannon's landmark paper laid the groundwork for information theory, which provided a mathematical basis for data compression and transmission, fundamentally shaping the digital age.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_020",
+              "question": "What was the first social networking site, launched in 1997, that allowed users to create profiles and list friends?",
+              "options": [
+                "Friendster",
+                "MySpace",
+                "SixDegrees.com",
+                "Classmates.com"
+              ],
+              "correct_answer": 2,
+              "explanation": "SixDegrees.com, launched in 1997, is considered the first true social networking site as it was the first to combine user profiles with the ability to create lists of friends and browse those friends' lists.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_021",
+              "question": "The first consumer email was sent on which network in 1971?",
+              "options": [
+                "CompuServe",
+                "AOL",
+                "The Internet",
+                "ARPANET"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ray Tomlinson sent the first email between two computers on the ARPANET network in 1971. He is also credited with choosing the '@' symbol to separate the user name from the host name.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_022",
+              "question": "Which invention allowed for the practical transmission of signals over long distances using light pulses?",
+              "options": [
+                "The laser",
+                "The optical fiber",
+                "The photophone",
+                "The semaphore"
+              ],
+              "correct_answer": 1,
+              "explanation": "The development of low-loss optical fiber in the 1970s by Corning Glass Works was a critical breakthrough that made long-distance fiber-optic communication feasible, forming the backbone of the modern internet.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_023",
+              "question": "What was the purpose of the 'Jacquard Loom,' an early 19th-century invention?",
+              "options": [
+                "To transmit Morse code",
+                "To automate the weaving of complex patterns",
+                "To perform mathematical calculations",
+                "To record sound"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Jacquard Loom used a series of punched cards to control the weaving of intricate patterns in fabric. It is considered a significant step in the history of computing because it used a programmable, binary system.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_024",
+              "question": "The development of GPS (Global Positioning System) was initially funded and developed by which organization?",
+              "options": [
+                "NASA",
+                "The U.S. Department of Defense",
+                "The European Space Agency",
+                "Google"
+              ],
+              "correct_answer": 1,
+              "explanation": "The GPS project was launched by the U.S. Department of Defense in 1973 for military use. The first prototype satellite was launched in 1978, and the system became fully operational in 1995 before being opened for civilian use.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "communication_025",
+              "question": "What is the Nyquist-Shannon sampling theorem fundamental to?",
+              "options": [
+                "Data encryption",
+                "Network routing protocols",
+                "Converting analog signals to digital form",
+                "Error correction codes"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Nyquist-Shannon sampling theorem provides the basis for digital audio, image, and video processing by defining the minimum rate at which an analog signal must be sampled to be perfectly reconstructed in digital form without losing information.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "communication_026",
+              "question": "What breakthrough by Hedy Lamarr and George Antheil during WWII is a foundational concept for modern spread-spectrum communication, including Wi-Fi and Bluetooth?",
+              "options": [
+                "Radar",
+                "Sonar",
+                "Frequency-hopping spread spectrum",
+                "Packet switching"
+              ],
+              "correct_answer": 2,
+              "explanation": "Actress Hedy Lamarr and composer George Antheil invented a 'Secret Communication System' that used a player-piano mechanism to rapidly change radio frequencies, making it difficult for enemies to jam torpedo guidance signals.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "communication_027",
+              "question": "The concept of a 'memex,' a hypothetical proto-hypertext system described in a 1945 essay, was conceived by which American engineer?",
+              "options": [
+                "Vannevar Bush",
+                "Douglas Engelbart",
+                "Ted Nelson",
+                "J.C.R. Licklider"
+              ],
+              "correct_answer": 0,
+              "explanation": "In his essay 'As We May Think,' Vannevar Bush described the 'memex,' a device in which an individual stores all their books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility. It heavily influenced later pioneers of hypertext and the internet.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "communication_028",
+              "question": "Which of these was NOT demonstrated in Douglas Engelbart's 1968 'Mother of All Demos'?",
+              "options": [
+                "The computer mouse",
+                "Hypertext and collaborative real-time editing",
+                "The graphical user interface (GUI) with windows",
+                "The TCP/IP networking protocol"
+              ],
+              "correct_answer": 3,
+              "explanation": "The 'Mother of All Demos' was a groundbreaking presentation of the NLS (oN-Line System) that showcased the mouse, hypertext, video conferencing, and windowed interfaces. However, TCP/IP was developed later and was not part of this demonstration.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -9598,6 +9878,286 @@
               "explanation": "The Indian rupee symbol was adopted on July 15, 2010.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "economy_011",
+              "question": "Which sector is the largest contributor to India's GDP?",
+              "options": [
+                "Agriculture Sector",
+                "Manufacturing Sector",
+                "Services Sector",
+                "Industrial Sector"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Services Sector, including IT, banking, and healthcare, is the largest contributor to India's GDP, accounting for over 50% of the economy. It has been the fastest-growing sector for several decades.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_012",
+              "question": "Which institution is responsible for formulating and implementing monetary policy in India?",
+              "options": [
+                "Ministry of Finance",
+                "NITI Aayog",
+                "Reserve Bank of India (RBI)",
+                "Securities and Exchange Board of India (SEBI)"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Reserve Bank of India (RBI) is India's central bank and is responsible for managing the country's currency and credit systems, as well as formulating its monetary policy to control inflation and stabilize the currency.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_013",
+              "question": "What does 'GST' stand for in the context of the Indian economy?",
+              "options": [
+                "General Sales Tax",
+                "Goods and Services Tax",
+                "Government Service Tax",
+                "Global Standard Tax"
+              ],
+              "correct_answer": 1,
+              "explanation": "GST stands for Goods and Services Tax. It is a comprehensive, multi-stage, destination-based tax that was implemented in 2017 to replace multiple indirect taxes levied by the central and state governments.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_014",
+              "question": "The 'Green Revolution' in India was primarily associated with the increased production of which crop?",
+              "options": [
+                "Cotton",
+                "Rice and Wheat",
+                "Pulses",
+                "Sugarcane"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Green Revolution, which began in the 1960s, refers to a period of significant increase in the production of food grains, particularly rice and wheat, through the use of high-yield variety seeds, fertilizers, and irrigation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_015",
+              "question": "Which of these is the main stock market index for the National Stock Exchange (NSE) of India?",
+              "options": [
+                "Sensex",
+                "NIFTY 50",
+                "BSE 200",
+                "Dow Jones"
+              ],
+              "correct_answer": 1,
+              "explanation": "The NIFTY 50 is the flagship index of the National Stock Exchange (NSE), representing the weighted average of 50 of the largest Indian companies. The Sensex is the main index for the Bombay Stock Exchange (BSE).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_016",
+              "question": "What is the primary objective of the 'Make in India' initiative?",
+              "options": [
+                "To boost agricultural exports",
+                "To encourage foreign companies to manufacture their products in India",
+                "To promote the services sector exclusively",
+                "To increase import duties"
+              ],
+              "correct_answer": 1,
+              "explanation": "Launched in 2014, the 'Make in India' initiative aims to transform India into a global design and manufacturing hub by encouraging both multinational and domestic companies to manufacture their products within the country.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_017",
+              "question": "Which sector employs the largest number of people in India?",
+              "options": [
+                "Services Sector",
+                "Manufacturing Sector",
+                "Construction Sector",
+                "Agriculture Sector"
+              ],
+              "correct_answer": 3,
+              "explanation": "Despite its declining share in GDP, the Agriculture sector remains the largest employer in India, providing livelihood to over 50% of the country's workforce, especially in rural areas.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_018",
+              "question": "What does UPI, a major digital payment system in India, stand for?",
+              "options": [
+                "Unified Payment Interface",
+                "Universal Payment ID",
+                "Unique Payment Identifier",
+                "Uniform Payment Integration"
+              ],
+              "correct_answer": 0,
+              "explanation": "UPI stands for Unified Payment Interface. It is an instant real-time payment system developed by the National Payments Corporation of India (NPCI) that facilitates inter-bank transactions.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "economy_019",
+              "question": "The economic reforms of 1991 in India are often referred to as the LPG reforms. What does 'L' stand for?",
+              "options": [
+                "Land reforms",
+                "Labour reforms",
+                "Liberalization",
+                "Licensing"
+              ],
+              "correct_answer": 2,
+              "explanation": "The 1991 reforms are known as LPG: Liberalization, Privatization, and Globalization. Liberalization involved reducing government controls and regulations on the economy, opening it up to private sector participation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_020",
+              "question": "What is a 'Navratna' company in the context of India's Public Sector Undertakings (PSUs)?",
+              "options": [
+                "A PSU that has been privatized",
+                "A PSU in the top nine of profitability",
+                "A select group of PSUs with enhanced financial and operational autonomy",
+                "A PSU operating in the jewelry and gems sector"
+              ],
+              "correct_answer": 2,
+              "explanation": "Navratna is a status given by the Government of India to a select group of high-performing Public Sector Undertakings, granting them greater financial and operational autonomy to compete globally.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_021",
+              "question": "Which committee is associated with the estimation of poverty in India?",
+              "options": [
+                "Narasimham Committee",
+                "Chelliah Committee",
+                "Tendulkar Committee",
+                "Malhotra Committee"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Suresh Tendulkar Committee was constituted in 2005 to review the methodology for poverty estimation. Its recommendations, based on consumption expenditure, became the basis for official poverty lines for several years.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_022",
+              "question": "What does 'Fiscal Deficit' mean?",
+              "options": [
+                "The difference between total revenue and total expenditure",
+                "The total borrowing of the government",
+                "The difference between government's total expenditure and its total receipts excluding borrowings",
+                "The deficit in the country's balance of trade"
+              ],
+              "correct_answer": 2,
+              "explanation": "Fiscal deficit is the shortfall in a government's income compared with its spending. It is the difference between the government's total expenditure and its total receipts (excluding borrowings), indicating the total amount the government needs to borrow.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_023",
+              "question": "What is the primary function of SEBI (Securities and Exchange Board of India)?",
+              "options": [
+                "To regulate the banking sector",
+                "To regulate the insurance sector",
+                "To regulate the securities and commodity market",
+                "To manage foreign exchange reserves"
+              ],
+              "correct_answer": 2,
+              "explanation": "SEBI is the regulatory body for the securities and commodity market in India. Its primary functions are to protect the interests of investors in securities and to promote and regulate the securities market.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_024",
+              "question": "The 'White Revolution' in India is associated with an increase in the production of what?",
+              "options": [
+                "Cotton",
+                "Milk",
+                "Salt",
+                "Paper"
+              ],
+              "correct_answer": 1,
+              "explanation": "The 'White Revolution', also known as Operation Flood, was a rural development program started in 1970. It created a national milk grid, making India one of the largest producers of milk and milk products.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_025",
+              "question": "What is NITI Aayog's role in the Indian economy?",
+              "options": [
+                "It is the central bank of India",
+                "It is the government's premier policy 'Think Tank'",
+                "It allocates funds to state governments",
+                "It is the primary tax collection agency"
+              ],
+              "correct_answer": 1,
+              "explanation": "NITI Aayog (National Institution for Transforming India) replaced the Planning Commission in 2015. It serves as the apex public policy think tank of the Government of India, providing directional and policy inputs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_026",
+              "question": "Which of these is a direct tax in India?",
+              "options": [
+                "Goods and Services Tax (GST)",
+                "Customs Duty",
+                "Excise Duty",
+                "Income Tax"
+              ],
+              "correct_answer": 3,
+              "explanation": "A direct tax is paid directly by an individual or organization to the entity that levied it. Income Tax is a direct tax, whereas GST, Customs Duty, and Excise Duty are indirect taxes, as the burden can be shifted to the consumer.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "economy_027",
+              "question": "What is the base year for calculating India's Gross Domestic Product (GDP) at constant prices?",
+              "options": [
+                "2004-05",
+                "2010-11",
+                "2011-12",
+                "2014-15"
+              ],
+              "correct_answer": 2,
+              "explanation": "The base year for calculating India's GDP at constant prices is 2011-12. This base year is used to measure real economic growth by removing the effects of inflation.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "economy_028",
+              "question": "What does the term 'Disinvestment' refer to in the Indian economic context?",
+              "options": [
+                "Closing down loss-making public sector units",
+                "The government selling its equity stake in public sector undertakings",
+                "Attracting foreign direct investment",
+                "Reducing the fiscal deficit"
+              ],
+              "correct_answer": 1,
+              "explanation": "Disinvestment refers to the government's policy of liquidating or selling its equity stake in Public Sector Undertakings (PSUs) to the private sector or the public. The aim is often to raise funds and improve efficiency.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "economy_029",
+              "question": "Under the FRBM Act, what does 'FRBM' stand for?",
+              "options": [
+                "Financial Responsibility and Budget Management",
+                "Fiscal Responsibility and Budget Management",
+                "Financial Reporting and Budgetary Measures",
+                "Fiscal Reporting and Budgetary Mandates"
+              ],
+              "correct_answer": 1,
+              "explanation": "The FRBM Act stands for Fiscal Responsibility and Budget Management Act, 2003. It's an act of the Parliament of India to institutionalize financial discipline, reduce India's fiscal deficit, and improve macroeconomic management.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "economy_030",
+              "question": "What is the 'Repo Rate' in the context of Indian monetary policy?",
+              "options": [
+                "The rate at which commercial banks lend to the RBI",
+                "The rate at which the RBI lends money to commercial banks",
+                "The interest rate on inter-bank lending",
+                "The rate at which banks lend to their most creditworthy customers"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Repo Rate is the rate at which the Reserve Bank of India (RBI) lends money to commercial banks against government securities. It is a key tool used by the RBI to control inflation and liquidity in the economy.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -9893,6 +10453,286 @@
               "correct_answer": 1,
               "explanation": "BrahMos is a joint venture between India's DRDO and Russia's NPO Mashinostroyeniya.",
               "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_011",
+              "question": "Which organization is primarily responsible for India's space program?",
+              "options": [
+                "DRDO",
+                "BARC",
+                "ISRO",
+                "CSIR"
+              ],
+              "correct_answer": 2,
+              "explanation": "ISRO, the Indian Space Research Organisation, is the national space agency of India. It operates a wide range of space missions, including satellite launches, space exploration, and related technologies.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_012",
+              "question": "Who is known as the 'Father of the Indian Nuclear Program'?",
+              "options": [
+                "C.V. Raman",
+                "A.P.J. Abdul Kalam",
+                "Homi J. Bhabha",
+                "Vikram Sarabhai"
+              ],
+              "correct_answer": 2,
+              "explanation": "Homi J. Bhabha was a nuclear physicist who founded the Tata Institute of Fundamental Research (TIFR) and the Atomic Energy Establishment, Trombay (which was later renamed the Bhabha Atomic Research Centre in his honor).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_013",
+              "question": "India's first satellite, launched in 1975, was named after which ancient Indian mathematician?",
+              "options": [
+                "Brahmagupta",
+                "Aryabhata",
+                "Bhaskara II",
+                "Varahamihira"
+              ],
+              "correct_answer": 1,
+              "explanation": "India's first satellite, Aryabhata, was launched on April 19, 1975. It was named after the famous 5th-century Indian astronomer and mathematician who made significant contributions to mathematics and astronomy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_014",
+              "question": "C.V. Raman won the Nobel Prize in Physics for his discovery related to what phenomenon?",
+              "options": [
+                "Nuclear fission",
+                "Quantum mechanics",
+                "The scattering of light",
+                "Black holes"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sir C.V. Raman won the Nobel Prize in Physics in 1930 for his discovery of the 'Raman Effect,' which describes the inelastic scattering of a photon by molecules which are excited to higher vibrational or rotational energy levels.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_015",
+              "question": "What is 'Mangalyaan', launched by ISRO in 2013?",
+              "options": [
+                "India's first lunar probe",
+                "India's Mars Orbiter Mission",
+                "A GPS satellite",
+                "A weather forecasting satellite"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mangalyaan, officially the Mars Orbiter Mission (MOM), was India's first interplanetary mission, making ISRO the fourth space agency to reach Mars orbit.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_016",
+              "question": "A.P.J. Abdul Kalam, former President of India, is also known by what popular nickname related to his work?",
+              "options": [
+                "The Rocket Man of India",
+                "The Missile Man of India",
+                "The Satellite Man of India",
+                "The Nuclear Man of India"
+              ],
+              "correct_answer": 1,
+              "explanation": "A.P.J. Abdul Kalam was a renowned aerospace scientist who played a pivotal role in the development of India's ballistic missile and launch vehicle technology, earning him the nickname 'Missile Man of India'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_017",
+              "question": "What is the name of India's first indigenous aircraft carrier?",
+              "options": [
+                "INS Viraat",
+                "INS Vikramaditya",
+                "INS Vikrant",
+                "INS Arihant"
+              ],
+              "correct_answer": 2,
+              "explanation": "INS Vikrant is India's first indigenously designed and built aircraft carrier, a significant milestone for the country's naval and technological capabilities. It was commissioned in 2022.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_018",
+              "question": "Which Indian scientist is credited with the invention of the Crescograph, a device for measuring plant growth?",
+              "options": [
+                "Satyendra Nath Bose",
+                "Jagadish Chandra Bose",
+                "Prafulla Chandra Ray",
+                "Meghnad Saha"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sir Jagadish Chandra Bose, a polymath, physicist, biologist, and botanist, invented the Crescograph to measure the growth in plants and demonstrated that plants have feelings and are sensitive to external stimuli.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "science_019",
+              "question": "The 'Chandrayaan-1' mission is famous for discovering what on the Moon?",
+              "options": [
+                "Helium-3 deposits",
+                "Evidence of water molecules",
+                "Volcanic activity",
+                "A magnetic field"
+              ],
+              "correct_answer": 1,
+              "explanation": "India's first lunar probe, Chandrayaan-1, launched in 2008, carried instruments that provided conclusive evidence for the presence of water molecules on the Moon's surface.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_020",
+              "question": "What is the primary objective of India's DRDO (Defence Research and Development Organisation)?",
+              "options": [
+                "Space exploration",
+                "Development of military technology and systems",
+                "Nuclear power generation",
+                "Agricultural research"
+              ],
+              "correct_answer": 1,
+              "explanation": "DRDO is the R&D wing of the Ministry of Defence, Govt. of India, with a vision to empower India with cutting-edge defence technologies and a mission to achieve self-reliance in critical defence technologies and systems.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_021",
+              "question": "Which Indian-American biochemist won the Nobel Prize in 1968 for his work on the interpretation of the genetic code?",
+              "options": [
+                "Subrahmanyan Chandrasekhar",
+                "Venki Ramakrishnan",
+                "Har Gobind Khorana",
+                "Amartya Sen"
+              ],
+              "correct_answer": 2,
+              "explanation": "Har Gobind Khorana was awarded the Nobel Prize in Physiology or Medicine in 1968 for demonstrating how nucleotides in nucleic acids control protein synthesis, a cornerstone of modern genetics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_022",
+              "question": "What is PARAM, developed by C-DAC?",
+              "options": [
+                "An Indian programming language",
+                "India's first series of supercomputers",
+                "A missile defense system",
+                "A biometric identification system"
+              ],
+              "correct_answer": 1,
+              "explanation": "PARAM is a series of supercomputers designed and assembled by the Centre for Development of Advanced Computing (C-DAC) in Pune. PARAM 8000, launched in 1991, is considered India's first supercomputer.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_023",
+              "question": "The 'Chandrasekhar Limit,' a fundamental concept in astrophysics, relates to what?",
+              "options": [
+                "The speed of light",
+                "The maximum mass of a stable white dwarf star",
+                "The age of the universe",
+                "The size of a black hole's event horizon"
+              ],
+              "correct_answer": 1,
+              "explanation": "Discovered by Subrahmanyan Chandrasekhar, the Chandrasekhar Limit is the maximum mass a white dwarf star can have before it collapses under its own gravity. This work won him the Nobel Prize in Physics in 1983.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_024",
+              "question": "India's 'Gaganyaan' mission aims to achieve what major milestone?",
+              "options": [
+                "A mission to Venus",
+                "A permanent space station",
+                "Sending Indian astronauts into space",
+                "Landing a rover on Mars"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Gaganyaan project is an ongoing mission by ISRO to send a crew of up to three Indian astronauts into a Low Earth Orbit of 400 km for a mission of up to seven days, marking India's first human spaceflight program.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_025",
+              "question": "What is the Tejas, developed by HAL and ADA?",
+              "options": [
+                "A main battle tank",
+                "A submarine",
+                "A multirole light combat aircraft",
+                "An unmanned aerial vehicle"
+              ],
+              "correct_answer": 2,
+              "explanation": "The HAL Tejas is an Indian single-engine, multirole light combat aircraft designed by the Aeronautical Development Agency (ADA) in collaboration with Hindustan Aeronautics Limited (HAL) for the Indian Air Force and Navy.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_026",
+              "question": "Satyendra Nath Bose is a famous Indian physicist known for his collaboration with Albert Einstein on a theory regarding which particles?",
+              "options": [
+                "Fermions",
+                "Leptons",
+                "Quarks",
+                "Bosons"
+              ],
+              "correct_answer": 3,
+              "explanation": "Satyendra Nath Bose's work on quantum mechanics led to the formulation of Bose-Einstein statistics and the theory of the Bose-Einstein condensate. Particles that obey these statistics are named 'bosons' in his honor.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "science_027",
+              "question": "What is the primary purpose of the India-based Neutrino Observatory (INO)?",
+              "options": [
+                "To study cosmic rays",
+                "To study atmospheric neutrinos",
+                "To search for dark matter",
+                "To generate nuclear energy"
+              ],
+              "correct_answer": 1,
+              "explanation": "The INO is a major particle physics research project being built to primarily study atmospheric neutrinos and their properties. It is one of the biggest experimental particle physics projects undertaken in India.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "science_028",
+              "question": "The 'Bhatnagar-Mathur magnetic interference balance' was a significant invention in which field?",
+              "options": [
+                "Geophysics",
+                "Quantum computing",
+                "Medical imaging",
+                "Measuring magnetic properties of substances"
+              ],
+              "correct_answer": 3,
+              "explanation": "Invented by Shanti Swarup Bhatnagar and K.N. Mathur, this sensitive instrument was used for measuring the magnetic properties of substances and was a major contribution to the field of magnetochemistry.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "science_029",
+              "question": "What is 'Wootz steel', an ancient Indian invention?",
+              "options": [
+                "A type of stainless steel",
+                "A high-carbon crucible steel",
+                "An early form of cast iron",
+                "A flexible metal alloy"
+              ],
+              "correct_answer": 1,
+              "explanation": "Wootz steel was a high-carbon crucible steel made in Southern India for centuries. It was renowned for its sharpness and toughness and was used to make the famous Damascus swords.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "science_030",
+              "question": "Which ISRO launch vehicle is known as the 'Baahubali' for its heavy-lift capabilities, including launching the Chandrayaan-2 mission?",
+              "options": [
+                "PSLV-C",
+                "GSLV Mk II",
+                "GSLV Mk III (LVM3)",
+                "SSLV"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Geosynchronous Satellite Launch Vehicle Mark III (GSLV Mk III), now officially named LVM3, is India's most powerful rocket. Its heavy-lift capability has earned it the nickname 'Baahubali'.",
+              "difficulty": "hard",
               "points": 10
             }
           ]
@@ -11694,6 +12534,1406 @@
               ],
               "correct_answer": 0,
               "explanation": "Qurratulain Hyder wrote 'Aag Ka Darya', considered a masterpiece of Urdu literature.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_006",
+              "question": "The Nobel Prize-winning work 'Gitanjali' was originally written in which Indian language by Rabindranath Tagore?",
+              "options": [
+                "Bengali",
+                "Hindi",
+                "Sanskrit",
+                "Marathi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rabindranath Tagore, a polymath from Bengal, originally wrote 'Gitanjali', a collection of poems, in Bengali. He later translated it into English, which led to his Nobel Prize in Literature in 1913.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_007",
+              "question": "Munshi Premchand, one of the most celebrated writers of the early 20th century, is considered a pioneer of modern literature in which language?",
+              "options": [
+                "Gujarati",
+                "Punjabi",
+                "Hindi",
+                "Odia"
+              ],
+              "correct_answer": 2,
+              "explanation": "Munshi Premchand is a foremost figure in modern Hindi and Urdu literature. His novels and short stories, like 'Godan' and 'Kafan', realistically depicted the social issues of his time.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_008",
+              "question": "The revolutionary poet Subramania Bharati, known for his fiery patriotic and reformist songs, was a towering figure in the literature of which language?",
+              "options": [
+                "Malayalam",
+                "Tamil",
+                "Kannada",
+                "Telugu"
+              ],
+              "correct_answer": 1,
+              "explanation": "Subramania Bharati was a pioneer of modern Tamil literature. His works ignited a sense of nationalism, social justice, and women's liberation in Tamil Nadu during the Indian independence movement.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_009",
+              "question": "Vaikom Muhammad Basheer, renowned for his down-to-earth and humorous style, is a celebrated author in which South Indian language?",
+              "options": [
+                "Malayalam",
+                "Tamil",
+                "Telugu",
+                "Kannada"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vaikom Muhammad Basheer, fondly called the 'Beypore Sultan', was a master storyteller in Malayalam. His works like 'Balyakalasakhi' and 'Pathummayude Aadu' are cherished for their simplicity and profound humanism.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_010",
+              "question": "Kuvempu, who was honored with the Jnanpith Award and the title 'Rashtrakavi' (National Poet), wrote in which language?",
+              "options": [
+                "Marathi",
+                "Odia",
+                "Kannada",
+                "Bengali"
+              ],
+              "correct_answer": 2,
+              "explanation": "K.V. Puttappa, popularly known by his pen name Kuvempu, was a novelist, poet, and playwright in the Kannada language. His epic 'Sri Ramayana Darshanam' is a modern rendition of the Ramayana.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_011",
+              "question": "Which novel by Munshi Premchand is considered his magnum opus and depicts the tragedy of a peasant farmer named Hori Mahato?",
+              "options": [
+                "Nirmala",
+                "Gaban",
+                "Sevasadan",
+                "Godan"
+              ],
+              "correct_answer": 3,
+              "explanation": "'Godan' (The Gift of a Cow), published in 1936, is Munshi Premchand's most acclaimed Hindi novel. It realistically portrays the socio-economic deprivation of the Indian peasantry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_012",
+              "question": "The Malayalam novel 'Chemmeen', which tells a tragic love story set in a fishing community, was written by which author?",
+              "options": [
+                "M.T. Vasudevan Nair",
+                "Thakazhi Sivasankara Pillai",
+                "O.V. Vijayan",
+                "Vaikom Muhammad Basheer"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Chemmeen' (The Shrimp) was written by Thakazhi Sivasankara Pillai in 1956. It's a classic of Malayalam literature, exploring themes of love, tradition, and superstition among the fishermen of Kerala.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_013",
+              "question": "U.R. Ananthamurthy's landmark modernist novel 'Samskara' was originally written in which language?",
+              "options": [
+                "Kannada",
+                "Telugu",
+                "Tamil",
+                "Malayalam"
+              ],
+              "correct_answer": 0,
+              "explanation": "'Samskara: A Rite for a Dead Man' is a critically acclaimed novel by U.R. Ananthamurthy, originally published in Kannada in 1965. It critiques the rigidities and hypocrisy of the Brahminical system.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_014",
+              "question": "'Anandamath', a Bengali novel by Bankim Chandra Chatterjee, is the source of which famous national song of India?",
+              "options": [
+                "Jana Gana Mana",
+                "Vande Mataram",
+                "Sare Jahan Se Accha",
+                "Ae Mere Watan Ke Logo"
+              ],
+              "correct_answer": 1,
+              "explanation": "The song 'Vande Mataram' is a hymn to the motherland taken from Bankim Chandra Chatterjee's 1882 Bengali novel 'Anandamath'. It became a rallying cry for the Indian independence movement.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_015",
+              "question": "Amrita Pritam, a prominent 20th-century poet and novelist, is primarily associated with which language's literature?",
+              "options": [
+                "Hindi",
+                "Urdu",
+                "Punjabi",
+                "Gujarati"
+              ],
+              "correct_answer": 2,
+              "explanation": "Amrita Pritam was the first prominent female Punjabi writer, novelist, and poet. Her poignant poem on the Partition, 'Ajj Aakhaan Waris Shah Nu', is an elegy that resonates to this day.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_016",
+              "question": "The great classical poet and playwright Kalidasa, author of 'Abhijnanasakuntalam', composed his works in which ancient language?",
+              "options": [
+                "Pali",
+                "Prakrit",
+                "Sanskrit",
+                "Brahmi"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kalidasa is regarded as the greatest poet and dramatist in the Sanskrit language. His works like 'Meghaduta', 'Raghuvamsa', and 'Abhijnanasakuntalam' are masterpieces of classical Indian literature.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_017",
+              "question": "Mirza Ghalib is one of the most famous and influential poets in the history of which language?",
+              "options": [
+                "Persian",
+                "Urdu",
+                "Arabic",
+                "Awadhi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mirza Asadullah Baig Khan, known as Ghalib, was a preeminent Urdu and Persian poet during the late Mughal era. His ghazals are widely celebrated for their depth, wit, and philosophical insight.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_018",
+              "question": "The epic 'Silappatikaram' (The Tale of an Anklet), one of the Five Great Epics, belongs to which classical literature?",
+              "options": [
+                "Kannada",
+                "Telugu",
+                "Malayalam",
+                "Tamil"
+              ],
+              "correct_answer": 3,
+              "explanation": "'Silappatikaram' is one of the earliest and most important epics in Tamil literature. Attributed to the poet-prince Ilango Adigal, it tells the story of Kannagi, who avenges her husband's unjust death.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_019",
+              "question": "Saratchandra Chattopadhyay, author of beloved novels like 'Devdas' and 'Parineeta', was a prominent novelist in which language?",
+              "options": [
+                "Bengali",
+                "Assamese",
+                "Odia",
+                "Maithili"
+              ],
+              "correct_answer": 0,
+              "explanation": "Saratchandra Chattopadhyay was one of the most popular Bengali novelists of the early 20th century. His works often explored the social customs and the plight of women in rural Bengal.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_020",
+              "question": "Mahadevi Varma, a key figure of the 'Chhayavaad' movement, was an eminent poet in which language?",
+              "options": [
+                "Marathi",
+                "Hindi",
+                "Gujarati",
+                "Rajasthani"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mahadevi Varma was a leading poet of the Chhayavaadi (Romanticism) school of Hindi poetry. She was also a distinguished prose writer and was awarded the Jnanpith Award in 1982.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_021",
+              "question": "M.T. Vasudevan Nair, who won the Jnanpith Award for his contributions, is a celebrated author and screenwriter in which language?",
+              "options": [
+                "Tamil",
+                "Kannada",
+                "Malayalam",
+                "Telugu"
+              ],
+              "correct_answer": 2,
+              "explanation": "M.T. Vasudevan Nair is a modern master of Malayalam literature. His novels like 'Randamoozham' (retelling Mahabharata from Bhima's perspective) and 'Naalukettu' are landmarks of the language.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_022",
+              "question": "The playwright Girish Karnad, known for works like 'Tughlaq' and 'Hayavadana', primarily wrote in which language before they were translated?",
+              "options": [
+                "English",
+                "Kannada",
+                "Hindi",
+                "Marathi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Girish Karnad was a contemporary Indian playwright who predominantly wrote in Kannada. He skillfully used history and mythology to comment on contemporary issues, and often translated his own plays into English.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_023",
+              "question": "Sri Sri (Srirangam Srinivasa Rao) is considered the 'Mahakavi' (Great Poet) of 20th-century revolutionary poetry in which language?",
+              "options": [
+                "Telugu",
+                "Odia",
+                "Tamil",
+                "Bengali"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sri Sri was a pioneering modernist and Marxist poet in Telugu literature. His collection 'Maha Prasthanam' (The Great Journey) broke from traditional forms and became an anthem for the oppressed.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_024",
+              "question": "Fakir Mohan Senapati, often called the 'father of modern literature' in his language, wrote in which of the following?",
+              "options": [
+                "Assamese",
+                "Bengali",
+                "Maithili",
+                "Odia"
+              ],
+              "correct_answer": 3,
+              "explanation": "Fakir Mohan Senapati is revered as a foundational figure in modern Odia literature. His novel 'Chha Maana Atha Guntha' is a classic that depicts the exploitation of village folk by a zamindar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_025",
+              "question": "Lakshminath Bezbaroa, whose work 'O Mur Apunar Dex' is the state anthem of Assam, is the most celebrated figure in which literature?",
+              "options": [
+                "Assamese",
+                "Manipuri",
+                "Bodo",
+                "Khasi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lakshminath Bezbaroa is considered the father of modern Assamese literature. He excelled in various genres, including short stories, essays, and plays, and was a key figure in the Assamese literary renaissance.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_026",
+              "question": "The 'Thirukkural', a classic text consisting of 1,330 couplets on ethics and morality, is a masterpiece of which language?",
+              "options": [
+                "Sanskrit",
+                "Pali",
+                "Tamil",
+                "Prakrit"
+              ],
+              "correct_answer": 2,
+              "explanation": "The 'Thirukkural', authored by the sage Thiruvalluvar, is one of the most important works in Tamil literature. It is renowned for its secular and universal ethical teachings.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_027",
+              "question": "'Pather Panchali', the novel that inspired Satyajit Ray's famous film, was written by which Bengali author?",
+              "options": [
+                "Rabindranath Tagore",
+                "Saratchandra Chattopadhyay",
+                "Bibhutibhushan Bandyopadhyay",
+                "Manik Bandopadhyay"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Pather Panchali' (Song of the Little Road) was written by Bibhutibhushan Bandyopadhyay and published in 1929. It's a poignant bildungsroman about the childhood of Apu and Durga in rural Bengal.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_028",
+              "question": "The fictional South Indian town of Malgudi is the setting for the works of which acclaimed Indian writer in English?",
+              "options": [
+                "Mulk Raj Anand",
+                "Raja Rao",
+                "R.K. Narayan",
+                "Vikram Seth"
+              ],
+              "correct_answer": 2,
+              "explanation": "R.K. Narayan created the iconic fictional town of Malgudi, which served as the backdrop for most of his novels and short stories, including 'Swami and Friends' and 'The Guide'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_029",
+              "question": "The 'Sangam literature' refers to the earliest body of literature from which language?",
+              "options": [
+                "Kannada",
+                "Tamil",
+                "Telugu",
+                "Malayalam"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sangam literature is the classical Tamil literature created during the Sangam period, spanning from c. 300 BCE to 300 CE. It is a collection of poems and epics that provide a window into ancient Tamil society.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_030",
+              "question": "Girish Karnad's famous play 'Tughlaq' is a historical play about the turbulent reign of which Sultan of Delhi?",
+              "options": [
+                "Alauddin Khilji",
+                "Iltutmish",
+                "Muhammad bin Tughlaq",
+                "Firoz Shah Tughlaq"
+              ],
+              "correct_answer": 2,
+              "explanation": "Girish Karnad's 1964 Kannada play 'Tughlaq' is a powerful allegory on the Nehruvian era, using the historical figure of the idealistic but flawed Sultan Muhammad bin Tughlaq to explore themes of power and disillusionment.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_031",
+              "question": "The 'Bhakti' saint-poet Mirabai composed her devotional 'bhajans' dedicated to Lord Krishna in which linguistic tradition?",
+              "options": [
+                "Awadhi and Maithili",
+                "Braj Bhasha and Rajasthani",
+                "Khari Boli and Haryanvi",
+                "Marathi and Konkani"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mirabai, a 16th-century mystic poet, composed her famous devotional songs in a blend of Braj Bhasha (a western Hindi dialect) and Rajasthani, reflecting her origins and travels.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_032",
+              "question": "The epic poem 'Padmavat', which tells the story of Rani Padmini of Chittor, was composed by Malik Muhammad Jayasi in which dialect?",
+              "options": [
+                "Braj Bhasha",
+                "Khari Boli",
+                "Awadhi",
+                "Maithili"
+              ],
+              "correct_answer": 2,
+              "explanation": "Malik Muhammad Jayasi wrote 'Padmavat' in the 16th century in the Awadhi dialect of Hindi. It is a Sufi allegorical romance that has become a classic of Indian literature.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_033",
+              "question": "Pratibha Ray, a Jnanpith Award recipient, is a celebrated contemporary writer in which language?",
+              "options": [
+                "Odia",
+                "Bengali",
+                "Assamese",
+                "Hindi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pratibha Ray is one of the most prominent fiction writers in contemporary Odia literature. She won the Jnanpith Award in 2011 for her significant contributions.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_034",
+              "question": "O.V. Vijayan's 'Khasakkinte Itihasam' (The Legends of Khasak) is considered a landmark of modernism in which literature?",
+              "options": [
+                "Tamil",
+                "Kannada",
+                "Telugu",
+                "Malayalam"
+              ],
+              "correct_answer": 3,
+              "explanation": "'Khasakkinte Itihasam' is a seminal work in Malayalam literature, written by O.V. Vijayan. Published in 1969, it marked a shift in narrative style and sensibility, blending myth, reality, and spirituality.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_035",
+              "question": "Da. Ra. Bendre, a Jnanpith laureate, was a leading poet of the 'Navodaya' (renaissance) period in which literature?",
+              "options": [
+                "Marathi",
+                "Kannada",
+                "Gujarati",
+                "Konkani"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dattatreya Ramachandra Bendre, popularly known as Da. Ra. Bendre, was a highly acclaimed Kannada poet and a prominent figure in the Navodaya literary movement. He won the Jnanpith Award in 1973.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_036",
+              "question": "V.S. Khandekar, the first Marathi writer to receive the Jnanpith Award, won it for which novel?",
+              "options": [
+                "Yayati",
+                "Amritvel",
+                "Don Dhruv",
+                "Hirva Chapha"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vishnu Sakharam Khandekar received the Jnanpith Award in 1974 for his mythological novel 'Yayati'. The novel reinterprets the story of King Yayati from the Mahabharata to explore themes of hedonism and duty.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_037",
+              "question": "K.M. Munshi, a key figure in the Indian independence movement and a prolific writer, was a giant of which regional literature?",
+              "options": [
+                "Rajasthani",
+                "Hindi",
+                "Gujarati",
+                "Marathi"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kanhaiyalal Maneklal Munshi was a versatile Gujarati writer who excelled in historical fiction, social novels, and plays. His trilogy 'Patan-ni-Prabhuta', 'Gujarat-no-Nath', and 'Rajadhiraj' is famous.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_038",
+              "question": "The 'Kamba Ramayanam', a popular version of the Ramayana epic, was composed by the poet Kambar in which language?",
+              "options": [
+                "Telugu",
+                "Kannada",
+                "Malayalam",
+                "Tamil"
+              ],
+              "correct_answer": 3,
+              "explanation": "The 'Ramavataram', popularly known as 'Kamba Ramayanam', is a 12th-century Tamil epic written by the poet Kambar. It is a highly regarded classic, known for its poetic beauty and devotional aspects.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_039",
+              "question": "Sumitranandan Pant was one of the four pillars of the 'Chhayavaad' (Romanticism) school of poetry in which language?",
+              "options": [
+                "Bengali",
+                "Hindi",
+                "Marathi",
+                "Gujarati"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sumitranandan Pant, along with Jaishankar Prasad, Suryakant Tripathi 'Nirala', and Mahadevi Varma, was a major poet of the Chhayavaad movement in Hindi literature, known for his nature-inspired romanticism.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_040",
+              "question": "The literary form 'Kavya' which refers to stylized epic poetry, is most famously associated with which classical language?",
+              "options": [
+                "Sanskrit",
+                "Pali",
+                "Tamil",
+                "Prakrit"
+              ],
+              "correct_answer": 0,
+              "explanation": "Kavya is a form of classical Sanskrit court poetry known for its ornate style, complex meters, and use of figures of speech. The works of poets like Kalidasa and Ashvaghosha are prime examples of Kavya.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_041",
+              "question": "Gurazada Apparao's path-breaking play 'Kanyasulkam' is a powerful social satire in which language?",
+              "options": [
+                "Kannada",
+                "Tamil",
+                "Telugu",
+                "Malayalam"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Kanyasulkam' (The Bride-Price), written by Gurazada Apparao in 1892, is a landmark play in Telugu literature. It used colloquial language to satirize the social evils of child marriage and the practice of Kanyasulkam.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_042",
+              "question": "'Balyakalasakhi' (Childhood Friend), a poignant tale of love and loss, is a famous work by which Malayalam writer?",
+              "options": [
+                "Thakazhi Sivasankara Pillai",
+                "M.T. Vasudevan Nair",
+                "Vaikom Muhammad Basheer",
+                "O.V. Vijayan"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Balyakalasakhi' is one of the most renowned works of Vaikom Muhammad Basheer. This semi-autobiographical Malayalam novel tells the tragic love story of Majeed and Suhra.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_043",
+              "question": "'Nirmala', a novel that deals with the social evil of dowry and mismatched marriages, was penned by which Hindi author?",
+              "options": [
+                "Jaishankar Prasad",
+                "Mahadevi Varma",
+                "Munshi Premchand",
+                "Sumitranandan Pant"
+              ],
+              "correct_answer": 2,
+              "explanation": "Written by Munshi Premchand, 'Nirmala' is a powerful social novel that highlights the tragic consequences of the dowry system and the marriage of a young girl to a much older man.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_044",
+              "question": "Mir Taqi Mir, often hailed as 'Khuda-e-Sukhan' (God of Poetry), was a pioneering master of which poetic form in Urdu?",
+              "options": [
+                "Masnavi",
+                "Qasida",
+                "Marsiya",
+                "Ghazal"
+              ],
+              "correct_answer": 3,
+              "explanation": "Mir Taqi Mir was an 18th-century Urdu poet who is considered one of the foremost masters of the ghazal. He played a pivotal role in shaping the language and sensibility of Urdu poetry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_045",
+              "question": "The Jnanpith Award is India's highest literary honor. Who was the first recipient for their work in Malayalam?",
+              "options": [
+                "Thakazhi Sivasankara Pillai",
+                "M.T. Vasudevan Nair",
+                "G. Sankara Kurup",
+                "S.K. Pottekkatt"
+              ],
+              "correct_answer": 2,
+              "explanation": "The very first Jnanpith Award in 1965 was bestowed upon G. Sankara Kurup for his collection of Malayalam poems titled 'Odakkuzhal' (The Bamboo Flute).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "literature_046",
+              "question": "The term 'Chhayavaad', which literally means 'Shade-ism' and is analogous to Romanticism, is a major literary movement in the history of which language?",
+              "options": [
+                "Bengali",
+                "Marathi",
+                "Hindi",
+                "Gujarati"
+              ],
+              "correct_answer": 2,
+              "explanation": "Chhayavaad was a prominent literary movement in Hindi literature during the 1920s and 1930s. Its key poets—Prasad, Pant, 'Nirala', and Varma—focused on personal emotion, nature, and mysticism.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_047",
+              "question": "The Dalit Panther movement of the 1970s, which sought to combat caste discrimination, spurred a powerful wave of protest literature, particularly in which language?",
+              "options": [
+                "Kannada",
+                "Marathi",
+                "Tamil",
+                "Telugu"
+              ],
+              "correct_answer": 1,
+              "explanation": "Inspired by the Black Panther Party, the Dalit Panther movement in Maharashtra led to a surge in Dalit literature. Marathi writers like Namdeo Dhasal, Arjun Dangle, and Baburao Bagul produced powerful poetry, stories, and autobiographies.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_048",
+              "question": "Ravi is the introspective and disillusioned protagonist who returns to his ancestral village in which landmark Malayalam novel by O.V. Vijayan?",
+              "options": [
+                "Mayyazhippuzhayude Theerangalil",
+                "Naalukettu",
+                "Kayar",
+                "Khasakkinte Itihasam"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ravi is the central character of O.V. Vijayan's 'Khasakkinte Itihasam' (The Legends of Khasak). His journey to the remote village of Khasak as a teacher forms the narrative's core, blending reality with myth and magic realism.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_049",
+              "question": "The 'Digambara Kavulu' (Naked Poets) were a group of radical poets in the 1960s who rejected all existing social and literary norms in which literature?",
+              "options": [
+                "Telugu",
+                "Kannada",
+                "Malayalam",
+                "Tamil"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Digambara Kavulu was a shocking and revolutionary movement in Telugu poetry. Poets like Nagnamuni and Cherabanda Raju used explicit and raw language to attack the establishment, adopting pen names and publishing their work in unconventional ways.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_050",
+              "question": "Which Bengali novel by Manik Bandopadhyay, a powerful portrayal of the lives and struggles of a fishing community, is considered a classic of social realism?",
+              "options": [
+                "Pather Panchali",
+                "Putul Nacher Itikotha",
+                "Padma Nadir Majhi",
+                "Aranyak"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Padma Nadir Majhi' (The Boatman of Padma), published in 1936, is Manik Bandopadhyay's masterpiece. It realistically depicts the harsh realities, social dynamics, and existential struggles of fishermen living along the Padma River.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_051",
+              "question": "U.R. Ananthamurthy's novel 'Samskara' begins with a profound dilemma: the death of Naranappa, a man who had rejected his caste. What community is thrown into crisis by his death?",
+              "options": [
+                "The Lingayat community",
+                "The Vokkaliga community",
+                "The Brahmin community",
+                "The merchant community"
+              ],
+              "correct_answer": 2,
+              "explanation": "The novel is set in Durvasapura, an agrahara or a traditional Brahmin settlement. The death of the heretic Naranappa forces the orthodox Brahmin community to confront its own decaying values and hypocrisy, as they debate who should perform his last rites.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_052",
+              "question": "Girish Karnad's play 'Hayavadana' explores the theme of incomplete identity, drawing its central plot from a story found in which ancient collection of tales?",
+              "options": [
+                "Panchatantra",
+                "Jataka Tales",
+                "Kathasaritsagara",
+                "Hitopadesha"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Hayavadana' is inspired by a story from the 11th-century Sanskrit text 'Kathasaritsagara'. Karnad uses this tale of switched heads to delve into complex questions of mind-body dualism and the search for a complete self.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_053",
+              "question": "Which Jnanpith-winning Gujarati novel by Pannalal Patel is a poignant love story set against the devastating backdrop of the 'Chhappaniyo Dukal' or the Famine of 1899-1900?",
+              "options": [
+                "Saraswatichandra",
+                "Manvini Bhavai",
+                "Malela Jeev",
+                "Gujaratno Nath"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pannalal Patel's 'Manvini Bhavai' (Endurance: A Droll Saga) is a celebrated Gujarati novel that vividly portrays the horrors of the great famine while telling the enduring love story of Kalu and Raju.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_054",
+              "question": "Amrita Pritam's poem 'Ajj Aakhaan Waris Shah Nu' ('Today I Invoke Waris Shah') is a powerful lament addressed to the famous Punjabi Sufi poet over the horrors of what event?",
+              "options": [
+                "The Jallianwala Bagh massacre",
+                "The Bengal Famine of 1943",
+                "The Partition of India in 1947",
+                "The Indo-Pak War of 1965"
+              ],
+              "correct_answer": 2,
+              "explanation": "This iconic poem expresses Amrita Pritam's immense pain and anguish over the violence, especially against women, during the Partition of India. She invokes the Sufi poet Waris Shah, author of 'Heer', to witness the tragedy that has befallen Punjab.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_055",
+              "question": "'Mayyazhippuzhayude Theerangalil' (On the Banks of the River Mayyazhi) by M. Mukundan is a nostalgic novel set in which former French colonial enclave in India?",
+              "options": [
+                "Pondicherry",
+                "Karaikal",
+                "Yanam",
+                "Mahe"
+              ],
+              "correct_answer": 3,
+              "explanation": "M. Mukundan's celebrated Malayalam novel is set in Mahe (Mayyazhi), a former French territory on the coast of Kerala. The narrative explores the unique culture and the identity crisis of its people as French rule comes to an end.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_056",
+              "question": "Birendra Kumar Bhattacharya, the first Assamese writer to win the Jnanpith Award, received it for his novel 'Mrityunjay'. What is the historical backdrop of this novel?",
+              "options": [
+                "The Ahom-Mughal wars",
+                "The 1857 Sepoy Mutiny",
+                "The Quit India Movement of 1942",
+                "The Burmese invasion of Assam"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Mrityunjay' (The Victorious Over Death) is set against the backdrop of the Quit India Movement of 1942 in Assam. The novel realistically portrays the revolutionary fervor and sacrifices of the freedom fighters.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_057",
+              "question": "The 'Navya' (Modernist) movement of the 1950s, which emphasized individualism and existentialism, was a major turning point in which regional literature?",
+              "options": [
+                "Bengali",
+                "Marathi",
+                "Kannada",
+                "Odia"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Navya movement revolutionized Kannada literature, breaking away from the romanticism of the earlier 'Navodaya' period. Writers like U.R. Ananthamurthy, Gopalakrishna Adiga (in poetry), and P. Lankesh were key figures of this modernist wave.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_058",
+              "question": "The character 'Shekhar' in Sarat Chandra Chattopadhyay's 'Parineeta' is influenced by the ideals of which 19th-century Bengali socio-religious reform movement?",
+              "options": [
+                "The Ramakrishna Mission",
+                "The Arya Samaj",
+                "The Theosophical Society",
+                "The Brahmo Samaj"
+              ],
+              "correct_answer": 3,
+              "explanation": "The family of Shekhar, the protagonist, belongs to the Brahmo Samaj, a monotheistic reform movement that challenged orthodox Hindu practices. This social context is crucial to the novel's plot and the characters' conflicts.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_059",
+              "question": "The Progressive Writers' Movement, which advocated for socially relevant literature, found its most powerful expression in the 1930s and 40s in which language, with writers like Manto and Ismat Chughtai?",
+              "options": [
+                "Hindi",
+                "Urdu",
+                "Punjabi",
+                "Bengali"
+              ],
+              "correct_answer": 1,
+              "explanation": "The All-India Progressive Writers' Association had a profound impact on Urdu literature. Writers like Saadat Hasan Manto, Ismat Chughtai, Rajinder Singh Bedi, and Krishan Chander wrote bold, realistic fiction addressing social inequalities, sexuality, and the trauma of Partition.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_060",
+              "question": "In Thakazhi Sivasankara Pillai's 'Chemmeen', the central tragedy is driven by a powerful community belief. What is this belief?",
+              "options": [
+                "That a fisherman will be protected at sea only if his wife remains chaste.",
+                "That catching a particular sacred fish brings a curse upon the family.",
+                "That marrying outside the community angers the sea goddess.",
+                "That a boat built on an inauspicious day is doomed to sink."
+              ],
+              "correct_answer": 0,
+              "explanation": "The core belief that underpins the plot of 'Chemmeen' is the superstition that the safety and prosperity of a fisherman at sea are directly tied to the chastity and faithfulness of his wife on the shore. This belief seals the fate of the protagonists, Karuthamma and Pareekutty.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_061",
+              "question": "The great Hindi poet Nagarjun also wrote extensively in his mother tongue and won the Sahitya Akademi Award for a collection of poems in that language. What is this language?",
+              "options": [
+                "Bhojpuri",
+                "Maithili",
+                "Awadhi",
+                "Braj Bhasha"
+              ],
+              "correct_answer": 1,
+              "explanation": "Vaidyanath Mishra, popularly known by his Hindi pen name Nagarjun, was also a towering figure in Maithili literature, where he wrote under the name 'Yatri'. He won the Sahitya Akademi award in 1969 for his Maithili poetry collection 'Patraheen Nagna Gaachh'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_062",
+              "question": "Which 14th-century female mystic poet from Kashmir is revered for her spiritual verses known as 'vakhs' or 'vatsuns'?",
+              "options": [
+                "Habba Khatoon",
+                "Lal Ded",
+                "Arnimal",
+                "Rupa Bhavani"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lal Ded, or Lalleshwari, was a Kashmiri mystic of the Kashmir Shaivism school. Her poetic sayings, known as 'vakhs' (literally 'sayings'), are some of the earliest and most important compositions in the Kashmiri language.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_063",
+              "question": "Shivaji Sawant's celebrated Marathi novel 'Mrityunjaya' is a compelling retelling of the Mahabharata from the perspective of which complex character?",
+              "options": [
+                "Dronacharya",
+                "Ashwatthama",
+                "Bhishma",
+                "Karna"
+              ],
+              "correct_answer": 3,
+              "explanation": "'Mrityunjaya' (The Victor Over Death) is a modern classic of Marathi literature that presents a sympathetic and profound portrayal of Karna, exploring his inner turmoil, his unwavering loyalty, and his tragic destiny.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_064",
+              "question": "Sunil Gangopadhyay's epic Bengali novel 'Sei Samay' (Those Days) vividly recreates the intellectual and social ferment of which city during the 19th-century Bengal Renaissance?",
+              "options": [
+                "Dhaka",
+                "Murshidabad",
+                "Calcutta (Kolkata)",
+                "Chittagong"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Sei Samay' is a historical novel that brings to life the vibrant, chaotic, and transformative world of 19th-century Calcutta. It features a mix of historical and fictional characters, capturing the essence of the Bengal Renaissance.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_065",
+              "question": "What is the name of the fictional village in Bihar that serves as the setting for Phanishwar Nath 'Renu's' seminal Hindi 'regional novel', 'Maila Anchal'?",
+              "options": [
+                "Shivpalganj",
+                "Mariganj",
+                "Belari",
+                "Ganguli"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Maila Anchal' (The Soiled Border) is set in Mariganj, a remote village in the Purnia district of Bihar. The novel is famous for making the region itself a character and for its use of local dialects and folklore.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_066",
+              "question": "The celebrated Tamil historical novel 'Ponniyin Selvan' by Kalki Krishnamurthy revolves around the early life and adventures of which great Chola emperor?",
+              "options": [
+                "Rajendra Chola I",
+                "Rajaraja Chola I",
+                "Karikala Chola",
+                "Kulothunga Chola I"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Ponniyin Selvan' (The Son of Ponni) is a magnum opus of Tamil literature that chronicles the power struggles and political intrigue in the Chola empire during the time of Arulmozhivarman, who would later be crowned as the great emperor Rajaraja Chola I.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_067",
+              "question": "'Shah Jo Risalo' is the most important work of classical poetry in which language, composed by the Sufi mystic Shah Abdul Latif Bhittai?",
+              "options": [
+                "Balochi",
+                "Pashto",
+                "Sindhi",
+                "Saraiki"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Shah Jo Risalo' is the definitive collection of poems by the revered Sindhi Sufi poet Shah Abdul Latif Bhittai. It is considered the pinnacle of Sindhi literature, weaving together folk tales and mystical themes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_068",
+              "question": "The 'Kallol' group of writers in the 1920s and 30s ushered in a wave of post-Tagore modernism, realism, and psychological introspection into which literature?",
+              "options": [
+                "Odia",
+                "Assamese",
+                "Bengali",
+                "Hindi"
+              ],
+              "correct_answer": 2,
+              "explanation": "The 'Kallol' literary magazine and the writers associated with it represented a significant modernist movement in Bengali literature. They broke away from the perceived romanticism of Tagore and focused on the harsh realities of urban life and the complexities of the human psyche.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_069",
+              "question": "Which epic poem, or 'Mahakavya', by the Hindi poet Jaishankar Prasad, is an allegory of human emotions and history, based on the mythological story of Manu and the great flood?",
+              "options": [
+                "Priyapravas",
+                "Saket",
+                "Kamayani",
+                "Urvashi"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Kamayani' is the magnum opus of Jaishankar Prasad and a cornerstone of Chhayavaadi poetry. It uses the figures of Manu, Shraddha, and Ida to allegorically represent mind, heart, and intellect, tracing the development of human civilization.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_070",
+              "question": "K. Shivaram Karanth's Jnanpith-winning Kannada novel 'Mookajjiya Kanasugalu' (Mookajji's Visions) explores profound philosophical questions through the character of an old woman who can see what?",
+              "options": [
+                "The future of her village",
+                "The past lives of people she touches",
+                "The ghosts of her ancestors",
+                "The hidden truths of nature"
+              ],
+              "correct_answer": 1,
+              "explanation": "The protagonist, Mookajji, has a unique ability to access a 'primal memory' of the past, allowing her to 'see' the evolutionary and civilizational history of humankind. The novel uses this device to explore themes of faith, reason, and sexuality.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_071",
+              "question": "The ancient Sanskrit treatise 'Natya Shastra', which covers all aspects of classical Indian drama, music, and dance, is attributed to which sage?",
+              "options": [
+                "Patanjali",
+                "Panini",
+                "Bharata Muni",
+                "Vyasa"
+              ],
+              "correct_answer": 2,
+              "explanation": "The 'Natya Shastra' is the foundational text for the performing arts in India. This comprehensive work is traditionally attributed to the sage Bharata Muni and provides detailed theories on dramatic composition, acting, and aesthetic experience (rasa).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_072",
+              "question": "Which Malayalam novel by S.K. Pottekkatt, for which he won the Jnanpith Award, is a semi-autobiographical work chronicling life in and around a famous street in Kozhikode?",
+              "options": [
+                "Oru Theruvinte Katha",
+                "Vishakanyaka",
+                "Oru Desathinte Katha",
+                "Naadan Premam"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Oru Desathinte Katha' (The Story of a Land) is S.K. Pottekkatt's masterpiece. The 'Desam' or land in the title refers to Athiranipadam, a fictionalized version of the area around the S.M. Street (Mittai Theruvu) in Kozhikode, where the author grew up.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_073",
+              "question": "The controversial Marathi play 'Sakharam Binder' by Vijay Tendulkar deals with a protagonist who challenges social norms by doing what?",
+              "options": [
+                "Refusing to work and living as a beggar",
+                "Giving shelter to other men's cast-off wives without marrying them",
+                "Opening a gambling den in a pious village",
+                "Publicly denouncing all religious practices"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sakharam Binder is a bookbinder who rejects the institution of marriage but offers food and shelter to destitute women in exchange for domestic and sexual favors. The play was highly controversial for its raw depiction of social hypocrisy and sexuality.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_074",
+              "question": "'Manimekalai', one of the Five Great Epics of Tamil Literature, is notable for its propagation of the teachings of which religion?",
+              "options": [
+                "Jainism",
+                "Buddhism",
+                "Shaivism",
+                "Ajivika"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Manimekalai' is a sequel to 'Silappatikaram' and tells the story of the daughter of Kovalan and Madhavi. It is an overtly Buddhist epic, detailing the protagonist's conversion and her journey towards spiritual liberation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_075",
+              "question": "Qurratulain Hyder's magnum opus 'Aag Ka Darya' (River of Fire) is a monumental Urdu novel that unconventionally traces the history of what over 2,500 years?",
+              "options": [
+                "The Urdu language",
+                "The city of Delhi",
+                "A single royal family",
+                "The Indian subcontinent"
+              ],
+              "correct_answer": 3,
+              "explanation": "'Aag Ka Darya' is an epic novel that spans from the Mauryan period to the post-Partition era. It uses recurring characters or souls across different epochs to explore the cyclical nature of history and the composite culture of the Indian subcontinent.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_076",
+              "question": "Hori Mahato, a peasant farmer whose life is a constant struggle to uphold his 'dharma' and dignity, is the central character of which classic Hindi novel?",
+              "options": [
+                "Maila Anchal",
+                "Godan",
+                "Raag Darbari",
+                "Tamas"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hori Mahato is the unforgettable protagonist of Munshi Premchand's 'Godan'. His simple, lifelong desire to own a cow and the crushing debt and exploitation he faces in trying to achieve it form the crux of this masterpiece.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_077",
+              "question": "Which Sanskrit play by Sudraka, titled 'The Little Clay Cart', is a departure from classical epics and focuses on the love between a poor Brahmin and a wealthy courtesan?",
+              "options": [
+                "Abhijnanasakuntalam",
+                "Mricchakatika",
+                "Mudrarakshasa",
+                "Svapnavasavadattam"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Mricchakatika' (The Little Clay Cart) is a ten-act Sanskrit drama attributed to Sudraka. Unlike many courtly plays, it features a vibrant mix of characters from all social strata and a complex plot involving romance, comedy, and political intrigue.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_078",
+              "question": "The characters of Apu and Durga, whose childhood in rural Bengal is poignantly depicted, are from which Bibhutibhushan Bandyopadhyay novel?",
+              "options": [
+                "Aranyak",
+                "Ichhamati",
+                "Pather Panchali",
+                "Adarsha Hindu Hotel"
+              ],
+              "correct_answer": 2,
+              "explanation": "Apu and his elder sister Durga are the central characters of the first part of 'Pather Panchali'. Their experiences of wonder, discovery, and hardship in the village of Nischindipur are at the heart of the novel.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_079",
+              "question": "Vinda Karandikar, a Jnanpith awardee from Maharashtra, was a modernist poet known for his experimental collection 'Ashtadarshane'. What did this work primarily consist of?",
+              "options": [
+                "A series of eight long narrative poems on historical figures",
+                "Poems on the same subject written from eight different philosophical perspectives",
+                "A collection of eight one-act plays",
+                "An anthology of poems contributed by eight different poets"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Ashtadarshane' (Eight Poetic Takes) is a unique experimental work where Vinda Karandikar takes a single subject and composes poems on it based on eight different schools of Indian and Western philosophy, showcasing his intellectual depth.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_080",
+              "question": "The 'Ashta Diggajas' (Eight Elephants), a collective of eight great poets, adorned the court of which 16th-century emperor, marking a golden age for Telugu literature?",
+              "options": [
+                "Rajaraja Chola I",
+                "Samudragupta",
+                "Krishnadevaraya",
+                "Harshavardhana"
+              ],
+              "correct_answer": 2,
+              "explanation": "The reign of Emperor Krishnadevaraya of the Vijayanagara Empire is considered a high point for Telugu literature. His court was home to the 'Ashta Diggajas', the most famous of whom was Allasani Peddana.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_081",
+              "question": "The literary term 'Aanchalik Upanyas' in Hindi, pioneered by Phanishwar Nath 'Renu', refers to what kind of novel?",
+              "options": [
+                "Historical Novel",
+                "Psychological Novel",
+                "Regional Novel",
+                "Epistolary Novel"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Aanchalik Upanyas' translates to Regional Novel. This genre, exemplified by Renu's 'Maila Anchal', emphasizes the culture, dialect, and social landscape of a specific geographical region, making the region itself a central character.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_082",
+              "question": "Which major work of Kalidasa is a 'Khandakavya' (minor poem) where a 'yaksha' (nature spirit), exiled from his home, sends a message to his beloved wife via a cloud?",
+              "options": [
+                "Raghuvamsa",
+                "Kumarasambhava",
+                "Meghaduta",
+                "Ritusamhara"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Meghaduta' (The Cloud Messenger) is a lyrical masterpiece by Kalidasa. It is renowned for its beautiful descriptions of the Indian landscape as the cloud travels from central India to the Himalayas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_083",
+              "question": "The Punjabi literary magazine 'Preetlari', founded in 1933, became a platform for progressive and socialist ideas under the editorship of which writer?",
+              "options": [
+                "Bhai Vir Singh",
+                "Nanak Singh",
+                "Gurbaksh Singh Preetlari",
+                "Amrita Pritam"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gurbaksh Singh Preetlari founded and edited 'Preetlari' (The Chain of Love), which became a highly influential magazine in Punjabi literature, promoting modern thought, social reform, and internationalism.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_084",
+              "question": "The Sahitya Akademi Award winning Hindi novel 'Tamas' by Bhisham Sahni is a harrowing and powerful depiction of which historical event?",
+              "options": [
+                "The Bengal Famine",
+                "The Quit India Movement",
+                "The Partition of India",
+                "The Emergency"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Tamas' (Darkness) is a stark and moving novel based on the riots that erupted in the Punjab during the 1947 Partition of India. It explores the human tragedy caused by communal hatred and political manipulation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_085",
+              "question": "Who is considered the 'Adikavi' or the first poet of Kannada literature, known for his epic 'Vikramarjuna Vijaya', also known as 'Pampa Bharatha'?",
+              "options": [
+                "Ranna",
+                "Ponna",
+                "Pampa",
+                "Janna"
+              ],
+              "correct_answer": 2,
+              "explanation": "Pampa, a 10th-century Jain poet, is celebrated as the 'Adikavi' of Kannada. His 'Vikramarjuna Vijaya' is a version of the Mahabharata that equates his patron king with the epic hero Arjuna, establishing a new literary tradition.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "literature_086",
+              "question": "Bhalchandra Nemade's Marathi novel 'Kosala' (Cocoon) is considered an 'anti-novel' for its rejection of a linear plot and its focus on the protagonist Pandurang Sangvikar's deep sense of what?",
+              "options": [
+                "Patriotic fervor",
+                "Religious devotion",
+                "Existential angst and alienation",
+                "Social ambition"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Kosala' was a landmark in Marathi literature. It broke from traditional narrative forms, presenting an episodic account of the protagonist's life, filled with his cynical observations, diary entries, and a profound sense of alienation from society.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_087",
+              "question": "The Jnanpith-winning Kannada historical novel 'Chikaveera Rajendra' by Masti Venkatesha Iyengar chronicles the tragic downfall of the last king of which kingdom?",
+              "options": [
+                "Mysore",
+                "Keladi",
+                "Kodagu (Coorg)",
+                "Badami Chalukya"
+              ],
+              "correct_answer": 2,
+              "explanation": "This meticulously researched novel by Masti Venkatesha Iyengar details the final days of the Kodagu (Coorg) kingdom under its last ruler, Chikaveera Rajendra, before it was annexed by the British in 1834.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_088",
+              "question": "The 15th-century Assamese polymath Srimanta Sankardev created the 'Borgeet' (great songs) and 'Ankia Naat' (one-act plays) primarily as vehicles to propagate which socio-religious movement?",
+              "options": [
+                "Shaktism",
+                "Tantrism",
+                "Ekasarana Dharma (Neo-Vaishnavism)",
+                "Brahmoism"
+              ],
+              "correct_answer": 2,
+              "explanation": "Srimanta Sankardev was the founder of the Ekasarana Dharma, a neo-Vaishnavite reform movement in Assam. He used accessible and innovative artistic forms like the Borgeet and Ankia Naat to spread his message of devotion to a single god, Krishna.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_089",
+              "question": "Gopinath Mohanty's Jnanpith-winning Odia novel 'Matimatala' is a sprawling epic that primarily explores what theme?",
+              "options": [
+                "The courtly intrigue of the Gajapati dynasty",
+                "The transformation of a city dweller who moves to a tribal village",
+                "The naval history of ancient Kalinga",
+                "The life of a mythological king"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Matimatala' (The Fertile Earth) is a monumental work that depicts the journey of an educated urban youth to a remote tribal village in Odisha. Through his experiences, the novel explores the clash of cultures and the deep connection between the tribals and their land.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_090",
+              "question": "The concept of 'Auchitya' (propriety/appropriateness), which argues that all elements of a poem must be perfectly suited to its dominant emotion (rasa), was most elaborately discussed by which Kashmiri-Sanskrit literary critic?",
+              "options": [
+                "Anandavardhana",
+                "Abhinavagupta",
+                "Kshemendra",
+                "Vamana"
+              ],
+              "correct_answer": 2,
+              "explanation": "While the concept of Auchitya was known earlier, it was the 11th-century polymath Kshemendra who, in his 'Auchitya Vichara Charcha', established it as the very life (jivita) of poetry, analyzing its various forms and applications in detail.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_091",
+              "question": "The Tamil 'Pudukkavithai' (new poetry) movement, which broke free from the strict rules of classical prosody, was significantly inspired by the free verse style of which Western poet?",
+              "options": [
+                "T.S. Eliot",
+                "Ezra Pound",
+                "Walt Whitman",
+                "William Wordsworth"
+              ],
+              "correct_answer": 2,
+              "explanation": "The pioneers of the Pudukkavithai movement, including Na. Pichamurthy, were greatly influenced by the unrestrained, flowing, and democratic style of the American poet Walt Whitman, particularly his collection 'Leaves of Grass'.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_092",
+              "question": "Badal Sircar's Bengali play 'Ebong Indrajit' (And Indrajit) is a seminal work of his 'Third Theatre' movement. What is the central existential dilemma faced by its characters?",
+              "options": [
+                "The choice between revolutionary violence and peaceful protest",
+                "The absurdity and meaninglessness of middle-class urban life",
+                "The struggle for artistic freedom under a totalitarian regime",
+                "The conflict between religious tradition and modern science"
+              ],
+              "correct_answer": 1,
+              "explanation": "The play focuses on an unnamed writer struggling to create a play about three ordinary, indistinguishable men (Amal, Vimal, Kamal) and the non-conformist Indrajit. It masterfully captures the monotony, cyclical nature, and existential angst of a rudderless urban existence.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_093",
+              "question": "Viswanatha Satyanarayana's Jnanpith-winning Telugu novel 'Veyipadagalu' (The Thousand Hoods) is a symbolic epic that champions what?",
+              "options": [
+                "Radical social reform and the abolition of caste",
+                "The integration of Western and Indian cultural values",
+                "The preservation of traditional Hindu dharma and societal structure",
+                "A Marxist revolution led by the peasantry"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Veyipadagalu' is a complex, allegorical novel that serves as a defense of traditional Indian, particularly Hindu, civilization and values against the perceived onslaught of modern, Western influences. It is a deeply conservative and traditionalist work.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_094",
+              "question": "Rahman Rahi, the sole recipient of the Jnanpith Award for Kashmiri literature, is most celebrated for his mastery and modernization of which poetic forms?",
+              "options": [
+                "Vakh and Shruk",
+                "Leela and Pad",
+                "Ghazal and Nazm",
+                "Masnavi and Rubai"
+              ],
+              "correct_answer": 2,
+              "explanation": "While respecting the traditional forms of Kashmiri poetry, Rahman Rahi is best known for infusing the classical Persian-Urdu forms of the Ghazal (lyric poem) and Nazm (thematic poem) with modernist sensibilities and contemporary Kashmiri consciousness.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_095",
+              "question": "The theory of 'Vakrokti' (oblique or deviant speech), which considers creative and indirect expression as the soul of poetry, was championed by which Sanskrit aesthetician?",
+              "options": [
+                "Bharata",
+                "Bhamaha",
+                "Dandin",
+                "Kuntaka"
+              ],
+              "correct_answer": 3,
+              "explanation": "In his 'Vakroktijivitam', the 10th-century theorist Kuntaka proposed that Vakrokti, or artistic and figurative speech that deviates from the mundane, is the defining characteristic and very life-breath (jivita) of poetry.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_096",
+              "question": "In Gujarati literature, the medieval genre of 'Aakhyan'—narrative poetry for public performance—was perfected by which poet, earning him the title 'Aakhyankaar Shiromani' (Crest-jewel of Aakhyan-writers)?",
+              "options": [
+                "Narsinh Mehta",
+                "Dayaram",
+                "Premanand Bhatt",
+                "Akho"
+              ],
+              "correct_answer": 2,
+              "explanation": "The 17th-century poet Premanand Bhatt is considered the greatest exponent of the Aakhyan form. He skillfully adapted stories from epics and Puranas into engaging Gujarati verse meant for recitation by a 'manabhatt' performer.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_097",
+              "question": "Ashapurna Devi's Jnanpith-winning Bengali trilogy, which begins with 'Pratham Pratisruti' (The First Promise), is a powerful saga that traces the journey towards emancipation of whom?",
+              "options": [
+                "A family of zamindars during the British Raj",
+                "Three generations of Bengali women",
+                "A group of freedom fighters in rural Bengal",
+                "The artists and writers of the Bengal Renaissance"
+              ],
+              "correct_answer": 1,
+              "explanation": "This epic trilogy, also including 'Subarnalata' and 'Bakul Katha', chronicles the lives of three generations of women—Satyabati, Subarna, and Bakul—as they struggle against patriarchal oppression and seek their own identities and freedoms.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_098",
+              "question": "The 'Bandaya' literary movement, which emerged in Kannada literature in the late 1970s, translates to 'rebel' or 'protest'. Its ideology and concerns are most closely aligned with which other literary movement?",
+              "options": [
+                "Navya (Modernist) literature",
+                "Dalit literature",
+                "Navodaya (Romantic) literature",
+                "Existentialist literature"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Bandaya movement was a direct reaction against the perceived elitism of the Navya (Modernist) school. It is ideologically aligned with Dalit and socialist thought, focusing on the voices of the oppressed, marginalized, and socially exploited communities.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_099",
+              "question": "The Sahitya Akademi Award-winning Konkani novel 'Karmelin' by Damodar Mauzo explores the experiences and exploitation of what group of people?",
+              "options": [
+                "Goan fishermen facing corporate takeovers",
+                "The last surviving speakers of a Konkani dialect",
+                "Goan domestic workers (ayahs) in the Persian Gulf",
+                "Casino workers in Goa"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Karmelin' tells the story of its titular protagonist, a young Goan woman who goes to work as a domestic maid in Kuwait. The novel sensitively portrays the physical and emotional hardships, including sexual exploitation, faced by these guest workers.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_100",
+              "question": "The theory of 'Dhvani' (suggestion/resonance), which posits that the suggested meaning in poetry is superior to the literal meaning, was systematically established by which 9th-century Kashmiri critic?",
+              "options": [
+                "Kshemendra",
+                "Anandavardhana",
+                "Mammata",
+                "Kuntaka"
+              ],
+              "correct_answer": 1,
+              "explanation": "In his seminal work 'Dhvanyaloka', Anandavardhana established Dhvani as the 'soul of poetry'. He argued that the true essence of poetry lies not in what is explicitly said (vacya), but in what is artistically suggested (vyangya), creating a resonant aesthetic experience (rasa).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_101",
+              "question": "Krishna Sobti's Jnanpith-winning Hindi novel 'Zindaginama' is celebrated for its epic portrayal of life in a village in which specific region of pre-Partition Punjab?",
+              "options": [
+                "The Malwa region of East Punjab",
+                "The Doaba region between Beas and Sutlej",
+                "The Shahpur region of West Punjab",
+                "The princely state of Patiala"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Zindaginama' is a sprawling narrative set in the early 20th century in a village in the Shahpur region of Punjab, which is now in Pakistan. It is acclaimed for its authentic use of the local dialect and its rich portrayal of the syncretic rural culture before the trauma of Partition.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_102",
+              "question": "In Nirmal Verma's Hindi novel 'Lal Tin Ki Chhat' (The Red Tin Roof), the narrative is distinguished by its intense focus on the protagonist Kaya's inner consciousness and memories, a style often described as:",
+              "options": [
+                "Magical realism",
+                "Socialist realism",
+                "Chekhovian lyricism and interiority",
+                "Picaresque adventure"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nirmal Verma is known for a style that emphasizes mood, memory, and the inner world of his characters over external plot. 'Lal Tin Ki Chhat' is a prime example of this, focusing on a young girl's perceptions and feelings, a style that draws comparisons to the subtle psychological depth of Anton Chekhov's work.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_103",
+              "question": "The Dogri poet Padma Sachdev's Sahitya Akademi award-winning collection is 'Meri Kavita Mere Geet'. A powerful and recurring geographical motif in her poetry is the 'Tawi', which is a...",
+              "options": [
+                "Mountain pass in the Pir Panjal range",
+                "Type of folk song from the Jammu region",
+                "River that flows through the city of Jammu",
+                "Sacred lake near a temple"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Tawi river is a central symbol in Padma Sachdev's poetry, representing her deep connection to her homeland of Jammu. She often uses the river to evoke themes of memory, pain, separation, and cultural identity.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_104",
+              "question": "Malayalam novelist Kovilan (V. V. Ayyappan) was known for his raw, realistic portrayal of military life. Which of the following novels is NOT part of his famous trilogy on the experiences of soldiers?",
+              "options": [
+                "A Minus B",
+                "Thottangal",
+                "Ezhamedangal",
+                "Himalayam"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kovilan's trilogy on army life consists of 'A Minus B', 'Ezhamedangal', and 'Himalayam', each exploring different facets of a soldier's psyche and existence. 'Thottangal' (Incantations) is another of his famous novels, but it deals with the lives of marginalized communities, not the army.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "literature_105",
+              "question": "Mahasweta Devi's powerful Bengali story 'Draupadi' reinterprets a character from the Mahabharata to critique what contemporary issue?",
+              "options": [
+                "Environmental pollution in industrial areas",
+                "The decline of the Bengali theatre",
+                "State-sponsored violence and sexual assault on tribal women",
+                "The commercialization of education"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Draupadi' is a searing story about a tribal woman named Dopdi Mejhen, who is a Naxalite. After being captured and brutally gang-raped by police, she defies her oppressors by refusing to cover her naked, brutalized body. The story is a powerful indictment of the state's use of sexual violence as a tool of oppression against marginalized communities.",
               "difficulty": "hard",
               "points": 10
             }
