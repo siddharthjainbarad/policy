@@ -4,154 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Manager Pro</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f7fa; color: #333; }
-
-        /* Header */
-        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        .header h1 { font-size: 24px; }
-        .header-actions { display: flex; gap: 10px; align-items: center; }
-        .unsaved-badge { background: #ffc107; color: #333; padding: 5px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; animation: pulse 2s infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
-        .stats-pill { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; font-size: 13px; }
-
-        /* Layout */
-        .container { display: grid; grid-template-columns: 280px 1fr; height: calc(100vh - 60px); }
-
-        /* Sidebar */
-        .sidebar { background: #fff; border-right: 1px solid #e0e0e0; overflow-y: auto; }
-        .sidebar-section { padding: 20px; border-bottom: 1px solid #e0e0e0; }
-        .sidebar-section h3 { font-size: 14px; color: #667eea; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-        .file-input-wrapper { position: relative; width: 100%; }
-        .btn-load { width: 100%; padding: 12px; background: #667eea; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 14px; }
-        .btn-load:hover { background: #5568d3; }
-        input[type="file"] { display: none; }
-        .category-tree { list-style: none; }
-        .category-item { padding: 8px 12px; margin: 4px 0; border-radius: 4px; cursor: pointer; font-size: 13px; display: flex; justify-content: space-between; align-items: center; position: relative; }
-        .category-item:hover { background: #f5f7fa; }
-        .category-item:hover .category-actions { display: flex; }
-        .category-item.active { background: #667eea; color: #fff; font-weight: 600; }
-        .category-count { background: rgba(0,0,0,0.1); padding: 2px 8px; border-radius: 10px; font-size: 11px; }
-        .category-actions { display: none; gap: 4px; position: absolute; right: 50px; }
-        .category-actions button { padding: 2px 6px; font-size: 11px; background: #667eea; color: #fff; border: none; border-radius: 3px; cursor: pointer; }
-        .category-actions button:hover { background: #5568d3; }
-        .btn-add { width: 100%; padding: 8px; background: transparent; border: 2px dashed #667eea; color: #667eea; border-radius: 4px; cursor: pointer; font-weight: 600; font-size: 13px; margin-top: 10px; }
-        .btn-add:hover { background: #f5f7fa; }
-        .stats-summary { background: #f8f9fa; padding: 15px; border-radius: 6px; font-size: 12px; }
-        .stats-summary div { display: flex; justify-content: space-between; margin: 5px 0; }
-        .stats-summary strong { color: #667eea; }
-
-        /* Main Content */
-        .main { padding: 30px; overflow-y: auto; }
-        .welcome { text-align: center; padding: 100px 20px; color: #6c757d; }
-        .welcome-icon { font-size: 80px; margin-bottom: 20px; }
-
-        /* Action Bar */
-        .action-bar { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; gap: 15px; flex-wrap: wrap; align-items: center; }
-        .action-bar input { flex: 1; min-width: 200px; padding: 10px; border: 1px solid #e0e0e0; border-radius: 4px; }
-        .subcategory-header { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .subcategory-header h2 { color: #667eea; font-size: 20px; margin-bottom: 10px; }
-        .subcategory-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 15px; }
-        .stat-card { background: #f8f9fa; padding: 15px; border-radius: 6px; text-align: center; }
-        .stat-card-value { font-size: 24px; font-weight: bold; color: #667eea; }
-        .stat-card-label { font-size: 12px; color: #6c757d; margin-top: 5px; }
-        .quick-actions { display: flex; gap: 10px; margin-top: 15px; }
-
-        /* Buttons */
-        button { padding: 10px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.2s; }
-        .btn-primary { background: #667eea; color: #fff; }
-        .btn-primary:hover { background: #5568d3; transform: translateY(-1px); }
-        .btn-success { background: #28a745; color: #fff; }
-        .btn-success:hover { background: #218838; }
-        .btn-danger { background: #dc3545; color: #fff; }
-        .btn-danger:hover { background: #c82333; }
-        .btn-warning { background: #ffc107; color: #333; }
-        .btn-warning:hover { background: #e0a800; }
-        .btn-secondary { background: #6c757d; color: #fff; }
-        .btn-secondary:hover { background: #545b62; }
-        .btn-info { background: #17a2b8; color: #fff; }
-        .btn-info:hover { background: #138496; }
-
-        /* Question List */
-        .questions-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
-        .sort-controls { display: flex; gap: 10px; align-items: center; font-size: 13px; color: #6c757d; }
-        .sort-controls select { padding: 5px 10px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 13px; }
-        .questions-grid { display: grid; gap: 12px; }
-        .question-card { background: #fff; padding: 20px; border-radius: 8px; border-left: 4px solid #e0e0e0; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.2s; position: relative; }
-        .question-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); }
-        .question-card.new { border-left-color: #28a745; }
-        .question-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px; }
-        .question-title { font-weight: 600; font-size: 15px; flex: 1; }
-        .question-actions { display: flex; gap: 6px; }
-        .btn-sm { padding: 4px 10px; font-size: 12px; }
-        .question-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
-        .option { padding: 8px 12px; background: #f5f7fa; border-radius: 4px; font-size: 13px; }
-        .option.correct { background: #d4edda; color: #155724; font-weight: 600; border: 2px solid #28a745; }
-        .question-meta { display: flex; gap: 12px; margin-top: 12px; font-size: 12px; color: #6c757d; flex-wrap: wrap; }
-        .question-id { display: flex; align-items: center; gap: 5px; }
-        .copy-id-btn { padding: 2px 6px; font-size: 11px; background: #e0e0e0; color: #333; border: none; border-radius: 3px; cursor: pointer; }
-        .copy-id-btn:hover { background: #d0d0d0; }
-        .badge { padding: 3px 8px; border-radius: 12px; font-weight: 600; color: #fff; font-size: 11px; }
-        .badge-easy { background: #28a745; }
-        .badge-medium { background: #ffc107; color: #333; }
-        .badge-hard { background: #dc3545; }
-        .badge-new { background: #17a2b8; }
-
-        /* Modal */
-        .modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center; }
-        .modal.active { display: flex; }
-        .modal-content { background: #fff; border-radius: 8px; padding: 30px; width: 90%; max-width: 800px; max-height: 85vh; overflow-y: auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
-        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #667eea; }
-        .modal-header h2 { color: #667eea; font-size: 20px; }
-        .close { font-size: 28px; cursor: pointer; color: #aaa; line-height: 1; }
-        .close:hover { color: #333; }
-        .form-group { margin-bottom: 15px; }
-        .form-group label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 13px; color: #495057; }
-        .form-group label .required { color: #dc3545; }
-        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; }
-        .form-group textarea { min-height: 150px; font-family: 'Courier New', monospace; resize: vertical; }
-        .form-group input[type="color"] { height: 40px; }
-        .form-group input[type="number"] { width: auto; min-width: 100px; }
-        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-        .form-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; }
-        .form-hint { font-size: 12px; color: #6c757d; margin-top: 5px; }
-        .id-suggestion { background: #e7f3ff; border: 1px solid #667eea; padding: 8px; border-radius: 4px; font-size: 12px; margin-top: 5px; }
-        .id-suggestion strong { color: #667eea; }
-
-        /* Duplicate Preview */
-        .duplicate-preview { background: #fff3cd; border: 2px solid #ffc107; padding: 15px; border-radius: 6px; margin: 15px 0; }
-        .duplicate-preview h4 { color: #856404; margin-bottom: 10px; }
-        .duplicate-list { max-height: 200px; overflow-y: auto; }
-        .duplicate-item { padding: 8px; background: #fff; margin: 5px 0; border-left: 3px solid #ffc107; border-radius: 3px; font-size: 13px; }
-
-        /* Changes Preview */
-        .changes-preview { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
-        .changes-preview h4 { color: #667eea; margin-bottom: 15px; }
-        .import-details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
-        .import-detail { background: #fff; padding: 10px; border-radius: 4px; text-align: center; border: 1px solid #e0e0e0; }
-        .import-detail-value { font-size: 20px; font-weight: bold; color: #667eea; }
-        .import-detail-label { font-size: 11px; color: #6c757d; margin-top: 5px; }
-
-        /* Status Messages */
-        .status { position: fixed; top: 80px; right: 20px; padding: 15px 20px; border-radius: 6px; font-weight: 600; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 999; animation: slideIn 0.3s; }
-        @keyframes slideIn { from { transform: translateX(400px); } to { transform: translateX(0); } }
-        .status.success { background: #d4edda; color: #155724; border-left: 4px solid #28a745; }
-        .status.error { background: #f8d7da; color: #721c24; border-left: 4px solid #dc3545; }
-        .status.info { background: #d1ecf1; color: #0c5460; border-left: 4px solid #17a2b8; }
-
-        /* Duplicate Mode Selector */
-        .duplicate-mode { display: flex; gap: 10px; margin: 15px 0; }
-        .duplicate-mode label { display: flex; align-items: center; gap: 8px; padding: 10px 15px; background: #f5f7fa; border: 2px solid #e0e0e0; border-radius: 6px; cursor: pointer; font-size: 13px; flex: 1; transition: all 0.2s; }
-        .duplicate-mode input[type="radio"] { margin: 0; }
-        .duplicate-mode label:has(input:checked) { border-color: #667eea; background: #e7f3ff; font-weight: 600; }
-
-        /* Empty State */
-        .empty-state { text-align: center; padding: 60px 20px; color: #6c757d; }
-        .empty-icon { font-size: 60px; margin-bottom: 15px; opacity: 0.5; }
-
-        .filename-display { font-size: 12px; color: #6c757d; margin-top: 10px; word-break: break-all; }
-    </style>
+    <link rel="stylesheet" href="questions_util.css">
 </head>
 <body>
 <div class="header">
@@ -177,6 +30,8 @@
         <div class="sidebar-section">
             <h3>📂 Categories</h3>
             <button id="addCategoryButton" class="btn-add" style="display: none;" onclick="openAddCategoryModal()">+ Add Category</button>
+            <button id="addSubcategoryButton" class="btn-add" style="display: none;">+ Add Subcategory</button>
+            <button id="reorganizeButton" class="btn-secondary" style="display: none;">🔄 Reorganize</button>
             <ul id="categoryTree" class="category-tree"></ul>
         </div>
 
@@ -287,7 +142,7 @@
             <div class="duplicate-mode">
                 <label><input type="radio" name="dupMode" value="skip" checked> 🚫 Skip</label>
                 <label><input type="radio" name="dupMode" value="replace"> 🔄 Replace</label>
-                <label><input type="radio" name="dupMode" value="rename"> ✏️ Rename</label>
+                <label><input type="radio" name="dupMode" value="rename"> ��️ Rename</label>
             </div>
         </div>
 
@@ -364,11 +219,80 @@
                     <input type="number" id="catPoints" value="10" min="1" max="100" required>
                 </div>
             </div>
+            <div class="form-group">
+                <label>Required Level</label>
+                <input type="number" id="catRequiredLevel" value="1" min="1" max="100">
+                <div class="form-hint">Minimum player level required to access this category</div>
+            </div>
         </div>
 
         <div class="form-actions">
             <button onclick="closeCategoryModal()" class="btn-secondary">Cancel</button>
             <button id="saveCategoryButton" class="btn-success">✅ Save Category</button>
+        </div>
+    </div>
+</div>
+
+<!-- Add Subcategory Modal -->
+<div id="addSubcategoryModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>�� Add Subcategory</h2>
+            <span class="close" onclick="closeAddSubcategoryModal()">&times;</span>
+        </div>
+
+        <div id="addSubcategoryForm">
+            <div class="form-group">
+                <label>Parent Category <span class="required">*</span></label>
+                <select id="parentCategorySelect" required>
+                    <option value="">Select a category...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Subcategory ID <span class="required">*</span></label>
+                <input type="text" id="newSubId" placeholder="e.g., calculus_basics" required>
+                <div class="form-hint">Use lowercase with underscores (no spaces)</div>
+            </div>
+            <div class="form-group">
+                <label>Subcategory Name <span class="required">*</span></label>
+                <input type="text" id="newSubName" placeholder="e.g., Calculus Basics" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Icon</label>
+                    <input type="text" id="newSubIcon" placeholder="e.g., 📐" maxlength="2" value="📝">
+                </div>
+                <div class="form-group">
+                    <label>Color</label>
+                    <input type="color" id="newSubColor" value="#667eea">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button onclick="closeAddSubcategoryModal()" class="btn-secondary">Cancel</button>
+            <button id="saveNewSubcategoryButton" class="btn-success">✅ Add Subcategory</button>
+        </div>
+    </div>
+</div>
+
+<!-- Reorganize Modal -->
+<div id="reorganizeModal" class="modal">
+    <div class="modal-content" style="max-width: 800px;">
+        <div class="modal-header">
+            <h2>🔄 Reorganize Categories</h2>
+            <span class="close" onclick="closeReorganizeModal()">&times;</span>
+        </div>
+
+        <div class="reorganize-section">
+            <h3>Category Management</h3>
+            <div class="category-management">
+                <div id="categoryList" class="category-list"></div>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button onclick="closeReorganizeModal()" class="btn-secondary">Close</button>
         </div>
     </div>
 </div>
@@ -440,6 +364,8 @@
                 document.getElementById('editorSection').style.display = 'block';
                 document.getElementById('filenameDisplay').textContent = `Loaded: ${file.name}`;
                 document.getElementById('addCategoryButton').style.display = 'block';
+                document.getElementById('addSubcategoryButton').style.display = 'block';
+                document.getElementById('reorganizeButton').style.display = 'block';
                 document.getElementById('globalStats').style.display = 'block';
 
                 populateCategories();
@@ -646,7 +572,7 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
 
-        showStatus('✅ File downloaded! Replace your old file.', 'success');
+        showStatus('�� File downloaded! Replace your old file.', 'success');
     });
 
     // Export subcategory
@@ -882,6 +808,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         document.getElementById('catColor').value = '#667eea';
         document.getElementById('catTimer').value = '10';
         document.getElementById('catPoints').value = '10';
+        document.getElementById('catRequiredLevel').value = '1';
     }
 
     function closeCategoryModal() {
@@ -894,6 +821,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         const desc = document.getElementById('catDesc').value.trim();
         const timer = parseInt(document.getElementById('catTimer').value);
         const points = parseInt(document.getElementById('catPoints').value);
+        const requiredLevel = parseInt(document.getElementById('catRequiredLevel').value);
 
         if (!id || !name || !desc) {
             showStatus('❌ ID, Name, and Description are required', 'error');
@@ -913,6 +841,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
             cat.color = document.getElementById('catColor').value;
             cat.question_timer_seconds = timer;
             cat.points_per_question = points;
+            cat.required_level = requiredLevel;
             showStatus('✅ Category updated!', 'success');
         } else {
             mainData.categories.push({
@@ -923,6 +852,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
                 color: document.getElementById('catColor').value,
                 question_timer_seconds: timer,
                 points_per_question: points,
+                required_level: requiredLevel,
                 subcategories: []
             });
             showStatus('✅ Category created!', 'success');
@@ -1009,7 +939,7 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         editSubcategory(selectedCategory, selectedSubcategory);
     });
 
-    // Utility functions
+    // Utility functions - FIXED: Added missing functions
     function escapeHtml(text) {
         const div = document.createElement('div');
         div.textContent = text;
@@ -1020,8 +950,35 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
         const status = document.createElement('div');
         status.className = `status ${type}`;
         status.textContent = message;
+        status.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: 500;
+            z-index: 10000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        `;
+
+        if (type === 'success') {
+            status.style.backgroundColor = '#10b981';
+            status.style.color = 'white';
+        } else if (type === 'error') {
+            status.style.backgroundColor = '#ef4444';
+            status.style.color = 'white';
+        } else {
+            status.style.backgroundColor = '#3b82f6';
+            status.style.color = 'white';
+        }
+
         document.body.appendChild(status);
-        setTimeout(() => status.remove(), 4000);
+        setTimeout(() => status.style.opacity = '1', 10);
+        setTimeout(() => {
+            status.style.opacity = '0';
+            setTimeout(() => status.remove(), 300);
+        }, 4000);
     }
 
     // Search, filter, and sort
@@ -1029,6 +986,167 @@ IMPORTANT: Return ONLY the JSON array. No code block markers, no text before or 
     document.getElementById('filterDifficulty').addEventListener('change', renderQuestions);
     document.getElementById('filterNew').addEventListener('change', renderQuestions);
     document.getElementById('sortBy').addEventListener('change', renderQuestions);
+
+    // Add event listeners for the buttons that weren't working
+    document.getElementById('addCategoryButton').addEventListener('click', openAddCategoryModal);
+
+    document.getElementById('addSubcategoryButton').addEventListener('click', () => {
+        if (!mainData || !mainData.categories || mainData.categories.length === 0) {
+            showStatus('❌ No categories available. Create a category first.', 'error');
+            return;
+        }
+        document.getElementById('addSubcategoryModal').classList.add('active');
+        document.getElementById('parentCategorySelect').innerHTML = '<option value="">Select a category...</option>' +
+            mainData.categories.map(cat => `<option value="${cat.id}">${cat.name}</option>`).join('');
+    });
+
+    document.getElementById('reorganizeButton').addEventListener('click', () => {
+        document.getElementById('reorganizeModal').classList.add('active');
+        populateReorganizeCategories();
+    });
+
+    // Close modals on outside click
+    window.addEventListener('click', (event) => {
+        const modals = ['importModal', 'aiPromptModal', 'categoryModal', 'addSubcategoryModal', 'reorganizeModal', 'subcategoryModal'];
+        modals.forEach(id => {
+            const modal = document.getElementById(id);
+            if (modal && modal.classList.contains('active') && event.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+    });
+
+    function closeReorganizeModal() {
+        document.getElementById('reorganizeModal').classList.remove('active');
+    }
+
+    function populateReorganizeCategories() {
+        const list = document.getElementById('categoryList');
+        list.innerHTML = '';
+
+        if (!mainData || !mainData.categories) {
+            list.innerHTML = '<p>No categories available</p>';
+            return;
+        }
+
+        mainData.categories.forEach(cat => {
+            const item = document.createElement('div');
+            item.className = 'category-item';
+            item.style.cssText = `
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                background: white;
+            `;
+            item.innerHTML = `
+                <div class="category-info">
+                    <span class="category-name" style="font-weight: 600; font-size: 16px;">${cat.name}</span>
+                    <span class="category-count" style="color: #6b7280; margin-left: 10px;">${cat.subcategories?.length || 0} subcategories</span>
+                </div>
+                <div class="category-actions">
+                    <button class="btn-secondary" onclick="openEditCategoryModal('${cat.id}')" style="margin-right: 8px; padding: 6px 12px; border: 1px solid #d1d5db; border-radius: 4px; background: white;">✏️ Edit</button>
+                    <button class="btn-danger" onclick="deleteCategory('${cat.id}')" style="padding: 6px 12px; border: none; border-radius: 4px; background: #ef4444; color: white;">🗑️ Delete</button>
+                </div>
+            `;
+            list.appendChild(item);
+        });
+    }
+
+    window.openEditCategoryModal = function(catId) {
+        const category = mainData.categories.find(c => c.id === catId);
+
+        document.getElementById('catId').value = category.id;
+        document.getElementById('catName').value = category.name;
+        document.getElementById('catDesc').value = category.description;
+        document.getElementById('catIcon').value = category.icon || '📚';
+        document.getElementById('catColor').value = category.color || '#667eea';
+        document.getElementById('catTimer').value = category.question_timer_seconds || 10;
+        document.getElementById('catPoints').value = category.points_per_question || 10;
+        document.getElementById('catRequiredLevel').value = category.required_level || 1;
+
+        document.getElementById('categoryModalTitle').textContent = '✏️ Edit Category';
+        editingCategoryId = catId;
+
+        document.getElementById('reorganizeModal').classList.remove('active');
+        document.getElementById('categoryModal').classList.add('active');
+    }
+
+    window.deleteCategory = function(catId) {
+        if (!confirm('Delete this category and all its subcategories?')) return;
+
+        mainData.categories = mainData.categories.filter(c => c.id !== catId);
+
+        if (selectedCategory === catId) {
+            selectedCategory = null;
+            selectedSubcategory = null;
+            document.getElementById('subcategoryHeader').style.display = 'none';
+            document.getElementById('questionsList').innerHTML = '';
+        }
+
+        markAsChanged();
+        populateCategories();
+        updateGlobalStats();
+        populateReorganizeCategories();
+        showStatus('✅ Category deleted!', 'success');
+    }
+
+    function closeAddSubcategoryModal() {
+        document.getElementById('addSubcategoryModal').classList.remove('active');
+    }
+
+    document.getElementById('saveNewSubcategoryButton').addEventListener('click', () => {
+        const parentId = document.getElementById('parentCategorySelect').value;
+        const id = document.getElementById('newSubId').value.trim();
+        const name = document.getElementById('newSubName').value.trim();
+
+        if (!parentId) {
+            showStatus('❌ Select a parent category', 'error');
+            return;
+        }
+
+        if (!id || !name) {
+            showStatus('❌ ID and Name are required', 'error');
+            return;
+        }
+
+        const category = mainData.categories.find(c => c.id === parentId);
+
+        if (!category.subcategories) {
+            category.subcategories = [];
+        }
+
+        if (category.subcategories.some(s => s.id === id)) {
+            showStatus('❌ Subcategory ID already exists in this category', 'error');
+            return;
+        }
+
+        const newSubcategory = {
+            id,
+            name,
+            icon: document.getElementById('newSubIcon').value || '📝',
+            color: document.getElementById('newSubColor').value || '#667eea',
+            questions: []
+        };
+
+        category.subcategories.push(newSubcategory);
+
+        markAsChanged();
+        populateCategories();
+        updateGlobalStats();
+        closeAddSubcategoryModal();
+
+        // Clear the form
+        document.getElementById('newSubId').value = '';
+        document.getElementById('newSubName').value = '';
+        document.getElementById('newSubIcon').value = '📝';
+        document.getElementById('newSubColor').value = '#667eea';
+
+        showStatus('✅ Subcategory added!', 'success');
+    });
 </script>
 </body>
 </html>
