@@ -4930,6 +4930,974 @@
               "points": 10
             }
           ]
+        },
+        {
+          "id": "geography_battle",
+          "name": "Geography Battle",
+          "icon": "🌐",
+          "color": "#667eea",
+          "questions": [
+            {
+              "id": "battle_001",
+              "question": "Which country is larger by land area?",
+              "options": [
+                "Russia",
+                "Canada"
+              ],
+              "correct_answer": 0,
+              "explanation": "Russia is the largest country in the world with 17.1 million square kilometers, nearly double Canada's 9.98 million square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_002",
+              "question": "Which continent has a larger population?",
+              "options": [
+                "Asia",
+                "Africa"
+              ],
+              "correct_answer": 0,
+              "explanation": "Asia has over 4.7 billion people (about 60% of world population), while Africa has approximately 1.4 billion people.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_003",
+              "question": "Which ocean is larger?",
+              "options": [
+                "Pacific Ocean",
+                "Atlantic Ocean"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Pacific Ocean covers 165 million square kilometers, making it larger than all of Earth's land area combined. The Atlantic is about half that size.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_004",
+              "question": "Which river is longer?",
+              "options": [
+                "Nile",
+                "Amazon"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Nile River is approximately 6,650 km long, slightly longer than the Amazon at 6,400 km, making it the world's longest river.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_005",
+              "question": "Which mountain is taller?",
+              "options": [
+                "Mount Everest",
+                "K2"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mount Everest is 8,849 meters tall, the highest mountain on Earth. K2 is the second-highest at 8,611 meters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_006",
+              "question": "Which desert is larger?",
+              "options": [
+                "Sahara",
+                "Arabian Desert"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Sahara Desert covers 9 million square kilometers, making it the largest hot desert. The Arabian Desert is about 2.3 million square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_007",
+              "question": "Which country has more islands?",
+              "options": [
+                "Sweden",
+                "Norway"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sweden has approximately 267,570 islands, making it the country with the most islands in the world, more than Norway's estimated 239,000 islands.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_008",
+              "question": "Which lake is larger by surface area?",
+              "options": [
+                "Caspian Sea",
+                "Lake Superior"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Caspian Sea, despite its name, is the world's largest lake at 371,000 square kilometers. Lake Superior is 82,100 square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_009",
+              "question": "Which country has a longer coastline?",
+              "options": [
+                "Canada",
+                "Indonesia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Canada has the world's longest coastline at 202,080 km, thanks to its extensive Arctic archipelago. Indonesia's coastline is about 54,716 km.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_010",
+              "question": "Which city has a higher elevation?",
+              "options": [
+                "La Paz",
+                "Bogotá"
+              ],
+              "correct_answer": 0,
+              "explanation": "La Paz, Bolivia sits at 3,640 meters above sea level, making it the highest administrative capital. Bogotá is at 2,640 meters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_011",
+              "question": "Which country is more populous?",
+              "options": [
+                "India",
+                "United States"
+              ],
+              "correct_answer": 0,
+              "explanation": "India has over 1.4 billion people, making it the world's most populous country as of 2023, surpassing China. The US has about 335 million.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_012",
+              "question": "Which island is larger?",
+              "options": [
+                "Greenland",
+                "New Guinea"
+              ],
+              "correct_answer": 0,
+              "explanation": "Greenland is the world's largest island at 2.17 million square kilometers. New Guinea is the second-largest at 785,753 square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_013",
+              "question": "Which waterfall is taller?",
+              "options": [
+                "Angel Falls",
+                "Niagara Falls"
+              ],
+              "correct_answer": 0,
+              "explanation": "Angel Falls in Venezuela is 979 meters tall, the world's highest uninterrupted waterfall. Niagara Falls is only 51 meters high.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_014",
+              "question": "Which country spans more time zones?",
+              "options": [
+                "Russia",
+                "United States"
+              ],
+              "correct_answer": 0,
+              "explanation": "Russia spans 11 time zones, the most of any country. The United States spans 6 time zones (including Alaska and Hawaii).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_015",
+              "question": "Which peninsula is larger?",
+              "options": [
+                "Arabian Peninsula",
+                "Iberian Peninsula"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Arabian Peninsula is about 3.2 million square kilometers, making it the world's largest peninsula. The Iberian Peninsula is 583,254 square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_016",
+              "question": "Which country has more UNESCO World Heritage Sites?",
+              "options": [
+                "Italy",
+                "Spain"
+              ],
+              "correct_answer": 0,
+              "explanation": "Italy has 58 UNESCO World Heritage Sites, the most of any country, followed closely by China. Spain has 50 sites.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_017",
+              "question": "Which sea is larger?",
+              "options": [
+                "Mediterranean Sea",
+                "Caribbean Sea"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Mediterranean Sea covers 2.5 million square kilometers, while the Caribbean Sea is about 2.75 million square kilometers. Actually, the Caribbean is slightly larger.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_018",
+              "question": "Which country is further north?",
+              "options": [
+                "Iceland",
+                "Finland"
+              ],
+              "correct_answer": 1,
+              "explanation": "Finland extends further north than Iceland, with its northernmost point reaching beyond 70°N latitude in Lapland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_019",
+              "question": "Which canyon is deeper?",
+              "options": [
+                "Grand Canyon",
+                "Yarlung Tsangpo Grand Canyon"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Yarlung Tsangpo Grand Canyon in Tibet is over 5,500 meters deep, making it deeper than the Grand Canyon's maximum depth of 1,857 meters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_020",
+              "question": "Which country has more land borders?",
+              "options": [
+                "China",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "China shares land borders with 14 countries, while Russia borders 14 countries as well (tied for the most land borders).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_021",
+              "question": "Which volcano is taller?",
+              "options": [
+                "Ojos del Salado",
+                "Kilimanjaro"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ojos del Salado on the Chile-Argentina border is 6,893 meters tall, the world's highest volcano. Kilimanjaro is 5,895 meters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_022",
+              "question": "Which gulf is larger?",
+              "options": [
+                "Gulf of Mexico",
+                "Persian Gulf"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Gulf of Mexico covers about 1.6 million square kilometers, significantly larger than the Persian Gulf's 251,000 square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_023",
+              "question": "Which country has a higher GDP?",
+              "options": [
+                "United States",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States has the world's highest GDP at over $25 trillion (nominal), while China is second at approximately $18 trillion.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_024",
+              "question": "Which strait is wider?",
+              "options": [
+                "Strait of Gibraltar",
+                "Bering Strait"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Bering Strait is about 85 km wide at its narrowest point, while the Strait of Gibraltar is only 14 km wide at its narrowest.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_025",
+              "question": "Which plateau is higher in average elevation?",
+              "options": [
+                "Tibetan Plateau",
+                "Colorado Plateau"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Tibetan Plateau averages 4,500 meters elevation and is called the 'Roof of the World.' The Colorado Plateau averages about 1,500-2,000 meters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_026",
+              "question": "Which country produces more oil?",
+              "options": [
+                "United States",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States is the world's largest oil producer, producing about 20 million barrels per day, slightly ahead of Russia's 11 million.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_027",
+              "question": "Which bay is larger?",
+              "options": [
+                "Bay of Bengal",
+                "Hudson Bay"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Bay of Bengal covers 2.17 million square kilometers, making it the largest bay in the world. Hudson Bay is about 1.23 million square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_028",
+              "question": "Which forest is larger?",
+              "options": [
+                "Amazon Rainforest",
+                "Congo Rainforest"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Amazon Rainforest covers 5.5 million square kilometers, making it the world's largest tropical rainforest. The Congo Basin is about 2 million square kilometers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_029",
+              "question": "Which country has more active volcanoes?",
+              "options": [
+                "Indonesia",
+                "Japan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Indonesia has about 130 active volcanoes, the most of any country, due to its location on the Pacific Ring of Fire. Japan has about 110.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_030",
+              "question": "Which capital city is further south?",
+              "options": [
+                "Wellington",
+                "Canberra"
+              ],
+              "correct_answer": 0,
+              "explanation": "Wellington, New Zealand is at 41°S latitude, making it further south than Canberra, Australia at 35°S latitude.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_031",
+              "question": "Which mountain range is longer?",
+              "options": [
+                "Andes",
+                "Rocky Mountains"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Andes stretch for about 7,000 km along South America's western coast, making them the longest continental mountain range. The Rockies extend about 4,800 km.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_032",
+              "question": "Which country has more freshwater resources?",
+              "options": [
+                "Brazil",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Brazil holds about 12% of the world's freshwater resources, the most of any country, largely due to the Amazon River basin. Russia is second.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "battle_033",
+              "question": "Which city has a larger metropolitan population?",
+              "options": [
+                "Tokyo",
+                "Delhi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tokyo has the world's largest metropolitan population at about 37 million people. Delhi's metro area has approximately 32 million.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_034",
+              "question": "Which country has a higher population density?",
+              "options": [
+                "Bangladesh",
+                "Netherlands"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bangladesh has about 1,265 people per square kilometer, one of the highest densities globally. The Netherlands has about 508 people per square kilometer.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_035",
+              "question": "Which trench is deeper?",
+              "options": [
+                "Mariana Trench",
+                "Tonga Trench"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Mariana Trench reaches 10,994 meters at Challenger Deep, the deepest point on Earth. The Tonga Trench is about 10,882 meters deep.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_036",
+              "question": "Which country has more coral reef area?",
+              "options": [
+                "Indonesia",
+                "Australia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Indonesia has about 51,000 square kilometers of coral reefs, the most of any country. Australia has approximately 48,000 square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_037",
+              "question": "Which river drains a larger area?",
+              "options": [
+                "Amazon",
+                "Congo"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Amazon River basin drains about 7 million square kilometers, the largest drainage basin in the world. The Congo basin is about 3.7 million square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_038",
+              "question": "Which country has more national parks?",
+              "options": [
+                "Australia",
+                "United States"
+              ],
+              "correct_answer": 0,
+              "explanation": "Australia has over 500 national parks, while the United States has 63 designated national parks (though it has many more protected areas overall).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_039",
+              "question": "Which lake is deeper?",
+              "options": [
+                "Lake Baikal",
+                "Lake Tanganyika"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lake Baikal in Russia is 1,642 meters deep, the world's deepest lake. Lake Tanganyika is the second-deepest at 1,470 meters.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_040",
+              "question": "Which country has a longer railway network?",
+              "options": [
+                "United States",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States has about 220,000 km of railway track, the longest in the world. China has approximately 150,000 km but is rapidly expanding.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_041",
+              "question": "Which glacier is longer?",
+              "options": [
+                "Lambert Glacier",
+                "Siachen Glacier"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lambert Glacier in Antarctica is about 400 km long, the world's longest glacier. Siachen Glacier in the Karakoram is 76 km long.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_042",
+              "question": "Which country has more airports?",
+              "options": [
+                "United States",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States has over 13,500 airports, by far the most in the world. Brazil has about 2,500 airports, the second-most.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_043",
+              "question": "Which delta is larger?",
+              "options": [
+                "Ganges-Brahmaputra Delta",
+                "Mississippi Delta"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Ganges-Brahmaputra Delta covers about 105,000 square kilometers, the world's largest delta. The Mississippi Delta is approximately 12,350 square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_044",
+              "question": "Which country has a higher life expectancy?",
+              "options": [
+                "Japan",
+                "Switzerland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Japan has the world's highest life expectancy at about 84.5 years. Switzerland is also very high at 83.4 years.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_045",
+              "question": "Which sand sea is larger?",
+              "options": [
+                "Rub' al Khali",
+                "Taklamakan Desert"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Rub' al Khali (Empty Quarter) in Arabia covers about 650,000 square kilometers, the world's largest continuous sand desert. Taklamakan is about 337,000 square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_046",
+              "question": "Which country has more renewable energy capacity?",
+              "options": [
+                "China",
+                "United States"
+              ],
+              "correct_answer": 0,
+              "explanation": "China leads the world in renewable energy capacity with over 1,000 GW installed, significantly ahead of the United States' approximately 300 GW.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_047",
+              "question": "Which fault line is longer?",
+              "options": [
+                "San Andreas Fault",
+                "Alpine Fault"
+              ],
+              "correct_answer": 0,
+              "explanation": "The San Andreas Fault extends about 1,200 km through California. New Zealand's Alpine Fault is approximately 600 km long.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_048",
+              "question": "Which country has more internet users?",
+              "options": [
+                "China",
+                "India"
+              ],
+              "correct_answer": 0,
+              "explanation": "China has about 1.05 billion internet users, the most in the world. India is second with approximately 700 million users.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_049",
+              "question": "Which sinkhole is deeper?",
+              "options": [
+                "Xiaozhai Tiankeng",
+                "Dean's Blue Hole"
+              ],
+              "correct_answer": 0,
+              "explanation": "Xiaozhai Tiankeng in China is 662 meters deep, the world's deepest sinkhole. Dean's Blue Hole in the Bahamas is 202 meters deep.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_050",
+              "question": "Which country has more UNESCO Biosphere Reserves?",
+              "options": [
+                "United States",
+                "Russia"
+              ],
+              "correct_answer": 1,
+              "explanation": "Russia has 48 UNESCO Biosphere Reserves, more than any other country. The United States has 47 reserves.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_051",
+              "question": "Which atoll is larger?",
+              "options": [
+                "Great Chagos Bank",
+                "Kwajalein Atoll"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Great Chagos Bank is the world's largest atoll at about 12,642 square kilometers. Kwajalein Atoll is approximately 2,174 square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_052",
+              "question": "Which country has more Olympic gold medals all-time?",
+              "options": [
+                "United States",
+                "Soviet Union"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States has won over 1,100 Olympic gold medals, the most of any nation. The Soviet Union won 440 golds during its existence.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_053",
+              "question": "Which inland sea is larger?",
+              "options": [
+                "Caspian Sea",
+                "Aral Sea"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Caspian Sea is 371,000 square kilometers. The Aral Sea has shrunk dramatically from 68,000 to about 7,000 square kilometers due to irrigation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_054",
+              "question": "Which country has more vehicles per capita?",
+              "options": [
+                "United States",
+                "Italy"
+              ],
+              "correct_answer": 1,
+              "explanation": "Italy has the highest vehicle ownership rate at about 89 vehicles per 100 people. The United States has approximately 84 per 100 people.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_055",
+              "question": "Which fjord is longer?",
+              "options": [
+                "Sognefjord",
+                "Scoresby Sund"
+              ],
+              "correct_answer": 1,
+              "explanation": "Scoresby Sund in Greenland is about 350 km long, the world's longest fjord system. Norway's Sognefjord is 205 km long.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_056",
+              "question": "Which country has more cattle?",
+              "options": [
+                "India",
+                "Brazil"
+              ],
+              "correct_answer": 0,
+              "explanation": "India has the world's largest cattle population at about 300 million head, though most are not raised for beef. Brazil has approximately 230 million.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_057",
+              "question": "Which underground river is longer?",
+              "options": [
+                "Puerto Princesa Underground River",
+                "Sistema Sac Actun"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sistema Sac Actun in Mexico is about 347 km long, the world's longest underground river system. Puerto Princesa in the Philippines is 8.2 km.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_058",
+              "question": "Which country has more UNESCO Creative Cities?",
+              "options": [
+                "China",
+                "Italy"
+              ],
+              "correct_answer": 0,
+              "explanation": "China has over 40 UNESCO Creative Cities, the most of any nation. Italy has about 15 Creative Cities in the network.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_059",
+              "question": "Which salt flat is larger?",
+              "options": [
+                "Salar de Uyuni",
+                "Makgadikgadi Pan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Salar de Uyuni in Bolivia is 10,582 square kilometers, the world's largest salt flat. Makgadikgadi Pan in Botswana is about 3,900 square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_060",
+              "question": "Which country has more mobile phone subscriptions per capita?",
+              "options": [
+                "UAE",
+                "Hong Kong"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hong Kong has about 300 mobile subscriptions per 100 people (multiple devices per person). UAE has approximately 200 per 100 people.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_061",
+              "question": "Which cave system is longer?",
+              "options": [
+                "Mammoth Cave",
+                "Sistema Sac Actun"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mammoth Cave in Kentucky is over 650 km long, the world's longest known cave system. Sistema Sac Actun in Mexico is about 347 km.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_062",
+              "question": "Which country exports more coffee?",
+              "options": [
+                "Brazil",
+                "Vietnam"
+              ],
+              "correct_answer": 0,
+              "explanation": "Brazil is the world's largest coffee exporter, producing about 40% of global supply. Vietnam is the second-largest exporter.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_063",
+              "question": "Which lagoon is larger?",
+              "options": [
+                "Lagoa dos Patos",
+                "New Caledonian Lagoon"
+              ],
+              "correct_answer": 1,
+              "explanation": "The New Caledonian Lagoon covers about 24,000 square kilometers, the world's largest lagoon. Lagoa dos Patos in Brazil is about 10,000 square kilometers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_064",
+              "question": "Which country has more wind turbines?",
+              "options": [
+                "China",
+                "Germany"
+              ],
+              "correct_answer": 0,
+              "explanation": "China has over 300,000 wind turbines installed, far more than any other country. Germany has approximately 30,000 turbines.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "battle_065",
+              "question": "Which country has the most lakes?",
+              "options": [
+                "Canada",
+                "Finland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Canada has over 2 million lakes (about 31,000 larger than 3 square km), far more than Finland's approximately 188,000 lakes.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_066",
+              "question": "Which country has a higher percentage of forest cover?",
+              "options": [
+                "Suriname",
+                "Finland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Suriname has about 98% forest coverage, the highest percentage in the world. Finland has approximately 73% forest coverage.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_067",
+              "question": "Which hotspot has recorded higher temperatures?",
+              "options": [
+                "Death Valley",
+                "Lut Desert"
+              ],
+              "correct_answer": 1,
+              "explanation": "Iran's Lut Desert recorded a ground temperature of 70.7°C (159°F), the highest ever measured. Death Valley holds the record for highest air temperature at 56.7°C.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_068",
+              "question": "Which country has more merchant ships registered?",
+              "options": [
+                "Panama",
+                "Liberia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Panama has the largest ship registry with over 8,000 vessels, accounting for about 17% of global tonnage. Liberia is second.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_069",
+              "question": "Which volcanic crater is larger?",
+              "options": [
+                "Ngorongoro Crater",
+                "Mount Aso Caldera"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mount Aso's caldera in Japan is about 25 km across, one of the world's largest. Ngorongoro Crater in Tanzania is approximately 19 km in diameter.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_070",
+              "question": "Which country has more UNESCO Geoparks?",
+              "options": [
+                "China",
+                "Spain"
+              ],
+              "correct_answer": 0,
+              "explanation": "China has 41 UNESCO Global Geoparks, the most of any country. Spain has 15 Geoparks in the network.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_071",
+              "question": "Which tidal range is greater?",
+              "options": [
+                "Bay of Fundy",
+                "Severn Estuary"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Bay of Fundy in Canada has the world's highest tidal range at up to 16 meters. The Severn Estuary has a range up to 15 meters.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_072",
+              "question": "Which country has more natural gas reserves?",
+              "options": [
+                "Russia",
+                "Iran"
+              ],
+              "correct_answer": 0,
+              "explanation": "Russia has the world's largest natural gas reserves at about 48 trillion cubic meters. Iran is second with approximately 32 trillion cubic meters.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_073",
+              "question": "Which geothermal field produces more energy?",
+              "options": [
+                "The Geysers",
+                "Larderello"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Geysers in California produces about 1,500 MW, making it the world's largest geothermal field. Larderello in Italy produces about 800 MW.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_074",
+              "question": "Which country has more endemic bird species?",
+              "options": [
+                "Indonesia",
+                "Australia"
+              ],
+              "correct_answer": 0,
+              "explanation": "Indonesia has over 400 endemic bird species, the most of any country. Australia has approximately 350 endemic bird species.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_075",
+              "question": "Which meteorite crater is larger?",
+              "options": [
+                "Vredefort Crater",
+                "Chicxulub Crater"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vredefort Crater in South Africa is about 300 km in diameter, the world's largest verified impact structure. Chicxulub in Mexico is approximately 180 km.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_076",
+              "question": "Which country has more geothermal power capacity?",
+              "options": [
+                "United States",
+                "Philippines"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States has about 3,700 MW of geothermal capacity, the most in the world. The Philippines is second with approximately 1,900 MW.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_077",
+              "question": "Which seamount is taller from base to peak?",
+              "options": [
+                "Mauna Kea",
+                "Mount Everest"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mauna Kea measures 10,203 meters from its submarine base to summit, taller than Everest's 8,849 meters above sea level.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_078",
+              "question": "Which country has more paved runway airports?",
+              "options": [
+                "United States",
+                "Russia"
+              ],
+              "correct_answer": 0,
+              "explanation": "The United States has over 5,000 airports with paved runways, far more than any other country. Russia has approximately 1,200.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_079",
+              "question": "Which aquifer system is larger?",
+              "options": [
+                "Guarani Aquifer",
+                "Ogallala Aquifer"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Guarani Aquifer in South America covers about 1.2 million square kilometers. The Ogallala Aquifer in the US covers approximately 450,000 square kilometers.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "battle_080",
+              "question": "Which country has more thunderstorm days per year?",
+              "options": [
+                "Democratic Republic of Congo",
+                "Venezuela"
+              ],
+              "correct_answer": 0,
+              "explanation": "The DRC, particularly the village of Kifuka, experiences about 158 thunderstorm days per year, more than anywhere else. Venezuela's Lake Maracaibo area has about 140 days.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
         }
       ]
     },
