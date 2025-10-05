@@ -2808,6 +2808,552 @@
               "explanation": "Using the Rydberg formula: 1/λ = R(1/n₁² - 1/n₂²) = 1.097 × 10⁷(1/4 - 1/9) = 1.52 × 10⁶ m⁻¹. Therefore λ = 656 nm. This transition produces the red H-alpha line in hydrogen's Balmer series.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "chem_087",
+              "question": "Which quantum number determines the shape of an atomic orbital?",
+              "options": [
+                "Principal quantum number (n)",
+                "Azimuthal quantum number (l)",
+                "Magnetic quantum number (m)",
+                "Spin quantum number (s)"
+              ],
+              "correct_answer": 1,
+              "explanation": "The azimuthal (angular momentum) quantum number (l) determines the shape of the orbital. Values of l=0,1,2,3 correspond to s, p, d, and f orbitals with different shapes.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_088",
+              "question": "In coordination chemistry, what is the term for ligands that can donate two pairs of electrons from two different atoms?",
+              "options": [
+                "Monodentate",
+                "Bidentate",
+                "Polydentate",
+                "Ambidentate"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bidentate ligands have two donor atoms and can form two coordinate bonds with the central metal ion, such as ethylenediamine or oxalate ion.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_089",
+              "question": "What type of isomerism is exhibited by [Co(NH3)5Br]SO4 and [Co(NH3)5SO4]Br?",
+              "options": [
+                "Geometrical isomerism",
+                "Optical isomerism",
+                "Ionization isomerism",
+                "Linkage isomerism"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ionization isomerism occurs when the counter ion and a ligand exchange places. These complexes produce different ions in solution: one produces Br⁻ and the other produces SO4²⁻.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_090",
+              "question": "In thermodynamics, what is the criterion for spontaneity at constant temperature and pressure?",
+              "options": [
+                "ΔH < 0",
+                "ΔS > 0",
+                "ΔG < 0",
+                "ΔU < 0"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Gibbs free energy change (ΔG < 0) is the criterion for spontaneity at constant temperature and pressure. A negative ΔG indicates that the process can occur spontaneously.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_091",
+              "question": "What effect describes the electron-withdrawing influence transmitted through sigma bonds in organic molecules?",
+              "options": [
+                "Inductive effect",
+                "Mesomeric effect",
+                "Hyperconjugation",
+                "Electromeric effect"
+              ],
+              "correct_answer": 0,
+              "explanation": "The inductive effect is the permanent polarization of a σ bond due to electronegativity differences. It's transmitted through the chain and decreases with distance.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_092",
+              "question": "In crystal field theory, what is the electronic configuration of Fe²⁺ in a strong field octahedral complex?",
+              "options": [
+                "t2g⁴ eg²",
+                "t2g⁶ eg⁰",
+                "t2g⁵ eg¹",
+                "t2g³ eg³"
+              ],
+              "correct_answer": 1,
+              "explanation": "Fe²⁺ has 6 d-electrons. In a strong field octahedral complex, the crystal field splitting is large, causing all electrons to pair in the lower t2g orbitals: t2g⁶ eg⁰.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_093",
+              "question": "Which spectroscopic technique is most useful for determining the functional groups present in an organic compound?",
+              "options": [
+                "UV-Vis spectroscopy",
+                "Infrared spectroscopy",
+                "Mass spectrometry",
+                "X-ray crystallography"
+              ],
+              "correct_answer": 1,
+              "explanation": "Infrared (IR) spectroscopy is most useful for identifying functional groups as different bonds absorb IR radiation at characteristic frequencies, producing a molecular fingerprint.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_094",
+              "question": "What is the hybridization of the central atom in XeF4?",
+              "options": [
+                "sp³",
+                "sp³d",
+                "sp³d²",
+                "sp³d³"
+              ],
+              "correct_answer": 2,
+              "explanation": "XeF4 has 4 bond pairs and 2 lone pairs, requiring 6 orbitals. This corresponds to sp³d² hybridization, resulting in a square planar geometry.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_095",
+              "question": "In electrochemistry, what is the relationship between Gibbs free energy and cell potential?",
+              "options": [
+                "ΔG = nFE°",
+                "ΔG = -nFE°",
+                "ΔG = RT ln K",
+                "ΔG = -RT ln K"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Gibbs free energy change is related to the standard cell potential by ΔG° = -nFE°, where n is the number of electrons transferred and F is Faraday's constant.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_096",
+              "question": "What is the correct order of stability for carbocations?",
+              "options": [
+                "Primary > Secondary > Tertiary",
+                "Tertiary > Secondary > Primary",
+                "Secondary > Tertiary > Primary",
+                "Primary > Tertiary > Secondary"
+              ],
+              "correct_answer": 1,
+              "explanation": "Tertiary carbocations are most stable due to hyperconjugation and inductive effects from three alkyl groups. Stability order: 3° > 2° > 1° > methyl.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_097",
+              "question": "In chemical kinetics, what does the Arrhenius equation relate?",
+              "options": [
+                "Rate constant to temperature",
+                "Rate to concentration",
+                "Equilibrium constant to temperature",
+                "Activation energy to enthalpy"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Arrhenius equation k = Ae^(-Ea/RT) relates the rate constant (k) to temperature (T), activation energy (Ea), and the pre-exponential factor (A).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_098",
+              "question": "Which type of intermolecular force is responsible for the high boiling point of water?",
+              "options": [
+                "London dispersion forces",
+                "Dipole-dipole interactions",
+                "Hydrogen bonding",
+                "Ion-dipole forces"
+              ],
+              "correct_answer": 2,
+              "explanation": "Hydrogen bonding between water molecules is exceptionally strong due to the high electronegativity of oxygen and small size of hydrogen, resulting in water's unusually high boiling point.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_099",
+              "question": "What is the IUPAC name of the compound CH3CH2CH(OH)CH2CHO?",
+              "options": [
+                "3-hydroxypentanal",
+                "4-hydroxypentanal",
+                "2-hydroxypentanal",
+                "1-hydroxy-4-pentanone"
+              ],
+              "correct_answer": 0,
+              "explanation": "The aldehyde group has priority, so the chain is numbered from the CHO end. The OH group is on carbon 3, making it 3-hydroxypentanal.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_100",
+              "question": "In resonance structures, which factor determines the major contributor?",
+              "options": [
+                "More bonds",
+                "Complete octets",
+                "Minimum charge separation",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "The major resonance contributor has: maximum bonds, complete octets on all atoms, minimum formal charges, and negative charge on more electronegative atoms.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_101",
+              "question": "What is the coordination number of the central metal ion in [Fe(CN)6]⁴⁻?",
+              "options": [
+                "4",
+                "6",
+                "8",
+                "12"
+              ],
+              "correct_answer": 1,
+              "explanation": "The coordination number is the number of ligand donor atoms bonded to the central metal. In [Fe(CN)6]⁴⁻, six cyanide ligands are coordinated to Fe, giving a coordination number of 6.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_102",
+              "question": "Which rule states that electrons occupy orbitals singly before pairing up?",
+              "options": [
+                "Pauli exclusion principle",
+                "Hund's rule",
+                "Aufbau principle",
+                "Heisenberg uncertainty principle"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hund's rule states that electrons fill degenerate orbitals singly with parallel spins before pairing, as this minimizes electron-electron repulsion and maximizes spin multiplicity.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_103",
+              "question": "What type of reaction is the Claisen condensation?",
+              "options": [
+                "Aldol condensation",
+                "Ester condensation",
+                "Friedel-Crafts acylation",
+                "Dieckmann condensation"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Claisen condensation is an ester condensation where two ester molecules react in the presence of a strong base to form a β-keto ester.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_104",
+              "question": "In molecular orbital theory, which type of orbital overlap leads to the formation of a sigma bond?",
+              "options": [
+                "Side-to-side overlap",
+                "End-to-end overlap",
+                "π-π overlap",
+                "No overlap"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sigma (σ) bonds form through end-to-end (head-on) overlap of atomic orbitals along the internuclear axis, creating electron density between the nuclei.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_105",
+              "question": "What is the oxidation state of chromium in K2Cr2O7?",
+              "options": [
+                "+3",
+                "+4",
+                "+5",
+                "+6"
+              ],
+              "correct_answer": 3,
+              "explanation": "In K2Cr2O7, K has +1 and O has -2. Using 2(+1) + 2x + 7(-2) = 0, we get x = +6. Each chromium atom has an oxidation state of +6.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_106",
+              "question": "Which effect explains the stability of benzene through delocalization of π electrons?",
+              "options": [
+                "Inductive effect",
+                "Resonance effect",
+                "Hyperconjugation",
+                "Steric effect"
+              ],
+              "correct_answer": 1,
+              "explanation": "The resonance effect (mesomeric effect) explains benzene's stability. The six π electrons are delocalized over the ring, creating resonance stabilization energy of about 36 kcal/mol.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_107",
+              "question": "What is the geometry of SF6 according to VSEPR theory?",
+              "options": [
+                "Tetrahedral",
+                "Trigonal bipyramidal",
+                "Octahedral",
+                "Square planar"
+              ],
+              "correct_answer": 2,
+              "explanation": "SF6 has 6 bond pairs and 0 lone pairs around sulfur, resulting in octahedral geometry with bond angles of 90°. All F-S-F bonds are equivalent.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_108",
+              "question": "In a zero-order reaction, what is the relationship between concentration and time?",
+              "options": [
+                "Exponential",
+                "Linear",
+                "Logarithmic",
+                "Inverse"
+              ],
+              "correct_answer": 1,
+              "explanation": "For a zero-order reaction, the rate is independent of concentration. The integrated rate law is [A] = [A]₀ - kt, showing a linear decrease of concentration with time.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_109",
+              "question": "What type of isomerism is shown by [Co(en)2Cl2]⁺ complexes?",
+              "options": [
+                "Geometrical isomerism",
+                "Optical isomerism",
+                "Both geometrical and optical",
+                "Linkage isomerism"
+              ],
+              "correct_answer": 2,
+              "explanation": "[Co(en)2Cl2]⁺ shows geometrical isomerism (cis and trans) and the cis form also shows optical isomerism due to the lack of a plane of symmetry.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_110",
+              "question": "Which parameter in the Nernst equation accounts for the effect of concentration on electrode potential?",
+              "options": [
+                "Standard potential",
+                "Temperature",
+                "Reaction quotient Q",
+                "Number of electrons"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Nernst equation E = E° - (RT/nF)lnQ includes the reaction quotient Q, which represents the ratio of product to reactant concentrations.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_111",
+              "question": "What is the product when benzene reacts with chlorine in the presence of anhydrous AlCl3?",
+              "options": [
+                "Chlorobenzene",
+                "Benzyl chloride",
+                "Hexachlorobenzene",
+                "Benzoyl chloride"
+              ],
+              "correct_answer": 0,
+              "explanation": "This is an electrophilic substitution reaction where AlCl3 acts as a Lewis acid catalyst, producing chlorobenzene (C6H5Cl) and HCl.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_112",
+              "question": "In thermodynamics, what is the relationship between ΔG°, ΔH°, and ΔS°?",
+              "options": [
+                "ΔG° = ΔH° + TΔS°",
+                "ΔG° = ΔH° - TΔS°",
+                "ΔG° = TΔH° - ΔS°",
+                "ΔG° = ΔH°/TΔS°"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Gibbs-Helmholtz equation ΔG° = ΔH° - TΔS° relates standard free energy change to enthalpy and entropy changes at temperature T.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_113",
+              "question": "What is the correct electronic configuration of Cu²⁺ ion?",
+              "options": [
+                "[Ar] 3d⁹",
+                "[Ar] 3d⁸ 4s¹",
+                "[Ar] 3d¹⁰",
+                "[Ar] 3d⁷ 4s²"
+              ],
+              "correct_answer": 0,
+              "explanation": "Copper has configuration [Ar] 3d¹⁰ 4s¹. When it loses two electrons to form Cu²⁺, both come from the 4s and one from 3d, giving [Ar] 3d⁹.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_114",
+              "question": "Which type of chromatography separates compounds based on their polarity?",
+              "options": [
+                "Size exclusion chromatography",
+                "Ion exchange chromatography",
+                "Adsorption chromatography",
+                "Gel filtration chromatography"
+              ],
+              "correct_answer": 2,
+              "explanation": "Adsorption chromatography (like thin-layer or column chromatography) separates compounds based on their different polarities and affinities for the stationary phase.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_115",
+              "question": "What is the oxidation state of sulfur in H2SO5 (peroxomonosulfuric acid)?",
+              "options": [
+                "+4",
+                "+5",
+                "+6",
+                "+8"
+              ],
+              "correct_answer": 2,
+              "explanation": "In H2SO5, there is a peroxo linkage (-O-O-) where each O has -1 oxidation state. Using 2(+1) + x + 3(-2) + 2(-1) = 0, we get x = +6 for sulfur.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_116",
+              "question": "In the Friedel-Crafts alkylation, what is the role of AlCl3?",
+              "options": [
+                "Nucleophile",
+                "Electrophile generator",
+                "Reducing agent",
+                "Base"
+              ],
+              "correct_answer": 1,
+              "explanation": "AlCl3 acts as a Lewis acid catalyst, coordinating with the alkyl halide to generate a more reactive electrophilic carbocation that attacks the benzene ring.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_117",
+              "question": "What is the half-life of a first-order reaction independent of?",
+              "options": [
+                "Rate constant",
+                "Temperature",
+                "Initial concentration",
+                "Activation energy"
+              ],
+              "correct_answer": 2,
+              "explanation": "For first-order reactions, t₁/₂ = 0.693/k is independent of initial concentration and depends only on the rate constant.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_118",
+              "question": "Which principle explains why P4 is more reactive than N2?",
+              "options": [
+                "Bond angle strain",
+                "Electronegativity difference",
+                "Lone pair repulsion",
+                "Triple bond strength"
+              ],
+              "correct_answer": 3,
+              "explanation": "N2 has a very strong triple bond (945 kJ/mol) making it unreactive, while P4 has weaker single bonds with angle strain, making it much more reactive.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_119",
+              "question": "What is the major product when propene undergoes hydroboration-oxidation?",
+              "options": [
+                "1-propanol",
+                "2-propanol",
+                "Propanal",
+                "Acetone"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hydroboration-oxidation is an anti-Markovnikov addition of water. The OH group adds to the less substituted carbon, producing 1-propanol.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_120",
+              "question": "In quantum chemistry, what does the Schrödinger equation describe?",
+              "options": [
+                "Energy levels only",
+                "Wave function of a system",
+                "Electron spin",
+                "Nuclear properties"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Schrödinger equation Hψ = Eψ is a fundamental equation that describes the wave function ψ of a quantum system and its energy eigenvalues.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_121",
+              "question": "What type of bond is formed between boron and fluorine in BF3?",
+              "options": [
+                "Pure covalent",
+                "Polar covalent",
+                "Ionic",
+                "Coordinate covalent"
+              ],
+              "correct_answer": 1,
+              "explanation": "BF3 has polar covalent bonds due to the electronegativity difference between B (2.0) and F (4.0), though the molecule is nonpolar due to its trigonal planar symmetry.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_122",
+              "question": "Which reagent is used in the Clemmensen reduction?",
+              "options": [
+                "NaBH4",
+                "LiAlH4",
+                "Zn-Hg/HCl",
+                "H2/Pd"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Clemmensen reduction uses Zn-Hg amalgam in concentrated HCl to reduce carbonyl groups (aldehydes and ketones) to methylene groups (-CH2-).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_123",
+              "question": "What is the magnetic behavior of [Ni(CN)4]²⁻ complex?",
+              "options": [
+                "Paramagnetic with 2 unpaired electrons",
+                "Diamagnetic",
+                "Paramagnetic with 4 unpaired electrons",
+                "Ferromagnetic"
+              ],
+              "correct_answer": 1,
+              "explanation": "[Ni(CN)4]²⁻ is square planar with dsp² hybridization. CN⁻ is a strong field ligand causing electron pairing, resulting in zero unpaired electrons and diamagnetic behavior.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_124",
+              "question": "In the van't Hoff equation, what does the parameter 'i' represent?",
+              "options": [
+                "Molality",
+                "Molarity",
+                "van't Hoff factor",
+                "Osmotic pressure"
+              ],
+              "correct_answer": 2,
+              "explanation": "The van't Hoff factor (i) represents the number of particles a solute produces in solution. For NaCl, i ≈ 2; for glucose, i = 1.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "chem_125",
+              "question": "What is the product distribution when toluene undergoes nitration with HNO3/H2SO4?",
+              "options": [
+                "Only para-nitrotoluene",
+                "Only ortho-nitrotoluene",
+                "Ortho and para mixture",
+                "Only meta-nitrotoluene"
+              ],
+              "correct_answer": 2,
+              "explanation": "The methyl group is an ortho-para directing activating group due to +I effect. Nitration of toluene gives a mixture of o-nitrotoluene (60%) and p-nitrotoluene (40%).",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -4004,6 +4550,552 @@
               ],
               "correct_answer": 2,
               "explanation": "The Calvin cycle, also known as the light-independent reactions of photosynthesis, uses the ATP and NADPH produced during the light-dependent reactions to fix atmospheric carbon dioxide into glucose and other organic molecules.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_087",
+              "question": "What is the primary function of the Golgi apparatus in post-translational modification?",
+              "options": [
+                "Phosphorylation",
+                "Glycosylation",
+                "Ubiquitination",
+                "Acetylation"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Golgi apparatus is primarily responsible for glycosylation, the addition of carbohydrate groups to proteins. This includes both N-linked and O-linked glycosylation, which are crucial for protein folding, stability, and function.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_088",
+              "question": "In the Calvin cycle, which enzyme catalyzes the first step of carbon fixation?",
+              "options": [
+                "Phosphoglycerate kinase",
+                "RuBisCO",
+                "Aldolase",
+                "Transketolase"
+              ],
+              "correct_answer": 1,
+              "explanation": "RuBisCO (Ribulose-1,5-bisphosphate carboxylase/oxygenase) catalyzes the fixation of CO2 to ribulose-1,5-bisphosphate, forming two molecules of 3-phosphoglycerate. It is considered the most abundant enzyme on Earth.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_089",
+              "question": "Which molecular mechanism is primarily responsible for X-inactivation in female mammals?",
+              "options": [
+                "DNA methylation only",
+                "Histone modification only",
+                "Xist RNA coating",
+                "MicroRNA silencing"
+              ],
+              "correct_answer": 2,
+              "explanation": "X-inactivation is mediated by Xist (X-inactive specific transcript) long non-coding RNA, which coats one X chromosome and recruits repressive chromatin modifiers, leading to heterochromatin formation and transcriptional silencing.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_090",
+              "question": "In the electron transport chain, which complex does NOT pump protons across the inner mitochondrial membrane?",
+              "options": [
+                "Complex I",
+                "Complex II",
+                "Complex III",
+                "Complex IV"
+              ],
+              "correct_answer": 1,
+              "explanation": "Complex II (succinate dehydrogenase) does not pump protons. It only transfers electrons from succinate to ubiquinone. Complexes I, III, and IV are proton pumps that contribute to the electrochemical gradient.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_091",
+              "question": "What type of selection is occurring when heterozygotes have higher fitness than either homozygote?",
+              "options": [
+                "Directional selection",
+                "Stabilizing selection",
+                "Disruptive selection",
+                "Balancing selection"
+              ],
+              "correct_answer": 3,
+              "explanation": "Balancing selection, specifically heterozygote advantage (overdominance), maintains genetic variation by favoring heterozygotes. The classic example is sickle cell trait providing malaria resistance while avoiding severe anemia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_092",
+              "question": "Which transcription factor is known as the 'master regulator' of pluripotency in embryonic stem cells?",
+              "options": [
+                "Sox2",
+                "Nanog",
+                "Oct4",
+                "Klf4"
+              ],
+              "correct_answer": 2,
+              "explanation": "Oct4 (Octamer-binding transcription factor 4) is considered the master regulator of pluripotency. It works with Sox2 and Nanog to maintain the undifferentiated state of embryonic stem cells.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_093",
+              "question": "In immunology, which process generates antibody diversity through random recombination of gene segments?",
+              "options": [
+                "Somatic hypermutation",
+                "V(D)J recombination",
+                "Class switching",
+                "Clonal selection"
+              ],
+              "correct_answer": 1,
+              "explanation": "V(D)J recombination is the mechanism by which T and B cells randomly assemble different gene segments (Variable, Diversity, and Joining) to produce a diverse repertoire of antigen receptors.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_094",
+              "question": "What is the fate of the neural crest cells during vertebrate development?",
+              "options": [
+                "Form the central nervous system",
+                "Form peripheral nervous system and melanocytes",
+                "Form the notochord",
+                "Form the neural tube"
+              ],
+              "correct_answer": 1,
+              "explanation": "Neural crest cells are multipotent cells that migrate from the neural tube and differentiate into diverse cell types including peripheral neurons, Schwann cells, melanocytes, craniofacial cartilage, and smooth muscle.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_095",
+              "question": "Which enzyme complex is deficient in individuals with Leigh syndrome affecting mitochondrial function?",
+              "options": [
+                "Pyruvate dehydrogenase",
+                "Complex I or IV",
+                "ATP synthase",
+                "Citrate synthase"
+              ],
+              "correct_answer": 1,
+              "explanation": "Leigh syndrome is a severe neurological disorder caused by defects in mitochondrial energy production, most commonly affecting Complex I (NADH dehydrogenase) or Complex IV (cytochrome c oxidase) of the electron transport chain.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_096",
+              "question": "In plant biology, what is the role of the Casparian strip in the endodermis?",
+              "options": [
+                "Facilitates water absorption",
+                "Prevents apoplastic movement of water",
+                "Stores starch",
+                "Conducts photosynthesis"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Casparian strip is a band of suberin in the endodermal cell walls that blocks the apoplastic pathway, forcing water and solutes to pass through the selectively permeable cell membranes, allowing the plant to control mineral uptake.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_097",
+              "question": "Which phenomenon explains why the recombination frequency between two genes cannot exceed 50%?",
+              "options": [
+                "Gene linkage",
+                "Independent assortment",
+                "Crossing over limitation",
+                "Genetic drift"
+              ],
+              "correct_answer": 1,
+              "explanation": "When genes are on different chromosomes or very far apart on the same chromosome, they assort independently, producing a maximum of 50% recombinant offspring (equal to parental types). This represents the limit of observable recombination.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_098",
+              "question": "What is the primary mechanism by which CRISPR-Cas9 recognizes its target DNA sequence?",
+              "options": [
+                "Protein-DNA recognition",
+                "Guide RNA complementarity",
+                "Restriction site recognition",
+                "Methylation pattern"
+              ],
+              "correct_answer": 1,
+              "explanation": "CRISPR-Cas9 uses a guide RNA (gRNA) that is complementary to the target DNA sequence. The gRNA directs the Cas9 nuclease to the specific genomic location through Watson-Crick base pairing, followed by DNA cleavage.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_099",
+              "question": "In the sliding filament theory of muscle contraction, what causes the power stroke?",
+              "options": [
+                "ATP binding to myosin",
+                "ATP hydrolysis",
+                "Calcium binding to troponin",
+                "Release of inorganic phosphate from myosin"
+              ],
+              "correct_answer": 3,
+              "explanation": "The power stroke occurs when inorganic phosphate (Pi) is released from the myosin head, causing a conformational change that pulls the actin filament. ADP is subsequently released, and ATP binding causes detachment.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_100",
+              "question": "Which structure in prokaryotes is functionally analogous to the spliceosome in eukaryotes?",
+              "options": [
+                "Ribosome",
+                "None - prokaryotes lack introns",
+                "RNA polymerase",
+                "Sigma factor"
+              ],
+              "correct_answer": 1,
+              "explanation": "Prokaryotic genes generally lack introns, so they do not require splicing machinery like the spliceosome. Their genes are typically continuous coding sequences that are directly translated from mRNA.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_101",
+              "question": "What is the biochemical basis of sickle cell anemia at the molecular level?",
+              "options": [
+                "Deletion in beta-globin gene",
+                "Point mutation causing Glu to Val substitution",
+                "Frameshift mutation",
+                "Nonsense mutation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sickle cell anemia results from a single nucleotide substitution (A to T) in the beta-globin gene, replacing glutamic acid with valine at position 6. This causes hemoglobin to polymerize under low oxygen, deforming red blood cells.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_102",
+              "question": "In synaptic transmission, which ion influx directly triggers neurotransmitter release?",
+              "options": [
+                "Sodium",
+                "Potassium",
+                "Calcium",
+                "Chloride"
+              ],
+              "correct_answer": 2,
+              "explanation": "Calcium ion influx through voltage-gated calcium channels at the presynaptic terminal directly triggers the fusion of synaptic vesicles with the membrane and subsequent neurotransmitter release into the synaptic cleft.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_103",
+              "question": "Which enzyme is responsible for removing supercoiled tension ahead of the replication fork?",
+              "options": [
+                "Helicase",
+                "Topoisomerase",
+                "Primase",
+                "Ligase"
+              ],
+              "correct_answer": 1,
+              "explanation": "Topoisomerases (especially topoisomerase II or DNA gyrase in prokaryotes) relieve the tension from supercoiling that builds up ahead of the replication fork as helicase unwinds the DNA double helix.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_104",
+              "question": "What is the primary role of microRNAs (miRNAs) in gene regulation?",
+              "options": [
+                "Transcriptional activation",
+                "Post-transcriptional silencing",
+                "DNA methylation",
+                "Histone modification"
+              ],
+              "correct_answer": 1,
+              "explanation": "MicroRNAs are small non-coding RNAs that bind to complementary sequences in mRNA targets, leading to translational repression or mRNA degradation, thus regulating gene expression post-transcriptionally.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_105",
+              "question": "In the Hardy-Weinberg equilibrium, which condition is violated by genetic drift?",
+              "options": [
+                "No mutation",
+                "Random mating",
+                "Large population size",
+                "No migration"
+              ],
+              "correct_answer": 2,
+              "explanation": "Genetic drift has a stronger effect in small populations where random sampling errors can significantly change allele frequencies. Hardy-Weinberg equilibrium assumes an infinitely large population to eliminate random sampling effects.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_106",
+              "question": "Which cellular process is directly inhibited by colchicine, making it useful in treating gout?",
+              "options": [
+                "Actin polymerization",
+                "Microtubule assembly",
+                "DNA replication",
+                "Protein synthesis"
+              ],
+              "correct_answer": 1,
+              "explanation": "Colchicine binds to tubulin and prevents microtubule polymerization. In gout treatment, it inhibits neutrophil migration and phagocytosis by disrupting their microtubule-dependent cellular functions.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_107",
+              "question": "What is the primary function of telomerase in cellular aging?",
+              "options": [
+                "Repairs DNA damage",
+                "Extends telomeres",
+                "Prevents apoptosis",
+                "Enhances mitosis"
+              ],
+              "correct_answer": 1,
+              "explanation": "Telomerase is a reverse transcriptase that adds TTAGGG repeats to chromosome ends (telomeres), counteracting the end-replication problem. Its absence in most somatic cells contributes to cellular senescence.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_108",
+              "question": "In bacterial gene regulation, what is the function of the lac repressor protein?",
+              "options": [
+                "Activates transcription",
+                "Blocks RNA polymerase binding",
+                "Degrades lactose",
+                "Synthesizes cAMP"
+              ],
+              "correct_answer": 1,
+              "explanation": "The lac repressor binds to the operator region of the lac operon, physically blocking RNA polymerase from transcribing the genes. When lactose is present, it binds the repressor, causing it to release from the DNA.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_109",
+              "question": "Which membrane protein complex is defective in cystic fibrosis?",
+              "options": [
+                "Sodium channel",
+                "CFTR chloride channel",
+                "Aquaporin",
+                "Glucose transporter"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cystic fibrosis is caused by mutations in the CFTR (Cystic Fibrosis Transmembrane conductance Regulator) gene, which encodes a chloride channel. The most common mutation (ΔF508) prevents proper protein folding.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_110",
+              "question": "What is the immediate energy source for the Na+/K+ ATPase pump?",
+              "options": [
+                "GTP",
+                "ATP",
+                "Proton gradient",
+                "NADH"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Na+/K+ ATPase directly hydrolyzes ATP to pump 3 Na+ ions out and 2 K+ ions into the cell against their concentration gradients, maintaining the resting membrane potential and cell volume.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_111",
+              "question": "In eukaryotic transcription, which RNA polymerase transcribes protein-coding genes?",
+              "options": [
+                "RNA polymerase I",
+                "RNA polymerase II",
+                "RNA polymerase III",
+                "RNA polymerase IV"
+              ],
+              "correct_answer": 1,
+              "explanation": "RNA polymerase II transcribes all protein-coding genes (mRNA), as well as microRNAs and long non-coding RNAs. RNA pol I transcribes rRNA, and RNA pol III transcribes tRNA and other small RNAs.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_112",
+              "question": "What is the primary mechanism of antibiotic resistance conferred by beta-lactamase enzymes?",
+              "options": [
+                "Efflux pump activation",
+                "Target site modification",
+                "Drug inactivation",
+                "Decreased permeability"
+              ],
+              "correct_answer": 2,
+              "explanation": "Beta-lactamase enzymes hydrolyze the beta-lactam ring structure of penicillins and cephalosporins, inactivating these antibiotics before they can inhibit bacterial cell wall synthesis.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_113",
+              "question": "Which process describes the conversion of atmospheric nitrogen into ammonia by bacteria?",
+              "options": [
+                "Nitrification",
+                "Denitrification",
+                "Nitrogen fixation",
+                "Ammonification"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nitrogen fixation is performed by bacteria like Rhizobium using the nitrogenase enzyme complex to reduce atmospheric N2 to ammonia (NH3), making nitrogen available to plants. This process requires significant energy (16 ATP per N2).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_114",
+              "question": "In classical conditioning, what term describes the weakening of a conditioned response when the conditioned stimulus is repeatedly presented without the unconditioned stimulus?",
+              "options": [
+                "Habituation",
+                "Sensitization",
+                "Extinction",
+                "Generalization"
+              ],
+              "correct_answer": 2,
+              "explanation": "Extinction occurs when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, leading to a gradual decrease in the conditioned response, though the association is not completely forgotten (spontaneous recovery can occur).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_115",
+              "question": "What is the role of RecA protein in bacterial DNA repair?",
+              "options": [
+                "Excises damaged bases",
+                "Catalyzes homologous recombination",
+                "Seals DNA nicks",
+                "Unwinds DNA helices"
+              ],
+              "correct_answer": 1,
+              "explanation": "RecA protein is essential for homologous recombination and SOS DNA repair in bacteria. It promotes strand exchange between damaged DNA and an undamaged homologous template, allowing accurate repair.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_116",
+              "question": "Which cellular structure is responsible for the formation of the mitotic spindle?",
+              "options": [
+                "Centrioles",
+                "Centrosomes",
+                "Kinetochores",
+                "Nuclear envelope"
+              ],
+              "correct_answer": 1,
+              "explanation": "Centrosomes are the main microtubule-organizing centers (MTOCs) that nucleate and organize the mitotic spindle. They contain a pair of centrioles surrounded by pericentriolar material that nucleates microtubules.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_117",
+              "question": "In photosynthesis, what is the role of ferredoxin in the light reactions?",
+              "options": [
+                "Accepts electrons from Photosystem II",
+                "Transfers electrons to NADP+ reductase",
+                "Pumps protons",
+                "Generates ATP"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ferredoxin is an iron-sulfur protein that accepts electrons from Photosystem I and transfers them to ferredoxin-NADP+ reductase (FNR), which reduces NADP+ to NADPH for use in the Calvin cycle.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_118",
+              "question": "What is the molecular basis of blood type incompatibility in ABO system?",
+              "options": [
+                "Different protein structures",
+                "Antibody-antigen reactions",
+                "Enzyme deficiency",
+                "pH differences"
+              ],
+              "correct_answer": 1,
+              "explanation": "Blood type incompatibility occurs when antibodies in the recipient's plasma recognize foreign carbohydrate antigens on donor red blood cells, causing agglutination. Type A has anti-B antibodies, type B has anti-A, and type O has both.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_119",
+              "question": "Which enzyme is deficient in phenylketonuria (PKU)?",
+              "options": [
+                "Tyrosinase",
+                "Phenylalanine hydroxylase",
+                "Tryptophan hydroxylase",
+                "Homogentisate oxidase"
+              ],
+              "correct_answer": 1,
+              "explanation": "PKU results from deficiency of phenylalanine hydroxylase, which converts phenylalanine to tyrosine. Accumulated phenylalanine is converted to phenylpyruvate, causing intellectual disability if untreated. Early dietary restriction prevents symptoms.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_120",
+              "question": "In the citric acid cycle, which enzyme catalyzes the rate-limiting step?",
+              "options": [
+                "Citrate synthase",
+                "Isocitrate dehydrogenase",
+                "Alpha-ketoglutarate dehydrogenase",
+                "Succinate dehydrogenase"
+              ],
+              "correct_answer": 1,
+              "explanation": "Isocitrate dehydrogenase catalyzes the rate-limiting step, converting isocitrate to alpha-ketoglutarate while producing NADH and CO2. It is allosterically activated by ADP and Ca2+ and inhibited by ATP and NADH.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_121",
+              "question": "What is the primary mechanism of action of statins in lowering cholesterol?",
+              "options": [
+                "Inhibit cholesterol absorption",
+                "Inhibit HMG-CoA reductase",
+                "Enhance LDL receptor expression",
+                "Promote bile acid secretion"
+              ],
+              "correct_answer": 1,
+              "explanation": "Statins competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis. This leads to upregulation of LDL receptors on hepatocytes, increasing LDL clearance from blood.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_122",
+              "question": "Which molecule serves as the electron acceptor in lactic acid fermentation?",
+              "options": [
+                "Oxygen",
+                "NAD+",
+                "Pyruvate",
+                "Acetyl-CoA"
+              ],
+              "correct_answer": 2,
+              "explanation": "In lactic acid fermentation, pyruvate serves as the electron acceptor, being reduced to lactate by NADH. This regenerates NAD+ for glycolysis to continue in the absence of oxygen.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_123",
+              "question": "What is the function of the signal recognition particle (SRP) in protein synthesis?",
+              "options": [
+                "Initiates translation",
+                "Targets proteins to ER",
+                "Catalyzes peptide bonds",
+                "Degrades misfolded proteins"
+              ],
+              "correct_answer": 1,
+              "explanation": "SRP recognizes the signal sequence on nascent polypeptides emerging from ribosomes and directs the ribosome-mRNA complex to the ER membrane, where proteins destined for secretion or membrane insertion are synthesized.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_124",
+              "question": "In epigenetics, what is the primary function of DNA methyltransferases (DNMTs)?",
+              "options": [
+                "Remove methyl groups",
+                "Add methyl groups to cytosine",
+                "Acetylate histones",
+                "Cleave DNA"
+              ],
+              "correct_answer": 1,
+              "explanation": "DNMTs catalyze the addition of methyl groups to cytosine residues, particularly in CpG dinucleotides. This methylation generally represses gene transcription and plays crucial roles in development, genomic imprinting, and X-inactivation.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "bio_125",
+              "question": "Which cell organelle is primarily responsible for autophagy?",
+              "options": [
+                "Proteasome",
+                "Lysosome",
+                "Peroxisome",
+                "Ribosome"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lysosomes are the primary organelles for autophagy, degrading damaged organelles, protein aggregates, and pathogens. Autophagosomes engulf cellular components and fuse with lysosomes, where acidic hydrolases break down the contents.",
               "difficulty": "hard",
               "points": 10
             }
