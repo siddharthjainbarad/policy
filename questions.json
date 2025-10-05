@@ -1064,6 +1064,552 @@
               "explanation": "The de Broglie wavelength is calculated using λ = h/p, where h is Planck's constant and p is momentum. Substituting: λ = (6.63 × 10⁻³⁴ J·s) / (2.0 × 10⁻²⁴ kg·m/s) = 3.32 × 10⁻¹⁰ m. This wave-particle duality principle applies to all matter.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "physics_077",
+              "question": "What phenomenon explains why light bends around massive objects in space according to general relativity?",
+              "options": [
+                "Gravitational lensing",
+                "Cherenkov radiation",
+                "Doppler shift",
+                "Rayleigh scattering"
+              ],
+              "correct_answer": 0,
+              "explanation": "Gravitational lensing occurs because massive objects curve spacetime, and light follows the curved geodesics in this spacetime, appearing to bend around the massive object.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_078",
+              "question": "In thermodynamics, which type of process involves no heat transfer between the system and its surroundings?",
+              "options": [
+                "Isothermal",
+                "Isobaric",
+                "Adiabatic",
+                "Isochoric"
+              ],
+              "correct_answer": 2,
+              "explanation": "An adiabatic process is one where no heat is exchanged with the surroundings (Q=0). The system's temperature can change due to work done, but thermal energy doesn't cross the boundary.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_079",
+              "question": "What is the name of the hypothetical particle that mediates the gravitational force in quantum field theory?",
+              "options": [
+                "Gluon",
+                "Photon",
+                "Graviton",
+                "Higgs boson"
+              ],
+              "correct_answer": 2,
+              "explanation": "The graviton is the hypothetical quantum of gravity, a massless spin-2 particle that would mediate gravitational interactions. It has not been experimentally observed.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_080",
+              "question": "In special relativity, what happens to the length of an object moving at relativistic speeds when measured by a stationary observer?",
+              "options": [
+                "It increases",
+                "It contracts in the direction of motion",
+                "It remains unchanged",
+                "It contracts perpendicular to motion"
+              ],
+              "correct_answer": 1,
+              "explanation": "Length contraction (Lorentz contraction) causes objects moving at relativistic speeds to appear shorter in the direction of motion when measured by a stationary observer, by a factor of √(1-v²/c²).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_081",
+              "question": "Which quantum mechanical phenomenon allows particles to pass through potential barriers that they classically shouldn't be able to cross?",
+              "options": [
+                "Quantum entanglement",
+                "Quantum tunneling",
+                "Wave function collapse",
+                "Quantum decoherence"
+              ],
+              "correct_answer": 1,
+              "explanation": "Quantum tunneling occurs when a particle's wave function extends through a potential barrier, giving it a non-zero probability of appearing on the other side, even if it lacks the classical energy to overcome the barrier.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_082",
+              "question": "What is the term for the boundary around a black hole beyond which nothing can escape?",
+              "options": [
+                "Event horizon",
+                "Schwarzschild radius",
+                "Singularity",
+                "Ergosphere"
+              ],
+              "correct_answer": 0,
+              "explanation": "The event horizon is the boundary in spacetime beyond which events cannot affect an outside observer. For a non-rotating black hole, it occurs at the Schwarzschild radius.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_083",
+              "question": "In quantum field theory, what are the force-carrying particles called?",
+              "options": [
+                "Fermions",
+                "Bosons",
+                "Leptons",
+                "Hadrons"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bosons are force-carrying particles with integer spin. The fundamental forces are mediated by gauge bosons: photons (electromagnetic), W and Z bosons (weak), and gluons (strong).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_084",
+              "question": "What conservation law is associated with the homogeneity of space according to Noether's theorem?",
+              "options": [
+                "Conservation of energy",
+                "Conservation of momentum",
+                "Conservation of angular momentum",
+                "Conservation of charge"
+              ],
+              "correct_answer": 1,
+              "explanation": "Noether's theorem states that for every continuous symmetry, there is a conserved quantity. The homogeneity (translational invariance) of space corresponds to the conservation of linear momentum.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_085",
+              "question": "In the context of superfluids, what is the name of the quantized vortices that form?",
+              "options": [
+                "Abrikosov vortices",
+                "Josephson junctions",
+                "Cooper pairs",
+                "Quantized circulation"
+              ],
+              "correct_answer": 3,
+              "explanation": "In superfluids, circulation is quantized in units of h/m, where h is Planck's constant and m is the particle mass. These quantized vortices are topological defects in the superfluid order parameter.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_086",
+              "question": "What is the phenomenon where two particles become correlated such that the quantum state of one instantly affects the other, regardless of distance?",
+              "options": [
+                "Quantum tunneling",
+                "Quantum entanglement",
+                "Quantum superposition",
+                "Quantum decoherence"
+              ],
+              "correct_answer": 1,
+              "explanation": "Quantum entanglement creates correlations between particles where measuring one particle's state instantaneously determines the other's state, regardless of separation. This 'spooky action at a distance' was famously questioned by Einstein.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_087",
+              "question": "In thermodynamics, which law states that the entropy of a perfect crystal at absolute zero is exactly zero?",
+              "options": [
+                "Zeroth law",
+                "First law",
+                "Second law",
+                "Third law"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Third Law of Thermodynamics states that the entropy of a perfect crystal approaches zero as temperature approaches absolute zero. This provides an absolute reference point for measuring entropy.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_088",
+              "question": "What is the name of the effect where electrons can tunnel through an insulating barrier between two superconductors?",
+              "options": [
+                "Hall effect",
+                "Josephson effect",
+                "Meissner effect",
+                "Compton effect"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Josephson effect describes the tunneling of Cooper pairs through a thin insulating barrier between two superconductors, resulting in a DC supercurrent without applied voltage.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_089",
+              "question": "In particle physics, which fundamental force is responsible for radioactive beta decay?",
+              "options": [
+                "Strong nuclear force",
+                "Weak nuclear force",
+                "Electromagnetic force",
+                "Gravitational force"
+              ],
+              "correct_answer": 1,
+              "explanation": "The weak nuclear force is responsible for beta decay, where a neutron transforms into a proton, electron, and antineutrino. It's mediated by W and Z bosons.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_090",
+              "question": "What is the term for the theoretical minimum amount of energy a quantum mechanical system can have?",
+              "options": [
+                "Kinetic energy",
+                "Potential energy",
+                "Zero-point energy",
+                "Ionization energy"
+              ],
+              "correct_answer": 2,
+              "explanation": "Zero-point energy is the lowest possible energy a quantum mechanical system can possess, arising from the Heisenberg uncertainty principle. Even at absolute zero, particles retain this minimum energy.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_091",
+              "question": "In general relativity, what causes the precession of Mercury's orbit that cannot be explained by Newtonian mechanics alone?",
+              "options": [
+                "Gravitational waves",
+                "Spacetime curvature",
+                "Dark matter",
+                "Solar wind"
+              ],
+              "correct_answer": 1,
+              "explanation": "The curvature of spacetime near the Sun, as described by general relativity, causes an additional precession of Mercury's orbit of 43 arcseconds per century, which classical mechanics cannot account for.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_092",
+              "question": "What quantum number determines the orientation of an electron's angular momentum in space?",
+              "options": [
+                "Principal quantum number",
+                "Azimuthal quantum number",
+                "Magnetic quantum number",
+                "Spin quantum number"
+              ],
+              "correct_answer": 2,
+              "explanation": "The magnetic quantum number (m_l) specifies the orientation of the orbital angular momentum in space. It can take values from -l to +l, where l is the azimuthal quantum number.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_093",
+              "question": "In condensed matter physics, what is the collective quantized excitation of a periodic elastic arrangement of atoms?",
+              "options": [
+                "Phonon",
+                "Photon",
+                "Magnon",
+                "Plasmon"
+              ],
+              "correct_answer": 0,
+              "explanation": "A phonon is a quantum mechanical description of vibrational energy in a crystal lattice. It represents a quantized mode of vibration occurring in a rigid crystal structure.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_094",
+              "question": "What is the name of the theoretical prediction that black holes emit radiation due to quantum effects near the event horizon?",
+              "options": [
+                "Cerenkov radiation",
+                "Synchrotron radiation",
+                "Hawking radiation",
+                "Bremsstrahlung"
+              ],
+              "correct_answer": 2,
+              "explanation": "Hawking radiation is predicted to be emitted by black holes due to quantum effects near the event horizon. Virtual particle pairs are separated by tidal forces, with one escaping while the other falls in.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_095",
+              "question": "In quantum mechanics, what principle states that no two identical fermions can occupy the same quantum state simultaneously?",
+              "options": [
+                "Heisenberg Uncertainty Principle",
+                "Pauli Exclusion Principle",
+                "Correspondence Principle",
+                "Complementarity Principle"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Pauli Exclusion Principle applies to fermions (particles with half-integer spin) and is fundamental to the structure of atoms, explaining the periodic table and chemical properties.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_096",
+              "question": "What phenomenon causes the apparent bending of a pencil when partially submerged in water?",
+              "options": [
+                "Diffraction",
+                "Refraction",
+                "Reflection",
+                "Dispersion"
+              ],
+              "correct_answer": 1,
+              "explanation": "Refraction is the bending of light as it passes from one medium to another with different optical densities. The change in speed causes the light rays to bend at the interface.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_097",
+              "question": "In nuclear physics, what process involves the combination of light atomic nuclei to form heavier nuclei?",
+              "options": [
+                "Nuclear fission",
+                "Nuclear fusion",
+                "Radioactive decay",
+                "Nuclear transmutation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Nuclear fusion is the process where light nuclei combine to form heavier nuclei, releasing energy. This is the energy source powering stars, including our Sun.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_098",
+              "question": "What is the name of the phase transition where a material loses all electrical resistance below a critical temperature?",
+              "options": [
+                "Ferromagnetism",
+                "Superconductivity",
+                "Superfluidity",
+                "Bose-Einstein condensation"
+              ],
+              "correct_answer": 1,
+              "explanation": "Superconductivity is a quantum mechanical phenomenon where certain materials exhibit zero electrical resistance and expel magnetic fields below a critical temperature, allowing for persistent currents.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_099",
+              "question": "In special relativity, what quantity replaces the classical concept of mass and is invariant for all observers?",
+              "options": [
+                "Relativistic mass",
+                "Rest mass",
+                "Kinetic energy",
+                "Total energy"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rest mass (invariant mass) is the same for all observers regardless of reference frame. It's the mass measured in the object's rest frame and is a fundamental invariant in special relativity.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_100",
+              "question": "What is the phenomenon where light exhibits particle-like properties, as demonstrated in the photoelectric effect?",
+              "options": [
+                "Wave-particle duality",
+                "Quantum tunneling",
+                "Quantum entanglement",
+                "Matter waves"
+              ],
+              "correct_answer": 0,
+              "explanation": "Wave-particle duality describes how light and matter exhibit both wave-like and particle-like properties. The photoelectric effect demonstrated light's particle nature, with photons ejecting electrons from metal surfaces.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_101",
+              "question": "In fluid dynamics, what dimensionless number characterizes the ratio of inertial forces to viscous forces?",
+              "options": [
+                "Mach number",
+                "Reynolds number",
+                "Prandtl number",
+                "Nusselt number"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Reynolds number (Re = ρvL/μ) describes the flow regime of a fluid. Low Reynolds numbers indicate laminar flow, while high values indicate turbulent flow.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_102",
+              "question": "What is the name of the theoretical framework that attempts to unify quantum mechanics and general relativity?",
+              "options": [
+                "String theory",
+                "Loop quantum gravity",
+                "Quantum gravity",
+                "All of the above"
+              ],
+              "correct_answer": 3,
+              "explanation": "Quantum gravity is the field attempting to describe gravity according to quantum mechanics. String theory and loop quantum gravity are two major approaches, along with other theories seeking this unification.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_103",
+              "question": "In electromagnetic theory, what law relates the circulation of a magnetic field to the electric current passing through a surface?",
+              "options": [
+                "Faraday's law",
+                "Gauss's law",
+                "Ampère's law",
+                "Lenz's law"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ampère's law (in its modified form with Maxwell's correction) states that the line integral of the magnetic field around a closed loop equals the permeability times the enclosed current plus the displacement current.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_104",
+              "question": "What is the name of the hypothetical particle that provides mass to other particles through the Higgs mechanism?",
+              "options": [
+                "W boson",
+                "Z boson",
+                "Higgs boson",
+                "Graviton"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Higgs boson, discovered at CERN in 2012, is associated with the Higgs field that permeates space. Particles acquire mass through their interaction with this field.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_105",
+              "question": "In quantum chromodynamics, what property of quarks is analogous to electric charge?",
+              "options": [
+                "Flavor",
+                "Color charge",
+                "Spin",
+                "Isospin"
+              ],
+              "correct_answer": 1,
+              "explanation": "Color charge is the property of quarks that determines their strong force interactions. Unlike electric charge, color charge comes in three types (red, green, blue) and their anticolors.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_106",
+              "question": "What thermodynamic quantity measures the unavailability of a system's energy to do work?",
+              "options": [
+                "Enthalpy",
+                "Entropy",
+                "Free energy",
+                "Internal energy"
+              ],
+              "correct_answer": 1,
+              "explanation": "Entropy is a measure of disorder and the energy unavailable for work. The second law of thermodynamics states that entropy in an isolated system always increases.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_107",
+              "question": "In optics, what effect explains the gradual change in the refractive index of a medium causing light to follow a curved path?",
+              "options": [
+                "Total internal reflection",
+                "Gradient-index optics",
+                "Chromatic aberration",
+                "Diffraction"
+              ],
+              "correct_answer": 1,
+              "explanation": "Gradient-index (GRIN) optics involves materials with a spatially varying refractive index. Light rays follow curved paths according to Fermat's principle, enabling lens designs without curved surfaces.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_108",
+              "question": "What phenomenon in general relativity causes time to pass more slowly in stronger gravitational fields?",
+              "options": [
+                "Time dilation",
+                "Gravitational time dilation",
+                "Doppler effect",
+                "Gravitational redshift"
+              ],
+              "correct_answer": 1,
+              "explanation": "Gravitational time dilation is the effect where time passes more slowly closer to massive objects. Clocks at lower gravitational potential run slower relative to clocks at higher potential.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_109",
+              "question": "In condensed matter physics, what are the paired electrons that allow superconductivity called?",
+              "options": [
+                "Fermion pairs",
+                "Cooper pairs",
+                "Electron-hole pairs",
+                "Valence pairs"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cooper pairs are bound pairs of electrons formed through phonon-mediated interactions in superconductors. These pairs behave as bosons and can condense into a macroscopic quantum state.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_110",
+              "question": "What is the name of the effect where a magnetic field perpendicular to current flow generates a voltage difference?",
+              "options": [
+                "Zeeman effect",
+                "Hall effect",
+                "Faraday effect",
+                "Meissner effect"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Hall effect occurs when a magnetic field perpendicular to current flow in a conductor deflects charge carriers, creating a voltage difference perpendicular to both the current and magnetic field.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_111",
+              "question": "In particle physics, what symmetry transformation changes particles into their antiparticles?",
+              "options": [
+                "Parity transformation",
+                "Time reversal",
+                "Charge conjugation",
+                "CPT transformation"
+              ],
+              "correct_answer": 2,
+              "explanation": "Charge conjugation (C) is the symmetry operation that replaces particles with their antiparticles. Combined with parity (P) and time reversal (T), CPT symmetry is believed to be fundamental.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_112",
+              "question": "What is the theoretical state of matter at extremely high temperatures where quarks and gluons are no longer confined?",
+              "options": [
+                "Bose-Einstein condensate",
+                "Superfluid",
+                "Quark-gluon plasma",
+                "Degenerate matter"
+              ],
+              "correct_answer": 2,
+              "explanation": "Quark-gluon plasma is a state of matter believed to have existed microseconds after the Big Bang. At extremely high temperatures, quarks and gluons become deconfined from hadrons.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_113",
+              "question": "In quantum mechanics, what mathematical object describes the complete state of a quantum system?",
+              "options": [
+                "Hamiltonian",
+                "Wave function",
+                "Operator",
+                "Observable"
+              ],
+              "correct_answer": 1,
+              "explanation": "The wave function (ψ) is a complex-valued function that contains all information about a quantum system. Its square gives the probability density for finding the particle at different positions.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_114",
+              "question": "What conservation law is associated with the isotropy of space according to Noether's theorem?",
+              "options": [
+                "Conservation of energy",
+                "Conservation of momentum",
+                "Conservation of angular momentum",
+                "Conservation of charge"
+              ],
+              "correct_answer": 2,
+              "explanation": "Noether's theorem connects symmetries to conservation laws. The isotropy (rotational invariance) of space corresponds to the conservation of angular momentum.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "physics_115",
+              "question": "In quantum field theory, what process involves the creation of particle-antiparticle pairs from pure energy?",
+              "options": [
+                "Pair production",
+                "Annihilation",
+                "Beta decay",
+                "Bremsstrahlung"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pair production occurs when a high-energy photon converts into a particle-antiparticle pair (typically electron-positron) near a nucleus. This demonstrates E=mc² and requires energy exceeding twice the rest mass.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
