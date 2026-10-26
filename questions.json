@@ -15016,6 +15016,244 @@
               "explanation": "Watson, Crick, and Franklin all contributed to discovering DNA's double helix structure.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_101",
+              "question": "Who formulated the laws of motion and universal gravitation?",
+              "options": [
+                "Galileo Galilei",
+                "Johannes Kepler",
+                "Isaac Newton",
+                "Albert Einstein"
+              ],
+              "correct_answer": 2,
+              "explanation": "Newton published them in Principia (1687).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_102",
+              "question": "Who discovered the neutron?",
+              "options": [
+                "Ernest Rutherford",
+                "Niels Bohr",
+                "J.J. Thomson",
+                "James Chadwick"
+              ],
+              "correct_answer": 3,
+              "explanation": "Chadwick discovered the neutron in 1932.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_103",
+              "question": "Who proposed the heliocentric model of the solar system?",
+              "options": [
+                "Nicolaus Copernicus",
+                "Ptolemy",
+                "Tycho Brahe",
+                "Aristotle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Copernicus placed the Sun at the centre in 1543.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_104",
+              "question": "Who discovered the atomic nucleus through the gold foil experiment?",
+              "options": [
+                "Niels Bohr",
+                "Ernest Rutherford",
+                "James Chadwick",
+                "Max Planck"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rutherford's 1911 experiment revealed the nucleus.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_105",
+              "question": "Who proposed the theory of evolution by natural selection?",
+              "options": [
+                "Gregor Mendel",
+                "Louis Pasteur",
+                "Charles Darwin",
+                "Jean-Baptiste Lamarck"
+              ],
+              "correct_answer": 2,
+              "explanation": "Darwin published On the Origin of Species in 1859.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_106",
+              "question": "Who is known as the father of genetics?",
+              "options": [
+                "Charles Darwin",
+                "Thomas Hunt Morgan",
+                "James Watson",
+                "Gregor Mendel"
+              ],
+              "correct_answer": 3,
+              "explanation": "Mendel's pea plant experiments founded genetics.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_107",
+              "question": "Who discovered electromagnetic induction?",
+              "options": [
+                "Michael Faraday",
+                "Andre-Marie Ampere",
+                "James Clerk Maxwell",
+                "Alessandro Volta"
+              ],
+              "correct_answer": 0,
+              "explanation": "Faraday discovered electromagnetic induction in 1831.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_108",
+              "question": "Who invented the electric battery known as the voltaic pile?",
+              "options": [
+                "Luigi Galvani",
+                "Alessandro Volta",
+                "Benjamin Franklin",
+                "Georg Ohm"
+              ],
+              "correct_answer": 1,
+              "explanation": "Volta built the voltaic pile in 1800.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_109",
+              "question": "Who discovered the planet Uranus?",
+              "options": [
+                "Galileo Galilei",
+                "Edmond Halley",
+                "William Herschel",
+                "Johannes Kepler"
+              ],
+              "correct_answer": 2,
+              "explanation": "Herschel discovered Uranus in 1781.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_110",
+              "question": "Who originated quantum theory with the idea of energy quanta?",
+              "options": [
+                "Werner Heisenberg",
+                "Erwin Schrodinger",
+                "Paul Dirac",
+                "Max Planck"
+              ],
+              "correct_answer": 3,
+              "explanation": "Planck introduced energy quanta in 1900.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_111",
+              "question": "Who discovered the elements polonium and radium?",
+              "options": [
+                "Marie and Pierre Curie",
+                "Henri Becquerel",
+                "Ernest Rutherford",
+                "Dmitri Mendeleev"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Curies discovered both elements in 1898.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_112",
+              "question": "Who formulated the three laws of planetary motion?",
+              "options": [
+                "Isaac Newton",
+                "Johannes Kepler",
+                "Nicolaus Copernicus",
+                "Galileo Galilei"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kepler published his laws between 1609 and 1619.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_113",
+              "question": "Who proposed the uncertainty principle?",
+              "options": [
+                "Niels Bohr",
+                "Max Born",
+                "Werner Heisenberg",
+                "Wolfgang Pauli"
+              ],
+              "correct_answer": 2,
+              "explanation": "Heisenberg formulated it in 1927.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_114",
+              "question": "Who first described cells after observing cork under a microscope?",
+              "options": [
+                "Antonie van Leeuwenhoek",
+                "Robert Brown",
+                "Matthias Schleiden",
+                "Robert Hooke"
+              ],
+              "correct_answer": 3,
+              "explanation": "Hooke coined the term cell in Micrographia (1665).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_115",
+              "question": "Who discovered the principle of buoyancy?",
+              "options": [
+                "Archimedes",
+                "Pythagoras",
+                "Euclid",
+                "Aristotle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Archimedes' principle explains buoyant force.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_116",
+              "question": "Who showed that the universe is expanding using galaxy redshifts?",
+              "options": [
+                "Carl Sagan",
+                "Edwin Hubble",
+                "Stephen Hawking",
+                "Edmond Halley"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hubble published evidence of expansion in 1929.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_scientific_discoveries_117",
+              "question": "Who predicted the existence of black hole radiation?",
+              "options": [
+                "Albert Einstein",
+                "Roger Penrose",
+                "Stephen Hawking",
+                "Karl Schwarzschild"
+              ],
+              "correct_answer": 2,
+              "explanation": "Hawking radiation was predicted in 1974.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -15536,6 +15774,244 @@
               "explanation": "MRI was developed through contributions from Damadian, Lauterbur, and Mansfield.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_101",
+              "question": "Who developed the first injectable (inactivated) polio vaccine?",
+              "options": [
+                "Albert Sabin",
+                "Louis Pasteur",
+                "Edward Jenner",
+                "Jonas Salk"
+              ],
+              "correct_answer": 3,
+              "explanation": "Salk's vaccine was introduced in 1955.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_102",
+              "question": "Who developed the oral polio vaccine?",
+              "options": [
+                "Albert Sabin",
+                "Jonas Salk",
+                "Edward Jenner",
+                "Louis Pasteur"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sabin's oral vaccine was licensed in the early 1960s.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_103",
+              "question": "Who developed the rabies vaccine?",
+              "options": [
+                "Robert Koch",
+                "Louis Pasteur",
+                "Edward Jenner",
+                "Joseph Lister"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pasteur first used it successfully in 1885.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_104",
+              "question": "Who discovered the bacterium that causes tuberculosis?",
+              "options": [
+                "Louis Pasteur",
+                "Alexander Fleming",
+                "Robert Koch",
+                "Paul Ehrlich"
+              ],
+              "correct_answer": 2,
+              "explanation": "Koch identified Mycobacterium tuberculosis in 1882.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_105",
+              "question": "Who pioneered antiseptic surgery?",
+              "options": [
+                "Ignaz Semmelweis",
+                "Florence Nightingale",
+                "John Snow",
+                "Joseph Lister"
+              ],
+              "correct_answer": 3,
+              "explanation": "Lister used carbolic acid to sterilise instruments.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_106",
+              "question": "Who discovered the ABO blood group system?",
+              "options": [
+                "Karl Landsteiner",
+                "William Harvey",
+                "Charles Drew",
+                "Paul Ehrlich"
+              ],
+              "correct_answer": 0,
+              "explanation": "Landsteiner discovered blood groups in 1901.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_107",
+              "question": "Who is regarded as the founder of modern nursing?",
+              "options": [
+                "Clara Barton",
+                "Florence Nightingale",
+                "Mary Seacole",
+                "Edith Cavell"
+              ],
+              "correct_answer": 1,
+              "explanation": "Nightingale reformed nursing during the Crimean War.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_108",
+              "question": "Who proved that malaria is transmitted by mosquitoes?",
+              "options": [
+                "Patrick Manson",
+                "Walter Reed",
+                "Ronald Ross",
+                "Charles Laveran"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ross won the 1902 Nobel Prize for this work in India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_109",
+              "question": "Who invented the practical electrocardiograph (ECG)?",
+              "options": [
+                "Augustus Waller",
+                "Wilhelm Rontgen",
+                "Hans Berger",
+                "Willem Einthoven"
+              ],
+              "correct_answer": 3,
+              "explanation": "Einthoven won the 1924 Nobel Prize for the ECG.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_110",
+              "question": "Who is known as the father of medicine?",
+              "options": [
+                "Hippocrates",
+                "Galen",
+                "Avicenna",
+                "Paracelsus"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hippocrates of ancient Greece is the father of medicine.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_111",
+              "question": "Who performed the first successful human kidney transplant in 1954?",
+              "options": [
+                "Christiaan Barnard",
+                "Joseph Murray",
+                "Michael DeBakey",
+                "Thomas Starzl"
+              ],
+              "correct_answer": 1,
+              "explanation": "Joseph Murray performed it in Boston.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_112",
+              "question": "Who discovered streptomycin, the first antibiotic effective against tuberculosis?",
+              "options": [
+                "Alexander Fleming",
+                "Howard Florey",
+                "Selman Waksman",
+                "Ernst Chain"
+              ],
+              "correct_answer": 2,
+              "explanation": "Waksman's lab discovered streptomycin in 1943.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_113",
+              "question": "Who coined the term vitamine?",
+              "options": [
+                "Frederick Hopkins",
+                "Christiaan Eijkman",
+                "Linus Pauling",
+                "Casimir Funk"
+              ],
+              "correct_answer": 3,
+              "explanation": "Funk coined vitamine in 1912.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_114",
+              "question": "Who traced a London cholera outbreak to a contaminated water pump?",
+              "options": [
+                "John Snow",
+                "Robert Koch",
+                "Louis Pasteur",
+                "Edward Jenner"
+              ],
+              "correct_answer": 0,
+              "explanation": "John Snow's 1854 study founded modern epidemiology.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_115",
+              "question": "Who invented the CT scanner?",
+              "options": [
+                "Raymond Damadian",
+                "Godfrey Hounsfield",
+                "Wilhelm Rontgen",
+                "Paul Lauterbur"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hounsfield built the first CT scanner in 1971.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_116",
+              "question": "Which scientists made the first IVF (test-tube) baby possible in 1978?",
+              "options": [
+                "Watson and Crick",
+                "Ian Wilmut and Keith Campbell",
+                "Robert Edwards and Patrick Steptoe",
+                "Banting and Best"
+              ],
+              "correct_answer": 2,
+              "explanation": "Louise Brown was born through their IVF work.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_breakthroughs_117",
+              "question": "Which scientist led the team that cloned Dolly the sheep?",
+              "options": [
+                "Robert Edwards",
+                "Craig Venter",
+                "James Watson",
+                "Ian Wilmut"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dolly was cloned at the Roslin Institute in 1996.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -15668,6 +16144,244 @@
               ],
               "correct_answer": 3,
               "explanation": "Wernher von Braun's V-2 rocket was the first to reach space in 1944, though Goddard pioneered liquid fuel rockets.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_101",
+              "question": "Who invented the turbojet engine in Britain?",
+              "options": [
+                "Frank Whittle",
+                "Igor Sikorsky",
+                "Wilbur Wright",
+                "Rudolf Diesel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Frank Whittle patented the turbojet in 1930.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_102",
+              "question": "Who invented the diesel engine?",
+              "options": [
+                "Nikolaus Otto",
+                "Rudolf Diesel",
+                "Karl Benz",
+                "Gottlieb Daimler"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rudolf Diesel patented it in 1892.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_103",
+              "question": "Who introduced the moving assembly line for mass car production?",
+              "options": [
+                "Karl Benz",
+                "Ferdinand Porsche",
+                "Henry Ford",
+                "Walter Chrysler"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ford introduced it in 1913 for the Model T.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_104",
+              "question": "Who developed the first practical pneumatic tyre in 1888?",
+              "options": [
+                "Charles Goodyear",
+                "Andre Michelin",
+                "Henry Ford",
+                "John Boyd Dunlop"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dunlop made it for his son's tricycle.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_105",
+              "question": "Who invented vulcanized rubber?",
+              "options": [
+                "Charles Goodyear",
+                "John Boyd Dunlop",
+                "Henry Ford",
+                "Michael Faraday"
+              ],
+              "correct_answer": 0,
+              "explanation": "Goodyear discovered vulcanization in 1839.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_106",
+              "question": "Who built the first four-stroke internal combustion engine?",
+              "options": [
+                "Rudolf Diesel",
+                "Nikolaus Otto",
+                "James Watt",
+                "Karl Benz"
+              ],
+              "correct_answer": 1,
+              "explanation": "The four-stroke cycle is called the Otto cycle.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_107",
+              "question": "Who invented the hot air balloon?",
+              "options": [
+                "Wright brothers",
+                "Otto Lilienthal",
+                "Montgolfier brothers",
+                "Ferdinand von Zeppelin"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Montgolfiers flew it in 1783.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_108",
+              "question": "Who invented the rigid airship?",
+              "options": [
+                "Montgolfier brothers",
+                "Alberto Santos-Dumont",
+                "Igor Sikorsky",
+                "Ferdinand von Zeppelin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Zeppelin's first airship flew in 1900.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_109",
+              "question": "Who promoted and developed the Suez Canal?",
+              "options": [
+                "Ferdinand de Lesseps",
+                "Gustave Eiffel",
+                "Isambard Kingdom Brunel",
+                "George Goethals"
+              ],
+              "correct_answer": 0,
+              "explanation": "De Lesseps led its construction, completed in 1869.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_110",
+              "question": "Who designed the Brooklyn Bridge?",
+              "options": [
+                "Gustave Eiffel",
+                "John A. Roebling",
+                "Joseph Strauss",
+                "Isambard Kingdom Brunel"
+              ],
+              "correct_answer": 1,
+              "explanation": "John Roebling designed it, completed in 1883.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_111",
+              "question": "Who invented the safety brake for elevators?",
+              "options": [
+                "George Westinghouse",
+                "Thomas Edison",
+                "Elisha Otis",
+                "Frank Sprague"
+              ],
+              "correct_answer": 2,
+              "explanation": "Otis demonstrated it in 1854.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_112",
+              "question": "Who invented the railway air brake?",
+              "options": [
+                "Elisha Otis",
+                "George Pullman",
+                "Robert Stephenson",
+                "George Westinghouse"
+              ],
+              "correct_answer": 3,
+              "explanation": "Westinghouse patented it in 1869.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_113",
+              "question": "Who built the famous locomotive 'Rocket' in 1829?",
+              "options": [
+                "George and Robert Stephenson",
+                "Richard Trevithick",
+                "James Watt",
+                "Isambard Kingdom Brunel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rocket won the Rainhill Trials.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_114",
+              "question": "Who invented the hovercraft?",
+              "options": [
+                "Frank Whittle",
+                "Christopher Cockerell",
+                "Igor Sikorsky",
+                "Barnes Wallis"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cockerell patented the hovercraft in 1955.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_115",
+              "question": "Who made the first solo nonstop transatlantic flight in 1927?",
+              "options": [
+                "Amelia Earhart",
+                "Louis Bleriot",
+                "Charles Lindbergh",
+                "Orville Wright"
+              ],
+              "correct_answer": 2,
+              "explanation": "Lindbergh flew the Spirit of St. Louis to Paris.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_116",
+              "question": "Who first flew an airplane across the English Channel in 1909?",
+              "options": [
+                "Charles Lindbergh",
+                "Orville Wright",
+                "Alberto Santos-Dumont",
+                "Louis Bleriot"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bleriot crossed the Channel on 25 July 1909.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_transportation_engineering_117",
+              "question": "Who built the first gasoline-powered motorcycle in 1885?",
+              "options": [
+                "Gottlieb Daimler",
+                "Karl Benz",
+                "Henry Ford",
+                "William Harley"
+              ],
+              "correct_answer": 0,
+              "explanation": "Daimler and Maybach built the Reitwagen.",
               "difficulty": "hard",
               "points": 10
             }
@@ -15817,6 +16531,258 @@
               "correct_answer": 0,
               "explanation": "Linus Torvalds created the Linux kernel in 1991 while studying at University of Helsinki.",
               "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_101",
+              "question": "Who co-founded Microsoft with Paul Allen?",
+              "options": [
+                "Steve Jobs",
+                "Bill Gates",
+                "Larry Ellison",
+                "Steve Wozniak"
+              ],
+              "correct_answer": 1,
+              "explanation": "Microsoft was founded in 1975.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_102",
+              "question": "Who created the Python programming language?",
+              "options": [
+                "James Gosling",
+                "Bjarne Stroustrup",
+                "Guido van Rossum",
+                "Dennis Ritchie"
+              ],
+              "correct_answer": 2,
+              "explanation": "Python was first released in 1991.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_103",
+              "question": "Who created the Java programming language?",
+              "options": [
+                "Guido van Rossum",
+                "Bjarne Stroustrup",
+                "Brendan Eich",
+                "James Gosling"
+              ],
+              "correct_answer": 3,
+              "explanation": "Gosling created Java at Sun Microsystems.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_104",
+              "question": "Who created the C++ programming language?",
+              "options": [
+                "Bjarne Stroustrup",
+                "Dennis Ritchie",
+                "Ken Thompson",
+                "James Gosling"
+              ],
+              "correct_answer": 0,
+              "explanation": "Stroustrup developed C++ at Bell Labs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_105",
+              "question": "Who created JavaScript?",
+              "options": [
+                "Tim Berners-Lee",
+                "Brendan Eich",
+                "James Gosling",
+                "Anders Hejlsberg"
+              ],
+              "correct_answer": 1,
+              "explanation": "Eich created it at Netscape in 1995.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_106",
+              "question": "Who co-founded Google with Larry Page?",
+              "options": [
+                "Eric Schmidt",
+                "Sundar Pichai",
+                "Sergey Brin",
+                "Mark Zuckerberg"
+              ],
+              "correct_answer": 2,
+              "explanation": "Google was founded in 1998.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_107",
+              "question": "Who coined the term artificial intelligence?",
+              "options": [
+                "Alan Turing",
+                "Marvin Minsky",
+                "Herbert Simon",
+                "John McCarthy"
+              ],
+              "correct_answer": 3,
+              "explanation": "McCarthy coined it for the 1956 Dartmouth conference.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_108",
+              "question": "Who proposed the famous test for machine intelligence?",
+              "options": [
+                "Alan Turing",
+                "John von Neumann",
+                "Claude Shannon",
+                "Charles Babbage"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Turing test was proposed in 1950.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_109",
+              "question": "Who is known as the father of information theory?",
+              "options": [
+                "Alan Turing",
+                "Claude Shannon",
+                "Norbert Wiener",
+                "John von Neumann"
+              ],
+              "correct_answer": 1,
+              "explanation": "Shannon published his theory in 1948.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_110",
+              "question": "Who co-designed the TCP/IP protocols with Robert Kahn?",
+              "options": [
+                "Tim Berners-Lee",
+                "Ray Tomlinson",
+                "Vint Cerf",
+                "Larry Roberts"
+              ],
+              "correct_answer": 2,
+              "explanation": "Cerf and Kahn are called fathers of the Internet.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_111",
+              "question": "Who created the UNIX operating system with Dennis Ritchie?",
+              "options": [
+                "Linus Torvalds",
+                "Richard Stallman",
+                "Bill Joy",
+                "Ken Thompson"
+              ],
+              "correct_answer": 3,
+              "explanation": "Thompson and Ritchie built UNIX at Bell Labs.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_112",
+              "question": "Who founded the GNU Project and the free software movement?",
+              "options": [
+                "Richard Stallman",
+                "Linus Torvalds",
+                "Eric Raymond",
+                "Ken Thompson"
+              ],
+              "correct_answer": 0,
+              "explanation": "Stallman launched GNU in 1983.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_113",
+              "question": "Bitcoin was created by someone using which pseudonym?",
+              "options": [
+                "Vitalik Buterin",
+                "Satoshi Nakamoto",
+                "Hal Finney",
+                "Nick Szabo"
+              ],
+              "correct_answer": 1,
+              "explanation": "Satoshi Nakamoto published the Bitcoin paper in 2008.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_114",
+              "question": "Who proposed the Ethereum blockchain?",
+              "options": [
+                "Satoshi Nakamoto",
+                "Elon Musk",
+                "Vitalik Buterin",
+                "Jack Dorsey"
+              ],
+              "correct_answer": 2,
+              "explanation": "Buterin proposed Ethereum in 2013.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_115",
+              "question": "Who founded Amazon?",
+              "options": [
+                "Elon Musk",
+                "Larry Page",
+                "Bill Gates",
+                "Jeff Bezos"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bezos founded Amazon in 1994.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_116",
+              "question": "Moore's Law was proposed by a co-founder of which company?",
+              "options": [
+                "Intel",
+                "AMD",
+                "IBM",
+                "Apple"
+              ],
+              "correct_answer": 0,
+              "explanation": "Gordon Moore co-founded Intel.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_117",
+              "question": "Who built the first integrated circuit at Texas Instruments?",
+              "options": [
+                "Gordon Moore",
+                "Jack Kilby",
+                "William Shockley",
+                "John Bardeen"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kilby demonstrated it in 1958 and won the 2000 Nobel Prize.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_computing_digital_118",
+              "question": "Who invented the transistor at Bell Labs in 1947?",
+              "options": [
+                "Jack Kilby",
+                "Robert Noyce",
+                "Bardeen, Brattain and Shockley",
+                "Thomas Edison"
+              ],
+              "correct_answer": 2,
+              "explanation": "They shared the 1956 Nobel Prize in Physics.",
+              "difficulty": "medium",
               "points": 10
             }
           ]
@@ -16131,6 +17097,314 @@
               "correct_answer": 3,
               "explanation": "The Opium Wars were two conflicts fought in China between the Qing dynasty and Western powers. The first war (1839-1842) was triggered by the Qing government's campaign against the British opium trade.",
               "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "world_history_101",
+              "question": "In which year did World War II end?",
+              "options": [
+                "1945",
+                "1943",
+                "1944",
+                "1946"
+              ],
+              "correct_answer": 0,
+              "explanation": "World War II ended in 1945 with the surrender of Germany and Japan.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_102",
+              "question": "Who was the first woman Prime Minister of the United Kingdom?",
+              "options": [
+                "Theresa May",
+                "Margaret Thatcher",
+                "Queen Victoria",
+                "Indira Gandhi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Margaret Thatcher became UK Prime Minister in 1979.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_103",
+              "question": "The Berlin Wall fell in which year?",
+              "options": [
+                "1987",
+                "1991",
+                "1989",
+                "1985"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Berlin Wall fell on 9 November 1989.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_104",
+              "question": "Napoleon Bonaparte crowned himself emperor of which empire?",
+              "options": [
+                "Ottoman Empire",
+                "Holy Roman Empire",
+                "Spanish Empire",
+                "French Empire"
+              ],
+              "correct_answer": 3,
+              "explanation": "Napoleon crowned himself Emperor of the French in 1804.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_105",
+              "question": "Who was the first person to walk on the Moon?",
+              "options": [
+                "Neil Armstrong",
+                "Buzz Aldrin",
+                "Yuri Gagarin",
+                "Michael Collins"
+              ],
+              "correct_answer": 0,
+              "explanation": "Neil Armstrong walked on the Moon during Apollo 11 in 1969.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_106",
+              "question": "The Magna Carta was sealed in which year?",
+              "options": [
+                "1066",
+                "1215",
+                "1492",
+                "1605"
+              ],
+              "correct_answer": 1,
+              "explanation": "King John sealed the Magna Carta in 1215.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_107",
+              "question": "Which ship sank on its maiden voyage in 1912?",
+              "options": [
+                "Lusitania",
+                "Britannic",
+                "Titanic",
+                "Mayflower"
+              ],
+              "correct_answer": 2,
+              "explanation": "RMS Titanic sank after hitting an iceberg in April 1912.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_108",
+              "question": "The US Declaration of Independence was adopted in which year?",
+              "options": [
+                "1789",
+                "1812",
+                "1765",
+                "1776"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was adopted on 4 July 1776.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_109",
+              "question": "Who was the first emperor of a unified China?",
+              "options": [
+                "Qin Shi Huang",
+                "Kublai Khan",
+                "Sun Yat-sen",
+                "Liu Bang"
+              ],
+              "correct_answer": 0,
+              "explanation": "Qin Shi Huang unified China in 221 BC.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_110",
+              "question": "The Cold War was mainly fought between the USA and which country?",
+              "options": [
+                "China",
+                "Soviet Union",
+                "Germany",
+                "Japan"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Cold War was a rivalry between the USA and the USSR.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_111",
+              "question": "Nelson Mandela became President of South Africa in which year?",
+              "options": [
+                "1990",
+                "1999",
+                "1994",
+                "1986"
+              ],
+              "correct_answer": 2,
+              "explanation": "Mandela became President after the 1994 elections.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_112",
+              "question": "The Battle of Waterloo (1815) marked the final defeat of whom?",
+              "options": [
+                "Louis XIV",
+                "Duke of Wellington",
+                "Otto von Bismarck",
+                "Napoleon Bonaparte"
+              ],
+              "correct_answer": 3,
+              "explanation": "Napoleon was defeated at Waterloo in 1815.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_113",
+              "question": "Which explorer reached the Americas in 1492?",
+              "options": [
+                "Christopher Columbus",
+                "Vasco da Gama",
+                "Ferdinand Magellan",
+                "James Cook"
+              ],
+              "correct_answer": 0,
+              "explanation": "Columbus reached the Caribbean in 1492.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_114",
+              "question": "The Cuban Missile Crisis took place in which year?",
+              "options": [
+                "1959",
+                "1962",
+                "1965",
+                "1970"
+              ],
+              "correct_answer": 1,
+              "explanation": "The crisis occurred in October 1962.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_115",
+              "question": "Who founded the Achaemenid Persian Empire?",
+              "options": [
+                "Darius I",
+                "Xerxes I",
+                "Cyrus the Great",
+                "Cambyses II"
+              ],
+              "correct_answer": 2,
+              "explanation": "Cyrus the Great founded the Achaemenid Empire around 550 BC.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "world_history_116",
+              "question": "Who won the Battle of Hastings in 1066?",
+              "options": [
+                "Harold Godwinson",
+                "Alfred the Great",
+                "Richard the Lionheart",
+                "William the Conqueror"
+              ],
+              "correct_answer": 3,
+              "explanation": "William of Normandy defeated Harold II at Hastings.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_117",
+              "question": "The United Nations was founded in which year?",
+              "options": [
+                "1945",
+                "1919",
+                "1950",
+                "1939"
+              ],
+              "correct_answer": 0,
+              "explanation": "The UN was founded in 1945 after World War II.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_118",
+              "question": "Which Roman city was buried by the eruption of Mount Vesuvius in 79 AD?",
+              "options": [
+                "Carthage",
+                "Pompeii",
+                "Sparta",
+                "Athens"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pompeii was buried under volcanic ash in 79 AD.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_119",
+              "question": "Who became the first Chancellor of unified Germany in 1871?",
+              "options": [
+                "Kaiser Wilhelm II",
+                "Frederick the Great",
+                "Otto von Bismarck",
+                "Konrad Adenauer"
+              ],
+              "correct_answer": 2,
+              "explanation": "Bismarck led German unification and became its first Chancellor.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_120",
+              "question": "In which year did the Soviet Union dissolve?",
+              "options": [
+                "1989",
+                "1993",
+                "1985",
+                "1991"
+              ],
+              "correct_answer": 3,
+              "explanation": "The USSR was dissolved in December 1991.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_121",
+              "question": "Which Egyptian pharaoh's nearly intact tomb was discovered by Howard Carter in 1922?",
+              "options": [
+                "Tutankhamun",
+                "Ramesses II",
+                "Khufu",
+                "Akhenaten"
+              ],
+              "correct_answer": 0,
+              "explanation": "Howard Carter found Tutankhamun's tomb in the Valley of the Kings.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_122",
+              "question": "The French Revolution began in which year?",
+              "options": [
+                "1776",
+                "1789",
+                "1815",
+                "1799"
+              ],
+              "correct_answer": 1,
+              "explanation": "The storming of the Bastille on 14 July 1789 marks its start.",
+              "difficulty": "easy",
               "points": 10
             }
           ]
@@ -17212,6 +18486,314 @@
               "explanation": "Lotus (Nelumbo nucifera) is the national flower of India.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "gk_culture_101",
+              "question": "Kathak primarily originated in which present-day state?",
+              "options": [
+                "Kerala",
+                "Uttar Pradesh",
+                "Odisha",
+                "Andhra Pradesh"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kathak developed in North India, notably Lucknow and Varanasi.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_102",
+              "question": "Bharatanatyam originated in which state?",
+              "options": [
+                "Kerala",
+                "Karnataka",
+                "Tamil Nadu",
+                "Andhra Pradesh"
+              ],
+              "correct_answer": 2,
+              "explanation": "Bharatanatyam is the classical dance of Tamil Nadu.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_103",
+              "question": "Kuchipudi dance originates from which state?",
+              "options": [
+                "Tamil Nadu",
+                "Odisha",
+                "Assam",
+                "Andhra Pradesh"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is named after Kuchipudi village in Andhra Pradesh.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_104",
+              "question": "Odissi is the classical dance of which state?",
+              "options": [
+                "Odisha",
+                "West Bengal",
+                "Assam",
+                "Bihar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Odissi originated in the temples of Odisha.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_105",
+              "question": "Sattriya is the classical dance of which state?",
+              "options": [
+                "Manipur",
+                "Assam",
+                "Odisha",
+                "Tripura"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sattriya was introduced by Srimanta Sankardev.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_106",
+              "question": "Garba is the folk dance of which state?",
+              "options": [
+                "Rajasthan",
+                "Punjab",
+                "Gujarat",
+                "Maharashtra"
+              ],
+              "correct_answer": 2,
+              "explanation": "Garba is performed during Navratri.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_107",
+              "question": "Bhangra is the folk dance of which state?",
+              "options": [
+                "Haryana",
+                "Gujarat",
+                "Himachal Pradesh",
+                "Punjab"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bhangra is linked to the harvest festival Baisakhi.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_108",
+              "question": "Onam is mainly celebrated in which state?",
+              "options": [
+                "Kerala",
+                "Tamil Nadu",
+                "Karnataka",
+                "Goa"
+              ],
+              "correct_answer": 0,
+              "explanation": "Onam is Kerala's harvest festival.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_109",
+              "question": "Hampi was the capital of which empire?",
+              "options": [
+                "Chola Empire",
+                "Vijayanagara Empire",
+                "Maratha Empire",
+                "Mughal Empire"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hampi is a UNESCO World Heritage Site in Karnataka.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_110",
+              "question": "Which Mughal emperor built the Red Fort in Delhi?",
+              "options": [
+                "Akbar",
+                "Aurangzeb",
+                "Shah Jahan",
+                "Humayun"
+              ],
+              "correct_answer": 2,
+              "explanation": "Shah Jahan built it in the 17th century.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_111",
+              "question": "Construction of the Qutub Minar was started by whom?",
+              "options": [
+                "Iltutmish",
+                "Alauddin Khalji",
+                "Akbar",
+                "Qutb-ud-din Aibak"
+              ],
+              "correct_answer": 3,
+              "explanation": "Aibak started it and Iltutmish completed it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_112",
+              "question": "Who built the Brihadeeswarar Temple at Thanjavur?",
+              "options": [
+                "Rajaraja Chola I",
+                "Rajendra Chola I",
+                "Krishnadeva Raya",
+                "Narasimhavarman I"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was completed around 1010 AD.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_113",
+              "question": "The Great Stupa at Sanchi was originally commissioned by whom?",
+              "options": [
+                "Chandragupta Maurya",
+                "Ashoka",
+                "Kanishka",
+                "Harsha"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ashoka commissioned it in the 3rd century BC.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_114",
+              "question": "Madhubani painting originates from which state?",
+              "options": [
+                "Odisha",
+                "Rajasthan",
+                "Bihar",
+                "West Bengal"
+              ],
+              "correct_answer": 2,
+              "explanation": "Madhubani art comes from the Mithila region of Bihar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_115",
+              "question": "Warli painting is a tribal art form of which state?",
+              "options": [
+                "Gujarat",
+                "Madhya Pradesh",
+                "Jharkhand",
+                "Maharashtra"
+              ],
+              "correct_answer": 3,
+              "explanation": "Warli art is made by the Warli tribe of Maharashtra.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_116",
+              "question": "Pattachitra is a traditional painting style of which state?",
+              "options": [
+                "Odisha",
+                "Kerala",
+                "Punjab",
+                "Assam"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pattachitra is cloth-based scroll painting from Odisha.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_117",
+              "question": "How has UNESCO recognised the Kumbh Mela?",
+              "options": [
+                "World Heritage Site",
+                "Intangible Cultural Heritage of Humanity",
+                "Biosphere Reserve",
+                "Creative City"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was inscribed in 2017.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_118",
+              "question": "Ustad Bismillah Khan is associated with which instrument?",
+              "options": [
+                "Sitar",
+                "Tabla",
+                "Shehnai",
+                "Sarod"
+              ],
+              "correct_answer": 2,
+              "explanation": "He received the Bharat Ratna in 2001.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_119",
+              "question": "Ustad Zakir Hussain was a maestro of which instrument?",
+              "options": [
+                "Sitar",
+                "Santoor",
+                "Flute",
+                "Tabla"
+              ],
+              "correct_answer": 3,
+              "explanation": "Zakir Hussain was a world-renowned tabla player.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_120",
+              "question": "Pandit Hariprasad Chaurasia plays which instrument?",
+              "options": [
+                "Bansuri (flute)",
+                "Santoor",
+                "Sarangi",
+                "Veena"
+              ],
+              "correct_answer": 0,
+              "explanation": "He is a legendary bansuri player.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_121",
+              "question": "Pandit Shivkumar Sharma popularised which instrument?",
+              "options": [
+                "Sitar",
+                "Santoor",
+                "Sarod",
+                "Shehnai"
+              ],
+              "correct_answer": 1,
+              "explanation": "He brought the santoor into classical music.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_culture_122",
+              "question": "The Carnatic music trinity is Tyagaraja, Muthuswami Dikshitar and who?",
+              "options": [
+                "Purandara Dasa",
+                "Annamacharya",
+                "Syama Shastri",
+                "Swathi Thirunal"
+              ],
+              "correct_answer": 2,
+              "explanation": "The trinity lived in the 18th-19th centuries.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -17787,6 +19369,258 @@
               "correct_answer": 1,
               "explanation": "Neeraj Chopra won India's first Olympic gold in athletics at Tokyo 2020.",
               "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_101",
+              "question": "Who won independent India's first individual Olympic medal, in wrestling in 1952?",
+              "options": [
+                "Sushil Kumar",
+                "Yogeshwar Dutt",
+                "Bajrang Punia",
+                "K.D. Jadhav"
+              ],
+              "correct_answer": 3,
+              "explanation": "Khashaba Dadasaheb Jadhav won bronze at Helsinki 1952.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_102",
+              "question": "Major Dhyan Chand is associated with which sport?",
+              "options": [
+                "Hockey",
+                "Cricket",
+                "Football",
+                "Wrestling"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dhyan Chand is a hockey legend.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_103",
+              "question": "Who captained India to the 1983 Cricket World Cup title?",
+              "options": [
+                "Sunil Gavaskar",
+                "Kapil Dev",
+                "Mohinder Amarnath",
+                "Ravi Shastri"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kapil Dev led India to victory at Lord's.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_104",
+              "question": "Which city hosted the first Asian Games in 1951?",
+              "options": [
+                "Mumbai",
+                "Kolkata",
+                "New Delhi",
+                "Chennai"
+              ],
+              "correct_answer": 2,
+              "explanation": "The first Asian Games were held in New Delhi.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_105",
+              "question": "Who was India's first World Chess Champion?",
+              "options": [
+                "Pentala Harikrishna",
+                "Koneru Humpy",
+                "D. Gukesh",
+                "Viswanathan Anand"
+              ],
+              "correct_answer": 3,
+              "explanation": "Anand first won the world title in 2000.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_106",
+              "question": "Mary Kom is associated with which sport?",
+              "options": [
+                "Boxing",
+                "Wrestling",
+                "Weightlifting",
+                "Judo"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mary Kom is a six-time world boxing champion.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_107",
+              "question": "Who won India's first Olympic medal in weightlifting at Sydney 2000?",
+              "options": [
+                "Mirabai Chanu",
+                "Karnam Malleswari",
+                "Kunjarani Devi",
+                "Sakshi Malik"
+              ],
+              "correct_answer": 1,
+              "explanation": "Malleswari won bronze, the first Olympic medal by an Indian woman.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_108",
+              "question": "India won its first ICC T20 World Cup in which year?",
+              "options": [
+                "2011",
+                "2014",
+                "2007",
+                "2024"
+              ],
+              "correct_answer": 2,
+              "explanation": "India won the inaugural T20 World Cup in 2007.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_109",
+              "question": "Who holds the highest individual ODI score of 264 runs?",
+              "options": [
+                "Virender Sehwag",
+                "Sachin Tendulkar",
+                "Virat Kohli",
+                "Rohit Sharma"
+              ],
+              "correct_answer": 3,
+              "explanation": "Rohit Sharma scored 264 against Sri Lanka in 2014.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_110",
+              "question": "The Rajiv Gandhi Khel Ratna award was renamed after whom?",
+              "options": [
+                "Major Dhyan Chand",
+                "Milkha Singh",
+                "P.T. Usha",
+                "Sachin Tendulkar"
+              ],
+              "correct_answer": 0,
+              "explanation": "It became the Major Dhyan Chand Khel Ratna in 2021.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_111",
+              "question": "Who is known as the 'Payyoli Express'?",
+              "options": [
+                "Anju Bobby George",
+                "P.T. Usha",
+                "Hima Das",
+                "Dutee Chand"
+              ],
+              "correct_answer": 1,
+              "explanation": "P.T. Usha is from Payyoli, Kerala.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_112",
+              "question": "Which Indian won the BWF World Championships women's singles title in 2019?",
+              "options": [
+                "Saina Nehwal",
+                "Ashwini Ponnappa",
+                "P.V. Sindhu",
+                "Jwala Gutta"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sindhu became India's first badminton world champion.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_113",
+              "question": "The Durand Cup is associated with which sport?",
+              "options": [
+                "Hockey",
+                "Cricket",
+                "Polo",
+                "Football"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Durand Cup is one of the oldest football tournaments.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_114",
+              "question": "The Ranji Trophy is associated with which sport?",
+              "options": [
+                "Cricket",
+                "Football",
+                "Hockey",
+                "Kabaddi"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is India's premier domestic first-class cricket tournament.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_115",
+              "question": "Who won India's first medal at Tokyo 2020, a silver in weightlifting?",
+              "options": [
+                "Karnam Malleswari",
+                "Mirabai Chanu",
+                "Sakshi Malik",
+                "Lovlina Borgohain"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mirabai Chanu won silver in the 49 kg category.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_116",
+              "question": "Who became the youngest undisputed World Chess Champion in 2024?",
+              "options": [
+                "R. Praggnanandhaa",
+                "Arjun Erigaisi",
+                "D. Gukesh",
+                "Viswanathan Anand"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gukesh defeated Ding Liren at age 18.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_117",
+              "question": "The Pro Kabaddi League began in which year?",
+              "options": [
+                "2010",
+                "2016",
+                "2012",
+                "2014"
+              ],
+              "correct_answer": 3,
+              "explanation": "The first season was held in 2014.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_sports_118",
+              "question": "Who was India's first Test cricket captain?",
+              "options": [
+                "C.K. Nayudu",
+                "Lala Amarnath",
+                "Vijay Hazare",
+                "Nawab of Pataudi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Nayudu led India in its first Test in 1932.",
+              "difficulty": "medium",
               "points": 10
             }
           ]
@@ -19820,6 +21654,258 @@
               "explanation": "Tulsidas wrote Ramcharitmanas, an Awadhi version of the Ramayana.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "gk_classical_literature_101",
+              "question": "Who wrote 'Meghaduta'?",
+              "options": [
+                "Bhasa",
+                "Kalidasa",
+                "Banabhatta",
+                "Bhavabhuti"
+              ],
+              "correct_answer": 1,
+              "explanation": "Meghaduta is Kalidasa's lyric poem about a cloud messenger.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_102",
+              "question": "Who wrote 'Kadambari'?",
+              "options": [
+                "Kalidasa",
+                "Dandin",
+                "Banabhatta",
+                "Bharavi"
+              ],
+              "correct_answer": 2,
+              "explanation": "Banabhatta wrote the Sanskrit romance Kadambari.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_103",
+              "question": "Who wrote 'Gita Govinda'?",
+              "options": [
+                "Kalidasa",
+                "Surdas",
+                "Vidyapati",
+                "Jayadeva"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jayadeva composed it in the 12th century.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_104",
+              "question": "The 'Panchatantra' is attributed to whom?",
+              "options": [
+                "Vishnu Sharma",
+                "Kalidasa",
+                "Valmiki",
+                "Chanakya"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vishnu Sharma is the traditional author of the Panchatantra.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_105",
+              "question": "Who wrote the 'Natyashastra'?",
+              "options": [
+                "Panini",
+                "Bharata Muni",
+                "Patanjali",
+                "Kalidasa"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the ancient treatise on performing arts.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_106",
+              "question": "Who wrote the Sanskrit grammar 'Ashtadhyayi'?",
+              "options": [
+                "Patanjali",
+                "Katyayana",
+                "Panini",
+                "Bharata Muni"
+              ],
+              "correct_answer": 2,
+              "explanation": "Panini's Ashtadhyayi defines classical Sanskrit grammar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_107",
+              "question": "Who wrote 'Rajatarangini', a history of Kashmir?",
+              "options": [
+                "Bilhana",
+                "Banabhatta",
+                "Somadeva",
+                "Kalhana"
+              ],
+              "correct_answer": 3,
+              "explanation": "Kalhana wrote it in the 12th century.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_108",
+              "question": "Who wrote 'Harshacharita'?",
+              "options": [
+                "Banabhatta",
+                "Kalhana",
+                "Harsha",
+                "Harisena"
+              ],
+              "correct_answer": 0,
+              "explanation": "Banabhatta was the court poet of King Harsha.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_109",
+              "question": "Who wrote the 'Tirukkural'?",
+              "options": [
+                "Kamban",
+                "Thiruvalluvar",
+                "Ilango Adigal",
+                "Avvaiyar"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Tirukkural is a classic Tamil text on ethics.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_110",
+              "question": "Who wrote the Tamil epic 'Silappatikaram'?",
+              "options": [
+                "Thiruvalluvar",
+                "Sattanar",
+                "Ilango Adigal",
+                "Kamban"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ilango Adigal wrote one of the five great Tamil epics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_111",
+              "question": "Who wrote the political drama 'Mudrarakshasa'?",
+              "options": [
+                "Kalidasa",
+                "Bhasa",
+                "Shudraka",
+                "Vishakhadatta"
+              ],
+              "correct_answer": 3,
+              "explanation": "It depicts Chanakya's political strategy.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_112",
+              "question": "Who wrote 'Mricchakatika' (The Little Clay Cart)?",
+              "options": [
+                "Shudraka",
+                "Bhasa",
+                "Vishakhadatta",
+                "Kalidasa"
+              ],
+              "correct_answer": 0,
+              "explanation": "Shudraka's play is a classic Sanskrit drama.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_113",
+              "question": "Who compiled the 'Kathasaritsagara'?",
+              "options": [
+                "Kshemendra",
+                "Somadeva",
+                "Gunadhya",
+                "Kalhana"
+              ],
+              "correct_answer": 1,
+              "explanation": "Somadeva compiled it in 11th-century Kashmir.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_114",
+              "question": "Who compiled the 'Yoga Sutras'?",
+              "options": [
+                "Panini",
+                "Vyasa",
+                "Patanjali",
+                "Kapila"
+              ],
+              "correct_answer": 2,
+              "explanation": "Patanjali's Yoga Sutras are the foundational yoga text.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_115",
+              "question": "Who wrote 'Buddhacharita', a life of the Buddha?",
+              "options": [
+                "Nagarjuna",
+                "Vasubandhu",
+                "Kalidasa",
+                "Ashvaghosha"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ashvaghosha wrote it around the 1st-2nd century AD.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_116",
+              "question": "Which Kalidasa play tells the story of Pururavas and Urvashi?",
+              "options": [
+                "Vikramorvasiyam",
+                "Malavikagnimitram",
+                "Raghuvamsha",
+                "Kumarasambhava"
+              ],
+              "correct_answer": 0,
+              "explanation": "Vikramorvasiyam is one of Kalidasa's three plays.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_117",
+              "question": "Who wrote 'Prithviraj Raso'?",
+              "options": [
+                "Kabir",
+                "Chand Bardai",
+                "Malik Muhammad Jayasi",
+                "Amir Khusrau"
+              ],
+              "correct_answer": 1,
+              "explanation": "Chand Bardai was the court poet of Prithviraj Chauhan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_classical_literature_118",
+              "question": "Who wrote 'Padmavat'?",
+              "options": [
+                "Amir Khusrau",
+                "Tulsidas",
+                "Malik Muhammad Jayasi",
+                "Surdas"
+              ],
+              "correct_answer": 2,
+              "explanation": "Jayasi wrote Padmavat in 1540.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -19939,6 +22025,286 @@
               "correct_answer": 0,
               "explanation": "Mulk Raj Anand wrote 'Coolie', a novel about the exploitation of the working class.",
               "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_101",
+              "question": "Who wrote 'The Guide'?",
+              "options": [
+                "Mulk Raj Anand",
+                "Raja Rao",
+                "Anita Desai",
+                "R.K. Narayan"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Guide won the Sahitya Akademi Award in 1960.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_102",
+              "question": "Who wrote the novel 'Untouchable'?",
+              "options": [
+                "Mulk Raj Anand",
+                "R.K. Narayan",
+                "Raja Rao",
+                "Premchand"
+              ],
+              "correct_answer": 0,
+              "explanation": "Untouchable was published in 1935.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_103",
+              "question": "Who wrote the Booker-winning 'The White Tiger'?",
+              "options": [
+                "Kiran Desai",
+                "Aravind Adiga",
+                "Arundhati Roy",
+                "Amitav Ghosh"
+              ],
+              "correct_answer": 1,
+              "explanation": "It won the Booker Prize in 2008.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_104",
+              "question": "Who wrote 'The Inheritance of Loss'?",
+              "options": [
+                "Anita Desai",
+                "Jhumpa Lahiri",
+                "Kiran Desai",
+                "Shashi Tharoor"
+              ],
+              "correct_answer": 2,
+              "explanation": "It won the Booker Prize in 2006.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_105",
+              "question": "Who wrote 'A Suitable Boy'?",
+              "options": [
+                "Salman Rushdie",
+                "Rohinton Mistry",
+                "Amitav Ghosh",
+                "Vikram Seth"
+              ],
+              "correct_answer": 3,
+              "explanation": "Published in 1993, it is one of the longest English novels.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_106",
+              "question": "Who wrote 'The Namesake'?",
+              "options": [
+                "Jhumpa Lahiri",
+                "Kiran Desai",
+                "Chitra Banerjee Divakaruni",
+                "Anita Desai"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Namesake was published in 2003.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_107",
+              "question": "'Wings of Fire' is the autobiography of whom?",
+              "options": [
+                "Vikram Sarabhai",
+                "A.P.J. Abdul Kalam",
+                "Homi Bhabha",
+                "C.V. Raman"
+              ],
+              "correct_answer": 1,
+              "explanation": "Written with Arun Tiwari, published in 1999.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_108",
+              "question": "Who wrote 'The Discovery of India'?",
+              "options": [
+                "Mahatma Gandhi",
+                "Rabindranath Tagore",
+                "Jawaharlal Nehru",
+                "B.R. Ambedkar"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nehru wrote it in Ahmednagar Fort prison.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_109",
+              "question": "'The Story of My Experiments with Truth' is whose autobiography?",
+              "options": [
+                "Jawaharlal Nehru",
+                "Bal Gangadhar Tilak",
+                "Gopal Krishna Gokhale",
+                "Mahatma Gandhi"
+              ],
+              "correct_answer": 3,
+              "explanation": "Gandhi's autobiography was first published in Gujarati.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_110",
+              "question": "Who wrote 'Malgudi Days'?",
+              "options": [
+                "R.K. Narayan",
+                "Ruskin Bond",
+                "Mulk Raj Anand",
+                "Khushwant Singh"
+              ],
+              "correct_answer": 0,
+              "explanation": "Malgudi is Narayan's fictional town.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_111",
+              "question": "Who wrote 'The Shadow Lines'?",
+              "options": [
+                "Vikram Seth",
+                "Amitav Ghosh",
+                "Upamanyu Chatterjee",
+                "Salman Rushdie"
+              ],
+              "correct_answer": 1,
+              "explanation": "It won the Sahitya Akademi Award in 1989.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_112",
+              "question": "Who wrote 'Kanthapura'?",
+              "options": [
+                "R.K. Narayan",
+                "Mulk Raj Anand",
+                "Raja Rao",
+                "Bhabani Bhattacharya"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kanthapura (1938) depicts Gandhian struggle in a village.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_113",
+              "question": "Who wrote 'The Room on the Roof'?",
+              "options": [
+                "R.K. Narayan",
+                "Anita Desai",
+                "Khushwant Singh",
+                "Ruskin Bond"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was Ruskin Bond's first novel.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_114",
+              "question": "Who wrote 'Five Point Someone'?",
+              "options": [
+                "Chetan Bhagat",
+                "Amish Tripathi",
+                "Ravinder Singh",
+                "Durjoy Datta"
+              ],
+              "correct_answer": 0,
+              "explanation": "It inspired the film 3 Idiots.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_115",
+              "question": "Who wrote 'The Immortals of Meluha'?",
+              "options": [
+                "Chetan Bhagat",
+                "Amish Tripathi",
+                "Ashwin Sanghi",
+                "Devdutt Pattanaik"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the first book of the Shiva Trilogy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_116",
+              "question": "Who wrote the Bengali novel 'Devdas'?",
+              "options": [
+                "Bankim Chandra Chattopadhyay",
+                "Rabindranath Tagore",
+                "Sarat Chandra Chattopadhyay",
+                "Bibhutibhushan Bandyopadhyay"
+              ],
+              "correct_answer": 2,
+              "explanation": "Devdas was published in 1917.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_117",
+              "question": "Who wrote the novel 'Pather Panchali'?",
+              "options": [
+                "Satyajit Ray",
+                "Sarat Chandra Chattopadhyay",
+                "Rabindranath Tagore",
+                "Bibhutibhushan Bandyopadhyay"
+              ],
+              "correct_answer": 3,
+              "explanation": "Satyajit Ray later adapted it into a film.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_118",
+              "question": "Who wrote 'Tamas', a novel on the Partition riots?",
+              "options": [
+                "Bhisham Sahni",
+                "Yashpal",
+                "Premchand",
+                "Kamleshwar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tamas won the Sahitya Akademi Award in 1975.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_119",
+              "question": "Who wrote the Hindi novel 'Gaban'?",
+              "options": [
+                "Yashpal",
+                "Premchand",
+                "Jainendra Kumar",
+                "Phanishwar Nath Renu"
+              ],
+              "correct_answer": 1,
+              "explanation": "Gaban was published in 1931.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_authors_120",
+              "question": "Who wrote 'Maila Anchal'?",
+              "options": [
+                "Premchand",
+                "Bhisham Sahni",
+                "Phanishwar Nath Renu",
+                "Agyeya"
+              ],
+              "correct_answer": 2,
+              "explanation": "Maila Anchal (1954) is a classic regional Hindi novel.",
+              "difficulty": "hard",
               "points": 10
             }
           ]
@@ -21495,6 +23861,258 @@
               "correct_answer": 0,
               "explanation": "Subhadra Kumari Chauhan wrote this famous patriotic poem.",
               "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_101",
+              "question": "Who wrote 'Saare Jahan Se Achha'?",
+              "options": [
+                "Faiz Ahmed Faiz",
+                "Mirza Ghalib",
+                "Sahir Ludhianvi",
+                "Muhammad Iqbal"
+              ],
+              "correct_answer": 3,
+              "explanation": "Iqbal wrote it in 1904.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_102",
+              "question": "Who wrote the poem 'Jhansi Ki Rani' ('Khoob ladi mardani')?",
+              "options": [
+                "Subhadra Kumari Chauhan",
+                "Mahadevi Varma",
+                "Sarojini Naidu",
+                "Maithili Sharan Gupt"
+              ],
+              "correct_answer": 0,
+              "explanation": "It celebrates Rani Lakshmibai.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_103",
+              "question": "Which 'Rashtrakavi' wrote 'Bharat Bharati'?",
+              "options": [
+                "Ramdhari Singh Dinkar",
+                "Maithili Sharan Gupt",
+                "Jaishankar Prasad",
+                "Suryakant Tripathi 'Nirala'"
+              ],
+              "correct_answer": 1,
+              "explanation": "Gupt's Bharat Bharati inspired the freedom movement.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_104",
+              "question": "Mahadevi Varma is a pillar of which Hindi literary movement?",
+              "options": [
+                "Pragativad",
+                "Prayogvad",
+                "Chhayavad",
+                "Ritikal"
+              ],
+              "correct_answer": 2,
+              "explanation": "She is one of the four pillars of Chhayavad.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_105",
+              "question": "Saint-poet Kabir was associated with which movement?",
+              "options": [
+                "Chhayavad",
+                "Bengal Renaissance",
+                "Progressive Writers' Movement",
+                "Bhakti movement"
+              ],
+              "correct_answer": 3,
+              "explanation": "Kabir was a 15th-century Bhakti poet.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_106",
+              "question": "Who wrote 'Sur Sagar'?",
+              "options": [
+                "Surdas",
+                "Tulsidas",
+                "Kabir",
+                "Mirabai"
+              ],
+              "correct_answer": 0,
+              "explanation": "Sur Sagar is a collection of songs about Krishna.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_107",
+              "question": "Mirabai's devotional poems are dedicated to which deity?",
+              "options": [
+                "Lord Rama",
+                "Lord Krishna",
+                "Lord Shiva",
+                "Goddess Durga"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mirabai was a devotee of Krishna.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_108",
+              "question": "Who wrote the poem 'Where the Mind is Without Fear'?",
+              "options": [
+                "Sarojini Naidu",
+                "Sri Aurobindo",
+                "Rabindranath Tagore",
+                "Toru Dutt"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is part of Tagore's Gitanjali.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_109",
+              "question": "Who wrote the epic poem 'Savitri: A Legend and a Symbol'?",
+              "options": [
+                "Rabindranath Tagore",
+                "Swami Vivekananda",
+                "Toru Dutt",
+                "Sri Aurobindo"
+              ],
+              "correct_answer": 3,
+              "explanation": "Savitri is Sri Aurobindo's spiritual epic.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_110",
+              "question": "Who wrote the poetry collection 'The Golden Threshold'?",
+              "options": [
+                "Sarojini Naidu",
+                "Toru Dutt",
+                "Kamala Das",
+                "Nissim Ezekiel"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was published in 1905.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_111",
+              "question": "Mirza Ghalib wrote mainly in which languages?",
+              "options": [
+                "Hindi and Sanskrit",
+                "Urdu and Persian",
+                "Bengali and Assamese",
+                "Punjabi and Sindhi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ghalib was a master of Urdu and Persian poetry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_112",
+              "question": "Who wrote the epic poem 'Saket'?",
+              "options": [
+                "Ramdhari Singh Dinkar",
+                "Jaishankar Prasad",
+                "Maithili Sharan Gupt",
+                "Sumitranandan Pant"
+              ],
+              "correct_answer": 2,
+              "explanation": "Saket retells the Ramayana from Urmila's view.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_113",
+              "question": "Who wrote the poem 'Pushp Ki Abhilasha'?",
+              "options": [
+                "Ramdhari Singh Dinkar",
+                "Maithili Sharan Gupt",
+                "Harivansh Rai Bachchan",
+                "Makhanlal Chaturvedi"
+              ],
+              "correct_answer": 3,
+              "explanation": "Chaturvedi was known as 'Ek Bharatiya Atma'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_114",
+              "question": "Who wrote 'Ram Ki Shakti Puja'?",
+              "options": [
+                "Suryakant Tripathi 'Nirala'",
+                "Jaishankar Prasad",
+                "Sumitranandan Pant",
+                "Mahadevi Varma"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is among Nirala's greatest long poems.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_115",
+              "question": "Who wrote the epic poem 'Kurukshetra' (1946)?",
+              "options": [
+                "Maithili Sharan Gupt",
+                "Ramdhari Singh Dinkar",
+                "Harivansh Rai Bachchan",
+                "Suryakant Tripathi 'Nirala'"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dinkar's Kurukshetra reflects on war and peace.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_116",
+              "question": "Who wrote the English poem 'Night of the Scorpion'?",
+              "options": [
+                "A.K. Ramanujan",
+                "Kamala Das",
+                "Nissim Ezekiel",
+                "Jayanta Mahapatra"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ezekiel is a pioneer of Indian English poetry.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_117",
+              "question": "Who wrote the Punjabi poem 'Ajj Aakhan Waris Shah Nu'?",
+              "options": [
+                "Shiv Kumar Batalvi",
+                "Surjit Patar",
+                "Bulleh Shah",
+                "Amrita Pritam"
+              ],
+              "correct_answer": 3,
+              "explanation": "Amrita Pritam wrote it on the Partition's horrors.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_poets_poetry_118",
+              "question": "Who composed the 'Hanuman Chalisa'?",
+              "options": [
+                "Tulsidas",
+                "Surdas",
+                "Valmiki",
+                "Kabir"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tulsidas composed it in Awadhi.",
+              "difficulty": "easy",
               "points": 10
             }
           ]
