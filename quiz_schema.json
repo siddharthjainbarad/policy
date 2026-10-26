@@ -14,6 +14,7 @@
           "color": { "type": "string" },
           "question_timer_seconds": { "type": "integer" },
           "points_per_question": { "type": "integer" },
+          "requiredLevel": { "type": "integer", "minimum": 1 },
           "subcategories": {
             "type": "array",
             "items": {

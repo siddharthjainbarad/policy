@@ -22396,6 +22396,4694 @@
       ]
     },
     {
+      "id": "movies_tv",
+      "name": "Movies & TV",
+      "description": "Hollywood, animation, Oscars, TV series and iconic quotes from around the world",
+      "icon": "🎬",
+      "color": "#E53935",
+      "question_timer_seconds": 12,
+      "points_per_question": 10,
+      "requiredLevel": 5,
+      "subcategories": [
+        {
+          "id": "mov_classics",
+          "name": "Hollywood Classics",
+          "icon": "🎞️",
+          "color": "#EF5350",
+          "questions": [
+            {
+              "id": "mov_classics_101",
+              "question": "Who directed 'Jaws' (1975)?",
+              "options": [
+                "George Lucas",
+                "Martin Scorsese",
+                "Ridley Scott",
+                "Steven Spielberg"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jaws is considered the first summer blockbuster.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_102",
+              "question": "Who directed 'The Godfather' (1972)?",
+              "options": [
+                "Francis Ford Coppola",
+                "Martin Scorsese",
+                "Brian De Palma",
+                "Sergio Leone"
+              ],
+              "correct_answer": 0,
+              "explanation": "It won the Oscar for Best Picture.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_103",
+              "question": "Who played Vito Corleone in 'The Godfather'?",
+              "options": [
+                "Al Pacino",
+                "Marlon Brando",
+                "Robert De Niro",
+                "James Caan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Brando won Best Actor for the role.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_104",
+              "question": "Who played Rick Blaine in 'Casablanca'?",
+              "options": [
+                "Cary Grant",
+                "Clark Gable",
+                "Humphrey Bogart",
+                "James Stewart"
+              ],
+              "correct_answer": 2,
+              "explanation": "Casablanca was released in 1942.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_105",
+              "question": "Who directed 'Psycho' (1960)?",
+              "options": [
+                "Orson Welles",
+                "Billy Wilder",
+                "Stanley Kubrick",
+                "Alfred Hitchcock"
+              ],
+              "correct_answer": 3,
+              "explanation": "Its shower scene is iconic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_106",
+              "question": "'Gone with the Wind' is set during which war?",
+              "options": [
+                "American Civil War",
+                "World War I",
+                "World War II",
+                "War of Independence"
+              ],
+              "correct_answer": 0,
+              "explanation": "It follows Scarlett O'Hara in Georgia.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_107",
+              "question": "Who directed 'Titanic' (1997)?",
+              "options": [
+                "Steven Spielberg",
+                "James Cameron",
+                "Ron Howard",
+                "Peter Jackson"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cameron also directed Avatar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_108",
+              "question": "Who played Jack Dawson in 'Titanic'?",
+              "options": [
+                "Brad Pitt",
+                "Matt Damon",
+                "Leonardo DiCaprio",
+                "Johnny Depp"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kate Winslet played Rose.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_109",
+              "question": "Who played Dorothy in 'The Wizard of Oz' (1939)?",
+              "options": [
+                "Shirley Temple",
+                "Vivien Leigh",
+                "Bette Davis",
+                "Judy Garland"
+              ],
+              "correct_answer": 3,
+              "explanation": "She sang 'Over the Rainbow'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_110",
+              "question": "Who created the 'Star Wars' franchise?",
+              "options": [
+                "George Lucas",
+                "Steven Spielberg",
+                "J.J. Abrams",
+                "James Cameron"
+              ],
+              "correct_answer": 0,
+              "explanation": "The first film released in 1977.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_111",
+              "question": "In 'Star Wars', Darth Vader is the father of which character?",
+              "options": [
+                "Han Solo",
+                "Luke Skywalker",
+                "Obi-Wan Kenobi",
+                "Yoda"
+              ],
+              "correct_answer": 1,
+              "explanation": "Revealed in The Empire Strikes Back.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_112",
+              "question": "Which car is the time machine in 'Back to the Future'?",
+              "options": [
+                "Ford Mustang",
+                "Chevrolet Camaro",
+                "DeLorean",
+                "Porsche 911"
+              ],
+              "correct_answer": 2,
+              "explanation": "It needs 88 mph to time travel.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_113",
+              "question": "'Jurassic Park' is based on a novel by whom?",
+              "options": [
+                "Stephen King",
+                "Dan Brown",
+                "Tom Clancy",
+                "Michael Crichton"
+              ],
+              "correct_answer": 3,
+              "explanation": "The novel was published in 1990.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_114",
+              "question": "Who played the title role in 'Forrest Gump'?",
+              "options": [
+                "Tom Hanks",
+                "Tom Cruise",
+                "Kevin Costner",
+                "Robin Williams"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hanks won Best Actor for it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_115",
+              "question": "'The Shawshank Redemption' is based on a story by whom?",
+              "options": [
+                "John Grisham",
+                "Stephen King",
+                "Michael Crichton",
+                "Mario Puzo"
+              ],
+              "correct_answer": 1,
+              "explanation": "It adapts the novella Rita Hayworth and Shawshank Redemption.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_116",
+              "question": "Who wrote and starred in 'Rocky' (1976)?",
+              "options": [
+                "Arnold Schwarzenegger",
+                "Robert De Niro",
+                "Sylvester Stallone",
+                "Bruce Willis"
+              ],
+              "correct_answer": 2,
+              "explanation": "Rocky won Best Picture.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_117",
+              "question": "Who directed 'Pulp Fiction'?",
+              "options": [
+                "Guy Ritchie",
+                "David Fincher",
+                "Coen brothers",
+                "Quentin Tarantino"
+              ],
+              "correct_answer": 3,
+              "explanation": "It won the Palme d'Or in 1994.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_118",
+              "question": "Who played Neo in 'The Matrix'?",
+              "options": [
+                "Keanu Reeves",
+                "Tom Cruise",
+                "Will Smith",
+                "Brad Pitt"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Matrix was released in 1999.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_119",
+              "question": "Which film features a choice between a red pill and a blue pill?",
+              "options": [
+                "Inception",
+                "The Matrix",
+                "Total Recall",
+                "Blade Runner"
+              ],
+              "correct_answer": 1,
+              "explanation": "Morpheus offers Neo the choice.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_120",
+              "question": "'Schindler's List' is set during which historical event?",
+              "options": [
+                "The Cold War",
+                "The Vietnam War",
+                "The Holocaust",
+                "The Great Depression"
+              ],
+              "correct_answer": 2,
+              "explanation": "Spielberg won Best Director for it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_121",
+              "question": "What is the famous last word spoken in 'Citizen Kane'?",
+              "options": [
+                "Goodbye",
+                "Mother",
+                "Xanadu",
+                "Rosebud"
+              ],
+              "correct_answer": 3,
+              "explanation": "Rosebud drives the film's mystery.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_122",
+              "question": "Who starred in and co-directed 'Singin' in the Rain' (1952)?",
+              "options": [
+                "Gene Kelly",
+                "Fred Astaire",
+                "Frank Sinatra",
+                "Dean Martin"
+              ],
+              "correct_answer": 0,
+              "explanation": "He co-directed it with Stanley Donen.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_123",
+              "question": "Who directed 'Lawrence of Arabia'?",
+              "options": [
+                "Stanley Kubrick",
+                "David Lean",
+                "John Ford",
+                "Billy Wilder"
+              ],
+              "correct_answer": 1,
+              "explanation": "It won seven Oscars.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_124",
+              "question": "Who played Maximus in 'Gladiator' (2000)?",
+              "options": [
+                "Gerard Butler",
+                "Mel Gibson",
+                "Russell Crowe",
+                "Brad Pitt"
+              ],
+              "correct_answer": 2,
+              "explanation": "Crowe won Best Actor.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_125",
+              "question": "Who directed '2001: A Space Odyssey'?",
+              "options": [
+                "Ridley Scott",
+                "George Lucas",
+                "Steven Spielberg",
+                "Stanley Kubrick"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was released in 1968.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_126",
+              "question": "The computer HAL 9000 appears in which film?",
+              "options": [
+                "2001: A Space Odyssey",
+                "Alien",
+                "Blade Runner",
+                "The Terminator"
+              ],
+              "correct_answer": 0,
+              "explanation": "HAL refuses to open the pod bay doors.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_127",
+              "question": "Who played Hannibal Lecter in 'The Silence of the Lambs'?",
+              "options": [
+                "Jack Nicholson",
+                "Anthony Hopkins",
+                "Gary Oldman",
+                "Christopher Walken"
+              ],
+              "correct_answer": 1,
+              "explanation": "He won Best Actor with about 16 minutes on screen.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_128",
+              "question": "What was Charlie Chaplin's most famous character?",
+              "options": [
+                "The Kid",
+                "The Great Dictator",
+                "The Tramp",
+                "Mr. Bean"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Tramp had a bowler hat and cane.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_129",
+              "question": "Who starred as Holly Golightly in 'Breakfast at Tiffany's'?",
+              "options": [
+                "Marilyn Monroe",
+                "Grace Kelly",
+                "Elizabeth Taylor",
+                "Audrey Hepburn"
+              ],
+              "correct_answer": 3,
+              "explanation": "The film was released in 1961.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_130",
+              "question": "Who directed 'E.T. the Extra-Terrestrial'?",
+              "options": [
+                "Steven Spielberg",
+                "George Lucas",
+                "Ron Howard",
+                "Robert Zemeckis"
+              ],
+              "correct_answer": 0,
+              "explanation": "E.T. was released in 1982.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_131",
+              "question": "Who directed 'Back to the Future'?",
+              "options": [
+                "Steven Spielberg",
+                "Robert Zemeckis",
+                "John Hughes",
+                "Ivan Reitman"
+              ],
+              "correct_answer": 1,
+              "explanation": "Zemeckis also directed Forrest Gump.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_132",
+              "question": "Who directed 'Alien' (1979) and 'Blade Runner' (1982)?",
+              "options": [
+                "James Cameron",
+                "John Carpenter",
+                "Ridley Scott",
+                "David Lynch"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ridley Scott later directed Gladiator.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_133",
+              "question": "Which 1939 film was the first colour film to win Best Picture?",
+              "options": [
+                "The Wizard of Oz",
+                "Casablanca",
+                "Ben-Hur",
+                "Gone with the Wind"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was shot in Technicolor.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_134",
+              "question": "In 'The Terminator', who played the Terminator?",
+              "options": [
+                "Arnold Schwarzenegger",
+                "Sylvester Stallone",
+                "Dolph Lundgren",
+                "Jean-Claude Van Damme"
+              ],
+              "correct_answer": 0,
+              "explanation": "The film was released in 1984.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_classics_135",
+              "question": "'Some Like It Hot' (1959) starred which actress?",
+              "options": [
+                "Audrey Hepburn",
+                "Marilyn Monroe",
+                "Grace Kelly",
+                "Doris Day"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was directed by Billy Wilder.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "mov_blockbusters",
+          "name": "Modern Blockbusters",
+          "icon": "🍿",
+          "color": "#F44336",
+          "questions": [
+            {
+              "id": "mov_blockbusters_101",
+              "question": "Which film reclaimed the title of highest-grossing film ever after its 2021 re-release?",
+              "options": [
+                "Avengers: Endgame",
+                "Titanic",
+                "Avatar",
+                "Star Wars: The Force Awakens"
+              ],
+              "correct_answer": 2,
+              "explanation": "Avatar has earned over $2.9 billion.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_102",
+              "question": "Which film briefly became the highest-grossing film ever in 2019?",
+              "options": [
+                "Avengers: Infinity War",
+                "The Lion King",
+                "Frozen II",
+                "Avengers: Endgame"
+              ],
+              "correct_answer": 3,
+              "explanation": "Endgame passed Avatar in July 2019.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_103",
+              "question": "Who played Tony Stark / Iron Man in the MCU?",
+              "options": [
+                "Robert Downey Jr.",
+                "Chris Evans",
+                "Chris Hemsworth",
+                "Mark Ruffalo"
+              ],
+              "correct_answer": 0,
+              "explanation": "He started in Iron Man (2008).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_104",
+              "question": "What was the first film of the Marvel Cinematic Universe?",
+              "options": [
+                "The Incredible Hulk",
+                "Iron Man",
+                "Captain America: The First Avenger",
+                "Thor"
+              ],
+              "correct_answer": 1,
+              "explanation": "Iron Man was released in 2008.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_105",
+              "question": "How many Infinity Stones does Thanos collect?",
+              "options": [
+                "5",
+                "7",
+                "6",
+                "4"
+              ],
+              "correct_answer": 2,
+              "explanation": "Space, Mind, Reality, Power, Time and Soul.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_106",
+              "question": "What is Black Panther's home nation?",
+              "options": [
+                "Sokovia",
+                "Genovia",
+                "Latveria",
+                "Wakanda"
+              ],
+              "correct_answer": 3,
+              "explanation": "Wakanda is rich in vibranium.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_107",
+              "question": "Who played the Joker in 'The Dark Knight' (2008)?",
+              "options": [
+                "Heath Ledger",
+                "Jack Nicholson",
+                "Joaquin Phoenix",
+                "Jared Leto"
+              ],
+              "correct_answer": 0,
+              "explanation": "He won a posthumous Oscar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_108",
+              "question": "Which Christopher Nolan film is about stealing ideas through dreams?",
+              "options": [
+                "Interstellar",
+                "Inception",
+                "Tenet",
+                "Memento"
+              ],
+              "correct_answer": 1,
+              "explanation": "Inception was released in 2010.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_109",
+              "question": "Which 2023 Nolan film tells the story of the atomic bomb's creator?",
+              "options": [
+                "Dunkirk",
+                "Tenet",
+                "Oppenheimer",
+                "The Prestige"
+              ],
+              "correct_answer": 2,
+              "explanation": "Cillian Murphy played Oppenheimer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_110",
+              "question": "Who directed 'Barbie' (2023)?",
+              "options": [
+                "Sofia Coppola",
+                "Patty Jenkins",
+                "Chloe Zhao",
+                "Greta Gerwig"
+              ],
+              "correct_answer": 3,
+              "explanation": "Margot Robbie starred as Barbie.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_111",
+              "question": "Who played Harry Potter in the film series?",
+              "options": [
+                "Daniel Radcliffe",
+                "Rupert Grint",
+                "Tom Felton",
+                "Eddie Redmayne"
+              ],
+              "correct_answer": 0,
+              "explanation": "He played Harry in all eight films.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_112",
+              "question": "Who directed 'The Lord of the Rings' film trilogy?",
+              "options": [
+                "Guillermo del Toro",
+                "Peter Jackson",
+                "Ridley Scott",
+                "Sam Raimi"
+              ],
+              "correct_answer": 1,
+              "explanation": "The trilogy was released 2001-2003.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_113",
+              "question": "In which country was 'The Lord of the Rings' trilogy filmed?",
+              "options": [
+                "Ireland",
+                "Canada",
+                "New Zealand",
+                "Scotland"
+              ],
+              "correct_answer": 2,
+              "explanation": "New Zealand stood in for Middle-earth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_114",
+              "question": "Who played Frodo Baggins?",
+              "options": [
+                "Sean Astin",
+                "Orlando Bloom",
+                "Dominic Monaghan",
+                "Elijah Wood"
+              ],
+              "correct_answer": 3,
+              "explanation": "Sean Astin played Sam.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_115",
+              "question": "Who played Captain Jack Sparrow?",
+              "options": [
+                "Johnny Depp",
+                "Orlando Bloom",
+                "Geoffrey Rush",
+                "Javier Bardem"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was nominated for an Oscar for the role.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_116",
+              "question": "Who plays Dominic Toretto in 'Fast & Furious'?",
+              "options": [
+                "Dwayne Johnson",
+                "Vin Diesel",
+                "Paul Walker",
+                "Jason Statham"
+              ],
+              "correct_answer": 1,
+              "explanation": "The franchise began in 2001.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_117",
+              "question": "Which actor first played James Bond in the official film series?",
+              "options": [
+                "Roger Moore",
+                "George Lazenby",
+                "Sean Connery",
+                "Daniel Craig"
+              ],
+              "correct_answer": 2,
+              "explanation": "Dr. No was released in 1962.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_118",
+              "question": "What was Daniel Craig's final James Bond film?",
+              "options": [
+                "Spectre",
+                "Skyfall",
+                "Quantum of Solace",
+                "No Time to Die"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was released in 2021.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_119",
+              "question": "Who stars as Ethan Hunt in 'Mission: Impossible'?",
+              "options": [
+                "Tom Cruise",
+                "Matt Damon",
+                "Jeremy Renner",
+                "Keanu Reeves"
+              ],
+              "correct_answer": 0,
+              "explanation": "The series began in 1996.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_120",
+              "question": "What is the name of the moon in 'Avatar'?",
+              "options": [
+                "Endor",
+                "Pandora",
+                "Arrakis",
+                "Naboo"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Na'vi live on Pandora.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_121",
+              "question": "What is the desert planet in 'Dune'?",
+              "options": [
+                "Tatooine",
+                "Jakku",
+                "Arrakis",
+                "Pandora"
+              ],
+              "correct_answer": 2,
+              "explanation": "Arrakis is the only source of spice.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_122",
+              "question": "Who directed 'Dune' (2021) and 'Dune: Part Two'?",
+              "options": [
+                "Christopher Nolan",
+                "Ridley Scott",
+                "David Lynch",
+                "Denis Villeneuve"
+              ],
+              "correct_answer": 3,
+              "explanation": "David Lynch made a 1984 version.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_123",
+              "question": "How many live-action Spider-Man actors appear in 'Spider-Man: No Way Home'?",
+              "options": [
+                "3",
+                "2",
+                "4",
+                "1"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tom Holland, Tobey Maguire and Andrew Garfield.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_124",
+              "question": "Who won an Oscar playing the title role in 'Joker' (2019)?",
+              "options": [
+                "Jared Leto",
+                "Joaquin Phoenix",
+                "Heath Ledger",
+                "Christian Bale"
+              ],
+              "correct_answer": 1,
+              "explanation": "He won Best Actor.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_125",
+              "question": "Who played Katniss Everdeen in 'The Hunger Games'?",
+              "options": [
+                "Emma Watson",
+                "Kristen Stewart",
+                "Jennifer Lawrence",
+                "Shailene Woodley"
+              ],
+              "correct_answer": 2,
+              "explanation": "The first film released in 2012.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_126",
+              "question": "Who played Edward Cullen in 'Twilight'?",
+              "options": [
+                "Taylor Lautner",
+                "Zac Efron",
+                "Chris Pine",
+                "Robert Pattinson"
+              ],
+              "correct_answer": 3,
+              "explanation": "He later played Batman.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_127",
+              "question": "Who directed 'Interstellar'?",
+              "options": [
+                "Christopher Nolan",
+                "Denis Villeneuve",
+                "Ridley Scott",
+                "James Cameron"
+              ],
+              "correct_answer": 0,
+              "explanation": "It explores black holes and time dilation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_128",
+              "question": "Who played Wonder Woman in the DC films?",
+              "options": [
+                "Margot Robbie",
+                "Gal Gadot",
+                "Scarlett Johansson",
+                "Brie Larson"
+              ],
+              "correct_answer": 1,
+              "explanation": "Wonder Woman released in 2017.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_129",
+              "question": "Who played Thor in the MCU?",
+              "options": [
+                "Chris Evans",
+                "Chris Pratt",
+                "Chris Hemsworth",
+                "Tom Hiddleston"
+              ],
+              "correct_answer": 2,
+              "explanation": "Tom Hiddleston played Loki.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_130",
+              "question": "What is the name of Captain America's alter ego?",
+              "options": [
+                "Bruce Banner",
+                "Peter Parker",
+                "Clint Barton",
+                "Steve Rogers"
+              ],
+              "correct_answer": 3,
+              "explanation": "Chris Evans played the role.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_131",
+              "question": "Which 2022 film was a sequel to the 1986 'Top Gun'?",
+              "options": [
+                "Top Gun: Maverick",
+                "Top Gun: Rising",
+                "Danger Zone",
+                "Top Gun: Legacy"
+              ],
+              "correct_answer": 0,
+              "explanation": "It grossed nearly $1.5 billion.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_132",
+              "question": "In 'Jurassic Park', where is the park located?",
+              "options": [
+                "Skull Island",
+                "Isla Nublar",
+                "Amity Island",
+                "Isla Sorna"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is off the coast of Costa Rica.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_blockbusters_133",
+              "question": "Which film franchise features the Minions' boss Gru?",
+              "options": [
+                "Shrek",
+                "Ice Age",
+                "Despicable Me",
+                "Madagascar"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gru is voiced by Steve Carell.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "mov_animated",
+          "name": "Animated Movies",
+          "icon": "🧸",
+          "color": "#FF7043",
+          "questions": [
+            {
+              "id": "mov_animated_101",
+              "question": "What was Disney's first full-length animated feature film?",
+              "options": [
+                "Pinocchio",
+                "Cinderella",
+                "Fantasia",
+                "Snow White and the Seven Dwarfs"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was released in 1937.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_102",
+              "question": "What was the first fully computer-animated feature film?",
+              "options": [
+                "Toy Story",
+                "Shrek",
+                "A Bug's Life",
+                "Antz"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pixar released it in 1995.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_103",
+              "question": "Who voiced Woody in 'Toy Story'?",
+              "options": [
+                "Tim Allen",
+                "Tom Hanks",
+                "Billy Crystal",
+                "Robin Williams"
+              ],
+              "correct_answer": 1,
+              "explanation": "Tim Allen voiced Buzz.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_104",
+              "question": "What is Buzz Lightyear's catchphrase?",
+              "options": [
+                "Hakuna Matata!",
+                "Just keep swimming!",
+                "To infinity and beyond!",
+                "You've got a friend in me!"
+              ],
+              "correct_answer": 2,
+              "explanation": "Buzz is a space ranger toy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_105",
+              "question": "Which 'Frozen' character sings 'Let It Go'?",
+              "options": [
+                "Anna",
+                "Olaf",
+                "Kristoff",
+                "Elsa"
+              ],
+              "correct_answer": 3,
+              "explanation": "Idina Menzel voiced Elsa.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_106",
+              "question": "Who is Simba's father in 'The Lion King'?",
+              "options": [
+                "Mufasa",
+                "Scar",
+                "Rafiki",
+                "Zazu"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mufasa is killed by Scar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_107",
+              "question": "What is the name of the villain in 'The Lion King'?",
+              "options": [
+                "Jafar",
+                "Scar",
+                "Hades",
+                "Shere Khan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Scar is Simba's uncle.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_108",
+              "question": "What is the name of Nemo's father in 'Finding Nemo'?",
+              "options": [
+                "Gill",
+                "Bruce",
+                "Marlin",
+                "Crush"
+              ],
+              "correct_answer": 2,
+              "explanation": "Marlin crosses the ocean to find Nemo.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_109",
+              "question": "What type of fish is Dory?",
+              "options": [
+                "Clownfish",
+                "Angelfish",
+                "Pufferfish",
+                "Blue tang"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dory has short-term memory loss.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_110",
+              "question": "Which studio made 'Shrek'?",
+              "options": [
+                "DreamWorks Animation",
+                "Pixar",
+                "Disney",
+                "Illumination"
+              ],
+              "correct_answer": 0,
+              "explanation": "Shrek won the first Oscar for Best Animated Feature.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_111",
+              "question": "Who voiced Donkey in 'Shrek'?",
+              "options": [
+                "Chris Rock",
+                "Eddie Murphy",
+                "Mike Myers",
+                "Will Smith"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mike Myers voiced Shrek.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_112",
+              "question": "Which studio made 'Spirited Away'?",
+              "options": [
+                "Toei Animation",
+                "Pixar",
+                "Studio Ghibli",
+                "Madhouse"
+              ],
+              "correct_answer": 2,
+              "explanation": "It won the Oscar for Best Animated Feature.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_113",
+              "question": "Who directed 'Spirited Away' and 'My Neighbor Totoro'?",
+              "options": [
+                "Isao Takahata",
+                "Makoto Shinkai",
+                "Mamoru Hosoda",
+                "Hayao Miyazaki"
+              ],
+              "correct_answer": 3,
+              "explanation": "He co-founded Studio Ghibli.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_114",
+              "question": "In 'Up', what lifts Carl's house into the sky?",
+              "options": [
+                "Balloons",
+                "A tornado",
+                "A rocket",
+                "An airship"
+              ],
+              "correct_answer": 0,
+              "explanation": "He ties thousands of balloons to it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_115",
+              "question": "Pixar's 'Coco' is set during which festival?",
+              "options": [
+                "Carnival",
+                "Day of the Dead",
+                "Christmas",
+                "Halloween"
+              ],
+              "correct_answer": 1,
+              "explanation": "It celebrates Mexican culture.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_116",
+              "question": "In 'Inside Out', which emotion is blue?",
+              "options": [
+                "Fear",
+                "Disgust",
+                "Sadness",
+                "Anger"
+              ],
+              "correct_answer": 2,
+              "explanation": "Joy is yellow and Anger is red.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_117",
+              "question": "Which demigod helps Moana on her voyage?",
+              "options": [
+                "Hercules",
+                "Tamatoa",
+                "Kamapua'a",
+                "Maui"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dwayne Johnson voiced Maui.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_118",
+              "question": "What is the name of the rat chef in 'Ratatouille'?",
+              "options": [
+                "Remy",
+                "Emile",
+                "Linguini",
+                "Gusteau"
+              ],
+              "correct_answer": 0,
+              "explanation": "Remy dreams of cooking in Paris.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_119",
+              "question": "What is the panda's name in 'Kung Fu Panda'?",
+              "options": [
+                "Shifu",
+                "Po",
+                "Tai Lung",
+                "Oogway"
+              ],
+              "correct_answer": 1,
+              "explanation": "Jack Black voiced Po.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_120",
+              "question": "Who is the rabbit police officer in 'Zootopia'?",
+              "options": [
+                "Nick Wilde",
+                "Bellwether",
+                "Judy Hopps",
+                "Clawhauser"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nick Wilde is a fox.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_121",
+              "question": "What is the name of the acorn-obsessed squirrel in 'Ice Age'?",
+              "options": [
+                "Sid",
+                "Diego",
+                "Manny",
+                "Scrat"
+              ],
+              "correct_answer": 3,
+              "explanation": "Sid is the sloth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_122",
+              "question": "What is the family surname in 'The Incredibles'?",
+              "options": [
+                "Parr",
+                "Smith",
+                "Incredible",
+                "Frost"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mr. Incredible's real name is Bob Parr.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_123",
+              "question": "In 'Monsters, Inc.', what powers Monstropolis at first?",
+              "options": [
+                "Electricity from lightning",
+                "Children's screams",
+                "Laughter",
+                "Sunlight"
+              ],
+              "correct_answer": 1,
+              "explanation": "They switch to laughter at the end.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_124",
+              "question": "Who is the main Spider-Man in 'Into the Spider-Verse'?",
+              "options": [
+                "Peter Parker",
+                "Gwen Stacy",
+                "Miles Morales",
+                "Miguel O'Hara"
+              ],
+              "correct_answer": 2,
+              "explanation": "It won the 2019 Best Animated Feature Oscar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_125",
+              "question": "What is the race car's name in Pixar's 'Cars'?",
+              "options": [
+                "Mater",
+                "Doc Hudson",
+                "Sally",
+                "Lightning McQueen"
+              ],
+              "correct_answer": 3,
+              "explanation": "His number is 95.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_126",
+              "question": "Which 1928 cartoon was Mickey Mouse's first released with synchronised sound?",
+              "options": [
+                "Steamboat Willie",
+                "Plane Crazy",
+                "Fantasia",
+                "The Band Concert"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is considered Mickey's debut.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_127",
+              "question": "Who voiced the Genie in Disney's 'Aladdin' (1992)?",
+              "options": [
+                "Will Smith",
+                "Robin Williams",
+                "Eddie Murphy",
+                "Jim Carrey"
+              ],
+              "correct_answer": 1,
+              "explanation": "Will Smith played him in the 2019 remake.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_128",
+              "question": "In 'Beauty and the Beast', what object counts down the Beast's curse?",
+              "options": [
+                "A magic mirror",
+                "An hourglass",
+                "An enchanted rose",
+                "A candle"
+              ],
+              "correct_answer": 2,
+              "explanation": "The last petal must not fall.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_129",
+              "question": "In 'WALL-E', what is WALL-E's job?",
+              "options": [
+                "Exploring space",
+                "Guarding a spaceship",
+                "Building cities",
+                "Compacting trash"
+              ],
+              "correct_answer": 3,
+              "explanation": "He cleans up an abandoned Earth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_130",
+              "question": "Which Disney princess has a pet tiger named Rajah?",
+              "options": [
+                "Jasmine",
+                "Mulan",
+                "Pocahontas",
+                "Ariel"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rajah appears in Aladdin.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_131",
+              "question": "In 'The Little Mermaid', what is Ariel's crab friend called?",
+              "options": [
+                "Flounder",
+                "Sebastian",
+                "Scuttle",
+                "Flotsam"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sebastian sings 'Under the Sea'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_132",
+              "question": "Which Disney film features the song 'Hakuna Matata'?",
+              "options": [
+                "The Jungle Book",
+                "Tarzan",
+                "The Lion King",
+                "Aladdin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Timon and Pumbaa sing it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_133",
+              "question": "What is the name of the snowman in 'Frozen'?",
+              "options": [
+                "Sven",
+                "Hans",
+                "Marshmallow",
+                "Olaf"
+              ],
+              "correct_answer": 3,
+              "explanation": "Olaf loves warm hugs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_134",
+              "question": "In 'Encanto', which family member 'we don't talk about'?",
+              "options": [
+                "Bruno",
+                "Mirabel",
+                "Luisa",
+                "Isabela"
+              ],
+              "correct_answer": 0,
+              "explanation": "The song became a global hit.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_135",
+              "question": "Which animated film features a girl named Riley?",
+              "options": [
+                "Coco",
+                "Inside Out",
+                "Turning Red",
+                "Luca"
+              ],
+              "correct_answer": 1,
+              "explanation": "Her emotions are the main characters.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_136",
+              "question": "Who is the main villain in '101 Dalmatians'?",
+              "options": [
+                "Ursula",
+                "Maleficent",
+                "Cruella de Vil",
+                "Lady Tremaine"
+              ],
+              "correct_answer": 2,
+              "explanation": "She wants a coat of dalmatian fur.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_animated_137",
+              "question": "Which Disney villain says 'Mirror, mirror on the wall'?",
+              "options": [
+                "Maleficent",
+                "Cruella de Vil",
+                "Mother Gothel",
+                "The Evil Queen"
+              ],
+              "correct_answer": 3,
+              "explanation": "She appears in Snow White.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "mov_awards",
+          "name": "Oscars & Awards",
+          "icon": "🏆",
+          "color": "#FFB300",
+          "questions": [
+            {
+              "id": "mov_awards_101",
+              "question": "What is the official name of the Oscar?",
+              "options": [
+                "Academy Award of Merit",
+                "Golden Statue Award",
+                "Hollywood Merit Award",
+                "Film Excellence Award"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is commonly called the Oscar.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_102",
+              "question": "Which organisation presents the Oscars?",
+              "options": [
+                "Hollywood Foreign Press Association",
+                "Academy of Motion Picture Arts and Sciences",
+                "BAFTA",
+                "Screen Actors Guild"
+              ],
+              "correct_answer": 1,
+              "explanation": "The first ceremony was in 1929.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_103",
+              "question": "Which film won 11 Oscars at the 2004 ceremony, sweeping every category it was nominated in?",
+              "options": [
+                "Titanic",
+                "Ben-Hur",
+                "The Lord of the Rings: The Return of the King",
+                "Gladiator"
+              ],
+              "correct_answer": 2,
+              "explanation": "It won all 11 of its nominations.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_104",
+              "question": "What was the first non-English-language film to win Best Picture?",
+              "options": [
+                "Roma",
+                "Life Is Beautiful",
+                "Crouching Tiger, Hidden Dragon",
+                "Parasite"
+              ],
+              "correct_answer": 3,
+              "explanation": "Parasite won in 2020.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_105",
+              "question": "Who has won the most Oscars of any individual?",
+              "options": [
+                "Walt Disney",
+                "Katharine Hepburn",
+                "Steven Spielberg",
+                "John Williams"
+              ],
+              "correct_answer": 0,
+              "explanation": "Disney won 22 competitive Oscars.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_106",
+              "question": "Which actress won a record four Best Actress Oscars?",
+              "options": [
+                "Meryl Streep",
+                "Katharine Hepburn",
+                "Frances McDormand",
+                "Ingrid Bergman"
+              ],
+              "correct_answer": 1,
+              "explanation": "Her last came for On Golden Pond (1981).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_107",
+              "question": "Who holds the record for the most Oscar acting nominations?",
+              "options": [
+                "Jack Nicholson",
+                "Katharine Hepburn",
+                "Meryl Streep",
+                "Denzel Washington"
+              ],
+              "correct_answer": 2,
+              "explanation": "She has 21 nominations.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_108",
+              "question": "Which film won Best Picture at the 2024 Oscars?",
+              "options": [
+                "Barbie",
+                "Poor Things",
+                "Killers of the Flower Moon",
+                "Oppenheimer"
+              ],
+              "correct_answer": 3,
+              "explanation": "It won seven Oscars.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_109",
+              "question": "Which film won Best Picture at the 2023 Oscars?",
+              "options": [
+                "Everything Everywhere All at Once",
+                "Top Gun: Maverick",
+                "The Banshees of Inisherin",
+                "All Quiet on the Western Front"
+              ],
+              "correct_answer": 0,
+              "explanation": "It won seven Oscars.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_110",
+              "question": "Which film won Best Picture at the 2025 Oscars?",
+              "options": [
+                "The Brutalist",
+                "Anora",
+                "Conclave",
+                "Dune: Part Two"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sean Baker won four Oscars for it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_111",
+              "question": "For which film did Leonardo DiCaprio win his Best Actor Oscar?",
+              "options": [
+                "The Wolf of Wall Street",
+                "Titanic",
+                "The Revenant",
+                "Inception"
+              ],
+              "correct_answer": 2,
+              "explanation": "He won in 2016.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_112",
+              "question": "What was the first film to win Best Picture?",
+              "options": [
+                "Sunrise",
+                "The Jazz Singer",
+                "All Quiet on the Western Front",
+                "Wings"
+              ],
+              "correct_answer": 3,
+              "explanation": "It won at the first ceremony in 1929.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_113",
+              "question": "Who was the first woman to win the Oscar for Best Director?",
+              "options": [
+                "Kathryn Bigelow",
+                "Chloe Zhao",
+                "Jane Campion",
+                "Greta Gerwig"
+              ],
+              "correct_answer": 0,
+              "explanation": "She won for The Hurt Locker in 2010.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_114",
+              "question": "What is the top prize at the Cannes Film Festival?",
+              "options": [
+                "Golden Lion",
+                "Palme d'Or",
+                "Golden Bear",
+                "Golden Globe"
+              ],
+              "correct_answer": 1,
+              "explanation": "Palme d'Or means Golden Palm.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_115",
+              "question": "What is the top prize at the Venice Film Festival?",
+              "options": [
+                "Palme d'Or",
+                "Golden Bear",
+                "Golden Lion",
+                "Crystal Globe"
+              ],
+              "correct_answer": 2,
+              "explanation": "Venice is the oldest film festival.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_116",
+              "question": "What is the top prize at the Berlin International Film Festival?",
+              "options": [
+                "Golden Lion",
+                "Palme d'Or",
+                "Golden Shell",
+                "Golden Bear"
+              ],
+              "correct_answer": 3,
+              "explanation": "The bear is Berlin's symbol.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_117",
+              "question": "Who won Best Actor at the 2024 Oscars?",
+              "options": [
+                "Cillian Murphy",
+                "Bradley Cooper",
+                "Paul Giamatti",
+                "Colman Domingo"
+              ],
+              "correct_answer": 0,
+              "explanation": "He played J. Robert Oppenheimer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_118",
+              "question": "Which film was wrongly announced as Best Picture before 'Moonlight' at the 2017 Oscars?",
+              "options": [
+                "Manchester by the Sea",
+                "La La Land",
+                "Arrival",
+                "Hidden Figures"
+              ],
+              "correct_answer": 1,
+              "explanation": "The wrong envelope was handed over.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_119",
+              "question": "Who was the first Black woman to win the Oscar for Best Actress?",
+              "options": [
+                "Whoopi Goldberg",
+                "Viola Davis",
+                "Halle Berry",
+                "Lupita Nyong'o"
+              ],
+              "correct_answer": 2,
+              "explanation": "She won for Monster's Ball (2002).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_120",
+              "question": "For which film did Sidney Poitier win Best Actor in 1964?",
+              "options": [
+                "In the Heat of the Night",
+                "Guess Who's Coming to Dinner",
+                "To Sir, with Love",
+                "Lilies of the Field"
+              ],
+              "correct_answer": 3,
+              "explanation": "He was the first Black man to win Best Actor.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_121",
+              "question": "Who won Best Director at the 2024 Oscars?",
+              "options": [
+                "Christopher Nolan",
+                "Martin Scorsese",
+                "Greta Gerwig",
+                "Yorgos Lanthimos"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was his first Oscar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_122",
+              "question": "Which composer has the most Oscar nominations of any living person?",
+              "options": [
+                "Hans Zimmer",
+                "John Williams",
+                "Ennio Morricone",
+                "Alan Menken"
+              ],
+              "correct_answer": 1,
+              "explanation": "He scored Star Wars, Jaws and Harry Potter.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_123",
+              "question": "Which award honours excellence in American television?",
+              "options": [
+                "Tony Award",
+                "Grammy Award",
+                "Emmy Award",
+                "Oscar"
+              ],
+              "correct_answer": 2,
+              "explanation": "Tonys are for theatre and Grammys for music.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_124",
+              "question": "BAFTA awards are presented in which country?",
+              "options": [
+                "United States",
+                "France",
+                "Canada",
+                "United Kingdom"
+              ],
+              "correct_answer": 3,
+              "explanation": "BAFTA = British Academy of Film and Television Arts.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_125",
+              "question": "Who won Best Actress at the 2024 Oscars for 'Poor Things'?",
+              "options": [
+                "Emma Stone",
+                "Lily Gladstone",
+                "Margot Robbie",
+                "Carey Mulligan"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was her second Best Actress win.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_126",
+              "question": "Which film won Best Picture at the 2022 Oscars?",
+              "options": [
+                "The Power of the Dog",
+                "CODA",
+                "Dune",
+                "Belfast"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was the first streaming film to win Best Picture.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_awards_127",
+              "question": "Chloe Zhao won Best Director for which film?",
+              "options": [
+                "The Rider",
+                "Eternals",
+                "Nomadland",
+                "Minari"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nomadland also won Best Picture in 2021.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "mov_tv_series",
+          "name": "TV Series",
+          "icon": "📺",
+          "color": "#8D6E63",
+          "questions": [
+            {
+              "id": "mov_tv_series_101",
+              "question": "What is the name of the coffee shop in 'Friends'?",
+              "options": [
+                "Monk's Cafe",
+                "MacLaren's",
+                "Luke's Diner",
+                "Central Perk"
+              ],
+              "correct_answer": 3,
+              "explanation": "The friends meet there often.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_102",
+              "question": "What was Walter White's job at the start of 'Breaking Bad'?",
+              "options": [
+                "Chemistry teacher",
+                "Pharmacist",
+                "Doctor",
+                "Police officer"
+              ],
+              "correct_answer": 0,
+              "explanation": "He becomes a drug manufacturer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_103",
+              "question": "'Game of Thrones' is based on books by whom?",
+              "options": [
+                "J.R.R. Tolkien",
+                "George R.R. Martin",
+                "Robert Jordan",
+                "Patrick Rothfuss"
+              ],
+              "correct_answer": 1,
+              "explanation": "The series is A Song of Ice and Fire.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_104",
+              "question": "What is the main continent in 'Game of Thrones'?",
+              "options": [
+                "Essos",
+                "Middle-earth",
+                "Westeros",
+                "Narnia"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Iron Throne is in King's Landing.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_105",
+              "question": "In which fictional town is 'Stranger Things' set?",
+              "options": [
+                "Riverdale",
+                "Derry",
+                "Sunnydale",
+                "Hawkins"
+              ],
+              "correct_answer": 3,
+              "explanation": "Hawkins is in Indiana.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_106",
+              "question": "What is the paper company in the US version of 'The Office'?",
+              "options": [
+                "Dunder Mifflin",
+                "Wernham Hogg",
+                "Sabre",
+                "Vance Refrigeration"
+              ],
+              "correct_answer": 0,
+              "explanation": "Its Scranton branch is the focus.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_107",
+              "question": "'Squid Game' comes from which country?",
+              "options": [
+                "Japan",
+                "South Korea",
+                "China",
+                "Thailand"
+              ],
+              "correct_answer": 1,
+              "explanation": "It became Netflix's most-watched series.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_108",
+              "question": "'Money Heist' (La Casa de Papel) is from which country?",
+              "options": [
+                "Mexico",
+                "Argentina",
+                "Spain",
+                "Italy"
+              ],
+              "correct_answer": 2,
+              "explanation": "The robbers wear Dali masks.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_109",
+              "question": "In which town do 'The Simpsons' live?",
+              "options": [
+                "Shelbyville",
+                "Quahog",
+                "South Park",
+                "Springfield"
+              ],
+              "correct_answer": 3,
+              "explanation": "Its state is never revealed.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_110",
+              "question": "Who played Sherlock Holmes in the BBC series 'Sherlock'?",
+              "options": [
+                "Benedict Cumberbatch",
+                "Martin Freeman",
+                "Robert Downey Jr.",
+                "Jonny Lee Miller"
+              ],
+              "correct_answer": 0,
+              "explanation": "Martin Freeman played Watson.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_111",
+              "question": "What is the Doctor's time machine called in 'Doctor Who'?",
+              "options": [
+                "DeLorean",
+                "TARDIS",
+                "Time Turner",
+                "Stargate"
+              ],
+              "correct_answer": 1,
+              "explanation": "It looks like a police box.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_112",
+              "question": "'The Crown' is about which royal?",
+              "options": [
+                "Queen Victoria",
+                "King Henry VIII",
+                "Queen Elizabeth II",
+                "Princess Diana"
+              ],
+              "correct_answer": 2,
+              "explanation": "It covers her reign.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_113",
+              "question": "What is Sheldon's surname in 'The Big Bang Theory'?",
+              "options": [
+                "Hofstadter",
+                "Wolowitz",
+                "Koothrappali",
+                "Cooper"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jim Parsons played Sheldon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_114",
+              "question": "Netflix's 'Wednesday' features a character from which family?",
+              "options": [
+                "The Addams Family",
+                "The Munsters",
+                "The Simpsons",
+                "The Bluths"
+              ],
+              "correct_answer": 0,
+              "explanation": "Jenna Ortega plays Wednesday.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_115",
+              "question": "The time-travel series 'Dark' comes from which country?",
+              "options": [
+                "Denmark",
+                "Germany",
+                "Sweden",
+                "Norway"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was Netflix's first German series.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_116",
+              "question": "What is the real name of 'Baby Yoda' in 'The Mandalorian'?",
+              "options": [
+                "Yaddle",
+                "Jarvis",
+                "Grogu",
+                "Din Djarin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Din Djarin is the Mandalorian.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_117",
+              "question": "'Peaky Blinders' is set mainly in which city?",
+              "options": [
+                "London",
+                "Manchester",
+                "Liverpool",
+                "Birmingham"
+              ],
+              "correct_answer": 3,
+              "explanation": "It follows the Shelby family.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_118",
+              "question": "Who is the narrator in 'How I Met Your Mother'?",
+              "options": [
+                "Ted Mosby",
+                "Barney Stinson",
+                "Marshall Eriksen",
+                "Robin Scherbatsky"
+              ],
+              "correct_answer": 0,
+              "explanation": "Future Ted tells the story to his kids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_119",
+              "question": "'Narcos' first focuses on which drug lord?",
+              "options": [
+                "El Chapo",
+                "Pablo Escobar",
+                "Griselda Blanco",
+                "Carlos Lehder"
+              ],
+              "correct_answer": 1,
+              "explanation": "Wagner Moura played Escobar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_120",
+              "question": "What is the real name of Saul Goodman?",
+              "options": [
+                "Chuck McGill",
+                "Mike Ehrmantraut",
+                "Jimmy McGill",
+                "Howard Hamlin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Better Call Saul tells his story.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_121",
+              "question": "Who is the monster hunter in 'The Witcher'?",
+              "options": [
+                "Jon Snow",
+                "Aragorn",
+                "Dandelion",
+                "Geralt of Rivia"
+              ],
+              "correct_answer": 3,
+              "explanation": "Henry Cavill played him first.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_122",
+              "question": "In 'Lost', which flight crashes on the island?",
+              "options": [
+                "Oceanic Flight 815",
+                "Pan Am 103",
+                "Ajira 316",
+                "Flight 29"
+              ],
+              "correct_answer": 0,
+              "explanation": "The plane was going from Sydney to Los Angeles.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_123",
+              "question": "Which sitcom was famously called 'a show about nothing'?",
+              "options": [
+                "Friends",
+                "Seinfeld",
+                "Frasier",
+                "Cheers"
+              ],
+              "correct_answer": 1,
+              "explanation": "It ran from 1989 to 1998.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_124",
+              "question": "Which is the longest-running American scripted primetime series?",
+              "options": [
+                "Law & Order",
+                "Grey's Anatomy",
+                "The Simpsons",
+                "Family Guy"
+              ],
+              "correct_answer": 2,
+              "explanation": "It began in 1989.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_125",
+              "question": "In 'Friends', what is Ross's profession?",
+              "options": [
+                "Chef",
+                "Actor",
+                "Masseuse",
+                "Palaeontologist"
+              ],
+              "correct_answer": 3,
+              "explanation": "He works with dinosaurs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_126",
+              "question": "What is the name of Joey's stuffed penguin in 'Friends'?",
+              "options": [
+                "Hugsy",
+                "Waddles",
+                "Pingu",
+                "Snowy"
+              ],
+              "correct_answer": 0,
+              "explanation": "Joey shares Hugsy with no one.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_127",
+              "question": "In 'Breaking Bad', what is Walter White's alias?",
+              "options": [
+                "Cap'n Cook",
+                "Heisenberg",
+                "Mr. Blue",
+                "The Professor"
+              ],
+              "correct_answer": 1,
+              "explanation": "He took the name of a physicist.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_128",
+              "question": "Which house sigil is a direwolf in 'Game of Thrones'?",
+              "options": [
+                "House Lannister",
+                "House Targaryen",
+                "House Stark",
+                "House Baratheon"
+              ],
+              "correct_answer": 2,
+              "explanation": "Their words are 'Winter is Coming'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_129",
+              "question": "In 'Stranger Things', what is the name of the alternate dimension?",
+              "options": [
+                "The Shadow Realm",
+                "The Nether",
+                "The Void",
+                "The Upside Down"
+              ],
+              "correct_answer": 3,
+              "explanation": "Will gets trapped there.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_130",
+              "question": "What is the robbery leader called in 'Money Heist'?",
+              "options": [
+                "The Professor",
+                "Tokyo",
+                "Berlin",
+                "Denver"
+              ],
+              "correct_answer": 0,
+              "explanation": "Members use city names as aliases.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_131",
+              "question": "'The Last of Us' series is based on what?",
+              "options": [
+                "A novel",
+                "A video game",
+                "A comic book",
+                "A film"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is based on the 2013 Naughty Dog game.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_tv_series_132",
+              "question": "In 'Squid Game', what is the first game played?",
+              "options": [
+                "Tug of war",
+                "Marbles",
+                "Red Light, Green Light",
+                "Glass bridge"
+              ],
+              "correct_answer": 2,
+              "explanation": "A giant doll watches the players.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "mov_quotes_directors",
+          "name": "Quotes & Directors",
+          "icon": "🎥",
+          "color": "#C62828",
+          "questions": [
+            {
+              "id": "mov_quotes_directors_101",
+              "question": "\"May the Force be with you\" comes from which franchise?",
+              "options": [
+                "Star Trek",
+                "The Matrix",
+                "Dune",
+                "Star Wars"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is said throughout the saga.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_102",
+              "question": "\"Here's Johnny!\" is a famous line from which film?",
+              "options": [
+                "The Shining",
+                "Psycho",
+                "Halloween",
+                "Misery"
+              ],
+              "correct_answer": 0,
+              "explanation": "Jack Nicholson says it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_103",
+              "question": "\"You can't handle the truth!\" comes from which film?",
+              "options": [
+                "The Firm",
+                "A Few Good Men",
+                "Scent of a Woman",
+                "Philadelphia"
+              ],
+              "correct_answer": 1,
+              "explanation": "Jack Nicholson shouts it in court.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_104",
+              "question": "\"Why so serious?\" is said by which character?",
+              "options": [
+                "Bane",
+                "Darth Vader",
+                "The Joker",
+                "Hannibal Lecter"
+              ],
+              "correct_answer": 2,
+              "explanation": "Heath Ledger says it in The Dark Knight.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_105",
+              "question": "\"I see dead people\" comes from which film?",
+              "options": [
+                "The Others",
+                "Ghost",
+                "Poltergeist",
+                "The Sixth Sense"
+              ],
+              "correct_answer": 3,
+              "explanation": "Haley Joel Osment says it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_106",
+              "question": "\"There's no place like home\" comes from which film?",
+              "options": [
+                "The Wizard of Oz",
+                "Home Alone",
+                "E.T.",
+                "Mary Poppins"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dorothy clicks her ruby slippers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_107",
+              "question": "\"Houston, we have a problem\" is linked to which film?",
+              "options": [
+                "Gravity",
+                "Apollo 13",
+                "Armageddon",
+                "The Martian"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is based on the 1970 mission.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_108",
+              "question": "\"You're gonna need a bigger boat\" comes from which film?",
+              "options": [
+                "Titanic",
+                "The Perfect Storm",
+                "Jaws",
+                "Moby Dick"
+              ],
+              "correct_answer": 2,
+              "explanation": "Roy Scheider says it on seeing the shark.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_109",
+              "question": "\"I'm the king of the world!\" is shouted in which film?",
+              "options": [
+                "The Lion King",
+                "Gladiator",
+                "King Kong",
+                "Titanic"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jack says it at the ship's bow.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_110",
+              "question": "\"Hasta la vista, baby\" comes from which film?",
+              "options": [
+                "Terminator 2: Judgment Day",
+                "Predator",
+                "Total Recall",
+                "True Lies"
+              ],
+              "correct_answer": 0,
+              "explanation": "Arnold Schwarzenegger says it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_111",
+              "question": "Which character only says \"I am Groot\"?",
+              "options": [
+                "Rocket",
+                "Groot",
+                "Drax",
+                "Yondu"
+              ],
+              "correct_answer": 1,
+              "explanation": "He is from Guardians of the Galaxy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_112",
+              "question": "\"Just keep swimming\" is said by which character?",
+              "options": [
+                "Nemo",
+                "Marlin",
+                "Dory",
+                "Crush"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is from Finding Nemo.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_113",
+              "question": "\"Show me the money!\" comes from which film?",
+              "options": [
+                "Wall Street",
+                "The Wolf of Wall Street",
+                "Moneyball",
+                "Jerry Maguire"
+              ],
+              "correct_answer": 3,
+              "explanation": "Cuba Gooding Jr. shouts it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_114",
+              "question": "\"After all, tomorrow is another day!\" ends which film?",
+              "options": [
+                "Gone with the Wind",
+                "Casablanca",
+                "Annie",
+                "Gigi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Scarlett O'Hara says it.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_115",
+              "question": "\"Life finds a way\" is said in which film?",
+              "options": [
+                "Contagion",
+                "Jurassic Park",
+                "Interstellar",
+                "The Martian"
+              ],
+              "correct_answer": 1,
+              "explanation": "Jeff Goldblum's Ian Malcolm says it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_116",
+              "question": "\"Wax on, wax off\" comes from which film?",
+              "options": [
+                "Rocky",
+                "Kung Fu Panda",
+                "The Karate Kid",
+                "Bloodsport"
+              ],
+              "correct_answer": 2,
+              "explanation": "Mr. Miyagi teaches Daniel.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_117",
+              "question": "\"Elementary, my dear Watson\" is linked to which detective?",
+              "options": [
+                "Hercule Poirot",
+                "Miss Marple",
+                "Inspector Clouseau",
+                "Sherlock Holmes"
+              ],
+              "correct_answer": 3,
+              "explanation": "The exact line never appears in the original books.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_118",
+              "question": "Which director is known as the 'Master of Suspense'?",
+              "options": [
+                "Alfred Hitchcock",
+                "Stanley Kubrick",
+                "David Fincher",
+                "M. Night Shyamalan"
+              ],
+              "correct_answer": 0,
+              "explanation": "He directed Psycho, Vertigo and Rear Window.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_119",
+              "question": "Who directed 'Pan's Labyrinth' and 'The Shape of Water'?",
+              "options": [
+                "Alfonso Cuaron",
+                "Guillermo del Toro",
+                "Alejandro G. Inarritu",
+                "Pedro Almodovar"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Shape of Water won Best Picture.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_120",
+              "question": "Who directed the Japanese classic 'Seven Samurai'?",
+              "options": [
+                "Yasujiro Ozu",
+                "Hayao Miyazaki",
+                "Akira Kurosawa",
+                "Takeshi Kitano"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was released in 1954.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_121",
+              "question": "Who directed 'Crouching Tiger, Hidden Dragon' and 'Life of Pi'?",
+              "options": [
+                "Zhang Yimou",
+                "Wong Kar-wai",
+                "John Woo",
+                "Ang Lee"
+              ],
+              "correct_answer": 3,
+              "explanation": "He won Best Director for Life of Pi.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_122",
+              "question": "Who directed 'Gravity' and 'Roma'?",
+              "options": [
+                "Alfonso Cuaron",
+                "Guillermo del Toro",
+                "Alejandro G. Inarritu",
+                "Ridley Scott"
+              ],
+              "correct_answer": 0,
+              "explanation": "He won Best Director for both.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_123",
+              "question": "Who directed 'The Grand Budapest Hotel'?",
+              "options": [
+                "Tim Burton",
+                "Wes Anderson",
+                "Coen brothers",
+                "Spike Jonze"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is known for symmetric visuals.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_124",
+              "question": "Who directed 'Goodfellas' and 'Taxi Driver'?",
+              "options": [
+                "Francis Ford Coppola",
+                "Brian De Palma",
+                "Martin Scorsese",
+                "Sidney Lumet"
+              ],
+              "correct_answer": 2,
+              "explanation": "He often worked with Robert De Niro.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_125",
+              "question": "Who directed 'Get Out' (2017)?",
+              "options": [
+                "Spike Lee",
+                "Ari Aster",
+                "Barry Jenkins",
+                "Jordan Peele"
+              ],
+              "correct_answer": 3,
+              "explanation": "He won Best Original Screenplay.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_126",
+              "question": "Who directed 'Avatar' and 'Terminator 2'?",
+              "options": [
+                "James Cameron",
+                "Steven Spielberg",
+                "Michael Bay",
+                "Ridley Scott"
+              ],
+              "correct_answer": 0,
+              "explanation": "He also directed Titanic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_127",
+              "question": "Who directed 'The Revenant' and 'Birdman'?",
+              "options": [
+                "Alfonso Cuaron",
+                "Alejandro G. Inarritu",
+                "Guillermo del Toro",
+                "Damien Chazelle"
+              ],
+              "correct_answer": 1,
+              "explanation": "He won Best Director twice in a row.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_128",
+              "question": "Which martial arts star starred in 'Enter the Dragon' (1973)?",
+              "options": [
+                "Jackie Chan",
+                "Jet Li",
+                "Bruce Lee",
+                "Chuck Norris"
+              ],
+              "correct_answer": 2,
+              "explanation": "He died just before its release.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_129",
+              "question": "Which actor created the character Mr. Bean?",
+              "options": [
+                "Hugh Grant",
+                "Steve Coogan",
+                "Jim Carrey",
+                "Rowan Atkinson"
+              ],
+              "correct_answer": 3,
+              "explanation": "Mr. Bean rarely speaks.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_130",
+              "question": "Nollywood is the film industry of which country?",
+              "options": [
+                "Nigeria",
+                "Ghana",
+                "Kenya",
+                "South Africa"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is one of the largest film industries.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_131",
+              "question": "Who held the first public film screening in Paris in 1895?",
+              "options": [
+                "Thomas Edison",
+                "Lumiere brothers",
+                "Georges Melies",
+                "Charlie Chaplin"
+              ],
+              "correct_answer": 1,
+              "explanation": "They invented the Cinematographe.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_132",
+              "question": "Which director made 'A Trip to the Moon' (1902)?",
+              "options": [
+                "Lumiere brothers",
+                "D.W. Griffith",
+                "Georges Melies",
+                "Fritz Lang"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is famous for a rocket in the Moon's eye.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_133",
+              "question": "The famous Hollywood Sign is located in which city?",
+              "options": [
+                "San Francisco",
+                "New York",
+                "Las Vegas",
+                "Los Angeles"
+              ],
+              "correct_answer": 3,
+              "explanation": "It originally read 'Hollywoodland'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_134",
+              "question": "Who directed 'Parasite' (2019)?",
+              "options": [
+                "Bong Joon-ho",
+                "Park Chan-wook",
+                "Kim Ki-duk",
+                "Lee Chang-dong"
+              ],
+              "correct_answer": 0,
+              "explanation": "He won four Oscars for it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "mov_quotes_directors_135",
+              "question": "Who directed the Italian classic 'Cinema Paradiso'?",
+              "options": [
+                "Federico Fellini",
+                "Giuseppe Tornatore",
+                "Roberto Benigni",
+                "Sergio Leone"
+              ],
+              "correct_answer": 1,
+              "explanation": "It won the Best Foreign Language Film Oscar.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_sports",
+      "name": "World Sports",
+      "description": "Football, Olympics, tennis and global sporting legends",
+      "icon": "🏅",
+      "color": "#1E88E5",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 8,
+      "subcategories": [
+        {
+          "id": "sports_football",
+          "name": "Football",
+          "icon": "⚽",
+          "color": "#43A047",
+          "questions": [
+            {
+              "id": "sports_football_101",
+              "question": "Which country won the 2022 FIFA World Cup?",
+              "options": [
+                "France",
+                "Croatia",
+                "Argentina",
+                "Brazil"
+              ],
+              "correct_answer": 2,
+              "explanation": "They beat France on penalties.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_102",
+              "question": "Which country hosted the 2022 FIFA World Cup?",
+              "options": [
+                "Russia",
+                "UAE",
+                "Saudi Arabia",
+                "Qatar"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was the first World Cup in the Middle East.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_103",
+              "question": "Which country won the 2018 FIFA World Cup?",
+              "options": [
+                "France",
+                "Croatia",
+                "Germany",
+                "Belgium"
+              ],
+              "correct_answer": 0,
+              "explanation": "They beat Croatia 4-2.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_104",
+              "question": "Which country has won the most men's FIFA World Cups?",
+              "options": [
+                "Germany",
+                "Brazil",
+                "Italy",
+                "Argentina"
+              ],
+              "correct_answer": 1,
+              "explanation": "Brazil has won five titles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_105",
+              "question": "Which countries will co-host the 2026 FIFA World Cup?",
+              "options": [
+                "Spain and Portugal",
+                "Morocco and Spain",
+                "USA, Canada and Mexico",
+                "USA only"
+              ],
+              "correct_answer": 2,
+              "explanation": "It will feature 48 teams.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_106",
+              "question": "Which country hosted and won the first FIFA World Cup in 1930?",
+              "options": [
+                "Brazil",
+                "Italy",
+                "Argentina",
+                "Uruguay"
+              ],
+              "correct_answer": 3,
+              "explanation": "They beat Argentina 4-2.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_football_107",
+              "question": "Who has won the most Ballon d'Or awards?",
+              "options": [
+                "Lionel Messi",
+                "Cristiano Ronaldo",
+                "Michel Platini",
+                "Johan Cruyff"
+              ],
+              "correct_answer": 0,
+              "explanation": "Messi has won eight.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_108",
+              "question": "Cristiano Ronaldo plays for which national team?",
+              "options": [
+                "Spain",
+                "Portugal",
+                "Brazil",
+                "Italy"
+              ],
+              "correct_answer": 1,
+              "explanation": "He is their all-time top scorer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_109",
+              "question": "'El Clasico' is played between which two clubs?",
+              "options": [
+                "Manchester United and Liverpool",
+                "AC Milan and Inter Milan",
+                "Real Madrid and Barcelona",
+                "Celtic and Rangers"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is Spain's biggest rivalry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_110",
+              "question": "Which club has won the most UEFA Champions League titles?",
+              "options": [
+                "AC Milan",
+                "Bayern Munich",
+                "Liverpool",
+                "Real Madrid"
+              ],
+              "correct_answer": 3,
+              "explanation": "Real Madrid has won 15.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_111",
+              "question": "Who won the Golden Boot at the 2022 FIFA World Cup?",
+              "options": [
+                "Kylian Mbappe",
+                "Lionel Messi",
+                "Olivier Giroud",
+                "Julian Alvarez"
+              ],
+              "correct_answer": 0,
+              "explanation": "He scored eight goals, including a hat-trick in the final.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_football_112",
+              "question": "How many players does each team have on the field in football?",
+              "options": [
+                "10",
+                "11",
+                "9",
+                "12"
+              ],
+              "correct_answer": 1,
+              "explanation": "Including the goalkeeper.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_113",
+              "question": "How long is a standard football match, excluding stoppage time?",
+              "options": [
+                "80 minutes",
+                "60 minutes",
+                "90 minutes",
+                "100 minutes"
+              ],
+              "correct_answer": 2,
+              "explanation": "Two halves of 45 minutes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_114",
+              "question": "Which player scored the 'Hand of God' goal in 1986?",
+              "options": [
+                "Pele",
+                "Lionel Messi",
+                "Zinedine Zidane",
+                "Diego Maradona"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was against England.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_115",
+              "question": "Which country won UEFA Euro 2024?",
+              "options": [
+                "Spain",
+                "England",
+                "France",
+                "Germany"
+              ],
+              "correct_answer": 0,
+              "explanation": "They beat England 2-1 in the final.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_116",
+              "question": "Which English club is nicknamed 'The Red Devils'?",
+              "options": [
+                "Liverpool",
+                "Manchester United",
+                "Arsenal",
+                "Chelsea"
+              ],
+              "correct_answer": 1,
+              "explanation": "They play at Old Trafford.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_117",
+              "question": "Which club plays at Anfield?",
+              "options": [
+                "Everton",
+                "Manchester City",
+                "Liverpool",
+                "Tottenham Hotspur"
+              ],
+              "correct_answer": 2,
+              "explanation": "Their anthem is 'You'll Never Walk Alone'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_118",
+              "question": "Who is the all-time top scorer in men's World Cup history?",
+              "options": [
+                "Ronaldo Nazario",
+                "Pele",
+                "Lionel Messi",
+                "Miroslav Klose"
+              ],
+              "correct_answer": 3,
+              "explanation": "He scored 16 goals.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_football_119",
+              "question": "What colour card means a player is sent off?",
+              "options": [
+                "Red",
+                "Yellow",
+                "Blue",
+                "Green"
+              ],
+              "correct_answer": 0,
+              "explanation": "Two yellows also make a red.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_football_120",
+              "question": "Which country won the first FIFA Women's World Cup in 1991?",
+              "options": [
+                "Norway",
+                "USA",
+                "Germany",
+                "China"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was held in China.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sports_football_121",
+              "question": "Which Argentine club did Diego Maradona famously start his professional career with?",
+              "options": [
+                "Boca Juniors",
+                "River Plate",
+                "Argentinos Juniors",
+                "Newell's Old Boys"
+              ],
+              "correct_answer": 2,
+              "explanation": "He debuted there in 1976.",
+              "difficulty": "hard",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "sports_olympics",
+          "name": "Olympics",
+          "icon": "🥇",
+          "color": "#FDD835",
+          "questions": [
+            {
+              "id": "sports_olympics_101",
+              "question": "How many rings are on the Olympic flag?",
+              "options": [
+                "4",
+                "6",
+                "7",
+                "5"
+              ],
+              "correct_answer": 3,
+              "explanation": "They represent five continents.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_102",
+              "question": "Where were the first modern Olympic Games held in 1896?",
+              "options": [
+                "Athens",
+                "Paris",
+                "London",
+                "Rome"
+              ],
+              "correct_answer": 0,
+              "explanation": "Greece is the birthplace of the Olympics.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_103",
+              "question": "Which city hosted the 2024 Summer Olympics?",
+              "options": [
+                "Tokyo",
+                "Paris",
+                "Los Angeles",
+                "London"
+              ],
+              "correct_answer": 1,
+              "explanation": "Paris also hosted in 1900 and 1924.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_104",
+              "question": "Which city will host the 2028 Summer Olympics?",
+              "options": [
+                "Brisbane",
+                "Paris",
+                "Los Angeles",
+                "Madrid"
+              ],
+              "correct_answer": 2,
+              "explanation": "It will be LA's third Games.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_105",
+              "question": "Which city will host the 2032 Summer Olympics?",
+              "options": [
+                "Doha",
+                "Istanbul",
+                "Berlin",
+                "Brisbane"
+              ],
+              "correct_answer": 3,
+              "explanation": "Brisbane is in Australia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_106",
+              "question": "Who has won the most Olympic gold medals?",
+              "options": [
+                "Michael Phelps",
+                "Usain Bolt",
+                "Carl Lewis",
+                "Larisa Latynina"
+              ],
+              "correct_answer": 0,
+              "explanation": "Phelps won 23 golds in swimming.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_107",
+              "question": "What is Usain Bolt's 100 m world record time?",
+              "options": [
+                "9.69 seconds",
+                "9.58 seconds",
+                "9.63 seconds",
+                "9.79 seconds"
+              ],
+              "correct_answer": 1,
+              "explanation": "He set it in Berlin in 2009.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_108",
+              "question": "Who founded the modern Olympic Games?",
+              "options": [
+                "Avery Brundage",
+                "Juan Antonio Samaranch",
+                "Pierre de Coubertin",
+                "Thomas Bach"
+              ],
+              "correct_answer": 2,
+              "explanation": "He founded the IOC in 1894.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_109",
+              "question": "Which country is hosting the 2026 Winter Olympics?",
+              "options": [
+                "France",
+                "Switzerland",
+                "Canada",
+                "Italy"
+              ],
+              "correct_answer": 3,
+              "explanation": "They are in Milan and Cortina d'Ampezzo.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_110",
+              "question": "What is the official distance of a marathon?",
+              "options": [
+                "42.195 km",
+                "40 km",
+                "42 km",
+                "50 km"
+              ],
+              "correct_answer": 0,
+              "explanation": "That is about 26.2 miles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_111",
+              "question": "Who scored the first perfect 10 in Olympic gymnastics?",
+              "options": [
+                "Olga Korbut",
+                "Nadia Comaneci",
+                "Simone Biles",
+                "Mary Lou Retton"
+              ],
+              "correct_answer": 1,
+              "explanation": "She did it in 1976 at age 14.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_112",
+              "question": "Simone Biles is a superstar in which sport?",
+              "options": [
+                "Swimming",
+                "Athletics",
+                "Gymnastics",
+                "Figure skating"
+              ],
+              "correct_answer": 2,
+              "explanation": "She has 30 World Championship medals.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_113",
+              "question": "Where is the Olympic flame lit before each Games?",
+              "options": [
+                "Athens, Greece",
+                "Lausanne, Switzerland",
+                "Rome, Italy",
+                "Olympia, Greece"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is lit using a parabolic mirror.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_114",
+              "question": "Where is the International Olympic Committee headquartered?",
+              "options": [
+                "Lausanne",
+                "Geneva",
+                "Paris",
+                "Athens"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lausanne is in Switzerland.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_115",
+              "question": "What is the Olympic motto?",
+              "options": [
+                "Citius, Fortius, Unitas",
+                "Faster, Higher, Stronger - Together",
+                "Play Fair, Win Together",
+                "One World, One Dream"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Together' was added in 2021.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_116",
+              "question": "In which year were the Olympics postponed due to COVID-19?",
+              "options": [
+                "2016",
+                "2021",
+                "2020",
+                "2022"
+              ],
+              "correct_answer": 2,
+              "explanation": "Tokyo 2020 was held in 2021.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_117",
+              "question": "Which athlete won four gold medals at the 1936 Berlin Olympics?",
+              "options": [
+                "Carl Lewis",
+                "Jim Thorpe",
+                "Paavo Nurmi",
+                "Jesse Owens"
+              ],
+              "correct_answer": 3,
+              "explanation": "He defied Nazi propaganda.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_118",
+              "question": "How many events make up a decathlon?",
+              "options": [
+                "10",
+                "7",
+                "5",
+                "12"
+              ],
+              "correct_answer": 0,
+              "explanation": "The heptathlon has seven events.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_119",
+              "question": "Which city has hosted the Summer Olympics three times, most recently in 2012?",
+              "options": [
+                "Paris",
+                "London",
+                "Los Angeles",
+                "Athens"
+              ],
+              "correct_answer": 1,
+              "explanation": "London hosted in 1908, 1948 and 2012.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_olympics_120",
+              "question": "Which sport made its Olympic debut at Paris 2024?",
+              "options": [
+                "Skateboarding",
+                "Surfing",
+                "Breaking (breakdancing)",
+                "Sport climbing"
+              ],
+              "correct_answer": 2,
+              "explanation": "The others debuted at Tokyo 2020.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "sports_global",
+          "name": "Tennis, F1 & More",
+          "icon": "🎾",
+          "color": "#1E88E5",
+          "questions": [
+            {
+              "id": "sports_global_101",
+              "question": "How many Grand Slam tournaments are there in tennis each year?",
+              "options": [
+                "3",
+                "5",
+                "6",
+                "4"
+              ],
+              "correct_answer": 3,
+              "explanation": "Australian, French, Wimbledon and US Open.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_102",
+              "question": "Which Grand Slam is played on clay courts?",
+              "options": [
+                "French Open",
+                "Wimbledon",
+                "US Open",
+                "Australian Open"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is held at Roland Garros.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_103",
+              "question": "Which Grand Slam is played on grass?",
+              "options": [
+                "French Open",
+                "Wimbledon",
+                "US Open",
+                "Australian Open"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the oldest tennis tournament.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_104",
+              "question": "Which man has won the most Grand Slam singles titles?",
+              "options": [
+                "Rafael Nadal",
+                "Roger Federer",
+                "Novak Djokovic",
+                "Pete Sampras"
+              ],
+              "correct_answer": 2,
+              "explanation": "He has won 24.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_105",
+              "question": "How many French Open titles did Rafael Nadal win?",
+              "options": [
+                "10",
+                "12",
+                "9",
+                "14"
+              ],
+              "correct_answer": 3,
+              "explanation": "He is called the King of Clay.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_106",
+              "question": "How many Grand Slam singles titles did Serena Williams win?",
+              "options": [
+                "23",
+                "20",
+                "24",
+                "22"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is the Open Era record.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_107",
+              "question": "How many players per team are on a basketball court?",
+              "options": [
+                "6",
+                "5",
+                "7",
+                "4"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ten players in total.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_108",
+              "question": "Who is the NBA's all-time leading scorer?",
+              "options": [
+                "Kareem Abdul-Jabbar",
+                "Michael Jordan",
+                "LeBron James",
+                "Kobe Bryant"
+              ],
+              "correct_answer": 2,
+              "explanation": "He passed Kareem in 2023.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_109",
+              "question": "Michael Jordan won six NBA titles with which team?",
+              "options": [
+                "Los Angeles Lakers",
+                "Boston Celtics",
+                "Washington Wizards",
+                "Chicago Bulls"
+              ],
+              "correct_answer": 3,
+              "explanation": "He won two three-peats.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_110",
+              "question": "Which two drivers share the record of seven F1 World Championships?",
+              "options": [
+                "Lewis Hamilton and Michael Schumacher",
+                "Ayrton Senna and Alain Prost",
+                "Sebastian Vettel and Max Verstappen",
+                "Niki Lauda and Juan Manuel Fangio"
+              ],
+              "correct_answer": 0,
+              "explanation": "Schumacher won his seventh in 2004.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_111",
+              "question": "The Tour de France is a race in which sport?",
+              "options": [
+                "Motor racing",
+                "Cycling",
+                "Marathon running",
+                "Sailing"
+              ],
+              "correct_answer": 1,
+              "explanation": "It began in 1903.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_112",
+              "question": "How many major championships has Tiger Woods won?",
+              "options": [
+                "18",
+                "12",
+                "15",
+                "20"
+              ],
+              "correct_answer": 2,
+              "explanation": "Jack Nicklaus holds the record with 18.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_113",
+              "question": "Magnus Carlsen, the chess champion, is from which country?",
+              "options": [
+                "Sweden",
+                "Russia",
+                "Netherlands",
+                "Norway"
+              ],
+              "correct_answer": 3,
+              "explanation": "He became World Champion in 2013.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_114",
+              "question": "The Super Bowl is the championship of which sport?",
+              "options": [
+                "American football",
+                "Baseball",
+                "Basketball",
+                "Ice hockey"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is the NFL's final game.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_115",
+              "question": "The Stanley Cup is awarded in which sport?",
+              "options": [
+                "Baseball",
+                "Ice hockey",
+                "American football",
+                "Golf"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the NHL's championship trophy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_116",
+              "question": "The Ryder Cup is contested in which sport?",
+              "options": [
+                "Tennis",
+                "Cricket",
+                "Golf",
+                "Polo"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is Europe versus the USA.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_117",
+              "question": "The Davis Cup is contested in which sport?",
+              "options": [
+                "Golf",
+                "Badminton",
+                "Squash",
+                "Tennis"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is the men's team world cup of tennis.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_118",
+              "question": "The America's Cup is a competition in which sport?",
+              "options": [
+                "Sailing",
+                "Rowing",
+                "Polo",
+                "Horse racing"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is the oldest international sporting trophy.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_119",
+              "question": "Which country has won the most men's Cricket World Cups?",
+              "options": [
+                "West Indies",
+                "Australia",
+                "England",
+                "Pakistan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Australia has won six titles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_120",
+              "question": "Which country won the 2023 Rugby World Cup?",
+              "options": [
+                "New Zealand",
+                "France",
+                "South Africa",
+                "England"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was their record fourth title.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_121",
+              "question": "Which boxer called himself 'The Greatest'?",
+              "options": [
+                "Mike Tyson",
+                "Floyd Mayweather",
+                "Joe Frazier",
+                "Muhammad Ali"
+              ],
+              "correct_answer": 3,
+              "explanation": "He won Olympic gold in 1960.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_122",
+              "question": "Sumo wrestling is the national sport of which country?",
+              "options": [
+                "Japan",
+                "China",
+                "Mongolia",
+                "South Korea"
+              ],
+              "correct_answer": 0,
+              "explanation": "Top wrestlers are called yokozuna.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_123",
+              "question": "Taekwondo originated in which country?",
+              "options": [
+                "Japan",
+                "Korea",
+                "China",
+                "Thailand"
+              ],
+              "correct_answer": 1,
+              "explanation": "It became an Olympic sport in 2000.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_124",
+              "question": "In which sport would you perform a slam dunk?",
+              "options": [
+                "Volleyball",
+                "Tennis",
+                "Basketball",
+                "Handball"
+              ],
+              "correct_answer": 2,
+              "explanation": "Players push the ball through the hoop.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sports_global_125",
+              "question": "What is the maximum break in snooker?",
+              "options": [
+                "155",
+                "100",
+                "180",
+                "147"
+              ],
+              "correct_answer": 3,
+              "explanation": "It needs 15 reds with blacks plus all colours.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_126",
+              "question": "What is the highest score possible with three darts?",
+              "options": [
+                "180",
+                "150",
+                "120",
+                "200"
+              ],
+              "correct_answer": 0,
+              "explanation": "Three treble 20s.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sports_global_127",
+              "question": "Wimbledon is held in which city?",
+              "options": [
+                "Paris",
+                "London",
+                "New York",
+                "Melbourne"
+              ],
+              "correct_answer": 1,
+              "explanation": "It started in 1877.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music_world",
+      "name": "Music",
+      "description": "Pop, rock, classical music and instruments from around the world",
+      "icon": "🎵",
+      "color": "#8E24AA",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 12,
+      "subcategories": [
+        {
+          "id": "music_pop_rock",
+          "name": "Pop & Rock",
+          "icon": "🎸",
+          "color": "#AB47BC",
+          "questions": [
+            {
+              "id": "music_pop_rock_101",
+              "question": "Who is known as the 'King of Pop'?",
+              "options": [
+                "Elvis Presley",
+                "Prince",
+                "Michael Jackson",
+                "Justin Timberlake"
+              ],
+              "correct_answer": 2,
+              "explanation": "His album Thriller is the best-selling ever.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_102",
+              "question": "Who is known as the 'Queen of Pop'?",
+              "options": [
+                "Beyonce",
+                "Lady Gaga",
+                "Britney Spears",
+                "Madonna"
+              ],
+              "correct_answer": 3,
+              "explanation": "She has sold over 300 million records.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_103",
+              "question": "Which band recorded 'Bohemian Rhapsody'?",
+              "options": [
+                "Queen",
+                "The Beatles",
+                "Led Zeppelin",
+                "Pink Floyd"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was released in 1975.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_104",
+              "question": "The Beatles came from which city?",
+              "options": [
+                "London",
+                "Liverpool",
+                "Manchester",
+                "Birmingham"
+              ],
+              "correct_answer": 1,
+              "explanation": "They formed in 1960.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_105",
+              "question": "Who is known as the 'King of Rock and Roll'?",
+              "options": [
+                "Chuck Berry",
+                "Little Richard",
+                "Elvis Presley",
+                "Buddy Holly"
+              ],
+              "correct_answer": 2,
+              "explanation": "His home was Graceland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_106",
+              "question": "What was Taylor Swift's record-breaking 2023-24 tour called?",
+              "options": [
+                "Reputation Tour",
+                "1989 World Tour",
+                "Midnights Tour",
+                "The Eras Tour"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is the highest-grossing tour ever.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_107",
+              "question": "Who sang 'Shape of You'?",
+              "options": [
+                "Ed Sheeran",
+                "Justin Bieber",
+                "Shawn Mendes",
+                "Sam Smith"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was released in 2017.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_108",
+              "question": "Who sang 'Rolling in the Deep' and 'Hello'?",
+              "options": [
+                "Rihanna",
+                "Adele",
+                "Sia",
+                "Amy Winehouse"
+              ],
+              "correct_answer": 1,
+              "explanation": "Her albums are named after her age.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_109",
+              "question": "Which singer recorded 'Despacito' with Daddy Yankee?",
+              "options": [
+                "Enrique Iglesias",
+                "J Balvin",
+                "Luis Fonsi",
+                "Ricky Martin"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was released in 2017.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_110",
+              "question": "K-pop group BTS comes from which country?",
+              "options": [
+                "Japan",
+                "China",
+                "Thailand",
+                "South Korea"
+              ],
+              "correct_answer": 3,
+              "explanation": "BTS formed in 2013.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_111",
+              "question": "Which artist released 'Gangnam Style'?",
+              "options": [
+                "PSY",
+                "BTS",
+                "Big Bang",
+                "G-Dragon"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was the first YouTube video to reach 1 billion views.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_112",
+              "question": "Bob Marley is most associated with which genre?",
+              "options": [
+                "Jazz",
+                "Reggae",
+                "Blues",
+                "Hip hop"
+              ],
+              "correct_answer": 1,
+              "explanation": "He was from Jamaica.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_113",
+              "question": "Who was the lead singer of Queen?",
+              "options": [
+                "Brian May",
+                "Mick Jagger",
+                "Freddie Mercury",
+                "Robert Plant"
+              ],
+              "correct_answer": 2,
+              "explanation": "He was born in Zanzibar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_114",
+              "question": "Which artist released the album 'Purple Rain'?",
+              "options": [
+                "Michael Jackson",
+                "David Bowie",
+                "Stevie Wonder",
+                "Prince"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was also a 1984 film.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_115",
+              "question": "Which singer-songwriter won the Nobel Prize in Literature in 2016?",
+              "options": [
+                "Bob Dylan",
+                "Leonard Cohen",
+                "Paul McCartney",
+                "Bruce Springsteen"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was honoured for his song lyrics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_116",
+              "question": "Who has won the most Grammy Awards?",
+              "options": [
+                "Quincy Jones",
+                "Beyonce",
+                "Taylor Swift",
+                "Georg Solti"
+              ],
+              "correct_answer": 1,
+              "explanation": "She has won 35.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_117",
+              "question": "Which band released 'Smells Like Teen Spirit'?",
+              "options": [
+                "Pearl Jam",
+                "Foo Fighters",
+                "Nirvana",
+                "Green Day"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kurt Cobain was its singer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_118",
+              "question": "Which band recorded 'Stairway to Heaven'?",
+              "options": [
+                "The Rolling Stones",
+                "Deep Purple",
+                "Black Sabbath",
+                "Led Zeppelin"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was released in 1971.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_119",
+              "question": "Which band recorded 'Hotel California'?",
+              "options": [
+                "Eagles",
+                "Fleetwood Mac",
+                "The Doors",
+                "Lynyrd Skynyrd"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was released in 1976.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_120",
+              "question": "Rock band AC/DC comes from which country?",
+              "options": [
+                "UK",
+                "Australia",
+                "USA",
+                "Canada"
+              ],
+              "correct_answer": 1,
+              "explanation": "They formed in Sydney in 1973.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_121",
+              "question": "ABBA comes from which country?",
+              "options": [
+                "Norway",
+                "Denmark",
+                "Sweden",
+                "Finland"
+              ],
+              "correct_answer": 2,
+              "explanation": "They won Eurovision in 1974.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_122",
+              "question": "With which song did ABBA win Eurovision in 1974?",
+              "options": [
+                "Dancing Queen",
+                "Mamma Mia",
+                "Fernando",
+                "Waterloo"
+              ],
+              "correct_answer": 3,
+              "explanation": "The contest was held in Brighton.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_123",
+              "question": "Who sang 'Blinding Lights'?",
+              "options": [
+                "The Weeknd",
+                "Drake",
+                "Bruno Mars",
+                "Post Malone"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is one of Spotify's most-streamed songs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_124",
+              "question": "Who is the lead singer of The Rolling Stones?",
+              "options": [
+                "Keith Richards",
+                "Mick Jagger",
+                "Roger Daltrey",
+                "Bono"
+              ],
+              "correct_answer": 1,
+              "explanation": "The band formed in 1962.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_125",
+              "question": "Bono is the lead singer of which band?",
+              "options": [
+                "Coldplay",
+                "Oasis",
+                "U2",
+                "Radiohead"
+              ],
+              "correct_answer": 2,
+              "explanation": "U2 is from Dublin.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_126",
+              "question": "Chris Martin is the lead singer of which band?",
+              "options": [
+                "Keane",
+                "The Killers",
+                "Snow Patrol",
+                "Coldplay"
+              ],
+              "correct_answer": 3,
+              "explanation": "Their hits include 'Yellow'.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_127",
+              "question": "Which singer is known as 'Lady Gaga'?",
+              "options": [
+                "Stefani Germanotta",
+                "Robyn Fenty",
+                "Katy Hudson",
+                "Alecia Moore"
+              ],
+              "correct_answer": 0,
+              "explanation": "Robyn Fenty is Rihanna.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_128",
+              "question": "Which rapper's real name is Marshall Mathers?",
+              "options": [
+                "Jay-Z",
+                "Eminem",
+                "50 Cent",
+                "Snoop Dogg"
+              ],
+              "correct_answer": 1,
+              "explanation": "His alter ego is Slim Shady.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_129",
+              "question": "Which Pink Floyd album has a prism on its cover?",
+              "options": [
+                "The Wall",
+                "Wish You Were Here",
+                "The Dark Side of the Moon",
+                "Animals"
+              ],
+              "correct_answer": 2,
+              "explanation": "It charted for over 900 weeks.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_pop_rock_130",
+              "question": "What does 'K-pop' stand for?",
+              "options": [
+                "Kids pop",
+                "Karaoke pop",
+                "Kinetic pop",
+                "Korean pop"
+              ],
+              "correct_answer": 3,
+              "explanation": "K-pop is a global music genre.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "music_classical",
+          "name": "Classical & Instruments",
+          "icon": "🎻",
+          "color": "#6A1B9A",
+          "questions": [
+            {
+              "id": "music_classical_101",
+              "question": "Who composed the 'Moonlight Sonata'?",
+              "options": [
+                "Ludwig van Beethoven",
+                "Wolfgang Amadeus Mozart",
+                "Frederic Chopin",
+                "Franz Schubert"
+              ],
+              "correct_answer": 0,
+              "explanation": "Beethoven wrote it in 1801.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_102",
+              "question": "Who composed the opera 'The Magic Flute'?",
+              "options": [
+                "Giuseppe Verdi",
+                "Wolfgang Amadeus Mozart",
+                "Richard Wagner",
+                "Joseph Haydn"
+              ],
+              "correct_answer": 1,
+              "explanation": "It premiered in Vienna in 1791.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_103",
+              "question": "In which city was Mozart born?",
+              "options": [
+                "Vienna",
+                "Berlin",
+                "Salzburg",
+                "Prague"
+              ],
+              "correct_answer": 2,
+              "explanation": "Salzburg is in Austria.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_104",
+              "question": "Who composed 'The Four Seasons'?",
+              "options": [
+                "Johann Sebastian Bach",
+                "George Frideric Handel",
+                "Claudio Monteverdi",
+                "Antonio Vivaldi"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is a set of four violin concertos.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_105",
+              "question": "Who composed the ballet 'Swan Lake'?",
+              "options": [
+                "Pyotr Ilyich Tchaikovsky",
+                "Sergei Prokofiev",
+                "Igor Stravinsky",
+                "Sergei Rachmaninoff"
+              ],
+              "correct_answer": 0,
+              "explanation": "He also composed The Nutcracker.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_106",
+              "question": "Who composed the 'Brandenburg Concertos'?",
+              "options": [
+                "Antonio Vivaldi",
+                "Johann Sebastian Bach",
+                "George Frideric Handel",
+                "Georg Philipp Telemann"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bach presented them in 1721.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_107",
+              "question": "How many keys does a standard piano have?",
+              "options": [
+                "76",
+                "61",
+                "88",
+                "100"
+              ],
+              "correct_answer": 2,
+              "explanation": "52 white keys and 36 black keys.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_108",
+              "question": "How many strings does a standard guitar have?",
+              "options": [
+                "4",
+                "7",
+                "12",
+                "6"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bass guitars usually have four.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_109",
+              "question": "Which is the largest instrument in the violin family?",
+              "options": [
+                "Double bass",
+                "Cello",
+                "Viola",
+                "Violin"
+              ],
+              "correct_answer": 0,
+              "explanation": "It has the lowest pitch.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_110",
+              "question": "How many lines are there on a standard musical staff?",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "correct_answer": 1,
+              "explanation": "Notes sit on lines and spaces.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_111",
+              "question": "Who composed the opera 'La Traviata'?",
+              "options": [
+                "Giacomo Puccini",
+                "Gioachino Rossini",
+                "Giuseppe Verdi",
+                "Georges Bizet"
+              ],
+              "correct_answer": 2,
+              "explanation": "It premiered in Venice in 1853.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_112",
+              "question": "Who composed 'Bolero'?",
+              "options": [
+                "Claude Debussy",
+                "Erik Satie",
+                "Camille Saint-Saens",
+                "Maurice Ravel"
+              ],
+              "correct_answer": 3,
+              "explanation": "It repeats one melody with a growing crescendo.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_113",
+              "question": "Who composed 'Clair de Lune'?",
+              "options": [
+                "Claude Debussy",
+                "Maurice Ravel",
+                "Frederic Chopin",
+                "Franz Liszt"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is part of the Suite bergamasque.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_114",
+              "question": "'Ode to Joy' comes from which Beethoven symphony?",
+              "options": [
+                "Symphony No. 5",
+                "Symphony No. 9",
+                "Symphony No. 3",
+                "Symphony No. 7"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the anthem of the European Union.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_115",
+              "question": "Which woodwind instrument does not use a reed?",
+              "options": [
+                "Clarinet",
+                "Oboe",
+                "Flute",
+                "Bassoon"
+              ],
+              "correct_answer": 2,
+              "explanation": "Air is blown across an opening.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_116",
+              "question": "Which brass instrument uses a slide to change pitch?",
+              "options": [
+                "Trumpet",
+                "Tuba",
+                "French horn",
+                "Trombone"
+              ],
+              "correct_answer": 3,
+              "explanation": "The others use valves.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_117",
+              "question": "Who composed the opera 'Madama Butterfly'?",
+              "options": [
+                "Giacomo Puccini",
+                "Giuseppe Verdi",
+                "Richard Wagner",
+                "Gaetano Donizetti"
+              ],
+              "correct_answer": 0,
+              "explanation": "It premiered in Milan in 1904.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_118",
+              "question": "Who composed the 'Ring Cycle' operas?",
+              "options": [
+                "Richard Strauss",
+                "Richard Wagner",
+                "Gustav Mahler",
+                "Johannes Brahms"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is four operas long.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "music_classical_119",
+              "question": "Frederic Chopin mainly composed for which instrument?",
+              "options": [
+                "Violin",
+                "Organ",
+                "Piano",
+                "Cello"
+              ],
+              "correct_answer": 2,
+              "explanation": "He was a Polish composer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_120",
+              "question": "Who composed 'Messiah', including the 'Hallelujah' chorus?",
+              "options": [
+                "Johann Sebastian Bach",
+                "Joseph Haydn",
+                "Henry Purcell",
+                "George Frideric Handel"
+              ],
+              "correct_answer": 3,
+              "explanation": "It premiered in Dublin in 1742.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_121",
+              "question": "Which composer continued to compose after becoming almost completely deaf?",
+              "options": [
+                "Ludwig van Beethoven",
+                "Johann Sebastian Bach",
+                "Antonio Vivaldi",
+                "Franz Joseph Haydn"
+              ],
+              "correct_answer": 0,
+              "explanation": "He composed his Ninth Symphony while deaf.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_122",
+              "question": "What does the musical term 'forte' mean?",
+              "options": [
+                "Soft",
+                "Loud",
+                "Fast",
+                "Slow"
+              ],
+              "correct_answer": 1,
+              "explanation": "'Piano' means soft.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_123",
+              "question": "What does 'allegro' mean in music?",
+              "options": [
+                "Slow",
+                "Very soft",
+                "Fast and lively",
+                "Gradually louder"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Adagio' means slow.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_124",
+              "question": "A group of four musicians is called a?",
+              "options": [
+                "Trio",
+                "Quintet",
+                "Duet",
+                "Quartet"
+              ],
+              "correct_answer": 3,
+              "explanation": "A string quartet has two violins, viola and cello.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_125",
+              "question": "Which instrument is the 'king of instruments'?",
+              "options": [
+                "Pipe organ",
+                "Piano",
+                "Violin",
+                "Harp"
+              ],
+              "correct_answer": 0,
+              "explanation": "Mozart gave it this title.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_126",
+              "question": "The koto is a traditional stringed instrument of which country?",
+              "options": [
+                "China",
+                "Japan",
+                "Korea",
+                "Vietnam"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is Japan's national instrument.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_127",
+              "question": "The didgeridoo is a traditional instrument from which country?",
+              "options": [
+                "New Zealand",
+                "Papua New Guinea",
+                "Australia",
+                "Fiji"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is played by Aboriginal Australians.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "music_classical_128",
+              "question": "The balalaika is a traditional instrument of which country?",
+              "options": [
+                "Greece",
+                "Spain",
+                "Turkey",
+                "Russia"
+              ],
+              "correct_answer": 3,
+              "explanation": "It has a triangular body.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "music_classical_129",
+              "question": "The bagpipes are most associated with which country?",
+              "options": [
+                "Scotland",
+                "Ireland",
+                "Wales",
+                "Norway"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Great Highland bagpipe is iconic.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "gk_india",
       "name": "Indian GK",
       "description": "Test your knowledge about India",
@@ -22403,7 +27091,7 @@
       "color": "#FF9933",
       "question_timer_seconds": 10,
       "points_per_question": 10,
-      "requiredLevel": 17,
+      "requiredLevel": 30,
       "subcategories": [
         {
           "id": "gk_history",
@@ -26783,7 +31471,7 @@
       "color": "#FFA500",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 18,
+      "requiredLevel": 35,
       "subcategories": [
         {
           "id": "gk_ancient_inventions",
@@ -29025,7 +33713,7 @@
       "color": "#8B4513",
       "question_timer_seconds": 12,
       "points_per_question": 10,
-      "requiredLevel": 19,
+      "requiredLevel": 40,
       "subcategories": [
         {
           "id": "gk_classical_literature",
