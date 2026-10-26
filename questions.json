@@ -27084,6 +27084,5256 @@
       ]
     },
     {
+      "id": "food_world",
+      "name": "Food & Cuisine",
+      "description": "World dishes, ingredients and tasty food facts",
+      "icon": "🍕",
+      "color": "#FB8C00",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 2,
+      "subcategories": [
+        {
+          "id": "food_cuisines",
+          "name": "World Cuisines",
+          "icon": "🍜",
+          "color": "#FFA726",
+          "questions": [
+            {
+              "id": "food_cuisines_101",
+              "question": "Sushi originated in which country?",
+              "options": [
+                "China",
+                "Korea",
+                "Thailand",
+                "Japan"
+              ],
+              "correct_answer": 3,
+              "explanation": "Sushi pairs vinegared rice with fish or vegetables.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_102",
+              "question": "Paella is a traditional dish from which country?",
+              "options": [
+                "Spain",
+                "Italy",
+                "Portugal",
+                "Mexico"
+              ],
+              "correct_answer": 0,
+              "explanation": "It comes from Valencia.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_103",
+              "question": "Pizza Margherita originated in which Italian city?",
+              "options": [
+                "Rome",
+                "Naples",
+                "Milan",
+                "Venice"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was named after Queen Margherita in 1889.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_104",
+              "question": "Kimchi is a fermented dish from which country?",
+              "options": [
+                "Japan",
+                "China",
+                "South Korea",
+                "Vietnam"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is usually made from cabbage.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_105",
+              "question": "Tacos come from which country's cuisine?",
+              "options": [
+                "Spain",
+                "Peru",
+                "Argentina",
+                "Mexico"
+              ],
+              "correct_answer": 3,
+              "explanation": "They are tortillas with fillings.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_106",
+              "question": "Pho is a noodle soup from which country?",
+              "options": [
+                "Vietnam",
+                "Thailand",
+                "Cambodia",
+                "Laos"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is usually made with beef or chicken.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_107",
+              "question": "Goulash is a traditional stew from which country?",
+              "options": [
+                "Poland",
+                "Hungary",
+                "Russia",
+                "Austria"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is flavoured with paprika.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_108",
+              "question": "Feijoada is the national dish of which country?",
+              "options": [
+                "Portugal",
+                "Argentina",
+                "Brazil",
+                "Cuba"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is a black bean and pork stew.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_109",
+              "question": "What is the main ingredient of hummus?",
+              "options": [
+                "Lentils",
+                "Fava beans",
+                "Peanuts",
+                "Chickpeas"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is blended with tahini and lemon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_110",
+              "question": "What is the main ingredient of guacamole?",
+              "options": [
+                "Avocado",
+                "Tomato",
+                "Lime",
+                "Green chilli"
+              ],
+              "correct_answer": 0,
+              "explanation": "It originates from Mexico.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_111",
+              "question": "Cheese fondue is a famous dish from which country?",
+              "options": [
+                "France",
+                "Switzerland",
+                "Belgium",
+                "Netherlands"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bread is dipped into melted cheese.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_112",
+              "question": "Pad Thai is a stir-fried noodle dish from which country?",
+              "options": [
+                "Vietnam",
+                "Malaysia",
+                "Thailand",
+                "Indonesia"
+              ],
+              "correct_answer": 2,
+              "explanation": "It often includes peanuts and tamarind.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_113",
+              "question": "Moussaka is a layered dish from which country?",
+              "options": [
+                "Turkey",
+                "Italy",
+                "Cyprus",
+                "Greece"
+              ],
+              "correct_answer": 3,
+              "explanation": "It has aubergine, meat and bechamel.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_114",
+              "question": "Haggis is the national dish of which country?",
+              "options": [
+                "Scotland",
+                "Ireland",
+                "Wales",
+                "England"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is traditionally eaten on Burns Night.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_115",
+              "question": "Poutine, fries with cheese curds and gravy, comes from which country?",
+              "options": [
+                "USA",
+                "Canada",
+                "France",
+                "Belgium"
+              ],
+              "correct_answer": 1,
+              "explanation": "It originated in Quebec.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_116",
+              "question": "What is the main vegetable in borscht?",
+              "options": [
+                "Cabbage",
+                "Potato",
+                "Beetroot",
+                "Carrot"
+              ],
+              "correct_answer": 2,
+              "explanation": "It gives the soup its red colour.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_117",
+              "question": "In ceviche, raw fish is cured in what?",
+              "options": [
+                "Salt water",
+                "Vinegar only",
+                "Soy sauce",
+                "Citrus juice"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is popular in Peru.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_118",
+              "question": "Tiramisu is a dessert from which country?",
+              "options": [
+                "Italy",
+                "France",
+                "Spain",
+                "Austria"
+              ],
+              "correct_answer": 0,
+              "explanation": "It contains coffee and mascarpone.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_119",
+              "question": "Dim sum originates from which cuisine?",
+              "options": [
+                "Japanese",
+                "Cantonese (Chinese)",
+                "Korean",
+                "Thai"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is served in small portions with tea.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_120",
+              "question": "Wiener schnitzel is a famous dish from which country?",
+              "options": [
+                "Germany",
+                "Switzerland",
+                "Austria",
+                "Hungary"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is a breaded veal cutlet.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_121",
+              "question": "Couscous is a staple of which region?",
+              "options": [
+                "East Asia",
+                "Scandinavia",
+                "South America",
+                "North Africa"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is made from semolina.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_122",
+              "question": "Jollof rice is popular in which region?",
+              "options": [
+                "West Africa",
+                "East Asia",
+                "Caribbean",
+                "Middle East"
+              ],
+              "correct_answer": 0,
+              "explanation": "Nigeria and Ghana debate whose is best.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_123",
+              "question": "Peking duck is a famous dish from which country?",
+              "options": [
+                "Japan",
+                "China",
+                "Vietnam",
+                "Korea"
+              ],
+              "correct_answer": 1,
+              "explanation": "Peking is the old name of Beijing.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_124",
+              "question": "Bratwurst is a type of sausage from which country?",
+              "options": [
+                "Poland",
+                "Austria",
+                "Germany",
+                "Czech Republic"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is often grilled.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_125",
+              "question": "Fish and chips is a classic dish of which country?",
+              "options": [
+                "USA",
+                "Australia",
+                "Ireland",
+                "United Kingdom"
+              ],
+              "correct_answer": 3,
+              "explanation": "It became popular in the 1860s.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_126",
+              "question": "Pierogi are dumplings from which country?",
+              "options": [
+                "Poland",
+                "Russia",
+                "Germany",
+                "Ukraine"
+              ],
+              "correct_answer": 0,
+              "explanation": "They are filled with potato, cheese or meat.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_127",
+              "question": "Falafel is made mainly from what?",
+              "options": [
+                "Rice",
+                "Chickpeas or fava beans",
+                "Potatoes",
+                "Lentils and flour"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is deep-fried.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_128",
+              "question": "Baklava is strongly associated with which cuisine?",
+              "options": [
+                "Spanish",
+                "Japanese",
+                "Turkish",
+                "Mexican"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is pastry with nuts and syrup.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_129",
+              "question": "Croissants are most associated with which country?",
+              "options": [
+                "Italy",
+                "Germany",
+                "Belgium",
+                "France"
+              ],
+              "correct_answer": 3,
+              "explanation": "The shape was inspired by the Austrian kipferl.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_130",
+              "question": "Which country is famous for the dish 'biltong', a dried cured meat?",
+              "options": [
+                "South Africa",
+                "Australia",
+                "Argentina",
+                "Mongolia"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is similar to jerky.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_cuisines_131",
+              "question": "Shakshuka is eggs poached in what?",
+              "options": [
+                "Yogurt",
+                "Tomato sauce",
+                "Coconut milk",
+                "Cheese sauce"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is popular in North Africa and the Middle East.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "food_facts",
+          "name": "Food Facts",
+          "icon": "🧀",
+          "color": "#EF6C00",
+          "questions": [
+            {
+              "id": "food_facts_101",
+              "question": "Saffron comes from which flower?",
+              "options": [
+                "Rose",
+                "Lotus",
+                "Crocus",
+                "Marigold"
+              ],
+              "correct_answer": 2,
+              "explanation": "Each flower gives only three stigmas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_102",
+              "question": "Which is the most expensive spice by weight?",
+              "options": [
+                "Vanilla",
+                "Cardamom",
+                "Black pepper",
+                "Saffron"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is harvested by hand.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_103",
+              "question": "Tofu is made from which beans?",
+              "options": [
+                "Soybeans",
+                "Black beans",
+                "Chickpeas",
+                "Kidney beans"
+              ],
+              "correct_answer": 0,
+              "explanation": "Soy milk is curdled and pressed.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_104",
+              "question": "What is the main ingredient of traditional pesto?",
+              "options": [
+                "Spinach",
+                "Basil",
+                "Parsley",
+                "Mint"
+              ],
+              "correct_answer": 1,
+              "explanation": "It also has pine nuts and garlic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_105",
+              "question": "Coffee is believed to have originated in which country?",
+              "options": [
+                "Brazil",
+                "Colombia",
+                "Ethiopia",
+                "Yemen"
+              ],
+              "correct_answer": 2,
+              "explanation": "Legend credits a goatherd named Kaldi.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_106",
+              "question": "Which country produces the most coffee?",
+              "options": [
+                "Vietnam",
+                "Colombia",
+                "Ethiopia",
+                "Brazil"
+              ],
+              "correct_answer": 3,
+              "explanation": "Brazil grows about a third of the world's coffee.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_107",
+              "question": "Chocolate is made from which beans?",
+              "options": [
+                "Cacao beans",
+                "Coffee beans",
+                "Carob beans",
+                "Vanilla beans"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cacao was used by the Maya and Aztecs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_108",
+              "question": "Which country is the largest producer of cocoa?",
+              "options": [
+                "Ghana",
+                "Ivory Coast",
+                "Brazil",
+                "Indonesia"
+              ],
+              "correct_answer": 1,
+              "explanation": "It produces about 40% of the world's cocoa.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_109",
+              "question": "Vanilla comes from which type of plant?",
+              "options": [
+                "Cactus",
+                "Palm",
+                "Orchid",
+                "Fern"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is the seed pod of a vanilla orchid.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_110",
+              "question": "Which food can last for thousands of years without spoiling?",
+              "options": [
+                "Rice",
+                "Salt crackers",
+                "Cheese",
+                "Honey"
+              ],
+              "correct_answer": 3,
+              "explanation": "Edible honey has been found in Egyptian tombs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_111",
+              "question": "Caviar is the roe (eggs) of which fish?",
+              "options": [
+                "Sturgeon",
+                "Salmon",
+                "Tuna",
+                "Cod"
+              ],
+              "correct_answer": 0,
+              "explanation": "True caviar comes from sturgeon.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_112",
+              "question": "Traditional mozzarella is made from the milk of which animal?",
+              "options": [
+                "Goat",
+                "Water buffalo",
+                "Sheep",
+                "Camel"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mozzarella di bufala comes from Campania.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_113",
+              "question": "Parmigiano-Reggiano cheese comes from which country?",
+              "options": [
+                "France",
+                "Switzerland",
+                "Italy",
+                "Spain"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is aged for at least 12 months.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_114",
+              "question": "True Champagne must come from which country?",
+              "options": [
+                "Italy",
+                "Spain",
+                "Germany",
+                "France"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is named after the Champagne region.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_115",
+              "question": "Sake is made by fermenting what?",
+              "options": [
+                "Rice",
+                "Barley",
+                "Grapes",
+                "Potatoes"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is a traditional Japanese drink.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_116",
+              "question": "Tequila is made from which plant?",
+              "options": [
+                "Sugarcane",
+                "Blue agave",
+                "Cactus",
+                "Corn"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is made around Tequila, Mexico.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_117",
+              "question": "Rum is made from which crop?",
+              "options": [
+                "Barley",
+                "Rice",
+                "Sugarcane",
+                "Grapes"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is made from molasses or cane juice.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_118",
+              "question": "What makes bread dough rise?",
+              "options": [
+                "Salt",
+                "Oxygen from flour",
+                "Steam from milk",
+                "Carbon dioxide from yeast"
+              ],
+              "correct_answer": 3,
+              "explanation": "Yeast ferments sugars.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_119",
+              "question": "What does the Scoville scale measure?",
+              "options": [
+                "Spiciness of peppers",
+                "Sweetness",
+                "Acidity",
+                "Saltiness"
+              ],
+              "correct_answer": 0,
+              "explanation": "It measures capsaicin heat.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_120",
+              "question": "Why does popcorn pop?",
+              "options": [
+                "Air expands",
+                "Water inside turns to steam",
+                "Oil explodes",
+                "Sugar caramelises"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pressure bursts the hull.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_121",
+              "question": "Botanically, a tomato is a?",
+              "options": [
+                "Vegetable",
+                "Root",
+                "Fruit",
+                "Legume"
+              ],
+              "correct_answer": 2,
+              "explanation": "It develops from a flower and has seeds.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_122",
+              "question": "Marzipan is made mainly from which nut?",
+              "options": [
+                "Walnuts",
+                "Hazelnuts",
+                "Cashews",
+                "Almonds"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is mixed with sugar or honey.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "food_facts_123",
+              "question": "Wasabi is made from the root of which plant family?",
+              "options": [
+                "Brassicaceae (mustard family)",
+                "Ginger family",
+                "Mint family",
+                "Onion family"
+              ],
+              "correct_answer": 0,
+              "explanation": "Most cheap wasabi is actually horseradish.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "food_facts_124",
+              "question": "Which scientist identified umami as the fifth basic taste?",
+              "options": [
+                "Louis Pasteur",
+                "Kikunae Ikeda",
+                "Antoine Lavoisier",
+                "Justus von Liebig"
+              ],
+              "correct_answer": 1,
+              "explanation": "He identified glutamate in 1908.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "food_facts_125",
+              "question": "Which is the most consumed drink in the world after water?",
+              "options": [
+                "Coffee",
+                "Beer",
+                "Tea",
+                "Milk"
+              ],
+              "correct_answer": 2,
+              "explanation": "Billions of cups are drunk every day.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_126",
+              "question": "Which fruit is known as the 'king of fruits' in Southeast Asia for its strong smell?",
+              "options": [
+                "Jackfruit",
+                "Mango",
+                "Rambutan",
+                "Durian"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is banned on some public transport.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_127",
+              "question": "Which grain is used to make traditional Japanese mochi?",
+              "options": [
+                "Glutinous rice",
+                "Wheat",
+                "Barley",
+                "Millet"
+              ],
+              "correct_answer": 0,
+              "explanation": "The rice is pounded into a paste.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_128",
+              "question": "Guacamole, chocolate and popcorn all come from foods first grown in which region?",
+              "options": [
+                "Europe",
+                "The Americas",
+                "Asia",
+                "Africa"
+              ],
+              "correct_answer": 1,
+              "explanation": "Avocado, cacao and maize are native to the Americas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "food_facts_129",
+              "question": "Which country is the world's largest producer of olive oil?",
+              "options": [
+                "Italy",
+                "Greece",
+                "Spain",
+                "Turkey"
+              ],
+              "correct_answer": 2,
+              "explanation": "Spain produces about 40% of it.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "space_astro",
+      "name": "Space & Astronomy",
+      "description": "Planets, stars, galaxies and space exploration",
+      "icon": "🚀",
+      "color": "#283593",
+      "question_timer_seconds": 12,
+      "points_per_question": 10,
+      "requiredLevel": 4,
+      "subcategories": [
+        {
+          "id": "space_planets",
+          "name": "Planets & Stars",
+          "icon": "🪐",
+          "color": "#3949AB",
+          "questions": [
+            {
+              "id": "space_planets_101",
+              "question": "Which is the largest planet in our solar system?",
+              "options": [
+                "Saturn",
+                "Neptune",
+                "Uranus",
+                "Jupiter"
+              ],
+              "correct_answer": 3,
+              "explanation": "More than 1,300 Earths could fit inside it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_102",
+              "question": "Which is the hottest planet in our solar system?",
+              "options": [
+                "Venus",
+                "Mercury",
+                "Mars",
+                "Jupiter"
+              ],
+              "correct_answer": 0,
+              "explanation": "Its thick CO2 atmosphere traps heat.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_103",
+              "question": "Which planet is called the 'Red Planet'?",
+              "options": [
+                "Jupiter",
+                "Mars",
+                "Venus",
+                "Mercury"
+              ],
+              "correct_answer": 1,
+              "explanation": "Iron oxide gives it a red colour.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_104",
+              "question": "Which planet has the most prominent ring system?",
+              "options": [
+                "Jupiter",
+                "Uranus",
+                "Saturn",
+                "Neptune"
+              ],
+              "correct_answer": 2,
+              "explanation": "Its rings are mostly ice.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_105",
+              "question": "Which planet is closest to the Sun?",
+              "options": [
+                "Venus",
+                "Earth",
+                "Mars",
+                "Mercury"
+              ],
+              "correct_answer": 3,
+              "explanation": "It orbits in just 88 days.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_106",
+              "question": "Which planet rotates on its side?",
+              "options": [
+                "Uranus",
+                "Neptune",
+                "Saturn",
+                "Venus"
+              ],
+              "correct_answer": 0,
+              "explanation": "Its axis is tilted about 98 degrees.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_107",
+              "question": "Which is the farthest planet from the Sun?",
+              "options": [
+                "Uranus",
+                "Neptune",
+                "Saturn",
+                "Pluto"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pluto is now a dwarf planet.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_108",
+              "question": "In which year was Pluto reclassified as a dwarf planet?",
+              "options": [
+                "2000",
+                "2010",
+                "2006",
+                "1998"
+              ],
+              "correct_answer": 2,
+              "explanation": "The IAU made the decision.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_109",
+              "question": "Which is the largest moon in the solar system?",
+              "options": [
+                "Titan",
+                "Callisto",
+                "Io",
+                "Ganymede"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ganymede orbits Jupiter.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_110",
+              "question": "What is the name of Saturn's largest moon?",
+              "options": [
+                "Titan",
+                "Europa",
+                "Enceladus",
+                "Triton"
+              ],
+              "correct_answer": 0,
+              "explanation": "Titan has a thick atmosphere.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_111",
+              "question": "What are the names of Mars's two moons?",
+              "options": [
+                "Io and Europa",
+                "Phobos and Deimos",
+                "Titan and Rhea",
+                "Charon and Nix"
+              ],
+              "correct_answer": 1,
+              "explanation": "Their names mean fear and dread.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_112",
+              "question": "What is Jupiter's Great Red Spot?",
+              "options": [
+                "A volcano",
+                "A crater",
+                "A giant storm",
+                "An ocean"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is larger than Earth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_113",
+              "question": "Which is the closest star to the Sun?",
+              "options": [
+                "Sirius",
+                "Betelgeuse",
+                "Vega",
+                "Proxima Centauri"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is about 4.24 light-years away.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_114",
+              "question": "What is the name of our galaxy?",
+              "options": [
+                "Milky Way",
+                "Andromeda",
+                "Triangulum",
+                "Whirlpool"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is a barred spiral galaxy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_115",
+              "question": "Which is the nearest large galaxy to the Milky Way?",
+              "options": [
+                "Triangulum",
+                "Andromeda",
+                "Sombrero",
+                "Pinwheel"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is about 2.5 million light-years away.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_116",
+              "question": "How long does sunlight take to reach Earth?",
+              "options": [
+                "About 8 seconds",
+                "About 1 hour",
+                "About 8 minutes",
+                "About 1 day"
+              ],
+              "correct_answer": 2,
+              "explanation": "About 8 minutes 20 seconds.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_117",
+              "question": "What is the average distance from Earth to the Sun?",
+              "options": [
+                "About 15 million km",
+                "About 1 billion km",
+                "About 384,000 km",
+                "About 150 million km"
+              ],
+              "correct_answer": 3,
+              "explanation": "This is 1 astronomical unit (AU).",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_118",
+              "question": "What is the Sun mostly made of?",
+              "options": [
+                "Hydrogen",
+                "Helium",
+                "Oxygen",
+                "Carbon"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is about 73% hydrogen by mass.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_119",
+              "question": "What type of star is the Sun?",
+              "options": [
+                "Red giant",
+                "Yellow dwarf",
+                "White dwarf",
+                "Blue supergiant"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is a G-type main-sequence star.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_120",
+              "question": "What is the approximate age of the universe?",
+              "options": [
+                "4.6 billion years",
+                "100 billion years",
+                "13.8 billion years",
+                "1 billion years"
+              ],
+              "correct_answer": 2,
+              "explanation": "Measured from the cosmic microwave background.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_121",
+              "question": "What is the approximate age of the solar system?",
+              "options": [
+                "13.8 billion years",
+                "1 billion years",
+                "10 billion years",
+                "4.6 billion years"
+              ],
+              "correct_answer": 3,
+              "explanation": "Dated from meteorites.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_122",
+              "question": "The main asteroid belt lies between which two planets?",
+              "options": [
+                "Mars and Jupiter",
+                "Earth and Mars",
+                "Jupiter and Saturn",
+                "Venus and Earth"
+              ],
+              "correct_answer": 0,
+              "explanation": "Ceres is its largest object.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_123",
+              "question": "Which is the brightest star in the night sky?",
+              "options": [
+                "Polaris",
+                "Sirius",
+                "Betelgeuse",
+                "Vega"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is in Canis Major.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_124",
+              "question": "Polaris is commonly known as the?",
+              "options": [
+                "Evening Star",
+                "Dog Star",
+                "North Star",
+                "Morning Star"
+              ],
+              "correct_answer": 2,
+              "explanation": "It sits almost above Earth's north pole.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_125",
+              "question": "Which comet returns about every 76 years?",
+              "options": [
+                "Hale-Bopp",
+                "Comet Encke",
+                "Shoemaker-Levy 9",
+                "Halley's Comet"
+              ],
+              "correct_answer": 3,
+              "explanation": "It will next appear in 2061.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_126",
+              "question": "The massive explosion of a dying star is called a?",
+              "options": [
+                "Supernova",
+                "Nebula",
+                "Quasar",
+                "Pulsar"
+              ],
+              "correct_answer": 0,
+              "explanation": "It can outshine a whole galaxy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_127",
+              "question": "A rapidly spinning neutron star that emits beams of radiation is called a?",
+              "options": [
+                "Quasar",
+                "Pulsar",
+                "Red dwarf",
+                "Brown dwarf"
+              ],
+              "correct_answer": 1,
+              "explanation": "The first was found in 1967.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_128",
+              "question": "What is the average distance from Earth to the Moon?",
+              "options": [
+                "About 38,000 km",
+                "About 1 million km",
+                "About 384,400 km",
+                "About 150 million km"
+              ],
+              "correct_answer": 2,
+              "explanation": "Light takes about 1.3 seconds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_129",
+              "question": "About how long is the Moon's cycle of phases?",
+              "options": [
+                "24 days",
+                "31 days",
+                "27.3 hours",
+                "29.5 days"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is called a synodic month.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_130",
+              "question": "A solar eclipse occurs when what blocks the Sun?",
+              "options": [
+                "The Moon",
+                "Earth",
+                "Venus",
+                "A comet"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Moon passes between Earth and the Sun.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_131",
+              "question": "Which dwarf planet lies in the asteroid belt?",
+              "options": [
+                "Pluto",
+                "Ceres",
+                "Eris",
+                "Haumea"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was discovered in 1801.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_132",
+              "question": "What is a light-year a measure of?",
+              "options": [
+                "Time",
+                "Brightness",
+                "Distance",
+                "Speed"
+              ],
+              "correct_answer": 2,
+              "explanation": "About 9.46 trillion km.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_planets_133",
+              "question": "Betelgeuse is a red supergiant in which constellation?",
+              "options": [
+                "Ursa Major",
+                "Scorpius",
+                "Taurus",
+                "Orion"
+              ],
+              "correct_answer": 3,
+              "explanation": "It marks Orion's shoulder.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_planets_134",
+              "question": "What are the northern lights also called?",
+              "options": [
+                "Aurora borealis",
+                "Aurora australis",
+                "Zodiacal light",
+                "Gegenschein"
+              ],
+              "correct_answer": 0,
+              "explanation": "Charged particles from the Sun cause them.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "space_exploration",
+          "name": "Space Exploration",
+          "icon": "🛰️",
+          "color": "#1A237E",
+          "questions": [
+            {
+              "id": "space_exploration_101",
+              "question": "What was the first artificial satellite?",
+              "options": [
+                "Explorer 1",
+                "Sputnik 1",
+                "Vanguard 1",
+                "Telstar"
+              ],
+              "correct_answer": 1,
+              "explanation": "The USSR launched it in 1957.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_102",
+              "question": "What was the name of the first animal to orbit Earth?",
+              "options": [
+                "Belka",
+                "Ham",
+                "Laika",
+                "Albert"
+              ],
+              "correct_answer": 2,
+              "explanation": "She flew on Sputnik 2 in 1957.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_103",
+              "question": "Who was the first woman in space?",
+              "options": [
+                "Sally Ride",
+                "Svetlana Savitskaya",
+                "Mae Jemison",
+                "Valentina Tereshkova"
+              ],
+              "correct_answer": 3,
+              "explanation": "She flew on Vostok 6 in 1963.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_104",
+              "question": "In which year did Apollo 11 land on the Moon?",
+              "options": [
+                "1969",
+                "1965",
+                "1972",
+                "1961"
+              ],
+              "correct_answer": 0,
+              "explanation": "It landed on 20 July 1969.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_105",
+              "question": "Which was the last crewed Apollo mission to the Moon?",
+              "options": [
+                "Apollo 13",
+                "Apollo 17",
+                "Apollo 15",
+                "Apollo 20"
+              ],
+              "correct_answer": 1,
+              "explanation": "It flew in December 1972.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_106",
+              "question": "In which year was the Hubble Space Telescope launched?",
+              "options": [
+                "1985",
+                "1995",
+                "1990",
+                "2000"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was launched by Space Shuttle Discovery.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_107",
+              "question": "In which year was the James Webb Space Telescope launched?",
+              "options": [
+                "2018",
+                "2019",
+                "2023",
+                "2021"
+              ],
+              "correct_answer": 3,
+              "explanation": "It launched on 25 December 2021.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_108",
+              "question": "Which NASA rover landed on Mars in February 2021?",
+              "options": [
+                "Perseverance",
+                "Curiosity",
+                "Opportunity",
+                "Spirit"
+              ],
+              "correct_answer": 0,
+              "explanation": "It landed in Jezero Crater.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_109",
+              "question": "What was the name of the helicopter that flew on Mars?",
+              "options": [
+                "Dragonfly",
+                "Ingenuity",
+                "Skyhawk",
+                "Phoenix"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was the first powered flight on another planet.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_110",
+              "question": "Which spacecraft was the first to enter interstellar space?",
+              "options": [
+                "Pioneer 10",
+                "New Horizons",
+                "Voyager 1",
+                "Voyager 2"
+              ],
+              "correct_answer": 2,
+              "explanation": "It crossed the heliopause in 2012.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_111",
+              "question": "In which year were the Voyager probes launched?",
+              "options": [
+                "1969",
+                "1985",
+                "1990",
+                "1977"
+              ],
+              "correct_answer": 3,
+              "explanation": "Both launched in 1977.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_112",
+              "question": "Who founded SpaceX?",
+              "options": [
+                "Elon Musk",
+                "Jeff Bezos",
+                "Richard Branson",
+                "Bill Gates"
+              ],
+              "correct_answer": 0,
+              "explanation": "SpaceX was founded in 2002.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_113",
+              "question": "In which year did the Space Shuttle first fly?",
+              "options": [
+                "1975",
+                "1981",
+                "1986",
+                "1990"
+              ],
+              "correct_answer": 1,
+              "explanation": "Columbia launched on 12 April 1981.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_114",
+              "question": "Which Space Shuttle broke apart after launch in 1986?",
+              "options": [
+                "Columbia",
+                "Discovery",
+                "Challenger",
+                "Atlantis"
+              ],
+              "correct_answer": 2,
+              "explanation": "Columbia was lost in 2003.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_115",
+              "question": "What is the name of China's space station?",
+              "options": [
+                "Mir",
+                "Skylab",
+                "Salyut",
+                "Tiangong"
+              ],
+              "correct_answer": 3,
+              "explanation": "Tiangong means 'Heavenly Palace'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_116",
+              "question": "Which country made the first landing on the far side of the Moon?",
+              "options": [
+                "China",
+                "USA",
+                "Russia",
+                "Japan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Chang'e 4 landed in January 2019.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_117",
+              "question": "What is NASA's programme to return humans to the Moon?",
+              "options": [
+                "Apollo",
+                "Artemis",
+                "Gemini",
+                "Orion"
+              ],
+              "correct_answer": 1,
+              "explanation": "Artemis was Apollo's twin sister.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_118",
+              "question": "Which company first flew astronauts to the ISS on a commercial spacecraft in 2020?",
+              "options": [
+                "Boeing",
+                "Blue Origin",
+                "SpaceX",
+                "Virgin Galactic"
+              ],
+              "correct_answer": 2,
+              "explanation": "Crew Dragon flew the Demo-2 mission.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_119",
+              "question": "What was the name of Yuri Gagarin's spacecraft?",
+              "options": [
+                "Soyuz 1",
+                "Sputnik 2",
+                "Voskhod 1",
+                "Vostok 1"
+              ],
+              "correct_answer": 3,
+              "explanation": "He orbited Earth on 12 April 1961.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_120",
+              "question": "Who performed the first spacewalk in 1965?",
+              "options": [
+                "Alexei Leonov",
+                "Ed White",
+                "Yuri Gagarin",
+                "Neil Armstrong"
+              ],
+              "correct_answer": 0,
+              "explanation": "He spent about 12 minutes outside.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_121",
+              "question": "Which spacecraft flew past Pluto in 2015?",
+              "options": [
+                "Voyager 2",
+                "New Horizons",
+                "Cassini",
+                "Juno"
+              ],
+              "correct_answer": 1,
+              "explanation": "It revealed a heart-shaped plain.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_122",
+              "question": "The Cassini mission studied which planet?",
+              "options": [
+                "Jupiter",
+                "Uranus",
+                "Saturn",
+                "Mars"
+              ],
+              "correct_answer": 2,
+              "explanation": "It ended by diving into Saturn in 2017.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_123",
+              "question": "NASA's Juno spacecraft orbits which planet?",
+              "options": [
+                "Saturn",
+                "Venus",
+                "Mars",
+                "Jupiter"
+              ],
+              "correct_answer": 3,
+              "explanation": "It arrived in 2016.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_124",
+              "question": "The Rosetta mission landed a probe on what?",
+              "options": [
+                "A comet",
+                "An asteroid",
+                "Mars",
+                "Titan"
+              ],
+              "correct_answer": 0,
+              "explanation": "Philae landed on comet 67P in 2014.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_125",
+              "question": "The first image of a black hole (2019) showed the one in which galaxy?",
+              "options": [
+                "Milky Way",
+                "M87",
+                "Andromeda",
+                "Triangulum"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was taken by the Event Horizon Telescope.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_126",
+              "question": "In which year did the first crew arrive at the International Space Station?",
+              "options": [
+                "1998",
+                "1995",
+                "2000",
+                "2005"
+              ],
+              "correct_answer": 2,
+              "explanation": "Expedition 1 arrived in November 2000.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_127",
+              "question": "Who was the first American in space?",
+              "options": [
+                "John Glenn",
+                "Neil Armstrong",
+                "Gus Grissom",
+                "Alan Shepard"
+              ],
+              "correct_answer": 3,
+              "explanation": "He flew Freedom 7 in 1961.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_128",
+              "question": "Who was the first American to orbit Earth?",
+              "options": [
+                "John Glenn",
+                "Alan Shepard",
+                "Buzz Aldrin",
+                "Scott Carpenter"
+              ],
+              "correct_answer": 0,
+              "explanation": "He orbited in 1962.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_129",
+              "question": "Which space agency operates the Ariane rockets?",
+              "options": [
+                "NASA",
+                "European Space Agency",
+                "Roscosmos",
+                "JAXA"
+              ],
+              "correct_answer": 1,
+              "explanation": "Arianespace launches from French Guiana.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "space_exploration_130",
+              "question": "Which Apollo mission had to abort its Moon landing after an oxygen tank exploded?",
+              "options": [
+                "Apollo 11",
+                "Apollo 12",
+                "Apollo 13",
+                "Apollo 8"
+              ],
+              "correct_answer": 2,
+              "explanation": "The crew returned safely.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video_games",
+      "name": "Video Games",
+      "description": "Classic and modern games, consoles and characters",
+      "icon": "🎮",
+      "color": "#00ACC1",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 6,
+      "subcategories": [
+        {
+          "id": "games_classics",
+          "name": "Retro & Classics",
+          "icon": "👾",
+          "color": "#26C6DA",
+          "questions": [
+            {
+              "id": "games_classics_101",
+              "question": "What is the name of Mario's brother?",
+              "options": [
+                "Wario",
+                "Toad",
+                "Yoshi",
+                "Luigi"
+              ],
+              "correct_answer": 3,
+              "explanation": "Luigi wears green.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_102",
+              "question": "What was Mario called in the original 'Donkey Kong' (1981)?",
+              "options": [
+                "Jumpman",
+                "Mr. Video",
+                "Plumber Man",
+                "Red"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was renamed Mario later.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "games_classics_103",
+              "question": "Who created Super Mario and The Legend of Zelda?",
+              "options": [
+                "Satoru Iwata",
+                "Shigeru Miyamoto",
+                "Hideo Kojima",
+                "Yuji Naka"
+              ],
+              "correct_answer": 1,
+              "explanation": "He is Nintendo's legendary designer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_104",
+              "question": "Which company created Sonic the Hedgehog?",
+              "options": [
+                "Nintendo",
+                "Sony",
+                "Sega",
+                "Atari"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sonic debuted in 1991.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_105",
+              "question": "How many ghosts chase Pac-Man in the original game?",
+              "options": [
+                "3",
+                "5",
+                "6",
+                "4"
+              ],
+              "correct_answer": 3,
+              "explanation": "Blinky, Pinky, Inky and Clyde.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_106",
+              "question": "Tetris was created in which country?",
+              "options": [
+                "Soviet Union",
+                "Japan",
+                "USA",
+                "Finland"
+              ],
+              "correct_answer": 0,
+              "explanation": "Alexey Pajitnov made it in 1984.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_classics_107",
+              "question": "What type of Pokemon is Pikachu?",
+              "options": [
+                "Fire",
+                "Electric",
+                "Normal",
+                "Psychic"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is Pokemon's mascot.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_108",
+              "question": "What is the name of the hero in 'The Legend of Zelda'?",
+              "options": [
+                "Zelda",
+                "Ganon",
+                "Link",
+                "Epona"
+              ],
+              "correct_answer": 2,
+              "explanation": "Zelda is the princess.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_109",
+              "question": "What is the kingdom in 'The Legend of Zelda' called?",
+              "options": [
+                "Mushroom Kingdom",
+                "Termina",
+                "Dreamland",
+                "Hyrule"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ganon often threatens it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_110",
+              "question": "Which company made the arcade game 'Pong'?",
+              "options": [
+                "Atari",
+                "Nintendo",
+                "Sega",
+                "Taito"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was released in 1972.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_111",
+              "question": "What is the best-selling video game console of all time?",
+              "options": [
+                "Nintendo DS",
+                "PlayStation 2",
+                "Nintendo Switch",
+                "Game Boy"
+              ],
+              "correct_answer": 1,
+              "explanation": "It sold over 155 million units.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_classics_112",
+              "question": "Master Chief is the hero of which game series?",
+              "options": [
+                "Gears of War",
+                "Destiny",
+                "Halo",
+                "Doom"
+              ],
+              "correct_answer": 2,
+              "explanation": "Halo debuted on Xbox in 2001.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_113",
+              "question": "Lara Croft is the hero of which series?",
+              "options": [
+                "Uncharted",
+                "Resident Evil",
+                "Assassin's Creed",
+                "Tomb Raider"
+              ],
+              "correct_answer": 3,
+              "explanation": "She debuted in 1996.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_114",
+              "question": "What kind of animal is Donkey Kong?",
+              "options": [
+                "Gorilla",
+                "Donkey",
+                "Monkey",
+                "Bear"
+              ],
+              "correct_answer": 0,
+              "explanation": "He first appeared in 1981.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_115",
+              "question": "Kratos is the main character of which series?",
+              "options": [
+                "Devil May Cry",
+                "God of War",
+                "Dark Souls",
+                "Bayonetta"
+              ],
+              "correct_answer": 1,
+              "explanation": "He is a Spartan warrior.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_116",
+              "question": "Which 'Street Fighter' character is famous for the Hadouken?",
+              "options": [
+                "Chun-Li",
+                "Guile",
+                "Ryu",
+                "Blanka"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ken also uses it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_117",
+              "question": "What is the name of the finishing moves in 'Mortal Kombat'?",
+              "options": [
+                "Knockout",
+                "Finisher",
+                "Combo Breaker",
+                "Fatality"
+              ],
+              "correct_answer": 3,
+              "explanation": "'Finish him!'",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_118",
+              "question": "Which studio developed 'Doom' (1993)?",
+              "options": [
+                "id Software",
+                "Valve",
+                "Epic Games",
+                "Bethesda"
+              ],
+              "correct_answer": 0,
+              "explanation": "It popularised first-person shooters.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_classics_119",
+              "question": "Which company develops the 'Final Fantasy' series?",
+              "options": [
+                "Capcom",
+                "Square Enix",
+                "Konami",
+                "Bandai Namco"
+              ],
+              "correct_answer": 1,
+              "explanation": "The first game came out in 1987.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_120",
+              "question": "Who is the main hero of the 'Metal Gear' series?",
+              "options": [
+                "Big Boss",
+                "Raiden",
+                "Solid Snake",
+                "Revolver Ocelot"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was created by Hideo Kojima.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_classics_121",
+              "question": "Which company released the Game Boy in 1989?",
+              "options": [
+                "Sega",
+                "Sony",
+                "Atari",
+                "Nintendo"
+              ],
+              "correct_answer": 3,
+              "explanation": "Tetris came bundled with it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_122",
+              "question": "Which Japanese company made 'Space Invaders' (1978)?",
+              "options": [
+                "Taito",
+                "Namco",
+                "Nintendo",
+                "Sega"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was created by Tomohiro Nishikado.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_classics_123",
+              "question": "In 'Pokemon Red and Blue', which is NOT a starter Pokemon?",
+              "options": [
+                "Bulbasaur",
+                "Pikachu",
+                "Charmander",
+                "Squirtle"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pikachu was the starter in Pokemon Yellow.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_classics_124",
+              "question": "What colour is Sonic the Hedgehog?",
+              "options": [
+                "Red",
+                "Green",
+                "Blue",
+                "Yellow"
+              ],
+              "correct_answer": 2,
+              "explanation": "His friend Tails is orange.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_125",
+              "question": "Which Nintendo character is a pink puffball?",
+              "options": [
+                "Jigglypuff",
+                "Yoshi",
+                "Toad",
+                "Kirby"
+              ],
+              "correct_answer": 3,
+              "explanation": "Kirby can copy enemies' abilities.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_classics_126",
+              "question": "What is the name of Mario's dinosaur companion?",
+              "options": [
+                "Yoshi",
+                "Bowser",
+                "Rex",
+                "Birdo"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yoshi first appeared in 1990.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "games_modern",
+          "name": "Modern Gaming",
+          "icon": "🕹️",
+          "color": "#00838F",
+          "questions": [
+            {
+              "id": "games_modern_101",
+              "question": "What is the best-selling video game of all time?",
+              "options": [
+                "Grand Theft Auto V",
+                "Minecraft",
+                "Tetris",
+                "Wii Sports"
+              ],
+              "correct_answer": 1,
+              "explanation": "It has sold over 300 million copies.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_102",
+              "question": "Which studio created Minecraft?",
+              "options": [
+                "Epic Games",
+                "Valve",
+                "Mojang",
+                "Rockstar Games"
+              ],
+              "correct_answer": 2,
+              "explanation": "Microsoft bought Mojang in 2014.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_103",
+              "question": "Which company developed 'Fortnite'?",
+              "options": [
+                "Activision",
+                "EA",
+                "Riot Games",
+                "Epic Games"
+              ],
+              "correct_answer": 3,
+              "explanation": "Its Battle Royale mode launched in 2017.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_104",
+              "question": "Which company develops the 'Grand Theft Auto' series?",
+              "options": [
+                "Rockstar Games",
+                "Ubisoft",
+                "Bethesda",
+                "EA"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rockstar is owned by Take-Two.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_105",
+              "question": "In which fictional city is GTA V set?",
+              "options": [
+                "Liberty City",
+                "Los Santos",
+                "Vice City",
+                "San Fierro"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is based on Los Angeles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_106",
+              "question": "Which company developed 'League of Legends'?",
+              "options": [
+                "Blizzard Entertainment",
+                "Valve",
+                "Riot Games",
+                "Epic Games"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was released in 2009.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_107",
+              "question": "Which studio developed 'The Witcher 3: Wild Hunt'?",
+              "options": [
+                "Bethesda",
+                "BioWare",
+                "Ubisoft",
+                "CD Projekt Red"
+              ],
+              "correct_answer": 3,
+              "explanation": "CD Projekt is from Poland.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_108",
+              "question": "Which studio developed 'Elden Ring'?",
+              "options": [
+                "FromSoftware",
+                "Capcom",
+                "Square Enix",
+                "Bandai Namco"
+              ],
+              "correct_answer": 0,
+              "explanation": "George R.R. Martin helped with its world-building.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_109",
+              "question": "What is Roblox's virtual currency called?",
+              "options": [
+                "V-Bucks",
+                "Robux",
+                "Coins",
+                "Gems"
+              ],
+              "correct_answer": 1,
+              "explanation": "V-Bucks are used in Fortnite.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_110",
+              "question": "What does PUBG stand for?",
+              "options": [
+                "Players United Battle Game",
+                "Public Battle Grounds",
+                "PlayerUnknown's Battlegrounds",
+                "Pro Ultimate Battle Game"
+              ],
+              "correct_answer": 2,
+              "explanation": "It popularised battle royale games.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_111",
+              "question": "In which year was the original Nintendo Switch released?",
+              "options": [
+                "2015",
+                "2019",
+                "2020",
+                "2017"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is a hybrid console.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_112",
+              "question": "In which year was the Nintendo Switch 2 released?",
+              "options": [
+                "2025",
+                "2024",
+                "2023",
+                "2026"
+              ],
+              "correct_answer": 0,
+              "explanation": "It launched in June 2025.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_113",
+              "question": "Which company makes the Xbox?",
+              "options": [
+                "Sony",
+                "Microsoft",
+                "Nintendo",
+                "Valve"
+              ],
+              "correct_answer": 1,
+              "explanation": "The first Xbox launched in 2001.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_114",
+              "question": "Which company runs the Steam gaming platform?",
+              "options": [
+                "Epic Games",
+                "Microsoft",
+                "Valve",
+                "EA"
+              ],
+              "correct_answer": 2,
+              "explanation": "Steam launched in 2003.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_115",
+              "question": "Who is the silent hero of 'Half-Life'?",
+              "options": [
+                "Master Chief",
+                "Doomguy",
+                "Isaac Clarke",
+                "Gordon Freeman"
+              ],
+              "correct_answer": 3,
+              "explanation": "He is a theoretical physicist.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_116",
+              "question": "Which raccoon runs the shop in 'Animal Crossing'?",
+              "options": [
+                "Tom Nook",
+                "Isabelle",
+                "K.K. Slider",
+                "Blathers"
+              ],
+              "correct_answer": 0,
+              "explanation": "He is known for home loans.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_117",
+              "question": "Which company developed 'Overwatch' and 'World of Warcraft'?",
+              "options": [
+                "Riot Games",
+                "Blizzard Entertainment",
+                "Valve",
+                "Bungie"
+              ],
+              "correct_answer": 1,
+              "explanation": "Blizzard is now owned by Microsoft.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_118",
+              "question": "Who is the main character of 'Red Dead Redemption 2'?",
+              "options": [
+                "John Marston",
+                "Dutch van der Linde",
+                "Arthur Morgan",
+                "Micah Bell"
+              ],
+              "correct_answer": 2,
+              "explanation": "He is part of the Van der Linde gang.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_119",
+              "question": "Which studio developed 'The Last of Us'?",
+              "options": [
+                "Insomniac Games",
+                "Santa Monica Studio",
+                "Guerrilla Games",
+                "Naughty Dog"
+              ],
+              "correct_answer": 3,
+              "explanation": "It released in 2013.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_120",
+              "question": "Which company created 'Angry Birds'?",
+              "options": [
+                "Rovio",
+                "Supercell",
+                "King",
+                "Zynga"
+              ],
+              "correct_answer": 0,
+              "explanation": "Rovio is from Finland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_121",
+              "question": "Which company developed 'Candy Crush Saga'?",
+              "options": [
+                "Rovio",
+                "King",
+                "Supercell",
+                "Zynga"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was released in 2012.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_122",
+              "question": "Which company developed 'Pokemon GO'?",
+              "options": [
+                "Nintendo",
+                "Game Freak",
+                "Niantic",
+                "The Pokemon Company"
+              ],
+              "correct_answer": 2,
+              "explanation": "It launched in 2016.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_123",
+              "question": "Which company publishes 'Call of Duty'?",
+              "options": [
+                "EA",
+                "Ubisoft",
+                "Bethesda",
+                "Activision"
+              ],
+              "correct_answer": 3,
+              "explanation": "The series began in 2003.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_124",
+              "question": "In which year did Microsoft complete its purchase of Activision Blizzard?",
+              "options": [
+                "2023",
+                "2021",
+                "2022",
+                "2024"
+              ],
+              "correct_answer": 0,
+              "explanation": "The deal was worth about $69 billion.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_125",
+              "question": "Which company developed 'Genshin Impact'?",
+              "options": [
+                "Tencent",
+                "miHoYo (HoYoverse)",
+                "NetEase",
+                "Nexon"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is a Chinese studio.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_126",
+              "question": "EA's FIFA game series was renamed to what in 2023?",
+              "options": [
+                "Football World",
+                "EA Soccer",
+                "EA Sports FC",
+                "FIFA Ultimate"
+              ],
+              "correct_answer": 2,
+              "explanation": "EA's licence with FIFA ended.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_127",
+              "question": "Who created 'Stardew Valley' almost entirely alone?",
+              "options": [
+                "Toby Fox",
+                "Markus Persson",
+                "Jonathan Blow",
+                "Eric Barone"
+              ],
+              "correct_answer": 3,
+              "explanation": "He goes by ConcernedApe.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "games_modern_128",
+              "question": "In 'Among Us', what are the saboteurs called?",
+              "options": [
+                "Impostors",
+                "Traitors",
+                "Spies",
+                "Aliens"
+              ],
+              "correct_answer": 0,
+              "explanation": "The others are crewmates.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_129",
+              "question": "Which company developed 'Clash of Clans'?",
+              "options": [
+                "Rovio",
+                "Supercell",
+                "King",
+                "Zynga"
+              ],
+              "correct_answer": 1,
+              "explanation": "Supercell is from Finland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "games_modern_130",
+              "question": "Who created Minecraft?",
+              "options": [
+                "Jens Bergensten",
+                "Toby Fox",
+                "Markus Persson",
+                "Gabe Newell"
+              ],
+              "correct_answer": 2,
+              "explanation": "He is known as 'Notch'.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "games_modern_131",
+              "question": "Which Sony studio developed 'Marvel's Spider-Man' (2018)?",
+              "options": [
+                "Naughty Dog",
+                "Sucker Punch",
+                "Bend Studio",
+                "Insomniac Games"
+              ],
+              "correct_answer": 3,
+              "explanation": "Insomniac also made Ratchet & Clank.",
+              "difficulty": "medium",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animals_nature",
+      "name": "Animals & Nature",
+      "description": "Amazing animals and natural wonders of our planet",
+      "icon": "🦁",
+      "color": "#558B2F",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 7,
+      "subcategories": [
+        {
+          "id": "animals_kingdom",
+          "name": "Animal Kingdom",
+          "icon": "🐾",
+          "color": "#7CB342",
+          "questions": [
+            {
+              "id": "animals_kingdom_101",
+              "question": "What is the fastest land animal?",
+              "options": [
+                "Cheetah",
+                "Lion",
+                "Pronghorn",
+                "Greyhound"
+              ],
+              "correct_answer": 0,
+              "explanation": "It can reach about 110 km/h.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_102",
+              "question": "What is the tallest animal?",
+              "options": [
+                "Elephant",
+                "Giraffe",
+                "Ostrich",
+                "Moose"
+              ],
+              "correct_answer": 1,
+              "explanation": "Giraffes can be 5.5 m tall.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_103",
+              "question": "What is the largest land animal?",
+              "options": [
+                "Rhinoceros",
+                "Hippopotamus",
+                "African elephant",
+                "Giraffe"
+              ],
+              "correct_answer": 2,
+              "explanation": "Males can weigh 6 tonnes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_104",
+              "question": "Which is the fastest animal in a dive?",
+              "options": [
+                "Golden eagle",
+                "Swift",
+                "Albatross",
+                "Peregrine falcon"
+              ],
+              "correct_answer": 3,
+              "explanation": "It exceeds 320 km/h when diving.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_105",
+              "question": "Which is the largest living reptile?",
+              "options": [
+                "Saltwater crocodile",
+                "Komodo dragon",
+                "Green anaconda",
+                "Leatherback turtle"
+              ],
+              "correct_answer": 0,
+              "explanation": "Males can exceed 6 m.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_106",
+              "question": "What is the largest fish?",
+              "options": [
+                "Great white shark",
+                "Whale shark",
+                "Basking shark",
+                "Blue marlin"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is a filter feeder.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_107",
+              "question": "Which vertebrate is known to live the longest?",
+              "options": [
+                "Giant tortoise",
+                "Bowhead whale",
+                "Greenland shark",
+                "Koi carp"
+              ],
+              "correct_answer": 2,
+              "explanation": "It may live over 270 years.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_108",
+              "question": "A group of lions is called a?",
+              "options": [
+                "Pack",
+                "Herd",
+                "Troop",
+                "Pride"
+              ],
+              "correct_answer": 3,
+              "explanation": "A pride is led by females.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_109",
+              "question": "A group of crows is called a?",
+              "options": [
+                "Murder",
+                "Flock",
+                "Parliament",
+                "Colony"
+              ],
+              "correct_answer": 0,
+              "explanation": "A group of owls is a parliament.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_110",
+              "question": "A baby kangaroo is called a?",
+              "options": [
+                "Cub",
+                "Joey",
+                "Kit",
+                "Calf"
+              ],
+              "correct_answer": 1,
+              "explanation": "It lives in its mother's pouch.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_111",
+              "question": "What is a male bee called?",
+              "options": [
+                "Worker",
+                "Queen",
+                "Drone",
+                "Soldier"
+              ],
+              "correct_answer": 2,
+              "explanation": "Drones mate with the queen.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_112",
+              "question": "What does a giant panda mostly eat?",
+              "options": [
+                "Fish",
+                "Insects",
+                "Fruit",
+                "Bamboo"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bamboo makes up 99% of its diet.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_113",
+              "question": "What do koalas mostly eat?",
+              "options": [
+                "Eucalyptus leaves",
+                "Bamboo",
+                "Grass",
+                "Insects"
+              ],
+              "correct_answer": 0,
+              "explanation": "Koalas are native to Australia.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_114",
+              "question": "Which mammal has the densest fur?",
+              "options": [
+                "Polar bear",
+                "Sea otter",
+                "Chinchilla",
+                "Arctic fox"
+              ],
+              "correct_answer": 1,
+              "explanation": "It has up to a million hairs per square inch.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_115",
+              "question": "Which is the largest species of cat?",
+              "options": [
+                "Lion",
+                "Jaguar",
+                "Tiger",
+                "Leopard"
+              ],
+              "correct_answer": 2,
+              "explanation": "Siberian tigers are the largest.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_116",
+              "question": "What colour is a polar bear's skin?",
+              "options": [
+                "White",
+                "Pink",
+                "Grey",
+                "Black"
+              ],
+              "correct_answer": 3,
+              "explanation": "Its fur is actually transparent.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_117",
+              "question": "The axolotl is native to which country?",
+              "options": [
+                "Mexico",
+                "Brazil",
+                "Australia",
+                "China"
+              ],
+              "correct_answer": 0,
+              "explanation": "It can regrow lost limbs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_118",
+              "question": "The Komodo dragon is native to which country?",
+              "options": [
+                "Philippines",
+                "Indonesia",
+                "Australia",
+                "Malaysia"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the largest lizard.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_119",
+              "question": "The kiwi bird is native to which country?",
+              "options": [
+                "Australia",
+                "South Africa",
+                "New Zealand",
+                "Chile"
+              ],
+              "correct_answer": 2,
+              "explanation": "It cannot fly.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_120",
+              "question": "The extinct dodo lived on which island?",
+              "options": [
+                "Madagascar",
+                "Galapagos",
+                "Sri Lanka",
+                "Mauritius"
+              ],
+              "correct_answer": 3,
+              "explanation": "It died out in the 17th century.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_121",
+              "question": "Lemurs are found in the wild only on which island?",
+              "options": [
+                "Madagascar",
+                "Borneo",
+                "Sumatra",
+                "New Guinea"
+              ],
+              "correct_answer": 0,
+              "explanation": "There are over 100 lemur species.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_122",
+              "question": "How long is an elephant's pregnancy?",
+              "options": [
+                "About 9 months",
+                "About 22 months",
+                "About 12 months",
+                "About 6 months"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the longest of any mammal.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_123",
+              "question": "What colour is an octopus's blood?",
+              "options": [
+                "Red",
+                "Green",
+                "Blue",
+                "Clear"
+              ],
+              "correct_answer": 2,
+              "explanation": "It uses copper-based haemocyanin.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_124",
+              "question": "Bats find their way in the dark using?",
+              "options": [
+                "Infrared vision",
+                "Magnetism",
+                "Smell only",
+                "Echolocation"
+              ],
+              "correct_answer": 3,
+              "explanation": "They listen for echoes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_125",
+              "question": "Which is the heaviest snake in the world?",
+              "options": [
+                "Green anaconda",
+                "Reticulated python",
+                "King cobra",
+                "Burmese python"
+              ],
+              "correct_answer": 0,
+              "explanation": "It can weigh over 200 kg.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_126",
+              "question": "Which is the longest snake in the world?",
+              "options": [
+                "Green anaconda",
+                "Reticulated python",
+                "King cobra",
+                "Black mamba"
+              ],
+              "correct_answer": 1,
+              "explanation": "It can exceed 6 m.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_127",
+              "question": "Why are flamingos pink?",
+              "options": [
+                "Genetics only",
+                "Sunburn",
+                "Pigments in their diet",
+                "Blood colour"
+              ],
+              "correct_answer": 2,
+              "explanation": "They eat shrimp and algae with carotenoids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_128",
+              "question": "Scorpions belong to which group?",
+              "options": [
+                "Insects",
+                "Crustaceans",
+                "Reptiles",
+                "Arachnids"
+              ],
+              "correct_answer": 3,
+              "explanation": "Like spiders, they have eight legs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_129",
+              "question": "Which is the most venomous snake by venom strength?",
+              "options": [
+                "Inland taipan",
+                "King cobra",
+                "Black mamba",
+                "Rattlesnake"
+              ],
+              "correct_answer": 0,
+              "explanation": "It lives in Australia.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_130",
+              "question": "Which bird is a universal symbol of peace?",
+              "options": [
+                "Eagle",
+                "Dove",
+                "Swan",
+                "Owl"
+              ],
+              "correct_answer": 1,
+              "explanation": "It often holds an olive branch.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_131",
+              "question": "How many hearts does an earthworm have?",
+              "options": [
+                "1",
+                "2",
+                "5",
+                "3"
+              ],
+              "correct_answer": 2,
+              "explanation": "They are pairs of aortic arches.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_132",
+              "question": "Which animal has the largest eyes?",
+              "options": [
+                "Blue whale",
+                "Ostrich",
+                "Owl",
+                "Colossal squid"
+              ],
+              "correct_answer": 3,
+              "explanation": "Its eyes are about 27 cm wide.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_133",
+              "question": "Which big cat cannot fully retract its claws?",
+              "options": [
+                "Cheetah",
+                "Lion",
+                "Tiger",
+                "Leopard"
+              ],
+              "correct_answer": 0,
+              "explanation": "This helps it grip when running.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "animals_kingdom_134",
+              "question": "A zebra's stripes are unique like what in humans?",
+              "options": [
+                "Teeth",
+                "Fingerprints",
+                "Hair colour",
+                "Voice"
+              ],
+              "correct_answer": 1,
+              "explanation": "No two zebras have the same pattern.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "nature_earth",
+          "name": "Natural Wonders",
+          "icon": "🏔️",
+          "color": "#33691E",
+          "questions": [
+            {
+              "id": "nature_earth_101",
+              "question": "What is the highest mountain on Earth above sea level?",
+              "options": [
+                "K2",
+                "Kangchenjunga",
+                "Mount Everest",
+                "Mount Kilimanjaro"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is 8,849 m high.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_102",
+              "question": "Which river is traditionally considered the longest in the world?",
+              "options": [
+                "Amazon",
+                "Yangtze",
+                "Mississippi",
+                "Nile"
+              ],
+              "correct_answer": 3,
+              "explanation": "Some measurements favour the Amazon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_103",
+              "question": "What is the largest ocean?",
+              "options": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Arctic Ocean"
+              ],
+              "correct_answer": 0,
+              "explanation": "It covers about a third of Earth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_104",
+              "question": "What is the largest hot desert in the world?",
+              "options": [
+                "Arabian",
+                "Sahara",
+                "Kalahari",
+                "Gobi"
+              ],
+              "correct_answer": 1,
+              "explanation": "It covers much of North Africa.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_105",
+              "question": "What is the largest desert of any kind?",
+              "options": [
+                "Sahara",
+                "Arctic Desert",
+                "Antarctic Desert",
+                "Gobi"
+              ],
+              "correct_answer": 2,
+              "explanation": "Deserts are defined by low precipitation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_106",
+              "question": "What is the deepest known point in the ocean?",
+              "options": [
+                "Puerto Rico Trench",
+                "Java Trench",
+                "Tonga Trench",
+                "Challenger Deep"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is in the Mariana Trench, about 11 km deep.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_107",
+              "question": "What is the largest tropical rainforest?",
+              "options": [
+                "Amazon",
+                "Congo",
+                "Daintree",
+                "Borneo"
+              ],
+              "correct_answer": 0,
+              "explanation": "It spans nine countries.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_108",
+              "question": "Which is the world's largest coral reef system?",
+              "options": [
+                "Belize Barrier Reef",
+                "Great Barrier Reef",
+                "Red Sea Reef",
+                "New Caledonia Reef"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is off Australia.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_109",
+              "question": "What is the highest uninterrupted waterfall in the world?",
+              "options": [
+                "Niagara Falls",
+                "Victoria Falls",
+                "Angel Falls",
+                "Iguazu Falls"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is in Venezuela.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_110",
+              "question": "Which is the largest lake by surface area?",
+              "options": [
+                "Lake Superior",
+                "Lake Victoria",
+                "Lake Baikal",
+                "Caspian Sea"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is salty but called a lake.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_111",
+              "question": "Which is the deepest lake in the world?",
+              "options": [
+                "Lake Baikal",
+                "Lake Tanganyika",
+                "Caspian Sea",
+                "Crater Lake"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is in Siberia, over 1,600 m deep.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_112",
+              "question": "What is the largest island in the world?",
+              "options": [
+                "New Guinea",
+                "Greenland",
+                "Borneo",
+                "Madagascar"
+              ],
+              "correct_answer": 1,
+              "explanation": "Australia counts as a continent.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_113",
+              "question": "Which is the largest continent?",
+              "options": [
+                "Africa",
+                "North America",
+                "Asia",
+                "Europe"
+              ],
+              "correct_answer": 2,
+              "explanation": "It holds about 60% of humanity.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_114",
+              "question": "Which is the smallest continent?",
+              "options": [
+                "Europe",
+                "Antarctica",
+                "South America",
+                "Australia"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is also called Oceania.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_115",
+              "question": "What is the driest non-polar desert in the world?",
+              "options": [
+                "Atacama Desert",
+                "Sahara",
+                "Namib",
+                "Death Valley"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is in Chile.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_116",
+              "question": "Which tree species is the tallest in the world?",
+              "options": [
+                "Giant sequoia",
+                "Coast redwood",
+                "Douglas fir",
+                "Mountain ash"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hyperion is over 115 m tall.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_117",
+              "question": "The 'Ring of Fire' surrounds which ocean?",
+              "options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Pacific Ocean",
+                "Arctic Ocean"
+              ],
+              "correct_answer": 2,
+              "explanation": "It has many volcanoes and earthquakes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_118",
+              "question": "What instrument records earthquakes?",
+              "options": [
+                "Barometer",
+                "Anemometer",
+                "Hygrometer",
+                "Seismograph"
+              ],
+              "correct_answer": 3,
+              "explanation": "Magnitude is measured on scales.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_119",
+              "question": "Which is the largest active volcano on Earth?",
+              "options": [
+                "Mauna Loa",
+                "Mount Etna",
+                "Mount Fuji",
+                "Krakatoa"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is in Hawaii.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_120",
+              "question": "Which layer of the atmosphere absorbs most UV radiation?",
+              "options": [
+                "Troposphere",
+                "Ozone layer",
+                "Ionosphere",
+                "Exosphere"
+              ],
+              "correct_answer": 1,
+              "explanation": "It lies in the stratosphere.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_121",
+              "question": "What is the lowest point on land on Earth?",
+              "options": [
+                "Death Valley",
+                "Lake Assal",
+                "Dead Sea shore",
+                "Caspian Depression"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is about 430 m below sea level.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_122",
+              "question": "Which is the largest country by area?",
+              "options": [
+                "Canada",
+                "China",
+                "USA",
+                "Russia"
+              ],
+              "correct_answer": 3,
+              "explanation": "It spans 11 time zones.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_123",
+              "question": "Victoria Falls is on which river?",
+              "options": [
+                "Zambezi",
+                "Nile",
+                "Congo",
+                "Limpopo"
+              ],
+              "correct_answer": 0,
+              "explanation": "It lies between Zambia and Zimbabwe.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_124",
+              "question": "Mount Kilimanjaro is in which country?",
+              "options": [
+                "Kenya",
+                "Tanzania",
+                "Uganda",
+                "Ethiopia"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is Africa's highest peak.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_125",
+              "question": "Which river carved the Grand Canyon?",
+              "options": [
+                "Mississippi River",
+                "Rio Grande",
+                "Colorado River",
+                "Snake River"
+              ],
+              "correct_answer": 2,
+              "explanation": "It took millions of years.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_126",
+              "question": "Which is the longest mountain range on land?",
+              "options": [
+                "Himalayas",
+                "Rocky Mountains",
+                "Alps",
+                "Andes"
+              ],
+              "correct_answer": 3,
+              "explanation": "It runs about 7,000 km.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_127",
+              "question": "Which river carries the most water in the world?",
+              "options": [
+                "Amazon",
+                "Nile",
+                "Congo",
+                "Yangtze"
+              ],
+              "correct_answer": 0,
+              "explanation": "It discharges about 20% of all river water to the oceans.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_128",
+              "question": "What is the second-highest mountain on Earth?",
+              "options": [
+                "Kangchenjunga",
+                "K2",
+                "Lhotse",
+                "Makalu"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is 8,611 m high.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_129",
+              "question": "Which country has the most active volcanoes?",
+              "options": [
+                "Japan",
+                "Iceland",
+                "Indonesia",
+                "Chile"
+              ],
+              "correct_answer": 2,
+              "explanation": "Indonesia has over 120 active volcanoes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "nature_earth_130",
+              "question": "Which sea is so salty that people easily float in it?",
+              "options": [
+                "Red Sea",
+                "Black Sea",
+                "Caspian Sea",
+                "Dead Sea"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is about ten times saltier than the ocean.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_internet",
+      "name": "Tech & Internet",
+      "description": "Tech giants, gadgets, the internet and computing basics",
+      "icon": "💻",
+      "color": "#455A64",
+      "question_timer_seconds": 10,
+      "points_per_question": 10,
+      "requiredLevel": 9,
+      "subcategories": [
+        {
+          "id": "tech_brands",
+          "name": "Tech Companies & Apps",
+          "icon": "📱",
+          "color": "#607D8B",
+          "questions": [
+            {
+              "id": "tech_brands_101",
+              "question": "In which year was the first iPhone released?",
+              "options": [
+                "2007",
+                "2005",
+                "2008",
+                "2010"
+              ],
+              "correct_answer": 0,
+              "explanation": "Steve Jobs unveiled it in January 2007.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_102",
+              "question": "Which company owns the Android operating system?",
+              "options": [
+                "Samsung",
+                "Google",
+                "Microsoft",
+                "Apple"
+              ],
+              "correct_answer": 1,
+              "explanation": "Google bought Android in 2005.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_103",
+              "question": "In which year was YouTube founded?",
+              "options": [
+                "2003",
+                "2007",
+                "2005",
+                "2009"
+              ],
+              "correct_answer": 2,
+              "explanation": "Google bought it in 2006.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_104",
+              "question": "Twitter was rebranded to what name in 2023?",
+              "options": [
+                "Threads",
+                "Bluesky",
+                "Meta",
+                "X"
+              ],
+              "correct_answer": 3,
+              "explanation": "Elon Musk bought it in 2022.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_105",
+              "question": "Which company owns Instagram and WhatsApp?",
+              "options": [
+                "Meta",
+                "Google",
+                "Microsoft",
+                "Amazon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Meta was formerly Facebook Inc.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_106",
+              "question": "What is Amazon's voice assistant called?",
+              "options": [
+                "Siri",
+                "Alexa",
+                "Cortana",
+                "Bixby"
+              ],
+              "correct_answer": 1,
+              "explanation": "It runs on Echo devices.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_107",
+              "question": "What is Apple's voice assistant called?",
+              "options": [
+                "Alexa",
+                "Google Assistant",
+                "Siri",
+                "Bixby"
+              ],
+              "correct_answer": 2,
+              "explanation": "It launched on the iPhone 4S.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_108",
+              "question": "Which company created ChatGPT?",
+              "options": [
+                "Google",
+                "Meta",
+                "Microsoft",
+                "OpenAI"
+              ],
+              "correct_answer": 3,
+              "explanation": "It launched in November 2022.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_109",
+              "question": "Nvidia is best known for making what?",
+              "options": [
+                "Graphics processing units (GPUs)",
+                "Smartphones",
+                "Search engines",
+                "Social networks"
+              ],
+              "correct_answer": 0,
+              "explanation": "Its GPUs power gaming and AI.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_110",
+              "question": "Samsung is headquartered in which country?",
+              "options": [
+                "Japan",
+                "South Korea",
+                "China",
+                "Taiwan"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was founded in 1938.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_111",
+              "question": "Nokia is a company from which country?",
+              "options": [
+                "Sweden",
+                "Denmark",
+                "Finland",
+                "Norway"
+              ],
+              "correct_answer": 2,
+              "explanation": "It once led the mobile phone market.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_112",
+              "question": "Spotify was founded in which country?",
+              "options": [
+                "USA",
+                "UK",
+                "Finland",
+                "Sweden"
+              ],
+              "correct_answer": 3,
+              "explanation": "It launched in 2008.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_113",
+              "question": "Which company owns TikTok?",
+              "options": [
+                "ByteDance",
+                "Tencent",
+                "Alibaba",
+                "Baidu"
+              ],
+              "correct_answer": 0,
+              "explanation": "ByteDance is from China.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_114",
+              "question": "How did Netflix start its business?",
+              "options": [
+                "Streaming music",
+                "Renting DVDs by mail",
+                "Selling TVs",
+                "Making video games"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was founded in 1997.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_115",
+              "question": "What was Google's original name?",
+              "options": [
+                "Googol",
+                "SearchIt",
+                "BackRub",
+                "PageRank"
+              ],
+              "correct_answer": 2,
+              "explanation": "Page and Brin called it BackRub in 1996.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_116",
+              "question": "In which year was Wikipedia launched?",
+              "options": [
+                "1998",
+                "2004",
+                "2006",
+                "2001"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jimmy Wales and Larry Sanger founded it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_117",
+              "question": "Bluetooth is named after a king from which country?",
+              "options": [
+                "Denmark",
+                "Sweden",
+                "Norway",
+                "England"
+              ],
+              "correct_answer": 0,
+              "explanation": "King Harald 'Bluetooth' united Danish tribes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_118",
+              "question": "Which company makes the PlayStation and Walkman?",
+              "options": [
+                "Panasonic",
+                "Sony",
+                "Toshiba",
+                "Nintendo"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sony is from Japan.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_119",
+              "question": "Which company makes the Galaxy smartphone series?",
+              "options": [
+                "LG",
+                "Xiaomi",
+                "Samsung",
+                "Huawei"
+              ],
+              "correct_answer": 2,
+              "explanation": "The first Galaxy S launched in 2010.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_120",
+              "question": "Gmail was launched in which year?",
+              "options": [
+                "2000",
+                "2006",
+                "2008",
+                "2004"
+              ],
+              "correct_answer": 3,
+              "explanation": "It launched on 1 April 2004.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_121",
+              "question": "Which company makes Windows?",
+              "options": [
+                "Microsoft",
+                "Apple",
+                "IBM",
+                "Google"
+              ],
+              "correct_answer": 0,
+              "explanation": "Windows 1.0 launched in 1985.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_122",
+              "question": "Amazon Web Services (AWS) is mainly a?",
+              "options": [
+                "Online bookstore",
+                "Cloud computing platform",
+                "Video streaming site",
+                "Payment app"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the largest cloud provider.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_123",
+              "question": "Tesla is best known for making what?",
+              "options": [
+                "Smartphones",
+                "Aircraft",
+                "Electric cars",
+                "Video games"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was founded in 2003.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_124",
+              "question": "Which company's logo is an apple with a bite taken out?",
+              "options": [
+                "BlackBerry",
+                "Acer",
+                "Xiaomi",
+                "Apple"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was designed by Rob Janoff.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_125",
+              "question": "Which messaging app was founded by Pavel Durov?",
+              "options": [
+                "Telegram",
+                "Signal",
+                "WhatsApp",
+                "Viber"
+              ],
+              "correct_answer": 0,
+              "explanation": "Telegram launched in 2013.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_126",
+              "question": "What is the name of Microsoft's AI assistant?",
+              "options": [
+                "Gemini",
+                "Copilot",
+                "Siri",
+                "Alexa"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is built into Windows and Office.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_brands_127",
+              "question": "What is the name of Google's AI model family launched in 2023?",
+              "options": [
+                "Claude",
+                "Llama",
+                "Gemini",
+                "GPT"
+              ],
+              "correct_answer": 2,
+              "explanation": "It replaced Bard.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "tech_concepts",
+          "name": "Computing Basics",
+          "icon": "🖥️",
+          "color": "#37474F",
+          "questions": [
+            {
+              "id": "tech_concepts_101",
+              "question": "What does HTTP stand for?",
+              "options": [
+                "High Transfer Text Protocol",
+                "Hyperlink Text Transfer Program",
+                "Host Transfer Text Protocol",
+                "HyperText Transfer Protocol"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is the protocol of the web.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_102",
+              "question": "What does URL stand for?",
+              "options": [
+                "Uniform Resource Locator",
+                "Universal Reference Link",
+                "Unified Resource Link",
+                "User Routing Locator"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is a web address.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_103",
+              "question": "What does CPU stand for?",
+              "options": [
+                "Computer Power Unit",
+                "Central Processing Unit",
+                "Core Processing Utility",
+                "Central Program Unit"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is the brain of a computer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_104",
+              "question": "What does RAM stand for?",
+              "options": [
+                "Read Access Memory",
+                "Rapid Access Module",
+                "Random Access Memory",
+                "Run Application Memory"
+              ],
+              "correct_answer": 2,
+              "explanation": "RAM is temporary working memory.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_105",
+              "question": "How many bits are in one byte?",
+              "options": [
+                "4",
+                "16",
+                "10",
+                "8"
+              ],
+              "correct_answer": 3,
+              "explanation": "A bit is a 0 or 1.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_106",
+              "question": "What is HTML mainly used for?",
+              "options": [
+                "Structuring web pages",
+                "Styling web pages",
+                "Database queries",
+                "Server security"
+              ],
+              "correct_answer": 0,
+              "explanation": "HTML stands for HyperText Markup Language.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_107",
+              "question": "What is CSS mainly used for?",
+              "options": [
+                "Structuring data",
+                "Styling web pages",
+                "Running servers",
+                "Compiling code"
+              ],
+              "correct_answer": 1,
+              "explanation": "CSS = Cascading Style Sheets.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_108",
+              "question": "Wi-Fi is based on which IEEE standard family?",
+              "options": [
+                "802.3",
+                "1394",
+                "802.11",
+                "802.15"
+              ],
+              "correct_answer": 2,
+              "explanation": "802.3 is Ethernet.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_109",
+              "question": "How many bits long is an IPv4 address?",
+              "options": [
+                "64",
+                "128",
+                "16",
+                "32"
+              ],
+              "correct_answer": 3,
+              "explanation": "IPv6 addresses are 128 bits.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_110",
+              "question": "What is the binary representation of the number 5?",
+              "options": [
+                "101",
+                "110",
+                "111",
+                "100"
+              ],
+              "correct_answer": 0,
+              "explanation": "4 + 0 + 1 = 5.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_111",
+              "question": "What is phishing?",
+              "options": [
+                "A type of computer cooling",
+                "Tricking people into revealing sensitive information",
+                "A coding language",
+                "Fast internet"
+              ],
+              "correct_answer": 1,
+              "explanation": "It often uses fake emails.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_112",
+              "question": "Malware that locks your files and demands payment is called?",
+              "options": [
+                "Adware",
+                "Spyware",
+                "Ransomware",
+                "Firmware"
+              ],
+              "correct_answer": 2,
+              "explanation": "WannaCry was a famous attack.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_113",
+              "question": "What does VPN stand for?",
+              "options": [
+                "Verified Public Network",
+                "Virtual Protected Node",
+                "Visual Private Network",
+                "Virtual Private Network"
+              ],
+              "correct_answer": 3,
+              "explanation": "It encrypts your connection.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_114",
+              "question": "What does GPU stand for?",
+              "options": [
+                "Graphics Processing Unit",
+                "General Processing Unit",
+                "Graphical Power Utility",
+                "Game Processing Unit"
+              ],
+              "correct_answer": 0,
+              "explanation": "GPUs also power AI.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_115",
+              "question": "What does QR stand for in 'QR code'?",
+              "options": [
+                "Quality Read",
+                "Quick Response",
+                "Quick Read",
+                "Query Reference"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was invented by Denso Wave in Japan.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_116",
+              "question": "What does PDF stand for?",
+              "options": [
+                "Printed Document File",
+                "Public Data Format",
+                "Portable Document Format",
+                "Portable Data File"
+              ],
+              "correct_answer": 2,
+              "explanation": "Adobe created it in 1993.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_117",
+              "question": "What does SSD stand for?",
+              "options": [
+                "Super Speed Disk",
+                "System Storage Device",
+                "Secure Storage Drive",
+                "Solid State Drive"
+              ],
+              "correct_answer": 3,
+              "explanation": "SSDs have no moving parts.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_118",
+              "question": "What is the main purpose of a CAPTCHA?",
+              "options": [
+                "Telling humans and bots apart",
+                "Speeding up websites",
+                "Storing passwords",
+                "Compressing images"
+              ],
+              "correct_answer": 0,
+              "explanation": "It means Completely Automated Public Turing test.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_119",
+              "question": "In web browsing, what is a 'cookie'?",
+              "options": [
+                "A computer virus",
+                "Small data stored by a website in your browser",
+                "A type of image file",
+                "A browser extension"
+              ],
+              "correct_answer": 1,
+              "explanation": "It remembers logins and preferences.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_120",
+              "question": "What does LLM stand for in AI?",
+              "options": [
+                "Linear Learning Machine",
+                "Logical Language Module",
+                "Large Language Model",
+                "Long Learning Memory"
+              ],
+              "correct_answer": 2,
+              "explanation": "ChatGPT is based on an LLM.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_121",
+              "question": "What was the first major application of blockchain technology?",
+              "options": [
+                "Email",
+                "Social media",
+                "Online maps",
+                "Bitcoin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bitcoin launched in 2009.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_122",
+              "question": "What does 'www' stand for?",
+              "options": [
+                "World Wide Web",
+                "World Web Wide",
+                "Wide World Web",
+                "Web World Wide"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was created by Tim Berners-Lee.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_123",
+              "question": "Emojis were first created in which country?",
+              "options": [
+                "USA",
+                "Japan",
+                "South Korea",
+                "China"
+              ],
+              "correct_answer": 1,
+              "explanation": "Shigetaka Kurita designed early sets in 1999.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_124",
+              "question": "What does '5G' refer to?",
+              "options": [
+                "5 gigabytes of data",
+                "5 GHz Wi-Fi only",
+                "Fifth-generation mobile networks",
+                "Five global satellites"
+              ],
+              "correct_answer": 2,
+              "explanation": "It offers faster speeds and lower latency.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_125",
+              "question": "What does USB stand for?",
+              "options": [
+                "United System Board",
+                "Universal Storage Bank",
+                "Unified Serial Bridge",
+                "Universal Serial Bus"
+              ],
+              "correct_answer": 3,
+              "explanation": "USB-C is the latest connector.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_126",
+              "question": "Which programming language is mainly used to add interactivity to web pages?",
+              "options": [
+                "JavaScript",
+                "Python",
+                "C",
+                "SQL"
+              ],
+              "correct_answer": 0,
+              "explanation": "It runs in all major browsers.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_127",
+              "question": "What is SQL used for?",
+              "options": [
+                "Designing graphics",
+                "Managing databases",
+                "Editing videos",
+                "Browsing the web"
+              ],
+              "correct_answer": 1,
+              "explanation": "SQL = Structured Query Language.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_128",
+              "question": "Which number system is base 16?",
+              "options": [
+                "Binary",
+                "Octal",
+                "Hexadecimal",
+                "Decimal"
+              ],
+              "correct_answer": 2,
+              "explanation": "It uses 0-9 and A-F.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_129",
+              "question": "What does 'AI' stand for?",
+              "options": [
+                "Automated Internet",
+                "Advanced Interface",
+                "Applied Information",
+                "Artificial Intelligence"
+              ],
+              "correct_answer": 3,
+              "explanation": "AI lets machines learn and reason.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_130",
+              "question": "What is two-factor authentication?",
+              "options": [
+                "Using two kinds of proof to log in",
+                "Logging in twice",
+                "Two passwords on two sites",
+                "Encrypting data twice"
+              ],
+              "correct_answer": 0,
+              "explanation": "For example, a password plus a code.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "tech_concepts_131",
+              "question": "What is an operating system?",
+              "options": [
+                "A web browser",
+                "Software that manages a computer's hardware and programs",
+                "A type of CPU",
+                "A computer virus"
+              ],
+              "correct_answer": 1,
+              "explanation": "Examples are Windows, macOS and Linux.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "myth_world",
+      "name": "Mythology",
+      "description": "Gods, heroes and legends from world mythologies",
+      "icon": "⚡",
+      "color": "#6D4C41",
+      "question_timer_seconds": 12,
+      "points_per_question": 10,
+      "requiredLevel": 13,
+      "subcategories": [
+        {
+          "id": "myth_greek_roman",
+          "name": "Greek & Roman",
+          "icon": "🏛️",
+          "color": "#8D6E63",
+          "questions": [
+            {
+              "id": "myth_greek_roman_101",
+              "question": "Who is the king of the Greek gods?",
+              "options": [
+                "Poseidon",
+                "Hades",
+                "Zeus",
+                "Apollo"
+              ],
+              "correct_answer": 2,
+              "explanation": "He rules from Mount Olympus.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_102",
+              "question": "What is Zeus's Roman name?",
+              "options": [
+                "Mars",
+                "Saturn",
+                "Neptune",
+                "Jupiter"
+              ],
+              "correct_answer": 3,
+              "explanation": "The planet Jupiter is named after him.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_103",
+              "question": "Who is the Greek god of the sea?",
+              "options": [
+                "Poseidon",
+                "Zeus",
+                "Hermes",
+                "Apollo"
+              ],
+              "correct_answer": 0,
+              "explanation": "He carries a trident.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_104",
+              "question": "What is Poseidon's Roman name?",
+              "options": [
+                "Pluto",
+                "Neptune",
+                "Mercury",
+                "Vulcan"
+              ],
+              "correct_answer": 1,
+              "explanation": "The eighth planet bears his name.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_105",
+              "question": "Who is the Greek god of the underworld?",
+              "options": [
+                "Ares",
+                "Hephaestus",
+                "Hades",
+                "Dionysus"
+              ],
+              "correct_answer": 2,
+              "explanation": "His Roman name is Pluto.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_106",
+              "question": "Who is the Greek goddess of wisdom?",
+              "options": [
+                "Hera",
+                "Artemis",
+                "Demeter",
+                "Athena"
+              ],
+              "correct_answer": 3,
+              "explanation": "Athens is named after her.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_107",
+              "question": "Who is the Greek goddess of love and beauty?",
+              "options": [
+                "Aphrodite",
+                "Hera",
+                "Athena",
+                "Persephone"
+              ],
+              "correct_answer": 0,
+              "explanation": "Her Roman name is Venus.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_108",
+              "question": "Who is the messenger of the Greek gods?",
+              "options": [
+                "Apollo",
+                "Hermes",
+                "Ares",
+                "Hephaestus"
+              ],
+              "correct_answer": 1,
+              "explanation": "He wears winged sandals.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_109",
+              "question": "What is the Roman name of Ares, the god of war?",
+              "options": [
+                "Mercury",
+                "Jupiter",
+                "Mars",
+                "Vulcan"
+              ],
+              "correct_answer": 2,
+              "explanation": "March is named after him.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_110",
+              "question": "Which hero performed the Twelve Labours?",
+              "options": [
+                "Perseus",
+                "Theseus",
+                "Achilles",
+                "Heracles"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Romans called him Hercules.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_111",
+              "question": "Who killed Medusa?",
+              "options": [
+                "Perseus",
+                "Heracles",
+                "Theseus",
+                "Jason"
+              ],
+              "correct_answer": 0,
+              "explanation": "He used a mirrored shield.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_112",
+              "question": "What was Achilles' only weak spot?",
+              "options": [
+                "His neck",
+                "His heel",
+                "His eye",
+                "His back"
+              ],
+              "correct_answer": 1,
+              "explanation": "His mother held him there when dipping him in the Styx.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_113",
+              "question": "Who wrote the epic poems the 'Iliad' and the 'Odyssey'?",
+              "options": [
+                "Virgil",
+                "Sophocles",
+                "Homer",
+                "Hesiod"
+              ],
+              "correct_answer": 2,
+              "explanation": "They are among the oldest Western literature.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_114",
+              "question": "Who is the hero of the 'Odyssey'?",
+              "options": [
+                "Achilles",
+                "Hector",
+                "Aeneas",
+                "Odysseus"
+              ],
+              "correct_answer": 3,
+              "explanation": "He takes ten years to get home.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_115",
+              "question": "What did Pandora release when she opened the jar?",
+              "options": [
+                "All the evils of the world",
+                "Gold",
+                "The gods",
+                "Fire"
+              ],
+              "correct_answer": 0,
+              "explanation": "Only hope remained inside.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_116",
+              "question": "Icarus fell after flying too close to what?",
+              "options": [
+                "The sea",
+                "The Sun",
+                "Mount Olympus",
+                "The Moon"
+              ],
+              "correct_answer": 1,
+              "explanation": "The wax on his wings melted.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_117",
+              "question": "The Minotaur was half man and half what?",
+              "options": [
+                "Horse",
+                "Goat",
+                "Bull",
+                "Lion"
+              ],
+              "correct_answer": 2,
+              "explanation": "It lived in the Labyrinth on Crete.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_118",
+              "question": "Who killed the Minotaur?",
+              "options": [
+                "Perseus",
+                "Jason",
+                "Odysseus",
+                "Theseus"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ariadne's thread helped him escape.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_119",
+              "question": "Which Titan stole fire from the gods for humans?",
+              "options": [
+                "Prometheus",
+                "Atlas",
+                "Cronus",
+                "Hyperion"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was chained to a rock as punishment.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_120",
+              "question": "Which Titan was condemned to hold up the sky?",
+              "options": [
+                "Prometheus",
+                "Atlas",
+                "Cronus",
+                "Oceanus"
+              ],
+              "correct_answer": 1,
+              "explanation": "Map books are named after him.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_121",
+              "question": "Who led the Argonauts to find the Golden Fleece?",
+              "options": [
+                "Heracles",
+                "Theseus",
+                "Jason",
+                "Perseus"
+              ],
+              "correct_answer": 2,
+              "explanation": "Their ship was the Argo.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_122",
+              "question": "On which mountain did the Greek gods live?",
+              "options": [
+                "Mount Parnassus",
+                "Mount Ida",
+                "Mount Etna",
+                "Mount Olympus"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is Greece's highest mountain.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_123",
+              "question": "Who is the Greek goddess of the harvest?",
+              "options": [
+                "Demeter",
+                "Hestia",
+                "Hera",
+                "Persephone"
+              ],
+              "correct_answer": 0,
+              "explanation": "Her daughter is Persephone.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_124",
+              "question": "Who is Apollo's twin sister?",
+              "options": [
+                "Athena",
+                "Artemis",
+                "Aphrodite",
+                "Hera"
+              ],
+              "correct_answer": 1,
+              "explanation": "She is goddess of the hunt.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_125",
+              "question": "In Roman legend, which animal raised Romulus and Remus?",
+              "options": [
+                "A bear",
+                "An eagle",
+                "A she-wolf",
+                "A lioness"
+              ],
+              "correct_answer": 2,
+              "explanation": "Romulus later founded Rome.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_126",
+              "question": "Who ferries the souls of the dead across the river Styx?",
+              "options": [
+                "Hermes",
+                "Cerberus",
+                "Thanatos",
+                "Charon"
+              ],
+              "correct_answer": 3,
+              "explanation": "He must be paid a coin.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_127",
+              "question": "What is the name of the three-headed dog guarding the underworld?",
+              "options": [
+                "Cerberus",
+                "Orthrus",
+                "Hydra",
+                "Chimera"
+              ],
+              "correct_answer": 0,
+              "explanation": "It belongs to Hades.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_128",
+              "question": "What was the Trojan Horse used for?",
+              "options": [
+                "Carrying gifts to Sparta",
+                "Hiding Greek soldiers to enter Troy",
+                "Racing in the Olympics",
+                "Pulling Apollo's chariot"
+              ],
+              "correct_answer": 1,
+              "explanation": "It ended the Trojan War.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_129",
+              "question": "Who is the Greek god of wine and festivity?",
+              "options": [
+                "Apollo",
+                "Hermes",
+                "Dionysus",
+                "Pan"
+              ],
+              "correct_answer": 2,
+              "explanation": "His Roman name is Bacchus.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_130",
+              "question": "Which monster had many heads that grew back when cut off?",
+              "options": [
+                "Cyclops",
+                "Chimera",
+                "Sphinx",
+                "Hydra"
+              ],
+              "correct_answer": 3,
+              "explanation": "Heracles defeated it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_131",
+              "question": "Who is the Greek god of the forge and fire?",
+              "options": [
+                "Hephaestus",
+                "Ares",
+                "Apollo",
+                "Helios"
+              ],
+              "correct_answer": 0,
+              "explanation": "His Roman name is Vulcan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_greek_roman_132",
+              "question": "Who was the queen of the Greek gods?",
+              "options": [
+                "Athena",
+                "Hera",
+                "Demeter",
+                "Rhea"
+              ],
+              "correct_answer": 1,
+              "explanation": "She was Zeus's wife.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "myth_world_other",
+          "name": "Norse, Egyptian & More",
+          "icon": "🐉",
+          "color": "#4E342E",
+          "questions": [
+            {
+              "id": "myth_world_other_101",
+              "question": "Who is the chief god in Norse mythology?",
+              "options": [
+                "Thor",
+                "Loki",
+                "Odin",
+                "Freyr"
+              ],
+              "correct_answer": 2,
+              "explanation": "He gave an eye for wisdom.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_102",
+              "question": "What is the name of Thor's hammer?",
+              "options": [
+                "Gungnir",
+                "Gram",
+                "Excalibur",
+                "Mjolnir"
+              ],
+              "correct_answer": 3,
+              "explanation": "Only the worthy can lift it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_103",
+              "question": "What is the home of the Norse gods called?",
+              "options": [
+                "Asgard",
+                "Midgard",
+                "Valhalla",
+                "Jotunheim"
+              ],
+              "correct_answer": 0,
+              "explanation": "Midgard is the world of humans.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_104",
+              "question": "Who is the Norse trickster god?",
+              "options": [
+                "Odin",
+                "Loki",
+                "Baldur",
+                "Tyr"
+              ],
+              "correct_answer": 1,
+              "explanation": "He is a shapeshifter.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_105",
+              "question": "What is the Norse end of the world called?",
+              "options": [
+                "Armageddon",
+                "Fimbulwinter",
+                "Ragnarok",
+                "Valhalla"
+              ],
+              "correct_answer": 2,
+              "explanation": "The gods fight their last battle.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_106",
+              "question": "In Norse mythology, Valhalla is a hall for whom?",
+              "options": [
+                "Giants",
+                "Elves",
+                "Dwarves",
+                "Warriors who died in battle"
+              ],
+              "correct_answer": 3,
+              "explanation": "Valkyries bring them there.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_107",
+              "question": "What is the giant world tree in Norse mythology?",
+              "options": [
+                "Yggdrasil",
+                "Bifrost",
+                "Ginnungagap",
+                "Hlidskjalf"
+              ],
+              "correct_answer": 0,
+              "explanation": "It connects the nine worlds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_108",
+              "question": "Who is the Egyptian sun god?",
+              "options": [
+                "Osiris",
+                "Ra",
+                "Anubis",
+                "Set"
+              ],
+              "correct_answer": 1,
+              "explanation": "He sails across the sky in a boat.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_109",
+              "question": "Which Egyptian god of the dead has a jackal head?",
+              "options": [
+                "Horus",
+                "Thoth",
+                "Anubis",
+                "Sobek"
+              ],
+              "correct_answer": 2,
+              "explanation": "He weighs hearts against a feather.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_110",
+              "question": "Which Egyptian god rules the afterlife and is husband of Isis?",
+              "options": [
+                "Ra",
+                "Set",
+                "Ptah",
+                "Osiris"
+              ],
+              "correct_answer": 3,
+              "explanation": "Set murdered him.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_111",
+              "question": "Which Egyptian god has a falcon head?",
+              "options": [
+                "Horus",
+                "Anubis",
+                "Thoth",
+                "Khnum"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Eye of Horus is a protective symbol.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_112",
+              "question": "Which Egyptian goddess has the form of a cat?",
+              "options": [
+                "Isis",
+                "Bastet",
+                "Hathor",
+                "Sekhmet"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cats were sacred in Egypt.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_113",
+              "question": "Who is the hero of the ancient Mesopotamian epic?",
+              "options": [
+                "Enkidu",
+                "Marduk",
+                "Gilgamesh",
+                "Hammurabi"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is one of the oldest stories.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_114",
+              "question": "Which Aztec god is the 'Feathered Serpent'?",
+              "options": [
+                "Huitzilopochtli",
+                "Tlaloc",
+                "Tezcatlipoca",
+                "Quetzalcoatl"
+              ],
+              "correct_answer": 3,
+              "explanation": "Mayans called him Kukulkan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_115",
+              "question": "Who is the sun goddess in Japanese Shinto mythology?",
+              "options": [
+                "Amaterasu",
+                "Izanami",
+                "Susanoo",
+                "Inari"
+              ],
+              "correct_answer": 0,
+              "explanation": "The imperial family claims descent from her.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_116",
+              "question": "How many animals are in the Chinese zodiac?",
+              "options": [
+                "10",
+                "12",
+                "8",
+                "13"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Rat comes first.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_117",
+              "question": "What is the name of King Arthur's legendary sword?",
+              "options": [
+                "Durendal",
+                "Mjolnir",
+                "Excalibur",
+                "Joyeuse"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was given by the Lady of the Lake.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_118",
+              "question": "Who is King Arthur's wizard advisor?",
+              "options": [
+                "Gandalf",
+                "Lancelot",
+                "Morgana",
+                "Merlin"
+              ],
+              "correct_answer": 3,
+              "explanation": "He appears in Arthurian legend.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_119",
+              "question": "The mythical phoenix is reborn from what?",
+              "options": [
+                "Its own ashes",
+                "An egg of gold",
+                "The sea",
+                "A thunderbolt"
+              ],
+              "correct_answer": 0,
+              "explanation": "It symbolises renewal.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_120",
+              "question": "In Irish folklore, what do leprechauns hide?",
+              "options": [
+                "A magic sword",
+                "A pot of gold",
+                "A golden harp",
+                "Silver shoes"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is at the end of a rainbow.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_121",
+              "question": "Which Polynesian demigod pulled islands from the sea with his fishhook?",
+              "options": [
+                "Tangaroa",
+                "Pele",
+                "Maui",
+                "Tane"
+              ],
+              "correct_answer": 2,
+              "explanation": "Maori legend says he fished up the North Island.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_122",
+              "question": "Which Slavic witch lives in a hut on chicken legs?",
+              "options": [
+                "Morana",
+                "Rusalka",
+                "Koschei",
+                "Baba Yaga"
+              ],
+              "correct_answer": 3,
+              "explanation": "She is a famous Slavic folklore figure.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_123",
+              "question": "What is Odin's eight-legged horse called?",
+              "options": [
+                "Sleipnir",
+                "Fenrir",
+                "Hugin",
+                "Gullfaxi"
+              ],
+              "correct_answer": 0,
+              "explanation": "Loki is Sleipnir's mother.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_124",
+              "question": "What is the giant wolf in Norse mythology that kills Odin at Ragnarok?",
+              "options": [
+                "Jormungandr",
+                "Fenrir",
+                "Sleipnir",
+                "Garmr"
+              ],
+              "correct_answer": 1,
+              "explanation": "He is Loki's son.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_125",
+              "question": "What is the rainbow bridge connecting Asgard and Midgard?",
+              "options": [
+                "Yggdrasil",
+                "Gjallarbru",
+                "Bifrost",
+                "Vigrid"
+              ],
+              "correct_answer": 2,
+              "explanation": "Heimdall guards it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_126",
+              "question": "In Egyptian mythology, what was weighed against a heart in the afterlife?",
+              "options": [
+                "Gold",
+                "A stone",
+                "Water",
+                "A feather"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was the feather of Ma'at.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_127",
+              "question": "The Sphinx has the body of a lion and the head of a?",
+              "options": [
+                "Human",
+                "Eagle",
+                "Falcon",
+                "Snake"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Great Sphinx is at Giza.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "myth_world_other_128",
+              "question": "In Chinese mythology, which creature is a symbol of imperial power?",
+              "options": [
+                "Tiger",
+                "Dragon",
+                "Phoenix",
+                "Crane"
+              ],
+              "correct_answer": 1,
+              "explanation": "Chinese dragons bring rain and luck.",
+              "difficulty": "easy",
+              "points": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "gk_india",
       "name": "Indian GK",
       "description": "Test your knowledge about India",
