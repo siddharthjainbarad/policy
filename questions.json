@@ -1806,6 +1806,1378 @@
               "explanation": "Short blue wavelengths are scattered most.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "sci_physics_115",
+              "question": "What is the SI unit of electric charge?",
+              "options": [
+                "Ampere",
+                "Volt",
+                "Ohm",
+                "Coulomb"
+              ],
+              "correct_answer": 3,
+              "explanation": "1 coulomb = 1 ampere x 1 second.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_116",
+              "question": "What is the SI unit of electrical resistance?",
+              "options": [
+                "Ohm",
+                "Volt",
+                "Siemens",
+                "Ampere"
+              ],
+              "correct_answer": 0,
+              "explanation": "Named after Georg Ohm.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_117",
+              "question": "What is the SI unit of electric potential difference?",
+              "options": [
+                "Ampere",
+                "Volt",
+                "Coulomb",
+                "Watt"
+              ],
+              "correct_answer": 1,
+              "explanation": "1 V = 1 J/C.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_118",
+              "question": "What is the SI unit of power?",
+              "options": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Pascal"
+              ],
+              "correct_answer": 2,
+              "explanation": "1 W = 1 J/s.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_119",
+              "question": "What is the SI unit of thermodynamic temperature?",
+              "options": [
+                "Celsius",
+                "Fahrenheit",
+                "Rankine",
+                "Kelvin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Kelvin is an SI base unit.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_120",
+              "question": "What is the SI unit of momentum?",
+              "options": [
+                "kg m/s",
+                "kg m/s^2",
+                "N m",
+                "J s"
+              ],
+              "correct_answer": 0,
+              "explanation": "Momentum = mass x velocity.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_121",
+              "question": "What are the dimensions of force?",
+              "options": [
+                "[ML^2T^-2]",
+                "[MLT^-2]",
+                "[MLT^-1]",
+                "[ML^-1T^-2]"
+              ],
+              "correct_answer": 1,
+              "explanation": "F = ma gives M x LT^-2.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_122",
+              "question": "What is the SI unit of radioactivity?",
+              "options": [
+                "Curie",
+                "Gray",
+                "Becquerel",
+                "Sievert"
+              ],
+              "correct_answer": 2,
+              "explanation": "1 Bq = one decay per second.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_123",
+              "question": "What is the SI unit of absorbed radiation dose?",
+              "options": [
+                "Becquerel",
+                "Roentgen",
+                "Rad",
+                "Gray"
+              ],
+              "correct_answer": 3,
+              "explanation": "1 Gy = 1 J/kg absorbed.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_124",
+              "question": "What is the SI unit of illuminance?",
+              "options": [
+                "Lux",
+                "Lumen",
+                "Candela",
+                "Watt"
+              ],
+              "correct_answer": 0,
+              "explanation": "1 lux = 1 lumen per square metre.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_125",
+              "question": "Loudness of sound is commonly measured in?",
+              "options": [
+                "Hertz",
+                "Decibels",
+                "Watts",
+                "Pascals"
+              ],
+              "correct_answer": 1,
+              "explanation": "The decibel is a logarithmic scale.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_126",
+              "question": "Standard atmospheric pressure is approximately?",
+              "options": [
+                "10,000 Pa",
+                "1,000 Pa",
+                "101,325 Pa",
+                "1,013 Pa"
+              ],
+              "correct_answer": 2,
+              "explanation": "1 atm = 101,325 Pa.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_127",
+              "question": "Which of these is a vector quantity?",
+              "options": [
+                "Speed",
+                "Mass",
+                "Temperature",
+                "Velocity"
+              ],
+              "correct_answer": 3,
+              "explanation": "Velocity has magnitude and direction.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_128",
+              "question": "Which of these is a scalar quantity?",
+              "options": [
+                "Energy",
+                "Force",
+                "Displacement",
+                "Acceleration"
+              ],
+              "correct_answer": 0,
+              "explanation": "Energy has magnitude only.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_129",
+              "question": "The slope of a velocity-time graph gives?",
+              "options": [
+                "Displacement",
+                "Acceleration",
+                "Speed",
+                "Jerk"
+              ],
+              "correct_answer": 1,
+              "explanation": "a = dv/dt.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_130",
+              "question": "The area under a velocity-time graph gives?",
+              "options": [
+                "Acceleration",
+                "Force",
+                "Displacement",
+                "Power"
+              ],
+              "correct_answer": 2,
+              "explanation": "Integrating velocity over time gives displacement.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_131",
+              "question": "The area under a force-time graph gives?",
+              "options": [
+                "Work",
+                "Power",
+                "Pressure",
+                "Impulse"
+              ],
+              "correct_answer": 3,
+              "explanation": "Impulse equals change in momentum.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_132",
+              "question": "Acceleration due to gravity on the Moon is about?",
+              "options": [
+                "1.6 m/s^2",
+                "9.8 m/s^2",
+                "3.7 m/s^2",
+                "0.5 m/s^2"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is about one-sixth of Earth's.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_133",
+              "question": "If the length of a simple pendulum is made four times, its period becomes?",
+              "options": [
+                "Four times",
+                "Twice",
+                "Half",
+                "Unchanged"
+              ],
+              "correct_answer": 1,
+              "explanation": "T is proportional to the square root of length.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_134",
+              "question": "In uniform circular motion, centripetal force acts in which direction?",
+              "options": [
+                "Away from the centre",
+                "Along the tangent",
+                "Towards the centre",
+                "Along the axis"
+              ],
+              "correct_answer": 2,
+              "explanation": "It keeps the body on a circular path.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_135",
+              "question": "If the speed of a body is doubled, its kinetic energy becomes?",
+              "options": [
+                "Twice",
+                "Half",
+                "Eight times",
+                "Four times"
+              ],
+              "correct_answer": 3,
+              "explanation": "KE is proportional to v^2.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_136",
+              "question": "What is the power of a convex lens of focal length 50 cm?",
+              "options": [
+                "+2 D",
+                "+0.5 D",
+                "-2 D",
+                "+50 D"
+              ],
+              "correct_answer": 0,
+              "explanation": "P = 1/f(m) = 1/0.5 = +2 D.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_137",
+              "question": "What is the unit of power of a lens?",
+              "options": [
+                "Watt",
+                "Dioptre",
+                "Metre",
+                "Lux"
+              ],
+              "correct_answer": 1,
+              "explanation": "1 D = 1 m^-1.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_138",
+              "question": "Myopia (short-sightedness) is corrected with which lens?",
+              "options": [
+                "Convex lens",
+                "Cylindrical lens",
+                "Concave lens",
+                "Bifocal lens"
+              ],
+              "correct_answer": 2,
+              "explanation": "A diverging lens moves the image back to the retina.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_139",
+              "question": "Hypermetropia (long-sightedness) is corrected with which lens?",
+              "options": [
+                "Concave lens",
+                "Plane glass",
+                "Prism",
+                "Convex lens"
+              ],
+              "correct_answer": 3,
+              "explanation": "A converging lens adds focusing power.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_140",
+              "question": "What kind of image does a plane mirror form?",
+              "options": [
+                "Virtual and erect",
+                "Real and inverted",
+                "Real and erect",
+                "Virtual and inverted"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is laterally inverted and the same size.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_141",
+              "question": "Which mirror is used as a rear-view mirror in vehicles?",
+              "options": [
+                "Concave mirror",
+                "Convex mirror",
+                "Plane mirror",
+                "Parabolic mirror"
+              ],
+              "correct_answer": 1,
+              "explanation": "It gives a wider field of view.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_142",
+              "question": "Which mirror is used by dentists and for shaving?",
+              "options": [
+                "Convex mirror",
+                "Plane mirror",
+                "Concave mirror",
+                "Cylindrical mirror"
+              ],
+              "correct_answer": 2,
+              "explanation": "It forms an enlarged erect image when close.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_143",
+              "question": "What is the approximate refractive index of water?",
+              "options": [
+                "1.5",
+                "2.42",
+                "1.0",
+                "1.33"
+              ],
+              "correct_answer": 3,
+              "explanation": "Diamond is about 2.42, glass about 1.5.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_144",
+              "question": "What is the speed of light in glass of refractive index 1.5?",
+              "options": [
+                "2 x 10^8 m/s",
+                "3 x 10^8 m/s",
+                "1.5 x 10^8 m/s",
+                "4.5 x 10^8 m/s"
+              ],
+              "correct_answer": 0,
+              "explanation": "v = c/n.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_145",
+              "question": "Which colour of visible light has the highest frequency?",
+              "options": [
+                "Red",
+                "Violet",
+                "Green",
+                "Yellow"
+              ],
+              "correct_answer": 1,
+              "explanation": "Violet has the shortest wavelength.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_146",
+              "question": "What are the primary colours of light?",
+              "options": [
+                "Red, yellow, blue",
+                "Cyan, magenta, yellow",
+                "Red, green, blue",
+                "Red, green, yellow"
+              ],
+              "correct_answer": 2,
+              "explanation": "RGB combine to make white light.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_147",
+              "question": "What is the audible frequency range for humans?",
+              "options": [
+                "2 Hz to 2 kHz",
+                "200 Hz to 200 kHz",
+                "20 kHz to 200 kHz",
+                "20 Hz to 20 kHz"
+              ],
+              "correct_answer": 3,
+              "explanation": "Above it is ultrasound, below it infrasound.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_148",
+              "question": "SONAR works using which type of waves?",
+              "options": [
+                "Ultrasonic waves",
+                "Infrared waves",
+                "Microwaves",
+                "X-rays"
+              ],
+              "correct_answer": 0,
+              "explanation": "SONAR = Sound Navigation and Ranging.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_149",
+              "question": "Sound travels fastest in which medium?",
+              "options": [
+                "Liquids",
+                "Solids",
+                "Gases",
+                "Vacuum"
+              ],
+              "correct_answer": 1,
+              "explanation": "Particles in solids are tightly packed.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_150",
+              "question": "Light waves are what type of waves?",
+              "options": [
+                "Longitudinal",
+                "Mechanical",
+                "Transverse",
+                "Stationary only"
+              ],
+              "correct_answer": 2,
+              "explanation": "EM waves oscillate perpendicular to propagation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_151",
+              "question": "Sound waves in air are what type of waves?",
+              "options": [
+                "Transverse",
+                "Electromagnetic",
+                "Surface",
+                "Longitudinal"
+              ],
+              "correct_answer": 3,
+              "explanation": "They are compressions and rarefactions.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_152",
+              "question": "Two 4 ohm resistors connected in parallel give what total resistance?",
+              "options": [
+                "2 ohm",
+                "8 ohm",
+                "4 ohm",
+                "1 ohm"
+              ],
+              "correct_answer": 0,
+              "explanation": "1/R = 1/4 + 1/4.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_153",
+              "question": "How many joules are there in 1 kilowatt-hour?",
+              "options": [
+                "1,000 J",
+                "3.6 x 10^6 J",
+                "3,600 J",
+                "3.6 x 10^3 J"
+              ],
+              "correct_answer": 1,
+              "explanation": "1 kWh = 1000 W x 3600 s.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_154",
+              "question": "A fuse wire should have which property?",
+              "options": [
+                "High melting point",
+                "High resistance only",
+                "Low melting point",
+                "Zero resistance"
+              ],
+              "correct_answer": 2,
+              "explanation": "It melts to break the circuit on overload.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_155",
+              "question": "Which alloy is commonly used in heating elements?",
+              "options": [
+                "Brass",
+                "Solder",
+                "Bronze",
+                "Nichrome"
+              ],
+              "correct_answer": 3,
+              "explanation": "Nichrome has high resistivity and resists oxidation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_156",
+              "question": "Which metal is used for filaments of incandescent bulbs?",
+              "options": [
+                "Tungsten",
+                "Copper",
+                "Aluminium",
+                "Nichrome"
+              ],
+              "correct_answer": 0,
+              "explanation": "Tungsten has a very high melting point.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_157",
+              "question": "A galvanometer is converted into an ammeter by connecting?",
+              "options": [
+                "High resistance in series",
+                "Low resistance in parallel",
+                "Low resistance in series",
+                "High resistance in parallel"
+              ],
+              "correct_answer": 1,
+              "explanation": "The shunt carries most of the current.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_158",
+              "question": "A voltmeter is connected in a circuit in?",
+              "options": [
+                "Series",
+                "Either way",
+                "Parallel",
+                "Neither"
+              ],
+              "correct_answer": 2,
+              "explanation": "It measures potential difference across a component.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_159",
+              "question": "An ammeter is connected in a circuit in?",
+              "options": [
+                "Parallel",
+                "Either way",
+                "Neither",
+                "Series"
+              ],
+              "correct_answer": 3,
+              "explanation": "All current must pass through it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_160",
+              "question": "The north pole of a compass needle points towards?",
+              "options": [
+                "Geographic north",
+                "Geographic south",
+                "East",
+                "West"
+              ],
+              "correct_answer": 0,
+              "explanation": "Earth's magnetic south pole is near geographic north.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_161",
+              "question": "Who first experimentally produced and detected electromagnetic waves?",
+              "options": [
+                "James Clerk Maxwell",
+                "Heinrich Hertz",
+                "Michael Faraday",
+                "Guglielmo Marconi"
+              ],
+              "correct_answer": 1,
+              "explanation": "Hertz did so in 1887.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_162",
+              "question": "Which electromagnetic radiation has the shortest wavelength?",
+              "options": [
+                "X-rays",
+                "Ultraviolet",
+                "Gamma rays",
+                "Radio waves"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gamma rays have the highest energy.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_163",
+              "question": "TV remote controls usually use which radiation?",
+              "options": [
+                "Ultraviolet",
+                "X-rays",
+                "Gamma rays",
+                "Infrared"
+              ],
+              "correct_answer": 3,
+              "explanation": "IR LEDs send coded pulses.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_164",
+              "question": "Which radiation is used to sterilise surgical instruments and water?",
+              "options": [
+                "Ultraviolet",
+                "Infrared",
+                "Radio waves",
+                "Microwaves"
+              ],
+              "correct_answer": 0,
+              "explanation": "UV damages microbial DNA.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_165",
+              "question": "Which radiation is mainly used in RADAR?",
+              "options": [
+                "Gamma rays",
+                "Microwaves",
+                "Visible light",
+                "Ultraviolet"
+              ],
+              "correct_answer": 1,
+              "explanation": "RADAR uses short radio waves called microwaves.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_166",
+              "question": "Who explained the photoelectric effect in 1905?",
+              "options": [
+                "Max Planck",
+                "Niels Bohr",
+                "Albert Einstein",
+                "Heinrich Hertz"
+              ],
+              "correct_answer": 2,
+              "explanation": "He won the 1921 Nobel Prize for it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_167",
+              "question": "What is the approximate value of Planck's constant?",
+              "options": [
+                "6.022 x 10^23 J s",
+                "1.6 x 10^-19 J s",
+                "9.1 x 10^-31 J s",
+                "6.626 x 10^-34 J s"
+              ],
+              "correct_answer": 3,
+              "explanation": "E = hf.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_168",
+              "question": "What is the magnitude of the charge of an electron?",
+              "options": [
+                "1.6 x 10^-19 C",
+                "9.1 x 10^-31 C",
+                "1.6 x 10^-27 C",
+                "6.6 x 10^-34 C"
+              ],
+              "correct_answer": 0,
+              "explanation": "This is the elementary charge.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_169",
+              "question": "What is the approximate mass of an electron?",
+              "options": [
+                "1.67 x 10^-27 kg",
+                "9.11 x 10^-31 kg",
+                "1.6 x 10^-19 kg",
+                "6.6 x 10^-34 kg"
+              ],
+              "correct_answer": 1,
+              "explanation": "A proton is about 1836 times heavier.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_170",
+              "question": "Who discovered the electron in 1897?",
+              "options": [
+                "Ernest Rutherford",
+                "James Chadwick",
+                "J.J. Thomson",
+                "Robert Millikan"
+              ],
+              "correct_answer": 2,
+              "explanation": "He used cathode ray tubes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_171",
+              "question": "An alpha particle is identical to which nucleus?",
+              "options": [
+                "Hydrogen nucleus",
+                "Lithium nucleus",
+                "Carbon nucleus",
+                "Helium nucleus"
+              ],
+              "correct_answer": 3,
+              "explanation": "It has 2 protons and 2 neutrons.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_172",
+              "question": "A beta-minus particle is a?",
+              "options": [
+                "Electron",
+                "Proton",
+                "Neutron",
+                "Photon"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is emitted when a neutron becomes a proton.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_173",
+              "question": "Nuclear power reactors generate energy by which process?",
+              "options": [
+                "Nuclear fusion",
+                "Nuclear fission",
+                "Combustion",
+                "Radioactive decay only"
+              ],
+              "correct_answer": 1,
+              "explanation": "Heavy nuclei like U-235 split.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_174",
+              "question": "Which substance is used as a moderator in many nuclear reactors?",
+              "options": [
+                "Cadmium",
+                "Uranium",
+                "Heavy water",
+                "Lead"
+              ],
+              "correct_answer": 2,
+              "explanation": "It slows down neutrons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_175",
+              "question": "Control rods in nuclear reactors are commonly made of?",
+              "options": [
+                "Graphite",
+                "Heavy water",
+                "Uranium",
+                "Cadmium or boron"
+              ],
+              "correct_answer": 3,
+              "explanation": "They absorb neutrons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_176",
+              "question": "Doping silicon with phosphorus produces which semiconductor?",
+              "options": [
+                "n-type",
+                "p-type",
+                "Intrinsic",
+                "Insulator"
+              ],
+              "correct_answer": 0,
+              "explanation": "Phosphorus donates extra electrons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_177",
+              "question": "Doping silicon with boron produces which semiconductor?",
+              "options": [
+                "n-type",
+                "p-type",
+                "Intrinsic",
+                "Superconductor"
+              ],
+              "correct_answer": 1,
+              "explanation": "Boron creates holes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_178",
+              "question": "Which logic gate outputs 1 only when all inputs are 1?",
+              "options": [
+                "OR",
+                "NOR",
+                "AND",
+                "XOR"
+              ],
+              "correct_answer": 2,
+              "explanation": "AND is true only if all inputs are true.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_179",
+              "question": "Which gates are called universal gates?",
+              "options": [
+                "AND and OR",
+                "XOR and XNOR",
+                "NOT and AND",
+                "NAND and NOR"
+              ],
+              "correct_answer": 3,
+              "explanation": "Any logic circuit can be built from them.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_180",
+              "question": "The first law of thermodynamics is a statement of?",
+              "options": [
+                "Conservation of energy",
+                "Conservation of mass",
+                "Increase of entropy",
+                "Absolute zero"
+              ],
+              "correct_answer": 0,
+              "explanation": "dU = Q - W.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_181",
+              "question": "Heat from the Sun reaches Earth by?",
+              "options": [
+                "Conduction",
+                "Radiation",
+                "Convection",
+                "Induction"
+              ],
+              "correct_answer": 1,
+              "explanation": "Radiation needs no medium.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_182",
+              "question": "What is the efficiency of a Carnot engine working between 600 K and 300 K?",
+              "options": [
+                "100%",
+                "25%",
+                "50%",
+                "75%"
+              ],
+              "correct_answer": 2,
+              "explanation": "Efficiency = 1 - 300/600.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_183",
+              "question": "What happens to the boiling point of water at high altitude?",
+              "options": [
+                "It increases",
+                "It stays the same",
+                "It becomes 0 degrees C",
+                "It decreases"
+              ],
+              "correct_answer": 3,
+              "explanation": "Lower air pressure lowers the boiling point.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_184",
+              "question": "Why does a pressure cooker cook food faster?",
+              "options": [
+                "Higher pressure raises the boiling point",
+                "It lowers the boiling point",
+                "It removes air",
+                "It increases heat conduction of metal only"
+              ],
+              "correct_answer": 0,
+              "explanation": "Water boils at about 120 degrees C inside.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_185",
+              "question": "What is the specific heat capacity of water?",
+              "options": [
+                "About 1000 J/kg K",
+                "About 4186 J/kg K",
+                "About 420 J/kg K",
+                "About 2100 J/kg K"
+              ],
+              "correct_answer": 1,
+              "explanation": "Water has a very high specific heat.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_186",
+              "question": "Liquid drops are spherical because of?",
+              "options": [
+                "Viscosity",
+                "Gravity",
+                "Surface tension",
+                "Buoyancy"
+              ],
+              "correct_answer": 2,
+              "explanation": "A sphere has minimum surface area.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_187",
+              "question": "What is the SI unit of coefficient of viscosity?",
+              "options": [
+                "Newton per metre",
+                "Joule per second",
+                "Poise per metre",
+                "Pascal second"
+              ],
+              "correct_answer": 3,
+              "explanation": "1 Pa s = 10 poise.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_188",
+              "question": "Stokes' law gives what?",
+              "options": [
+                "Viscous drag on a moving sphere",
+                "Buoyant force",
+                "Surface tension",
+                "Pressure in fluids"
+              ],
+              "correct_answer": 0,
+              "explanation": "F = 6 pi eta r v.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_189",
+              "question": "Young's modulus measures a material's?",
+              "options": [
+                "Hardness",
+                "Stiffness under tension",
+                "Density",
+                "Thermal conductivity"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is stress divided by strain.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_190",
+              "question": "According to Wien's law, the hottest stars appear which colour?",
+              "options": [
+                "Red",
+                "Yellow",
+                "Blue",
+                "Orange"
+              ],
+              "correct_answer": 2,
+              "explanation": "Peak wavelength is inversely proportional to temperature.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_191",
+              "question": "The power radiated by a black body is proportional to?",
+              "options": [
+                "T",
+                "T^2",
+                "T^3",
+                "T^4"
+              ],
+              "correct_answer": 3,
+              "explanation": "This is the Stefan-Boltzmann law.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_192",
+              "question": "A geostationary satellite orbits at about what height above Earth?",
+              "options": [
+                "35,786 km",
+                "400 km",
+                "2,000 km",
+                "384,000 km"
+              ],
+              "correct_answer": 0,
+              "explanation": "At this height its period equals one day.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_193",
+              "question": "The Michelson-Morley experiment showed the absence of?",
+              "options": [
+                "Photons",
+                "Luminiferous ether",
+                "Gravitational waves",
+                "Electrons"
+              ],
+              "correct_answer": 1,
+              "explanation": "This supported special relativity.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_194",
+              "question": "Which particle carries the electromagnetic force?",
+              "options": [
+                "Gluon",
+                "W boson",
+                "Photon",
+                "Graviton"
+              ],
+              "correct_answer": 2,
+              "explanation": "Photons mediate electromagnetic interactions.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_195",
+              "question": "Which particle carries the strong nuclear force?",
+              "options": [
+                "Photon",
+                "Z boson",
+                "Higgs boson",
+                "Gluon"
+              ],
+              "correct_answer": 3,
+              "explanation": "Gluons bind quarks together.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_196",
+              "question": "How many flavours of quarks are there?",
+              "options": [
+                "6",
+                "3",
+                "4",
+                "8"
+              ],
+              "correct_answer": 0,
+              "explanation": "Up, down, charm, strange, top, bottom.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_197",
+              "question": "The electron belongs to which family of particles?",
+              "options": [
+                "Hadrons",
+                "Leptons",
+                "Mesons",
+                "Baryons"
+              ],
+              "correct_answer": 1,
+              "explanation": "Leptons do not feel the strong force.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_198",
+              "question": "What is the Lorentz factor for a body moving at 0.6c?",
+              "options": [
+                "1.67",
+                "0.8",
+                "1.25",
+                "1.5"
+              ],
+              "correct_answer": 2,
+              "explanation": "gamma = 1/sqrt(1 - 0.36) = 1.25.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_199",
+              "question": "At Brewster's angle, the reflected light is?",
+              "options": [
+                "Unpolarised",
+                "Totally absorbed",
+                "Doubled in intensity",
+                "Completely polarised"
+              ],
+              "correct_answer": 3,
+              "explanation": "tan(theta) = n.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_200",
+              "question": "Malus' law gives the intensity through a polariser as?",
+              "options": [
+                "I0 cos^2(theta)",
+                "I0 sin(theta)",
+                "I0 cos(theta)",
+                "I0 tan^2(theta)"
+              ],
+              "correct_answer": 0,
+              "explanation": "It applies to polarised light.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_201",
+              "question": "What is Bragg's law of X-ray diffraction?",
+              "options": [
+                "lambda = h/p",
+                "n lambda = 2d sin(theta)",
+                "E = hf",
+                "n1 sin(theta1) = n2 sin(theta2)"
+              ],
+              "correct_answer": 1,
+              "explanation": "It relates crystal spacing to diffraction angle.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_202",
+              "question": "Kirchhoff's voltage law is based on conservation of what?",
+              "options": [
+                "Charge",
+                "Momentum",
+                "Energy",
+                "Mass"
+              ],
+              "correct_answer": 2,
+              "explanation": "The sum of voltages around a loop is zero.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_203",
+              "question": "What is the resonant frequency of an LC circuit?",
+              "options": [
+                "2 pi sqrt(LC)",
+                "sqrt(L/C)",
+                "1/(LC)",
+                "1/(2 pi sqrt(LC))"
+              ],
+              "correct_answer": 3,
+              "explanation": "At resonance XL = XC.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_204",
+              "question": "What is the moment of inertia of a solid sphere about its diameter?",
+              "options": [
+                "(2/5)MR^2",
+                "(1/2)MR^2",
+                "MR^2",
+                "(2/3)MR^2"
+              ],
+              "correct_answer": 0,
+              "explanation": "A hollow sphere has (2/3)MR^2.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_205",
+              "question": "Escape velocity is how many times the orbital velocity near the surface?",
+              "options": [
+                "2",
+                "sqrt(2)",
+                "1/2",
+                "sqrt(3)"
+              ],
+              "correct_answer": 1,
+              "explanation": "ve = sqrt(2) x vo.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_206",
+              "question": "In simple harmonic motion, acceleration is proportional to?",
+              "options": [
+                "Velocity",
+                "Time",
+                "Displacement, directed opposite",
+                "Square of displacement"
+              ],
+              "correct_answer": 2,
+              "explanation": "a = -omega^2 x.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_207",
+              "question": "Two sounds of 256 Hz and 260 Hz produce how many beats per second?",
+              "options": [
+                "516",
+                "2",
+                "8",
+                "4"
+              ],
+              "correct_answer": 3,
+              "explanation": "Beat frequency = difference in frequencies.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_208",
+              "question": "The expulsion of magnetic fields from a superconductor is called?",
+              "options": [
+                "Meissner effect",
+                "Hall effect",
+                "Zeeman effect",
+                "Seebeck effect"
+              ],
+              "correct_answer": 0,
+              "explanation": "It enables magnetic levitation.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_209",
+              "question": "The Compton effect shows what for scattered X-rays?",
+              "options": [
+                "A decrease in wavelength",
+                "An increase in wavelength",
+                "No change",
+                "Total absorption"
+              ],
+              "correct_answer": 1,
+              "explanation": "Photons transfer momentum to electrons.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_210",
+              "question": "The rms speed of gas molecules is proportional to?",
+              "options": [
+                "Temperature",
+                "Square of temperature",
+                "Square root of temperature",
+                "Inverse of temperature"
+              ],
+              "correct_answer": 2,
+              "explanation": "v_rms = sqrt(3RT/M).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_211",
+              "question": "The splitting of spectral lines in a magnetic field is called?",
+              "options": [
+                "Stark effect",
+                "Raman effect",
+                "Doppler effect",
+                "Zeeman effect"
+              ],
+              "correct_answer": 3,
+              "explanation": "In an electric field it is the Stark effect.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_212",
+              "question": "What does a thermocouple use to measure temperature?",
+              "options": [
+                "Seebeck effect",
+                "Peltier effect",
+                "Hall effect",
+                "Joule effect"
+              ],
+              "correct_answer": 0,
+              "explanation": "Two metal junctions produce a voltage.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -3774,6 +5146,1336 @@
               "explanation": "Neon glows red-orange when electrified.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "sci_chem_117",
+              "question": "What is the chemical symbol for sodium?",
+              "options": [
+                "So",
+                "Na",
+                "Sd",
+                "S"
+              ],
+              "correct_answer": 1,
+              "explanation": "From the Latin natrium.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_118",
+              "question": "What is the chemical symbol for potassium?",
+              "options": [
+                "P",
+                "Po",
+                "K",
+                "Pt"
+              ],
+              "correct_answer": 2,
+              "explanation": "From the Latin kalium.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_119",
+              "question": "What is the chemical symbol for iron?",
+              "options": [
+                "Ir",
+                "In",
+                "I",
+                "Fe"
+              ],
+              "correct_answer": 3,
+              "explanation": "From the Latin ferrum.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_120",
+              "question": "What is the chemical symbol for copper?",
+              "options": [
+                "Cu",
+                "Co",
+                "Cp",
+                "C"
+              ],
+              "correct_answer": 0,
+              "explanation": "From the Latin cuprum.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_121",
+              "question": "What is the chemical symbol for tin?",
+              "options": [
+                "Ti",
+                "Sn",
+                "Tn",
+                "St"
+              ],
+              "correct_answer": 1,
+              "explanation": "From the Latin stannum.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_122",
+              "question": "What is the atomic number of oxygen?",
+              "options": [
+                "6",
+                "16",
+                "8",
+                "10"
+              ],
+              "correct_answer": 2,
+              "explanation": "Oxygen has 8 protons.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_123",
+              "question": "Which is the most abundant metal in Earth's crust?",
+              "options": [
+                "Iron",
+                "Calcium",
+                "Sodium",
+                "Aluminium"
+              ],
+              "correct_answer": 3,
+              "explanation": "Aluminium makes up about 8% of the crust.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_124",
+              "question": "Group 17 elements are called?",
+              "options": [
+                "Halogens",
+                "Noble gases",
+                "Alkali metals",
+                "Chalcogens"
+              ],
+              "correct_answer": 0,
+              "explanation": "They include F, Cl, Br and I.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_125",
+              "question": "Group 1 elements (except hydrogen) are called?",
+              "options": [
+                "Alkaline earth metals",
+                "Alkali metals",
+                "Halogens",
+                "Transition metals"
+              ],
+              "correct_answer": 1,
+              "explanation": "They include Li, Na and K.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_126",
+              "question": "Group 18 elements are called?",
+              "options": [
+                "Halogens",
+                "Metalloids",
+                "Noble gases",
+                "Lanthanides"
+              ],
+              "correct_answer": 2,
+              "explanation": "They have full valence shells.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_127",
+              "question": "How many periods are there in the modern periodic table?",
+              "options": [
+                "8",
+                "18",
+                "9",
+                "7"
+              ],
+              "correct_answer": 3,
+              "explanation": "There are 7 periods and 18 groups.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_128",
+              "question": "Atoms with the same mass number but different atomic numbers are called?",
+              "options": [
+                "Isobars",
+                "Isotopes",
+                "Isotones",
+                "Allotropes"
+              ],
+              "correct_answer": 0,
+              "explanation": "Example: Ar-40 and Ca-40.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_129",
+              "question": "Which isotope is used in radiocarbon dating?",
+              "options": [
+                "Carbon-12",
+                "Carbon-14",
+                "Carbon-13",
+                "Uranium-238"
+              ],
+              "correct_answer": 1,
+              "explanation": "C-14 has a half-life of about 5,730 years.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_130",
+              "question": "What is the formula of heavy water?",
+              "options": [
+                "H2O2",
+                "H2O",
+                "D2O",
+                "HDO2"
+              ],
+              "correct_answer": 2,
+              "explanation": "It contains deuterium.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_131",
+              "question": "Hardness of water is caused by salts of?",
+              "options": [
+                "Sodium and potassium",
+                "Iron and copper",
+                "Zinc and lead",
+                "Calcium and magnesium"
+              ],
+              "correct_answer": 3,
+              "explanation": "They prevent soap from lathering.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_132",
+              "question": "Temporary hardness of water can be removed by?",
+              "options": [
+                "Boiling",
+                "Freezing",
+                "Filtering",
+                "Adding salt"
+              ],
+              "correct_answer": 0,
+              "explanation": "Boiling precipitates bicarbonates.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_133",
+              "question": "What is the chemical formula of washing soda?",
+              "options": [
+                "NaHCO3",
+                "Na2CO3.10H2O",
+                "NaOH",
+                "CaCO3"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is hydrated sodium carbonate.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_134",
+              "question": "What is the chemical formula of bleaching powder?",
+              "options": [
+                "NaOCl",
+                "CaCl2",
+                "CaOCl2",
+                "Ca(OH)2"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is calcium oxychloride.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_135",
+              "question": "Which acid is present in the human stomach?",
+              "options": [
+                "Sulphuric acid",
+                "Nitric acid",
+                "Citric acid",
+                "Hydrochloric acid"
+              ],
+              "correct_answer": 3,
+              "explanation": "HCl helps digestion and kills microbes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_136",
+              "question": "Which acid is found in lemons and oranges?",
+              "options": [
+                "Citric acid",
+                "Tartaric acid",
+                "Lactic acid",
+                "Malic acid"
+              ],
+              "correct_answer": 0,
+              "explanation": "Citrus fruits are rich in citric acid.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_137",
+              "question": "Which acid is present in curd?",
+              "options": [
+                "Acetic acid",
+                "Lactic acid",
+                "Citric acid",
+                "Formic acid"
+              ],
+              "correct_answer": 1,
+              "explanation": "Bacteria ferment lactose into lactic acid.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_138",
+              "question": "Which acid is found in tamarind?",
+              "options": [
+                "Oxalic acid",
+                "Citric acid",
+                "Tartaric acid",
+                "Malic acid"
+              ],
+              "correct_answer": 2,
+              "explanation": "Tamarind is rich in tartaric acid.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_139",
+              "question": "Which acid is found in tomatoes and spinach?",
+              "options": [
+                "Citric acid",
+                "Lactic acid",
+                "Acetic acid",
+                "Oxalic acid"
+              ],
+              "correct_answer": 3,
+              "explanation": "Oxalates can form kidney stones.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_140",
+              "question": "Aqua regia is a mixture of?",
+              "options": [
+                "Conc. HCl and HNO3 (3:1)",
+                "Conc. H2SO4 and HNO3",
+                "HCl and H2SO4 (1:3)",
+                "HNO3 and water"
+              ],
+              "correct_answer": 0,
+              "explanation": "It can dissolve gold and platinum.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_141",
+              "question": "What is the normal pH of human blood?",
+              "options": [
+                "About 6.0",
+                "About 7.4",
+                "About 8.5",
+                "About 5.5"
+              ],
+              "correct_answer": 1,
+              "explanation": "Blood is slightly basic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_142",
+              "question": "Blue litmus turns red in which solution?",
+              "options": [
+                "Basic",
+                "Neutral",
+                "Acidic",
+                "Salt"
+              ],
+              "correct_answer": 2,
+              "explanation": "Acids turn blue litmus red.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_143",
+              "question": "Phenolphthalein turns what colour in a basic solution?",
+              "options": [
+                "Colourless",
+                "Yellow",
+                "Blue",
+                "Pink"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is colourless in acids.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_144",
+              "question": "Which substance is called the universal solvent?",
+              "options": [
+                "Water",
+                "Alcohol",
+                "Benzene",
+                "Acetone"
+              ],
+              "correct_answer": 0,
+              "explanation": "Water dissolves more substances than any other liquid.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_145",
+              "question": "Vegetable oils are converted into solid fats by?",
+              "options": [
+                "Hydrolysis",
+                "Hydrogenation",
+                "Oxidation",
+                "Saponification"
+              ],
+              "correct_answer": 1,
+              "explanation": "Nickel is used as the catalyst.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_146",
+              "question": "The Ostwald process is used to manufacture?",
+              "options": [
+                "Sulphuric acid",
+                "Ammonia",
+                "Nitric acid",
+                "Sodium hydroxide"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ammonia is oxidised over platinum.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_147",
+              "question": "Which is the main ore of aluminium?",
+              "options": [
+                "Haematite",
+                "Galena",
+                "Cinnabar",
+                "Bauxite"
+              ],
+              "correct_answer": 3,
+              "explanation": "Al is extracted by electrolysis of alumina.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_148",
+              "question": "Haematite is an ore of which metal?",
+              "options": [
+                "Iron",
+                "Copper",
+                "Zinc",
+                "Aluminium"
+              ],
+              "correct_answer": 0,
+              "explanation": "Haematite is Fe2O3.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_149",
+              "question": "Galena is an ore of which metal?",
+              "options": [
+                "Zinc",
+                "Lead",
+                "Copper",
+                "Iron"
+              ],
+              "correct_answer": 1,
+              "explanation": "Galena is PbS.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_150",
+              "question": "Froth flotation is used to concentrate which ores?",
+              "options": [
+                "Oxide ores",
+                "Carbonate ores",
+                "Sulphide ores",
+                "Halide ores"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sulphide particles stick to froth.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_151",
+              "question": "Teflon is the common name of?",
+              "options": [
+                "Polyvinyl chloride",
+                "Polystyrene",
+                "Polyethylene",
+                "Polytetrafluoroethylene"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is used in non-stick cookware.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_152",
+              "question": "What is the monomer of natural rubber?",
+              "options": [
+                "Isoprene",
+                "Ethylene",
+                "Styrene",
+                "Chloroprene"
+              ],
+              "correct_answer": 0,
+              "explanation": "Natural rubber is cis-polyisoprene.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_153",
+              "question": "Nylon-6,6 is an example of a?",
+              "options": [
+                "Polyester",
+                "Polyamide",
+                "Polyolefin",
+                "Polysaccharide"
+              ],
+              "correct_answer": 1,
+              "explanation": "It forms from hexamethylenediamine and adipic acid.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_154",
+              "question": "Bakelite is made from phenol and?",
+              "options": [
+                "Ethanol",
+                "Benzene",
+                "Formaldehyde",
+                "Urea"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was one of the first synthetic plastics.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_155",
+              "question": "Vulcanisation of rubber involves heating with?",
+              "options": [
+                "Carbon",
+                "Nitrogen",
+                "Chlorine",
+                "Sulphur"
+              ],
+              "correct_answer": 3,
+              "explanation": "Sulphur cross-links make rubber tougher.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_156",
+              "question": "LPG mainly consists of?",
+              "options": [
+                "Butane and propane",
+                "Methane and ethane",
+                "Hydrogen",
+                "Carbon monoxide"
+              ],
+              "correct_answer": 0,
+              "explanation": "LPG = liquefied petroleum gas.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_157",
+              "question": "The octane number of petrol measures its?",
+              "options": [
+                "Boiling point",
+                "Anti-knock property",
+                "Density",
+                "Colour"
+              ],
+              "correct_answer": 1,
+              "explanation": "Higher octane resists knocking.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_158",
+              "question": "Which gas smells like rotten eggs?",
+              "options": [
+                "Ammonia",
+                "Chlorine",
+                "Hydrogen sulphide",
+                "Sulphur dioxide"
+              ],
+              "correct_answer": 2,
+              "explanation": "H2S is toxic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_159",
+              "question": "Which compounds are mainly responsible for ozone layer depletion?",
+              "options": [
+                "Carbon dioxide",
+                "Methane",
+                "Nitrogen gas",
+                "Chlorofluorocarbons (CFCs)"
+              ],
+              "correct_answer": 3,
+              "explanation": "CFCs release chlorine radicals in the stratosphere.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_160",
+              "question": "Acid rain is mainly caused by which gases?",
+              "options": [
+                "Sulphur dioxide and nitrogen oxides",
+                "Oxygen and nitrogen",
+                "Carbon monoxide and methane",
+                "Helium and argon"
+              ],
+              "correct_answer": 0,
+              "explanation": "They form H2SO4 and HNO3.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_161",
+              "question": "Which gas leaked in the Bhopal gas tragedy of 1984?",
+              "options": [
+                "Chlorine",
+                "Methyl isocyanate",
+                "Phosgene",
+                "Hydrogen cyanide"
+              ],
+              "correct_answer": 1,
+              "explanation": "It leaked from the Union Carbide plant.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_162",
+              "question": "What is the functional group of aldehydes?",
+              "options": [
+                "-COOH",
+                "-OH",
+                "-CHO",
+                "-NH2"
+              ],
+              "correct_answer": 2,
+              "explanation": "Example: formaldehyde, HCHO.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_163",
+              "question": "Acetone belongs to which class of compounds?",
+              "options": [
+                "Aldehydes",
+                "Alcohols",
+                "Esters",
+                "Ketones"
+              ],
+              "correct_answer": 3,
+              "explanation": "Acetone is propanone.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_164",
+              "question": "What is the general formula of alkanes?",
+              "options": [
+                "CnH2n+2",
+                "CnH2n",
+                "CnH2n-2",
+                "CnHn"
+              ],
+              "correct_answer": 0,
+              "explanation": "Alkanes are saturated hydrocarbons.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_165",
+              "question": "What is the general formula of alkenes?",
+              "options": [
+                "CnH2n+2",
+                "CnH2n",
+                "CnH2n-2",
+                "CnH2n+1"
+              ],
+              "correct_answer": 1,
+              "explanation": "Alkenes have one C=C double bond.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_166",
+              "question": "What is the molecular formula of benzene?",
+              "options": [
+                "C6H12",
+                "C6H14",
+                "C6H6",
+                "C5H5"
+              ],
+              "correct_answer": 2,
+              "explanation": "Benzene is an aromatic ring.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_167",
+              "question": "What is the hybridisation of carbon in ethyne (acetylene)?",
+              "options": [
+                "sp2",
+                "sp3",
+                "sp3d",
+                "sp"
+              ],
+              "correct_answer": 3,
+              "explanation": "Each carbon forms a triple bond.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_168",
+              "question": "What is the shape of a water molecule?",
+              "options": [
+                "Bent",
+                "Linear",
+                "Tetrahedral",
+                "Trigonal planar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Lone pairs give a bond angle of about 104.5 degrees.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_169",
+              "question": "What is the bond angle in methane?",
+              "options": [
+                "120 degrees",
+                "109.5 degrees",
+                "180 degrees",
+                "90 degrees"
+              ],
+              "correct_answer": 1,
+              "explanation": "Methane is tetrahedral.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_170",
+              "question": "What is the shape of the ammonia molecule?",
+              "options": [
+                "Trigonal planar",
+                "Tetrahedral",
+                "Trigonal pyramidal",
+                "Bent"
+              ],
+              "correct_answer": 2,
+              "explanation": "One lone pair on nitrogen.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_171",
+              "question": "What is the hybridisation of boron in BF3?",
+              "options": [
+                "sp",
+                "sp3",
+                "dsp2",
+                "sp2"
+              ],
+              "correct_answer": 3,
+              "explanation": "BF3 is trigonal planar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_172",
+              "question": "Le Chatelier's principle predicts what?",
+              "options": [
+                "How equilibrium shifts when conditions change",
+                "Rate of reaction",
+                "Atomic radius",
+                "Electron configuration"
+              ],
+              "correct_answer": 0,
+              "explanation": "The system opposes the change.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_173",
+              "question": "For which reaction order is half-life independent of initial concentration?",
+              "options": [
+                "Zero order",
+                "First order",
+                "Second order",
+                "Third order"
+              ],
+              "correct_answer": 1,
+              "explanation": "t1/2 = 0.693/k.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_174",
+              "question": "What is the unit of rate constant for a first-order reaction?",
+              "options": [
+                "mol L^-1 s^-1",
+                "L mol^-1 s^-1",
+                "s^-1",
+                "mol s"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is independent of concentration units.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_175",
+              "question": "A catalyst speeds up a reaction by lowering the?",
+              "options": [
+                "Enthalpy change",
+                "Equilibrium constant",
+                "Temperature",
+                "Activation energy"
+              ],
+              "correct_answer": 3,
+              "explanation": "It provides an alternative pathway.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_176",
+              "question": "What is the approximate value of the Faraday constant?",
+              "options": [
+                "96,485 C/mol",
+                "6.022 x 10^23 C/mol",
+                "8.314 C/mol",
+                "1.6 x 10^-19 C/mol"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is the charge of one mole of electrons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_177",
+              "question": "Electrolysis of brine produces?",
+              "options": [
+                "Sodium and chlorine only",
+                "Chlorine, hydrogen and sodium hydroxide",
+                "Oxygen and hydrogen only",
+                "Hydrochloric acid"
+              ],
+              "correct_answer": 1,
+              "explanation": "This is the chlor-alkali process.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_178",
+              "question": "Which alkali metal is the strongest reducing agent in water?",
+              "options": [
+                "Sodium",
+                "Potassium",
+                "Lithium",
+                "Caesium"
+              ],
+              "correct_answer": 2,
+              "explanation": "Lithium has the most negative standard reduction potential.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_179",
+              "question": "Which element forms the largest number of compounds?",
+              "options": [
+                "Hydrogen",
+                "Oxygen",
+                "Silicon",
+                "Carbon"
+              ],
+              "correct_answer": 3,
+              "explanation": "Carbon catenates and forms millions of compounds.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_180",
+              "question": "Which allotrope of carbon conducts electricity?",
+              "options": [
+                "Graphite",
+                "Diamond",
+                "Charcoal only",
+                "None"
+              ],
+              "correct_answer": 0,
+              "explanation": "Graphite has delocalised electrons.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_181",
+              "question": "What is the formula of buckminsterfullerene?",
+              "options": [
+                "C70",
+                "C60",
+                "C20",
+                "C6"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is shaped like a football.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_182",
+              "question": "Graphene consists of?",
+              "options": [
+                "Stacked diamond layers",
+                "Carbon nanotubes",
+                "A single layer of carbon atoms",
+                "Amorphous carbon"
+              ],
+              "correct_answer": 2,
+              "explanation": "Its discovery won the 2010 Nobel Prize.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_183",
+              "question": "What is the chemical formula of chloroform?",
+              "options": [
+                "CH2Cl2",
+                "CCl4",
+                "CH3Cl",
+                "CHCl3"
+              ],
+              "correct_answer": 3,
+              "explanation": "It was once used as an anaesthetic.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_184",
+              "question": "What is the value of the universal gas constant R?",
+              "options": [
+                "8.314 J/mol K",
+                "6.022 J/mol K",
+                "1.38 J/mol K",
+                "0.0821 J/mol K"
+              ],
+              "correct_answer": 0,
+              "explanation": "R = 0.0821 L atm/mol K as well.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_185",
+              "question": "What volume does one mole of an ideal gas occupy at STP (273 K, 1 atm)?",
+              "options": [
+                "11.2 L",
+                "22.4 L",
+                "24.0 L",
+                "1 L"
+              ],
+              "correct_answer": 1,
+              "explanation": "This is the molar volume.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_186",
+              "question": "EDTA is what type of ligand?",
+              "options": [
+                "Monodentate",
+                "Bidentate",
+                "Hexadentate",
+                "Tridentate"
+              ],
+              "correct_answer": 2,
+              "explanation": "It binds through six donor atoms.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_187",
+              "question": "Zeolites are commonly used for?",
+              "options": [
+                "Making glass",
+                "Fertilisers",
+                "Explosives",
+                "Water softening"
+              ],
+              "correct_answer": 3,
+              "explanation": "They exchange Ca2+ and Mg2+ ions.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_188",
+              "question": "Transition metal compounds are often coloured due to?",
+              "options": [
+                "d-d electron transitions",
+                "Nuclear decay",
+                "Hydrogen bonding",
+                "Ionic size"
+              ],
+              "correct_answer": 0,
+              "explanation": "Light is absorbed to excite d electrons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_189",
+              "question": "Ziegler-Natta catalysts are used for?",
+              "options": [
+                "Hydrogenation of oils",
+                "Polymerisation of alkenes",
+                "Ammonia synthesis",
+                "Cracking petroleum"
+              ],
+              "correct_answer": 1,
+              "explanation": "They produce polyethylene and polypropylene.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_190",
+              "question": "What is the general formula of a Grignard reagent?",
+              "options": [
+                "RLi",
+                "R2CuLi",
+                "RMgX",
+                "RNa"
+              ],
+              "correct_answer": 2,
+              "explanation": "X is a halogen.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_191",
+              "question": "Markovnikov's rule applies to which reaction?",
+              "options": [
+                "Esterification",
+                "Nitration of benzene",
+                "Combustion",
+                "Addition of HX to unsymmetrical alkenes"
+              ],
+              "correct_answer": 3,
+              "explanation": "H adds to the carbon with more hydrogens.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_192",
+              "question": "Which intermediate is formed in an SN1 reaction?",
+              "options": [
+                "Carbocation",
+                "Carbanion",
+                "Free radical",
+                "Carbene"
+              ],
+              "correct_answer": 0,
+              "explanation": "SN1 is a two-step mechanism.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_193",
+              "question": "An SN2 reaction at a chiral carbon causes?",
+              "options": [
+                "Retention of configuration",
+                "Inversion of configuration",
+                "Racemisation",
+                "No change"
+              ],
+              "correct_answer": 1,
+              "explanation": "This is the Walden inversion.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_194",
+              "question": "What is the chemical name of aspirin?",
+              "options": [
+                "Paracetamol",
+                "Salicylic acid",
+                "Acetylsalicylic acid",
+                "Ibuprofen"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is used as a painkiller.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_195",
+              "question": "Dynamite was made by stabilising which explosive?",
+              "options": [
+                "TNT",
+                "RDX",
+                "Gunpowder",
+                "Nitroglycerin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Alfred Nobel invented it in 1867.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_196",
+              "question": "Who is known as the father of modern chemistry?",
+              "options": [
+                "Antoine Lavoisier",
+                "John Dalton",
+                "Robert Boyle",
+                "Joseph Priestley"
+              ],
+              "correct_answer": 0,
+              "explanation": "He established conservation of mass.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_197",
+              "question": "Who proposed the atomic theory in 1808?",
+              "options": [
+                "J.J. Thomson",
+                "John Dalton",
+                "Niels Bohr",
+                "Democritus"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dalton said elements are made of atoms.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_198",
+              "question": "Who is credited with discovering oxygen in 1774?",
+              "options": [
+                "Henry Cavendish",
+                "Antoine Lavoisier",
+                "Joseph Priestley",
+                "Humphry Davy"
+              ],
+              "correct_answer": 2,
+              "explanation": "Scheele found it independently.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_199",
+              "question": "Who discovered hydrogen as a distinct element?",
+              "options": [
+                "Joseph Priestley",
+                "John Dalton",
+                "Robert Boyle",
+                "Henry Cavendish"
+              ],
+              "correct_answer": 3,
+              "explanation": "He called it 'inflammable air' in 1766.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_200",
+              "question": "Cathode rays are streams of?",
+              "options": [
+                "Electrons",
+                "Protons",
+                "Neutrons",
+                "Alpha particles"
+              ],
+              "correct_answer": 0,
+              "explanation": "J.J. Thomson identified them.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_201",
+              "question": "Which noble gas is radioactive?",
+              "options": [
+                "Neon",
+                "Radon",
+                "Argon",
+                "Krypton"
+              ],
+              "correct_answer": 1,
+              "explanation": "Radon is a health hazard in homes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_202",
+              "question": "Which element is used in pencil 'lead'?",
+              "options": [
+                "Lead",
+                "Tin",
+                "Graphite (carbon)",
+                "Antimony"
+              ],
+              "correct_answer": 2,
+              "explanation": "Pencils contain graphite and clay.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_203",
+              "question": "What is the oxidation state of oxygen in hydrogen peroxide?",
+              "options": [
+                "-2",
+                "0",
+                "+1",
+                "-1"
+              ],
+              "correct_answer": 3,
+              "explanation": "H2O2 has an O-O bond.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_204",
+              "question": "What is the chemical formula of slaked lime?",
+              "options": [
+                "Ca(OH)2",
+                "CaO",
+                "CaCO3",
+                "CaSO4"
+              ],
+              "correct_answer": 0,
+              "explanation": "It forms when quicklime reacts with water.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_205",
+              "question": "Which element has the highest electrical conductivity?",
+              "options": [
+                "Copper",
+                "Silver",
+                "Gold",
+                "Aluminium"
+              ],
+              "correct_answer": 1,
+              "explanation": "Copper is used more because it is cheaper.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_206",
+              "question": "Esters are responsible for which property of fruits?",
+              "options": [
+                "Colour",
+                "Sourness",
+                "Fragrance",
+                "Hardness"
+              ],
+              "correct_answer": 2,
+              "explanation": "Esters have sweet fruity smells.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_207",
+              "question": "Soap is made by which reaction?",
+              "options": [
+                "Esterification",
+                "Polymerisation",
+                "Fermentation",
+                "Saponification"
+              ],
+              "correct_answer": 3,
+              "explanation": "Fats react with alkali.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_208",
+              "question": "Glucose is converted to ethanol by which process?",
+              "options": [
+                "Fermentation",
+                "Distillation",
+                "Cracking",
+                "Hydrogenation"
+              ],
+              "correct_answer": 0,
+              "explanation": "Yeast enzymes carry out fermentation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_209",
+              "question": "Which gas is evolved when metals react with dilute acids?",
+              "options": [
+                "Oxygen",
+                "Hydrogen",
+                "Carbon dioxide",
+                "Chlorine"
+              ],
+              "correct_answer": 1,
+              "explanation": "It burns with a pop sound.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_210",
+              "question": "What is the IUPAC name of CH3CH2OH?",
+              "options": [
+                "Methanol",
+                "Ethanal",
+                "Ethanol",
+                "Propanol"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is common alcohol.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_211",
+              "question": "Lanthanide contraction is caused by poor shielding of which electrons?",
+              "options": [
+                "3d electrons",
+                "2p electrons",
+                "5s electrons",
+                "4f electrons"
+              ],
+              "correct_answer": 3,
+              "explanation": "It makes Zr and Hf similar in size.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -5712,6 +8414,1420 @@
               ],
               "correct_answer": 2,
               "explanation": "It spreads through female Anopheles mosquitoes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_115",
+              "question": "Who first observed and named cells?",
+              "options": [
+                "Robert Hooke",
+                "Robert Brown",
+                "Matthias Schleiden",
+                "Rudolf Virchow"
+              ],
+              "correct_answer": 0,
+              "explanation": "He saw cork cells in 1665.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_116",
+              "question": "Cell theory was proposed by?",
+              "options": [
+                "Watson and Crick",
+                "Schleiden and Schwann",
+                "Hooke and Brown",
+                "Mendel and Morgan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Proposed in 1838-39.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_117",
+              "question": "Who stated that all cells arise from pre-existing cells?",
+              "options": [
+                "Robert Hooke",
+                "Theodor Schwann",
+                "Rudolf Virchow",
+                "Louis Pasteur"
+              ],
+              "correct_answer": 2,
+              "explanation": "'Omnis cellula e cellula' (1855).",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_118",
+              "question": "Which organelle is the site of protein synthesis?",
+              "options": [
+                "Golgi apparatus",
+                "Lysosome",
+                "Vacuole",
+                "Ribosome"
+              ],
+              "correct_answer": 3,
+              "explanation": "Ribosomes translate mRNA.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_119",
+              "question": "What is the main function of the Golgi apparatus?",
+              "options": [
+                "Packaging and secretion of proteins",
+                "Energy production",
+                "Photosynthesis",
+                "DNA replication"
+              ],
+              "correct_answer": 0,
+              "explanation": "It modifies and ships proteins.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_120",
+              "question": "Plant cell walls are mainly made of?",
+              "options": [
+                "Chitin",
+                "Cellulose",
+                "Peptidoglycan",
+                "Starch"
+              ],
+              "correct_answer": 1,
+              "explanation": "Cellulose is a glucose polymer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_121",
+              "question": "Fungal cell walls are mainly made of?",
+              "options": [
+                "Cellulose",
+                "Lignin",
+                "Chitin",
+                "Pectin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Chitin also forms insect exoskeletons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_122",
+              "question": "Bacterial cell walls are made of?",
+              "options": [
+                "Cellulose",
+                "Chitin",
+                "Keratin",
+                "Peptidoglycan"
+              ],
+              "correct_answer": 3,
+              "explanation": "Penicillin blocks its synthesis.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_123",
+              "question": "Which is the longest cell in the human body?",
+              "options": [
+                "Neuron",
+                "Muscle cell",
+                "Red blood cell",
+                "Egg cell"
+              ],
+              "correct_answer": 0,
+              "explanation": "Some neurons are over a metre long.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_124",
+              "question": "How many chambers does the human heart have?",
+              "options": [
+                "2",
+                "4",
+                "3",
+                "5"
+              ],
+              "correct_answer": 1,
+              "explanation": "Two atria and two ventricles.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_125",
+              "question": "Which structure is the natural pacemaker of the heart?",
+              "options": [
+                "AV node",
+                "Bundle of His",
+                "Sinoatrial (SA) node",
+                "Purkinje fibres"
+              ],
+              "correct_answer": 2,
+              "explanation": "It sets the heart rhythm.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_126",
+              "question": "What is the normal blood pressure of an adult?",
+              "options": [
+                "140/100 mmHg",
+                "100/60 mmHg",
+                "160/90 mmHg",
+                "120/80 mmHg"
+              ],
+              "correct_answer": 3,
+              "explanation": "Systolic over diastolic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_127",
+              "question": "Which vitamin is essential for blood clotting?",
+              "options": [
+                "Vitamin K",
+                "Vitamin C",
+                "Vitamin A",
+                "Vitamin E"
+              ],
+              "correct_answer": 0,
+              "explanation": "It helps make clotting factors.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_128",
+              "question": "Deficiency of Vitamin B1 (thiamine) causes?",
+              "options": [
+                "Pellagra",
+                "Beriberi",
+                "Scurvy",
+                "Rickets"
+              ],
+              "correct_answer": 1,
+              "explanation": "It affects nerves and heart.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_129",
+              "question": "Pellagra is caused by deficiency of?",
+              "options": [
+                "Vitamin B12",
+                "Vitamin C",
+                "Niacin (Vitamin B3)",
+                "Vitamin D"
+              ],
+              "correct_answer": 2,
+              "explanation": "Symptoms: dermatitis, diarrhoea, dementia.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_130",
+              "question": "Goitre is caused by deficiency of?",
+              "options": [
+                "Iron",
+                "Calcium",
+                "Zinc",
+                "Iodine"
+              ],
+              "correct_answer": 3,
+              "explanation": "Iodine is needed for thyroid hormones.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_131",
+              "question": "Which metal is present in haemoglobin?",
+              "options": [
+                "Iron",
+                "Magnesium",
+                "Copper",
+                "Zinc"
+              ],
+              "correct_answer": 0,
+              "explanation": "Iron binds oxygen.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_132",
+              "question": "Which metal is present at the centre of chlorophyll?",
+              "options": [
+                "Iron",
+                "Magnesium",
+                "Copper",
+                "Manganese"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is a porphyrin ring with Mg.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_133",
+              "question": "Which blood cells help in clotting?",
+              "options": [
+                "Red blood cells",
+                "Lymphocytes",
+                "Platelets",
+                "Neutrophils"
+              ],
+              "correct_answer": 2,
+              "explanation": "Platelets form plugs at wounds.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_134",
+              "question": "Leukaemia is a cancer of?",
+              "options": [
+                "Bones only",
+                "Skin",
+                "Lungs",
+                "Blood-forming tissues"
+              ],
+              "correct_answer": 3,
+              "explanation": "It causes abnormal white blood cells.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_135",
+              "question": "Which hormone causes the 'fight or flight' response?",
+              "options": [
+                "Adrenaline",
+                "Insulin",
+                "Thyroxine",
+                "Oestrogen"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is secreted by the adrenal glands.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_136",
+              "question": "Which hormone is produced by the thyroid gland?",
+              "options": [
+                "Adrenaline",
+                "Thyroxine",
+                "Cortisol",
+                "Glucagon"
+              ],
+              "correct_answer": 1,
+              "explanation": "It regulates metabolism.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_137",
+              "question": "Which hormone regulates the sleep-wake cycle?",
+              "options": [
+                "Serotonin",
+                "Insulin",
+                "Melatonin",
+                "Oxytocin"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is secreted by the pineal gland.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_138",
+              "question": "Diabetes insipidus is caused by deficiency of?",
+              "options": [
+                "Insulin",
+                "Thyroxine",
+                "Glucagon",
+                "ADH (vasopressin)"
+              ],
+              "correct_answer": 3,
+              "explanation": "The kidneys cannot conserve water.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_139",
+              "question": "The islets of Langerhans are found in which organ?",
+              "options": [
+                "Pancreas",
+                "Liver",
+                "Kidney",
+                "Spleen"
+              ],
+              "correct_answer": 0,
+              "explanation": "They secrete insulin and glucagon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_140",
+              "question": "Which enzyme digests fats?",
+              "options": [
+                "Amylase",
+                "Lipase",
+                "Pepsin",
+                "Trypsin"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lipase breaks fats into fatty acids and glycerol.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_141",
+              "question": "Bile helps in the digestion of fats by?",
+              "options": [
+                "Hydrolysis",
+                "Oxidation",
+                "Emulsification",
+                "Absorption of water"
+              ],
+              "correct_answer": 2,
+              "explanation": "It breaks fats into small droplets.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_142",
+              "question": "Most digestion and absorption of food happens in the?",
+              "options": [
+                "Stomach",
+                "Large intestine",
+                "Oesophagus",
+                "Small intestine"
+              ],
+              "correct_answer": 3,
+              "explanation": "Villi increase the absorption area.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_143",
+              "question": "Finger-like projections in the small intestine are called?",
+              "options": [
+                "Villi",
+                "Alveoli",
+                "Nephrons",
+                "Cilia"
+              ],
+              "correct_answer": 0,
+              "explanation": "They increase surface area.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_144",
+              "question": "How many teeth does a normal adult human have?",
+              "options": [
+                "28",
+                "32",
+                "20",
+                "36"
+              ],
+              "correct_answer": 1,
+              "explanation": "Children have 20 milk teeth.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_145",
+              "question": "What is the hardest substance in the human body?",
+              "options": [
+                "Bone",
+                "Cartilage",
+                "Tooth enamel",
+                "Nail"
+              ],
+              "correct_answer": 2,
+              "explanation": "Enamel is mostly hydroxyapatite.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_146",
+              "question": "The voice box is also called the?",
+              "options": [
+                "Pharynx",
+                "Trachea",
+                "Epiglottis",
+                "Larynx"
+              ],
+              "correct_answer": 3,
+              "explanation": "It contains the vocal cords.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_147",
+              "question": "Which flap prevents food from entering the windpipe?",
+              "options": [
+                "Epiglottis",
+                "Uvula",
+                "Larynx",
+                "Diaphragm"
+              ],
+              "correct_answer": 0,
+              "explanation": "It closes during swallowing.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_148",
+              "question": "How many pairs of cranial nerves do humans have?",
+              "options": [
+                "10",
+                "12",
+                "31",
+                "8"
+              ],
+              "correct_answer": 1,
+              "explanation": "There are 31 pairs of spinal nerves.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_149",
+              "question": "The junction between two neurons is called?",
+              "options": [
+                "Axon",
+                "Dendrite",
+                "Synapse",
+                "Node of Ranvier"
+              ],
+              "correct_answer": 2,
+              "explanation": "Neurotransmitters cross it.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_150",
+              "question": "Which part of the brain controls breathing and heartbeat?",
+              "options": [
+                "Cerebrum",
+                "Cerebellum",
+                "Thalamus",
+                "Medulla oblongata"
+              ],
+              "correct_answer": 3,
+              "explanation": "It controls involuntary actions.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_151",
+              "question": "Which is the largest part of the human brain?",
+              "options": [
+                "Cerebrum",
+                "Cerebellum",
+                "Medulla",
+                "Pons"
+              ],
+              "correct_answer": 0,
+              "explanation": "It handles thinking and memory.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_152",
+              "question": "Which layer of the eye contains light-sensitive cells?",
+              "options": [
+                "Cornea",
+                "Retina",
+                "Iris",
+                "Lens"
+              ],
+              "correct_answer": 1,
+              "explanation": "It has rods and cones.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_153",
+              "question": "Which retinal cells are responsible for colour vision?",
+              "options": [
+                "Rods",
+                "Ganglion cells",
+                "Cones",
+                "Bipolar cells"
+              ],
+              "correct_answer": 2,
+              "explanation": "Rods work in dim light.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_154",
+              "question": "How many ossicles (tiny bones) are in each middle ear?",
+              "options": [
+                "2",
+                "4",
+                "6",
+                "3"
+              ],
+              "correct_answer": 3,
+              "explanation": "Malleus, incus and stapes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_155",
+              "question": "AIDS is caused by which pathogen?",
+              "options": [
+                "HIV",
+                "HPV",
+                "Hepatitis B virus",
+                "Plasmodium"
+              ],
+              "correct_answer": 0,
+              "explanation": "HIV attacks helper T cells.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_156",
+              "question": "Tuberculosis is caused by a?",
+              "options": [
+                "Virus",
+                "Bacterium",
+                "Fungus",
+                "Protozoan"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mycobacterium tuberculosis.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_157",
+              "question": "Ringworm is caused by a?",
+              "options": [
+                "Worm",
+                "Virus",
+                "Fungus",
+                "Bacterium"
+              ],
+              "correct_answer": 2,
+              "explanation": "Despite its name, it is a fungal infection.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_158",
+              "question": "Dengue is spread by which mosquito?",
+              "options": [
+                "Anopheles",
+                "Culex",
+                "Mansonia",
+                "Aedes"
+              ],
+              "correct_answer": 3,
+              "explanation": "Aedes also spreads Zika and chikungunya.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_159",
+              "question": "The BCG vaccine protects against?",
+              "options": [
+                "Tuberculosis",
+                "Polio",
+                "Measles",
+                "Tetanus"
+              ],
+              "correct_answer": 0,
+              "explanation": "BCG = Bacillus Calmette-Guerin.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_160",
+              "question": "Antibodies are produced by which cells?",
+              "options": [
+                "Red blood cells",
+                "B lymphocytes (plasma cells)",
+                "Platelets",
+                "Neutrophils"
+              ],
+              "correct_answer": 1,
+              "explanation": "Plasma cells are activated B cells.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_161",
+              "question": "In DNA, adenine pairs with?",
+              "options": [
+                "Guanine",
+                "Cytosine",
+                "Thymine",
+                "Uracil"
+              ],
+              "correct_answer": 2,
+              "explanation": "A-T and G-C pairs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_162",
+              "question": "In RNA, thymine is replaced by?",
+              "options": [
+                "Adenine",
+                "Cytosine",
+                "Guanine",
+                "Uracil"
+              ],
+              "correct_answer": 3,
+              "explanation": "RNA uses A, U, G, C.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_163",
+              "question": "Which sex chromosomes does a human male have?",
+              "options": [
+                "XY",
+                "XX",
+                "YY",
+                "XO"
+              ],
+              "correct_answer": 0,
+              "explanation": "Females are XX.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_164",
+              "question": "Down syndrome is caused by?",
+              "options": [
+                "Monosomy X",
+                "Trisomy of chromosome 21",
+                "Trisomy 18",
+                "Deletion on chromosome 5"
+              ],
+              "correct_answer": 1,
+              "explanation": "There is an extra copy of chromosome 21.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_165",
+              "question": "Red-green colour blindness is inherited as?",
+              "options": [
+                "Autosomal dominant",
+                "Y-linked",
+                "X-linked recessive",
+                "Autosomal recessive"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is far more common in males.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_166",
+              "question": "Which plant did Mendel use in his experiments?",
+              "options": [
+                "Maize",
+                "Wheat",
+                "Fruit fly",
+                "Garden pea"
+              ],
+              "correct_answer": 3,
+              "explanation": "He studied seven pea traits.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_167",
+              "question": "What is the F2 phenotypic ratio of a monohybrid cross?",
+              "options": [
+                "3:1",
+                "1:2:1",
+                "9:3:3:1",
+                "1:1"
+              ],
+              "correct_answer": 0,
+              "explanation": "Three dominant to one recessive.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_168",
+              "question": "What is the F2 phenotypic ratio of a dihybrid cross?",
+              "options": [
+                "3:1",
+                "9:3:3:1",
+                "1:2:1",
+                "1:1:1:1"
+              ],
+              "correct_answer": 1,
+              "explanation": "It shows independent assortment.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_169",
+              "question": "Which plant hormone promotes fruit ripening?",
+              "options": [
+                "Auxin",
+                "Gibberellin",
+                "Ethylene",
+                "Cytokinin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ethylene is a gaseous hormone.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_170",
+              "question": "Which plant hormone promotes cell elongation and phototropism?",
+              "options": [
+                "Ethylene",
+                "Abscisic acid",
+                "Cytokinin",
+                "Auxin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Auxin moves to the shaded side.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_171",
+              "question": "Which plant hormone causes stomatal closure during water stress?",
+              "options": [
+                "Abscisic acid",
+                "Auxin",
+                "Gibberellin",
+                "Ethylene"
+              ],
+              "correct_answer": 0,
+              "explanation": "ABA is called the stress hormone.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_172",
+              "question": "Xylem transports what in plants?",
+              "options": [
+                "Food",
+                "Water and minerals",
+                "Hormones only",
+                "Oxygen"
+              ],
+              "correct_answer": 1,
+              "explanation": "It moves upward from the roots.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_173",
+              "question": "Phloem transports what in plants?",
+              "options": [
+                "Water",
+                "Minerals only",
+                "Food (sugars)",
+                "Carbon dioxide"
+              ],
+              "correct_answer": 2,
+              "explanation": "This is called translocation.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_174",
+              "question": "Opening and closing of stomata is controlled by?",
+              "options": [
+                "Root hairs",
+                "Xylem cells",
+                "Companion cells",
+                "Guard cells"
+              ],
+              "correct_answer": 3,
+              "explanation": "Turgor changes open the pore.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_175",
+              "question": "The light reactions of photosynthesis occur in the?",
+              "options": [
+                "Thylakoids",
+                "Stroma",
+                "Cytoplasm",
+                "Mitochondria"
+              ],
+              "correct_answer": 0,
+              "explanation": "They produce ATP and NADPH.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_176",
+              "question": "The Calvin cycle takes place in the?",
+              "options": [
+                "Thylakoid membrane",
+                "Stroma",
+                "Cytoplasm",
+                "Nucleus"
+              ],
+              "correct_answer": 1,
+              "explanation": "CO2 is fixed into sugars there.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_177",
+              "question": "Where does glycolysis occur?",
+              "options": [
+                "Mitochondrial matrix",
+                "Nucleus",
+                "Cytoplasm",
+                "Chloroplast"
+              ],
+              "correct_answer": 2,
+              "explanation": "Glucose splits into two pyruvates.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_178",
+              "question": "Where does the Krebs cycle occur in eukaryotes?",
+              "options": [
+                "Cytoplasm",
+                "Inner membrane space",
+                "Ribosomes",
+                "Mitochondrial matrix"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is also called the citric acid cycle.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_179",
+              "question": "Anaerobic respiration in human muscles produces?",
+              "options": [
+                "Lactic acid",
+                "Ethanol",
+                "Acetic acid",
+                "Citric acid"
+              ],
+              "correct_answer": 0,
+              "explanation": "It causes muscle fatigue.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_180",
+              "question": "Yeast fermentation produces?",
+              "options": [
+                "Lactic acid",
+                "Ethanol and carbon dioxide",
+                "Oxygen and water",
+                "Methane"
+              ],
+              "correct_answer": 1,
+              "explanation": "Used in brewing and baking.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_181",
+              "question": "Mushrooms belong to which kingdom?",
+              "options": [
+                "Plantae",
+                "Protista",
+                "Fungi",
+                "Monera"
+              ],
+              "correct_answer": 2,
+              "explanation": "Fungi lack chlorophyll.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_182",
+              "question": "Who introduced binomial nomenclature?",
+              "options": [
+                "Charles Darwin",
+                "Gregor Mendel",
+                "Aristotle",
+                "Carl Linnaeus"
+              ],
+              "correct_answer": 3,
+              "explanation": "Each species has a genus and species name.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_183",
+              "question": "What is the scientific name of the tiger?",
+              "options": [
+                "Panthera tigris",
+                "Panthera leo",
+                "Felis catus",
+                "Panthera pardus"
+              ],
+              "correct_answer": 0,
+              "explanation": "Panthera leo is the lion.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_184",
+              "question": "Fish breathe using?",
+              "options": [
+                "Lungs",
+                "Gills",
+                "Skin only",
+                "Trachea"
+              ],
+              "correct_answer": 1,
+              "explanation": "Gills extract dissolved oxygen.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_185",
+              "question": "Earthworms breathe through their?",
+              "options": [
+                "Lungs",
+                "Gills",
+                "Skin",
+                "Spiracles"
+              ],
+              "correct_answer": 2,
+              "explanation": "Gas exchange happens through moist skin.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_186",
+              "question": "Which is the only mammal capable of true flight?",
+              "options": [
+                "Flying squirrel",
+                "Sugar glider",
+                "Colugo",
+                "Bat"
+              ],
+              "correct_answer": 3,
+              "explanation": "Others only glide.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_187",
+              "question": "Which mammal lays eggs?",
+              "options": [
+                "Platypus",
+                "Kangaroo",
+                "Dolphin",
+                "Bat"
+              ],
+              "correct_answer": 0,
+              "explanation": "Platypus and echidnas are monotremes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_188",
+              "question": "How many hearts does an octopus have?",
+              "options": [
+                "1",
+                "3",
+                "2",
+                "4"
+              ],
+              "correct_answer": 1,
+              "explanation": "Two pump blood to the gills.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_189",
+              "question": "Which is the largest living bird?",
+              "options": [
+                "Emu",
+                "Albatross",
+                "Ostrich",
+                "Condor"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ostriches can weigh over 100 kg.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_190",
+              "question": "How many legs does an insect have?",
+              "options": [
+                "8",
+                "4",
+                "10",
+                "6"
+              ],
+              "correct_answer": 3,
+              "explanation": "Spiders, with 8 legs, are not insects.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_191",
+              "question": "The 10% law of energy transfer in food chains was given by?",
+              "options": [
+                "Raymond Lindeman",
+                "Charles Elton",
+                "Eugene Odum",
+                "Arthur Tansley"
+              ],
+              "correct_answer": 0,
+              "explanation": "Only about 10% of energy passes to the next level.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_192",
+              "question": "Which bacteria fix nitrogen in root nodules of legumes?",
+              "options": [
+                "Nitrosomonas",
+                "Rhizobium",
+                "Lactobacillus",
+                "E. coli"
+              ],
+              "correct_answer": 1,
+              "explanation": "They live symbiotically in nodules.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_193",
+              "question": "Conversion of nitrates into nitrogen gas is called?",
+              "options": [
+                "Nitrification",
+                "Ammonification",
+                "Denitrification",
+                "Nitrogen fixation"
+              ],
+              "correct_answer": 2,
+              "explanation": "It returns nitrogen to the air.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_194",
+              "question": "CRISPR-Cas9 is used for?",
+              "options": [
+                "Protein folding",
+                "Cell counting",
+                "Blood typing",
+                "Gene editing"
+              ],
+              "correct_answer": 3,
+              "explanation": "It won the 2020 Nobel Prize in Chemistry.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_195",
+              "question": "PCR is used to?",
+              "options": [
+                "Amplify DNA",
+                "Sequence proteins",
+                "Grow bacteria",
+                "Measure blood sugar"
+              ],
+              "correct_answer": 0,
+              "explanation": "PCR = polymerase chain reaction.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_196",
+              "question": "The Hershey-Chase experiment proved that the genetic material is?",
+              "options": [
+                "Protein",
+                "DNA",
+                "RNA",
+                "Lipid"
+              ],
+              "correct_answer": 1,
+              "explanation": "They used labelled bacteriophages.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_197",
+              "question": "The Meselson-Stahl experiment proved DNA replication is?",
+              "options": [
+                "Conservative",
+                "Dispersive",
+                "Semi-conservative",
+                "Random"
+              ],
+              "correct_answer": 2,
+              "explanation": "They used N-15 and N-14 isotopes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_198",
+              "question": "Okazaki fragments are formed on which strand?",
+              "options": [
+                "Leading strand",
+                "Template RNA",
+                "Coding mRNA",
+                "Lagging strand"
+              ],
+              "correct_answer": 3,
+              "explanation": "DNA is made discontinuously there.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_199",
+              "question": "Which codon is the universal start codon?",
+              "options": [
+                "AUG",
+                "UAA",
+                "UAG",
+                "UGA"
+              ],
+              "correct_answer": 0,
+              "explanation": "It codes for methionine.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_200",
+              "question": "Which of these is a stop codon?",
+              "options": [
+                "AUG",
+                "UAA",
+                "GCC",
+                "UUU"
+              ],
+              "correct_answer": 1,
+              "explanation": "UAA, UAG and UGA are stop codons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_201",
+              "question": "How many codons are there in the genetic code?",
+              "options": [
+                "20",
+                "61",
+                "64",
+                "46"
+              ],
+              "correct_answer": 2,
+              "explanation": "61 code for amino acids and 3 are stop codons.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_202",
+              "question": "The lac operon model was proposed by?",
+              "options": [
+                "Watson and Crick",
+                "Beadle and Tatum",
+                "Hershey and Chase",
+                "Jacob and Monod"
+              ],
+              "correct_answer": 3,
+              "explanation": "They won the 1965 Nobel Prize.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_203",
+              "question": "The sodium-potassium pump moves ions in which ratio?",
+              "options": [
+                "3 Na+ out, 2 K+ in",
+                "2 Na+ out, 3 K+ in",
+                "1 Na+ out, 1 K+ in",
+                "3 Na+ in, 2 K+ out"
+              ],
+              "correct_answer": 0,
+              "explanation": "It uses one ATP per cycle.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_204",
+              "question": "What is the typical resting membrane potential of a neuron?",
+              "options": [
+                "About +70 mV",
+                "About -70 mV",
+                "About 0 mV",
+                "About -10 mV"
+              ],
+              "correct_answer": 1,
+              "explanation": "The inside is negative.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_205",
+              "question": "Which neurotransmitter acts at the neuromuscular junction?",
+              "options": [
+                "Dopamine",
+                "Serotonin",
+                "Acetylcholine",
+                "GABA"
+              ],
+              "correct_answer": 2,
+              "explanation": "It triggers muscle contraction.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_206",
+              "question": "Which protein filaments are responsible for muscle contraction?",
+              "options": [
+                "Keratin and collagen",
+                "Tubulin and dynein",
+                "Elastin and fibrin",
+                "Actin and myosin"
+              ],
+              "correct_answer": 3,
+              "explanation": "They slide past each other.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_207",
+              "question": "The fluid mosaic model of membranes was proposed by?",
+              "options": [
+                "Singer and Nicolson",
+                "Watson and Crick",
+                "Robertson",
+                "Danielli and Davson"
+              ],
+              "correct_answer": 0,
+              "explanation": "Proposed in 1972.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_208",
+              "question": "The endosymbiotic theory explains the origin of?",
+              "options": [
+                "Nucleus and ribosomes",
+                "Mitochondria and chloroplasts",
+                "Golgi and ER",
+                "Cell wall and vacuole"
+              ],
+              "correct_answer": 1,
+              "explanation": "They came from engulfed bacteria.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_209",
+              "question": "What is the first stable product of carbon fixation in C4 plants?",
+              "options": [
+                "3-phosphoglycerate",
+                "Glucose",
+                "Oxaloacetate",
+                "Pyruvate"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is a four-carbon compound.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_210",
+              "question": "What is the first stable product of the Calvin cycle in C3 plants?",
+              "options": [
+                "Oxaloacetate",
+                "Malate",
+                "Sucrose",
+                "3-phosphoglycerate"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is a three-carbon compound.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_211",
+              "question": "Kranz anatomy is found in which plants?",
+              "options": [
+                "C4 plants",
+                "C3 plants",
+                "CAM plants only",
+                "Algae"
+              ],
+              "correct_answer": 0,
+              "explanation": "Example: maize and sugarcane.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_212",
+              "question": "Which blood vessels carry blood away from the heart?",
+              "options": [
+                "Veins",
+                "Arteries",
+                "Capillaries",
+                "Lymph vessels"
+              ],
+              "correct_answer": 1,
+              "explanation": "Most arteries carry oxygenated blood.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_213",
+              "question": "Which is the only artery that carries deoxygenated blood?",
+              "options": [
+                "Aorta",
+                "Coronary artery",
+                "Pulmonary artery",
+                "Renal artery"
+              ],
+              "correct_answer": 2,
+              "explanation": "It carries blood to the lungs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_214",
+              "question": "Haemophilia is a disorder in which?",
+              "options": [
+                "Red cells are sickle-shaped",
+                "Insulin is not produced",
+                "Bones are brittle",
+                "Blood does not clot properly"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is X-linked recessive.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_215",
+              "question": "Sickle cell anaemia is caused by a mutation in which protein?",
+              "options": [
+                "Haemoglobin",
+                "Insulin",
+                "Collagen",
+                "Keratin"
+              ],
+              "correct_answer": 0,
+              "explanation": "One amino acid change: glutamate to valine.",
               "difficulty": "medium",
               "points": 10
             }
