@@ -1610,6 +1610,202 @@
               "explanation": "Pair production occurs when a high-energy photon converts into a particle-antiparticle pair (typically electron-positron) near a nucleus. This demonstrates E=mc² and requires energy exceeding twice the rest mass.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "sci_physics_101",
+              "question": "What is the SI unit of magnetic flux?",
+              "options": [
+                "Tesla",
+                "Henry",
+                "Gauss",
+                "Weber"
+              ],
+              "correct_answer": 3,
+              "explanation": "1 weber equals 1 tesla times 1 square metre.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_102",
+              "question": "What is the SI unit of inductance?",
+              "options": [
+                "Henry",
+                "Farad",
+                "Weber",
+                "Ohm"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is named after Joseph Henry.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_103",
+              "question": "What is the SI unit of capacitance?",
+              "options": [
+                "Henry",
+                "Farad",
+                "Coulomb",
+                "Siemens"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is named after Michael Faraday.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_104",
+              "question": "What is the SI unit of luminous intensity?",
+              "options": [
+                "Lumen",
+                "Lux",
+                "Candela",
+                "Watt"
+              ],
+              "correct_answer": 2,
+              "explanation": "The candela is one of seven SI base units.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_105",
+              "question": "What is the approximate speed of sound in air at room temperature?",
+              "options": [
+                "150 m/s",
+                "1,500 m/s",
+                "3 x 10^8 m/s",
+                "343 m/s"
+              ],
+              "correct_answer": 3,
+              "explanation": "Sound travels about 343 m/s at 20 degrees C.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_106",
+              "question": "A mirage is caused by which phenomenon?",
+              "options": [
+                "Total internal reflection",
+                "Diffraction",
+                "Polarisation",
+                "Interference"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hot air near the ground bends light.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_107",
+              "question": "A rainbow forms mainly due to which phenomenon?",
+              "options": [
+                "Polarisation",
+                "Dispersion of light",
+                "Diffraction",
+                "Scattering only"
+              ],
+              "correct_answer": 1,
+              "explanation": "Water droplets split sunlight into colours.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_108",
+              "question": "Which device converts alternating current into direct current?",
+              "options": [
+                "Transformer",
+                "Inverter",
+                "Rectifier",
+                "Oscillator"
+              ],
+              "correct_answer": 2,
+              "explanation": "Rectifiers use diodes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_109",
+              "question": "A transformer works on which principle?",
+              "options": [
+                "Self induction",
+                "Photoelectric effect",
+                "Thermionic emission",
+                "Mutual induction"
+              ],
+              "correct_answer": 3,
+              "explanation": "A changing current in one coil induces voltage in another.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_110",
+              "question": "The Doppler effect describes a change in what?",
+              "options": [
+                "Frequency due to relative motion",
+                "Mass due to speed",
+                "Charge due to heat",
+                "Volume due to pressure"
+              ],
+              "correct_answer": 0,
+              "explanation": "A passing siren changes pitch due to it.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_111",
+              "question": "One horsepower is approximately equal to how many watts?",
+              "options": [
+                "1,000",
+                "746",
+                "500",
+                "360"
+              ],
+              "correct_answer": 1,
+              "explanation": "1 hp is about 746 W.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_112",
+              "question": "A light-year is a unit of what?",
+              "options": [
+                "Time",
+                "Speed",
+                "Distance",
+                "Brightness"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is the distance light travels in a year.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_113",
+              "question": "Bernoulli's principle relates fluid speed to what?",
+              "options": [
+                "Temperature",
+                "Density only",
+                "Colour",
+                "Pressure"
+              ],
+              "correct_answer": 3,
+              "explanation": "Faster-moving fluid has lower pressure.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_physics_114",
+              "question": "Why does the sky appear blue?",
+              "options": [
+                "Rayleigh scattering",
+                "Reflection from oceans",
+                "Refraction",
+                "Total internal reflection"
+              ],
+              "correct_answer": 0,
+              "explanation": "Short blue wavelengths are scattered most.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -3354,6 +3550,230 @@
               "explanation": "The methyl group is an ortho-para directing activating group due to +I effect. Nitration of toluene gives a mixture of o-nitrotoluene (60%) and p-nitrotoluene (40%).",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "sci_chem_101",
+              "question": "What is the chemical symbol for tungsten?",
+              "options": [
+                "Tu",
+                "W",
+                "Tn",
+                "Wo"
+              ],
+              "correct_answer": 1,
+              "explanation": "W comes from its German name Wolfram.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_102",
+              "question": "What is the chemical symbol for lead?",
+              "options": [
+                "Ld",
+                "Le",
+                "Pb",
+                "Pl"
+              ],
+              "correct_answer": 2,
+              "explanation": "Pb comes from the Latin plumbum.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_103",
+              "question": "What is the common name of nitrous oxide?",
+              "options": [
+                "Marsh gas",
+                "Tear gas",
+                "Dry ice",
+                "Laughing gas"
+              ],
+              "correct_answer": 3,
+              "explanation": "N2O is used as a mild anaesthetic.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_104",
+              "question": "What is the chemical name of baking soda?",
+              "options": [
+                "Sodium bicarbonate",
+                "Sodium carbonate",
+                "Calcium carbonate",
+                "Sodium chloride"
+              ],
+              "correct_answer": 0,
+              "explanation": "Its formula is NaHCO3.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_105",
+              "question": "Which metal is liquid at room temperature?",
+              "options": [
+                "Gallium",
+                "Mercury",
+                "Sodium",
+                "Lead"
+              ],
+              "correct_answer": 1,
+              "explanation": "Mercury melts at about -39 degrees C.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_106",
+              "question": "Vinegar mainly contains which acid?",
+              "options": [
+                "Citric acid",
+                "Lactic acid",
+                "Acetic acid",
+                "Formic acid"
+              ],
+              "correct_answer": 2,
+              "explanation": "Vinegar is about 4-8% acetic acid.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_107",
+              "question": "Brass is an alloy of copper and which metal?",
+              "options": [
+                "Tin",
+                "Nickel",
+                "Aluminium",
+                "Zinc"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bronze uses tin instead.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_108",
+              "question": "Bronze is an alloy of copper and which metal?",
+              "options": [
+                "Tin",
+                "Zinc",
+                "Iron",
+                "Lead"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bronze was used widely in the Bronze Age.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_109",
+              "question": "What is dry ice?",
+              "options": [
+                "Frozen water",
+                "Solid carbon dioxide",
+                "Solid nitrogen",
+                "Frozen ammonia"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dry ice sublimates at -78.5 degrees C.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_110",
+              "question": "Plaster of Paris is a form of which compound?",
+              "options": [
+                "Calcium carbonate",
+                "Calcium oxide",
+                "Calcium sulphate",
+                "Calcium chloride"
+              ],
+              "correct_answer": 2,
+              "explanation": "It is calcium sulphate hemihydrate.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_111",
+              "question": "What is the approximate value of Avogadro's number?",
+              "options": [
+                "3 x 10^8",
+                "6.67 x 10^-11",
+                "1.6 x 10^-19",
+                "6.022 x 10^23"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is the number of particles in one mole.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_112",
+              "question": "Which gas is known as marsh gas?",
+              "options": [
+                "Methane",
+                "Ethane",
+                "Hydrogen sulphide",
+                "Carbon monoxide"
+              ],
+              "correct_answer": 0,
+              "explanation": "Methane forms in marshes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_113",
+              "question": "What is the chemical formula of ozone?",
+              "options": [
+                "O2",
+                "O3",
+                "CO2",
+                "H2O2"
+              ],
+              "correct_answer": 1,
+              "explanation": "Ozone has three oxygen atoms.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_114",
+              "question": "Which acid is found in ant stings?",
+              "options": [
+                "Acetic acid",
+                "Citric acid",
+                "Formic acid",
+                "Oxalic acid"
+              ],
+              "correct_answer": 2,
+              "explanation": "Formic acid gets its name from the Latin word for ant.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_115",
+              "question": "What is the chemical name of quicklime?",
+              "options": [
+                "Calcium hydroxide",
+                "Calcium carbonate",
+                "Calcium sulphate",
+                "Calcium oxide"
+              ],
+              "correct_answer": 3,
+              "explanation": "Its formula is CaO.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_chem_116",
+              "question": "Which gas is used in fluorescent advertising signs to give a red-orange glow?",
+              "options": [
+                "Neon",
+                "Argon",
+                "Helium",
+                "Xenon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Neon glows red-orange when electrified.",
+              "difficulty": "easy",
+              "points": 10
             }
           ]
         },
@@ -5097,6 +5517,202 @@
               "correct_answer": 1,
               "explanation": "Lysosomes are the primary organelles for autophagy, degrading damaged organelles, protein aggregates, and pathogens. Autophagosomes engulf cellular components and fuse with lysosomes, where acidic hydrolases break down the contents.",
               "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_101",
+              "question": "How many bones are there in an adult human body?",
+              "options": [
+                "212",
+                "206",
+                "196",
+                "300"
+              ],
+              "correct_answer": 1,
+              "explanation": "Babies have more bones that fuse over time.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_102",
+              "question": "Which is the smallest bone in the human body?",
+              "options": [
+                "Incus",
+                "Malleus",
+                "Stapes",
+                "Femur"
+              ],
+              "correct_answer": 2,
+              "explanation": "The stapes is in the middle ear.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_103",
+              "question": "Which blood group is called the universal donor?",
+              "options": [
+                "AB positive",
+                "A positive",
+                "B negative",
+                "O negative"
+              ],
+              "correct_answer": 3,
+              "explanation": "O negative red cells suit most recipients.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_104",
+              "question": "Which blood group is called the universal recipient?",
+              "options": [
+                "AB positive",
+                "O negative",
+                "A negative",
+                "B positive"
+              ],
+              "correct_answer": 0,
+              "explanation": "AB positive can receive red cells from all groups.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_105",
+              "question": "Deficiency of Vitamin C causes which disease?",
+              "options": [
+                "Rickets",
+                "Scurvy",
+                "Beriberi",
+                "Night blindness"
+              ],
+              "correct_answer": 1,
+              "explanation": "Scurvy causes bleeding gums.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_106",
+              "question": "Deficiency of Vitamin A causes which condition?",
+              "options": [
+                "Scurvy",
+                "Rickets",
+                "Night blindness",
+                "Anaemia"
+              ],
+              "correct_answer": 2,
+              "explanation": "Vitamin A is needed for vision.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_107",
+              "question": "How many chromosomes are there in a normal human body cell?",
+              "options": [
+                "23",
+                "44",
+                "48",
+                "46"
+              ],
+              "correct_answer": 3,
+              "explanation": "They are arranged in 23 pairs.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_108",
+              "question": "What is the average lifespan of a human red blood cell?",
+              "options": [
+                "About 120 days",
+                "About 30 days",
+                "About 1 year",
+                "About 7 days"
+              ],
+              "correct_answer": 0,
+              "explanation": "Old RBCs are removed by the spleen.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_109",
+              "question": "What is the functional unit of the kidney?",
+              "options": [
+                "Neuron",
+                "Nephron",
+                "Alveolus",
+                "Villus"
+              ],
+              "correct_answer": 1,
+              "explanation": "Each kidney has about a million nephrons.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_110",
+              "question": "Which gland is known as the master gland?",
+              "options": [
+                "Thyroid",
+                "Adrenal",
+                "Pituitary",
+                "Pancreas"
+              ],
+              "correct_answer": 2,
+              "explanation": "It controls many other glands.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_111",
+              "question": "Where are the air sacs (alveoli) found?",
+              "options": [
+                "Kidneys",
+                "Heart",
+                "Liver",
+                "Lungs"
+              ],
+              "correct_answer": 3,
+              "explanation": "Gas exchange happens in the alveoli.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_112",
+              "question": "Which animal is the largest mammal?",
+              "options": [
+                "Blue whale",
+                "African elephant",
+                "Giraffe",
+                "Sperm whale"
+              ],
+              "correct_answer": 0,
+              "explanation": "Blue whales can exceed 30 m long.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_113",
+              "question": "Which pigment gives human skin its colour?",
+              "options": [
+                "Chlorophyll",
+                "Melanin",
+                "Haemoglobin",
+                "Keratin"
+              ],
+              "correct_answer": 1,
+              "explanation": "Melanin protects against UV rays.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "sci_bio_114",
+              "question": "Malaria is caused by which type of organism?",
+              "options": [
+                "Virus",
+                "Bacterium",
+                "Protozoan (Plasmodium)",
+                "Fungus"
+              ],
+              "correct_answer": 2,
+              "explanation": "It spreads through female Anopheles mosquitoes.",
+              "difficulty": "medium",
               "points": 10
             }
           ]
@@ -17406,6 +18022,258 @@
               "explanation": "The storming of the Bastille on 14 July 1789 marks its start.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "world_history_123",
+              "question": "Who was the first human to travel into space?",
+              "options": [
+                "Neil Armstrong",
+                "Alan Shepard",
+                "John Glenn",
+                "Yuri Gagarin"
+              ],
+              "correct_answer": 3,
+              "explanation": "Gagarin orbited Earth in 1961.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_124",
+              "question": "Who became the world's first female Prime Minister?",
+              "options": [
+                "Sirimavo Bandaranaike",
+                "Indira Gandhi",
+                "Golda Meir",
+                "Margaret Thatcher"
+              ],
+              "correct_answer": 0,
+              "explanation": "She became Sri Lanka's Prime Minister in 1960.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_125",
+              "question": "Japan attacked Pearl Harbor in which year?",
+              "options": [
+                "1939",
+                "1941",
+                "1942",
+                "1944"
+              ],
+              "correct_answer": 1,
+              "explanation": "The attack drew the USA into World War II.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_126",
+              "question": "Who wrote 'The Communist Manifesto'?",
+              "options": [
+                "Lenin and Trotsky",
+                "Mao Zedong",
+                "Karl Marx and Friedrich Engels",
+                "Adam Smith"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was published in 1848.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_127",
+              "question": "Martin Luther King Jr. delivered 'I Have a Dream' in which year?",
+              "options": [
+                "1955",
+                "1968",
+                "1960",
+                "1963"
+              ],
+              "correct_answer": 3,
+              "explanation": "He spoke at the March on Washington.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_128",
+              "question": "Who was the first US President to resign from office?",
+              "options": [
+                "Richard Nixon",
+                "Andrew Johnson",
+                "Bill Clinton",
+                "Gerald Ford"
+              ],
+              "correct_answer": 0,
+              "explanation": "Nixon resigned in 1974 after Watergate.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_129",
+              "question": "Which is the only Ancient Wonder of the World still standing?",
+              "options": [
+                "Colossus of Rhodes",
+                "Great Pyramid of Giza",
+                "Hanging Gardens of Babylon",
+                "Lighthouse of Alexandria"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was built around 2560 BC.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_130",
+              "question": "Suleiman the Magnificent ruled which empire?",
+              "options": [
+                "Mughal Empire",
+                "Persian Empire",
+                "Ottoman Empire",
+                "Byzantine Empire"
+              ],
+              "correct_answer": 2,
+              "explanation": "He ruled from 1520 to 1566.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_131",
+              "question": "Which Spanish conquistador conquered the Aztec Empire?",
+              "options": [
+                "Francisco Pizarro",
+                "Vasco Nunez de Balboa",
+                "Juan Ponce de Leon",
+                "Hernan Cortes"
+              ],
+              "correct_answer": 3,
+              "explanation": "Cortes captured Tenochtitlan in 1521.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_132",
+              "question": "Which conquistador conquered the Inca Empire?",
+              "options": [
+                "Francisco Pizarro",
+                "Hernan Cortes",
+                "Hernando de Soto",
+                "Pedro de Alvarado"
+              ],
+              "correct_answer": 0,
+              "explanation": "Pizarro captured Atahualpa in 1532.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_133",
+              "question": "Abraham Lincoln was assassinated in which year?",
+              "options": [
+                "1861",
+                "1865",
+                "1870",
+                "1859"
+              ],
+              "correct_answer": 1,
+              "explanation": "He was shot at Ford's Theatre.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_134",
+              "question": "The Maastricht Treaty, which created the European Union, was signed in which year?",
+              "options": [
+                "1957",
+                "1989",
+                "1992",
+                "2002"
+              ],
+              "correct_answer": 2,
+              "explanation": "It came into force in 1993.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_135",
+              "question": "Who led the 'Redshirts' in the unification of Italy?",
+              "options": [
+                "Camillo Cavour",
+                "Giuseppe Mazzini",
+                "Victor Emmanuel II",
+                "Giuseppe Garibaldi"
+              ],
+              "correct_answer": 3,
+              "explanation": "Garibaldi conquered Sicily and Naples in 1860.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_136",
+              "question": "The Chernobyl nuclear disaster occurred in which year?",
+              "options": [
+                "1986",
+                "1979",
+                "1991",
+                "1984"
+              ],
+              "correct_answer": 0,
+              "explanation": "It happened in Soviet Ukraine.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_137",
+              "question": "Vasco da Gama reached India in which year?",
+              "options": [
+                "1492",
+                "1498",
+                "1510",
+                "1488"
+              ],
+              "correct_answer": 1,
+              "explanation": "He landed at Calicut.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "world_history_138",
+              "question": "Who was the first Prime Minister of independent Israel?",
+              "options": [
+                "Golda Meir",
+                "Yitzhak Rabin",
+                "David Ben-Gurion",
+                "Menachem Begin"
+              ],
+              "correct_answer": 2,
+              "explanation": "Israel was founded in 1948.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_139",
+              "question": "Which empire was ruled by Mansa Musa, famed for his wealth?",
+              "options": [
+                "Songhai Empire",
+                "Ghana Empire",
+                "Ethiopian Empire",
+                "Mali Empire"
+              ],
+              "correct_answer": 3,
+              "explanation": "Mansa Musa made a famous pilgrimage to Mecca in 1324.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "world_history_140",
+              "question": "The Boston Tea Party took place in which year?",
+              "options": [
+                "1773",
+                "1776",
+                "1765",
+                "1781"
+              ],
+              "correct_answer": 0,
+              "explanation": "Colonists protested British tea taxes.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         }
@@ -17706,6 +18574,426 @@
               "explanation": "The Ali Brothers (Mohammad Ali and Shaukat Ali) led the Khilafat Movement (1919-1924).",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "gk_history_101",
+              "question": "Who founded the Indian National Congress in 1885?",
+              "options": [
+                "Dadabhai Naoroji",
+                "W.C. Bonnerjee",
+                "Surendranath Banerjee",
+                "A.O. Hume"
+              ],
+              "correct_answer": 3,
+              "explanation": "Allan Octavian Hume founded the INC in 1885.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_102",
+              "question": "Who was the first President of the Indian National Congress?",
+              "options": [
+                "W.C. Bonnerjee",
+                "A.O. Hume",
+                "Dadabhai Naoroji",
+                "Badruddin Tyabji"
+              ],
+              "correct_answer": 0,
+              "explanation": "W.C. Bonnerjee presided over the 1885 Bombay session.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_103",
+              "question": "In which year did the Partition of Bengal take place?",
+              "options": [
+                "1911",
+                "1905",
+                "1919",
+                "1947"
+              ],
+              "correct_answer": 1,
+              "explanation": "Lord Curzon partitioned Bengal in 1905.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_104",
+              "question": "Who gave the slogan 'Swaraj is my birthright and I shall have it'?",
+              "options": [
+                "Lala Lajpat Rai",
+                "Bipin Chandra Pal",
+                "Bal Gangadhar Tilak",
+                "Gopal Krishna Gokhale"
+              ],
+              "correct_answer": 2,
+              "explanation": "Tilak popularised this slogan.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_105",
+              "question": "The Non-Cooperation Movement was launched in which year?",
+              "options": [
+                "1919",
+                "1930",
+                "1942",
+                "1920"
+              ],
+              "correct_answer": 3,
+              "explanation": "Gandhi launched it in 1920.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_106",
+              "question": "Which incident led Gandhi to call off the Non-Cooperation Movement in 1922?",
+              "options": [
+                "Chauri Chaura incident",
+                "Jallianwala Bagh massacre",
+                "Kakori conspiracy",
+                "Moplah rebellion"
+              ],
+              "correct_answer": 0,
+              "explanation": "Violence at Chauri Chaura made Gandhi withdraw the movement.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_107",
+              "question": "Who founded the Arya Samaj?",
+              "options": [
+                "Raja Ram Mohan Roy",
+                "Swami Dayanand Saraswati",
+                "Swami Vivekananda",
+                "Keshab Chandra Sen"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Arya Samaj was founded in 1875.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_108",
+              "question": "Who founded the Brahmo Samaj?",
+              "options": [
+                "Debendranath Tagore",
+                "Dayanand Saraswati",
+                "Raja Ram Mohan Roy",
+                "Ishwar Chandra Vidyasagar"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ram Mohan Roy founded it in 1828.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_109",
+              "question": "Which Governor-General abolished Sati in 1829?",
+              "options": [
+                "Lord Dalhousie",
+                "Lord Curzon",
+                "Lord Canning",
+                "Lord William Bentinck"
+              ],
+              "correct_answer": 3,
+              "explanation": "Bentinck banned Sati with Ram Mohan Roy's support.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_110",
+              "question": "The Doctrine of Lapse was introduced by which Governor-General?",
+              "options": [
+                "Lord Dalhousie",
+                "Lord Wellesley",
+                "Lord Cornwallis",
+                "Lord Ripon"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dalhousie used it to annex states like Jhansi and Satara.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_111",
+              "question": "In the First Battle of Panipat (1526), Babur defeated whom?",
+              "options": [
+                "Hemu",
+                "Ibrahim Lodi",
+                "Rana Sanga",
+                "Sher Shah Suri"
+              ],
+              "correct_answer": 1,
+              "explanation": "Babur's victory founded the Mughal Empire.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_112",
+              "question": "The Third Battle of Panipat (1761) was fought between the Marathas and whom?",
+              "options": [
+                "Nadir Shah",
+                "Babur",
+                "Ahmad Shah Abdali",
+                "Akbar"
+              ],
+              "correct_answer": 2,
+              "explanation": "Ahmad Shah Abdali defeated the Marathas.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_113",
+              "question": "Which Gupta ruler is called the 'Napoleon of India'?",
+              "options": [
+                "Chandragupta I",
+                "Chandragupta II",
+                "Skandagupta",
+                "Samudragupta"
+              ],
+              "correct_answer": 3,
+              "explanation": "Historian V.A. Smith gave him this title.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_114",
+              "question": "Which war made Emperor Ashoka embrace Buddhism?",
+              "options": [
+                "Kalinga War",
+                "Battle of Hydaspes",
+                "Battle of Tarain",
+                "Battle of Talikota"
+              ],
+              "correct_answer": 0,
+              "explanation": "The bloodshed at Kalinga changed Ashoka.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_115",
+              "question": "Who founded the Vijayanagara Empire?",
+              "options": [
+                "Krishnadeva Raya",
+                "Harihara and Bukka",
+                "Devaraya II",
+                "Pulakeshin II"
+              ],
+              "correct_answer": 1,
+              "explanation": "It was founded in 1336.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_116",
+              "question": "Who was the founder of Sikhism?",
+              "options": [
+                "Guru Gobind Singh",
+                "Guru Arjan Dev",
+                "Guru Nanak Dev",
+                "Guru Tegh Bahadur"
+              ],
+              "correct_answer": 2,
+              "explanation": "Guru Nanak founded Sikhism in the 15th century.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_117",
+              "question": "Who founded the Khalsa in 1699?",
+              "options": [
+                "Guru Nanak Dev",
+                "Guru Har Gobind",
+                "Guru Arjan Dev",
+                "Guru Gobind Singh"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Khalsa was created at Anandpur Sahib.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_118",
+              "question": "Chhatrapati Shivaji was crowned in which year?",
+              "options": [
+                "1674",
+                "1680",
+                "1659",
+                "1707"
+              ],
+              "correct_answer": 0,
+              "explanation": "Shivaji was crowned at Raigad in 1674.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_119",
+              "question": "Who led the Revolt of 1857 in Jhansi?",
+              "options": [
+                "Begum Hazrat Mahal",
+                "Rani Lakshmibai",
+                "Tantia Tope",
+                "Kunwar Singh"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rani Lakshmibai fought the British at Jhansi.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_120",
+              "question": "Gandhi returned to India from South Africa in which year?",
+              "options": [
+                "1910",
+                "1919",
+                "1915",
+                "1906"
+              ],
+              "correct_answer": 2,
+              "explanation": "He returned on 9 January 1915.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_121",
+              "question": "Gandhi's first satyagraha in India took place at which place in 1917?",
+              "options": [
+                "Kheda",
+                "Ahmedabad",
+                "Bardoli",
+                "Champaran"
+              ],
+              "correct_answer": 3,
+              "explanation": "It supported indigo farmers in Bihar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_122",
+              "question": "Bhagat Singh was executed in which year?",
+              "options": [
+                "1931",
+                "1929",
+                "1928",
+                "1935"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was hanged on 23 March 1931.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_history_123",
+              "question": "The Poona Pact of 1932 was signed between Gandhi and whom?",
+              "options": [
+                "Jawaharlal Nehru",
+                "B.R. Ambedkar",
+                "Muhammad Ali Jinnah",
+                "Subhas Chandra Bose"
+              ],
+              "correct_answer": 1,
+              "explanation": "It concerned representation for depressed classes.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_124",
+              "question": "The Cabinet Mission came to India in which year?",
+              "options": [
+                "1942",
+                "1945",
+                "1946",
+                "1947"
+              ],
+              "correct_answer": 2,
+              "explanation": "It proposed a plan for transfer of power in 1946.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_125",
+              "question": "Who was the first and only Indian Governor-General of India?",
+              "options": [
+                "Rajendra Prasad",
+                "Sardar Patel",
+                "Jawaharlal Nehru",
+                "C. Rajagopalachari"
+              ],
+              "correct_answer": 3,
+              "explanation": "Rajagopalachari succeeded Mountbatten in 1948.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_126",
+              "question": "Which Delhi Sultan introduced market control reforms?",
+              "options": [
+                "Alauddin Khalji",
+                "Iltutmish",
+                "Balban",
+                "Firoz Shah Tughlaq"
+              ],
+              "correct_answer": 0,
+              "explanation": "Alauddin fixed prices of goods in Delhi.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_127",
+              "question": "Which Sultan shifted his capital from Delhi to Daulatabad?",
+              "options": [
+                "Alauddin Khalji",
+                "Muhammad bin Tughluq",
+                "Ibrahim Lodi",
+                "Qutb-ud-din Aibak"
+              ],
+              "correct_answer": 1,
+              "explanation": "He moved the capital in 1327.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_128",
+              "question": "The Battle of Buxar was fought in which year?",
+              "options": [
+                "1757",
+                "1761",
+                "1764",
+                "1799"
+              ],
+              "correct_answer": 2,
+              "explanation": "The British defeated an alliance of Mughal, Awadh and Bengal rulers.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_history_129",
+              "question": "Who founded the Gadar Party in 1913?",
+              "options": [
+                "Bhagat Singh",
+                "Chandra Shekhar Azad",
+                "Rash Behari Bose",
+                "Lala Har Dayal"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Gadar Party was founded in the USA.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_history_130",
+              "question": "The Kakori train robbery of 1925 was led by whom?",
+              "options": [
+                "Ram Prasad Bismil",
+                "Bhagat Singh",
+                "Sukhdev",
+                "Udham Singh"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bismil led HRA revolutionaries at Kakori.",
+              "difficulty": "hard",
+              "points": 10
             }
           ]
         },
@@ -17994,6 +19282,370 @@
               "explanation": "Bengaluru is known as the Silicon Valley of India due to its IT industry.",
               "difficulty": "easy",
               "points": 10
+            },
+            {
+              "id": "gk_geography_101",
+              "question": "Which Indian state has the largest population?",
+              "options": [
+                "Maharashtra",
+                "Uttar Pradesh",
+                "Bihar",
+                "West Bengal"
+              ],
+              "correct_answer": 1,
+              "explanation": "Uttar Pradesh is India's most populous state.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_102",
+              "question": "Which river is known as the 'Dakshin Ganga'?",
+              "options": [
+                "Krishna",
+                "Kaveri",
+                "Godavari",
+                "Mahanadi"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Godavari is the longest river of peninsular India.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_103",
+              "question": "Which is the largest freshwater lake in India?",
+              "options": [
+                "Dal Lake",
+                "Loktak Lake",
+                "Chilika Lake",
+                "Wular Lake"
+              ],
+              "correct_answer": 3,
+              "explanation": "Wular Lake is in Jammu and Kashmir.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_104",
+              "question": "Indian Standard Time is based on which longitude?",
+              "options": [
+                "82.5 degrees E",
+                "80 degrees E",
+                "75.5 degrees E",
+                "90 degrees E"
+              ],
+              "correct_answer": 0,
+              "explanation": "The meridian passes near Mirzapur.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_105",
+              "question": "Which state is called the 'Spice Garden of India'?",
+              "options": [
+                "Karnataka",
+                "Kerala",
+                "Tamil Nadu",
+                "Goa"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kerala is famous for pepper and cardamom.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_106",
+              "question": "Loktak Lake, known for floating phumdis, is in which state?",
+              "options": [
+                "Assam",
+                "Meghalaya",
+                "Manipur",
+                "Mizoram"
+              ],
+              "correct_answer": 2,
+              "explanation": "Loktak has the floating Keibul Lamjao park.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_107",
+              "question": "Kaziranga National Park is famous for which animal?",
+              "options": [
+                "Asiatic lion",
+                "Snow leopard",
+                "Bengal tiger",
+                "One-horned rhinoceros"
+              ],
+              "correct_answer": 3,
+              "explanation": "Kaziranga in Assam protects the one-horned rhino.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_108",
+              "question": "Gir National Park is the home of which animal?",
+              "options": [
+                "Asiatic lion",
+                "One-horned rhinoceros",
+                "Wild ass",
+                "Red panda"
+              ],
+              "correct_answer": 0,
+              "explanation": "Gir in Gujarat is the last home of Asiatic lions.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_109",
+              "question": "Jim Corbett National Park is located in which state?",
+              "options": [
+                "Himachal Pradesh",
+                "Uttarakhand",
+                "Madhya Pradesh",
+                "Uttar Pradesh"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is India's oldest national park (1936).",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_110",
+              "question": "Which pass connects Srinagar and Leh?",
+              "options": [
+                "Nathu La",
+                "Shipki La",
+                "Zoji La",
+                "Rohtang Pass"
+              ],
+              "correct_answer": 2,
+              "explanation": "Zoji La lies on the Srinagar-Leh highway.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_111",
+              "question": "Which is the highest dam in India?",
+              "options": [
+                "Bhakra Dam",
+                "Hirakud Dam",
+                "Sardar Sarovar Dam",
+                "Tehri Dam"
+              ],
+              "correct_answer": 3,
+              "explanation": "Tehri Dam on the Bhagirathi is about 260 m tall.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_112",
+              "question": "Which is the longest dam in India?",
+              "options": [
+                "Hirakud Dam",
+                "Tehri Dam",
+                "Bhakra Dam",
+                "Nagarjuna Sagar Dam"
+              ],
+              "correct_answer": 0,
+              "explanation": "Hirakud on the Mahanadi is about 25 km long.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_113",
+              "question": "The Siachen Glacier lies in which mountain range?",
+              "options": [
+                "Zanskar",
+                "Karakoram",
+                "Pir Panjal",
+                "Shivalik"
+              ],
+              "correct_answer": 1,
+              "explanation": "Siachen is in the eastern Karakoram.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_114",
+              "question": "India's only active volcano, Barren Island, is in which territory?",
+              "options": [
+                "Lakshadweep",
+                "Puducherry",
+                "Andaman and Nicobar Islands",
+                "Daman and Diu"
+              ],
+              "correct_answer": 2,
+              "explanation": "Barren Island is in the Andaman Sea.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_115",
+              "question": "The Ten Degree Channel separates which islands?",
+              "options": [
+                "Lakshadweep and Maldives",
+                "India and Sri Lanka",
+                "Minicoy and Amindivi",
+                "Andaman and Nicobar"
+              ],
+              "correct_answer": 3,
+              "explanation": "It lies between Little Andaman and Car Nicobar.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_116",
+              "question": "The Brahmaputra is known by what name in Tibet?",
+              "options": [
+                "Yarlung Tsangpo",
+                "Dihang",
+                "Jamuna",
+                "Siang"
+              ],
+              "correct_answer": 0,
+              "explanation": "It flows east across Tibet before entering India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_117",
+              "question": "Which plateau is called the 'mineral storehouse of India'?",
+              "options": [
+                "Deccan Plateau",
+                "Chota Nagpur Plateau",
+                "Malwa Plateau",
+                "Meghalaya Plateau"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is rich in coal, iron and mica.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_118",
+              "question": "The Mahanadi river originates in which state?",
+              "options": [
+                "Odisha",
+                "Madhya Pradesh",
+                "Chhattisgarh",
+                "Jharkhand"
+              ],
+              "correct_answer": 2,
+              "explanation": "It rises near Sihawa in Chhattisgarh.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_119",
+              "question": "Which city is known as the 'Pink City'?",
+              "options": [
+                "Udaipur",
+                "Jodhpur",
+                "Bikaner",
+                "Jaipur"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jaipur's buildings were painted pink in 1876.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_120",
+              "question": "Which city is known as the 'City of Lakes'?",
+              "options": [
+                "Udaipur",
+                "Bhopal",
+                "Srinagar",
+                "Nainital"
+              ],
+              "correct_answer": 0,
+              "explanation": "Udaipur is famous for Lake Pichola and Fateh Sagar.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_121",
+              "question": "Which is the highest peak in the Western Ghats?",
+              "options": [
+                "Doddabetta",
+                "Anamudi",
+                "Kalsubai",
+                "Mullayanagiri"
+              ],
+              "correct_answer": 1,
+              "explanation": "Anamudi in Kerala is 2,695 m high.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_122",
+              "question": "Nathu La pass connects Sikkim with which region?",
+              "options": [
+                "Nepal",
+                "Bhutan",
+                "Tibet",
+                "Bangladesh"
+              ],
+              "correct_answer": 2,
+              "explanation": "Nathu La is on the old Silk Route to Tibet.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_123",
+              "question": "Jog Falls is formed by which river?",
+              "options": [
+                "Kaveri",
+                "Tungabhadra",
+                "Krishna",
+                "Sharavathi"
+              ],
+              "correct_answer": 3,
+              "explanation": "Jog Falls is in Karnataka.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_124",
+              "question": "Dal Lake is located in which city?",
+              "options": [
+                "Srinagar",
+                "Shimla",
+                "Leh",
+                "Jammu"
+              ],
+              "correct_answer": 0,
+              "explanation": "Dal Lake is famous for houseboats.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_125",
+              "question": "Kanha National Park is located in which state?",
+              "options": [
+                "Chhattisgarh",
+                "Madhya Pradesh",
+                "Maharashtra",
+                "Odisha"
+              ],
+              "correct_answer": 1,
+              "explanation": "Kanha is a major tiger reserve.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_geography_126",
+              "question": "Which Indian state has the highest population density?",
+              "options": [
+                "Uttar Pradesh",
+                "West Bengal",
+                "Bihar",
+                "Kerala"
+              ],
+              "correct_answer": 2,
+              "explanation": "Bihar has the highest population density among states.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -18267,6 +19919,384 @@
               "correct_answer": 0,
               "explanation": "Article 19(1)(a) provides for freedom of speech and expression.",
               "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_101",
+              "question": "Article 21 of the Constitution protects which right?",
+              "options": [
+                "Equality before law",
+                "Freedom of religion",
+                "Right to property",
+                "Life and personal liberty"
+              ],
+              "correct_answer": 3,
+              "explanation": "Article 21 guarantees protection of life and personal liberty.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_102",
+              "question": "Which Article did Ambedkar call the 'heart and soul' of the Constitution?",
+              "options": [
+                "Article 32",
+                "Article 21",
+                "Article 14",
+                "Article 19"
+              ],
+              "correct_answer": 0,
+              "explanation": "Article 32 is the Right to Constitutional Remedies.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_103",
+              "question": "Article 356 deals with what?",
+              "options": [
+                "Financial Emergency",
+                "President's Rule in states",
+                "National Emergency",
+                "Amendment of the Constitution"
+              ],
+              "correct_answer": 1,
+              "explanation": "It allows President's Rule when state machinery fails.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_104",
+              "question": "Article 360 deals with which type of emergency?",
+              "options": [
+                "National Emergency",
+                "State Emergency",
+                "Financial Emergency",
+                "Constitutional Emergency"
+              ],
+              "correct_answer": 2,
+              "explanation": "A Financial Emergency has never been declared.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_105",
+              "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+              "options": [
+                "President",
+                "Prime Minister",
+                "Speaker",
+                "Vice President"
+              ],
+              "correct_answer": 3,
+              "explanation": "The Vice President presides over the Rajya Sabha.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_106",
+              "question": "What is the maximum strength of the Rajya Sabha?",
+              "options": [
+                "250",
+                "245",
+                "238",
+                "552"
+              ],
+              "correct_answer": 0,
+              "explanation": "Up to 238 elected and 12 nominated members.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_107",
+              "question": "What is the term of a Rajya Sabha member?",
+              "options": [
+                "5 years",
+                "6 years",
+                "4 years",
+                "7 years"
+              ],
+              "correct_answer": 1,
+              "explanation": "One-third of members retire every two years.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_108",
+              "question": "Who was the first Chief Election Commissioner of India?",
+              "options": [
+                "T.N. Seshan",
+                "K.V.K. Sundaram",
+                "Sukumar Sen",
+                "S.P. Sen Verma"
+              ],
+              "correct_answer": 2,
+              "explanation": "Sukumar Sen conducted the first general elections.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_109",
+              "question": "Fundamental Duties were added by which Amendment?",
+              "options": [
+                "44th Amendment",
+                "73rd Amendment",
+                "86th Amendment",
+                "42nd Amendment"
+              ],
+              "correct_answer": 3,
+              "explanation": "The 42nd Amendment (1976) added Article 51A.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_110",
+              "question": "The idea of Fundamental Duties was borrowed from which country?",
+              "options": [
+                "USSR",
+                "USA",
+                "UK",
+                "Ireland"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was inspired by the Soviet constitution.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_111",
+              "question": "Who was the President of the Constituent Assembly?",
+              "options": [
+                "B.R. Ambedkar",
+                "Dr. Rajendra Prasad",
+                "Jawaharlal Nehru",
+                "Sachchidananda Sinha"
+              ],
+              "correct_answer": 1,
+              "explanation": "Rajendra Prasad was its permanent President.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_112",
+              "question": "Which Article provides the Right to Education?",
+              "options": [
+                "Article 45",
+                "Article 19",
+                "Article 21A",
+                "Article 29"
+              ],
+              "correct_answer": 2,
+              "explanation": "Article 21A was added by the 86th Amendment.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_113",
+              "question": "Which Amendment lowered the voting age from 21 to 18?",
+              "options": [
+                "42nd Amendment",
+                "52nd Amendment",
+                "73rd Amendment",
+                "61st Amendment"
+              ],
+              "correct_answer": 3,
+              "explanation": "The 61st Amendment came in 1988.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_114",
+              "question": "Who appoints the Governor of a state?",
+              "options": [
+                "President",
+                "Prime Minister",
+                "Chief Minister",
+                "Chief Justice"
+              ],
+              "correct_answer": 0,
+              "explanation": "Governors are appointed by the President.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_115",
+              "question": "A Money Bill can be introduced only in which house?",
+              "options": [
+                "Rajya Sabha",
+                "Lok Sabha",
+                "Either house",
+                "Joint sitting"
+              ],
+              "correct_answer": 1,
+              "explanation": "Money Bills originate only in the Lok Sabha.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_116",
+              "question": "Who presides over a joint sitting of Parliament?",
+              "options": [
+                "President",
+                "Vice President",
+                "Speaker of Lok Sabha",
+                "Prime Minister"
+              ],
+              "correct_answer": 2,
+              "explanation": "The Lok Sabha Speaker presides over joint sittings.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_117",
+              "question": "GST was introduced through which Constitutional Amendment?",
+              "options": [
+                "100th Amendment",
+                "99th Amendment",
+                "103rd Amendment",
+                "101st Amendment"
+              ],
+              "correct_answer": 3,
+              "explanation": "The 101st Amendment Act was passed in 2016.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_118",
+              "question": "Panchayati Raj was first introduced in which state in 1959?",
+              "options": [
+                "Rajasthan",
+                "Andhra Pradesh",
+                "Gujarat",
+                "Bihar"
+              ],
+              "correct_answer": 0,
+              "explanation": "Nehru inaugurated it at Nagaur, Rajasthan.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_119",
+              "question": "Who is the Supreme Commander of India's armed forces?",
+              "options": [
+                "Prime Minister",
+                "President",
+                "Defence Minister",
+                "Chief of Defence Staff"
+              ],
+              "correct_answer": 1,
+              "explanation": "The President is the supreme commander.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_120",
+              "question": "How many members can the President nominate to the Rajya Sabha?",
+              "options": [
+                "2",
+                "10",
+                "12",
+                "14"
+              ],
+              "correct_answer": 2,
+              "explanation": "They come from art, literature, science and social service.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_121",
+              "question": "What is the minimum age to become President of India?",
+              "options": [
+                "30 years",
+                "25 years",
+                "40 years",
+                "35 years"
+              ],
+              "correct_answer": 3,
+              "explanation": "Article 58 sets 35 years as the minimum age.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_122",
+              "question": "The Constitution of India came into force on which date?",
+              "options": [
+                "26 January 1950",
+                "26 November 1949",
+                "15 August 1947",
+                "26 January 1949"
+              ],
+              "correct_answer": 0,
+              "explanation": "This day is celebrated as Republic Day.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_123",
+              "question": "Which writ literally means 'to have the body'?",
+              "options": [
+                "Mandamus",
+                "Habeas Corpus",
+                "Certiorari",
+                "Quo Warranto"
+              ],
+              "correct_answer": 1,
+              "explanation": "It protects against unlawful detention.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_124",
+              "question": "Which writ means 'we command'?",
+              "options": [
+                "Prohibition",
+                "Habeas Corpus",
+                "Mandamus",
+                "Certiorari"
+              ],
+              "correct_answer": 2,
+              "explanation": "Mandamus orders a public official to do a duty.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_125",
+              "question": "Who appoints the Comptroller and Auditor General of India?",
+              "options": [
+                "Prime Minister",
+                "Parliament",
+                "Chief Justice",
+                "President"
+              ],
+              "correct_answer": 3,
+              "explanation": "The CAG is appointed under Article 148.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_126",
+              "question": "The Finance Commission is constituted under which Article?",
+              "options": [
+                "Article 280",
+                "Article 300",
+                "Article 148",
+                "Article 324"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is set up every five years.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_civics_127",
+              "question": "The Election Commission of India is provided for under which Article?",
+              "options": [
+                "Article 280",
+                "Article 324",
+                "Article 356",
+                "Article 370"
+              ],
+              "correct_answer": 1,
+              "explanation": "Article 324 vests elections in the Election Commission.",
+              "difficulty": "medium",
               "points": 10
             }
           ]
@@ -19222,6 +21252,300 @@
               "explanation": "The Repo Rate is the rate at which the Reserve Bank of India (RBI) lends money to commercial banks against government securities. It is a key tool used by the RBI to control inflation and liquidity in the economy.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "gk_economy_101",
+              "question": "Where is the headquarters of the Reserve Bank of India?",
+              "options": [
+                "New Delhi",
+                "Kolkata",
+                "Mumbai",
+                "Chennai"
+              ],
+              "correct_answer": 2,
+              "explanation": "RBI moved to Mumbai in 1937.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_102",
+              "question": "Who was the first Indian Governor of the RBI?",
+              "options": [
+                "Osborne Smith",
+                "Benegal Rama Rau",
+                "Manmohan Singh",
+                "C.D. Deshmukh"
+              ],
+              "correct_answer": 3,
+              "explanation": "C.D. Deshmukh became Governor in 1943.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_103",
+              "question": "Who signs the Indian one-rupee note?",
+              "options": [
+                "Finance Secretary",
+                "RBI Governor",
+                "Finance Minister",
+                "Prime Minister"
+              ],
+              "correct_answer": 0,
+              "explanation": "The ₹1 note is issued by the Government of India.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_104",
+              "question": "India's financial year begins on which date?",
+              "options": [
+                "1 January",
+                "1 April",
+                "1 July",
+                "1 October"
+              ],
+              "correct_answer": 1,
+              "explanation": "It runs from 1 April to 31 March.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_105",
+              "question": "Who designed the Indian rupee symbol?",
+              "options": [
+                "Raghuram Rajan",
+                "Satyajit Ray",
+                "D. Udaya Kumar",
+                "Nandan Nilekani"
+              ],
+              "correct_answer": 2,
+              "explanation": "His design was chosen in 2010.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_106",
+              "question": "In which year were 14 major banks nationalised?",
+              "options": [
+                "1980",
+                "1991",
+                "1955",
+                "1969"
+              ],
+              "correct_answer": 3,
+              "explanation": "Indira Gandhi nationalised them in July 1969.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_107",
+              "question": "In which year was the 'Make in India' initiative launched?",
+              "options": [
+                "2014",
+                "2016",
+                "2012",
+                "2019"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was launched in September 2014.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_108",
+              "question": "In which year were ₹500 and ₹1000 notes demonetised?",
+              "options": [
+                "2014",
+                "2016",
+                "2017",
+                "2018"
+              ],
+              "correct_answer": 1,
+              "explanation": "Demonetisation was announced on 8 November 2016.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_109",
+              "question": "The State Bank of India was earlier known as?",
+              "options": [
+                "Bank of Bengal",
+                "Presidency Bank",
+                "Imperial Bank of India",
+                "Allahabad Bank"
+              ],
+              "correct_answer": 2,
+              "explanation": "It became SBI in 1955.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_110",
+              "question": "NABARD mainly finances which sector?",
+              "options": [
+                "Industry",
+                "Foreign trade",
+                "Housing",
+                "Agriculture and rural development"
+              ],
+              "correct_answer": 3,
+              "explanation": "NABARD was set up in 1982.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_111",
+              "question": "The Blue Revolution is related to which sector?",
+              "options": [
+                "Fisheries",
+                "Oilseeds",
+                "Milk",
+                "Horticulture"
+              ],
+              "correct_answer": 0,
+              "explanation": "It aims at increasing fish production.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_112",
+              "question": "The Yellow Revolution is related to which product?",
+              "options": [
+                "Eggs",
+                "Oilseeds",
+                "Honey",
+                "Pulses"
+              ],
+              "correct_answer": 1,
+              "explanation": "It increased production of edible oilseeds.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_113",
+              "question": "The Golden Revolution is related to which sector?",
+              "options": [
+                "Poultry",
+                "Fisheries",
+                "Horticulture",
+                "Jute"
+              ],
+              "correct_answer": 2,
+              "explanation": "It refers to growth in fruits, vegetables and honey.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_114",
+              "question": "Who was the first Finance Minister of independent India?",
+              "options": [
+                "John Mathai",
+                "C.D. Deshmukh",
+                "Morarji Desai",
+                "R.K. Shanmukham Chetty"
+              ],
+              "correct_answer": 3,
+              "explanation": "He presented independent India's first budget in 1947.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_115",
+              "question": "Who is called the architect of India's 1991 economic reforms?",
+              "options": [
+                "Manmohan Singh",
+                "P. Chidambaram",
+                "Yashwant Sinha",
+                "Pranab Mukherjee"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was Finance Minister under P.V. Narasimha Rao.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_116",
+              "question": "GST was implemented in India on which date?",
+              "options": [
+                "1 April 2017",
+                "1 July 2017",
+                "1 January 2018",
+                "15 August 2016"
+              ],
+              "correct_answer": 1,
+              "explanation": "It replaced many indirect taxes.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_117",
+              "question": "SENSEX is the benchmark index of which exchange?",
+              "options": [
+                "National Stock Exchange",
+                "Calcutta Stock Exchange",
+                "Bombay Stock Exchange",
+                "MCX"
+              ],
+              "correct_answer": 2,
+              "explanation": "SENSEX tracks 30 BSE companies.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_118",
+              "question": "NIFTY 50 is the index of which exchange?",
+              "options": [
+                "Bombay Stock Exchange",
+                "Delhi Stock Exchange",
+                "NCDEX",
+                "National Stock Exchange"
+              ],
+              "correct_answer": 3,
+              "explanation": "NIFTY tracks 50 NSE companies.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_119",
+              "question": "Which organisation operates UPI?",
+              "options": [
+                "NPCI",
+                "RBI",
+                "SEBI",
+                "SBI"
+              ],
+              "correct_answer": 0,
+              "explanation": "National Payments Corporation of India launched UPI in 2016.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_120",
+              "question": "Who presents the Union Budget in Parliament?",
+              "options": [
+                "Prime Minister",
+                "Finance Minister",
+                "RBI Governor",
+                "President"
+              ],
+              "correct_answer": 1,
+              "explanation": "The Budget is presented on 1 February.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_economy_121",
+              "question": "What is the name of India's government health insurance scheme launched in 2018?",
+              "options": [
+                "Jan Dhan Yojana",
+                "Ujjwala Yojana",
+                "Ayushman Bharat (PM-JAY)",
+                "Atal Pension Yojana"
+              ],
+              "correct_answer": 2,
+              "explanation": "It provides cover of ₹5 lakh per family.",
+              "difficulty": "easy",
+              "points": 10
             }
           ]
         },
@@ -20050,6 +22374,286 @@
               "explanation": "The Geosynchronous Satellite Launch Vehicle Mark III (GSLV Mk III), now officially named LVM3, is India's most powerful rocket. Its heavy-lift capability has earned it the nickname 'Baahubali'.",
               "difficulty": "hard",
               "points": 10
+            },
+            {
+              "id": "gk_science_101",
+              "question": "In which year did Chandrayaan-3 land on the Moon?",
+              "options": [
+                "2019",
+                "2021",
+                "2024",
+                "2023"
+              ],
+              "correct_answer": 3,
+              "explanation": "It landed near the lunar south pole on 23 August 2023.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_102",
+              "question": "What was the name of the Chandrayaan-3 lander?",
+              "options": [
+                "Vikram",
+                "Pragyan",
+                "Aryabhata",
+                "Kalam"
+              ],
+              "correct_answer": 0,
+              "explanation": "The lander was named after Vikram Sarabhai.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_103",
+              "question": "What was the name of the Chandrayaan-3 rover?",
+              "options": [
+                "Vikram",
+                "Pragyan",
+                "Bhaskara",
+                "Rohini"
+              ],
+              "correct_answer": 1,
+              "explanation": "Pragyan explored the lunar surface.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_104",
+              "question": "What does the Aditya-L1 mission study?",
+              "options": [
+                "The Moon",
+                "Mars",
+                "The Sun",
+                "Venus"
+              ],
+              "correct_answer": 2,
+              "explanation": "It observes the Sun from the L1 point.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_105",
+              "question": "Where is ISRO headquartered?",
+              "options": [
+                "Sriharikota",
+                "Thiruvananthapuram",
+                "Hyderabad",
+                "Bengaluru"
+              ],
+              "correct_answer": 3,
+              "explanation": "ISRO's headquarters is in Bengaluru.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_106",
+              "question": "Who was the first Indian to travel to space?",
+              "options": [
+                "Rakesh Sharma",
+                "Kalpana Chawla",
+                "Sunita Williams",
+                "Ravish Malhotra"
+              ],
+              "correct_answer": 0,
+              "explanation": "He flew on Soyuz T-11 in 1984.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_107",
+              "question": "Who was the first woman of Indian origin to go to space?",
+              "options": [
+                "Sunita Williams",
+                "Kalpana Chawla",
+                "Sirisha Bandla",
+                "Tessy Thomas"
+              ],
+              "correct_answer": 1,
+              "explanation": "She flew on Space Shuttle Columbia in 1997.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_108",
+              "question": "Who was the first Indian astronaut to visit the International Space Station?",
+              "options": [
+                "Rakesh Sharma",
+                "Prasanth Nair",
+                "Shubhanshu Shukla",
+                "Ajit Krishnan"
+              ],
+              "correct_answer": 2,
+              "explanation": "He flew on the Axiom-4 mission in 2025.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_109",
+              "question": "India's main rocket launch centre is located at?",
+              "options": [
+                "Thumba",
+                "Chandipur",
+                "Balasore",
+                "Sriharikota"
+              ],
+              "correct_answer": 3,
+              "explanation": "Satish Dhawan Space Centre is at Sriharikota.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_110",
+              "question": "What is India's regional satellite navigation system called?",
+              "options": [
+                "NavIC",
+                "GAGAN",
+                "Bhuvan",
+                "IRNSS-Net"
+              ],
+              "correct_answer": 0,
+              "explanation": "NavIC stands for Navigation with Indian Constellation.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_111",
+              "question": "In which year did India conduct the Pokhran-II nuclear tests?",
+              "options": [
+                "1974",
+                "1998",
+                "1999",
+                "2001"
+              ],
+              "correct_answer": 1,
+              "explanation": "The tests were held in May 1998.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_112",
+              "question": "What was India's first nuclear research reactor?",
+              "options": [
+                "Cirus",
+                "Dhruva",
+                "Apsara",
+                "Kamini"
+              ],
+              "correct_answer": 2,
+              "explanation": "Apsara went critical in 1956 at Trombay.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_113",
+              "question": "Where is the Bhabha Atomic Research Centre located?",
+              "options": [
+                "Kalpakkam",
+                "Hyderabad",
+                "Kolkata",
+                "Mumbai"
+              ],
+              "correct_answer": 3,
+              "explanation": "BARC is at Trombay, Mumbai.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_114",
+              "question": "In which year was DRDO established?",
+              "options": [
+                "1958",
+                "1969",
+                "1947",
+                "1962"
+              ],
+              "correct_answer": 0,
+              "explanation": "DRDO was formed in 1958.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_115",
+              "question": "What was India's first research station in Antarctica?",
+              "options": [
+                "Maitri",
+                "Dakshin Gangotri",
+                "Bharati",
+                "Himadri"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dakshin Gangotri was set up in 1983.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_116",
+              "question": "Which Indian research station is in the Arctic?",
+              "options": [
+                "Maitri",
+                "Bharati",
+                "Himadri",
+                "Dakshin Gangotri"
+              ],
+              "correct_answer": 2,
+              "explanation": "Himadri is at Ny-Alesund, Svalbard.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_117",
+              "question": "ISRO launched 104 satellites in a single mission in 2017 using which rocket?",
+              "options": [
+                "GSLV",
+                "SSLV",
+                "LVM3",
+                "PSLV"
+              ],
+              "correct_answer": 3,
+              "explanation": "PSLV-C37 set this record.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_118",
+              "question": "National Science Day is celebrated on which date?",
+              "options": [
+                "28 February",
+                "11 May",
+                "5 June",
+                "14 November"
+              ],
+              "correct_answer": 0,
+              "explanation": "It marks C.V. Raman's discovery of the Raman Effect.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_science_119",
+              "question": "National Technology Day is celebrated on which date?",
+              "options": [
+                "28 February",
+                "11 May",
+                "1 July",
+                "15 October"
+              ],
+              "correct_answer": 1,
+              "explanation": "It marks the 1998 Pokhran tests.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_science_120",
+              "question": "Who was project director of India's first satellite launch vehicle SLV-3?",
+              "options": [
+                "Vikram Sarabhai",
+                "Satish Dhawan",
+                "A.P.J. Abdul Kalam",
+                "K. Sivan"
+              ],
+              "correct_answer": 2,
+              "explanation": "SLV-3 launched Rohini in 1980.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         }
@@ -20418,6 +23022,216 @@
               ],
               "correct_answer": 1,
               "explanation": "Brahmagupta's Brahmasphutasiddhanta contained the first systematic treatment of algebra.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_101",
+              "question": "Who wrote 'Brahmasphutasiddhanta'?",
+              "options": [
+                "Aryabhata",
+                "Bhaskara II",
+                "Varahamihira",
+                "Brahmagupta"
+              ],
+              "correct_answer": 3,
+              "explanation": "Brahmagupta wrote it in 628 AD.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_102",
+              "question": "Who wrote the mathematical text 'Lilavati'?",
+              "options": [
+                "Bhaskara II",
+                "Brahmagupta",
+                "Aryabhata",
+                "Mahavira"
+              ],
+              "correct_answer": 0,
+              "explanation": "Bhaskara II wrote it in the 12th century.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_103",
+              "question": "The 'Charaka Samhita' is a classic text on what?",
+              "options": [
+                "Astronomy",
+                "Medicine (Ayurveda)",
+                "Grammar",
+                "Architecture"
+              ],
+              "correct_answer": 1,
+              "explanation": "It is a foundational Ayurvedic text.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_104",
+              "question": "The Iron Pillar of Delhi is famous for what property?",
+              "options": [
+                "Magnetism",
+                "Changing colour",
+                "Resistance to rust",
+                "Making sound"
+              ],
+              "correct_answer": 2,
+              "explanation": "It has resisted corrosion for over 1,600 years.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_105",
+              "question": "Which Harappan site had one of the world's earliest dockyards?",
+              "options": [
+                "Harappa",
+                "Kalibangan",
+                "Rakhigarhi",
+                "Lothal"
+              ],
+              "correct_answer": 3,
+              "explanation": "Lothal in Gujarat had a tidal dockyard.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_106",
+              "question": "The Great Bath was found at which Indus Valley site?",
+              "options": [
+                "Mohenjo-daro",
+                "Harappa",
+                "Lothal",
+                "Dholavira"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is an early public water tank.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_107",
+              "question": "Varahamihira wrote which encyclopedic work?",
+              "options": [
+                "Aryabhatiya",
+                "Brihat Samhita",
+                "Surya Siddhanta",
+                "Lilavati"
+              ],
+              "correct_answer": 1,
+              "explanation": "It covers astronomy, weather and architecture.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_108",
+              "question": "Who founded the Kerala school of mathematics, known for infinite series?",
+              "options": [
+                "Nilakantha Somayaji",
+                "Bhaskara I",
+                "Madhava of Sangamagrama",
+                "Mahavira"
+              ],
+              "correct_answer": 2,
+              "explanation": "Madhava worked on series for pi and sine.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_109",
+              "question": "Who built the Jantar Mantar observatories?",
+              "options": [
+                "Akbar",
+                "Shah Jahan",
+                "Raja Man Singh",
+                "Sawai Jai Singh II"
+              ],
+              "correct_answer": 3,
+              "explanation": "He built five observatories in the 18th century.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_110",
+              "question": "The earliest evidence of cotton cultivation comes from which civilisation?",
+              "options": [
+                "Indus Valley Civilisation",
+                "Egyptian",
+                "Mesopotamian",
+                "Chinese"
+              ],
+              "correct_answer": 0,
+              "explanation": "Cotton was grown in the Indus region over 5,000 years ago.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_111",
+              "question": "The word 'shampoo' comes from which language?",
+              "options": [
+                "Persian",
+                "Hindi",
+                "Sanskrit",
+                "Tamil"
+              ],
+              "correct_answer": 1,
+              "explanation": "It comes from 'champo', meaning to press or massage.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_112",
+              "question": "Indian numerals reached Europe mainly through which people?",
+              "options": [
+                "Greeks",
+                "Romans",
+                "Arabs",
+                "Chinese"
+              ],
+              "correct_answer": 2,
+              "explanation": "They are called Hindu-Arabic numerals.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_113",
+              "question": "The modern game Ludo comes from which ancient Indian game?",
+              "options": [
+                "Chaupar",
+                "Moksha Patam",
+                "Chaturanga",
+                "Pachisi"
+              ],
+              "correct_answer": 3,
+              "explanation": "Pachisi was played in Mughal courts.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_114",
+              "question": "Kautilya's 'Arthashastra' deals mainly with what?",
+              "options": [
+                "Statecraft and economics",
+                "Medicine",
+                "Astronomy",
+                "Music"
+              ],
+              "correct_answer": 0,
+              "explanation": "It is a treatise on governance.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_ancient_inventions_115",
+              "question": "Which Harappan city is known for its advanced water conservation system?",
+              "options": [
+                "Mohenjo-daro",
+                "Dholavira",
+                "Lothal",
+                "Banawali"
+              ],
+              "correct_answer": 1,
+              "explanation": "Dholavira in Gujarat had large reservoirs.",
               "difficulty": "medium",
               "points": 10
             }
@@ -20834,6 +23648,202 @@
               "explanation": "Lalji Singh established DNA fingerprinting in India and is called the 'Father of Indian DNA fingerprinting'.",
               "difficulty": "medium",
               "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_101",
+              "question": "Which number is called the Hardy-Ramanujan number?",
+              "options": [
+                "1089",
+                "6174",
+                "1729",
+                "1001"
+              ],
+              "correct_answer": 2,
+              "explanation": "1729 is the smallest number expressible as a sum of two cubes in two ways.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_102",
+              "question": "Har Gobind Khorana won the Nobel Prize for work on what?",
+              "options": [
+                "Raman effect",
+                "Ribosome structure",
+                "Stellar evolution",
+                "Genetic code"
+              ],
+              "correct_answer": 3,
+              "explanation": "He shared the 1968 Nobel Prize in Medicine.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_103",
+              "question": "Who founded the Indian Institute of Science in Bengaluru?",
+              "options": [
+                "Jamsetji Tata",
+                "Homi Bhabha",
+                "C.V. Raman",
+                "M. Visvesvaraya"
+              ],
+              "correct_answer": 0,
+              "explanation": "It opened in 1909 based on Tata's vision.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_104",
+              "question": "Anna Mani is known for her contribution to which field?",
+              "options": [
+                "Nuclear physics",
+                "Meteorological instruments",
+                "Genetics",
+                "Mathematics"
+              ],
+              "correct_answer": 1,
+              "explanation": "She was a pioneer of Indian meteorology.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_105",
+              "question": "E.K. Janaki Ammal was a pioneering scientist in which field?",
+              "options": [
+                "Astronomy",
+                "Chemistry",
+                "Botany",
+                "Physics"
+              ],
+              "correct_answer": 2,
+              "explanation": "She worked on plant cytogenetics and sugarcane.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_106",
+              "question": "Asima Chatterjee is known for developing which drugs?",
+              "options": [
+                "Polio vaccine",
+                "Antibiotics",
+                "Insulin",
+                "Anti-epileptic and anti-malarial drugs"
+              ],
+              "correct_answer": 3,
+              "explanation": "She was a leading organic chemist.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_107",
+              "question": "Birbal Sahni is famous for research in which field?",
+              "options": [
+                "Paleobotany",
+                "Astrophysics",
+                "Zoology",
+                "Statistics"
+              ],
+              "correct_answer": 0,
+              "explanation": "The Birbal Sahni Institute of Palaeosciences is in Lucknow.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_108",
+              "question": "Shanti Swarup Bhatnagar was the first Director-General of which body?",
+              "options": [
+                "ISRO",
+                "CSIR",
+                "DRDO",
+                "ICMR"
+              ],
+              "correct_answer": 1,
+              "explanation": "He founded many CSIR labs.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_109",
+              "question": "Ashoke Sen is famous for research in which field?",
+              "options": [
+                "Genetics",
+                "Robotics",
+                "String theory",
+                "Climate science"
+              ],
+              "correct_answer": 2,
+              "explanation": "He won the Breakthrough Prize in Physics in 2012.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_110",
+              "question": "Manjul Bhargava won which award in 2014?",
+              "options": [
+                "Nobel Prize",
+                "Turing Award",
+                "Abel Prize",
+                "Fields Medal"
+              ],
+              "correct_answer": 3,
+              "explanation": "It is mathematics' highest honour.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_111",
+              "question": "Raj Reddy became the first Asian to win which award in 1994?",
+              "options": [
+                "Turing Award",
+                "Fields Medal",
+                "Nobel Prize",
+                "Wolf Prize"
+              ],
+              "correct_answer": 0,
+              "explanation": "He was honoured for work in artificial intelligence.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_112",
+              "question": "Who is known as the 'Missile Woman of India'?",
+              "options": [
+                "Kalpana Chawla",
+                "Tessy Thomas",
+                "Ritu Karidhal",
+                "Anna Mani"
+              ],
+              "correct_answer": 1,
+              "explanation": "She led the Agni-IV and Agni-V projects.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_113",
+              "question": "Who discovered the role of ATP as the energy source in cells?",
+              "options": [
+                "Har Gobind Khorana",
+                "C.V. Raman",
+                "Yellapragada Subbarow",
+                "J.C. Bose"
+              ],
+              "correct_answer": 2,
+              "explanation": "Subbarow co-discovered ATP's function in muscle.",
+              "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_modern_scientists_114",
+              "question": "Who led ISRO's Chandrayaan-3 mission as Chairman?",
+              "options": [
+                "K. Sivan",
+                "A.S. Kiran Kumar",
+                "G. Madhavan Nair",
+                "S. Somanath"
+              ],
+              "correct_answer": 3,
+              "explanation": "S. Somanath was ISRO Chairman in 2023.",
+              "difficulty": "medium",
+              "points": 10
             }
           ]
         },
@@ -21176,6 +24186,132 @@
               ],
               "correct_answer": 3,
               "explanation": "Multiple Indian companies have developed indigenous cardiac stents.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_101",
+              "question": "Who developed the Jaipur Foot artificial limb?",
+              "options": [
+                "Dr. P.K. Sethi",
+                "Dr. Devi Shetty",
+                "Dr. Naresh Trehan",
+                "Dr. B.C. Roy"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was developed in 1969 with Ram Chandra Sharma.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_102",
+              "question": "Which company manufactured Covishield in India?",
+              "options": [
+                "Bharat Biotech",
+                "Serum Institute of India",
+                "Biological E",
+                "Zydus Cadila"
+              ],
+              "correct_answer": 1,
+              "explanation": "Covishield is the Oxford-AstraZeneca vaccine.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_103",
+              "question": "Who founded Narayana Health?",
+              "options": [
+                "Dr. Prathap C. Reddy",
+                "Dr. Naresh Trehan",
+                "Dr. Devi Shetty",
+                "Dr. G. Venkataswamy"
+              ],
+              "correct_answer": 2,
+              "explanation": "Devi Shetty is a noted cardiac surgeon.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_104",
+              "question": "Who founded Apollo Hospitals?",
+              "options": [
+                "Dr. Devi Shetty",
+                "Dr. Naresh Trehan",
+                "Dr. P.K. Sethi",
+                "Dr. Prathap C. Reddy"
+              ],
+              "correct_answer": 3,
+              "explanation": "The first Apollo Hospital opened in Chennai in 1983.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_105",
+              "question": "India's National Institute of Virology is located in which city?",
+              "options": [
+                "Pune",
+                "Delhi",
+                "Hyderabad",
+                "Kolkata"
+              ],
+              "correct_answer": 0,
+              "explanation": "NIV Pune isolated India's first SARS-CoV-2 strain.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_106",
+              "question": "WHO certified India polio-free in which year?",
+              "options": [
+                "2011",
+                "2014",
+                "2010",
+                "2016"
+              ],
+              "correct_answer": 1,
+              "explanation": "India's last wild polio case was in 2011.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_107",
+              "question": "Which Indian company developed ZyCoV-D, the world's first DNA vaccine for COVID-19?",
+              "options": [
+                "Bharat Biotech",
+                "Serum Institute of India",
+                "Zydus Cadila",
+                "Biological E"
+              ],
+              "correct_answer": 2,
+              "explanation": "It was approved in 2021.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_108",
+              "question": "Which Indian city is home to the Christian Medical College founded by Ida Scudder?",
+              "options": [
+                "Ludhiana",
+                "Chennai",
+                "Manipal",
+                "Vellore"
+              ],
+              "correct_answer": 3,
+              "explanation": "CMC Vellore was founded in 1900.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_medical_inventions_109",
+              "question": "AIIMS New Delhi was established in which year?",
+              "options": [
+                "1956",
+                "1947",
+                "1961",
+                "1972"
+              ],
+              "correct_answer": 0,
+              "explanation": "It was created by an Act of Parliament in 1956.",
               "difficulty": "medium",
               "points": 10
             }
@@ -21563,6 +24699,202 @@
               "correct_answer": 3,
               "explanation": "KPIT-Cummins developed India's first hydrogen fuel cell bus.",
               "difficulty": "hard",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_101",
+              "question": "Who co-founded Infosys and served as its first CEO?",
+              "options": [
+                "Azim Premji",
+                "N.R. Narayana Murthy",
+                "Nandan Nilekani",
+                "Shiv Nadar"
+              ],
+              "correct_answer": 1,
+              "explanation": "Infosys was founded in 1981.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_102",
+              "question": "Who is known as the father of the Indian IT industry?",
+              "options": [
+                "N.R. Narayana Murthy",
+                "Shiv Nadar",
+                "F.C. Kohli",
+                "Sam Pitroda"
+              ],
+              "correct_answer": 2,
+              "explanation": "Faqir Chand Kohli was TCS's first CEO.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_103",
+              "question": "Who was the founding chairman of UIDAI (Aadhaar)?",
+              "options": [
+                "Sam Pitroda",
+                "Raghuram Rajan",
+                "Azim Premji",
+                "Nandan Nilekani"
+              ],
+              "correct_answer": 3,
+              "explanation": "He led Aadhaar from 2009.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_104",
+              "question": "Who founded C-DOT and led India's telecom revolution?",
+              "options": [
+                "Sam Pitroda",
+                "F.C. Kohli",
+                "Vinod Dham",
+                "Ajai Chowdhry"
+              ],
+              "correct_answer": 0,
+              "explanation": "C-DOT was founded in 1984.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_105",
+              "question": "Who founded HCL?",
+              "options": [
+                "Azim Premji",
+                "Shiv Nadar",
+                "N.R. Narayana Murthy",
+                "Ratan Tata"
+              ],
+              "correct_answer": 1,
+              "explanation": "HCL was founded in 1976.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_106",
+              "question": "Who founded Flipkart?",
+              "options": [
+                "Kunal Bahl and Rohit Bansal",
+                "Vijay Shekhar Sharma",
+                "Sachin Bansal and Binny Bansal",
+                "Bhavish Aggarwal"
+              ],
+              "correct_answer": 2,
+              "explanation": "Flipkart was founded in 2007.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_107",
+              "question": "Who founded Paytm?",
+              "options": [
+                "Kunal Shah",
+                "Byju Raveendran",
+                "Ritesh Agarwal",
+                "Vijay Shekhar Sharma"
+              ],
+              "correct_answer": 3,
+              "explanation": "Paytm was launched in 2010.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_108",
+              "question": "Which Indian-origin executive became CEO of Microsoft in 2014?",
+              "options": [
+                "Satya Nadella",
+                "Sundar Pichai",
+                "Shantanu Narayen",
+                "Arvind Krishna"
+              ],
+              "correct_answer": 0,
+              "explanation": "Satya Nadella succeeded Steve Ballmer.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_109",
+              "question": "Who is known as India's 'Metro Man'?",
+              "options": [
+                "Verghese Kurien",
+                "E. Sreedharan",
+                "Sam Pitroda",
+                "M. Visvesvaraya"
+              ],
+              "correct_answer": 1,
+              "explanation": "He built the Konkan Railway and Delhi Metro.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_110",
+              "question": "India's first metro rail service started in which city?",
+              "options": [
+                "Delhi",
+                "Mumbai",
+                "Kolkata",
+                "Chennai"
+              ],
+              "correct_answer": 2,
+              "explanation": "Kolkata Metro opened in 1984.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_111",
+              "question": "The Chenab Bridge, the world's highest railway arch bridge, is in which region?",
+              "options": [
+                "Himachal Pradesh",
+                "Uttarakhand",
+                "Sikkim",
+                "Jammu and Kashmir"
+              ],
+              "correct_answer": 3,
+              "explanation": "It stands about 359 m above the river.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_112",
+              "question": "India's first bullet train corridor connects Mumbai with which city?",
+              "options": [
+                "Ahmedabad",
+                "Pune",
+                "Delhi",
+                "Surat"
+              ],
+              "correct_answer": 0,
+              "explanation": "It uses Japanese Shinkansen technology.",
+              "difficulty": "easy",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_113",
+              "question": "Where was the Vande Bharat Express first built?",
+              "options": [
+                "Rail Coach Factory, Kapurthala",
+                "Integral Coach Factory, Chennai",
+                "BEML, Bengaluru",
+                "Modern Coach Factory, Rae Bareli"
+              ],
+              "correct_answer": 1,
+              "explanation": "ICF Chennai built the first train in 2018.",
+              "difficulty": "medium",
+              "points": 10
+            },
+            {
+              "id": "gk_tech_innovations_114",
+              "question": "Which engineer's birthday, 15 September, is celebrated as Engineers' Day in India?",
+              "options": [
+                "E. Sreedharan",
+                "Satish Dhawan",
+                "M. Visvesvaraya",
+                "Homi Bhabha"
+              ],
+              "correct_answer": 2,
+              "explanation": "Visvesvaraya was a noted civil engineer.",
+              "difficulty": "easy",
               "points": 10
             }
           ]
