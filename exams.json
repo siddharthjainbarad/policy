@@ -9,7 +9,11 @@
       {"key": "s2_reg", "label": "Session 2 registration closes", "kind": "registration", "month": 2, "day": 25},
       {"key": "s2", "label": "Session 2", "kind": "exam", "month": 4, "day": 2, "span": 8, "date": "2027-04-02", "status": "tentative"},
       {"key": "s2_result", "label": "Final result", "kind": "result", "month": 4, "day": 19}
-    ]},
+    ], "syllabus": {"source": "https://jeemain.nta.nic.in", "subjects": [
+      {"name": "Physics", "units": ["Units and Measurements", "Kinematics", "Laws of Motion", "Work, Energy and Power", "Rotational Motion", "Gravitation", "Properties of Solids and Liquids", "Thermodynamics", "Kinetic Theory of Gases", "Oscillations and Waves", "Electrostatics", "Current Electricity", "Magnetic Effects of Current and Magnetism", "Electromagnetic Induction and Alternating Currents", "Electromagnetic Waves", "Optics", "Dual Nature of Matter and Radiation", "Atoms and Nuclei", "Electronic Devices", "Experimental Skills"]},
+      {"name": "Chemistry", "units": ["Some Basic Concepts in Chemistry", "Atomic Structure", "Chemical Bonding and Molecular Structure", "Chemical Thermodynamics", "Solutions", "Equilibrium", "Redox Reactions and Electrochemistry", "Chemical Kinetics", "Classification of Elements and Periodicity", "p-Block Elements", "d- and f-Block Elements", "Coordination Compounds", "Purification and Characterisation of Organic Compounds", "Basic Principles of Organic Chemistry", "Hydrocarbons", "Organic Compounds Containing Halogens", "Organic Compounds Containing Oxygen", "Organic Compounds Containing Nitrogen", "Biomolecules", "Principles Related to Practical Chemistry"]},
+      {"name": "Mathematics", "units": ["Sets, Relations and Functions", "Complex Numbers and Quadratic Equations", "Matrices and Determinants", "Permutations and Combinations", "Binomial Theorem", "Sequence and Series", "Limits, Continuity and Differentiability", "Integral Calculus", "Differential Equations", "Coordinate Geometry", "Three Dimensional Geometry", "Vector Algebra", "Statistics and Probability", "Trigonometry"]}
+    ]}},
     {"id": "jee_adv", "name": "JEE Advanced", "category": "Engineering", "body": "IITs", "url": "https://jeeadv.ac.in", "about": "Admission to the IITs. Only top JEE Main rankers can register.", "tags": ["iit", "btech", "pcm"], "milestones": [
       {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 5, "day": 2},
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 5, "day": 18, "date": "2027-05-23", "status": "tentative"},
@@ -58,7 +62,11 @@
       {"key": "admit", "label": "Admit card", "kind": "admit_card", "month": 4, "day": 26},
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 5, "day": 3, "date": "2027-05-02", "status": "tentative"},
       {"key": "result", "label": "Result", "kind": "result", "month": 6, "day": 14}
-    ]},
+    ], "syllabus": {"source": "https://neet.nta.nic.in", "subjects": [
+      {"name": "Physics", "units": ["Physics and Measurement", "Kinematics", "Laws of Motion", "Work, Energy and Power", "Rotational Motion", "Gravitation", "Properties of Solids and Liquids", "Thermodynamics", "Kinetic Theory of Gases", "Oscillations and Waves", "Electrostatics", "Current Electricity", "Magnetic Effects of Current and Magnetism", "Electromagnetic Induction and Alternating Currents", "Electromagnetic Waves", "Optics", "Dual Nature of Matter and Radiation", "Atoms and Nuclei", "Electronic Devices", "Experimental Skills"]},
+      {"name": "Chemistry", "units": ["Some Basic Concepts in Chemistry", "Atomic Structure", "Chemical Bonding and Molecular Structure", "Chemical Thermodynamics", "Solutions", "Equilibrium", "Redox Reactions and Electrochemistry", "Chemical Kinetics", "Classification of Elements and Periodicity", "p-Block Elements", "d- and f-Block Elements", "Coordination Compounds", "Purification and Characterisation of Organic Compounds", "Basic Principles of Organic Chemistry", "Hydrocarbons", "Organic Compounds Containing Halogens", "Organic Compounds Containing Oxygen", "Organic Compounds Containing Nitrogen", "Biomolecules", "Principles Related to Practical Chemistry"]},
+      {"name": "Biology", "units": ["Diversity in Living World", "Structural Organisation in Animals and Plants", "Cell Structure and Function", "Plant Physiology", "Human Physiology", "Reproduction", "Genetics and Evolution", "Biology and Human Welfare", "Biotechnology and Its Applications", "Ecology and Environment"]}
+    ]}},
     {"id": "neet_pg", "name": "NEET PG", "category": "Medical", "body": "NBEMS", "url": "https://natboard.edu.in", "tags": ["md", "ms", "postgraduate", "doctor"], "milestones": [
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 8, "day": 3}
     ]},
