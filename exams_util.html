@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exam Dates Manager</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f3fb; --card: #ffffff; --card2: #efeaf7; --ink: #1d1b22; --muted: #6b6578; --line: #e3dcef;
+    --primary: #7c4dff; --primary-lip: #5a2fd6; --ok: #2e7d32; --warn: #ef6c00; --est: #757575; --bad: #d32f2f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141218; --card: #211f26; --card2: #2b2930; --ink: #e8e3f0; --muted: #a59fb3; --line: #36323d;
+      --primary: #b69df8; --primary-lip: #8a6fe0; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Fredoka, system-ui, sans-serif; font-weight: 500; background: var(--bg); color: var(--ink); }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 14px 16px 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 22px; font-weight: 700; margin: 0; letter-spacing: -0.4px; flex: 1; min-width: 180px; }
+  main { max-width: 900px; margin: 0 auto; padding: 12px 16px 120px; }
+  .pill { background: var(--card2); border-radius: 20px; padding: 5px 12px; font-weight: 700; font-size: 14px; }
+  .label { text-transform: uppercase; font-size: 12px; font-weight: 700; letter-spacing: 1.1px; color: var(--muted); margin: 22px 4px 8px; display: flex; justify-content: space-between; }
+  .card { background: var(--card); border-radius: 18px; padding: 14px; margin-bottom: 10px; box-shadow: 0 4px 0 var(--line); }
+  button, .btn { font: inherit; font-weight: 700; border: 0; border-radius: 14px; padding: 10px 16px; cursor: pointer; background: var(--card2); color: var(--ink);
+    box-shadow: 0 4px 0 var(--line); transition: transform .06s, box-shadow .06s; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  button:active, .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--line); }
+  button.primary { background: var(--primary); color: #fff; box-shadow: 0 4px 0 var(--primary-lip); }
+  @media (prefers-color-scheme: dark) { button.primary { color: #1d1b22; } }
+  button.danger { background: var(--bad); color: #fff; box-shadow: 0 4px 0 #9a1d1d; }
+  button:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+  button.small { padding: 6px 10px; font-size: 13px; border-radius: 10px; }
+  input, select, textarea { font: inherit; font-weight: 500; color: var(--ink); background: var(--card2); border: 2px solid transparent; border-radius: 12px; padding: 9px 11px; width: 100%; min-width: 0; }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primary); }
+  input.invalid { border-color: var(--bad); }
+  .tabs { display: flex; gap: 8px; margin: 10px 0 4px; overflow-x: auto; }
+  .tabs button.on { background: var(--primary); color: #fff; box-shadow: 0 4px 0 var(--primary-lip); }
+  .row { display: flex; gap: 10px; align-items: center; }
+  .grow { flex: 1; min-width: 0; }
+  .title { font-weight: 700; font-size: 16px; }
+  .sub { color: var(--muted); font-size: 13.5px; }
+  .chip { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 9px; }
+  .chip.confirmed { color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); }
+  .chip.tentative { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); }
+  .chip.estimated { color: var(--est); background: color-mix(in srgb, var(--est) 16%, transparent); }
+  .chip.dirty { color: #fff; background: var(--primary); }
+  .fields { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; margin-top: 10px; }
+  .fields .wide { grid-column: 1 / -1; }
+  .fields label { font-size: 12px; color: var(--muted); font-weight: 600; display: block; margin-bottom: 3px; }
+  @media (min-width: 700px) { .fields.todo { grid-template-columns: 150px 150px 130px 1fr auto; align-items: end; } .fields.todo .wide { grid-column: auto; } }
+  .exam-row { cursor: pointer; }
+  .badge { width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center; font-weight: 700; flex: none; background: color-mix(in srgb, var(--primary) 16%, transparent); color: var(--primary); }
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--line); padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); display: flex; gap: 10px; align-items: center; z-index: 6; }
+  .bar .msg { flex: 1; font-size: 14px; color: var(--muted); }
+  .bar .msg.err { color: var(--bad); }
+  dialog { border: 0; border-radius: 22px; padding: 0; width: min(760px, 96vw); max-height: 92vh; background: var(--bg); color: var(--ink); }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  dialog .inner { padding: 18px; overflow-y: auto; max-height: 92vh; }
+  .ms { background: var(--card); border-radius: 14px; padding: 10px; margin: 8px 0; }
+  .ms .fields { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  @media (max-width: 600px) { .ms .fields { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+  .errors { color: var(--bad); font-size: 14px; margin: 8px 0; }
+  .empty { text-align: center; color: var(--muted); padding: 40px 10px; }
+  a { color: var(--primary); }
+</style>
+</head>
+<body>
+<header>
+  <h1>📅 Exam Dates</h1>
+  <span class="pill" id="countPill">…</span>
+  <button class="small" id="settingsBtn">⚙️ GitHub</button>
+</header>
+
+<main>
+  <div class="tabs">
+    <button id="tabTodo" class="on">To do</button>
+    <button id="tabAll">All exams</button>
+    <button id="newExamBtn">＋ New exam</button>
+  </div>
+  <div id="view"></div>
+</main>
+
+<div class="bar">
+  <div class="msg" id="msg">Loading…</div>
+  <button class="primary" id="publishBtn" disabled>Publish</button>
+</div>
+
+<dialog id="settingsDlg"><div class="inner">
+  <h2 style="margin-top:0">Connect GitHub</h2>
+  <p class="sub">Publishing commits <b>exams.json</b> to <b>siddharthjainbarad/policy</b> directly. Create a
+    <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
+    with access to only the <b>policy</b> repository and <b>Contents: Read and write</b>. It is stored only in this browser.</p>
+  <input id="tokenInput" type="password" placeholder="github_pat_…" autocomplete="off">
+  <div class="row" style="margin-top:14px; justify-content:flex-end">
+    <button id="forgetBtn">Forget token</button>
+    <button class="primary" id="saveTokenBtn">Save</button>
+  </div>
+</div></dialog>
+
+<dialog id="examDlg"><div class="inner" id="examDlgInner"></div></dialog>
+
+<script>
+const OWNER = 'siddharthjainbarad', REPO = 'policy', BRANCH = 'master', FILE = 'exams.json';
+const CATEGORIES = ['Engineering', 'Medical', 'Boards', 'University', 'Law', 'Design', 'MBA', 'Govt', 'Banking', 'Defence', 'Teaching', 'Olympiad', 'School'];
+const KINDS = ['exam', 'registration', 'admit_card', 'result', 'other'];
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+let data = null, sha = null, tab = 'todo', query = '';
+const dirty = new Set(), deleted = new Set();   // exam ids changed since load
+let token = '';
+try { token = localStorage.getItem('exams_util_token') || ''; } catch (_) {}
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+// ---------- dates (same rules as lib/models/exam.dart) ----------
+const today = (() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); })();
+const parse = (s) => { if (!/^\d{4}-\d{2}-\d{2}$/.test(s || '')) return null; const [y, m, d] = s.split('-').map(Number); const r = new Date(y, m - 1, d); return r.getMonth() === m - 1 ? r : null; };
+const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const clamped = (y, m, d) => new Date(y, m - 1, Math.min(d, new Date(y, m, 0).getDate()));
+const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+const daysBetween = (a, b) => Math.round((b - a) / 86400000);
+const nice = (d) => `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+
+function nextOf(m) {
+  const d = parse(m.date), e = parse(m.end);
+  if (d && (e || d) >= today) return { start: d, status: m.status || 'tentative' };
+  if (!m.month || !m.day) return null;
+  for (let y = d ? d.getFullYear() + 1 : today.getFullYear(); ; y++) {
+    const s = clamped(y, m.month, m.day), stop = addDays(s, (m.span || 1) - 1);
+    if (stop >= today && (!d || daysBetween(d, s) > 120)) return { start: s, status: 'estimated' };
+  }
+}
+
+// ---------- validation (mirrors the app's parser and lib/models/catalog_merge.dart) ----------
+function validate() {
+  const errs = [], ids = new Set();
+  for (const e of data.exams) {
+    const where = e.name || e.id || '(new exam)';
+    if (!/^[a-z0-9_]{2,40}$/.test(e.id || '')) errs.push(`${where}: id must be lowercase letters, digits or _`);
+    if (ids.has(e.id)) errs.push(`${where}: duplicate id ${e.id}`); ids.add(e.id);
+    if (!e.name) errs.push(`${where}: needs a name`);
+    if (!CATEGORIES.includes(e.category)) errs.push(`${where}: pick a category`);
+    if (e.url && !e.url.startsWith('https://')) errs.push(`${where}: website must start with https://`);
+    if (!e.milestones?.length) errs.push(`${where}: needs at least one date`);
+    const keys = new Set();
+    for (const m of e.milestones || []) {
+      const w = `${where} · ${m.label || m.key || '?'}`;
+      if (!m.key || !m.label) errs.push(`${w}: needs a key and label`);
+      if (keys.has(m.key)) errs.push(`${w}: duplicate key`); keys.add(m.key);
+      if ((m.month == null) !== (m.day == null)) errs.push(`${w}: set both usual month and day`);
+      if (m.month != null && (m.month < 1 || m.month > 12 || m.day < 1 || m.day > 31)) errs.push(`${w}: bad usual month/day`);
+      if (m.date != null && !parse(m.date)) errs.push(`${w}: bad date`);
+      if (m.end != null && (!parse(m.end) || (parse(m.date) && parse(m.end) < parse(m.date)))) errs.push(`${w}: end is before start`);
+      if (!m.month && !m.date) errs.push(`${w}: needs a date or a usual month/day`);
+      if (m.source && !m.source.startsWith('https://')) errs.push(`${w}: source must be an https link`);
+    }
+  }
+  return errs;
+}
+
+// ---------- same layout as encodeCatalog() in the app, so diffs stay one line per change ----------
+function cleanExam(e) {
+  const o = { id: e.id, name: e.name, category: e.category };
+  for (const k of ['body', 'url', 'about']) if (e[k]) o[k] = e[k];
+  if (e.tags?.length) o.tags = e.tags;
+  if (e.cycle_offset) o.cycle_offset = e.cycle_offset;
+  o.milestones = e.milestones.map((m) => {
+    const r = { key: m.key, label: m.label, kind: m.kind || 'exam' };
+    if (m.month != null) { r.month = m.month; r.day = m.day; }
+    if (m.span && m.span !== 1) r.span = m.span;
+    if (m.date) { r.date = m.date; if (m.end) r.end = m.end; r.status = m.status || 'tentative'; }
+    if (m.source) r.source = m.source;
+    return r;
+  });
+  return o;
+}
+const inline = (o) => Object.entries(o).map(([k, v]) => `${JSON.stringify(k)}: ${Array.isArray(v) ? `[${v.map((x) => JSON.stringify(x)).join(', ')}]` : JSON.stringify(v)}`).join(', ');
+function encode(cat) {
+  let s = `{\n  "schema": 2,\n  "updated": ${JSON.stringify(cat.updated)},\n  "exams": [\n`;
+  cat.exams.forEach((e, i) => {
+    const { milestones, ...head } = cleanExam(e);
+    s += `    {${inline(head)}, "milestones": [\n`;
+    s += milestones.map((m) => `      {${inline(m)}}`).join(',\n') + '\n';
+    s += `    ]}${i < cat.exams.length - 1 ? ',' : ''}\n`;
+  });
+  return s + '  ]\n}\n';
+}
+
+// ---------- GitHub ----------
+const b64decode = (b) => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\n/g, '')), (c) => c.charCodeAt(0)));
+const b64encode = (s) => { const bytes = new TextEncoder().encode(s); let bin = ''; bytes.forEach((b) => bin += String.fromCharCode(b)); return btoa(bin); };
+const api = (path, opts = {}) => fetch(`https://api.github.com/repos/${OWNER}/${REPO}/${path}`, {
+  ...opts, headers: { Accept: 'application/vnd.github+json', Authorization: `Bearer ${token}`, ...(opts.headers || {}) },
+});
+
+async function fetchLatest() {
+  if (token) {
+    const r = await api(`contents/${FILE}?ref=${BRANCH}`, { cache: 'no-store' });
+    if (r.ok) { const j = await r.json(); return { cat: JSON.parse(b64decode(j.content)), sha: j.sha }; }
+    if (r.status === 401) setMsg('GitHub token was rejected. Showing the public copy.', true);
+  }
+  const r = await fetch(`${FILE}?t=${Date.now()}`, { cache: 'no-store' });
+  if (!r.ok) throw new Error(`Could not load ${FILE} (HTTP ${r.status})`);
+  return { cat: await r.json(), sha: null };
+}
+
+async function load() {
+  try {
+    ({ cat: data, sha } = await fetchLatest());
+    dirty.clear(); deleted.clear();
+    setMsg(`Loaded ${data.exams.length} exams · last updated ${new Date(data.updated).toLocaleString()}`);
+  } catch (e) { setMsg(e.message, true); data = { schema: 2, updated: new Date().toISOString(), exams: [] }; }
+  render();
+}
+
+function summary() {
+  const names = [...dirty].map((id) => data.exams.find((e) => e.id === id)?.name).filter(Boolean);
+  const del = [...deleted];
+  return `Exam dates: ${[...names, ...del.map((d) => `removed ${d}`)].join(', ')}`.slice(0, 120);
+}
+
+async function publish() {
+  const errs = validate();
+  if (errs.length) { setMsg(`Fix ${errs.length} problem(s) first: ${errs[0]}`, true); return; }
+  if (!token) { $('settingsDlg').showModal(); return; }
+  $('publishBtn').disabled = true; setMsg('Publishing…');
+  try {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      if (attempt > 0) {
+        // Someone (usually the weekly bot) pushed meanwhile: re-apply my exams on top of theirs.
+        const latest = await fetchLatest();
+        const mine = new Map(data.exams.filter((e) => dirty.has(e.id)).map((e) => [e.id, e]));
+        const merged = latest.cat.exams.filter((e) => !deleted.has(e.id)).map((e) => mine.get(e.id) || e);
+        for (const [id, e] of mine) if (!merged.some((x) => x.id === id)) merged.push(e);
+        data = { ...latest.cat, exams: merged }; sha = latest.sha;
+      }
+      const out = { ...data, updated: new Date().toISOString() };
+      const r = await api(`contents/${FILE}`, {
+        method: 'PUT',
+        body: JSON.stringify({ message: summary(), content: b64encode(encode(out)), sha: sha || undefined, branch: BRANCH }),
+      });
+      if (r.ok) {
+        const j = await r.json();
+        sha = j.content.sha; data = out; dirty.clear(); deleted.clear();
+        fetch(`https://purge.jsdelivr.net/gh/${OWNER}/${REPO}@${BRANCH}/${FILE}`, { mode: 'no-cors' }).catch(() => {});
+        setMsg('✅ Published. Phones get it on their next launch (GitHub Pages can take a few minutes).');
+        render(); return;
+      }
+      if (r.status === 409 || r.status === 422) continue;
+      throw new Error(r.status === 401 || r.status === 403 ? 'GitHub refused the token. Check it has Contents write access to policy.' : `GitHub error ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    }
+    throw new Error('The file kept changing on GitHub. Reload and try again.');
+  } catch (e) { setMsg(e.message, true); } finally { updateBar(); }
+}
+
+// ---------- UI ----------
+function setMsg(t, err = false) { const m = $('msg'); m.textContent = t; m.classList.toggle('err', err); }
+function updateBar() {
+  const n = dirty.size + deleted.size;
+  $('publishBtn').disabled = n === 0;
+  $('publishBtn').textContent = n ? `Publish ${n} change${n > 1 ? 's' : ''}` : 'Publish';
+  $('countPill').textContent = data ? `${data.exams.length} exams` : '…';
+}
+function markDirty(id) { dirty.add(id); setMsg('Unpublished changes'); updateBar(); }
+
+function todoItems() {
+  const items = [];
+  for (const e of data.exams) for (const m of e.milestones) {
+    const n = nextOf(m);
+    if (!n || n.status === 'confirmed') continue;
+    const days = daysBetween(today, n.start);
+    if (days <= 300) items.push({ e, m, n, days });
+  }
+  return items.sort((a, b) => a.days - b.days);
+}
+
+function render() {
+  updateBar();
+  const v = $('view');
+  if (tab === 'todo') {
+    const items = todoItems().filter(({ e }) => match(e));
+    v.innerHTML = `${searchBox()}
+      <div class="label"><span>Dates to confirm · next 10 months</span><span>${items.length}</span></div>
+      ${items.length ? '' : '<div class="empty">🎉 Every upcoming date is confirmed.</div>'}
+      ${items.map(({ e, m, n, days }, i) => `
+        <div class="card" data-i="${i}">
+          <div class="row">
+            <div class="badge">${days}</div>
+            <div class="grow">
+              <div class="title">${esc(e.name)} · ${esc(m.label)} ${dirty.has(e.id) ? '<span class="chip dirty">edited</span>' : ''}</div>
+              <div class="sub">${n.status === 'estimated' ? '~' : ''}${nice(n.start)} <span class="chip ${n.status}">${n.status}</span>
+                ${e.url ? ` · <a href="${esc(e.url)}" target="_blank" rel="noopener">official site ↗</a>` : ''}</div>
+            </div>
+          </div>
+          <div class="fields todo">
+            <div><label>Date</label><input type="date" data-f="date" value="${n.status === 'estimated' ? '' : esc(m.date || '')}"></div>
+            <div><label>Last day (optional)</label><input type="date" data-f="end" value="${esc(m.end || '')}"></div>
+            <div><label>Status</label><select data-f="status"><option value="confirmed">Confirmed</option><option value="tentative">Tentative</option></select></div>
+            <div class="wide"><label>Source link</label><input type="url" data-f="source" placeholder="https://… notice or bulletin" value="${esc(m.source || '')}"></div>
+            <div><label>&nbsp;</label><button class="primary small" data-save>Save</button></div>
+          </div>
+        </div>`).join('')}`;
+    v.querySelectorAll('[data-save]').forEach((btn) => btn.onclick = () => {
+      const card = btn.closest('.card'), { e, m } = items[+card.dataset.i];
+      const get = (f) => card.querySelector(`[data-f="${f}"]`);
+      const date = get('date').value, end = get('end').value, source = get('source').value.trim();
+      get('date').classList.toggle('invalid', !date);
+      get('source').classList.toggle('invalid', !!source && !source.startsWith('https://'));
+      if (!date || (source && !source.startsWith('https://'))) return;
+      if (end && end < date) { get('end').classList.add('invalid'); return; }
+      if (m.month && Math.min(...[-1, 0, 1].map((dy) => Math.abs(daysBetween(clamped(parse(date).getFullYear() + dy, m.month, m.day), parse(date))))) > 120
+          && !confirm(`${date} is far from the usual ${m.day} ${MONTHS[m.month - 1]}. Save anyway?`)) return;
+      Object.assign(m, { date, end: end || null, status: get('status').value, source: source || undefined });
+      if (!m.end) delete m.end;
+      markDirty(e.id); render();
+    });
+  } else {
+    const list = data.exams.filter(match);
+    const groups = {};
+    list.forEach((e) => (groups[e.category] ??= []).push(e));
+    v.innerHTML = searchBox() + Object.entries(groups).map(([c, es]) => `
+      <div class="label"><span>${esc(c)}</span><span>${es.length}</span></div>
+      ${es.map((e) => { const n = e.milestones.map(nextOf).filter(Boolean).sort((a, b) => a.start - b.start)[0];
+        return `<div class="card exam-row" data-id="${esc(e.id)}"><div class="row">
+          <div class="badge">${n ? daysBetween(today, n.start) : '–'}</div>
+          <div class="grow"><div class="title">${esc(e.name)} ${dirty.has(e.id) ? '<span class="chip dirty">edited</span>' : ''}</div>
+            <div class="sub">${esc(e.body || '')}${n ? ` · next ${n.status === 'estimated' ? '~' : ''}${nice(n.start)} <span class="chip ${n.status}">${n.status}</span>` : ''}</div></div>
+          <span class="sub">›</span></div></div>`; }).join('')}`).join('')
+      + (list.length ? '' : '<div class="empty">No exams match.</div>');
+    v.querySelectorAll('.exam-row').forEach((r) => r.onclick = () => openExam(data.exams.find((e) => e.id === r.dataset.id)));
+  }
+  const s = $('search');
+  s.oninput = () => { query = s.value; const pos = s.selectionStart; render(); $('search').focus(); $('search').setSelectionRange(pos, pos); };
+}
+const searchBox = () => `<input id="search" placeholder="Search exams" value="${esc(query)}" style="margin-top:8px">`;
+const match = (e) => !query || `${e.name} ${e.category} ${e.body || ''} ${(e.tags || []).join(' ')}`.toLowerCase().includes(query.toLowerCase().trim());
+
+// ---------- full exam editor ----------
+function openExam(exam, isNew = false) {
+  const e = structuredClone(exam);
+  const dlg = $('examDlg'), inner = $('examDlgInner');
+  const draw = () => {
+    inner.innerHTML = `
+      <h2 style="margin:0 0 6px">${isNew ? 'New exam' : esc(e.name)}</h2>
+      <div class="fields">
+        <div><label>Name</label><input data-e="name" value="${esc(e.name)}" placeholder="e.g. GUJCET"></div>
+        <div><label>ID (never change after publishing)</label><input data-e="id" value="${esc(e.id)}" ${isNew ? '' : 'readonly'} placeholder="gujcet"></div>
+        <div><label>Category</label><select data-e="category">${CATEGORIES.map((c) => `<option ${c === e.category ? 'selected' : ''}>${c}</option>`).join('')}</select></div>
+        <div><label>Conducted by</label><input data-e="body" value="${esc(e.body || '')}" placeholder="NTA"></div>
+        <div class="wide"><label>Official website</label><input data-e="url" value="${esc(e.url || '')}" placeholder="https://…"></div>
+        <div class="wide"><label>About (one line)</label><input data-e="about" value="${esc(e.about || '')}"></div>
+        <div><label>Search tags (comma separated)</label><input data-e="tags" value="${esc((e.tags || []).join(', '))}"></div>
+        <div><label>Named after next year? (CLAT-style)</label><select data-e="cycle_offset"><option value="0">No</option><option value="1" ${e.cycle_offset ? 'selected' : ''}>Yes</option></select></div>
+      </div>
+      <div class="label"><span>Dates</span></div>
+      ${e.milestones.map((m, i) => `<div class="ms" data-m="${i}">
+        <div class="row"><input data-k="label" value="${esc(m.label)}" placeholder="Label, e.g. Session 1" class="grow" style="font-weight:700">
+          <button class="small" data-del="${i}" title="Remove">🗑</button></div>
+        <div class="fields">
+          <div><label>Kind</label><select data-k="kind">${KINDS.map((k) => `<option ${k === (m.kind || 'exam') ? 'selected' : ''}>${k}</option>`).join('')}</select></div>
+          <div><label>Usual month</label><select data-k="month"><option value="">–</option>${MONTHS.map((mo, j) => `<option value="${j + 1}" ${m.month === j + 1 ? 'selected' : ''}>${mo}</option>`).join('')}</select></div>
+          <div><label>Usual day</label><input type="number" min="1" max="31" data-k="day" value="${m.day ?? ''}"></div>
+          <div><label>Length (days)</label><input type="number" min="1" max="90" data-k="span" value="${m.span || 1}"></div>
+          <div><label>Announced date</label><input type="date" data-k="date" value="${esc(m.date || '')}"></div>
+          <div><label>Last day</label><input type="date" data-k="end" value="${esc(m.end || '')}"></div>
+          <div><label>Status</label><select data-k="status">${['tentative', 'confirmed'].map((s) => `<option ${s === (m.status || 'tentative') ? 'selected' : ''}>${s}</option>`).join('')}</select></div>
+          <div><label>Key</label><input data-k="key" value="${esc(m.key)}" ${m._new ? '' : 'readonly'}></div>
+          <div class="wide"><label>Source link</label><input data-k="source" value="${esc(m.source || '')}" placeholder="https://…"></div>
+        </div></div>`).join('')}
+      <button id="addMs">＋ Add date</button>
+      <div class="errors" id="examErrs"></div>
+      <div class="row" style="margin-top:16px; flex-wrap:wrap">
+        ${isNew ? '' : '<button class="danger" id="delExam">Delete exam</button>'}
+        <span class="grow"></span>
+        <button id="cancelExam">Cancel</button>
+        <button class="primary" id="okExam">Done</button>
+      </div>`;
+    inner.querySelectorAll('[data-e]').forEach((el) => el.onchange = () => {
+      const k = el.dataset.e;
+      e[k] = k === 'tags' ? el.value.split(',').map((t) => t.trim()).filter(Boolean) : k === 'cycle_offset' ? +el.value : el.value.trim();
+      if (isNew && k === 'name' && !inner.querySelector('[data-e="id"]').value) {
+        e.id = el.value.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, ''); draw();
+      }
+    });
+    inner.querySelectorAll('.ms').forEach((box) => box.querySelectorAll('[data-k]').forEach((el) => el.onchange = () => {
+      const m = e.milestones[+box.dataset.m], k = el.dataset.k, v = el.value.trim();
+      if (['month', 'day', 'span'].includes(k)) m[k] = v === '' ? null : +v;
+      else m[k] = v || null;
+      if (k === 'label' && m._new && !m.keyTouched) { m.key = v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '') || m.key; box.querySelector('[data-k="key"]').value = m.key; }
+      if (k === 'key') m.keyTouched = true;
+    }));
+    inner.querySelectorAll('[data-del]').forEach((b) => b.onclick = () => { e.milestones.splice(+b.dataset.del, 1); draw(); });
+    $('addMs').onclick = () => { e.milestones.push({ key: `date${e.milestones.length + 1}`, label: '', kind: 'exam', _new: true }); draw(); };
+    $('cancelExam').onclick = () => dlg.close();
+    if (!isNew) $('delExam').onclick = () => {
+      if (!confirm(`Delete ${e.name}? Students following it will stop seeing it.`)) return;
+      data.exams = data.exams.filter((x) => x.id !== exam.id); dirty.delete(exam.id); deleted.add(exam.id); dlg.close(); setMsg('Unpublished changes'); render();
+    };
+    $('okExam').onclick = () => {
+      e.milestones.forEach((m) => { delete m._new; delete m.keyTouched; if (!m.date) { delete m.date; delete m.end; delete m.status; } });
+      const i = data.exams.findIndex((x) => x.id === exam.id);
+      const before = data.exams.slice();
+      if (i >= 0 && !isNew) data.exams[i] = e; else data.exams.push(e);
+      const errs = validate().filter((x) => x.startsWith(e.name || e.id || '(new exam)'));
+      if (errs.length) { data.exams = before; $('examErrs').innerHTML = errs.map(esc).join('<br>'); return; }
+      markDirty(e.id); dlg.close(); render();
+    };
+  };
+  draw();
+  dlg.showModal();
+}
+
+// ---------- wiring ----------
+$('tabTodo').onclick = () => { tab = 'todo'; $('tabTodo').classList.add('on'); $('tabAll').classList.remove('on'); render(); };
+$('tabAll').onclick = () => { tab = 'all'; $('tabAll').classList.add('on'); $('tabTodo').classList.remove('on'); render(); };
+$('newExamBtn').onclick = () => openExam({ id: '', name: '', category: 'Engineering', milestones: [{ key: 'exam', label: 'Exam', kind: 'exam', _new: true }] }, true);
+$('publishBtn').onclick = publish;
+$('settingsBtn').onclick = () => { $('tokenInput').value = token; $('settingsDlg').showModal(); };
+$('saveTokenBtn').onclick = () => { token = $('tokenInput').value.trim(); try { localStorage.setItem('exams_util_token', token); } catch (_) {} $('settingsDlg').close(); if (!dirty.size && !deleted.size) load(); };
+$('forgetBtn').onclick = () => { token = ''; try { localStorage.removeItem('exams_util_token'); } catch (_) {} $('tokenInput').value = ''; $('settingsDlg').close(); };
+window.addEventListener('beforeunload', (ev) => { if (dirty.size || deleted.size) { ev.preventDefault(); ev.returnValue = ''; } });
+load();
+</script>
+</body>
+</html>

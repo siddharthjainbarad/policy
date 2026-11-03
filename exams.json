@@ -1,0 +1,223 @@
+{
+  "schema": 2,
+  "updated": "2026-11-03T00:00:00.000Z",
+  "exams": [
+    {"id": "jee_main", "name": "JEE Main", "category": "Engineering", "body": "NTA", "url": "https://jeemain.nta.nic.in", "about": "Entrance for NITs, IIITs and other engineering colleges; also the qualifier for JEE Advanced.", "tags": ["iit", "nit", "btech", "class 12", "pcm"], "milestones": [
+      {"key": "s1_reg", "label": "Session 1 registration closes", "kind": "registration", "month": 11, "day": 22},
+      {"key": "s1", "label": "Session 1", "kind": "exam", "month": 1, "day": 22, "span": 10, "date": "2027-01-22", "end": "2027-01-31", "status": "tentative"},
+      {"key": "s1_result", "label": "Session 1 result", "kind": "result", "month": 2, "day": 12},
+      {"key": "s2_reg", "label": "Session 2 registration closes", "kind": "registration", "month": 2, "day": 25},
+      {"key": "s2", "label": "Session 2", "kind": "exam", "month": 4, "day": 2, "span": 8, "date": "2027-04-02", "status": "tentative"},
+      {"key": "s2_result", "label": "Final result", "kind": "result", "month": 4, "day": 19}
+    ]},
+    {"id": "jee_adv", "name": "JEE Advanced", "category": "Engineering", "body": "IITs", "url": "https://jeeadv.ac.in", "about": "Admission to the IITs. Only top JEE Main rankers can register.", "tags": ["iit", "btech", "pcm"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 5, "day": 2},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 5, "day": 18, "date": "2027-05-23", "status": "tentative"},
+      {"key": "result", "label": "Result", "kind": "result", "month": 6, "day": 2}
+    ]},
+    {"id": "bitsat", "name": "BITSAT", "category": "Engineering", "body": "BITS Pilani", "url": "https://www.bitsadmission.com", "tags": ["bits", "pilani", "btech"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 4, "day": 15},
+      {"key": "s1", "label": "Session 1", "kind": "exam", "month": 5, "day": 26, "span": 5},
+      {"key": "s2", "label": "Session 2", "kind": "exam", "month": 6, "day": 22, "span": 5}
+    ]},
+    {"id": "viteee", "name": "VITEEE", "category": "Engineering", "body": "VIT", "url": "https://viteee.vit.ac.in", "tags": ["vit", "btech"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 3, "day": 31},
+      {"key": "exam", "label": "Exam window", "kind": "exam", "month": 4, "day": 20, "span": 8}
+    ]},
+    {"id": "mht_cet", "name": "MHT CET", "category": "Engineering", "body": "Maharashtra CET Cell", "url": "https://cetcell.mahacet.org", "tags": ["maharashtra", "state", "pcm", "pcb"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 2, "day": 15},
+      {"key": "pcb", "label": "PCB group", "kind": "exam", "month": 4, "day": 9, "span": 9},
+      {"key": "pcm", "label": "PCM group", "kind": "exam", "month": 4, "day": 19, "span": 9}
+    ]},
+    {"id": "wbjee", "name": "WBJEE", "category": "Engineering", "body": "WBJEEB", "url": "https://wbjeeb.nic.in", "tags": ["west bengal", "state"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 4, "day": 26}
+    ]},
+    {"id": "kcet", "name": "KCET", "category": "Engineering", "body": "KEA", "url": "https://cetonline.karnataka.gov.in", "tags": ["karnataka", "state"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 4, "day": 16, "span": 2}
+    ]},
+    {"id": "comedk", "name": "COMEDK UGET", "category": "Engineering", "body": "COMEDK", "url": "https://www.comedk.org", "tags": ["karnataka", "private"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 5, "day": 10}
+    ]},
+    {"id": "ap_eapcet", "name": "AP EAPCET", "category": "Engineering", "body": "APSCHE", "url": "https://cets.apsche.ap.gov.in", "tags": ["andhra pradesh", "state", "eamcet"], "milestones": [
+      {"key": "exam", "label": "Exam window", "kind": "exam", "month": 5, "day": 13, "span": 9}
+    ]},
+    {"id": "ts_eapcet", "name": "TS EAPCET", "category": "Engineering", "body": "TGCHE", "url": "https://eapcet.tgche.ac.in", "tags": ["telangana", "state", "eamcet"], "milestones": [
+      {"key": "exam", "label": "Exam window", "kind": "exam", "month": 5, "day": 2, "span": 4}
+    ]},
+    {"id": "gate", "name": "GATE", "category": "Engineering", "body": "IITs / IISc", "url": "https://gate2027.iitr.ac.in", "about": "For M.Tech/PhD admissions and PSU recruitment.", "tags": ["mtech", "psu", "postgraduate"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 10, "day": 9},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 2, "day": 6, "span": 10, "date": "2027-02-06", "status": "tentative"},
+      {"key": "result", "label": "Result", "kind": "result", "month": 3, "day": 19}
+    ]},
+    {"id": "iit_jam", "name": "IIT JAM", "category": "Engineering", "body": "IITs", "url": "https://jam2027.iitb.ac.in", "tags": ["msc", "postgraduate", "science"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 10, "day": 12},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 2, "day": 8}
+    ]},
+    {"id": "neet_ug", "name": "NEET UG", "category": "Medical", "body": "NTA", "url": "https://neet.nta.nic.in", "about": "Single entrance for MBBS, BDS and AYUSH seats across India.", "tags": ["mbbs", "bds", "pcb", "class 12", "aiims"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 3, "day": 7},
+      {"key": "admit", "label": "Admit card", "kind": "admit_card", "month": 4, "day": 26},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 5, "day": 3, "date": "2027-05-02", "status": "tentative"},
+      {"key": "result", "label": "Result", "kind": "result", "month": 6, "day": 14}
+    ]},
+    {"id": "neet_pg", "name": "NEET PG", "category": "Medical", "body": "NBEMS", "url": "https://natboard.edu.in", "tags": ["md", "ms", "postgraduate", "doctor"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 8, "day": 3}
+    ]},
+    {"id": "ini_cet", "name": "INI-CET", "category": "Medical", "body": "AIIMS", "url": "https://www.aiimsexams.ac.in", "tags": ["aiims", "pgimer", "postgraduate"], "milestones": [
+      {"key": "jan", "label": "January session", "kind": "exam", "month": 11, "day": 9},
+      {"key": "jul", "label": "July session", "kind": "exam", "month": 5, "day": 17}
+    ]},
+    {"id": "cbse_10", "name": "CBSE Class 10", "category": "Boards", "body": "CBSE", "url": "https://www.cbse.gov.in", "about": "From 2026, Class 10 has a main board exam in February and an optional second exam in May.", "tags": ["board", "class 10", "ssc"], "milestones": [
+      {"key": "main", "label": "Main board exams", "kind": "exam", "month": 2, "day": 17, "span": 22, "date": "2027-02-15", "status": "tentative"},
+      {"key": "second", "label": "Second board exam", "kind": "exam", "month": 5, "day": 15, "span": 15},
+      {"key": "result", "label": "Result", "kind": "result", "month": 5, "day": 13}
+    ]},
+    {"id": "cbse_12", "name": "CBSE Class 12", "category": "Boards", "body": "CBSE", "url": "https://www.cbse.gov.in", "tags": ["board", "class 12", "hsc"], "milestones": [
+      {"key": "main", "label": "Board exams", "kind": "exam", "month": 2, "day": 17, "span": 46, "date": "2027-02-15", "status": "tentative"},
+      {"key": "result", "label": "Result", "kind": "result", "month": 5, "day": 13}
+    ]},
+    {"id": "icse_10", "name": "ICSE Class 10", "category": "Boards", "body": "CISCE", "url": "https://cisce.org", "tags": ["board", "class 10", "cisce"], "milestones": [
+      {"key": "main", "label": "Board exams", "kind": "exam", "month": 2, "day": 17, "span": 41},
+      {"key": "result", "label": "Result", "kind": "result", "month": 4, "day": 30}
+    ]},
+    {"id": "isc_12", "name": "ISC Class 12", "category": "Boards", "body": "CISCE", "url": "https://cisce.org", "tags": ["board", "class 12", "cisce"], "milestones": [
+      {"key": "main", "label": "Board exams", "kind": "exam", "month": 2, "day": 12, "span": 54},
+      {"key": "result", "label": "Result", "kind": "result", "month": 4, "day": 30}
+    ]},
+    {"id": "up_board", "name": "UP Board 10th & 12th", "category": "Boards", "body": "UPMSP", "url": "https://upmsp.edu.in", "tags": ["board", "uttar pradesh", "state", "class 10", "class 12"], "milestones": [
+      {"key": "main", "label": "Board exams", "kind": "exam", "month": 2, "day": 18, "span": 16},
+      {"key": "result", "label": "Result", "kind": "result", "month": 4, "day": 25}
+    ]},
+    {"id": "mh_hsc", "name": "Maharashtra HSC (12th)", "category": "Boards", "body": "MSBSHSE", "url": "https://mahahsscboard.in", "tags": ["board", "maharashtra", "state", "class 12"], "milestones": [
+      {"key": "main", "label": "Board exams", "kind": "exam", "month": 2, "day": 10, "span": 30}
+    ]},
+    {"id": "mh_ssc", "name": "Maharashtra SSC (10th)", "category": "Boards", "body": "MSBSHSE", "url": "https://mahahsscboard.in", "tags": ["board", "maharashtra", "state", "class 10"], "milestones": [
+      {"key": "main", "label": "Board exams", "kind": "exam", "month": 2, "day": 20, "span": 25}
+    ]},
+    {"id": "bseb", "name": "Bihar Board 10th & 12th", "category": "Boards", "body": "BSEB", "url": "https://biharboardonline.bihar.gov.in", "tags": ["board", "bihar", "state", "class 10", "class 12"], "milestones": [
+      {"key": "inter", "label": "Class 12 exams", "kind": "exam", "month": 2, "day": 1, "span": 15},
+      {"key": "matric", "label": "Class 10 exams", "kind": "exam", "month": 2, "day": 17, "span": 9}
+    ]},
+    {"id": "cuet_ug", "name": "CUET UG", "category": "University", "body": "NTA", "url": "https://cuet.nta.nic.in", "about": "Admission to central universities like DU, BHU and JNU, plus many others.", "tags": ["du", "central university", "ba", "bsc", "bcom"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 3, "day": 22},
+      {"key": "exam", "label": "Exam window", "kind": "exam", "month": 5, "day": 13, "span": 22, "date": "2027-05-13", "status": "tentative"},
+      {"key": "result", "label": "Result", "kind": "result", "month": 7, "day": 4}
+    ]},
+    {"id": "cuet_pg", "name": "CUET PG", "category": "University", "body": "NTA", "url": "https://exams.nta.ac.in/CUET-PG", "tags": ["ma", "msc", "postgraduate"], "milestones": [
+      {"key": "exam", "label": "Exam window", "kind": "exam", "month": 3, "day": 13, "span": 20}
+    ]},
+    {"id": "ipmat", "name": "IPMAT", "category": "University", "body": "IIM Indore / Rohtak", "url": "https://www.iimidr.ac.in", "tags": ["iim", "bba", "integrated mba"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 5, "day": 12}
+    ]},
+    {"id": "nchm_jee", "name": "NCHM JEE", "category": "University", "body": "NTA", "url": "https://exams.nta.ac.in/NCHM", "tags": ["hotel management", "ihm"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 4, "day": 27}
+    ]},
+    {"id": "clat", "name": "CLAT", "category": "Law", "body": "Consortium of NLUs", "url": "https://consortiumofnlus.ac.in", "about": "Admission to National Law Universities. Named after the next academic year.", "tags": ["nlu", "llb", "law"], "cycle_offset": 1, "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 10, "day": 31},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 12, "day": 6}
+    ]},
+    {"id": "ailet", "name": "AILET", "category": "Law", "body": "NLU Delhi", "url": "https://nationallawuniversitydelhi.in", "tags": ["nlu delhi", "law"], "cycle_offset": 1, "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 12, "day": 14}
+    ]},
+    {"id": "nift", "name": "NIFT Entrance", "category": "Design", "body": "NTA", "url": "https://nift.ac.in", "tags": ["fashion", "design", "bdes"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 2, "day": 8}
+    ]},
+    {"id": "nid_dat", "name": "NID DAT Prelims", "category": "Design", "body": "NID", "url": "https://admissions.nid.edu", "tags": ["design", "bdes"], "cycle_offset": 1, "milestones": [
+      {"key": "exam", "label": "Prelims", "kind": "exam", "month": 12, "day": 21}
+    ]},
+    {"id": "uceed", "name": "UCEED", "category": "Design", "body": "IIT Bombay", "url": "https://www.uceed.iitb.ac.in", "tags": ["iit", "design", "bdes"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 1, "day": 18}
+    ]},
+    {"id": "cat", "name": "CAT", "category": "MBA", "body": "IIMs", "url": "https://iimcat.ac.in", "about": "Admission to the IIMs and most top B-schools.", "tags": ["iim", "mba", "management"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 9, "day": 20},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 11, "day": 29, "date": "2026-11-29", "status": "tentative"},
+      {"key": "result", "label": "Result", "kind": "result", "month": 12, "day": 19}
+    ]},
+    {"id": "xat", "name": "XAT", "category": "MBA", "body": "XLRI", "url": "https://xatonline.in", "tags": ["xlri", "mba"], "milestones": [
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 12, "day": 5},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 1, "day": 4}
+    ]},
+    {"id": "snap", "name": "SNAP", "category": "MBA", "body": "Symbiosis", "url": "https://www.snaptest.org", "tags": ["symbiosis", "mba"], "milestones": [
+      {"key": "exam", "label": "Test 1", "kind": "exam", "month": 12, "day": 6}
+    ]},
+    {"id": "nmat", "name": "NMAT", "category": "MBA", "body": "GMAC", "url": "https://www.mba.com/exams/nmat", "tags": ["nmims", "mba"], "milestones": [
+      {"key": "exam", "label": "Testing window", "kind": "exam", "month": 11, "day": 5, "span": 46}
+    ]},
+    {"id": "cmat", "name": "CMAT", "category": "MBA", "body": "NTA", "url": "https://cmat.nta.nic.in", "tags": ["mba", "aicte"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 1, "day": 25}
+    ]},
+    {"id": "upsc_cse", "name": "UPSC Civil Services", "category": "Govt", "body": "UPSC", "url": "https://upsc.gov.in", "about": "Recruitment for IAS, IPS, IFS and other central services.", "tags": ["ias", "ips", "civil services", "prelims"], "milestones": [
+      {"key": "reg", "label": "Application closes", "kind": "registration", "month": 2, "day": 11},
+      {"key": "pre", "label": "Prelims", "kind": "exam", "month": 5, "day": 24, "date": "2027-05-23", "status": "tentative"},
+      {"key": "mains", "label": "Mains", "kind": "exam", "month": 8, "day": 21, "span": 5}
+    ]},
+    {"id": "ssc_cgl", "name": "SSC CGL", "category": "Govt", "body": "SSC", "url": "https://ssc.gov.in", "tags": ["ssc", "graduate", "central govt"], "milestones": [
+      {"key": "t1", "label": "Tier 1", "kind": "exam", "month": 6, "day": 15, "span": 15}
+    ]},
+    {"id": "ssc_chsl", "name": "SSC CHSL", "category": "Govt", "body": "SSC", "url": "https://ssc.gov.in", "tags": ["ssc", "class 12", "central govt"], "milestones": [
+      {"key": "t1", "label": "Tier 1", "kind": "exam", "month": 7, "day": 15, "span": 15}
+    ]},
+    {"id": "ssc_gd", "name": "SSC GD Constable", "category": "Govt", "body": "SSC", "url": "https://ssc.gov.in", "tags": ["ssc", "police", "class 10"], "milestones": [
+      {"key": "cbt", "label": "CBT", "kind": "exam", "month": 2, "day": 10, "span": 20}
+    ]},
+    {"id": "ssc_mts", "name": "SSC MTS", "category": "Govt", "body": "SSC", "url": "https://ssc.gov.in", "tags": ["ssc", "class 10"], "milestones": [
+      {"key": "cbt", "label": "CBT", "kind": "exam", "month": 9, "day": 1, "span": 30}
+    ]},
+    {"id": "rrb_ntpc", "name": "RRB NTPC", "category": "Govt", "body": "Railway Recruitment Boards", "url": "https://indianrailways.gov.in", "tags": ["railway", "rrb"], "milestones": [
+      {"key": "cbt1", "label": "CBT 1", "kind": "exam", "month": 6, "day": 5, "span": 20}
+    ]},
+    {"id": "ibps_po", "name": "IBPS PO", "category": "Banking", "body": "IBPS", "url": "https://www.ibps.in", "tags": ["bank", "po"], "milestones": [
+      {"key": "pre", "label": "Prelims", "kind": "exam", "month": 8, "day": 17, "span": 7},
+      {"key": "mains", "label": "Mains", "kind": "exam", "month": 10, "day": 12}
+    ]},
+    {"id": "ibps_clerk", "name": "IBPS Clerk", "category": "Banking", "body": "IBPS", "url": "https://www.ibps.in", "tags": ["bank", "clerk"], "milestones": [
+      {"key": "pre", "label": "Prelims", "kind": "exam", "month": 10, "day": 4, "span": 8},
+      {"key": "mains", "label": "Mains", "kind": "exam", "month": 11, "day": 29}
+    ]},
+    {"id": "sbi_po", "name": "SBI PO", "category": "Banking", "body": "SBI", "url": "https://sbi.co.in/web/careers", "tags": ["bank", "po", "sbi"], "milestones": [
+      {"key": "pre", "label": "Prelims", "kind": "exam", "month": 3, "day": 8, "span": 9},
+      {"key": "mains", "label": "Mains", "kind": "exam", "month": 4, "day": 5}
+    ]},
+    {"id": "sbi_clerk", "name": "SBI Clerk", "category": "Banking", "body": "SBI", "url": "https://sbi.co.in/web/careers", "tags": ["bank", "clerk", "sbi"], "milestones": [
+      {"key": "pre", "label": "Prelims", "kind": "exam", "month": 2, "day": 22, "span": 10}
+    ]},
+    {"id": "rbi_grade_b", "name": "RBI Grade B", "category": "Banking", "body": "RBI", "url": "https://opportunities.rbi.org.in", "tags": ["rbi", "bank", "officer"], "milestones": [
+      {"key": "p1", "label": "Phase 1", "kind": "exam", "month": 7, "day": 6}
+    ]},
+    {"id": "nda", "name": "NDA & NA", "category": "Defence", "body": "UPSC", "url": "https://upsc.gov.in", "tags": ["army", "navy", "air force", "class 12"], "milestones": [
+      {"key": "i", "label": "NDA I", "kind": "exam", "month": 4, "day": 12},
+      {"key": "ii", "label": "NDA II", "kind": "exam", "month": 9, "day": 13}
+    ]},
+    {"id": "cds", "name": "CDS", "category": "Defence", "body": "UPSC", "url": "https://upsc.gov.in", "tags": ["army", "navy", "air force", "graduate"], "milestones": [
+      {"key": "i", "label": "CDS I", "kind": "exam", "month": 4, "day": 12},
+      {"key": "ii", "label": "CDS II", "kind": "exam", "month": 9, "day": 13}
+    ]},
+    {"id": "afcat", "name": "AFCAT", "category": "Defence", "body": "Indian Air Force", "url": "https://afcat.cdac.in", "tags": ["air force"], "milestones": [
+      {"key": "i", "label": "AFCAT 1", "kind": "exam", "month": 2, "day": 22, "span": 3},
+      {"key": "ii", "label": "AFCAT 2", "kind": "exam", "month": 8, "day": 23, "span": 3}
+    ]},
+    {"id": "ugc_net", "name": "UGC NET", "category": "Teaching", "body": "NTA", "url": "https://ugcnet.nta.ac.in", "tags": ["jrf", "assistant professor", "phd"], "milestones": [
+      {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 31, "span": 8},
+      {"key": "jun", "label": "June session", "kind": "exam", "month": 6, "day": 25, "span": 5}
+    ]},
+    {"id": "csir_net", "name": "CSIR NET", "category": "Teaching", "body": "NTA", "url": "https://csirnet.nta.ac.in", "tags": ["jrf", "science", "phd"], "milestones": [
+      {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 18},
+      {"key": "jun", "label": "June session", "kind": "exam", "month": 7, "day": 26}
+    ]},
+    {"id": "ctet", "name": "CTET", "category": "Teaching", "body": "CBSE", "url": "https://ctet.nic.in", "tags": ["teacher", "tet"], "milestones": [
+      {"key": "feb", "label": "February session", "kind": "exam", "month": 2, "day": 8},
+      {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 14}
+    ]},
+    {"id": "ioqm", "name": "IOQM", "category": "Olympiad", "body": "MTA India / HBCSE", "url": "https://olympiads.hbcse.tifr.res.in", "tags": ["maths olympiad", "imo"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 9, "day": 7}
+    ]},
+    {"id": "nse", "name": "National Standard Exams (NSEP/NSEC/NSEB/NSEA/NSEJS)", "category": "Olympiad", "body": "IAPT", "url": "https://www.iapt.org.in", "tags": ["physics olympiad", "chemistry olympiad", "biology olympiad", "astronomy olympiad"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 11, "day": 23}
+    ]},
+    {"id": "jnvst", "name": "JNV Selection Test (Class 6)", "category": "School", "body": "NVS", "url": "https://navodaya.gov.in", "tags": ["navodaya", "class 6", "class 5"], "milestones": [
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 4, "day": 12}
+    ]},
+    {"id": "nmms", "name": "NMMS Scholarship", "category": "School", "body": "State SCERTs", "url": "https://scholarships.gov.in", "tags": ["scholarship", "class 8"], "milestones": [
+      {"key": "exam", "label": "Exam (varies by state)", "kind": "exam", "month": 12, "day": 14}
+    ]}
+  ]
+}
