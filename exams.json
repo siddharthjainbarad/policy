@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-11-03T00:00:00.000Z",
+  "updated": "2026-11-03T04:11:13.613166Z",
   "exams": [
     {"id": "jee_main", "name": "JEE Main", "category": "Engineering", "body": "NTA", "url": "https://jeemain.nta.nic.in", "about": "Entrance for NITs, IIITs and other engineering colleges; also the qualifier for JEE Advanced.", "tags": ["iit", "nit", "btech", "class 12", "pcm"], "milestones": [
       {"key": "s1_reg", "label": "Session 1 registration closes", "kind": "registration", "month": 11, "day": 22},
@@ -113,10 +113,10 @@
     ]},
     {"id": "clat", "name": "CLAT", "category": "Law", "body": "Consortium of NLUs", "url": "https://consortiumofnlus.ac.in", "about": "Admission to National Law Universities. Named after the next academic year.", "tags": ["nlu", "llb", "law"], "cycle_offset": 1, "milestones": [
       {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 10, "day": 31},
-      {"key": "exam", "label": "Exam", "kind": "exam", "month": 12, "day": 6}
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 12, "day": 6, "date": "2026-12-06", "status": "confirmed", "source": "https://news.careers360.com/clat-2027-exam-date-out-december-6-application-starts-august-3-deadline-october-31-consortiumofnlus-ac-in-nlus-law-admission"}
     ]},
     {"id": "ailet", "name": "AILET", "category": "Law", "body": "NLU Delhi", "url": "https://nationallawuniversitydelhi.in", "tags": ["nlu delhi", "law"], "cycle_offset": 1, "milestones": [
-      {"key": "exam", "label": "Exam", "kind": "exam", "month": 12, "day": 14}
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 12, "day": 14, "date": "2026-12-13", "status": "confirmed", "source": "https://www.barandbench.com/Law-School/ailet-2027-to-be-held-on-december-13-2026"}
     ]},
     {"id": "nift", "name": "NIFT Entrance", "category": "Design", "body": "NTA", "url": "https://nift.ac.in", "tags": ["fashion", "design", "bdes"], "milestones": [
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 2, "day": 8}
@@ -129,18 +129,18 @@
     ]},
     {"id": "cat", "name": "CAT", "category": "MBA", "body": "IIMs", "url": "https://iimcat.ac.in", "about": "Admission to the IIMs and most top B-schools.", "tags": ["iim", "mba", "management"], "milestones": [
       {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 9, "day": 20},
-      {"key": "exam", "label": "Exam", "kind": "exam", "month": 11, "day": 29, "date": "2026-11-29", "status": "tentative"},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 11, "day": 29, "date": "2026-11-29", "status": "confirmed", "source": "https://deccanherald.com/education/cat-2026-to-be-held-on-november-29-in-three-sessions-online-registrations-to-begin-on-august-3-4090281"},
       {"key": "result", "label": "Result", "kind": "result", "month": 12, "day": 19}
     ]},
     {"id": "xat", "name": "XAT", "category": "MBA", "body": "XLRI", "url": "https://xatonline.in", "tags": ["xlri", "mba"], "milestones": [
-      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 12, "day": 5},
-      {"key": "exam", "label": "Exam", "kind": "exam", "month": 1, "day": 4}
+      {"key": "reg", "label": "Registration closes", "kind": "registration", "month": 12, "day": 5, "date": "2026-12-06", "status": "confirmed", "source": "https://xatonline.in"},
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 1, "day": 4, "date": "2027-01-03", "status": "confirmed", "source": "https://xatonline.in"}
     ]},
     {"id": "snap", "name": "SNAP", "category": "MBA", "body": "Symbiosis", "url": "https://www.snaptest.org", "tags": ["symbiosis", "mba"], "milestones": [
-      {"key": "exam", "label": "Test 1", "kind": "exam", "month": 12, "day": 6}
+      {"key": "exam", "label": "Test 1", "kind": "exam", "month": 12, "day": 6, "date": "2026-12-13", "end": "2026-12-26", "status": "confirmed", "source": "https://www.snaptest.org/blogs/all-you-need-to-know-about-this-mba-entrance-exam"}
     ]},
     {"id": "nmat", "name": "NMAT", "category": "MBA", "body": "GMAC", "url": "https://www.mba.com/exams/nmat", "tags": ["nmims", "mba"], "milestones": [
-      {"key": "exam", "label": "Testing window", "kind": "exam", "month": 11, "day": 5, "span": 46}
+      {"key": "exam", "label": "Testing window", "kind": "exam", "month": 11, "day": 5, "span": 46, "date": "2026-11-02", "end": "2026-12-20", "status": "confirmed", "source": "https://www.mba.com/exams/nmat"}
     ]},
     {"id": "cmat", "name": "CMAT", "category": "MBA", "body": "NTA", "url": "https://cmat.nta.nic.in", "tags": ["mba", "aicte"], "milestones": [
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 1, "day": 25}
@@ -205,13 +205,13 @@
     ]},
     {"id": "ctet", "name": "CTET", "category": "Teaching", "body": "CBSE", "url": "https://ctet.nic.in", "tags": ["teacher", "tet"], "milestones": [
       {"key": "feb", "label": "February session", "kind": "exam", "month": 2, "day": 8},
-      {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 14}
+      {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 14, "date": "2026-12-12", "end": "2026-12-13", "status": "confirmed", "source": "https://news.careers360.com/ctet-exam-date-2026-out-cbse-paper-1-2-ctet-nic-in-admit-card-city-intimation-slip-download-link-updates"}
     ]},
     {"id": "ioqm", "name": "IOQM", "category": "Olympiad", "body": "MTA India / HBCSE", "url": "https://olympiads.hbcse.tifr.res.in", "tags": ["maths olympiad", "imo"], "milestones": [
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 9, "day": 7}
     ]},
     {"id": "nse", "name": "National Standard Exams (NSEP/NSEC/NSEB/NSEA/NSEJS)", "category": "Olympiad", "body": "IAPT", "url": "https://www.iapt.org.in", "tags": ["physics olympiad", "chemistry olympiad", "biology olympiad", "astronomy olympiad"], "milestones": [
-      {"key": "exam", "label": "Exam", "kind": "exam", "month": 11, "day": 23}
+      {"key": "exam", "label": "Exam", "kind": "exam", "month": 11, "day": 23, "date": "2026-11-21", "end": "2026-11-22", "status": "confirmed", "source": "https://iapt.org.in"}
     ]},
     {"id": "jnvst", "name": "JNV Selection Test (Class 6)", "category": "School", "body": "NVS", "url": "https://navodaya.gov.in", "tags": ["navodaya", "class 6", "class 5"], "milestones": [
       {"key": "exam", "label": "Exam", "kind": "exam", "month": 4, "day": 12}
