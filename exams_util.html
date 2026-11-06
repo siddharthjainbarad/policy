@@ -102,7 +102,8 @@
 
 <script>
 const OWNER = 'siddharthjainbarad', REPO = 'policy', BRANCH = 'master', FILE = 'exams.json';
-const CATEGORIES = ['Engineering', 'Medical', 'Boards', 'University', 'Law', 'Design', 'MBA', 'Govt', 'Banking', 'Defence', 'Teaching', 'Olympiad', 'School'];
+const CATEGORIES = ['Engineering', 'Medical', 'Boards', 'University', 'Law', 'Design', 'MBA', 'Govt', 'Banking', 'Defence', 'Teaching', 'Olympiad', 'School',
+  'Study abroad', 'English tests', 'Grad school', 'Medical abroad', 'Professional'];
 const KINDS = ['exam', 'registration', 'admit_card', 'result', 'other'];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -143,7 +144,8 @@ function validate() {
     if (!e.name) errs.push(`${where}: needs a name`);
     if (!CATEGORIES.includes(e.category)) errs.push(`${where}: pick a category`);
     if (e.url && !e.url.startsWith('https://')) errs.push(`${where}: website must start with https://`);
-    if (!e.milestones?.length) errs.push(`${where}: needs at least one date`);
+    if (!e.milestones?.length && !e.anytime) errs.push(`${where}: needs at least one date (or mark it "book anytime")`);
+    if (e.countries && (!e.countries.length || e.countries.some((c) => c !== '*' && !/^[A-Z]{2}$/.test(c)))) errs.push(`${where}: countries must be 2-letter codes like IN, GB or * for worldwide`);
     const keys = new Set();
     for (const m of e.milestones || []) {
       const w = `${where} · ${m.label || m.key || '?'}`;
@@ -162,11 +164,15 @@ function validate() {
 
 // ---------- same layout as encodeCatalog() in the app, so diffs stay one line per change ----------
 function cleanExam(e) {
+  // Same keys, same order as Exam.toJson() in the app, so the file round-trips byte for byte.
   const o = { id: e.id, name: e.name, category: e.category };
   for (const k of ['body', 'url', 'about']) if (e[k]) o[k] = e[k];
   if (e.tags?.length) o.tags = e.tags;
   if (e.cycle_offset) o.cycle_offset = e.cycle_offset;
-  o.milestones = e.milestones.map((m) => {
+  const countries = e.countries?.length ? e.countries : ['IN'];
+  if (countries.join(',') !== 'IN') o.countries = countries;
+  if (e.anytime) o.anytime = true;
+  o.milestones = (e.milestones || []).map((m) => {
     const r = { key: m.key, label: m.label, kind: m.kind || 'exam' };
     if (m.month != null) { r.month = m.month; r.day = m.day; }
     if (m.span && m.span !== 1) r.span = m.span;
@@ -174,16 +180,26 @@ function cleanExam(e) {
     if (m.source) r.source = m.source;
     return r;
   });
+  // Syllabi are researched elsewhere; this page keeps them exactly as they came in.
+  if (e.syllabus?.subjects?.length) {
+    o.syllabus = {};
+    if (e.syllabus.source) o.syllabus.source = e.syllabus.source;
+    o.syllabus.subjects = e.syllabus.subjects.map((s) => ({ name: s.name, ...(s.optional ? { optional: true } : {}), units: s.units }));
+  }
   return o;
 }
 const inline = (o) => Object.entries(o).map(([k, v]) => `${JSON.stringify(k)}: ${Array.isArray(v) ? `[${v.map((x) => JSON.stringify(x)).join(', ')}]` : JSON.stringify(v)}`).join(', ');
+const block = (items) => items.map((x) => `      {${inline(x)}}`).join(',\n') + (items.length ? '\n' : '');
 function encode(cat) {
   let s = `{\n  "schema": 2,\n  "updated": ${JSON.stringify(cat.updated)},\n  "exams": [\n`;
   cat.exams.forEach((e, i) => {
-    const { milestones, ...head } = cleanExam(e);
-    s += `    {${inline(head)}, "milestones": [\n`;
-    s += milestones.map((m) => `      {${inline(m)}}`).join(',\n') + '\n';
-    s += `    ]}${i < cat.exams.length - 1 ? ',' : ''}\n`;
+    const { milestones, syllabus, ...head } = cleanExam(e);
+    s += `    {${inline(head)}, "milestones": [\n${block(milestones)}    ]`;
+    if (syllabus) {
+      const { subjects, ...rest } = syllabus;
+      s += `, "syllabus": {${Object.keys(rest).length ? `${inline(rest)}, ` : ''}"subjects": [\n${block(subjects)}    ]}`;
+    }
+    s += `}${i < cat.exams.length - 1 ? ',' : ''}\n`;
   });
   return s + '  ]\n}\n';
 }
@@ -353,6 +369,8 @@ function openExam(exam, isNew = false) {
         <div class="wide"><label>About (one line)</label><input data-e="about" value="${esc(e.about || '')}"></div>
         <div><label>Search tags (comma separated)</label><input data-e="tags" value="${esc((e.tags || []).join(', '))}"></div>
         <div><label>Named after next year? (CLAT-style)</label><select data-e="cycle_offset"><option value="0">No</option><option value="1" ${e.cycle_offset ? 'selected' : ''}>Yes</option></select></div>
+        <div><label>Countries (IN, GB… or * for worldwide)</label><input data-e="countries" value="${esc((e.countries || ['IN']).join(', '))}" placeholder="IN"></div>
+        <div><label>Date</label><select data-e="anytime"><option value="0">Fixed dates</option><option value="1" ${e.anytime ? 'selected' : ''}>Book anytime (IELTS, GRE…)</option></select></div>
       </div>
       <div class="label"><span>Dates</span></div>
       ${e.milestones.map((m, i) => `<div class="ms" data-m="${i}">
@@ -379,7 +397,10 @@ function openExam(exam, isNew = false) {
       </div>`;
     inner.querySelectorAll('[data-e]').forEach((el) => el.onchange = () => {
       const k = el.dataset.e;
-      e[k] = k === 'tags' ? el.value.split(',').map((t) => t.trim()).filter(Boolean) : k === 'cycle_offset' ? +el.value : el.value.trim();
+      e[k] = k === 'tags' ? el.value.split(',').map((t) => t.trim()).filter(Boolean)
+        : k === 'countries' ? el.value.split(',').map((t) => t.trim().toUpperCase()).filter(Boolean)
+        : k === 'anytime' ? el.value === '1'
+        : k === 'cycle_offset' ? +el.value : el.value.trim();
       if (isNew && k === 'name' && !inner.querySelector('[data-e="id"]').value) {
         e.id = el.value.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, ''); draw();
       }

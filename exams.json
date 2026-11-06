@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-11-03T04:15:13.250132Z",
+  "updated": "2026-11-06T02:08:23.307118Z",
   "exams": [
     {"id": "jee_main", "name": "JEE Main", "category": "Engineering", "body": "NTA", "url": "https://jeemain.nta.nic.in", "about": "Entrance for NITs, IIITs and other engineering colleges; also the qualifier for JEE Advanced.", "tags": ["iit", "nit", "btech", "class 12", "pcm"], "milestones": [
       {"key": "s1_reg", "label": "Session 1 registration closes", "kind": "registration", "month": 11, "day": 22},
@@ -226,6 +226,75 @@
     ]},
     {"id": "nmms", "name": "NMMS Scholarship", "category": "School", "body": "State SCERTs", "url": "https://scholarships.gov.in", "tags": ["scholarship", "class 8"], "milestones": [
       {"key": "exam", "label": "Exam (varies by state)", "kind": "exam", "month": 12, "day": 14}
+    ]},
+    {"id": "sat", "name": "SAT", "category": "Study abroad", "body": "College Board", "url": "https://satsuite.collegeboard.org", "about": "Admission test for US and many other universities; offered on fixed dates through the year.", "tags": ["usa", "undergraduate", "college board"], "countries": ["*"], "milestones": [
+      {"key": "mar", "label": "March test", "kind": "exam", "month": 3, "day": 14},
+      {"key": "may", "label": "May test", "kind": "exam", "month": 5, "day": 2},
+      {"key": "jun", "label": "June test", "kind": "exam", "month": 6, "day": 6},
+      {"key": "aug", "label": "August test", "kind": "exam", "month": 8, "day": 22},
+      {"key": "oct", "label": "October test", "kind": "exam", "month": 10, "day": 3},
+      {"key": "nov", "label": "November test", "kind": "exam", "month": 11, "day": 7},
+      {"key": "dec", "label": "December test", "kind": "exam", "month": 12, "day": 5}
+    ]},
+    {"id": "act", "name": "ACT", "category": "Study abroad", "body": "ACT", "url": "https://www.act.org", "about": "US college admission test, accepted alongside the SAT.", "tags": ["usa", "undergraduate"], "countries": ["*"], "milestones": [
+      {"key": "sep", "label": "September test", "kind": "exam", "month": 9, "day": 12},
+      {"key": "oct", "label": "October test", "kind": "exam", "month": 10, "day": 24},
+      {"key": "dec", "label": "December test", "kind": "exam", "month": 12, "day": 12},
+      {"key": "feb", "label": "February test", "kind": "exam", "month": 2, "day": 13},
+      {"key": "apr", "label": "April test", "kind": "exam", "month": 4, "day": 10},
+      {"key": "jun", "label": "June test", "kind": "exam", "month": 6, "day": 12},
+      {"key": "jul", "label": "July test", "kind": "exam", "month": 7, "day": 10}
+    ]},
+    {"id": "ap", "name": "AP Exams", "category": "Study abroad", "body": "College Board", "url": "https://apstudents.collegeboard.org", "tags": ["advanced placement", "usa"], "countries": ["*"], "milestones": [
+      {"key": "exam", "label": "Exam weeks", "kind": "exam", "month": 5, "day": 4, "span": 12}
+    ]},
+    {"id": "ib_dp", "name": "IB Diploma exams", "category": "Study abroad", "body": "International Baccalaureate", "url": "https://www.ibo.org", "tags": ["ib", "diploma", "board"], "countries": ["*"], "milestones": [
+      {"key": "may", "label": "May session", "kind": "exam", "month": 4, "day": 24, "span": 21},
+      {"key": "nov", "label": "November session", "kind": "exam", "month": 10, "day": 23, "span": 20}
+    ]},
+    {"id": "ielts", "name": "IELTS", "category": "English tests", "body": "British Council / IDP", "url": "https://ielts.org", "about": "English test for study, work and migration. Book a date that suits you.", "tags": ["english", "uk", "canada", "australia", "visa"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "toefl", "name": "TOEFL iBT", "category": "English tests", "body": "ETS", "url": "https://www.ets.org/toefl", "about": "English test accepted by universities worldwide. Book a date that suits you.", "tags": ["english", "usa"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "pte", "name": "PTE Academic", "category": "English tests", "body": "Pearson", "url": "https://www.pearsonpte.com", "tags": ["english", "australia", "visa"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "det", "name": "Duolingo English Test", "category": "English tests", "body": "Duolingo", "url": "https://englishtest.duolingo.com", "tags": ["english", "online"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "gre", "name": "GRE General Test", "category": "Grad school", "body": "ETS", "url": "https://www.ets.org/gre", "about": "Graduate admission test for master's and PhD programs. Book a date that suits you.", "tags": ["ms", "masters", "usa"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "gmat", "name": "GMAT Focus", "category": "Grad school", "body": "GMAC", "url": "https://www.mba.com", "tags": ["mba", "business school"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "lsat", "name": "LSAT", "category": "Grad school", "body": "LSAC", "url": "https://www.lsac.org", "tags": ["law", "usa", "jd"], "countries": ["*"], "milestones": [
+      {"key": "jan", "label": "January test", "kind": "exam", "month": 1, "day": 9, "span": 2},
+      {"key": "apr", "label": "April test", "kind": "exam", "month": 4, "day": 10, "span": 2},
+      {"key": "jun", "label": "June test", "kind": "exam", "month": 6, "day": 5, "span": 2},
+      {"key": "aug", "label": "August test", "kind": "exam", "month": 8, "day": 7, "span": 2},
+      {"key": "oct", "label": "October test", "kind": "exam", "month": 10, "day": 2, "span": 2},
+      {"key": "nov", "label": "November test", "kind": "exam", "month": 11, "day": 6, "span": 2}
+    ]},
+    {"id": "usmle_1", "name": "USMLE Step 1", "category": "Medical abroad", "body": "NBME / FSMB", "url": "https://www.usmle.org", "tags": ["usa", "doctor", "medical licensing"], "countries": ["*"], "anytime": true, "milestones": [
+    ]},
+    {"id": "plab_1", "name": "PLAB 1", "category": "Medical abroad", "body": "GMC (UK)", "url": "https://www.gmc-uk.org", "tags": ["uk", "doctor", "nhs"], "countries": ["*"], "milestones": [
+      {"key": "mar", "label": "March sitting", "kind": "exam", "month": 3, "day": 12},
+      {"key": "may", "label": "May sitting", "kind": "exam", "month": 5, "day": 21},
+      {"key": "aug", "label": "August sitting", "kind": "exam", "month": 8, "day": 13},
+      {"key": "nov", "label": "November sitting", "kind": "exam", "month": 11, "day": 12}
+    ]},
+    {"id": "cfa_l1", "name": "CFA Level I", "category": "Professional", "body": "CFA Institute", "url": "https://www.cfainstitute.org", "tags": ["finance", "investment"], "countries": ["*"], "milestones": [
+      {"key": "feb", "label": "February window", "kind": "exam", "month": 2, "day": 17, "span": 7},
+      {"key": "may", "label": "May window", "kind": "exam", "month": 5, "day": 19, "span": 7},
+      {"key": "aug", "label": "August window", "kind": "exam", "month": 8, "day": 18, "span": 7},
+      {"key": "nov", "label": "November window", "kind": "exam", "month": 11, "day": 11, "span": 7}
+    ]},
+    {"id": "acca", "name": "ACCA exams", "category": "Professional", "body": "ACCA", "url": "https://www.accaglobal.com", "tags": ["accounting", "uk"], "countries": ["*"], "milestones": [
+      {"key": "mar", "label": "March session", "kind": "exam", "month": 3, "day": 2, "span": 5},
+      {"key": "jun", "label": "June session", "kind": "exam", "month": 6, "day": 1, "span": 5},
+      {"key": "sep", "label": "September session", "kind": "exam", "month": 9, "day": 1, "span": 5},
+      {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 1, "span": 5}
+    ]},
+    {"id": "frm_1", "name": "FRM Part I", "category": "Professional", "body": "GARP", "url": "https://www.garp.org", "tags": ["finance", "risk"], "countries": ["*"], "milestones": [
+      {"key": "may", "label": "May window", "kind": "exam", "month": 5, "day": 9, "span": 14},
+      {"key": "nov", "label": "November window", "kind": "exam", "month": 11, "day": 7, "span": 14}
     ]}
   ]
 }
