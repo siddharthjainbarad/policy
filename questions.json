@@ -16242,22 +16242,6 @@
           "color": "#388E3C",
           "questions": [
             {
-              "id": "map_asia_001",
-              "question": "Which country is shown in this map?",
-              "options": [
-                "India",
-                "Pakistan",
-                "Bangladesh",
-                "Sri Lanka"
-              ],
-              "correct_answer": 0,
-              "explanation": "The triangular peninsula extending into the Indian Ocean with a northeast corridor identifies India. [web:1][web:15]",
-              "difficulty": "easy",
-              "points": 15,
-              "question_type": "map_identification",
-              "map_code": "in"
-            },
-            {
               "id": "map_asia_002",
               "question": "Which country is shown in this map?",
               "options": [
