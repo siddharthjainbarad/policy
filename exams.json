@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-11-06T02:08:23.307118Z",
+  "updated": "2026-11-16T11:57:06.443407Z",
   "exams": [
     {"id": "jee_main", "name": "JEE Main", "category": "Engineering", "body": "NTA", "url": "https://jeemain.nta.nic.in", "about": "Entrance for NITs, IIITs and other engineering colleges; also the qualifier for JEE Advanced.", "tags": ["iit", "nit", "btech", "class 12", "pcm"], "milestones": [
       {"key": "s1_reg", "label": "Session 1 registration closes", "kind": "registration", "month": 11, "day": 22},
@@ -293,8 +293,9 @@
       {"key": "dec", "label": "December session", "kind": "exam", "month": 12, "day": 1, "span": 5}
     ]},
     {"id": "frm_1", "name": "FRM Part I", "category": "Professional", "body": "GARP", "url": "https://www.garp.org", "tags": ["finance", "risk"], "countries": ["*"], "milestones": [
-      {"key": "may", "label": "May window", "kind": "exam", "month": 5, "day": 9, "span": 14},
-      {"key": "nov", "label": "November window", "kind": "exam", "month": 11, "day": 7, "span": 14}
+      {"key": "may", "label": "May window", "kind": "exam", "month": 5, "day": 9, "span": 14, "date": "2027-05-08", "end": "2027-05-13", "status": "confirmed", "source": "https://www.garp.org/frm/exam-logistics"},
+      {"key": "nov", "label": "November window", "kind": "exam", "month": 11, "day": 7, "span": 14, "date": "2026-11-14", "end": "2026-11-20", "status": "confirmed", "source": "https://www.garp.org/frm/exam-logistics"},
+      {"key": "aug", "label": "August window", "kind": "exam", "month": 8, "day": 13, "date": "2027-08-13", "status": "confirmed", "source": "https://www.garp.org/frm/exam-logistics"}
     ]}
   ]
 }
